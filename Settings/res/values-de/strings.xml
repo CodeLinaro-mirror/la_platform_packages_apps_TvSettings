@@ -30,6 +30,7 @@
     <string name="header_category_preferences" msgid="3738388885555798797">"Einstellungen"</string>
     <string name="header_category_accessories" msgid="8310540329290988415">"Fernbedienung und Zubehör"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Nutzer"</string>
+    <string name="offline_mode_disabled_entry_subtitle" msgid="5588529737212778207">"Nicht im Offlinemodus verfügbar"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Mit Netzwerk verbinden"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Konto hinzufügen"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"Konten &amp; Anmeldung"</string>
@@ -53,6 +54,12 @@
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Hilfe und Feedback"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Datenschutz"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Geräteeinstellungen"</string>
+    <!-- no translation found for privacy_account_settings_category (5786591549945777400) -->
+    <skip />
+    <!-- no translation found for privacy_assistant_settings_title (4524957824712623680) -->
+    <skip />
+    <!-- no translation found for privacy_purchases_settings_title (4377973661628486311) -->
+    <skip />
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App-Einstellungen"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Standort, Nutzung &amp; Diagnose, Werbung"</string>
     <string name="add_account" msgid="7386223854837017129">"Konto hinzufügen"</string>
@@ -79,6 +86,7 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Der Standortdienst von Google und andere Apps sollen auch bei deaktiviertem WLAN nach Netzwerken suchen"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"WLAN"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Mit Netzwerk verbinden"</string>
+    <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Netzwerkdiagnose"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Kürzlich geöffnete Apps"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Alle Apps ansehen"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Berechtigungen"</string>
@@ -130,8 +138,11 @@
     <string name="accessory_connected" msgid="5229574480869175180">"Verbunden"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Namen ändern"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"Neuen Namen eingeben"</string>
+    <!-- no translation found for accessories_add_accessibility_title (1300294413423909579) -->
+    <skip />
     <string name="accessories_add_title" msgid="7704824893011194433">"Suche nach Zubehör…"</string>
-    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"Deine Bluetooth-Geräte müssen sich im Kopplungsmodus befinden, damit du die Kopplung durchführen kannst."</string>
+    <!-- no translation found for accessories_add_bluetooth_inst (2508151218328384366) -->
+    <skip />
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"Ein Gerät wurde gefunden. Die Kopplung wird in <xliff:g id="COUNTDOWN">%1$s</xliff:g> Sekunden automatisch durchgeführt."</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"Diese Aktion wird nicht unterstützt."</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"Bluetooth-Kopplungsanfrage"</string>
@@ -149,8 +160,8 @@
     <string name="system_date_time" msgid="6938588387002473344">"Datum &amp; Uhrzeit"</string>
     <string name="system_language" msgid="5516099388471974346">"Sprache"</string>
     <string name="system_keyboard" msgid="1514460705385401872">"Tastatur"</string>
-    <string name="system_keyboard_autofill" msgid="8530944165814838255">"Tastatur &amp; Automatisches Ausfüllen"</string>
-    <string name="system_autofill" msgid="6983989261108020046">"Automatisches Ausfüllen"</string>
+    <string name="system_keyboard_autofill" msgid="8530944165814838255">"Tastatur &amp; AutoFill"</string>
+    <string name="system_autofill" msgid="6983989261108020046">"AutoFill"</string>
     <string name="system_home" msgid="2149349845791104094">"Startbildschirm"</string>
     <string name="system_search" msgid="3170169128257586925">"Suche"</string>
     <string name="system_google" msgid="945985164023885276">"Google"</string>
@@ -173,9 +184,9 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Rechtliche Hinweise"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Lizenzdaten sind nicht verfügbar."</string>
     <string name="about_model" msgid="9164284529291439296">"Modell"</string>
-    <string name="about_version" msgid="7800676128792880991">"Version"</string>
+    <string name="about_version" msgid="6223547403835399861">"Android TV-Betriebssystemversion"</string>
     <string name="about_serial" msgid="3432319328808745459">"Seriennummer"</string>
-    <string name="about_build" msgid="1139171613038225768">"Build"</string>
+    <string name="about_build" msgid="8467840394761634575">"Android TV-Betriebssystem-Build"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="523455736684670250">
       <item quantity="other">In <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> Schritten bist du ein Entwickler.</item>
       <item quantity="one">In <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> Schritt bist du ein Entwickler.</item>
@@ -583,10 +594,10 @@
     <string name="title_current_keyboard" msgid="891238509164879851">"Aktuelle Tastatur"</string>
     <string name="title_configure" msgid="846802387014612210">"Konfigurieren"</string>
     <string name="desc_configure_keyboard" msgid="3474279140150468141">"Tastaturoptionen"</string>
-    <string name="title_current_autofill_service" msgid="9029001041887283153">"Aktueller Dienst für automatisches Ausfüllen"</string>
-    <string name="title_select_autofill_service" msgid="696559582725756848">"Dienst für automatisches Ausfüllen auswählen"</string>
-    <string name="autofill_none" msgid="1615056985649424207">"Keinen Dienst für automatisches Ausfüllen"</string>
-    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Nur für vertrauenswürdige Apps&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Passwortdienst&gt;%1$s&lt;/xliff:g&gt; greift auf die Displayanzeige zu, um zu bestimmen, welche Felder automatisch ausgefüllt werden können. Automatisches Ausfüllen sollte daher nur für vertrauenswürdige Apps zugelassen werden."</string>
+    <string name="title_current_autofill_service" msgid="9029001041887283153">"Aktueller AutoFill-Dienst"</string>
+    <string name="title_select_autofill_service" msgid="696559582725756848">"AutoFill-Dienst auswählen"</string>
+    <string name="autofill_none" msgid="1615056985649424207">"Keinen AutoFill-Dienst"</string>
+    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Nur für vertrauenswürdige Apps&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Passwortdienst&gt;%1$s&lt;/xliff:g&gt; greift auf die Displayanzeige zu, um zu bestimmen, welche Felder automatisch ausgefüllt werden können. AutoFill sollte daher nur für vertrauenswürdige Apps zugelassen werden."</string>
     <string name="computing_size" msgid="8623916230485437579">"Berechnung..."</string>
     <string name="title_select_wifi_network" msgid="935820896444071617">"WLAN auswählen"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"Umbenennen"</string>
@@ -689,6 +700,7 @@
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Berechtigungen"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"App nicht verfügbar"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Ok"</string>
+    <string name="settings_confirm" msgid="4489126458677153411">"Bestätigen"</string>
     <string name="settings_cancel" msgid="576094334743686152">"Abbrechen"</string>
     <string name="settings_on" msgid="7734010120323404333">"An"</string>
     <string name="settings_off" msgid="4060451657850476369">"Aus"</string>
@@ -703,6 +715,8 @@
     <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Display deaktivieren nach"</string>
     <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Abschalten des Bildschirms zulassen"</string>
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Während der Medienwiedergabe"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Einstellung für Energiesparmodus bestätigen"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Bitte bestätige die neue Einstellung: <xliff:g id="SLEEP_TIME">%1$s</xliff:g>. Diese Einstellung führt möglicherweise zu erhöhtem Energieverbrauch."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Momentan werden in keinem Konto gesicherte Daten gespeichert."</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Sicherung deiner WLAN-Passwörter, Lesezeichen, anderer Einstellungen und App-Daten beenden und alle Kopien auf Google-Servern löschen?"</string>
@@ -732,7 +746,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"App-Berechtigungen"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g> von <xliff:g id="COUNT_1">%2$d</xliff:g> Apps sind berechtigt."</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"Bluetooth-Berechtigungsanfrage"</string>
-    <string name="security_patch" msgid="5468261708915367254">"Stand der Sicherheitsupdates"</string>
+    <string name="security_patch" msgid="8924741264829495392">"Stand der Sicherheitsupdates des Android TV-Betriebssystems"</string>
     <string name="choose_application" msgid="2375936782103669988">"App wählen"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(Experimentell)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"Im abgesicherten Modus starten"</string>

@@ -20,6 +20,16 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"Подешавања"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"Мрежа"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"Ограничени профил"</string>
+    <string name="action_on_title" msgid="1074972820237738324">"Укључи"</string>
+    <string name="action_off_title" msgid="3598665702863436597">"Искључи"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"Укључено"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"Искључено"</string>
+    <string name="agree" msgid="8155497436593889753">"Прихватам"</string>
+    <string name="disagree" msgid="7402998517682194430">"Не прихватам"</string>
+    <!-- no translation found for enabled (5127188665060746381) -->
+    <skip />
+    <!-- no translation found for disabled (4589065923272201387) -->
+    <skip />
     <string name="header_category_suggestions" msgid="106077820663753645">"Предлози"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Брза подешавања"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Општа подешавања"</string>
@@ -30,6 +40,7 @@
     <string name="header_category_preferences" msgid="3738388885555798797">"Подешавања"</string>
     <string name="header_category_accessories" msgid="8310540329290988415">"Даљински управљач и додатна опрема"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Лично"</string>
+    <string name="offline_mode_disabled_entry_subtitle" msgid="5588529737212778207">"Није доступно у офлајн режиму"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Повежите се са мрежом"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Додајте налог"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"Налози и пријављивање"</string>
@@ -55,6 +66,9 @@
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Помоћ и повратне информације"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Приватност"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Подешавања уређаја"</string>
+    <string name="privacy_account_settings_category" msgid="5786591549945777400">"Подешавања налога"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google помоћник"</string>
+    <string name="privacy_purchases_settings_title" msgid="4377973661628486311">"Куповине"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Подешавања апликације"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Локација, коришћење и дијагностика, огласи"</string>
     <string name="add_account" msgid="7386223854837017129">"Додај налог"</string>
@@ -81,6 +95,7 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволите Google-овој услузи лоцирања и другим апликацијама да траже мреже, чак и када је Wi-Fi искључен"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Повежите се са мрежом"</string>
+    <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Дијагностика мреже"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Недавно отваране апликације"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Прикажи све апликације"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Дозволе"</string>
@@ -115,6 +130,8 @@
     <string name="surround_sound_manual_summary" msgid="8945926149168263067">"Ручно: Изаберите који формати ће се користити"</string>
     <string name="display_category_title" msgid="247804007525046312">"Приказ"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"Напредна подешавања приказа"</string>
+    <!-- no translation found for hdmi_cec_settings_title (7120729705063868627) -->
+    <skip />
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Напредна подешавања звука"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Дозволи режим за игре"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Желите ли да обришете кеширане податке?"</string>
@@ -132,8 +149,9 @@
     <string name="accessory_connected" msgid="5229574480869175180">"Повезано је"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Промени назив"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"Унесите нови назив за ову додатну опрему"</string>
+    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"Bluetooth упаривање."</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"Претражују се помоћни уређаји…"</string>
-    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"Пре него што упарите Bluetooth уређаје, проверите да ли су у режиму упаривања"</string>
+    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"Пре него што упарите Bluetooth уређаје, проверите да ли су у режиму упаривања."</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"Пронађен је уређај и аутоматски ће се упарити за <xliff:g id="COUNTDOWN">%1$s</xliff:g> секунде/и"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"Ова радња није подржана"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"Захтев за Bluetooth упаривање"</string>
@@ -175,9 +193,9 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google правне информације"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Подаци о лиценци нису доступни"</string>
     <string name="about_model" msgid="9164284529291439296">"Модел"</string>
-    <string name="about_version" msgid="7800676128792880991">"Верзија"</string>
+    <string name="about_version" msgid="6223547403835399861">"Верзија оперативног система Android TV-а"</string>
     <string name="about_serial" msgid="3432319328808745459">"Серијски број"</string>
-    <string name="about_build" msgid="1139171613038225768">"Верзија"</string>
+    <string name="about_build" msgid="8467840394761634575">"Верзија оперативног система Android TV-а"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="523455736684670250">
       <item quantity="one">Још само <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корак и постаћете програмер</item>
       <item quantity="few">Још само <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корака и постаћете програмер</item>
@@ -540,12 +558,6 @@
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Осветли све површине прозора када се ажурирају"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Екран трепери код дугих операција апл. на глав. нити"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Мери време приказивања у adb shell dumpsys gfxinfo"</string>
-    <string name="action_on_title" msgid="1074972820237738324">"Укључи"</string>
-    <string name="action_off_title" msgid="3598665702863436597">"Искључи"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"Укључено"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"Искључено"</string>
-    <string name="agree" msgid="8155497436593889753">"Прихватам"</string>
-    <string name="disagree" msgid="7402998517682194430">"Не прихватам"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Непознати извори"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Дозвољава инсталацију апликација из извора који нису Google Play продавница"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"Дозволите непознате изворе"</string>
@@ -595,7 +607,7 @@
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"Преименуј"</string>
     <string name="accessories_wifi_display_enable" msgid="2385467074170316302">"Wi-Fi екран"</string>
     <string name="accessories_wifi_display_pin_required" msgid="5434960694140426664">"Потребан је PIN"</string>
-    <string name="whichApplication" msgid="4510042089342879264">"Довршавање радње помоћу"</string>
+    <string name="whichApplication" msgid="4510042089342879264">"Доврши радњу преко"</string>
     <string name="alwaysUseQuestion" msgid="2643084054296937138">"Желите увек да користите ову опцију за ову радњу?"</string>
     <string name="alwaysUseOption" msgid="8799609235198714441">"Увек користи"</string>
     <string name="justOnceOption" msgid="6714005843102804865">"Само једном"</string>
@@ -696,6 +708,7 @@
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Дозволе"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Апликација није доступна"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Потврди"</string>
+    <string name="settings_confirm" msgid="4489126458677153411">"Потврди"</string>
     <string name="settings_cancel" msgid="576094334743686152">"Откажи"</string>
     <string name="settings_on" msgid="7734010120323404333">"Укључено"</string>
     <string name="settings_off" msgid="4060451657850476369">"Искључено"</string>
@@ -710,6 +723,8 @@
     <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Искључи екран после"</string>
     <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Дозволи искључивање екрана"</string>
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Током репродукције медија"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Потврдите подешавање Уштеде енергије"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Потврдите ново подешавање на <xliff:g id="SLEEP_TIME">%1$s</xliff:g>. Оно може да повећа потрошњу енергије."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Тренутно ниједан налог не чува резервне копије података"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Желите ли да зауставите прављење резервних копија Wi-Fi лозинки, обележивача, осталих подешавања и података о апликацијама, као и да избришете све копије на Google серверима?"</string>
@@ -739,7 +754,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"Дозволе за апликације"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g> од <xliff:g id="COUNT_1">%2$d</xliff:g> апликација има дозволу"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"Захтев за дозволу за Bluetooth"</string>
-    <string name="security_patch" msgid="5468261708915367254">"Ниво безбедносне закрпе за Android"</string>
+    <string name="security_patch" msgid="8924741264829495392">"Ниво безбедносне закрпе за ОС Android TV-а"</string>
     <string name="choose_application" msgid="2375936782103669988">"Изаберите апликацију"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(Експериментално)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"Рестартуј систем у безбедном режиму"</string>

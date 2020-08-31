@@ -27,6 +27,25 @@
     <!-- Leanback Launcher App Title for Restricted Profile app [CHAR LIMIT=40] -->
     <string name="launcher_restricted_profile_app_name">Restricted Profile</string>
 
+    <!-- General use strings -->
+    <skip />
+    <!-- Title for an action which turns a feature on [CHAR LIMIT=30] -->
+    <string name="action_on_title">On</string>
+    <!-- Title for an action which turns a feature off [CHAR LIMIT=30] -->
+    <string name="action_off_title">Off</string>
+    <!-- Title for a status description saying that a feature is on [CHAR LIMIT=30] -->
+    <string name="action_on_description">On</string>
+    <!-- Title for a status description saying that a feature is off [CHAR LIMIT=30] -->
+    <string name="action_off_description">Off</string>
+    <!-- Title for action which denotes the user agrees [CHAR LIMIT=50] -->
+    <string name="agree">Agree</string>
+    <!-- Title for action which denotes the user disagrees [CHAR LIMIT=50] -->
+    <string name="disagree">Disagree</string>
+    <!-- Title indicating a certain setting is enabled [CHAR LIMIT = 30] -->
+    <string name="enabled">Enabled</string>
+    <!-- Title indicating a certain setting is disabled [CHAR LIMIT = 30] -->
+    <string name="disabled">Disabled</string>
+
     <!-- Top level headers -->
     <skip />
 
@@ -52,6 +71,12 @@
     <string name="header_category_accessories">Remote &amp; accessories</string>
     <!-- Header title for personal [CHAR LIMIT=50] -->
     <string name="header_category_personal">Personal</string>
+
+    <!--
+      Subtitle of disabled preferences in offline mode. For now, this is a placeholder to provide a
+      base for specific build to override and should generally not be shown. [CHAR LIMIT=60]
+    -->
+    <string name="offline_mode_disabled_entry_subtitle">Not available in offline mode</string>
 
     <!-- Main Fragment Quick Settings Preferences -->
     <skip />
@@ -98,6 +123,12 @@
     <string name="privacy_category_title">Privacy</string>
     <!-- Title for device-related privacy settings category [CHAR LIMIT=50] -->
     <string name="privacy_device_settings_category">Device Settings</string>
+    <!-- Title for account-related privacy settings category [CHAR LIMIT=50] -->
+    <string name="privacy_account_settings_category">Account Settings</string>
+    <!-- Title for Google Assistant privacy settings [CHAR LIMIT=50] -->
+    <string name="privacy_assistant_settings_title">Google Assistant</string>
+    <!-- Title for purchases-related privacy settings [CHAR LIMIT=50] -->
+    <string name="privacy_purchases_settings_title">Purchases</string>
     <!-- Title for application-related privacy settings category [CHAR LIMIT=50] -->
     <string name="privacy_app_settings_category">App Settings</string>
     <!-- Summary for main screen preference for privacy settings [CHAR LIMIT=75] -->
@@ -151,6 +182,8 @@
     <!-- Title for enable wifi. [CHAR LIMIT=50] -->
     <string name="wifi_setting_enable_wifi">Wi-Fi</string>
     <string name="connectivity_hint_message">Connect to network</string>
+    <!-- Launch a connectivity diagnostics tool. [CHAR LIMIT=50] -->
+    <string name="connectivity_network_diagnostics">Network diagnostics</string>
 
     <!-- Application preferences -->
     <skip />
@@ -233,6 +266,8 @@
     <string name="display_category_title">Display</string>
     <!-- Title for preference which when clicked lets the user configure advanced display settings. [CHAR LIMIT=50] -->
     <string name="advanced_display_settings_title">Advanced display settings</string>
+    <!-- Title for HDMI-CEC settings entry. [CHAR LIMIT=20] -->
+    <string name="hdmi_cec_settings_title">HDMI-CEC</string>
     <!-- Title for preference which when clicked lets the user configure advanced sound settings. [CHAR LIMIT=50] -->
     <string name="advanced_sound_settings_title">Advanced sound settings</string>
     <!-- Title for preference to allow game mode for display. [CHAR LIMIT=50] -->
@@ -275,10 +310,17 @@
 
     <!-- Remote and Accessories -->
     <skip />
+    <!-- Title text for new accessories pairing screen used by Talkback. [CHAR LIMIT=50] -->
+    <string name="accessories_add_accessibility_title">Bluetooth pairing.</string>
     <!-- Description text for new accessories pairing screen. [CHAR LIMIT=150] -->
     <string name="accessories_add_title">Searching for accessories&#8230;</string>
     <!-- Description text for bluetooth device pairing instructions. [CHAR LIMIT=150] -->
-    <string name="accessories_add_bluetooth_inst">Before pairing your Bluetooth devices, make sure they\'re in pairing mode</string>
+    <string name="accessories_add_bluetooth_inst">Before pairing your Bluetooth devices, make sure they\'re in pairing mode.</string>
+    <!-- Extra description text for bluetooth device pairing instructions. It is a placeholder to be overrode. -->
+    <string name="accessories_add_bluetooth_inst_extra" translatable="false"/>
+    <!-- The extra description is presented with button icons. These two strings can be overrode to be used for describing the pairing buttons for accessibility feature such as Talkback. -->
+    <string name="accessories_pairing_button1" translatable="false"/>
+    <string name="accessories_pairing_button2" translatable="false"/>
     <!-- Description text for autopairing when the user is in the pairing activity due to pressing the back HW button.  %1 will be replaced with the countdown value. [CHAR LIMIT=150] -->
     <string name="accessories_autopair_msg">A device was found and will automatically pair in <xliff:g id="countdown">%1$s</xliff:g> seconds</string>
     <!-- Error message displayed to the user indicating that a selected action is not supported on this device. [CHAR LIMIT=150] -->
@@ -373,11 +415,11 @@
     <!-- Preference which shows model. [CHAR LIMIT=50] -->
     <string name="about_model">Model</string>
     <!-- Preference which shows version. [CHAR LIMIT=50] -->
-    <string name="about_version">Version</string>
+    <string name="about_version">Android TV OS version</string>
     <!-- Preference which shows serial number. [CHAR LIMIT=50] -->
     <string name="about_serial">Serial number</string>
     <!-- Preference which shows build version. [CHAR LIMIT=50] -->
-    <string name="about_build">Build</string>
+    <string name="about_build">Android TV OS build</string>
     <!-- Device Info screen. Countdown for user taps to enable development settings [CHAR LIMIT=NONE] -->
     <plurals name="show_dev_countdown">
         <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer</item>
@@ -894,6 +936,8 @@
 
     <!-- Title for Location in System Settings [CHAR LIMIT=50] -->
     <string name="system_location">Location</string>
+    <!-- Summary for Location in System Settings. This shall be an empty string. [DO NOT TRANSLATE] -->
+    <string name="system_location_summary"></string>
     <!-- Description for Location in System Settings [CHAR LIMIT=NONE] -->
     <string name="system_desc_location">Let apps that have asked your permission use your location information</string>
     <!-- Title for confirming location consent [CHAR LIMIT=50] -->
@@ -909,7 +953,7 @@
     <!-- [CHAR LIMIT=30] Location settings screen, recent location requests low battery use-->
     <string name="location_low_battery_use">Low battery use</string>
     <!-- [CHAR LIMIT=130] Location mode screen, description for wifi mode -->
-    <string name="location_mode_wifi_description">Use Wi\u2011Fi to estimate location </string>
+    <string name="location_mode_wifi_description">Use Wi\u2011Fi to estimate location</string>
 
     <!-- [CHAR LIMIT=60] Label for the status of location -->
     <string name="location_status">Location status</string>
@@ -1159,21 +1203,6 @@
     <string name="system_desc_strict_mode_enabled">Flash screen when apps do long operations on main thread</string>
     <!-- Description for profile GPU rendering in System Settings Developer options [CHAR LIMIT=100] -->
     <string name="system_desc_profile_gpu_rendering">Measure rendering time in adb shell dumpsys gfxinfo</string>
-
-    <!-- General use strings -->
-    <skip />
-    <!-- Title for an action which turns a feature on [CHAR LIMIT=30] -->
-    <string name="action_on_title">On</string>
-    <!-- Title for an action which turns a feature off [CHAR LIMIT=30] -->
-    <string name="action_off_title">Off</string>
-    <!-- Title for a status description saying that a feature is on [CHAR LIMIT=30] -->
-    <string name="action_on_description">On</string>
-    <!-- Title for a status description saying that a feature is off [CHAR LIMIT=30] -->
-    <string name="action_off_description">Off</string>
-    <!-- Title for action which denotes the user agrees [CHAR LIMIT=50] -->
-    <string name="agree">Agree</string>
-    <!-- Title for action which denotes the user disagrees [CHAR LIMIT=50] -->
-    <string name="disagree">Disagree</string>
 
     <!-- Security -->
     <skip />
@@ -1514,6 +1543,8 @@
     <string name="device_apps_app_management_not_available">Application unavailable</string>
     <!-- General settings choice for agreeing to the displayed action [CHAR LIMIT=40] -->
     <string name="settings_ok">OK</string>
+    <!-- General settings choice for confirming the displayed action [CHAR LIMIT=40] -->
+    <string name="settings_confirm">Confirm</string>
     <!-- General settings choice for disagreeing with the displayed action [CHAR LIMIT=40] -->
     <string name="settings_cancel">Cancel</string>
     <!-- General settings choice for on [CHAR LIMIT=40] -->
@@ -1542,6 +1573,10 @@
     <string name="device_energy_saver_allow_turning_screen_off">Allow turning screen off</string>
     <!-- Energy saver description for allow turning screen off during media playback [CHAR LIMIT=NONE] -->
     <string name="device_energy_saver_allow_turning_screen_off_description">During media playback</string>
+    <!-- The title of dialog asking users to confirm long screen off delay. [CHAR LIMIT =70] -->
+    <string name="device_energy_saver_confirmation_title">Confirm Energy Saver setting</string>
+    <!-- The description of dialog asking users to confirm long screen off delay. [CHAR LIMIT=250] -->
+    <string name="device_energy_saver_confirmation_text">Please confirm new setting to <xliff:g id="sleep_time" example="8 hours">%1$s</xliff:g>, which has the potential for increased energy use.</string>
     <!-- Default summary text of the "Configure backup account" setting [CHAR LIMIT=80] -->
     <string name="backup_configure_account_default_summary">No account is currently storing backed up data</string>
     <!-- Dialog title for confirmation to erase backup data from server -->
@@ -1605,7 +1640,7 @@
     <string name="bluetooth_permission_request">"Bluetooth permission request"</string>
 
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
-    <string name="security_patch">Android security patch level</string>
+    <string name="security_patch">Android TV OS security patch level</string>
 
     <!-- App picker screen title -->
     <string name="choose_application">Choose application</string>
@@ -1747,13 +1782,19 @@
 
     <!-- Slice uri for "Accounts & Sign in" -->
     <string name="account_slice_uri" translatable="false"/>
+    <!-- Slice uri for "Privacy" -->
+    <string name="privacy_assistant_slice_uri" translatable="false"/>
+    <string name="privacy_purchases_slice_uri" translatable="false"/>
 
     <!-- Slice uri for "Connected devices" -->
     <string name="connected_devices_slice_uri" translatable="false"/>
-    <!-- Slice uri for "hdr settings" -->
-    <string name="hdr_settings_slice_uri" translatable="false"/>
+    <string name="cec_settings_slice_uri" translatable="false"/>
 
     <string name="storage_summary_fragment_name" translatable="false"/>
+    <!-- Slice uri for hdr fomat selection -->
+    <string name="format_selection_slice_uri" translatable="false"/>
+    <!-- Slice uri for resolution and frequency -->
+    <string name="resolution_slice_uri" translatable="false"/>
 
     <!-- Title for dialog displayed when user selects on a setting locked by an admin [CHAR LIMIT=30 BACKUP_MESSAGE_ID:4867639270211833535] -->
     <string name="disabled_by_policy_title">Action not allowed</string>
@@ -1786,5 +1827,4 @@
     <string name="network_connection_request_dialog_showall">Show all</string>
     <!--Bluetooth settings screen, text that appears in heading bar when scanning for devices -->
     <string name="progress_scanning">Searching</string>
-
 </resources>

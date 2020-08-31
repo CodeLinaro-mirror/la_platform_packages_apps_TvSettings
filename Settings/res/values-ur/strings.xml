@@ -30,6 +30,7 @@
     <string name="header_category_preferences" msgid="3738388885555798797">"ترجیحات"</string>
     <string name="header_category_accessories" msgid="8310540329290988415">"ریموٹ اور امدادی سامان"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"ذاتی"</string>
+    <string name="offline_mode_disabled_entry_subtitle" msgid="5588529737212778207">"آف لائن وضع میں دستیاب نہیں ہے"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"نیٹ ورک سے منسلک ہوں"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ایک اکاؤنٹ شامل کریں"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"اکاؤنٹس اور سائن ان"</string>
@@ -53,6 +54,12 @@
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"مدد اور تاثرات"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"رازداری"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"آلے کی ترتیبات"</string>
+    <!-- no translation found for privacy_account_settings_category (5786591549945777400) -->
+    <skip />
+    <!-- no translation found for privacy_assistant_settings_title (4524957824712623680) -->
+    <skip />
+    <!-- no translation found for privacy_purchases_settings_title (4377973661628486311) -->
+    <skip />
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ایپ کی ترتیبات"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"مقام، استعمال اور تشخیصات، اشتہارات"</string>
     <string name="add_account" msgid="7386223854837017129">"اکاؤنٹ شامل کریں"</string>
@@ -79,6 +86,7 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"‫Google کی مقام کی سروس اور دوسری ایپس کو Wi-Fi آف ہونے پر بھی نیٹ ورکس اسکین کرنے دیں"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"نیٹ ورک سے منسلک ہوں"</string>
+    <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"نیٹ ورک تشخیصات"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"حال ہی میں کھولی گئیں ایپس"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"سبھی ایپس دیکھیں"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"اجازتیں"</string>
@@ -130,8 +138,11 @@
     <string name="accessory_connected" msgid="5229574480869175180">"مربوط ہے"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"نام تبدیل کریں"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"اس لازمہ کیلئے نیا نام درج کریں"</string>
+    <!-- no translation found for accessories_add_accessibility_title (1300294413423909579) -->
+    <skip />
     <string name="accessories_add_title" msgid="7704824893011194433">"ایسسریز کی تلاش ہو رہی ہے…"</string>
-    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"اپنے بلوٹوتھ آلات کا جوڑا بنانے سے پہلے، اس بات کو یقینی بنائیں کہ وہ جوڑا بنانے والی وضع میں ہیں"</string>
+    <!-- no translation found for accessories_add_bluetooth_inst (2508151218328384366) -->
+    <skip />
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"ایک آلہ ملا اور <xliff:g id="COUNTDOWN">%1$s</xliff:g> سیکنڈ میں خود کار طور پر اس کا جوڑا بن جائے گا"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"یہ کارروائی تعاون یافتہ نہیں ہے"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"بلوٹوتھ جوڑا بنانے کی درخواست"</string>
@@ -173,9 +184,9 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google قانونی"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"لائسنس ڈیٹا دستیاب نہیں ہے"</string>
     <string name="about_model" msgid="9164284529291439296">"ماڈل"</string>
-    <string name="about_version" msgid="7800676128792880991">"ورژن"</string>
+    <string name="about_version" msgid="6223547403835399861">"Android TV OS ورژن"</string>
     <string name="about_serial" msgid="3432319328808745459">"نمبر شمار"</string>
-    <string name="about_build" msgid="1139171613038225768">"بلڈ"</string>
+    <string name="about_build" msgid="8467840394761634575">"Android TV OS بلڈ"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="523455736684670250">
       <item quantity="other">اب آپ ایک ڈویلپر بننے سے <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> قدم دور ہیں</item>
       <item quantity="one">اب آپ ایک ڈویلپر بننے سے <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> قدم دور ہیں</item>
@@ -689,6 +700,7 @@
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"اجازتیں"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"درخواست دستیاب نہیں"</string>
     <string name="settings_ok" msgid="5950888975075541964">"ٹھیک ہے"</string>
+    <string name="settings_confirm" msgid="4489126458677153411">"تصدیق کریں"</string>
     <string name="settings_cancel" msgid="576094334743686152">"منسوخ کریں"</string>
     <string name="settings_on" msgid="7734010120323404333">"آن"</string>
     <string name="settings_off" msgid="4060451657850476369">"آف"</string>
@@ -703,6 +715,8 @@
     <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"کے بعد ڈسپلے آف کریں"</string>
     <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"سکرین آف کرنے کی اجازت دیں"</string>
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"میڈیا پلے بیک کے دوران"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"اینرجی سیور کی ترتیبات کی توثیق کریں"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"براہ کرم نئی ترتیب کی توثیق <xliff:g id="SLEEP_TIME">%1$s</xliff:g> پر کریں، جس میں اینرجی کے استعمال میں اضافہ کا امکان موجود ہے۔"</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"فی الحال کوئی بھی اکاؤنٹ بیک اپ لیا گیا ڈیٹا اسٹور نہیں کر رہا ہے"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"آپ کے Wi‑Fi پاس ورڈز، بُک مارکس، دوسری ترتیبات اور ایپ کے ڈیٹا کا بیک اپ لینا بند کریں، اور Google سرورز پر موجود سبھی کاپیاں حذف کریں؟"</string>
@@ -732,7 +746,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"ایپ کی اجازتیں"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g> از <xliff:g id="COUNT_1">%2$d</xliff:g> ایپس کی اجازت دی گئی ہے"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"بلوٹوتھ اجازت کی درخواست"</string>
-    <string name="security_patch" msgid="5468261708915367254">"‫Android سیکیورٹی پیچ کی سطح"</string>
+    <string name="security_patch" msgid="8924741264829495392">"Android TV OS سیکیورٹی پیچ لیول"</string>
     <string name="choose_application" msgid="2375936782103669988">"ایپلیکیشن منتخب کریں"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(تجرباتی)۔"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"محفوظ موڈ میں ریبوٹ کریں"</string>

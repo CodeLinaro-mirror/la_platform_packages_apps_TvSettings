@@ -20,6 +20,16 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"Mipangilio"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"Mtandao"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"Wasifu Uliowekeza Vikwazo"</string>
+    <string name="action_on_title" msgid="1074972820237738324">"Washa"</string>
+    <string name="action_off_title" msgid="3598665702863436597">"Zima"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"Imewashwa"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"Imezimwa"</string>
+    <string name="agree" msgid="8155497436593889753">"Kubali"</string>
+    <string name="disagree" msgid="7402998517682194430">"Kataa"</string>
+    <!-- no translation found for enabled (5127188665060746381) -->
+    <skip />
+    <!-- no translation found for disabled (4589065923272201387) -->
+    <skip />
     <string name="header_category_suggestions" msgid="106077820663753645">"Mapendekezo"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Mipangilio ya Haraka"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Mipangilio ya Jumla"</string>
@@ -30,6 +40,7 @@
     <string name="header_category_preferences" msgid="3738388885555798797">"Mapendeleo"</string>
     <string name="header_category_accessories" msgid="8310540329290988415">"Kidhibiti cha mbali na vifaa"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Ya Kibinafsi"</string>
+    <string name="offline_mode_disabled_entry_subtitle" msgid="5588529737212778207">"Kipengele hiki hakipatikani nje ya mtandao"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Unganisha kwenye mtandao"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ongeza akaunti"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"Akaunti na kuingia katika akaunti"</string>
@@ -53,6 +64,9 @@
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Usaidizi na Maoni"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Faragha"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Mipangilio ya Kifaa"</string>
+    <string name="privacy_account_settings_category" msgid="5786591549945777400">"Mipangilio ya Akaunti"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Mratibu wa Google"</string>
+    <string name="privacy_purchases_settings_title" msgid="4377973661628486311">"Ununuzi"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Mipangilio ya Programu"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Mahali, Matumizi na Uchunguzi, Matangazo"</string>
     <string name="add_account" msgid="7386223854837017129">"Ongeza akaunti"</string>
@@ -79,6 +93,7 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Ruhusu huduma ya eneo la Google na programu nyingine kutafuta mitandao, hata wakati Wi-Fi imezimwa"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Unganisha kwenye mtandao"</string>
+    <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Uchunguzi wa mtandao"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Programu ulizofungua hivi karibuni"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Angalia programu zote"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Ruhusa"</string>
@@ -113,6 +128,8 @@
     <string name="surround_sound_manual_summary" msgid="8945926149168263067">"Jichagulie: Teua miundo ambayo ungependa kutumia"</string>
     <string name="display_category_title" msgid="247804007525046312">"Onyesho"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"Mipangilio ya kina ya onyesho"</string>
+    <!-- no translation found for hdmi_cec_settings_title (7120729705063868627) -->
+    <skip />
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Mipangilio ya kina ya sauti"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Ruhusu hali ya mchezo"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Ungependa kufuta data iliyo kwenye akiba?"</string>
@@ -130,8 +147,9 @@
     <string name="accessory_connected" msgid="5229574480869175180">"Umeunganishwa"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Badilisha jina"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"Andika jina jipya la kifaa hiki cha kuongezwa"</string>
+    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"Bluetooth inaoanisha."</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"Inatafuta vifaa…"</string>
-    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"Kabla hujaoanisha vifaa vyako vya Bluetooth, hakikisha vipo katika hali ya kuoanisha"</string>
+    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"Kabla hujaoanisha vifaa vyako vya Bluetooth, hakikisha vipo katika hali ya kuoanisha."</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"Kifaa kimepatikana na kitaoanisha otomatiki baada ya sekunde <xliff:g id="COUNTDOWN">%1$s</xliff:g>"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"Kitendo hiki hakiwezi kutumika"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"Ombi la Bluetooth la kuoanisha"</string>
@@ -173,9 +191,9 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Sheria za Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Data ya leseni haipatikani"</string>
     <string name="about_model" msgid="9164284529291439296">"Muundo"</string>
-    <string name="about_version" msgid="7800676128792880991">"Toleo"</string>
+    <string name="about_version" msgid="6223547403835399861">"Toleo la Mfumo wa Uendeshaji wa Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Nambari ya ufuatiliaji"</string>
-    <string name="about_build" msgid="1139171613038225768">"Muundo"</string>
+    <string name="about_build" msgid="8467840394761634575">"Muundo wa Mfumo wa Uendeshaji wa Android TV"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="523455736684670250">
       <item quantity="other">Umebakiza hatua <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ili uwe msanidi programu</item>
       <item quantity="one">Umebakiza hatua <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> ili uwe msanidi programu</item>
@@ -537,12 +555,6 @@
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Angaza eneo lote la dirisha linaposasisha"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Fanya skrini imemeteke programu zinapoendeleza shughuli ndefu kwenye skrini kuu"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Pima muda wa kutungiliza katika adp shell dumpys gfxinfo"</string>
-    <string name="action_on_title" msgid="1074972820237738324">"Washa"</string>
-    <string name="action_off_title" msgid="3598665702863436597">"Zima"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"Imewashwa"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"Imezimwa"</string>
-    <string name="agree" msgid="8155497436593889753">"Kubali"</string>
-    <string name="disagree" msgid="7402998517682194430">"Kataa"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Vianzo visivyojulikana"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Ruhusu programu kutoka vyanzo vingine kando na Duka la Google Play ziwekwe"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"Ruhusu vyanzo visivyojulikana"</string>
@@ -689,6 +701,7 @@
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Ruhusa"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Programu haipatikani"</string>
     <string name="settings_ok" msgid="5950888975075541964">"SAWA"</string>
+    <string name="settings_confirm" msgid="4489126458677153411">"Thibitisha"</string>
     <string name="settings_cancel" msgid="576094334743686152">"Ghairi"</string>
     <string name="settings_on" msgid="7734010120323404333">"Washa"</string>
     <string name="settings_off" msgid="4060451657850476369">"Zima"</string>
@@ -703,6 +716,8 @@
     <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Zima skrini baada ya"</string>
     <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Ruhusu uzimaji skrini"</string>
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Wakati wa kucheza maudhui"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Thibitisha mipangilio ya Kiokoa Nishati"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Tafadhali thibitisha kuwa ungependa iwe <xliff:g id="SLEEP_TIME">%1$s</xliff:g>. Huenda hii ikaongeza kiwango cha nishati kinachotumika."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Hakuna akaunti ambayo kwa sasa inahifadhi nakala za data"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Je, ungependa kuacha kuhifadhi nakala za manenosiri ya Wi-Fi, alamisho, mipangilio mingine na data ya programu, na ufute nakala zote kwenye seva za Google?"</string>
@@ -732,7 +747,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"Ruhusa za programu"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"Unaruhusu programu <xliff:g id="COUNT_0">%1$d</xliff:g> kati ya <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"Ombi la kuruhusu Bluetooth"</string>
-    <string name="security_patch" msgid="5468261708915367254">"Usasishaji wa rekebisho la usalama kwenye Android"</string>
+    <string name="security_patch" msgid="8924741264829495392">"Kiwango cha rekebisho la usalama la Mfumo wa Uendeshaji wa Android TV"</string>
     <string name="choose_application" msgid="2375936782103669988">"Chagua programu"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(Ya majaribio)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"Washa tena katika hali salama"</string>
