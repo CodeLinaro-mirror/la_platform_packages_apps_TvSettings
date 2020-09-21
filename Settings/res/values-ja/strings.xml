@@ -20,6 +20,16 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"設定"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"ネットワーク"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"制限付きプロファイル"</string>
+    <string name="action_on_title" msgid="1074972820237738324">"ON"</string>
+    <string name="action_off_title" msgid="3598665702863436597">"OFF"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"ON"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"OFF"</string>
+    <string name="agree" msgid="8155497436593889753">"同意する"</string>
+    <string name="disagree" msgid="7402998517682194430">"同意しない"</string>
+    <!-- no translation found for enabled (5127188665060746381) -->
+    <skip />
+    <!-- no translation found for disabled (4589065923272201387) -->
+    <skip />
     <string name="header_category_suggestions" msgid="106077820663753645">"おすすめ"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"クイック設定"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"全般設定"</string>
@@ -30,6 +40,7 @@
     <string name="header_category_preferences" msgid="3738388885555798797">"設定"</string>
     <string name="header_category_accessories" msgid="8310540329290988415">"リモートとアクセサリ"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"ユーザー設定"</string>
+    <string name="offline_mode_disabled_entry_subtitle" msgid="5588529737212778207">"オフライン モードではご利用になれません"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ネットワークへの接続"</string>
     <string name="add_an_account" msgid="2601275122685226096">"アカウントの追加"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"アカウントとログイン"</string>
@@ -53,6 +64,9 @@
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"ヘルプとフィードバック"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"プライバシー"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"デバイスの設定"</string>
+    <string name="privacy_account_settings_category" msgid="5786591549945777400">"アカウント設定"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google アシスタント"</string>
+    <string name="privacy_purchases_settings_title" msgid="4377973661628486311">"購入"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"アプリの設定"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"位置情報、使用状況と診断、広告"</string>
     <string name="add_account" msgid="7386223854837017129">"アカウントを追加"</string>
@@ -79,6 +93,7 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi が OFF になっていても、Google の位置情報サービスと他のアプリでネットワークをスキャンする"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"ネットワークへの接続"</string>
+    <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"ネットワーク診断"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"最近開いたアプリ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"アプリをすべて表示"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"権限"</string>
@@ -113,6 +128,8 @@
     <string name="surround_sound_manual_summary" msgid="8945926149168263067">"手動: 使用する形式を選択する"</string>
     <string name="display_category_title" msgid="247804007525046312">"ディスプレイ"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"ディスプレイの詳細設定"</string>
+    <!-- no translation found for hdmi_cec_settings_title (7120729705063868627) -->
+    <skip />
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"音の詳細設定"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"ゲームモードを有効にする"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"キャッシュデータを削除しますか？"</string>
@@ -130,8 +147,9 @@
     <string name="accessory_connected" msgid="5229574480869175180">"ペアリング済み"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"名前の変更"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"このアクセサリの新しい名前を入力してください"</string>
+    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"Bluetooth ペア設定。"</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"アクセサリを検索しています…"</string>
-    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"Bluetooth デバイスをペア設定する前に、デバイスがペア設定モードになっていることを確認してください"</string>
+    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"Bluetooth デバイスをペア設定する前に、デバイスがペア設定モードになっていることを確認してください。"</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"デバイスが見つかりました。<xliff:g id="COUNTDOWN">%1$s</xliff:g>秒以内にペア設定が自動的に開始します"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"この操作はサポートされていません"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"Bluetoothのペア設定リクエスト"</string>
@@ -173,9 +191,9 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google 利用規約"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"ライセンスデータは使用できません"</string>
     <string name="about_model" msgid="9164284529291439296">"モデル"</string>
-    <string name="about_version" msgid="7800676128792880991">"バージョン"</string>
+    <string name="about_version" msgid="6223547403835399861">"Android TV の OS バージョン"</string>
     <string name="about_serial" msgid="3432319328808745459">"シリアル番号"</string>
-    <string name="about_build" msgid="1139171613038225768">"ビルド"</string>
+    <string name="about_build" msgid="8467840394761634575">"Android TV の OS ビルド"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="523455736684670250">
       <item quantity="other">デベロッパーになるまであと<xliff:g id="STEP_COUNT_1">%1$d</xliff:g>ステップです</item>
       <item quantity="one">デベロッパーになるまであと<xliff:g id="STEP_COUNT_0">%1$d</xliff:g>ステップです</item>
@@ -537,12 +555,6 @@
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"更新時にウィンドウの表示面全体を点滅させる"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"メインスレッドの処理が長引く場合は画面を点滅させる"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfoでレンダリング時間を測定"</string>
-    <string name="action_on_title" msgid="1074972820237738324">"ON"</string>
-    <string name="action_off_title" msgid="3598665702863436597">"OFF"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"ON"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"OFF"</string>
-    <string name="agree" msgid="8155497436593889753">"同意する"</string>
-    <string name="disagree" msgid="7402998517682194430">"同意しない"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"提供元不明のアプリ"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"提供元が Play ストアではないアプリのインストールを許可する"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"提供元不明のアプリの許可"</string>
@@ -689,6 +701,7 @@
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"権限"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"アプリを利用できません"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
+    <string name="settings_confirm" msgid="4489126458677153411">"確認"</string>
     <string name="settings_cancel" msgid="576094334743686152">"キャンセル"</string>
     <string name="settings_on" msgid="7734010120323404333">"ON"</string>
     <string name="settings_off" msgid="4060451657850476369">"OFF"</string>
@@ -703,6 +716,8 @@
     <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"画面を OFF にする時間"</string>
     <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"画面の OFF を許可する"</string>
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"メディアの再生時"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"省エネ設定の確認"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"新しい設定（<xliff:g id="SLEEP_TIME">%1$s</xliff:g>）をご確認ください。この設定ではエネルギーの使用が増える可能性があります。"</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"現在バックアップデータを保存しているアカウントはありません"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Wi-Fiパスワード、ブックマーク、その他の設定、およびアプリのデータのバックアップを停止し、Googleサーバー上のすべてのコピーを消去しますか？"</string>
@@ -732,7 +747,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"アプリの権限"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>個のアプリを許可"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"Bluetooth許可リクエスト"</string>
-    <string name="security_patch" msgid="5468261708915367254">"Android セキュリティ パッチ レベル"</string>
+    <string name="security_patch" msgid="8924741264829495392">"Android TV の OS セキュリティ パッチレベル"</string>
     <string name="choose_application" msgid="2375936782103669988">"アプリの選択"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"（試験運用）"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"再起動してセーフモードに変更する"</string>

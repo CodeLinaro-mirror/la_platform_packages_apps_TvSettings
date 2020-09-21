@@ -140,11 +140,13 @@
         <activity android:clearTaskOnLaunch="true"
              android:configChanges="keyboard|keyboardHidden|navigation"
              android:excludeFromRecents="true"
+             android:exported="true"
              android:name=".connectivity.EditProxySettingsActivity"
              android:theme="@style/Theme.SettingsConnectivity"/>
         <activity android:clearTaskOnLaunch="true"
              android:configChanges="keyboard|keyboardHidden|navigation"
              android:excludeFromRecents="true"
+             android:exported="true"
              android:name=".connectivity.EditIpSettingsActivity"
              android:theme="@style/Theme.SettingsConnectivity"/>
         <activity android:clearTaskOnLaunch="true"
@@ -168,6 +170,7 @@
         </activity>
         <activity android:configChanges="keyboard|keyboardHidden|navigation"
              android:excludeFromRecents="true"
+             android:exported="true"
              android:name=".accounts.RemoveAccountDialog"/>
         <activity android:excludeFromRecents="true"
              android:exported="true"

@@ -20,6 +20,14 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‎‏‎‎‎‏‎‎‎‎‎‎‎‏‎‏‏‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‏‎‎‏‏‏‏‏‎‎‏‎‏‎‎‏‏‎‎‏‎‏‏‎‎‎‎Settings‎‏‎‎‏‎"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‏‎‎‏‎‏‎‏‎‎‎‎‏‏‎‏‎‏‎‎‏‏‎‎‏‎‏‏‏‎‏‏‎‎‏‎‏‎‏‎‏‏‏‏‎‏‎‏‏‎‏‎‎Network‎‏‎‎‏‎"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‎‎‎‏‏‎‎‎‏‎‏‏‏‎‎‎‏‎‏‎‎‎‏‎‏‎‎‎‏‎‏‏‎‏‏‎‏‎‎‎‎‏‏‏‎‎‏‎‎‏‎‏‎Restricted Profile‎‏‎‎‏‎"</string>
+    <string name="action_on_title" msgid="1074972820237738324">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‏‎‏‏‏‎‏‎‏‏‎‎‎‏‎‎‏‎‎‎‎‏‎‏‎‏‏‎‏‎‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‎‎‎‎‏‎‏‎‏‎‏‎‎‎On‎‏‎‎‏‎"</string>
+    <string name="action_off_title" msgid="3598665702863436597">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‏‏‏‏‎‎‎‏‎‎‎‎‎‏‏‏‎‏‏‎‎‎‏‏‏‏‏‎‎‏‎‎‏‎‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‎‏‏‎‏‎‏‎Off‎‏‎‎‏‎"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‎‎‎‏‏‎‎‏‏‏‏‏‎‎‎‏‎‎‎‏‏‎‎‏‎‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‎‎‏‏‎‏‏‏‎On‎‏‎‎‏‎"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‏‏‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‎‎‎‎‏‎‏‏‎‏‎‎‎‎‎‎‎‏‎‏‎‏‏‎‏‎‏‎‎‏‏‏‎‏‎‏‏‎‎Off‎‏‎‎‏‎"</string>
+    <string name="agree" msgid="8155497436593889753">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‏‏‎‎‎‏‎‎‏‎‏‏‎‏‏‎‏‎‏‎‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‏‎‏‎‎‎‎‏‏‏‎‏‏‎‎‏‎Agree‎‏‎‎‏‎"</string>
+    <string name="disagree" msgid="7402998517682194430">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‎‎‏‏‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎Disagree‎‏‎‎‏‎"</string>
+    <string name="enabled" msgid="5127188665060746381">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‏‎‎‏‏‏‎‏‏‎‏‏‏‎‏‏‏‎‏‏‎‏‎‎‎‎‎‏‎‏‎‏‎‏‏‎‏‎‏‏‏‎‎‏‎‎‏‎‎‎‏‏‎‏‎Enabled‎‏‎‎‏‎"</string>
+    <string name="disabled" msgid="4589065923272201387">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‎‎‏‎‎‏‎‎‏‎‏‎‏‏‏‏‎‏‏‏‏‏‎‏‎‏‎‏‎‏‎‎‏‎‏‎‏‎‏‏‎Disabled‎‏‎‎‏‎"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‎‏‏‎‏‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‎‏‏‎‏‏‏‎‏‎‎‎‎‏‏‎‎‏‏‎‏‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‎‏‎Suggestions‎‏‎‎‏‎"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‏‎‎‏‎‎‎‏‎‎‎‎‎‏‏‎‏‎‏‎‎‏‏‏‎‎‏‏‎‏‏‎‏‎‎‏‏‎‏‏‎‎‎‎‎‎‎‏‏‎‏‎‎‎‏‎‎‏‎‎Quick Settings‎‏‎‎‏‎"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‎‏‏‏‎‎‎‏‏‏‎‎‏‏‏‎‎‏‏‏‎‎‎‎‏‎‏‎‏‎‎‏‏‏‎‎‏‎‎‎‎‏‎‎‏‎‎‎‎‎‏‎‎General Settings‎‏‎‎‏‎"</string>
@@ -30,6 +38,7 @@
     <string name="header_category_preferences" msgid="3738388885555798797">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‎‏‏‎‏‏‎‎‏‏‏‎‎‎‏‎‎‏‏‏‎‎‏‏‏‏‎‏‎‎‏‎‎‏‏‎‎‎‏‏‎‎‎‎‏‏‎‏‎Preferences‎‏‎‎‏‎"</string>
     <string name="header_category_accessories" msgid="8310540329290988415">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‎‏‎‎‏‏‏‏‏‎‎‎‎‏‏‎‎‏‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‏‏‏‎‏‏‎‏‏‏‏‏‏‏‎Remote &amp; accessories‎‏‎‎‏‎"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‏‎‏‏‏‎‎‏‎‎‏‏‎‏‎‎‏‏‎‎‏‎‎‎‏‎‏‏‏‎‏‎‏‏‏‏‏‎‎‎‏‏‎‏‏‎‏‎‎‎‎‎‎Personal‎‏‎‎‏‎"</string>
+    <string name="offline_mode_disabled_entry_subtitle" msgid="5588529737212778207">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‏‎‎‎‏‏‏‎‎‏‏‏‎‎‏‎‎‎‏‎‏‏‏‏‏‏‎‎‏‎‏‏‎‏‎‎‎‏‏‎‎‏‎‏‎‏‏‎‏‏‎‏‏‏‏‏‎Not available in offline mode‎‏‎‎‏‎"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‎‏‎‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‎‎‎‎‏‏‏‎‏‏‎‏‏‎‏‏‏‎‎‏‎‏‎‎‎‎Connect to network‎‏‎‎‏‎"</string>
     <string name="add_an_account" msgid="2601275122685226096">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‎‎‎‏‏‎‎‏‏‎‎‏‎‏‎‏‏‏‏‏‎‎‎‏‎‎‏‎‎‎‏‎‏‎‏‏‎‏‏‎‏‎‏‎‏‏‎‎‎‏‏‏‎‎‎‎‎Add an account‎‏‎‎‏‎"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‎‏‎‎‎‎‎‎‎‎‏‏‏‏‏‏‎‎‏‎‏‏‏‎‎‏‏‏‎‎‎‎‎‎‏‏‏‏‏‏‎‎‏‎‏‏‏‏‏‎‎‎‏‎‏‎Accounts &amp; sign-in‎‏‎‎‏‎"</string>
@@ -53,6 +62,9 @@
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‏‎‎‏‏‎‏‎‏‏‎‎‎‎‏‏‎‎‎‏‏‎‎‏‏‎‎‏‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‏‏‎‎‏‎‏‏‏‎Help &amp; Feedback‎‏‎‎‏‎"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‎‏‏‎‎‎‎‎‏‎‏‎‏‏‎‎‏‎‎‏‏‏‏‎‏‎‎‏‎‎‏‎‏‎‎‏‎‎‎‎‏‏‏‏‎‎‏‏‏‏‏‎‎‎‏‎Privacy‎‏‎‎‏‎"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‏‎‎‏‎‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‎‎‎‎‎‎‎‏‏‏‏‎‎‏‏‎‎‎‎‏‎‎‏‏‎‎‏‏‎‎‎Device Settings‎‏‎‎‏‎"</string>
+    <string name="privacy_account_settings_category" msgid="5786591549945777400">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‎‎‏‎‎‏‏‏‎‎‎‎‏‏‎‏‎‎‏‎‏‏‎‏‏‎‎‏‎‎‎‏‎‏‏‎‎‏‎‏‏‏‎‎‎‏‏‎‎‏‏‏‏‏‎‎‎‎Account Settings‎‏‎‎‏‎"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‎‏‏‎‎‏‎‏‏‏‏‏‎‎‎‎‏‎‎‏‎‏‎‏‎‏‏‎‏‎‏‎‏‏‎‎‏‏‏‏‎‏‏‎‎‎‏‏‎‎‏‎‎‎‎‎‎‎Google Assistant‎‏‎‎‏‎"</string>
+    <string name="privacy_purchases_settings_title" msgid="4377973661628486311">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‏‏‎‎‎‎‎‏‏‎‏‎‏‏‏‏‏‏‎‏‏‎‎‏‏‎‎‎‏‎‎‏‎‏‏‎‎‎‎‏‏‏‎‏‎‎‏‎‏‎‏‎‎‏‏‏‎Purchases‎‏‎‎‏‎"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‏‎‎‎‏‏‏‎‎‎‏‏‏‎‏‏‏‏‎‏‎‏‎‎‎‏‎‎‏‎‎‎‏‎‎App Settings‎‏‎‎‏‎"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‎‎‎‎‏‏‎‎‏‏‎‏‎‏‎‏‏‏‎‎‏‏‎‎‏‏‎‏‏‎‎‏‏‎‏‎‎‏‎‏‎‎‎‎‎‎‎‏‎‏‎‎‎‎‏‏‎Location, Usage &amp; Diagnostics, Ads‎‏‎‎‏‎"</string>
     <string name="add_account" msgid="7386223854837017129">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‏‏‎‏‏‎‎‏‎‎‏‎‏‏‎‎‎‏‎‎‏‏‏‎‏‎‏‎‏‎‎‎‏‎‏‎‎‏‎Add account‎‏‎‎‏‎"</string>
@@ -79,6 +91,7 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‎‎‎‏‏‏‎‎‎‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‏‏‎‎‎‏‎‎‎‎‏‏‎‎‎‏‎‏‎‎‏‏‎‎Let Google\'s location service and other apps scan for networks, even when Wi-Fi is off‎‏‎‎‏‎"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‎‎‏‏‏‎‏‎‏‎‏‏‎‏‏‎‎‏‏‎‎‎‎‏‏‏‏‏‏‏‎‏‎‎‏‏‎‎‏‎‎‎‎‎‎‎‎‎‏‏‎‎‏‎‎‏‎Wi-Fi‎‏‎‎‏‎"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‏‏‏‏‏‏‎‏‎‎‎‏‏‏‏‏‎‏‎‏‏‎‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‎‎‎‏‎‏‎‎‎‏‏‎‎‏‏‏‎Connect to network‎‏‎‎‏‎"</string>
+    <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‎‎‎‎‎‏‎‎‎‏‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‏‏‏‏‏‎‎‏‎‏‏‎‏‏‏‏‎‏‎‎‎‏‎‏‏‎‏‏‏‎‎Network diagnostics‎‏‎‎‏‎"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‎‎‏‏‎‎‎‏‎‎‏‎‎‏‏‎‏‎‎‎‎‏‎‎‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‏‏‎‎‏‏‎‏‏‎‏‎Recently opened apps‎‏‎‎‏‎"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‎‏‏‏‎‎‏‎‏‎‏‎‎‎‎‏‏‎‎‎‏‏‏‎‏‏‏‏‎‎‎‎‏‏‏‏‎‎‏‏‎‏‎‎‎‎See all apps‎‏‎‎‏‎"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‎‎‎‏‎‏‏‏‏‎‏‎‎‏‎‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎‏‏‎‏‎‏‎‏‏‎‎‏‏‎Permissions‎‏‎‎‏‎"</string>
@@ -113,6 +126,7 @@
     <string name="surround_sound_manual_summary" msgid="8945926149168263067">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‏‏‎‎‏‎‏‎‎‎‎‎‏‏‎‏‏‏‏‎‏‏‎‎‏‎‎‎‎‎‎‏‏‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‎‏‏‎Manual: Select which formats to use‎‏‎‎‏‎"</string>
     <string name="display_category_title" msgid="247804007525046312">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‎‏‏‎‏‏‏‎‎‎‎‎‏‏‎‎‎‎‎‎‏‏‎‏‏‏‎‏‎‎‏‎‎‏‎‎‏‏‏‎‎‏‎‏‏‎‏‏‎‎‎‎‎‏‎‏‎‎‎‎Display‎‏‎‎‏‎"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‏‎‎‏‏‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‏‏‏‎‎‎‏‎‎‎‏‏‎‏‎‏‏‏‎Advanced display settings‎‏‎‎‏‎"</string>
+    <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‏‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‏‏‏‎‎‏‏‏‎‏‏‎‏‎‎‎‏‏‎‏‎‎‏‏‎HDMI-CEC‎‏‎‎‏‎"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‎‎‎‏‏‏‎‎‎‎‏‎‎‏‎‏‏‎‏‎‏‏‏‎‏‎‏‏‏‎‎‏‏‏‏‎‏‏‏‏‏‏‎‏‏‎‎‏‏‎‎‏‎‏‎‎‏‏‎Advanced sound settings‎‏‎‎‏‎"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‎‎‎‏‎‏‎‏‎‏‎‎‏‏‏‏‏‎‎‏‏‎‎‎‏‎‎‏‏‏‎‏‎‎‏‎‎‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‏‎Allow game mode‎‏‎‎‏‎"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‎‏‏‎‏‏‎‎‏‏‎‎‎‎‏‏‎‏‏‎‎‏‎‏‎‎‎‏‎‏‎‏‎‏‎‏‏‏‎‏‎‏‎‎‎‏‏‏‎‏‎‏‏‏‎‏‎‏‎Clear cached data?‎‏‎‎‏‎"</string>
@@ -130,8 +144,9 @@
     <string name="accessory_connected" msgid="5229574480869175180">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‎‏‎‎‏‎‎‏‏‎‎‏‎‏‏‏‎‎‏‎‎‏‎‎‎‎‏‏‎‏‎‏‎‏‎‏‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‎‎‏‏‎‎‎Connected‎‏‎‎‏‎"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‎‎‏‏‏‏‎‎‏‎‏‎‎‎‏‎‏‎‏‏‏‎‏‏‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‎‎‎‏‎‏‏‎‏‎‎‏‎‏‏‎Change name‎‏‎‎‏‎"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‎‎‏‎‎‎‎‏‎‏‏‏‏‎‎‎‏‏‎‎‏‏‎‏‏‎‏‎‎‏‏‏‎‏‏‎‏‎‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‎Enter a new name for this accessory‎‏‎‎‏‎"</string>
+    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‎‎‏‎‎‎‎‎‏‎‏‏‏‎‎‏‎‎‏‎‏‏‏‎‎‎‎‏‎‎‏‏‎‏‏‏‏‎‎‎‏‏‏‎‏‎‎‏‏‎‏‎‏‏‎‎‏‎‏‏‎Bluetooth pairing.‎‏‎‎‏‎"</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‎‏‏‎‏‎‎‎‎‏‎‎‏‎‏‏‎‏‎‏‏‎‎‎‏‎‏‎‎‏‎‎‎‎‏‎‎‏‏‏‏‎‎‏‎‎‏‎‎‎‎‎‏‎Searching for accessories…‎‏‎‎‏‎"</string>
-    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‏‎‎‎‏‎‏‏‏‎‎‏‎‎‏‏‎‏‎‏‏‏‏‏‏‎‏‏‎‏‏‏‏‏‏‎‎‎‏‎‏‏‎‎‏‏‏‎‎‎‎Before pairing your Bluetooth devices, make sure they\'re in pairing mode‎‏‎‎‏‎"</string>
+    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‎‎‏‎‏‏‎‎‏‏‏‎‏‎‏‏‏‏‏‎‎‎‏‏‏‏‏‎‏‎‎‎‏‎‏‏‎‏‏‎‏‏‎‏‎‎‏‏‎‎‏‏‎‏‏‎‏‏‏‎‎Before pairing your Bluetooth devices, make sure they\'re in pairing mode.‎‏‎‎‏‎"</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‏‏‎‎‎‎‏‎‎‎‏‎‎‎‎‎‏‎‏‏‎‏‎‏‏‏‎‏‎‏‏‎‎‏‏‎‏‎‎‎‏‏‏‏‏‏‏‎‏‏‎‏‏‎A device was found and will automatically pair in ‎‏‎‎‏‏‎<xliff:g id="COUNTDOWN">%1$s</xliff:g>‎‏‎‎‏‏‏‎ seconds‎‏‎‎‏‎"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‏‎‏‎‎‎‎‎‏‏‎‏‎‏‎‏‎‏‏‎‏‏‎‏‏‎‎‎‎‎‎‏‏‏‎‎‏‎‏‎‏‏‏‎‎‎‎‎‎‎‏‎‏‎‎‎‎This action isn\'t supported‎‏‎‎‏‎"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‎‏‏‏‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‎‎‎‏‏‎‏‎‎‎‏‏‏‎‎‏‎‎‏‎‏‎‏‏‎‏‏‎‏‏‎‎‏‏‏‏‎‎‎Bluetooth pairing request‎‏‎‎‏‎"</string>
@@ -173,9 +188,9 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‎‎‏‎‏‎‏‎‏‎‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‎‏‏‎‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‎‏‏‏‎‏‏‏‎Google legal‎‏‎‎‏‎"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‏‏‏‏‎‎‎‏‏‏‎‏‎‎‎‏‏‏‎‎‏‏‎‏‎‏‎‏‏‎‎‏‎‎‏‏‎‏‏‏‏‎‏‎‏‎‎License data is unavailable‎‏‎‎‏‎"</string>
     <string name="about_model" msgid="9164284529291439296">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‏‎‎‎‎‎‏‏‎‎‎‏‎‏‏‎‎‏‏‎‎‎‎‎‎‎Model‎‏‎‎‏‎"</string>
-    <string name="about_version" msgid="7800676128792880991">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‎‏‎‎‎‎‎‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‎‎‎‎‎‎‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‎‎‏‏‏‎‏‎‏‏‏‏‏‎Version‎‏‎‎‏‎"</string>
+    <string name="about_version" msgid="6223547403835399861">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‎‏‏‎‎‎‎‏‏‎‏‎‎‏‏‏‎‏‏‏‏‎‏‎‏‏‎‏‎‏‎Android TV OS version‎‏‎‎‏‎"</string>
     <string name="about_serial" msgid="3432319328808745459">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‎‎‎‎‎‏‏‎‎‎‎‏‏‏‏‏‎‏‎‎‎‏‏‎‏‎‏‎‏‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‏‎‎‏‏‎Serial number‎‏‎‎‏‎"</string>
-    <string name="about_build" msgid="1139171613038225768">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‏‏‏‏‎‎‏‏‏‏‎‎‏‎‎‏‏‎‏‎‎‎‏‎‏‏‏‏‏‎‎‏‎‏‎‏‎‏‏‎‏‎‎‎‏‎‏‎‎‏‎‏‏‎‏‎‎‎‎Build‎‏‎‎‏‎"</string>
+    <string name="about_build" msgid="8467840394761634575">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‎‎‏‏‏‏‎‎‏‏‏‏‏‏‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‏‏‏‏‎‎‎‏‎‎‎‎‎‏‏‎‎‎‎‏‏‏‏‎Android TV OS build‎‏‎‎‏‎"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="523455736684670250">
       <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‎‎‎‎‏‏‏‎‏‏‎‎‎‎‎‎‏‏‏‎‎‎‎‎‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‏‏‎‏‏‎‏‎‎‏‎‏‎‏‎‎You are now ‎‏‎‎‏‏‎<xliff:g id="STEP_COUNT_1">%1$d</xliff:g>‎‏‎‎‏‏‏‎ steps away from being a developer‎‏‎‎‏‎</item>
       <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‎‎‎‎‏‏‏‎‏‏‎‎‎‎‎‎‏‏‏‎‎‎‎‎‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‏‏‎‏‏‎‏‎‎‏‎‏‎‏‎‎You are now ‎‏‎‎‏‏‎<xliff:g id="STEP_COUNT_0">%1$d</xliff:g>‎‏‎‎‏‏‏‎ step away from being a developer‎‏‎‎‏‎</item>
@@ -537,12 +552,6 @@
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‏‏‎‎‎‏‎‏‎‎‏‏‏‏‎‏‎‎‏‏‎‏‏‎‏‎‏‎‏‎‏‏‏‎‏‎‎‎‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‎‏‎Flash entire window surfaces when they update‎‏‎‎‏‎"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‏‏‎‏‎‎‎‎‎‏‏‏‏‎‏‏‏‎‏‎‎‎‏‏‏‏‎‏‏‏‏‏‎‏‏‏‏‏‎‏‎‏‏‏‏‎‎‎‎‏‎‎‏‎‎‎Flash screen when apps do long operations on main thread‎‏‎‎‏‎"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‎‎‏‏‏‎‏‏‎‏‎‏‎‎‏‏‏‎‎‏‏‎‎‎‏‏‎‎‏‎‎‏‎‏‎‏‏‎‎‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‎Measure rendering time in adb shell dumpsys gfxinfo‎‏‎‎‏‎"</string>
-    <string name="action_on_title" msgid="1074972820237738324">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‏‎‏‏‏‎‏‎‏‏‎‎‎‏‎‎‏‎‎‎‎‏‎‏‎‏‏‎‏‎‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‎‎‎‎‏‎‏‎‏‎‏‎‎‎On‎‏‎‎‏‎"</string>
-    <string name="action_off_title" msgid="3598665702863436597">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‏‏‏‏‎‎‎‏‎‎‎‎‎‏‏‏‎‏‏‎‎‎‏‏‏‏‏‎‎‏‎‎‏‎‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‎‏‏‎‏‎‏‎Off‎‏‎‎‏‎"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‎‎‎‏‏‎‎‏‏‏‏‏‎‎‎‏‎‎‎‏‏‎‎‏‎‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‎‎‏‏‎‏‏‏‎On‎‏‎‎‏‎"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‏‏‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‎‎‎‎‏‎‏‏‎‏‎‎‎‎‎‎‎‏‎‏‎‏‏‎‏‎‏‎‎‏‏‏‎‏‎‏‏‎‎Off‎‏‎‎‏‎"</string>
-    <string name="agree" msgid="8155497436593889753">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‏‏‎‎‎‏‎‎‏‎‏‏‎‏‏‎‏‎‏‎‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‏‎‏‎‎‎‎‏‏‏‎‏‏‎‎‏‎Agree‎‏‎‎‏‎"</string>
-    <string name="disagree" msgid="7402998517682194430">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‎‎‏‏‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎Disagree‎‏‎‎‏‎"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‎‎‎‎‏‎‎‎‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‏‏‎‎‎‎‎‏‎Unknown sources‎‏‎‎‏‎"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‏‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‎‏‎‏‎‏‎‎‏‎‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‎‏‏‎Allow installation of apps from sources other than the Play Store‎‏‎‎‏‎"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‏‎‏‏‎‎‏‎‏‎‏‎‎‎‏‎‏‏‏‎‎‎‏‏‎‎‏‏‏‏‏‏‎‎‏‏‎‎‏‏‏‎‎‏‎Allow unknown sources‎‏‎‎‏‎"</string>
@@ -689,6 +698,7 @@
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‏‏‎‎‎‎‏‏‎‎‏‏‎‎‏‎‎‎‎‏‏‏‎‎‎‎‏‏‎‎‎‎‎‏‎‎‎‎‎‎‎‎‏‎‏‏‎‏‏‏‏‎‏‎Permissions‎‏‎‎‏‎"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‎‏‎‎‎‏‎‎‏‎‎‎‏‎‏‏‎‏‏‏‎‎‏‎‏‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‎‎Application unavailable‎‏‎‎‏‎"</string>
     <string name="settings_ok" msgid="5950888975075541964">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‏‎‎‏‎‏‎‏‏‏‎‎‏‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‎‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‎‎‏‏‏‏‎‎‏‏‎‎‎OK‎‏‎‎‏‎"</string>
+    <string name="settings_confirm" msgid="4489126458677153411">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‎‎‏‎‎‏‏‎‎‏‎‎‏‎‏‎‎‏‎‏‏‏‎‏‎‏‏‎‏‎‎‎‏‎‏‎‎‎‎‏‎‎‏‎‎‏‏‏‎‏‎‎‎‎‎‏‏‎Confirm‎‏‎‎‏‎"</string>
     <string name="settings_cancel" msgid="576094334743686152">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‏‎‎‎‎‎‏‏‎‎‏‎‏‏‎‎‎‎‎‎‏‎‎‎‎Cancel‎‏‎‎‏‎"</string>
     <string name="settings_on" msgid="7734010120323404333">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‏‎‏‎‎‏‎‏‏‏‎‎‏‎‎‏‏‏‎‏‎‎‏‎‏‎‏‏‏‎‎‏‎‎‏‏‏‎‎‎‏‎‎‏‎‎‎‏‎‏‏‎‏‎On‎‏‎‎‏‎"</string>
     <string name="settings_off" msgid="4060451657850476369">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‎‏‎‏‏‎‎‏‏‎‎‏‏‏‏‏‎‏‎‎‎‏‎‏‎‎‎‎‎‏‎‏‏‏‎‏‎‎‏‎‏‏‎‏‎‏‏‏‎‏‎‏‎‎‎‏‎Off‎‏‎‎‏‎"</string>
@@ -703,6 +713,8 @@
     <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‏‏‎‎‏‎‏‏‎‏‏‎‎‏‎‏‏‎‏‏‏‏‏‎‎‎‏‎‎‏‏‎‎‏‏‏‏‏‎‎‏‎‏‎‏‎‎‏‏‎‏‎‏‏‎‏‎Turn off display after‎‏‎‎‏‎"</string>
     <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‏‎‎‎‏‏‏‏‏‏‎‎‏‎‎‎‏‎‎‎‏‎‏‎‎‏‎‏‏‏‏‏‏‎‎‏‏‎‎‏‎Allow turning screen off‎‏‎‎‏‎"</string>
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‎‏‏‎‎‏‎‏‏‏‏‎‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‎‏‎‏‎‎‎‏‎‎‏‎‎‎‏‏‏‎‎‎‎‎‎‏‎‎During media playback‎‏‎‎‏‎"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‏‏‏‎‎‏‏‎‎‎‎‎‎‎‎‏‎‏‏‎‎‏‏‎‎‏‏‏‎‎‎‎‎‏‎‏‏‏‎‏‏‏‎Confirm Energy Saver setting‎‏‎‎‏‎"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‎‏‏‏‏‎‏‎‎‎‏‏‏‎‏‏‎‏‏‏‏‏‏‎‏‏‏‏‎‏‎‎‏‎‏‎‏‏‎‎‎‎‏‏‏‏‏‎‎‏‎‏‎‎‎‎‏‎‏‎Please confirm new setting to ‎‏‎‎‏‏‎<xliff:g id="SLEEP_TIME">%1$s</xliff:g>‎‏‎‎‏‏‏‎, which has the potential for increased energy use.‎‏‎‎‏‎"</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‏‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‏‎‎‎‎‎‏‏‎‏‎‎‏‏‏‏‎‏‏‎‎‏‎‏‏‎‏‎‎‎‎No account is currently storing backed up data‎‏‎‎‏‎"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‎‏‏‎‎‎‏‎‏‎‏‎‏‎‎‏‏‏‎‎‎‎‎‎‎‏‏‎‏‏‏‎‏‏‎‎‏‏‎‎‎‎‎‏‎‏‏‎‎‏‏‎‏‎‏‏‏‎‏‎Stop backing up your Wi-Fi passwords, bookmarks, other settings, and app data, and erase all copies on Google servers?‎‏‎‎‏‎"</string>
@@ -732,7 +744,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‎‏‏‏‏‎‏‎‎‎‏‏‎‏‎‏‎‎‏‎‏‎‏‏‏‎‎‎‏‎‏‏‏‎‎‎‏‏‏‎‎‎‎‏‎‎‎‏‎‎‎‏‏‎‎App permissions‎‏‎‎‏‎"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‎‎‏‎‏‏‏‏‏‎‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‏‎‎‎‎‎‏‎‎‏‎‎‎‏‎‏‏‏‎‏‎‎‏‎‎‏‏‎<xliff:g id="COUNT_0">%1$d</xliff:g>‎‏‎‎‏‏‏‎ of ‎‏‎‎‏‏‎<xliff:g id="COUNT_1">%2$d</xliff:g>‎‏‎‎‏‏‏‎ apps allowed‎‏‎‎‏‎"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‏‏‎‏‏‎‏‏‏‎‏‎‎‎‎‏‎‎‎‎‏‎‏‏‏‎‏‎‏‎‎‎‎‏‎‏‎‎‎‎‏‎Bluetooth permission request‎‏‎‎‏‎"</string>
-    <string name="security_patch" msgid="5468261708915367254">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‏‏‏‎‎‎‏‏‎‎‏‎‏‎‏‏‎‎‎‎‏‏‎‏‎‏‎‏‏‎‏‎‏‏‎‎‎‏‎‏‎‏‎‏‏‏‎‏‎‏‎‏‎‏‏‎‎Android security patch level‎‏‎‎‏‎"</string>
+    <string name="security_patch" msgid="8924741264829495392">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‏‎‎‏‏‏‎‎‏‎‏‎‎‏‎‎‎‏‎‎‏‏‎‏‏‏‎‏‎‏‏‏‎‎‎‎‏‏‎‎‎‎‎‎Android TV OS security patch level‎‏‎‎‏‎"</string>
     <string name="choose_application" msgid="2375936782103669988">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‎‎‎‎‏‏‏‏‏‎‎‏‎‎‎‎‎‏‎‏‏‏‏‎‏‎‏‎‎‏‎‎‎‎‏‎‎‎‎‏‎‎‏‎‏‏‏‎‏‏‎‎‏‏‏‎‎‏‎‎‎Choose application‎‏‎‎‏‎"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‏‎‏‎‎‎‎‎‎‏‏‎‏‏‏‎‏‏‎‎‏‎‏‎‎‏‎‏‏‏‎‎‎‎‎‏‏‎‎‎‎‎‏‏‏‏‏‏‏‎‎‎(Experimental)‎‏‎‎‏‎"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‎‏‏‏‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‏‎‎‏‏‏‏‏‎‎‏‏‎‎‎‎‎‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‎‎‎Reboot to safe mode‎‏‎‎‏‎"</string>
