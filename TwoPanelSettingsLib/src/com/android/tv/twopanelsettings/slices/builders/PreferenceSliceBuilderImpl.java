@@ -40,9 +40,12 @@ import static androidx.slice.core.SliceHints.SUBTYPE_MILLIS;
 
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.BUTTONSTYLE;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_ACTION_ID;
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_ADD_INFO_STATUS;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PAGE_ID;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_IMAGE;
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_SUMMARY;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_TEXT;
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_TITLE_ICON;
 
 import android.net.Uri;
 
@@ -241,9 +244,12 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
         private SliceItem mButtonStyleItem;
         private SliceItem mIsEnabledItem;
         private SliceItem mIsSelectableItem;
+        private SliceItem mIsAddingInfoStatusItem;
         private SliceItem mRadioGroupItem;
         private SliceItem mInfoTextItem;
         private SliceItem mInfoImageItem;
+        private SliceItem mInfoTitleIconItem;
+        private SliceItem mInfoSummaryItem;
 
         /**
          *
@@ -315,12 +321,22 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
             if (builder.getInfoText() != null) {
                 setInfoText(builder.getInfoText());
             }
+            if (builder.getInfoTitle() != null) {
+                setInfoTitle(builder.getInfoTitle());
+            }
+            if (builder.getInfoSummary() != null) {
+                setInfoSummary(builder.getInfoSummary());
+            }
+            if (builder.getInfoTitleIcon() != null) {
+                setInfoTitleIcon(builder.getInfoTitleIcon());
+            }
             if (builder.getInfoImage() != null) {
                 setInfoImage(builder.getInfoImage());
             }
             setButtonStyle(builder.getButtonStyle());
             setEnabled(builder.isEnabled());
             setSelectable(builder.isSelectable());
+            setAddInfoStatus(builder.addInfoStatus());
             List<Object> endItems = builder.getEndItems();
             List<Integer> endTypes = builder.getEndTypes();
             List<Boolean> endLoads = builder.getEndLoads();
@@ -481,18 +497,37 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
                     selectable ? 1 : 0, FORMAT_INT, SUBTYPE_IS_SELECTABLE, new String[]{});
         }
 
+        public void setAddInfoStatus(boolean addInfoStatus) {
+            mIsAddingInfoStatusItem = new SliceItem(
+                    addInfoStatus ? 1 : 0, FORMAT_INT, EXTRA_ADD_INFO_STATUS, new String[]{});
+        }
+
         public void setKey(CharSequence key) {
             mKeyItem = new SliceItem(key, FORMAT_TEXT, TAG_KEY, new String[] {HINT_KEYWORDS});
         }
 
         public void setInfoText(CharSequence infoText) {
-            mInfoTextItem = new SliceItem(
-                    infoText, FORMAT_TEXT, EXTRA_PREFERENCE_INFO_TEXT, new String[]{});
+            setInfoTitle(infoText);
         }
 
         public void setInfoImage(IconCompat infoImage) {
             mInfoImageItem = new SliceItem(
                     infoImage, FORMAT_IMAGE, EXTRA_PREFERENCE_INFO_IMAGE, new String[]{});
+        }
+
+        public void setInfoTitleIcon(IconCompat infoImage) {
+            mInfoTitleIconItem = new SliceItem(
+                    infoImage, FORMAT_IMAGE, EXTRA_PREFERENCE_INFO_TITLE_ICON, new String[]{});
+        }
+
+        public void setInfoTitle(CharSequence infoTitle) {
+            mInfoTextItem = new SliceItem(
+                    infoTitle, FORMAT_TEXT, EXTRA_PREFERENCE_INFO_TEXT, new String[]{});
+        }
+
+        public void setInfoSummary(CharSequence infoSummary) {
+            mInfoSummaryItem = new SliceItem(
+                    infoSummary, FORMAT_TEXT, EXTRA_PREFERENCE_INFO_SUMMARY, new String[]{});
         }
 
         /**
@@ -613,6 +648,15 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
             }
             if (mPageIdItem != null) {
                 b.addItem(mPageIdItem);
+            }
+            if (mInfoTitleIconItem != null) {
+                b.addItem(mInfoTitleIconItem);
+            }
+            if (mInfoSummaryItem != null) {
+                b.addItem(mInfoSummaryItem);
+            }
+            if (mIsAddingInfoStatusItem != null) {
+                b.addItem(mIsAddingInfoStatusItem);
             }
             for (int i = 0; i < mEndItems.size(); i++) {
                 Slice item = mEndItems.get(i);

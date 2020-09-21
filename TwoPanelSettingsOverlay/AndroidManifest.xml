@@ -122,6 +122,19 @@
             </intent-filter>
                             -->
         </activity>
+        <activity
+            android:name=".connectivity.NetworkRequestDialogActivity"
+            android:theme="@style/Transparent"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=".connectivity.NetworkRequestDialogActivity"
+            android:exported="true"
+            android:permission="android.permission.NETWORK_SETTINGS">
+            <intent-filter>
+                <action android:name="com.android.settings.wifi.action.NETWORK_REQUEST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:clearTaskOnLaunch="true"
              android:configChanges="keyboard|keyboardHidden|navigation"
              android:excludeFromRecents="true"
@@ -797,6 +810,17 @@
             <intent-filter>
                 <action android:name="android.app.action.ADD_DEVICE_ADMIN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".slice.SliceActivity"
+                  android:theme="@style/Theme.Settings.TwoPanel"
+                  android:configChanges="keyboard|keyboardHidden|navigation"
+                  android:excludeFromRecents="true"
+                  android:exported="true">
+            <intent-filter android:priority="3">
+                <action android:name="android.settings.SLICE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
