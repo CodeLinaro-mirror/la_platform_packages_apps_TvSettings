@@ -22,6 +22,7 @@ import android.text.InputType;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
@@ -144,13 +145,15 @@ public class EnterPasswordState implements State {
                     } else if (action.getId() == GuidedAction.ACTION_ID_CONTINUE) {
                         mTextInput = (EditText) vh.itemView.findViewById(
                                 R.id.guidedactions_item_title);
+                        mTextInput.setImeOptions(
+                                EditorInfo.IME_ACTION_DONE | EditorInfo.IME_FLAG_NO_EXTRACT_UI);
                         openInEditMode(action);
                     }
                 }
 
                 @Override
-                protected void onEditingModeChange(ViewHolder vh, boolean editing,
-                        boolean withTransition) {
+                protected void onEditingModeChange(
+                        ViewHolder vh, boolean editing, boolean withTransition) {
                     super.onEditingModeChange(vh, editing, withTransition);
                     updatePasswordInputObfuscation();
                 }
@@ -222,10 +225,12 @@ public class EnterPasswordState implements State {
         }
 
         private void updatePasswordInputObfuscation() {
-            mTextInput.setInputType(InputType.TYPE_CLASS_TEXT
-                    | (mCheckBox.isChecked()
-                    ? InputType.TYPE_TEXT_VARIATION_PASSWORD
-                    : InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD));
+            if (mTextInput != null && mCheckBox != null) {
+                mTextInput.setInputType(InputType.TYPE_CLASS_TEXT
+                        | (mCheckBox.isChecked()
+                        ? InputType.TYPE_TEXT_VARIATION_PASSWORD
+                        : InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD));
+            }
         }
 
 

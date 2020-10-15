@@ -21,6 +21,7 @@ import static android.app.slice.Slice.HINT_PARTIAL;
 
 import static com.android.tv.twopanelsettings.slices.InstrumentationUtils.logEntrySelected;
 import static com.android.tv.twopanelsettings.slices.InstrumentationUtils.logToggleInteracted;
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_STATUS;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_KEY;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_SLICE_FOLLOWUP;
 
@@ -389,6 +390,18 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                 screen.addPreference(newPref);
             }
         }
+        removeAnimationClipping(getView());
+    }
+
+    protected void removeAnimationClipping(View v) {
+        if (v instanceof ViewGroup) {
+            ((ViewGroup) v).setClipChildren(false);
+            ((ViewGroup) v).setClipToPadding(false);
+            for (int index = 0; index < ((ViewGroup) v).getChildCount(); index++) {
+                View child = ((ViewGroup) v).getChildAt(index);
+                removeAnimationClipping(child);
+            }
+        }
     }
 
     @Override
@@ -421,6 +434,10 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             // TODO - Show loading indicator here?
             try {
                 boolean isChecked = ((TwoStatePreference) preference).isChecked();
+                preference.getExtras().putBoolean(EXTRA_PREFERENCE_INFO_STATUS, isChecked);
+                if (getParentFragment() instanceof TwoPanelSettingsFragment) {
+                    ((TwoPanelSettingsFragment) getParentFragment()).refocusPreference(this);
+                }
                 logToggleInteracted(getPreferenceActionId(preference), isChecked);
                 Intent fillInIntent =
                         new Intent()
@@ -585,6 +602,9 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                 R.layout.slice_title_container, container, false);
         view.removeView(view.findViewById(R.id.decor_title_container));
         view.addView(newTitleContainer, 0);
+
+        newTitleContainer.setOutlineProvider(null);
+        newTitleContainer.setBackgroundResource(R.color.tp_preference_panel_background_color);
 
         final View newContainer =
                 themedInflater.inflate(R.layout.slice_progress_bar, container, false);

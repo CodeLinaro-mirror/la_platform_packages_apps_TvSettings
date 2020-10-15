@@ -455,10 +455,10 @@ public class AppRestrictionsFragment extends SettingsPreferenceFragment implemen
             } else if (!mNewUser && isAppEnabledForUser(pi)) {
                 p.setChecked(true);
             }
-            if (app.masterEntry == null && hasSettings) {
+            if (app.primaryEntry == null && hasSettings) {
                 requestRestrictionsForApp(packageName, p);
             }
-            if (app.masterEntry != null) {
+            if (app.primaryEntry != null) {
                 p.setImmutable(true);
                 p.setChecked(mHelper.isPackageSelected(packageName));
             }
@@ -477,17 +477,17 @@ public class AppRestrictionsFragment extends SettingsPreferenceFragment implemen
 
     private String getPackageSummary(PackageInfo pi, AppRestrictionsHelper.SelectableAppInfo app) {
         // Check for 3 cases:
-        // - Slave entry that can see primary user accounts
-        // - Slave entry that cannot see primary user accounts
-        // - Master entry that can see primary user accounts
+        // - Primary entry that can see primary user accounts
+        // - Primary entry that cannot see primary user accounts
+        // - Primary entry that can see primary user accounts
         // Otherwise no summary is returned
-        if (app.masterEntry != null) {
+        if (app.primaryEntry != null) {
             if (mRestrictedProfile && pi.restrictedAccountType != null) {
                 return getString(R.string.app_sees_restricted_accounts_and_controlled_by,
-                        app.masterEntry.activityName);
+                        app.primaryEntry.activityName);
             }
             return getString(R.string.user_restrictions_controlled_by,
-                    app.masterEntry.activityName);
+                    app.primaryEntry.activityName);
         } else if (pi.restrictedAccountType != null) {
             return getString(R.string.app_sees_restricted_accounts);
         }
@@ -839,7 +839,7 @@ public class AppRestrictionsFragment extends SettingsPreferenceFragment implemen
      * @return UserInfo of the user or null for non-existent user.
      */
     private static UserInfo getExistingUser(UserManager userManager, UserHandle checkUser) {
-        final List<UserInfo> users = userManager.getUsers(true /* excludeDying */);
+        final List<UserInfo> users = userManager.getAliveUsers();
         final int checkUserId = checkUser.getIdentifier();
         for (UserInfo user : users) {
             if (user.id == checkUserId) {
