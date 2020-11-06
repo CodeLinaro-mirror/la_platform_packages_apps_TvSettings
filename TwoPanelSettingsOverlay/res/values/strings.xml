@@ -18,6 +18,4 @@
 <resources>
     <!-- Title for main screen preference for device [CHAR_LIMIT_50] -->
     <string name="device_pref_category_title">System</string>
-    <!-- Title for display & sound preference [CHAR LIMIT=50] -->
-    <string name="device_sound">Display &amp; Sound</string>
 </resources>
