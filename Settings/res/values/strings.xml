@@ -1497,6 +1497,10 @@
 
     <!-- Message displayed to prompt the user to input the network password, ^1 will be replaced with the name of the network and should be a possive form related to password [CHAR LIMIT=NONE] -->
     <string name="wifi_setup_input_password">Enter password for <xliff:g id="ssid">%1$s</xliff:g></string>
+    <!-- Summary displayed to explain next steps for user to submit network password, ^1 be replaced with keyboard icon to be selected [CHAR LIMIT=NONE] -->
+    <string name="wifi_setup_description">Select <xliff:g id="wifi_submit_icon">%1$s</xliff:g> to continue.</string>
+    <!-- The subtitle wifi setup description presents an action done icon to match the action done keyboard icon. This string, therefore, should match the content description of action done on the keyboard [CHAR LIMIT=NONE]-->
+    <string name="label_done_key">Done</string>
     <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
     <string name="wifi_setup_connection_success">Connected successfully</string>
     <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
@@ -1872,7 +1876,23 @@
 
     <!-- Vendor & Samples -->
     <string name="vendor_activity_title" translatable="false">Vendor sample activity</string>
-    <string name="channels_and_inputs" translatable="false" >Channels &amp; Inputs</string>
+    <string name="vendor_sample_settings_summary" translatable="false">(Subtitle is suggested to give further information)</string>
+    <!-- Title for "Channels & Inputs" settings [CHAR LIMIT=60] -->
+    <string name="channels_and_inputs_title">Channels &amp; Inputs</string>
+    <!-- Summary for "Channels & Inputs" settings [CHAR LIMIT=60] -->
+    <string name="channels_and_inputs_summary">Channels, external inputs</string>
+    <!-- Title for "Channels" settings [CHAR LIMIT=60] -->
+    <string name="channels_settings_title">Channels</string>
+    <!-- Title for "External inputs" settings [CHAR LIMIT=60] -->
+    <string name="external_inputs_settings_title">External inputs</string>
+    <!-- Summary for vendor sample "Display & Sound" settings [CHAR LIMIT=60] -->
+    <string name="display_and_sound_vendor_summary">Picture, screen, sound</string>
+    <!-- Title for "Picture" settings [CHAR LIMIT=60] -->
+    <string name="picture_settings_title">Picture</string>
+    <!-- Title for "Screen" settings [CHAR LIMIT=60] -->
+    <string name="screen_settings_title">Screen</string>
+    <!-- Title for "Sound" settings [CHAR LIMIT=60] -->
+    <string name="sound_settings_title">Sound</string>
     <!-- Title of power and energy page [CHAR LIMIT=60] -->
     <string name="power_and_energy">Power &amp; Energy</string>
     <!-- Title of power on behavior item [CHAR LIMIT=60] -->

@@ -427,7 +427,7 @@
     <string name="system_desc_location" msgid="1680134126100535031">"Рұқсат сұраған қолданбаларға орныңыз туралы ақпаратты пайдалануға рұқсат ету"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Орынды анықтауға келісім"</string>
     <string name="location_mode_title" msgid="728244518174115443">"Режим"</string>
-    <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Соңғы орналасу сұраулары"</string>
+    <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Соңғы орынды анықтау сұраулары"</string>
     <string name="location_no_recent_apps" msgid="7033474075806435793">"Жуықта ешбір қолданба орынды сұрамаған"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"Батареяны пайдалану жоғары"</string>
     <string name="location_low_battery_use" msgid="728585923412018253">"Төмен деңгейде батарея пайдалану"</string>
@@ -674,6 +674,10 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"Қате PIN коды, әрекетті қайталаңыз"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"Әрекетті қайталаңыз, PIN кодтары сәйкес емес"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"<xliff:g id="SSID">%1$s</xliff:g> құпия сөзін енгізіңіз"</string>
+    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
+    <skip />
+    <!-- no translation found for label_done_key (8576286462300373440) -->
+    <skip />
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Сәтті қосылдыңыз"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Сәтті сақталды"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> нұсқасы"</string>
@@ -816,5 +820,7 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Байланыс орнатылды."</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Барлығын көрсету"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Іздеу"</string>
-    <string name="kids_mode_noop_settings_toast" msgid="7061687428262416807"></string>
+    <string name="power_and_energy" msgid="4638182439670702556">"Қуат және энергия"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"Қосылу кезіндегі әрекет"</string>
+    <string name="reset_options_title" msgid="7632580482285108955">"Қайтару"</string>
 </resources>

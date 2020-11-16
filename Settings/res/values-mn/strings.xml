@@ -674,6 +674,10 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"Буруу PIN, дахин оролдоно уу"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"Дахин оролдоно уу, PIN таарахгүй байна"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"<xliff:g id="SSID">%1$s</xliff:g>-д нууц үгийг оруулна уу"</string>
+    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
+    <skip />
+    <!-- no translation found for label_done_key (8576286462300373440) -->
+    <skip />
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Амжилттай холбогдлоо"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Амжилттай хадгаллаа"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Хувилбар <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
@@ -747,7 +751,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"Апп зөвшөөрөл"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_1">%2$d</xliff:g>-с <xliff:g id="COUNT_0">%1$d</xliff:g> аппыг зөвшөөрсөн"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"Bluetooth зөвшөөрөл хүсэх"</string>
-    <string name="security_patch" msgid="8924741264829495392">"Android TV-н үйлдлийн системийн аюулгүй байдлын patch түвшин"</string>
+    <string name="security_patch" msgid="8924741264829495392">"Android TV-н үйлдлийн системийн аюулгүй байдлын засварын түвшин"</string>
     <string name="choose_application" msgid="2375936782103669988">"Аппликэйшн сонгох"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(Туршилтын)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"Аюулгүй горимоор дахин асаах"</string>
@@ -768,7 +772,7 @@
     <string name="high_power_system" msgid="6263052626979462255">"Батарейны хэрэглээг оновчлох боломжгүй байна"</string>
     <string name="manage_notification_access_title" msgid="8659254371564990084">"Мэдэгдлийн хандалт"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Суулгасан аппаас мэдэгдлийн хандалт хүссэн апп алга."</string>
-    <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Эдгээр апп харилцагчийн нэр, таны хүлээж авдаг зурвасын текст зэрэг хувийн мэдээлэл бүхий бүх мэдэгдлийг унших боломжтой болно. Түүнчлэн эдгээр нь мэдэгдлийг хаах эсвэл үйлдэл хийх товчлуураа өдөөх боломжтой."</string>
+    <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Эдгээр апп харилцагчийн нэр, таны хүлээж авдаг мессежийн текст зэрэг хувийн мэдээлэл бүхий бүх мэдэгдлийг унших боломжтой болно. Түүнчлэн эдгээр нь мэдэгдлийг хаах эсвэл үйлдэл хийх товчлуураа өдөөх боломжтой."</string>
     <string name="directory_access" msgid="7338555825237012006">"Лавлахын хандалт"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"Эдгээр апп зарим лавлахад хандах зөвшөөрөлтэй байна."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
@@ -816,5 +820,7 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Амжилттай холбогдлоо"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Бүгдийг харуулах"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Хайж байна"</string>
-    <string name="kids_mode_noop_settings_toast" msgid="7061687428262416807"></string>
+    <string name="power_and_energy" msgid="4638182439670702556">"Тэжээл болон эрчим хүч"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"Асаалттай үеийн төлөв"</string>
+    <string name="reset_options_title" msgid="7632580482285108955">"Шинэчлэх"</string>
 </resources>

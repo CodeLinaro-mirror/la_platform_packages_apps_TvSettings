@@ -674,6 +674,10 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"অশুদ্ধ PIN, পুনৰ চেষ্টা কৰক"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"পিনটো মিলা নাই, আকৌ চেষ্টা কৰক"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"<xliff:g id="SSID">%1$s</xliff:g>ৰ বাবে পাছৱৰ্ড দিয়ক"</string>
+    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
+    <skip />
+    <!-- no translation found for label_done_key (8576286462300373440) -->
+    <skip />
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"সফলতাৰে সংযোগ কৰা হ’ল"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"সফলতাৰে ছেভ কৰা হ’ল"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> সংস্কৰণ"</string>
@@ -816,5 +820,7 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"সংযোগ সফল হৈছে"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"সকলো দেখুৱাওক"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"সন্ধান কৰি থকা হৈছে"</string>
-    <string name="kids_mode_noop_settings_toast" msgid="7061687428262416807"></string>
+    <string name="power_and_energy" msgid="4638182439670702556">"ক্ষমতা আৰু শক্তি"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"আৰম্ভ হওঁতে প্ৰদৰ্শিত হোৱা কাৰ্যকলাপ"</string>
+    <string name="reset_options_title" msgid="7632580482285108955">"ৰিছেট কৰক"</string>
 </resources>

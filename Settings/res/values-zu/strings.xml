@@ -151,12 +151,12 @@
     <string name="error_action_not_supported" msgid="5377532621386080296">"Lesi senzo asisekelwe"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"Isicelo sokubhanqa i-Bluetooth"</string>
     <string name="bluetooth_confirm_passkey_msg" msgid="7397401633869153520">"Ukuze ubhanqa ne-: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, qinisekisa ukuthi ibonisa lo khiye wokucindezela: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
-    <string name="bluetooth_incoming_pairing_msg" msgid="8587851808387685613">"Kusuka ku-:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Bhanqa nale divayisi?"</string>
+    <string name="bluetooth_incoming_pairing_msg" msgid="8587851808387685613">"Kusuka ku-:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Bhangqa nale divayisi?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="6934651048757228432">"Ukuze ubhanqe nayo: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;br&gt;Thayipha kuyo: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>, bese ucindezela ku-Return noma ku-Enter."</string>
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"Ukuze ubhanqe nayo: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Thayipha i-PIN edingekayo yedivayisi:"</string>
     <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"Ukuze ubhanqe nayo: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Thayipha ukhiye wokudlula odingekayo wedivayisi:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Ngokuvamile ngu-0000 noma ngu-1234"</string>
-    <string name="bluetooth_pair" msgid="2410285813728786067">"Bhanqa"</string>
+    <string name="bluetooth_pair" msgid="2410285813728786067">"Bhangqa"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Khansela"</string>
     <string name="send_feedback" msgid="936698637869795473">"Thumela impendulo"</string>
     <string name="launch_help" msgid="2607478763131952469">"Isikhungo sosizo"</string>
@@ -674,6 +674,10 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"I-PIN engalungile, zama futhi"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"Phinda uzame, i-PIN ayifani"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"Faka iphasiwedi ye-<xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
+    <skip />
+    <!-- no translation found for label_done_key (8576286462300373440) -->
+    <skip />
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ixhumeke ngempumelelo"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Ilondolozwe ngempumelelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Inguqulo <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
@@ -816,5 +820,7 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Ukuxhumeka kuphumelele"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Veza konke"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Iyasesha"</string>
-    <string name="kids_mode_noop_settings_toast" msgid="7061687428262416807"></string>
+    <string name="power_and_energy" msgid="4638182439670702556">"Amandla Namandla"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"Ukuziphatha kokuvulwa"</string>
+    <string name="reset_options_title" msgid="7632580482285108955">"Setha kabusha"</string>
 </resources>
