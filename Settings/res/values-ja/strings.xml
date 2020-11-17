@@ -180,6 +180,7 @@
     <string name="system_diagnostic" msgid="1654842813331919958">"使用状況と診断"</string>
     <string name="tutorials" msgid="7880770425872110455">"チュートリアル"</string>
     <string name="about_system_update" msgid="7421264399111367755">"システムアップデート"</string>
+    <string name="system_update_description" msgid="998883510488461766">"これにより、システム ソフトウェアが最新のバージョンに更新され、デバイスが再起動します。"</string>
     <string name="about_preference" msgid="9112690446998150670">"デバイス情報"</string>
     <string name="device_name" msgid="566626587332817733">"デバイス名"</string>
     <string name="restart_button_label" msgid="911750765086382990">"再起動"</string>
@@ -196,6 +197,7 @@
       <item quantity="one">デベロッパーになるまであと<xliff:g id="STEP_COUNT_0">%1$d</xliff:g>ステップです</item>
     </plurals>
     <string name="about_ads" msgid="7662896442040086522">"広告"</string>
+    <string name="ads_description" msgid="8081069475265061074">"広告設定（広告 ID のリセットなど）を管理します。"</string>
     <string name="show_dev_on" msgid="612741433124106067">"開発者向けオプションが有効になりました"</string>
     <string name="show_dev_already" msgid="1522591284776449818">"開発者向けオプションが既に有効です"</string>
     <string name="device_info_default" msgid="2374506935205518448">"不明"</string>
@@ -723,6 +725,7 @@
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"自動復元"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"デバイスをリセット"</string>
     <string name="factory_reset_description" msgid="4448783644897046471">"これにより、お使いのデバイスの内部ストレージから、Googleアカウント、システムとアプリのデータと設定、ダウンロードしたアプリなどすべてのデータが削除されます"</string>
+    <string name="factory_reset_info_description" msgid="5098454670833183487">"デバイスがデフォルトの設定にリセットされ、データ、アカウント、ファイル、ダウンロードしたアプリがすべて削除されます。"</string>
     <string name="confirm_factory_reset_description" msgid="1337483463207721713">"このデバイスから個人情報とダウンロードしたアプリをすべて消去しますか？この操作を元に戻すことはできません。"</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"すべて消去"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g> の名前を選択"</string>
@@ -797,6 +800,7 @@
     <string name="title_data_saver" msgid="7500278996154002792">"データセーバー"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"モバイルデータ使用量を節約するため、動画の画質を自動的に調整します"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"データ使用量と通知"</string>
+    <string name="data_saver_header_info" msgid="239820871940156510">"Wi-Fi、イーサネット、またはスマートフォンのアクセス ポイントを介してインターネットに接続できます。詳しくは、"<b>"g.co/network"</b>" をご覧ください。"</string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"操作が許可されていません"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"音量を変更することはできません"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"発信は許可されていません"</string>

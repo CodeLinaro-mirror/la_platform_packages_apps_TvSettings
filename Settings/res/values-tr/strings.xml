@@ -180,6 +180,7 @@
     <string name="system_diagnostic" msgid="1654842813331919958">"Kullanım ve teşhis"</string>
     <string name="tutorials" msgid="7880770425872110455">"Eğiticiler"</string>
     <string name="about_system_update" msgid="7421264399111367755">"Sistem güncellemesi"</string>
+    <string name="system_update_description" msgid="998883510488461766">"Bu, sistem yazılımınızı en yeni sürüme günceller. Cihazınız yeniden başlatılır."</string>
     <string name="about_preference" msgid="9112690446998150670">"Hakkında"</string>
     <string name="device_name" msgid="566626587332817733">"Cihaz adı"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Yeniden başlat"</string>
@@ -196,6 +197,7 @@
       <item quantity="one">Geliştirici olmanıza yalnızca <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> adım kaldı</item>
     </plurals>
     <string name="about_ads" msgid="7662896442040086522">"Reklam"</string>
+    <string name="ads_description" msgid="8081069475265061074">"Reklam kimliğinizi sıfırlamak gibi reklam ayarlarınızı yönetin."</string>
     <string name="show_dev_on" msgid="612741433124106067">"Artık siz bir geliştiricisiniz!"</string>
     <string name="show_dev_already" msgid="1522591284776449818">"Gerek yok, siz zaten bir geliştiricisiniz"</string>
     <string name="device_info_default" msgid="2374506935205518448">"Bilinmiyor"</string>
@@ -723,6 +725,7 @@
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Otomatik geri yükle"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"Cihazı sıfırla"</string>
     <string name="factory_reset_description" msgid="4448783644897046471">"Bu işlem, cihazınızın dahili depolamasındaki verilerin tümünü silecektir. Silinecek verilere şunlar dahildir: Google Hesabınız, sistem ve uygulama verilerinizle bunların ayarları ve indirilen uygulamalarınız."</string>
+    <string name="factory_reset_info_description" msgid="5098454670833183487">"Bu işlem, cihazınızı varsayılan ayarlarına geri yükleyip tüm verileri, hesapları, dosyaları ve indirilen uygulamaları siler."</string>
     <string name="confirm_factory_reset_description" msgid="1337483463207721713">"Bu cihazdaki tüm kişisel bilgileriniz ve indirilmiş uygulamalar silinsin mi? Bu işlemi geri alamazsınız."</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"Her şeyi sil"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g> cihazınız için bir ad seçin"</string>
@@ -797,6 +800,7 @@
     <string name="title_data_saver" msgid="7500278996154002792">"Veri Tasarrufu"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"Video kalitesini daha az mobil veri kullanacak şekilde otomatik olarak ayarlayın"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Veri kullanımı ve uyarılar"</string>
+    <string name="data_saver_header_info" msgid="239820871940156510">"İnternete kablosuz, Ethernet veya telefonunuzun hotspot\'u üzerinden bağlanabilirsiniz. Daha fazla yardım için "<b>"g.co/network"</b>" sayfasını ziyaret edin."</string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"İşleme izin verilmedi"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Ses düzeyi değiştirilemez"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Telefon etmeye izin verilmiyor"</string>

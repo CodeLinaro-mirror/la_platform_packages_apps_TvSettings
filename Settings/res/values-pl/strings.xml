@@ -184,6 +184,7 @@
     <string name="system_diagnostic" msgid="1654842813331919958">"Użycie i diagnostyka"</string>
     <string name="tutorials" msgid="7880770425872110455">"Samouczki"</string>
     <string name="about_system_update" msgid="7421264399111367755">"Aktualizacja systemu"</string>
+    <string name="system_update_description" msgid="998883510488461766">"Spowoduje to zaktualizowanie oprogramowania systemu do najnowszej wersji. Urządzenie uruchomi się ponownie."</string>
     <string name="about_preference" msgid="9112690446998150670">"Informacje"</string>
     <string name="device_name" msgid="566626587332817733">"Nazwa urządzenia"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Uruchom ponownie"</string>
@@ -202,6 +203,7 @@
       <item quantity="one">Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> krok.</item>
     </plurals>
     <string name="about_ads" msgid="7662896442040086522">"Reklamy"</string>
+    <string name="ads_description" msgid="8081069475265061074">"Zarządzaj ustawieniami reklam, np. resetowaniem identyfikatora wyświetlania reklam."</string>
     <string name="show_dev_on" msgid="612741433124106067">"Jesteś teraz programistą!"</string>
     <string name="show_dev_already" msgid="1522591284776449818">"Nie ma potrzeby, już jesteś programistą"</string>
     <string name="device_info_default" msgid="2374506935205518448">"Nieznany"</string>
@@ -737,6 +739,7 @@
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Autoprzywracanie"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"Zresetuj urządzenie"</string>
     <string name="factory_reset_description" msgid="4448783644897046471">"Spowoduje to wymazanie wszystkich danych z pamięci wewnętrznej Twojego urządzenia, w tym konta Google, ustawień i danych aplikacji i systemu, a także pobranych aplikacji"</string>
+    <string name="factory_reset_info_description" msgid="5098454670833183487">"Spowoduje to przywrócenie domyślnych ustawień urządzenia oraz usunięcie wszystkich danych, kont, plików i pobranych aplikacji."</string>
     <string name="confirm_factory_reset_description" msgid="1337483463207721713">"Wykasować z tego urządzenia wszystkie Twoje dane osobowe i pobrane aplikacje? Nie można tego cofnąć."</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"Wymaż wszystko"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"Wybierz nazwę urządzenia <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
@@ -811,6 +814,7 @@
     <string name="title_data_saver" msgid="7500278996154002792">"Oszczędzanie danych"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"Automatycznie dostosuj jakość, by ograniczyć mobilną transmisję danych"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Użycie danych i alerty"</string>
+    <string name="data_saver_header_info" msgid="239820871940156510">"Z internetem możesz połączyć się przez Wi-Fi, Ethernet lub hotspot na telefonie. Aby dowiedzieć się więcej, wejdź na "<b>"g.co/network"</b>"."</string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Niedozwolona czynność"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Nie można zmienić głośności"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Brak uprawnień do wybierania numerów"</string>
