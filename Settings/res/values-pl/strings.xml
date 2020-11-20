@@ -447,9 +447,9 @@
     <string name="location_reporting" msgid="3552501333650895634">"Raportowanie lokalizacji"</string>
     <string name="location_history" msgid="4055660203090513120">"Historia lokalizacji"</string>
     <string name="location_reporting_desc" msgid="1580018652781674608">"Google korzysta z tej funkcji m.in w Google Now i Mapach Google. Włączenie Raportowania lokalizacji umożliwia każdej korzystającej z niego usłudze Google zapisywanie i używanie informacji o najnowszej znanej lokalizacji Twojego urządzenia w połączeniu z Twoim kontem Google."</string>
-    <string name="location_history_desc" msgid="926674012916014270">"Gdy na koncie jest włączona Historia lokalizacji, Google może zapisywać informacje o lokalizacji urządzenia i udostępniać je Twoim aplikacjom.\n\nNa przykład Mapy Google mogą podawać Ci wskazówki dojazdu, a Google Now może informować o ruchu na drodze do pracy.\n\nMożesz w dowolnej chwili wyłączyć Historię lokalizacji, ale nie spowoduje to jej usunięcia. Możesz też ją przeglądać i zarządzać nią na maps.google.com/locationhistory"</string>
-    <string name="delete_location_history_title" msgid="707559064715633152">"Usuń Historię lokalizacji"</string>
-    <string name="delete_location_history_desc" msgid="4035229731487113147">"Spowoduje to nieodwracalne usunięcie całej Historii lokalizacji tego urządzenia zapisanej na tym koncie Google. Przestaną działać niektóre aplikacje, w tym Google Now."</string>
+    <string name="location_history_desc" msgid="926674012916014270">"Gdy na koncie jest włączona historia lokalizacji, Google może zapisywać informacje o lokalizacji urządzenia i udostępniać je Twoim aplikacjom.\n\nNa przykład Mapy Google mogą podawać Ci wskazówki dojazdu, a Google Now może informować o ruchu na drodze do pracy.\n\nMożesz w dowolnej chwili wyłączyć historię lokalizacji, ale nie spowoduje to jej usunięcia. Możesz też ją przeglądać i zarządzać nią na maps.google.com/locationhistory"</string>
+    <string name="delete_location_history_title" msgid="707559064715633152">"Usuń historię lokalizacji"</string>
+    <string name="delete_location_history_desc" msgid="4035229731487113147">"Spowoduje to nieodwracalne usunięcie całej historii lokalizacji tego urządzenia zapisanej na tym koncie Google. Przestaną działać niektóre aplikacje, w tym Google Now."</string>
     <string name="system_services" msgid="5754310941186053151">"Usługi"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Ustawienia usługi"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Tekst o dużym kontraście"</string>
@@ -688,6 +688,10 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"Nieprawidłowy kod PIN. Spróbuj ponownie"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"Spróbuj ponownie. Niezgodny kod PIN"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"Podaj hasło do sieci <xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
+    <skip />
+    <!-- no translation found for label_done_key (8576286462300373440) -->
+    <skip />
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Połączono"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Zapisano"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Wersja <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
@@ -830,5 +834,7 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Połączono"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Pokaż wszystko"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Szukam"</string>
-    <string name="kids_mode_noop_settings_toast" msgid="7061687428262416807"></string>
+    <string name="power_and_energy" msgid="4638182439670702556">"Zasilanie i energia"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"Działanie po włączeniu"</string>
+    <string name="reset_options_title" msgid="7632580482285108955">"Resetowanie"</string>
 </resources>

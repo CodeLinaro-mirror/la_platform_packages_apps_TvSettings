@@ -674,6 +674,10 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"Wrong PIN, try again"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"Try again, PIN doesn\'t match"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"Enter password for <xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
+    <skip />
+    <!-- no translation found for label_done_key (8576286462300373440) -->
+    <skip />
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Connected successfully"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Saved successfully"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
@@ -726,7 +730,7 @@
     <string name="factory_reset_device" msgid="6509900821515094361">"Reset device"</string>
     <string name="factory_reset_description" msgid="4448783644897046471">"This will erase all data from your device\'s internal storage, including: your Google account, system and app data and settings, and downloaded apps"</string>
     <string name="factory_reset_info_description" msgid="5098454670833183487">"This will restore your device to default settings and erase all data, accounts, files and downloaded apps."</string>
-    <string name="confirm_factory_reset_description" msgid="1337483463207721713">"Delete all your personal information and downloaded apps on this device? You can\'t reverse this action."</string>
+    <string name="confirm_factory_reset_description" msgid="1337483463207721713">"Delete all your personal information and downloaded apps? You won\'t be able to undo this action."</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"Delete everything"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"Choose a name for your <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
     <string name="select_device_name_description" msgid="8528185095614986580">"Give your device a name to help identify it when casting or connecting to it from other devices."</string>
@@ -816,5 +820,7 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Connection successful"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Show all"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Searching"</string>
-    <string name="kids_mode_noop_settings_toast" msgid="7061687428262416807"></string>
+    <string name="power_and_energy" msgid="4638182439670702556">"Power and energy"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"Power-on behaviour"</string>
+    <string name="reset_options_title" msgid="7632580482285108955">"Reset"</string>
 </resources>
