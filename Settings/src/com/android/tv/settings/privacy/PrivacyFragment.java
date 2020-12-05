@@ -16,10 +16,10 @@
 
 package com.android.tv.settings.privacy;
 
-import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_CLASSIC;
-import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_TWO_PANEL;
-import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_VENDOR;
-import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_X;
+import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
+import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_TWO_PANEL;
+import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_VENDOR;
+import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_X;
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
 
 import android.app.tvsettings.TvSettingsEnums;
@@ -28,12 +28,12 @@ import android.os.Bundle;
 
 import androidx.annotation.Keep;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
-import com.android.tv.settings.overlay.FeatureFactory;
-import com.android.tv.settings.overlay.OverlayUtils;
+import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.SliceUtils;
 import com.android.tv.twopanelsettings.slices.SlicePreference;
 
@@ -50,7 +50,7 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
     private static final String KEY_PURCHASES = "purchases";
 
     private int getPreferenceScreenResId() {
-        switch (OverlayUtils.getFlavor(getContext())) {
+        switch (FlavorUtils.getFlavor(getContext())) {
             case FLAVOR_CLASSIC:
             case FLAVOR_TWO_PANEL:
                 return R.xml.privacy;
@@ -65,13 +65,17 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
     @Override
     public void onCreatePreferences(Bundle bundle, String s) {
         setPreferencesFromResource(getPreferenceScreenResId(), null);
-        findPreference(KEY_ACCOUNT_SETTINGS_CATEGORY).setVisible(false);
-        if (FeatureFactory.getFactory(getContext()).getBasicModeFeatureProvider()
-                .isBasicMode(getContext())) {
-            return;
-        }
+        PreferenceCategory accountPrefCategory = findPreference(KEY_ACCOUNT_SETTINGS_CATEGORY);
         Preference assistantSlicePreference = findPreference(KEY_ASSISTANT);
         Preference purchasesSlicePreference = findPreference(KEY_PURCHASES);
+
+        if (FlavorUtils.getFeatureFactory(getContext()).getBasicModeFeatureProvider()
+                .isBasicMode(getContext())) {
+            accountPrefCategory.setVisible(false);
+            assistantSlicePreference.setVisible(false);
+            purchasesSlicePreference.setVisible(false);
+            return;
+        }
         if (assistantSlicePreference instanceof SlicePreference
                 && SliceUtils.isSliceProviderValid(
                         getContext(), ((SlicePreference) assistantSlicePreference).getUri())) {
@@ -82,9 +86,8 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
                         getContext(), ((SlicePreference) purchasesSlicePreference).getUri())) {
             purchasesSlicePreference.setVisible(true);
         }
-        if (assistantSlicePreference.isVisible() && purchasesSlicePreference.isVisible()) {
-            findPreference(KEY_ACCOUNT_SETTINGS_CATEGORY).setVisible(true);
-        }
+        accountPrefCategory.setVisible(
+                assistantSlicePreference.isVisible() || purchasesSlicePreference.isVisible());
         findPreference(KEY_ADS).setOnPreferenceClickListener(preference -> {
             Intent intent = new Intent();
             intent.setAction("com.google.android.gms.settings.ADS_PRIVACY");

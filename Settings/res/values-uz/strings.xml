@@ -156,7 +156,7 @@
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"Quyidagi bilan birlashtirish uchun: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Qurilmaning talab qilingan PIN kodini kiriting:"</string>
     <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"Quyidagi bilan ulanish: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Qurilmaning talab qilingan kalitini kiriting:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Odatda 0000 yoki 1234"</string>
-    <string name="bluetooth_pair" msgid="2410285813728786067">"Biriktirish"</string>
+    <string name="bluetooth_pair" msgid="2410285813728786067">"OK"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Bekor qilish"</string>
     <string name="send_feedback" msgid="936698637869795473">"Fikr-mulohaza yuborish"</string>
     <string name="launch_help" msgid="2607478763131952469">"Yordam markazi"</string>
@@ -674,10 +674,8 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"PIN-kod noto‘g‘ri, qaytadan urining"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"Qaytadan urining, PIN-kod noto‘g‘ri"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"<xliff:g id="SSID">%1$s</xliff:g> uchun parolni kiriting"</string>
-    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
-    <skip />
-    <!-- no translation found for label_done_key (8576286462300373440) -->
-    <skip />
+    <string name="wifi_setup_description" msgid="6843574399437584520">"Davom etish uchun buni tanlang: <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>"</string>
+    <string name="label_done_key" msgid="8576286462300373440">"Tayyor"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ulandi"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sozlamalar saqlandi"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> versiyasi"</string>
@@ -805,6 +803,7 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Video sifatini mobil internet trafik tejalishiga moslash"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Trafik sarfi va bildirishnomalar"</string>
     <string name="data_saver_header_info" msgid="239820871940156510">"Internetga Wi-Fi, Ethernet yoki telefon hotspoti yordamida ulanishingiz mumkin. Yordam olish uchun "<b>"g.co/network"</b>" sahifasiga tashrif buyuring."</string>
+    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Bu amalga ruxsat berilmagan"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Tovush balandligini o‘zgartirib bo‘lmaydi"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Chaqiruvga ruxsat berilmagan"</string>
@@ -820,6 +819,14 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Muvaffaqiyatli ulandi"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Hammasi"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Qidirilmoqda"</string>
+    <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanallar va manbalar"</string>
+    <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanallar, tashqi manbalar"</string>
+    <string name="channels_settings_title" msgid="8048956665383762510">"Kanallar"</string>
+    <string name="external_inputs_settings_title" msgid="8937038060355986380">"Tashqi kirishlar"</string>
+    <string name="display_and_sound_vendor_summary" msgid="7661072343315403110">"Rasm, ekran, tovush"</string>
+    <string name="picture_settings_title" msgid="7643193630924322697">"Rasm"</string>
+    <string name="screen_settings_title" msgid="7806908869190824434">"Ekran"</string>
+    <string name="sound_settings_title" msgid="9149367966117889465">"Tovush"</string>
     <string name="power_and_energy" msgid="4638182439670702556">"Quvvat va energiya"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Birlamchi ekran"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Tiklash"</string>
