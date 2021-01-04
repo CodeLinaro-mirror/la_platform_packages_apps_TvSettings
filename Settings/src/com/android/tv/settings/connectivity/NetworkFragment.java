@@ -16,6 +16,10 @@
 
 package com.android.tv.settings.connectivity;
 
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_CLASSIC;
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_TWO_PANEL;
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_VENDOR;
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_X;
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
 import static com.android.tv.settings.util.InstrumentationUtils.logToggleInteracted;
 
@@ -42,11 +46,12 @@ import androidx.preference.TwoStatePreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settingslib.wifi.AccessPoint;
-import com.android.settingslib.wifi.AccessPointPreference;
 import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.settings.overlay.OverlayUtils;
 import com.android.tv.settings.util.SliceUtils;
+import com.android.tv.settings.widget.TvAccessPointPreference;
 import com.android.tv.twopanelsettings.slices.SlicePreference;
 
 import java.util.Collection;
@@ -84,7 +89,7 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     private ConnectivityListener mConnectivityListener;
     private WifiManager mWifiManager;
     private ConnectivityManager mConnectivityManager;
-    private AccessPointPreference.UserBadgeCache mUserBadgeCache;
+    private TvAccessPointPreference.UserBadgeCache mUserBadgeCache;
 
     private TwoStatePreference mEnableWifiPref;
     private CollapsibleCategory mWifiNetworksCategory;
@@ -120,7 +125,7 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         mWifiManager = getContext().getSystemService(WifiManager.class);
         mConnectivityManager = getContext().getSystemService(ConnectivityManager.class);
         mUserBadgeCache =
-                new AccessPointPreference.UserBadgeCache(getContext().getPackageManager());
+                new TvAccessPointPreference.UserBadgeCache(getContext().getPackageManager());
         super.onCreate(savedInstanceState);
     }
 
@@ -140,11 +145,24 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         updateConnectivity();
     }
 
+    private int getPreferenceScreenResId() {
+        switch (OverlayUtils.getFlavor(getContext())) {
+            case FLAVOR_CLASSIC:
+            case FLAVOR_TWO_PANEL:
+                return R.xml.network;
+            case FLAVOR_X:
+            case FLAVOR_VENDOR:
+                return R.xml.network_x;
+            default:
+                return R.xml.network;
+        }
+    }
+
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         getPreferenceManager().setPreferenceComparisonCallback(
                 new PreferenceManager.SimplePreferenceComparisonCallback());
-        setPreferencesFromResource(R.xml.network, null);
+        setPreferencesFromResource(getPreferenceScreenResId(), null);
 
         mEnableWifiPref = (TwoStatePreference) findPreference(KEY_WIFI_ENABLE);
         mWifiNetworksCategory = (CollapsibleCategory) findPreference(KEY_WIFI_LIST);
@@ -333,9 +351,9 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
 
         for (final AccessPoint accessPoint : accessPoints) {
             accessPoint.setListener(this);
-            AccessPointPreference pref = (AccessPointPreference) accessPoint.getTag();
+            TvAccessPointPreference pref = (TvAccessPointPreference) accessPoint.getTag();
             if (pref == null) {
-                pref = new AccessPointPreference(accessPoint, themedContext, mUserBadgeCache,
+                pref = new TvAccessPointPreference(accessPoint, themedContext, mUserBadgeCache,
                         false);
                 accessPoint.setTag(pref);
             } else {
@@ -403,12 +421,12 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
 
     @Override
     public void onAccessPointChanged(AccessPoint accessPoint) {
-        ((AccessPointPreference) accessPoint.getTag()).refresh();
+        ((TvAccessPointPreference) accessPoint.getTag()).refresh();
     }
 
     @Override
     public void onLevelChanged(AccessPoint accessPoint) {
-        ((AccessPointPreference) accessPoint.getTag()).onLevelChanged();
+        ((TvAccessPointPreference) accessPoint.getTag()).onLevelChanged();
     }
 
     @Override

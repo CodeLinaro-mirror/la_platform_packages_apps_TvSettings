@@ -30,4 +30,9 @@ public class MainSettings extends TvSettingsActivity {
         return FeatureFactory.getFactory(this).getSettingsFragmentProvider()
             .newSettingsFragment(MainFragment.class.getName(), null);
     }
+
+    @Override
+    protected boolean isStartupVerificationRequired() {
+        return true;
+    }
 }

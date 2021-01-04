@@ -16,10 +16,17 @@
 
 package com.android.tv.twopanelsettings;
 
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_SUMMARY;
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_TEXT;
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_TITLE_ICON;
+
+import android.animation.AnimatorSet;
+import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.ContentProviderClient;
+import android.graphics.drawable.Icon;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -75,12 +82,10 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
     private static final int[] frameResIds =
             {R.id.frame1, R.id.frame2, R.id.frame3, R.id.frame4, R.id.frame5, R.id.frame6,
                     R.id.frame7, R.id.frame8, R.id.frame9, R.id.frame10};
-    private static final int[] frameResOverlayIds =
-            {R.id.frame1_overlay, R.id.frame2_overlay, R.id.frame3_overlay, R.id.frame4_overlay,
-            R.id.frame5_overlay, R.id.frame6_overlay, R.id.frame7_overlay, R.id.frame8_overlay,
-            R.id.frame9_overlay, R.id.frame10_overlay};
+
     private static final long PANEL_ANIMATION_MS = 400;
     private static final long PANEL_ANIMATION_DELAY_MS = 200;
+    private static final float PREVIEW_PANEL_ALPHA = 0.6f;
 
     private int mMaxScrollX;
     private final RootViewOnKeyListener mRootViewOnKeyListener = new RootViewOnKeyListener();
@@ -479,7 +484,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
          * panel.
          *
          * @param forward means whether the component arrives at main panel when users are
-         *    navigating forwards (deeper into the TvSettings tree).
+         *                navigating forwards (deeper into the TvSettings tree).
          */
         void onArriveAtMainPanel(boolean forward);
     }
@@ -519,6 +524,12 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                         navigateToPreviewFragment();
                     }
                 }
+                // TODO(b/163432209): improve NavigationCallback and be more specific here.
+                // Do not consume the KeyEvent for NavigationCallback classes such as date & time
+                // picker.
+                if (prefFragment instanceof NavigationCallback) {
+                    return false;
+                }
                 return true;
             }
             return false;
@@ -534,7 +545,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         }
         // This is for the case when a preference has preview but once user navigate to
         // see the preview, settings actually launch an intent to start external activity.
-        if (preference.getIntent() != null  && !TextUtils.isEmpty(preference.getFragment())) {
+        if (preference.getIntent() != null && !TextUtils.isEmpty(preference.getFragment())) {
             return true;
         }
         if (preference instanceof SlicePreference
@@ -652,13 +663,21 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             int distanceToScrollToRight;
             int panelWidth = getResources().getDimensionPixelSize(
                     R.dimen.tp_settings_preference_pane_width);
-            View scrollToPanelOverlay = getView().findViewById(frameResOverlayIds[index]);
-            View previewPanelOverlay = getView().findViewById(frameResOverlayIds[index + 1]);
+            View scrollToPanel = getView().findViewById(frameResIds[index]);
+            View previewPanel = getView().findViewById(frameResIds[index + 1]);
+            View scrollToPanelHead = scrollToPanel.findViewById(R.id.decor_title_container);
+            View previewPanelHead = previewPanel.findViewById(R.id.decor_title_container);
             boolean scrollsToPreview =
                     isRTL() ? mScrollView.getScrollX() >= mMaxScrollX - panelWidth * index
                             : mScrollView.getScrollX() <= panelWidth * index;
-            boolean hasPreviewFragment = fragmentToBecomePreviewPanel != null
-                    && !(fragmentToBecomePreviewPanel instanceof DummyFragment);
+
+            boolean setAlphaForPreview = fragmentToBecomePreviewPanel != null
+                    && !(fragmentToBecomePreviewPanel instanceof DummyFragment)
+                    && !(fragmentToBecomePreviewPanel instanceof InfoFragment);
+            int previewPanelColor = getResources().getColor(
+                    R.color.tp_preview_panel_background_color);
+            int mainPanelColor = getResources().getColor(
+                    R.color.tp_preference_panel_background_color);
             if (smoothScroll) {
                 int animationEnd = isRTL() ? mMaxScrollX - panelWidth * index : panelWidth * index;
                 distanceToScrollToRight = animationEnd - mScrollView.getScrollX();
@@ -670,26 +689,74 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 slideAnim.start();
                 // Color animation
                 if (scrollsToPreview) {
-                    previewPanelOverlay.setAlpha(hasPreviewFragment ? 1f : 0f);
-                    ObjectAnimator colorAnim = ObjectAnimator.ofFloat(scrollToPanelOverlay, "alpha",
-                            scrollToPanelOverlay.getAlpha(), 0f);
-                    colorAnim.setAutoCancel(true);
-                    colorAnim.setDuration(PANEL_ANIMATION_MS);
-                    colorAnim.start();
+                    previewPanel.setAlpha(setAlphaForPreview ? PREVIEW_PANEL_ALPHA : 1f);
+                    previewPanel.setBackgroundColor(previewPanelColor);
+                    if (previewPanelHead != null) {
+                        previewPanelHead.setBackgroundColor(previewPanelColor);
+                    }
+                    ObjectAnimator alphaAnim = ObjectAnimator.ofFloat(scrollToPanel, "alpha",
+                            scrollToPanel.getAlpha(), 1f);
+                    ObjectAnimator backgroundColorAnim = ObjectAnimator.ofObject(scrollToPanel,
+                            "backgroundColor",
+                            new ArgbEvaluator(), previewPanelColor, mainPanelColor);
+                    alphaAnim.setAutoCancel(true);
+                    backgroundColorAnim.setAutoCancel(true);
+                    AnimatorSet animatorSet = new AnimatorSet();
+                    if (scrollToPanelHead != null) {
+                        ObjectAnimator backgroundColorAnimForHead = ObjectAnimator.ofObject(
+                                scrollToPanelHead,
+                                "backgroundColor",
+                                new ArgbEvaluator(), previewPanelColor, mainPanelColor);
+                        backgroundColorAnimForHead.setAutoCancel(true);
+                        animatorSet.playTogether(alphaAnim, backgroundColorAnim,
+                                backgroundColorAnimForHead);
+                    } else {
+                        animatorSet.playTogether(alphaAnim, backgroundColorAnim);
+                    }
+                    animatorSet.setDuration(PANEL_ANIMATION_MS);
+                    animatorSet.start();
                 } else {
-                    scrollToPanelOverlay.setAlpha(0f);
-                    ObjectAnimator colorAnim = ObjectAnimator.ofFloat(previewPanelOverlay, "alpha",
-                            previewPanelOverlay.getAlpha(), hasPreviewFragment ? 1f : 0f);
-                    colorAnim.setAutoCancel(true);
-                    colorAnim.setDuration(PANEL_ANIMATION_MS);
-                    colorAnim.start();
+                    scrollToPanel.setAlpha(1f);
+                    scrollToPanel.setBackgroundColor(mainPanelColor);
+                    if (scrollToPanelHead != null) {
+                        scrollToPanelHead.setBackgroundColor(mainPanelColor);
+                    }
+                    ObjectAnimator alphaAnim = ObjectAnimator.ofFloat(previewPanel, "alpha",
+                            previewPanel.getAlpha(), setAlphaForPreview ? PREVIEW_PANEL_ALPHA : 1f);
+                    ObjectAnimator backgroundColorAnim = ObjectAnimator.ofObject(previewPanel,
+                            "backgroundColor",
+                            new ArgbEvaluator(), mainPanelColor, previewPanelColor);
+                    alphaAnim.setAutoCancel(true);
+                    backgroundColorAnim.setAutoCancel(true);
+                    AnimatorSet animatorSet = new AnimatorSet();
+                    if (previewPanelHead != null) {
+                        ObjectAnimator backgroundColorAnimForHead = ObjectAnimator.ofObject(
+                                previewPanelHead,
+                                "backgroundColor",
+                                new ArgbEvaluator(), mainPanelColor, previewPanelColor);
+                        backgroundColorAnimForHead.setAutoCancel(true);
+                        animatorSet.playTogether(alphaAnim, backgroundColorAnim,
+                                backgroundColorAnimForHead);
+                    } else {
+                        animatorSet.playTogether(alphaAnim, backgroundColorAnim);
+                    }
+                    animatorSet.setDuration(PANEL_ANIMATION_MS);
+                    animatorSet.start();
                 }
             } else {
                 int scrollToX = isRTL() ? mMaxScrollX - panelWidth * index : panelWidth * index;
                 distanceToScrollToRight = scrollToX - mScrollView.getScrollX();
                 mScrollView.scrollTo(scrollToX, 0);
-                scrollToPanelOverlay.setAlpha(0f);
-                previewPanelOverlay.setAlpha(hasPreviewFragment ? 1f : 0f);
+                previewPanel.setAlpha(setAlphaForPreview ? PREVIEW_PANEL_ALPHA : 1f);
+                previewPanel.setBackgroundColor(previewPanelColor);
+                if (previewPanelHead != null) {
+                    previewPanelHead.setBackgroundColor(previewPanelColor);
+                }
+                scrollToPanel.setAlpha(1f);
+                scrollToPanel.setBackgroundColor(mainPanelColor);
+                if (scrollToPanelHead != null) {
+                    scrollToPanelHead.setBackgroundColor(mainPanelColor);
+                }
             }
             if (fragmentToBecomeMainPanel != null && fragmentToBecomeMainPanel.getView() != null) {
                 fragmentToBecomeMainPanel.getView().requestFocus();
@@ -769,8 +836,8 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             if (chosenPreference != null) {
                 if (chosenPreference.getFragment() != null
                         && InfoFragment.class.isAssignableFrom(
-                                Class.forName(chosenPreference.getFragment()))) {
-                    onPreferenceFocusedImpl(chosenPreference, false);
+                        Class.forName(chosenPreference.getFragment()))) {
+                    updateInfoFragmentStatus(fragment);
                 }
                 if (chosenPreference instanceof ListPreference) {
                     onPreferenceFocusedImpl(chosenPreference, true);
@@ -778,6 +845,31 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
+        }
+    }
+
+    /** Show error message in preview panel **/
+    public void showErrorMessage(String errorMessage) {
+        Fragment prefFragment =
+                getChildFragmentManager().findFragmentById(frameResIds[mPrefPanelIdx]);
+        Preference preference = getChosenPreference(prefFragment);
+        preference.setFragment(InfoFragment.class.getCanonicalName());
+        Bundle b = preference.getExtras();
+        b.putParcelable(EXTRA_PREFERENCE_INFO_TITLE_ICON,
+                Icon.createWithResource(getContext(), R.drawable.slice_error_icon));
+        b.putCharSequence(EXTRA_PREFERENCE_INFO_TEXT, getString(R.string.status_unavailable));
+        b.putCharSequence(EXTRA_PREFERENCE_INFO_SUMMARY, errorMessage);
+        onPreferenceFocused(preference);
+    }
+
+    private void updateInfoFragmentStatus(Fragment fragment) {
+        if (!isFragmentInTheMainPanel(fragment)) {
+            return;
+        }
+        final Fragment existingPreviewFragment =
+                getChildFragmentManager().findFragmentById(frameResIds[mPrefPanelIdx + 1]);
+        if (existingPreviewFragment instanceof InfoFragment) {
+            ((InfoFragment) existingPreviewFragment).updateInfoFragment();
         }
     }
 

@@ -21,6 +21,7 @@ import static android.app.slice.Slice.HINT_PARTIAL;
 
 import static com.android.tv.twopanelsettings.slices.InstrumentationUtils.logEntrySelected;
 import static com.android.tv.twopanelsettings.slices.InstrumentationUtils.logToggleInteracted;
+import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_STATUS;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_KEY;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_SLICE_FOLLOWUP;
 
@@ -47,7 +48,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
@@ -389,6 +389,18 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                 screen.addPreference(newPref);
             }
         }
+        removeAnimationClipping(getView());
+    }
+
+    protected void removeAnimationClipping(View v) {
+        if (v instanceof ViewGroup) {
+            ((ViewGroup) v).setClipChildren(false);
+            ((ViewGroup) v).setClipToPadding(false);
+            for (int index = 0; index < ((ViewGroup) v).getChildCount(); index++) {
+                View child = ((ViewGroup) v).getChildAt(index);
+                removeAnimationClipping(child);
+            }
+        }
     }
 
     @Override
@@ -421,6 +433,10 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             // TODO - Show loading indicator here?
             try {
                 boolean isChecked = ((TwoStatePreference) preference).isChecked();
+                preference.getExtras().putBoolean(EXTRA_PREFERENCE_INFO_STATUS, isChecked);
+                if (getParentFragment() instanceof TwoPanelSettingsFragment) {
+                    ((TwoPanelSettingsFragment) getParentFragment()).refocusPreference(this);
+                }
                 logToggleInteracted(getPreferenceActionId(preference), isChecked);
                 Intent fillInIntent =
                         new Intent()
@@ -586,6 +602,9 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
         view.removeView(view.findViewById(R.id.decor_title_container));
         view.addView(newTitleContainer, 0);
 
+        newTitleContainer.setOutlineProvider(null);
+        newTitleContainer.setBackgroundResource(R.color.tp_preference_panel_background_color);
+
         final View newContainer =
                 themedInflater.inflate(R.layout.slice_progress_bar, container, false);
         ((ViewGroup) newContainer).addView(view);
@@ -614,7 +633,13 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
 
         String errorMessage = uri.getQueryParameter(SlicesConstants.PARAMETER_ERROR);
         if (errorMessage != null) {
-            Toast.makeText(getContext(), errorMessage, Toast.LENGTH_SHORT).show();
+            showErrorMessage(errorMessage);
+        }
+    }
+
+    private void showErrorMessage(String errorMessage) {
+        if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
+            ((TwoPanelSettingsFragment) getCallbackFragment()).showErrorMessage(errorMessage);
         }
     }
 

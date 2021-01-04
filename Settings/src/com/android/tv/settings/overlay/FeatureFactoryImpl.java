@@ -24,10 +24,12 @@ import androidx.annotation.Keep;
 
 import com.android.tv.settings.BaseSettingsFragment;
 import com.android.tv.settings.SettingsFragmentProvider;
+import com.android.tv.settings.basic.BasicModeFeatureProvider;
+import com.android.tv.settings.basic.BasicModeFeatureProviderImpl;
 import com.android.tv.settings.help.SupportFeatureProvider;
 import com.android.tv.settings.help.SupportFeatureProviderImpl;
-import com.android.tv.settings.offline.OfflineFeatureProvider;
-import com.android.tv.settings.offline.OfflineFeatureProviderImpl;
+import com.android.tv.settings.startup.StartupVerificationFeatureProvider;
+import com.android.tv.settings.startup.StartupVerificationFeatureProviderImpl;
 
 /**
  * Default implementation of the feature factory.
@@ -46,8 +48,13 @@ public class FeatureFactoryImpl extends FeatureFactory {
     }
 
     @Override
-    public OfflineFeatureProvider getOfflineFeatureProvider() {
-        return new OfflineFeatureProviderImpl();
+    public BasicModeFeatureProvider getBasicModeFeatureProvider() {
+        return new BasicModeFeatureProviderImpl();
+    }
+
+    @Override
+    public StartupVerificationFeatureProvider getStartupVerificationFeatureProvider() {
+        return new StartupVerificationFeatureProviderImpl();
     }
 
     @Override

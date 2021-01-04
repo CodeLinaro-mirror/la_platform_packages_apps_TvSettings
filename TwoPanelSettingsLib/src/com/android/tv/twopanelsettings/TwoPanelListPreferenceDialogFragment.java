@@ -16,7 +16,9 @@
 
 package com.android.tv.twopanelsettings;
 
+import android.animation.AnimatorInflater;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -90,6 +92,29 @@ public class TwoPanelListPreferenceDialogFragment extends LeanbackListPreference
     }
 
     @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        if (view != null) {
+            removeAnimationClipping(view);
+            ViewGroup mainFrame = view.findViewById(R.id.main_frame);
+            if (mainFrame != null) {
+                mainFrame.setOutlineProvider(null);
+            }
+        }
+    }
+
+    protected void removeAnimationClipping(View v) {
+        if (v instanceof ViewGroup) {
+            ((ViewGroup) v).setClipChildren(false);
+            ((ViewGroup) v).setClipToPadding(false);
+            for (int index = 0; index < ((ViewGroup) v).getChildCount(); index++) {
+                View child = ((ViewGroup) v).getChildAt(index);
+                removeAnimationClipping(child);
+            }
+        }
+    }
+
+    @Override
     public RecyclerView.Adapter onCreateAdapter() {
         if (!mMultiCopy) {
             return new TwoPanelAdapterSingle(mEntriesCopy, mEntryValuesCopy, mSummariesCopy,
@@ -125,11 +150,17 @@ public class TwoPanelListPreferenceDialogFragment extends LeanbackListPreference
         public void onBindViewHolder(ViewHolder holder, int position) {
             holder.getWidgetView().setChecked(mEntryValues[position].equals(mSelectedValue));
             holder.getTitleView().setText(mEntries[position]);
+            holder.itemView.setStateListAnimator(AnimatorInflater.loadStateListAnimator(
+                    getContext(), R.animator.preference));
             TextView summaryView = (TextView) holder.getContainer()
                     .findViewById(android.R.id.summary);
-            if (summaryView != null && mSummaries != null) {
-                summaryView.setText(mSummaries[position]);
-                summaryView.setVisibility(View.VISIBLE);
+            if (summaryView != null) {
+                if (mSummaries != null && !TextUtils.isEmpty(mSummaries[position])) {
+                    summaryView.setText(mSummaries[position]);
+                    summaryView.setVisibility(View.VISIBLE);
+                } else {
+                    summaryView.setVisibility(View.GONE);
+                }
             }
         }
 

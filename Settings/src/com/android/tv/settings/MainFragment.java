@@ -16,6 +16,10 @@
 
 package com.android.tv.settings;
 
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_CLASSIC;
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_TWO_PANEL;
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_VENDOR;
+import static com.android.tv.settings.overlay.OverlayUtils.FLAVOR_X;
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
 import static com.android.tv.settings.util.InstrumentationUtils.logPageFocused;
 
@@ -59,6 +63,7 @@ import com.android.tv.settings.HotwordSwitchController.HotwordStateListener;
 import com.android.tv.settings.accounts.AccountsFragment;
 import com.android.tv.settings.connectivity.ConnectivityListener;
 import com.android.tv.settings.overlay.FeatureFactory;
+import com.android.tv.settings.overlay.OverlayUtils;
 import com.android.tv.settings.suggestions.SuggestionPreference;
 import com.android.tv.settings.system.SecurityFragment;
 import com.android.tv.settings.util.SliceUtils;
@@ -79,10 +84,14 @@ public class MainFragment extends PreferenceControllerFragment implements
 
     private static final String TAG = "MainFragment";
     private static final String KEY_SUGGESTIONS_LIST = "suggestions";
+    private static final String KEY_BASIC_MODE_SUGGESTION = "basic_mode_suggestion";
+    private static final String KEY_BASIC_MODE_EXIT = "basic_mode_exit";
     @VisibleForTesting
     static final String KEY_ACCOUNTS_AND_SIGN_IN = "accounts_and_sign_in";
     @VisibleForTesting
     static final String KEY_ACCOUNTS_AND_SIGN_IN_SLICE = "accounts_and_sign_in_slice";
+    @VisibleForTesting
+    static final String KEY_ACCOUNTS_AND_SIGN_IN_BASIC_MODE = "accounts_and_sign_in_basic_mode";
     private static final String KEY_APPLICATIONS = "applications";
     @VisibleForTesting
     static final String KEY_ACCESSORIES = "remotes_and_accessories";
@@ -146,7 +155,17 @@ public class MainFragment extends PreferenceControllerFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.main_prefs;
+        switch (OverlayUtils.getFlavor(getContext())) {
+            case FLAVOR_CLASSIC:
+            case FLAVOR_TWO_PANEL:
+                return R.xml.main_prefs;
+            case FLAVOR_X:
+                return R.xml.main_prefs_x;
+            case FLAVOR_VENDOR:
+                return R.xml.main_prefs_vendor;
+            default:
+                return R.xml.main_prefs;
+        }
     }
 
     @Override
@@ -171,6 +190,10 @@ public class MainFragment extends PreferenceControllerFragment implements
             mHotwordSwitchController.unregister();
         }
         super.onDestroy();
+    }
+
+    private boolean quickSettingsEnabled() {
+        return getContext().getResources().getBoolean(R.bool.config_quick_settings_enabled);
     }
 
     /** @return true if there is at least one available item in quick settings. */
@@ -198,6 +221,7 @@ public class MainFragment extends PreferenceControllerFragment implements
         updateAccountPref();
         updateAccessoryPref();
         updateConnectivity();
+        updateBasicModeSuggestion();
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
@@ -211,7 +235,7 @@ public class MainFragment extends PreferenceControllerFragment implements
         mQuickSettingsList.setTitle(R.string.header_category_quick_settings);
         mQuickSettingsList.setOrder(1); // at top, but below suggested settings
         getPreferenceScreen().addPreference(mQuickSettingsList);
-        if (mHotwordSwitchController.isAvailable()) {
+        if (mHotwordSwitchController != null && mHotwordSwitchController.isAvailable()) {
             mHotwordSwitch = new SwitchPreference(this.getPreferenceManager().getContext());
             mHotwordSwitch.setKey(HotwordSwitchController.KEY_HOTWORD_SWITCH);
             mHotwordSwitch.setOnPreferenceClickListener(
@@ -223,7 +247,7 @@ public class MainFragment extends PreferenceControllerFragment implements
             mHotwordSwitchController.updateState(mHotwordSwitch);
             mQuickSettingsList.addPreference(mHotwordSwitch);
         }
-        if (mTakeBugReportController.isAvailable()) {
+        if (mTakeBugReportController != null && mTakeBugReportController.isAvailable()) {
             mTakeBugReportPreference = new Preference(this.getPreferenceManager().getContext());
             mTakeBugReportPreference.setKey(TakeBugReportController.KEY_TAKE_BUG_REPORT);
             mTakeBugReportPreference.setOnPreferenceClickListener(
@@ -250,7 +274,7 @@ public class MainFragment extends PreferenceControllerFragment implements
 
     @Override
     public void onHotwordStateChanged() {
-        if (mHotwordSwitch != null) {
+        if (mHotwordSwitch != null && mHotwordSwitchController != null) {
             mHotwordSwitchController.updateState(mHotwordSwitch);
         }
         showOrHideQuickSettings();
@@ -280,7 +304,7 @@ public class MainFragment extends PreferenceControllerFragment implements
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        setPreferencesFromResource(R.xml.main_prefs, null);
+        setPreferencesFromResource(getPreferenceScreenResId(), null);
         if (isRestricted()) {
             Preference appPref = findPreference(KEY_APPLICATIONS);
             if (appPref != null) {
@@ -305,29 +329,23 @@ public class MainFragment extends PreferenceControllerFragment implements
             Preference privacyPref = findPreference(KEY_PRIVACY);
             if (privacyPref != null) {
                 privacyPref.setVisible(true);
-                if (FeatureFactory.getFactory(getContext()).getOfflineFeatureProvider()
-                        .isOfflineMode(getContext())) {
-                    privacyPref.setSummary(R.string.offline_mode_disabled_entry_subtitle);
-                    privacyPref.setEnabled(false);
-                    privacyPref.setSelectable(false);
-                } else {
-                    privacyPref.setSummary(null);
-                    privacyPref.setEnabled(true);
-                    privacyPref.setSelectable(true);
-                }
             }
         }
-        mHotwordSwitchController.init(this);
+        if (mHotwordSwitchController != null) {
+            mHotwordSwitchController.init(this);
+        }
         updateSoundSettings();
     }
 
     @Override
     protected List<AbstractPreferenceController> onCreatePreferenceControllers(Context context) {
         mPreferenceControllers = new ArrayList<>(2);
-        mHotwordSwitchController = new HotwordSwitchController(context);
-        mTakeBugReportController = new TakeBugReportController(context);
-        mPreferenceControllers.add(mHotwordSwitchController);
-        mPreferenceControllers.add(mTakeBugReportController);
+        if (quickSettingsEnabled()) {
+            mHotwordSwitchController = new HotwordSwitchController(context);
+            mTakeBugReportController = new TakeBugReportController(context);
+            mPreferenceControllers.add(mHotwordSwitchController);
+            mPreferenceControllers.add(mTakeBugReportController);
+        }
         return mPreferenceControllers;
     }
 
@@ -336,18 +354,6 @@ public class MainFragment extends PreferenceControllerFragment implements
         final Preference networkPref = findPreference(KEY_NETWORK);
         if (networkPref == null) {
             return;
-        }
-        if (FeatureFactory.getFactory(getContext()).getOfflineFeatureProvider()
-                .isOfflineMode(getContext())) {
-            networkPref.setIcon(R.drawable.ic_wifi_signal_off_white);
-            networkPref.setSummary(R.string.offline_mode_disabled_entry_subtitle);
-            networkPref.setEnabled(false);
-            networkPref.setSelectable(false);
-            return;
-        } else {
-            networkPref.setSummary(null);
-            networkPref.setEnabled(true);
-            networkPref.setSelectable(true);
         }
 
         if (mConnectivityListener.isCellConnected()) {
@@ -501,7 +507,10 @@ public class MainFragment extends PreferenceControllerFragment implements
 
     @Override
     public void onSuggestionReady(List<Suggestion> data) {
-        if (data == null || data.size() == 0) {
+        // Suggestion category is handled differently in basic mode
+        if (data == null || data.size() == 0
+                || FeatureFactory.getFactory(getContext())
+                .getBasicModeFeatureProvider().isBasicMode(getContext())) {
             if (mSuggestionsList != null) {
                 getPreferenceScreen().removePreference(mSuggestionsList);
                 mSuggestionsList = null;
@@ -615,7 +624,26 @@ public class MainFragment extends PreferenceControllerFragment implements
         Preference accountsPref = findPreference(KEY_ACCOUNTS_AND_SIGN_IN);
         SlicePreference accountsSlicePref =
                 (SlicePreference) findPreference(KEY_ACCOUNTS_AND_SIGN_IN_SLICE);
+        Preference accountsBasicMode = findPreference(KEY_ACCOUNTS_AND_SIGN_IN_BASIC_MODE);
         Intent intent = new Intent(ACTION_ACCOUNTS);
+
+        if (FeatureFactory.getFactory(getContext()).getBasicModeFeatureProvider()
+                .isBasicMode(getContext())) {
+            if (accountsBasicMode != null) {
+                accountsBasicMode.setVisible(true);
+            }
+            if (accountsPref != null) {
+                accountsPref.setVisible(false);
+            }
+            if (accountsSlicePref != null) {
+                accountsSlicePref.setVisible(false);
+            }
+            return;
+        } else {
+            if (accountsBasicMode != null) {
+                accountsBasicMode.setVisible(false);
+            }
+        }
 
         // If the intent can be handled, use it.
         if (systemIntentIsHandled(getContext(), intent) != null) {
@@ -632,30 +660,9 @@ public class MainFragment extends PreferenceControllerFragment implements
         if (SliceUtils.isSliceProviderValid(getContext(), uri)) {
             accountsPref.setVisible(false);
             accountsSlicePref.setVisible(true);
-            if (FeatureFactory.getFactory(getContext()).getOfflineFeatureProvider()
-                    .isOfflineMode(getContext())) {
-                accountsSlicePref.setSummary(R.string.offline_mode_disabled_entry_subtitle);
-                accountsSlicePref.setEnabled(false);
-                accountsSlicePref.setSelectable(false);
-            } else {
-                accountsSlicePref.setSummary(null);
-                accountsSlicePref.setEnabled(true);
-                accountsSlicePref.setSelectable(true);
-            }
         } else {
             accountsPref.setVisible(true);
             accountsSlicePref.setVisible(false);
-            if (FeatureFactory.getFactory(getContext()).getOfflineFeatureProvider()
-                    .isOfflineMode(getContext())) {
-                accountsPref.setSummary(R.string.offline_mode_disabled_entry_subtitle);
-                accountsPref.setEnabled(false);
-                accountsPref.setSelectable(false);
-                return;
-            } else {
-                // Summary will be handled by the updateAccountPrefInfo() method.
-                accountsPref.setEnabled(true);
-                accountsSlicePref.setSelectable(true);
-            }
             updateAccountPrefInfo();
         }
     }
@@ -681,6 +688,20 @@ public class MainFragment extends PreferenceControllerFragment implements
                             R.plurals.accounts_category_summary, accounts.length, accounts.length));
                 }
             }
+        }
+    }
+
+    @VisibleForTesting
+    void updateBasicModeSuggestion() {
+        PreferenceCategory basicModeSuggestion = findPreference(KEY_BASIC_MODE_SUGGESTION);
+        if (basicModeSuggestion == null) {
+            return;
+        }
+        if (FeatureFactory.getFactory(getContext())
+                .getBasicModeFeatureProvider().isBasicMode(getContext())) {
+            basicModeSuggestion.setVisible(true);
+        } else {
+            basicModeSuggestion.setVisible(false);
         }
     }
 
@@ -721,6 +742,14 @@ public class MainFragment extends PreferenceControllerFragment implements
                 || (preference.getKey().equals(KEY_CHANNELS_AND_INPUTS)
                         && preference.getIntent() != null)) {
             getContext().startActivity(preference.getIntent());
+            return true;
+        } else if (preference.getKey().equals(KEY_BASIC_MODE_EXIT)
+                && FeatureFactory.getFactory(getContext())
+                .getBasicModeFeatureProvider().isBasicMode(getContext())) {
+            if (getActivity() != null) {
+                FeatureFactory.getFactory(getContext())
+                        .getBasicModeFeatureProvider().startBasicModeExitActivity(getActivity());
+            }
             return true;
         } else {
             return super.onPreferenceTreeClick(preference);

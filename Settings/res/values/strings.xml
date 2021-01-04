@@ -45,6 +45,8 @@
     <string name="enabled">Enabled</string>
     <!-- Title indicating a certain setting is disabled [CHAR LIMIT = 30] -->
     <string name="disabled">Disabled</string>
+    <!-- Title indicating a certain setting is unavailable [CHAR LIMIT = 30] -->
+    <string name="unavailable">Unavailable</string>
 
     <!-- Top level headers -->
     <skip />
@@ -68,15 +70,9 @@
     <!-- Header title for preferences [CHAR LIMIT=50] -->
     <string name="header_category_preferences">Preferences</string>
     <!-- Header title for accessories [CHAR LIMIT=50] -->
-    <string name="header_category_accessories">Remote &amp; accessories</string>
+    <string name="header_category_accessories">Remote &amp; Accessories</string>
     <!-- Header title for personal [CHAR LIMIT=50] -->
     <string name="header_category_personal">Personal</string>
-
-    <!--
-      Subtitle of disabled preferences in offline mode. For now, this is a placeholder to provide a
-      base for specific build to override and should generally not be shown. [CHAR LIMIT=60]
-    -->
-    <string name="offline_mode_disabled_entry_subtitle">Not available in offline mode</string>
 
     <!-- Main Fragment Quick Settings Preferences -->
     <skip />
@@ -128,7 +124,7 @@
     <!-- Title for Google Assistant privacy settings [CHAR LIMIT=50] -->
     <string name="privacy_assistant_settings_title">Google Assistant</string>
     <!-- Title for purchases-related privacy settings [CHAR LIMIT=50] -->
-    <string name="privacy_purchases_settings_title">Purchases</string>
+    <string name="privacy_purchases_settings_title">Payment &amp; Purchases</string>
     <!-- Title for application-related privacy settings category [CHAR LIMIT=50] -->
     <string name="privacy_app_settings_category">App Settings</string>
     <!-- Summary for main screen preference for privacy settings [CHAR LIMIT=75] -->
@@ -221,6 +217,7 @@
     <string name="device_surround_sound">Surround sound</string>
     <!-- Preference and title which changes system sounds settings. [CHAR LIMIT=50] -->
     <string name="device_sound_effects">System sounds</string>
+    <string name="surround_sound_toggle_slice_uri" translatable="false" />
     <!-- Preference which manages apps. [CHAR LIMIT=50] -->
     <string name="device_apps">Applications</string>
     <!-- Preference which shows storage status. [CHAR LIMIT=50] -->
@@ -228,7 +225,7 @@
     <!-- Preference which shows reset settings. [CHAR LIMIT=50] -->
     <string name="device_reset">Factory reset</string>
     <!-- Preference which manages backup settings. [CHAR LIMIT=50] -->
-    <string name="device_backup_restore">Backup &amp; restore</string>
+    <string name="device_backup_restore">Backup &amp; Restore</string>
     <!-- Preference which shows reset options [CHAR LIMIT=50] -->
     <string name="device_factory_reset">Factory data reset</string>
     <!-- Preference which sets the device's display calibration. [CHAR LIMIT=50] -->
@@ -262,12 +259,14 @@
     <!-- Text for a radio button that if selected will allow the user to manually select surround sound formats. [CHAR LIMIT=50] -->
     <string name="surround_sound_manual_summary">Manual: Select which formats to use</string>
 
+    <string name="match_content_slice_uri" translatable="false" />
     <!-- A category title for the settings related to display. [CHAR LIMIT=50] -->
     <string name="display_category_title">Display</string>
     <!-- Title for preference which when clicked lets the user configure advanced display settings. [CHAR LIMIT=50] -->
     <string name="advanced_display_settings_title">Advanced display settings</string>
     <!-- Title for HDMI-CEC settings entry. [CHAR LIMIT=20] -->
     <string name="hdmi_cec_settings_title">HDMI-CEC</string>
+    <string name="advanced_sound_settings_slice_uri" translatable="false" />
     <!-- Title for preference which when clicked lets the user configure advanced sound settings. [CHAR LIMIT=50] -->
     <string name="advanced_sound_settings_title">Advanced sound settings</string>
     <!-- Title for preference to allow game mode for display. [CHAR LIMIT=50] -->
@@ -358,7 +357,7 @@
     <!-- Preference which manages cast settings. [CHAR LIMIT=50] -->
     <string name="system_cast">Google Cast</string>
     <!-- Preference which manages date / time settings. [CHAR LIMIT=50] -->
-    <string name="system_date_time">Date &amp; time</string>
+    <string name="system_date_time">Date &amp; Time</string>
     <!-- Preference which manages language settings. [CHAR LIMIT=50] -->
     <string name="system_language">Language</string>
     <!-- Preference which manages input method settings (without autofill), see also system_keyboard_autofill [CHAR LIMIT=50] -->
@@ -374,13 +373,13 @@
     <!-- Preference which manages google and assistant settings. [CHAR LIMIT=50] -->
     <string name="system_google">Google</string>
     <!-- Preference which manages security settings. [CHAR LIMIT=50] -->
-    <string name="system_security">Security &amp; restrictions</string>
+    <string name="system_security">Security &amp; Restrictions</string>
     <!-- Preference which manages speech recognition settings. [CHAR LIMIT=50] -->
     <string name="system_speech">Speech</string>
     <!-- Preference which manages TV inputs. [CHAR LIMIT=50] -->
     <string name="system_inputs">Inputs</string>
     <!-- Preference which manages TV inputs and devices. [CHAR LIMIT=50] -->
-    <string name="system_inputs_devices">Inputs &amp; devices</string>
+    <string name="system_inputs_devices">Inputs &amp; Devices</string>
     <!-- Preference which manages home theater controls. [CHAR LIMIT=50] -->
     <string name="system_home_theater_control">Home theater control</string>
     <!-- Preference which manages accessibility settings. [CHAR LIMIT=50] -->
@@ -391,6 +390,8 @@
     <string name="accessibility_none">None</string>
     <!-- Preference which manages Diagnostic and Usage reporting -->
     <string name="system_diagnostic">Usage &amp; diagnostics</string>
+    <string name="cast_settings_title" translatable="false" />
+    <string name="cast_settings_slice_uri" translatable="false" />
 
     <!-- About -->
     <skip />
@@ -398,12 +399,14 @@
     <string name="tutorials">Tutorials</string>
     <!-- Preference which shows system update status. [CHAR LIMIT=50] -->
     <string name="about_system_update">System update</string>
+    <!-- System update info description about what happens if you perform a system update [CHAR LIMIT=NONE] -->
+    <string name="system_update_description">This will update your system software to the most recent version. Your device will restart.</string>
     <!-- Preference which shows about screen with legal info, model, etc. [CHAR LIMIT=50] -->
     <string name="about_preference">About</string>
     <!-- Preference which shows name of device as it will appear when being accessed remotely [CHAR LIMIT=50] -->
     <string name="device_name">Device name</string>
     <!-- Button to reboot the device [CHAR LIMIT=40] -->
-    <string name="restart_button_label">Reboot</string>
+    <string name="restart_button_label">Restart</string>
     <!-- Preference which shows legal info. [CHAR LIMIT=50] -->
     <string name="about_legal_info">Legal information</string>
     <!-- Preference which shows open source licenses [CHAR LIMIT=50]-->
@@ -427,6 +430,8 @@
     </plurals>
     <!-- Preference which shows ads settings. [CHAR LIMIT=50] -->
     <string name="about_ads">Ads</string>
+    <!-- Ads info description outlining the Ads settings options [CHAR LIMIT=NONE] -->
+    <string name="ads_description">Manage your ads settings, such as resetting your advertising ID.</string>
     <!-- Device Info screen. Confirmation that developer settings are enabled [CHAR LIMIT=NONE] -->
     <string name="show_dev_on">You are now a developer!</string>
     <!-- Device Info screen. Okay we get it, stop pressing, you already have it on [CHAR LIMIT=NONE] -->
@@ -731,7 +736,7 @@
     <!-- Storage settings title. Displayed as a title when showing the total usage of /sdcard/Download on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
     <string name="storage_downloads_usage">Downloads</string>
     <!-- Storage settings title. Displayed as a title when showing the total usage of all pictures, videos in /sdcard/DCIM, /sdcard/Pictures folders on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
-    <string name="storage_dcim_usage">Photos &amp; videos</string>
+    <string name="storage_dcim_usage">Photos &amp; Videos</string>
     <!-- Storage settings title. Displayed as a title when showing the total usage of audio files in /sdcard on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
     <string name="storage_music_usage">Audio</string>
     <!-- Storage settings title. Displayed as a title when showing the total usage of misc files on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
@@ -741,7 +746,7 @@
     <!-- Storage settings eject action [CHAR LIMIT=50] -->
     <string name="storage_eject">Eject</string>
     <!-- Storage settings erase and format action [CHAR LIMIT=50] -->
-    <string name="storage_format">Erase &amp; format</string>
+    <string name="storage_format">Erase &amp; Format</string>
     <!-- Storage settings erase and format action [CHAR LIMIT=50] -->
     <string name="storage_format_as_private">Erase &amp; format as device storage</string>
     <!-- Storage settings erase and format action [CHAR LIMIT=50] -->
@@ -762,6 +767,8 @@
     <!-- Storage settings forget description [CHAR_LIMIT=NONE] -->
     <string name="storage_forget_wall_of_text">To use the apps or data this drive contains, replug it in. Alternatively, you can choose to forget this storage if the drive isn\'t available.\n\nIf you choose Forget, all the data the drive contains will be lost forever.\n\nYou can reinstall the apps later, but the data stored on this drive will be lost.</string>
 
+    <string name="storage_suggestions" translatable="false" />
+    <string name="ambient_slice_storage_uri" translatable="false" />
     <!-- Header title for device storage [CHAR_LIMIT=50] -->
     <string name="storage_device_storage_section">Device storage</string>
     <!-- Header title for removable storage [CHAR_LIMIT=50] -->
@@ -1115,7 +1122,7 @@
     <!-- Title for HDMI optimization in System Settings Developer options [CHAR LIMIT=50] -->
     <string name="system_hdmi_optimization">HDMI optimization</string>
     <!-- Title for reboot confirmation in System Settings Developer options [CHAR LIMIT=50] -->
-    <string name="system_reboot_confirm">Reboot now?</string>
+    <string name="system_reboot_confirm">Restart now?</string>
     <!-- Description for reboot confirmation in System Settings Developer options [CHAR LIMIT=150] -->
     <string name="system_desc_reboot_confirm">To update this setting, your device needs to be restarted</string>
     <!-- Title for HDCP checking option in System Settings Developer options [CHAR LIMIT=50] -->
@@ -1490,6 +1497,10 @@
 
     <!-- Message displayed to prompt the user to input the network password, ^1 will be replaced with the name of the network and should be a possive form related to password [CHAR LIMIT=NONE] -->
     <string name="wifi_setup_input_password">Enter password for <xliff:g id="ssid">%1$s</xliff:g></string>
+    <!-- Summary displayed to explain next steps for user to submit network password, ^1 be replaced with keyboard icon to be selected [CHAR LIMIT=NONE] -->
+    <string name="wifi_setup_description">Select <xliff:g id="wifi_submit_icon">%1$s</xliff:g> to continue.</string>
+    <!-- The subtitle wifi setup description presents an action done icon to match the action done keyboard icon. This string, therefore, should match the content description of action done on the keyboard [CHAR LIMIT=NONE]-->
+    <string name="label_done_key">Done</string>
     <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
     <string name="wifi_setup_connection_success">Connected successfully</string>
     <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
@@ -1593,6 +1604,8 @@
     <string name="factory_reset_device">Reset device</string>
     <!-- Factory reset description about what happens when you perform a factory reset [CHAR LIMIT=NONE] -->
     <string name="factory_reset_description">This will erase all data from your device\'s internal storage, including: your Google account, system and app data and settings, and downloaded apps</string>
+    <!-- Factory reset info description about what happens when you perform a factory reset [CHAR LIMIT=NONE] -->
+    <string name="factory_reset_info_description">This will restore your device to default settings and erase all data, accounts, files, and downloaded apps.</string>
     <!-- Factory reset screen, message on screen after user selects Reset phone button -->
     <string name="confirm_factory_reset_description">Erase all your personal information and downloaded apps on this device? You can\'t reverse this action!</string>
     <!-- Factory reset screen, button on screen after user selects Reset phone button -->
@@ -1780,11 +1793,22 @@
     <!-- Title of the preference displaying data usages and alerts setting. [CHAR LIMIT=50] -->
     <string name="title_data_alert">Data usage and alerts</string>
 
+    <!-- Header info to educate users that they can connect to the internet via Wi-Fi, Ethernet, and phone's hotspot. [CHAR LIMIT=NONE] -->
+    <string name="data_saver_header_info">You can connect to the internet with Wi-Fi, Ethernet, or your phone\'s hotspot. For more help, visit <b>g.co/network</b>."</string>
+
     <!-- Slice uri for "Accounts & Sign in" -->
     <string name="account_slice_uri" translatable="false"/>
+    <!-- Slice uri and title for manange user services settings -->
+    <string name="manage_user_services_slice_uri" translatable="false" />
+    <string name="manage_user_services_slice_title" translatable="false" />
+
     <!-- Slice uri for "Privacy" -->
     <string name="privacy_assistant_slice_uri" translatable="false"/>
     <string name="privacy_purchases_slice_uri" translatable="false"/>
+
+    <!-- Slice uri and title for "Ambient mode" -->
+    <string name="ambient_slice_uri" translatable="false" />
+    <string name="ambient_settings_title" translatable="false" />
 
     <!-- Slice uri for "Connected devices" -->
     <string name="connected_devices_slice_uri" translatable="false"/>
@@ -1795,6 +1819,9 @@
     <string name="format_selection_slice_uri" translatable="false"/>
     <!-- Slice uri for resolution and frequency -->
     <string name="resolution_slice_uri" translatable="false"/>
+
+    <!-- Slice uri for general information -->
+    <string name="general_info_slice_uri" translatable="false"/>
 
     <!-- Title for dialog displayed when user selects on a setting locked by an admin [CHAR LIMIT=30 BACKUP_MESSAGE_ID:4867639270211833535] -->
     <string name="disabled_by_policy_title">Action not allowed</string>
@@ -1825,6 +1852,53 @@
     <string name="network_connection_connect_successful">Connection successful</string>
     <!-- Neutral button for Network connection request Dialog [CHAR LIMIT=30] -->
     <string name="network_connection_request_dialog_showall">Show all</string>
-    <!--Bluetooth settings screen, text that appears in heading bar when scanning for devices -->
+    <!-- Bluetooth settings screen, text that appears in heading bar when scanning for devices -->
     <string name="progress_scanning">Searching</string>
+
+    <!-- Placeholder font for compiling. The real font will be provided by RRO. -->
+    <string name="preference_title_text_font" translatable="false" />
+
+    <!-- Start up verification -->
+    <string name="startup_verification_action" translatable="false" />
+    <string name="startup_verification_package" translatable="false" />
+
+    <!-- Basic mode -->
+    <string name="basic_mode_provider_uri" translatable="false" />
+    <string name="basic_mode_exit_package" translatable="false" />
+    <string name="basic_mode_exit_component" translatable="false" />
+    <string name="basic_mode_exit_data" translatable="false" />
+    <string name="basic_mode_suggestion_category_title" translatable="false" />
+    <string name="basic_mode_exit_preference_title" translatable="false" />
+    <string name="basic_mode_exit_preference_subtitle" translatable="false" />
+    <string name="basic_mode_exit_info_title" translatable="false" />
+    <string name="basic_mode_exit_info_summary" translatable="false" />
+    <string name="basic_mode_accounts_and_sign_in_info_summary" translatable="false" />
+
+    <!-- Vendor & Samples -->
+    <string name="vendor_activity_title" translatable="false">Vendor sample activity</string>
+    <string name="vendor_sample_settings_summary" translatable="false">(Subtitle is suggested to give further information)</string>
+    <!-- Title for "Channels & Inputs" settings [CHAR LIMIT=60] -->
+    <string name="channels_and_inputs_title">Channels &amp; Inputs</string>
+    <!-- Summary for "Channels & Inputs" settings [CHAR LIMIT=60] -->
+    <string name="channels_and_inputs_summary">Channels, external inputs</string>
+    <!-- Title for "Channels" settings [CHAR LIMIT=60] -->
+    <string name="channels_settings_title">Channels</string>
+    <!-- Title for "External inputs" settings [CHAR LIMIT=60] -->
+    <string name="external_inputs_settings_title">External inputs</string>
+    <!-- Summary for vendor sample "Display & Sound" settings [CHAR LIMIT=60] -->
+    <string name="display_and_sound_vendor_summary">Picture, screen, sound</string>
+    <!-- Title for "Picture" settings [CHAR LIMIT=60] -->
+    <string name="picture_settings_title">Picture</string>
+    <!-- Title for "Screen" settings [CHAR LIMIT=60] -->
+    <string name="screen_settings_title">Screen</string>
+    <!-- Title for "Sound" settings [CHAR LIMIT=60] -->
+    <string name="sound_settings_title">Sound</string>
+    <!-- Title of power and energy page [CHAR LIMIT=60] -->
+    <string name="power_and_energy">Power &amp; Energy</string>
+    <!-- Title of power on behavior item [CHAR LIMIT=60] -->
+    <string name="power_on_behavior">Power on behavior</string>
+    <string name="power_boot_resume_slice_uri" translatable="false" />
+    <!-- Title of the Reset section, which lets user select from factory reset or other reset related operations. [CHAR LIMIT=60] -->
+    <string name="reset_options_title">Reset</string>
+
 </resources>
