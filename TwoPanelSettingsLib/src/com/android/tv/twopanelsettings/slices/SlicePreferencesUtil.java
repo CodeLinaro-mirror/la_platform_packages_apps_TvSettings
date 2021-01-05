@@ -19,6 +19,7 @@ package com.android.tv.twopanelsettings.slices;
 import static android.app.slice.Slice.HINT_PARTIAL;
 import static android.app.slice.Slice.HINT_SUMMARY;
 import static android.app.slice.Slice.HINT_TITLE;
+import static android.app.slice.Slice.SUBTYPE_CONTENT_DESCRIPTION;
 import static android.app.slice.SliceItem.FORMAT_ACTION;
 import static android.app.slice.SliceItem.FORMAT_IMAGE;
 import static android.app.slice.SliceItem.FORMAT_INT;
@@ -26,6 +27,7 @@ import static android.app.slice.SliceItem.FORMAT_LONG;
 import static android.app.slice.SliceItem.FORMAT_SLICE;
 import static android.app.slice.SliceItem.FORMAT_TEXT;
 
+import static com.android.tv.twopanelsettings.slices.HasCustomContentDescription.CONTENT_DESCRIPTION_SEPARATOR;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.CHECKMARK;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_ACTION_ID;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_ADD_INFO_STATUS;
@@ -132,7 +134,13 @@ public final class SlicePreferencesUtil {
                 CharSequence uri = getText(data.mTargetSliceItem);
                 if (uri == null || TextUtils.isEmpty(uri)) {
                     if (preference == null) {
-                        preference = new Preference(contextThemeWrapper);
+                        // if contains info text
+                        if (getInfoSummary(item) != null) {
+                            preference = new CustomContentDescriptionPreference(
+                                        contextThemeWrapper);
+                        } else {
+                            preference = new Preference(contextThemeWrapper);
+                        }
                     }
                 } else {
                     if (preference == null) {
@@ -200,6 +208,10 @@ public final class SlicePreferencesUtil {
             IconCompat infoImage = getInfoImage(item);
             IconCompat infoTitleIcon = getInfoTitleIcon(item);
             Bundle b = preference.getExtras();
+            String fallbackInfoContentDescription = "";
+            if (preference.getTitle() != null) {
+                fallbackInfoContentDescription += preference.getTitle().toString();
+            }
             if (infoImage != null) {
                 b.putParcelable(EXTRA_PREFERENCE_INFO_IMAGE, infoImage.toIcon());
             }
@@ -215,9 +227,29 @@ public final class SlicePreferencesUtil {
                     b.putBoolean(InfoFragment.EXTRA_INFO_HAS_STATUS, false);
                 }
                 b.putCharSequence(EXTRA_PREFERENCE_INFO_TEXT, infoText);
+                if (preference.getTitle() != null
+                        && !preference.getTitle().equals(infoText.toString())) {
+                    fallbackInfoContentDescription +=
+                            CONTENT_DESCRIPTION_SEPARATOR + infoText.toString();
+                }
+
             }
             if (infoSummary != null) {
                 b.putCharSequence(EXTRA_PREFERENCE_INFO_SUMMARY, infoSummary);
+                fallbackInfoContentDescription +=
+                        CONTENT_DESCRIPTION_SEPARATOR + infoSummary.toString();
+            }
+            if (infoText != null || infoSummary != null) {
+                if (preference instanceof SlicePreference) {
+                    ((SlicePreference) preference).setContentDescription(
+                            getInfoContentDescription(item, fallbackInfoContentDescription));
+                } else if (preference instanceof SliceSwitchPreference) {
+                    ((SliceSwitchPreference) preference).setContentDescription(
+                            getInfoContentDescription(item, fallbackInfoContentDescription));
+                } else if (preference instanceof CustomContentDescriptionPreference) {
+                    ((CustomContentDescriptionPreference) preference).setContentDescription(
+                            getInfoContentDescription(item, fallbackInfoContentDescription));
+                }
             }
             if (infoImage != null || infoText != null || infoSummary != null) {
                 preference.setFragment(InfoFragment.class.getCanonicalName());
@@ -437,7 +469,7 @@ public final class SlicePreferencesUtil {
         return item.getText();
     }
 
-    /** Get the icon from the SlicItem if available */
+    /** Get the icon from the SliceItem if available */
     static Icon getIcon(SliceItem startItem) {
         if (startItem != null && startItem.getSlice() != null
                 && startItem.getSlice().getItems() != null
@@ -487,5 +519,20 @@ public final class SlicePreferencesUtil {
         SliceItem target = SliceQuery.findSubtype(
                 item, FORMAT_IMAGE, EXTRA_PREFERENCE_INFO_TITLE_ICON);
         return target != null ? target.getIcon() : null;
+    }
+
+    /**
+     * Get the content description from SliceItem if available
+     */
+    private static String getInfoContentDescription(
+            SliceItem sliceItem, String contentDescription) {
+        List<SliceItem> items = sliceItem.getSlice().getItems();
+        for (SliceItem item : items)  {
+            if (item.getSubType() != null
+                    && item.getSubType().equals(SUBTYPE_CONTENT_DESCRIPTION)) {
+                return item.getText().toString();
+            }
+        }
+        return contentDescription;
     }
 }
