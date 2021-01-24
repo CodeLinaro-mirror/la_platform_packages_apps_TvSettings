@@ -17,18 +17,23 @@
 package com.android.tv.twopanelsettings.slices;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 
+import androidx.preference.PreferenceViewHolder;
 import androidx.preference.SwitchPreference;
 import androidx.slice.core.SliceActionImpl;
 
 /**
  * Slices version of SwitchPreference.
  */
-public class SliceSwitchPreference extends SwitchPreference implements HasSliceAction {
+public class SliceSwitchPreference extends SwitchPreference implements HasSliceAction,
+        HasCustomContentDescription {
+
     private int mActionId;
     protected SliceActionImpl mAction;
     private SliceActionImpl mFollowupSliceAction;
+    private String mContentDescription;
 
     public SliceSwitchPreference(Context context, SliceActionImpl action) {
         super(context);
@@ -40,6 +45,16 @@ public class SliceSwitchPreference extends SwitchPreference implements HasSliceA
         super(context, attrs);
         mAction = action;
         update();
+    }
+
+    @Override
+    public void onBindViewHolder(PreferenceViewHolder holder) {
+        super.onBindViewHolder(holder);
+        if (!TextUtils.isEmpty(mContentDescription)) {
+            holder.itemView.setContentDescription(
+                    CustomContentDescriptionUtil.getFullSwitchContentDescription(
+                            getContext(), mContentDescription, this.isChecked()));
+        }
     }
 
     @Override
@@ -83,4 +98,17 @@ public class SliceSwitchPreference extends SwitchPreference implements HasSliceA
     private void update() {
         this.setChecked(mAction.isChecked());
     }
+
+    /**
+     * Sets the accessibility content description that will be read to the TalkBack users when they
+     * focus on this preference.
+     */
+    public void setContentDescription(String contentDescription) {
+        this.mContentDescription = contentDescription;
+    }
+
+    public String getContentDescription() {
+        return this.mContentDescription;
+    }
+
 }
