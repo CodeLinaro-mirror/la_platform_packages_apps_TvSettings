@@ -16,8 +16,7 @@
 
 package com.android.tv.settings.system.development;
 
-import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_VENDOR;
-import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_X;
+import static com.android.tv.settings.overlay.FlavorUtils.X_EXPERIENCE_FLAVORS_MASK;
 
 import android.Manifest;
 import android.app.Activity;
@@ -913,8 +912,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     }
 
     private boolean showBugReportPreference() {
-        return !(FlavorUtils.getFlavor(getContext()) == FLAVOR_VENDOR
-                || FlavorUtils.getFlavor(getContext()) == FLAVOR_X);
+        return (FlavorUtils.getFlavor(getContext()) & X_EXPERIENCE_FLAVORS_MASK) == 0;
     }
 
     private void updateBugreportOptions() {
@@ -936,7 +934,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     public static void captureBugReport(Activity activity) {
         Toast.makeText(activity, R.string.capturing_bugreport, Toast.LENGTH_SHORT).show();
         try {
-            ActivityManager.getService().requestFullBugReport();
+            ActivityManager.getService().requestInteractiveBugReport();
         } catch (RemoteException e) {
             Log.e(TAG, "Error taking bugreport", e);
         }
