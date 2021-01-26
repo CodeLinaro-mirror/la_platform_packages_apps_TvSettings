@@ -20,6 +20,8 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"Ustawienia"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"Sieć"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"Profil ograniczony"</string>
+    <string name="general_action_yes" msgid="1303080504548165355">"Tak"</string>
+    <string name="general_action_no" msgid="674735073031386948">"Nie"</string>
     <string name="action_on_title" msgid="1074972820237738324">"Wł."</string>
     <string name="action_off_title" msgid="3598665702863436597">"Wyłącz"</string>
     <string name="action_on_description" msgid="9146557891514835767">"Wł."</string>
@@ -124,11 +126,19 @@
     <string name="surround_sound_format_e_ac3" msgid="6923129088903887242">"Dolby Digital Plus"</string>
     <string name="surround_sound_format_dts" msgid="8331816247117135587">"DTS"</string>
     <string name="surround_sound_format_dts_hd" msgid="4268947520371740146">"DTS-HD"</string>
-    <string name="surround_sound_format_iec61937" msgid="9035476171988404170">"IEC61937"</string>
-    <string name="surround_sound_auto_info" msgid="852202989256054406">"Uwaga: opcja Automatycznie może nie działać, jeśli urządzenie nie zgłasza poprawnie swoich formatów."</string>
-    <string name="surround_sound_auto_summary" msgid="5559552398163510156">"Automatycznie: używaj formatów zgłaszanych przez urządzenie (zalecane)"</string>
+    <string name="surround_sound_format_dolby_mat" msgid="3029804841912462928">"Dolby Atmos z Dolby TrueHD"</string>
+    <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"Dolby TrueHD"</string>
+    <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Atmos z Dolby Digital Plus"</string>
+    <string name="surround_sound_auto_info" msgid="4829346839183591680">"Uwaga: opcja Automatycznie może nie działać, jeśli urządzenie nie zgłasza poprawnie swoich formatów."</string>
+    <string name="surround_sound_auto_summary" msgid="4217758237138215068">"Automatycznie: używaj formatów urządzenia"</string>
     <string name="surround_sound_none_summary" msgid="2791597033750908940">"Brak: nigdy nie używaj dźwięku przestrzennego"</string>
-    <string name="surround_sound_manual_summary" msgid="8945926149168263067">"Ręcznie: samodzielnie wybierz używane formaty"</string>
+    <string name="surround_sound_manual_summary" msgid="7333186407367883972">"Ręcznie: wybieraj formaty ręcznie z listy dostępnych"</string>
+    <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"Włączyć nieobsługiwany format dźwięku?"</string>
+    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"Podłączone urządzenie audio nie zgłasza obsługi tego formatu. Może to powodować nieoczekiwane działanie, np. trzaski lub inne dźwięki z urządzenia."</string>
+    <string name="surround_sound_enable_unsupported_dialog_cancel" msgid="3499147437078761105">"Anuluj"</string>
+    <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"Zmień mimo to"</string>
+    <string name="surround_sound_supported_title" msgid="4873195851187547020">"OBSŁUGIWANE FORMATY"</string>
+    <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"NIEOBSŁUGIWANE FORMATY"</string>
     <string name="display_category_title" msgid="247804007525046312">"Wyświetlacz"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"Zaawansowane ustawienia wyświetlacza"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
@@ -167,6 +177,27 @@
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Zazwyczaj 0000 lub 1234"</string>
     <string name="bluetooth_pair" msgid="2410285813728786067">"Sparuj"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Anuluj"</string>
+    <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"Połączono: %1$s"</string>
+    <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"Odłączono: %1$s"</string>
+    <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"Piloty i urządzenia współpracujące"</string>
+    <string name="bluetooth_toggle_title" msgid="3808904783456336104">"Bluetooth"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"Wyłącz Bluetooth"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"Jeśli wyłączysz Bluetooth, nie będziesz mieć dostępu do Asystenta Google przez pilota."</string>
+    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"Sparuj urządzenie współpracujące"</string>
+    <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Urządzenia współpracujące"</string>
+    <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Pilot"</string>
+    <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Ustawienia pilota"</string>
+    <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Połącz"</string>
+    <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Połącz z: %1$s"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Odłącz"</string>
+    <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"Odłącz od: %1$s"</string>
+    <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"Zmień nazwę"</string>
+    <string name="bluetooth_rename" msgid="7791922876280337194">"Zmień nazwę połączonego urządzenia"</string>
+    <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"Zapomnij"</string>
+    <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"Zapomnij: %1$s"</string>
+    <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Adres Bluetooth"</string>
+    <string name="bluetooth_connected_status" msgid="8629393539370085418">"Połączono"</string>
+    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Rozłączono"</string>
     <string name="send_feedback" msgid="936698637869795473">"Prześlij opinię"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centrum pomocy"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -793,6 +824,7 @@
     <string name="manage_notification_access_title" msgid="8659254371564990084">"Dostęp do powiadomień"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Żadna z zainstalowanych aplikacji nie prosiła o dostęp do powiadomień."</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Te aplikacje będą mogły czytać wszystkie powiadomienia, w tym informacje osobiste (takie jak nazwy kontaktów i treść otrzymywanych wiadomości). Będą też mogły odrzucać powiadomienia lub używać zawartych w nich przycisków czynności."</string>
+    <string name="default_notification_access_package_summary" msgid="1354775994781420222">"Wymagane przez system"</string>
     <string name="directory_access" msgid="7338555825237012006">"Dostęp do katalogu"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"Te aplikacje mają dostęp do niektórych katalogów."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>

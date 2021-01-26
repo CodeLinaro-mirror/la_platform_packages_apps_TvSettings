@@ -20,6 +20,8 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"პარამეტრები"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"ქსელი"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"შეზღუდული პროფილი"</string>
+    <string name="general_action_yes" msgid="1303080504548165355">"დიახ"</string>
+    <string name="general_action_no" msgid="674735073031386948">"არა"</string>
     <string name="action_on_title" msgid="1074972820237738324">"ჩართული"</string>
     <string name="action_off_title" msgid="3598665702863436597">"გამორთული"</string>
     <string name="action_on_description" msgid="9146557891514835767">"ჩართული"</string>
@@ -120,11 +122,19 @@
     <string name="surround_sound_format_e_ac3" msgid="6923129088903887242">"Dolby Digital Plus"</string>
     <string name="surround_sound_format_dts" msgid="8331816247117135587">"DTS"</string>
     <string name="surround_sound_format_dts_hd" msgid="4268947520371740146">"DTS-HD"</string>
-    <string name="surround_sound_format_iec61937" msgid="9035476171988404170">"IEC61937"</string>
-    <string name="surround_sound_auto_info" msgid="852202989256054406">"„ავტომატურმა“ ვარიანტმა შეიძლება არ იმუშაოს, თუ მოწყობილობა ვერ გვამცნობს მხარდაჭერილი ფორმატებს."</string>
-    <string name="surround_sound_auto_summary" msgid="5559552398163510156">"ავტომატური: მოწყობილობის მიერ მხარდაჭერილი ფორმატების გამოყენება (რეკომენდებული)"</string>
+    <string name="surround_sound_format_dolby_mat" msgid="3029804841912462928">"Dolby Atmos with Dolby TrueHD"</string>
+    <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"Dolby TrueHD"</string>
+    <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Atmos with Dolby Digital Plus"</string>
+    <string name="surround_sound_auto_info" msgid="4829346839183591680">"„ავტომატურმა“ ვარიანტმა შეიძლება არ იმუშაოს, თუ მოწყობილობა ვერ გვამცნობს მხარდაჭერილ ფორმატებს."</string>
+    <string name="surround_sound_auto_summary" msgid="4217758237138215068">"ავტომატური: მოწყ. მოწოდებული ფორმატების გამოყენება"</string>
     <string name="surround_sound_none_summary" msgid="2791597033750908940">"არცერთი: მოცულობითი ჟღერადობის გათიშვა"</string>
-    <string name="surround_sound_manual_summary" msgid="8945926149168263067">"მექანიკური: ფორმატების ხელით არჩევა"</string>
+    <string name="surround_sound_manual_summary" msgid="7333186407367883972">"ხელით არჩევა: ხელმისაწვდომი ფორმატებიდან ხელით აირჩიეთ რომელიმე"</string>
+    <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"გსურთ ხმის მხარდაუჭერელი ფორმატის ჩართვა?"</string>
+    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"თქვენს დაკავშირებულ აუდიომოწყობილობას არ აქვს ამ ფორმატის მხარდაჭერა. ამან შეიძლება გამოიწვიოს მოულოდნელი ხმაური ან ტკაცუნის ხმა თქვენს მოწყობილობაზე."</string>
+    <string name="surround_sound_enable_unsupported_dialog_cancel" msgid="3499147437078761105">"გაუქმება"</string>
+    <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"მაინც შეცვლა"</string>
+    <string name="surround_sound_supported_title" msgid="4873195851187547020">"მხარდაჭერილი ფორმატები"</string>
+    <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"მხარდაუჭერელი ფორმატები"</string>
     <string name="display_category_title" msgid="247804007525046312">"ჩვენება"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"ჩვენების გაფართოებული პარამეტრები"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
@@ -163,6 +173,27 @@
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"ჩვეულებრივ 0000 ან 1234"</string>
     <string name="bluetooth_pair" msgid="2410285813728786067">"დაწყვილება"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"გაუქმება"</string>
+    <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s დაკავშირებულია"</string>
+    <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s კავშირი გაწყვეტილია"</string>
+    <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"დისტანციური პულტი და აქსესუარები"</string>
+    <string name="bluetooth_toggle_title" msgid="3808904783456336104">"Bluetooth"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"Bluetooth-ის გამორთვა"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"Google ასისტენტზე დისტანციური მართვის პულტით წვდომას ვერ შეძლებთ, სანამ Bluetooth გამორთულია."</string>
+    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"აქსესუარის დაწყვილება"</string>
+    <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"აქსესუარები"</string>
+    <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"დისტანციური მართვა"</string>
+    <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"დისტანციური მართვის პარამეტრები"</string>
+    <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"დაკავშირება"</string>
+    <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"დაკავშირება %1$s-თან"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"გათიშვა"</string>
+    <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"%1$s-თან კავშირი გაწყვეტილია"</string>
+    <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"გადარქმევა"</string>
+    <string name="bluetooth_rename" msgid="7791922876280337194">"დაკავშირებული მოწყობილობის გადარქმევა"</string>
+    <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"დავიწყება"</string>
+    <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"%1$s-ის დავიწყება"</string>
+    <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Bluetooth მისამართი"</string>
+    <string name="bluetooth_connected_status" msgid="8629393539370085418">"დაკავშირებულია"</string>
+    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"კავშირი გაწყვეტილია"</string>
     <string name="send_feedback" msgid="936698637869795473">"გამოხმაურება"</string>
     <string name="launch_help" msgid="2607478763131952469">"დახმარების ცენტრი"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -779,6 +810,7 @@
     <string name="manage_notification_access_title" msgid="8659254371564990084">"შეტყობინებებზე წვდომა"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"შეტყობინებებზე წვდომა არც ერთ ინსტალირებულ აპს არ მოუთხოვია."</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"ამ აპებისთვის შესაძლებელი იქნება ყველა შეტყობინების, მათ შორის, ისეთი პერსონალური ინფორმაციის წაკითხვა, როგორიცაა კონტაქტების სახელები და თქვენ მიერ მიღებული ტექსტური შეტყობინებები. აპები ასევე შეძლებს შეტყობინებათა დახურვას ან მათში არსებული მოქმედების ღილაკების გამოყენებას."</string>
+    <string name="default_notification_access_package_summary" msgid="1354775994781420222">"მოითხოვება სისტემის მიერ"</string>
     <string name="directory_access" msgid="7338555825237012006">"კატალოგზე წვდომა"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"ამ აპებს გარკვეულ კატალოგებზე წვდომის ნებართვა აქვს."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>

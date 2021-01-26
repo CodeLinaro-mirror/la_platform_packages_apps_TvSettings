@@ -20,6 +20,8 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"Ρυθμίσεις"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"Δίκτυο"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"Περιορισμένο προφίλ"</string>
+    <string name="general_action_yes" msgid="1303080504548165355">"Ναι"</string>
+    <string name="general_action_no" msgid="674735073031386948">"Όχι"</string>
     <string name="action_on_title" msgid="1074972820237738324">"Ενεργή"</string>
     <string name="action_off_title" msgid="3598665702863436597">"Ανενεργή"</string>
     <string name="action_on_description" msgid="9146557891514835767">"Ενεργή"</string>
@@ -120,11 +122,19 @@
     <string name="surround_sound_format_e_ac3" msgid="6923129088903887242">"Dolby Digital Plus"</string>
     <string name="surround_sound_format_dts" msgid="8331816247117135587">"DTS"</string>
     <string name="surround_sound_format_dts_hd" msgid="4268947520371740146">"DTS-HD"</string>
-    <string name="surround_sound_format_iec61937" msgid="9035476171988404170">"IEC61937"</string>
-    <string name="surround_sound_auto_info" msgid="852202989256054406">"Σημείωση: Το \"Αυτόματο\" μπορεί να μην λειτουργεί αν η συσκευή δεν αναφέρει σωστά τις μορφές που υποστηρίζει."</string>
-    <string name="surround_sound_auto_summary" msgid="5559552398163510156">"Αυτόματο: Χρήση υποστηριζόμενων μορφών από συσκευή (συνιστάται)"</string>
+    <string name="surround_sound_format_dolby_mat" msgid="3029804841912462928">"Dolby Atmos με Dolby TrueHD"</string>
+    <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"Dolby TrueHD"</string>
+    <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Atmos με Dolby Digital Plus"</string>
+    <string name="surround_sound_auto_info" msgid="4829346839183591680">"Σημείωση: Το \"Αυτόματο\" μπορεί να μην λειτουργεί αν η συσκευή δεν αναφέρει σωστά τις μορφές που υποστηρίζει."</string>
+    <string name="surround_sound_auto_summary" msgid="4217758237138215068">"Αυτόματη: Χρήση μορφών που ανέφερε η συσκευή"</string>
     <string name="surround_sound_none_summary" msgid="2791597033750908940">"Κανένα: Να μην χρησιμοποιείται ποτέ περιφ. ήχος"</string>
-    <string name="surround_sound_manual_summary" msgid="8945926149168263067">"Μη αυτόματα: Επιλέξτε τις μορφές που θα χρησιμοποιούνται"</string>
+    <string name="surround_sound_manual_summary" msgid="7333186407367883972">"Μη αυτόματη: Μη αυτόματη επιλογή μορφών από τις διαθέσιμες μορφές"</string>
+    <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"Ενεργοποίηση μη υποστηριζόμενης μορφής ήχου;"</string>
+    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"Η συνδεδ. συσκευή ήχου δεν υποστηρ. αυτήν τη μορφή. Αυτό μπορεί να οδηγήσει τη συσκευή σε μη αναμενόμενες συμπεριφ. όπως δυνατούς θορύβους ή κρότους."</string>
+    <string name="surround_sound_enable_unsupported_dialog_cancel" msgid="3499147437078761105">"Ακύρωση"</string>
+    <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"Αλλαγή ούτως ή άλλως"</string>
+    <string name="surround_sound_supported_title" msgid="4873195851187547020">"ΥΠΟΣΤΗΡΙΖΟΜΕΝΕΣ ΜΟΡΦΕΣ"</string>
+    <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"ΜΗ ΥΠΟΣΤΗΡΙΖΟΜΕΝΕΣ ΜΟΡΦΕΣ"</string>
     <string name="display_category_title" msgid="247804007525046312">"Οθόνη"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"Σύνθετες ρυθμίσεις οθόνης"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
@@ -163,6 +173,27 @@
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Συνήθως, 0000 ή 1234"</string>
     <string name="bluetooth_pair" msgid="2410285813728786067">"Σύζευξη"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Ακύρωση"</string>
+    <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s συνδέθηκε"</string>
+    <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s αποσυνδέθηκε"</string>
+    <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"Τηλεχειριστήρια και αξεσουάρ"</string>
+    <string name="bluetooth_toggle_title" msgid="3808904783456336104">"Bluetooth"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"Απενεργοποίηση Bluetooth"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"Δεν θα έχετε πρόσβαση στον Βοηθό Google από το τηλεχειριστήριό σας ενώ το Bluetooth είναι ανενεργό."</string>
+    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"Σύζευξη αξεσουάρ"</string>
+    <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Αξεσουάρ"</string>
+    <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Τηλεχειριστήριο"</string>
+    <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Ρυθμίσεις τηλεχειριστηρίου"</string>
+    <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Σύνδεση"</string>
+    <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Σύνδεση σε %1$s"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Αποσύνδεση"</string>
+    <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"Αποσύνδεση από %1$s"</string>
+    <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"Μετονομασία"</string>
+    <string name="bluetooth_rename" msgid="7791922876280337194">"Μετονομασία συνδεδεμένης συσκευής"</string>
+    <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"Κατάργηση απομνημόνευσης"</string>
+    <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"Κατάργηση απομνημόνευσης %1$s"</string>
+    <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Διεύθυνση Bluetooth"</string>
+    <string name="bluetooth_connected_status" msgid="8629393539370085418">"Συνδέθηκε"</string>
+    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Αποσυνδέθηκε"</string>
     <string name="send_feedback" msgid="936698637869795473">"Αποστολή σχολίων"</string>
     <string name="launch_help" msgid="2607478763131952469">"Κέντρο βοήθειας"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -779,6 +810,7 @@
     <string name="manage_notification_access_title" msgid="8659254371564990084">"Πρόσβαση στις ειδοποιήσεις"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Δεν ζητήθηκε πρόσβαση στις ειδοποιήσεις από εγκατεστημένες εφαρμογές."</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Αυτές οι εφαρμογές θα μπορούν να διαβάσουν όλες τις ειδοποιήσεις, συμπεριλαμβανομένων των προσωπικών πληροφοριών, όπως είναι τα ονόματα των επαφών και το κείμενο των μηνυμάτων που λαμβάνετε. Επίσης, θα μπορούν να παραβλέπουν τις ειδοποιήσεις ή να ενεργοποιούν τα κουμπιά ενεργειών που περιέχονται σε αυτές."</string>
+    <string name="default_notification_access_package_summary" msgid="1354775994781420222">"Απαιτείται από το σύστημα"</string>
     <string name="directory_access" msgid="7338555825237012006">"Πρόσβαση στον κατάλογο"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"Αυτές οι εφαρμογές έχουν άδεια πρόσβασης σε συγκεκριμένους καταλόγους."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>

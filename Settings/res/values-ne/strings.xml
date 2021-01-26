@@ -20,6 +20,8 @@
     <string name="launcher_settings_app_name" msgid="1459269619779675736">"सेटिङहरू"</string>
     <string name="launcher_network_app_name" msgid="8311763462169735002">"नेटवर्क"</string>
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"प्रतिबन्धित प्रोफाइल"</string>
+    <string name="general_action_yes" msgid="1303080504548165355">"अँ"</string>
+    <string name="general_action_no" msgid="674735073031386948">"अहँ"</string>
     <string name="action_on_title" msgid="1074972820237738324">"सक्रिय गर्नुहोस्"</string>
     <string name="action_off_title" msgid="3598665702863436597">"बन्द गर्नुहोस्"</string>
     <string name="action_on_description" msgid="9146557891514835767">"सक्रिय गर्नुहोस्"</string>
@@ -120,11 +122,19 @@
     <string name="surround_sound_format_e_ac3" msgid="6923129088903887242">"Dolby Digital Plus"</string>
     <string name="surround_sound_format_dts" msgid="8331816247117135587">"DTS"</string>
     <string name="surround_sound_format_dts_hd" msgid="4268947520371740146">"DTS-HD"</string>
-    <string name="surround_sound_format_iec61937" msgid="9035476171988404170">"IEC61937"</string>
-    <string name="surround_sound_auto_info" msgid="852202989256054406">"टिपोट: तपाईंको यन्त्रले सहीसँग आफ्ना समर्थित ढाँचाहरू रिपोर्ट नगरेको खण्डमा स्वतः काम गर्ने विकल्पले काम नगर्न सक्छ।"</string>
-    <string name="surround_sound_auto_summary" msgid="5559552398163510156">"स्वतः: तपाईंको यन्त्रका रिपोर्टहरूले समर्थन गरिरहेका ढाँचाहरू प्रयोग गर्नुहोस् (सिफारिस गरिएको)"</string>
+    <string name="surround_sound_format_dolby_mat" msgid="3029804841912462928">"\'Dolby TrueHD सहितको Dolby Atmos\' साउन्ड फर्म्याट"</string>
+    <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"Dolby TrueHD"</string>
+    <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"\'Dolby Digital Plus सहितको Dolby Atmos\' साउन्ड फर्म्याट"</string>
+    <string name="surround_sound_auto_info" msgid="4829346839183591680">"नोट: तपाईंको यन्त्रले प्रयोग गर्न मिल्ने फर्म्याटबारे सही तरिकाले रिपोर्ट नगरेका खण्डमा स्वतः काम गर्ने विकल्पले काम नगर्न सक्छ।"</string>
+    <string name="surround_sound_auto_summary" msgid="4217758237138215068">"स्वतः: यन्त्रमा प्रयोग गर्न मिल्ने फर्म्याट प्रयोग गर्नु…"</string>
     <string name="surround_sound_none_summary" msgid="2791597033750908940">"कुनै पनि होइन: कहिले पनि सराउन्ड साउन्ड प्रयोग नगर्नुहोस्"</string>
-    <string name="surround_sound_manual_summary" msgid="8945926149168263067">"म्यानुअल: प्रयोग गर्ने ढाँचाहरू चयन गर्नुहोस्"</string>
+    <string name="surround_sound_manual_summary" msgid="7333186407367883972">"म्यानुअल: उपलब्ध फर्म्याटहरूमध्येबाट आफूले चाहेका फर्म्याट छनौट गर्नु…"</string>
+    <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"यन्त्रमा प्रयोग गर्न नमिल्ने साउन्ड फर्म्याट प्रयोग गर्ने हो?"</string>
+    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"तपाईंले कनेक्ट गर्नुभएको अडियो यन्त्रमा यो फर्म्याट प्रयोग गर्न मिल्छ भनी रिपोर्ट गरिएको छैन। यसो हुँदा तपाईंको यन्त्रबाट ठुलो वा केही पड्केको जस्तो आवाज आउने जस्ता अप्रत्याशित समस्या देखिन सक्छन्।"</string>
+    <string name="surround_sound_enable_unsupported_dialog_cancel" msgid="3499147437078761105">"रद्द गर्नुहोस्"</string>
+    <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"जे भए पनि बदल्नुहोस्"</string>
+    <string name="surround_sound_supported_title" msgid="4873195851187547020">"यन्त्रमा प्रयोग गर्न मिल्ने फर्म्याटहरू"</string>
+    <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"यन्त्रमा प्रयोग गर्न नमिल्ने फर्म्याटहरू"</string>
     <string name="display_category_title" msgid="247804007525046312">"डिस्प्ले"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"डिस्प्लेसम्बन्धी उन्नत सेटिङ"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
@@ -163,6 +173,27 @@
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"सामान्यत ०००० वा १२३४"</string>
     <string name="bluetooth_pair" msgid="2410285813728786067">"जोड"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"रद्द गर्नुहोस्"</string>
+    <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s मा कनेक्ट गरियो"</string>
+    <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s डिस्कनेक्ट गरियो"</string>
+    <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"रिमोट तथा सहायक उपकरणहरू"</string>
+    <string name="bluetooth_toggle_title" msgid="3808904783456336104">"ब्लुटुथ"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"ब्लुटुथ अफ गर्नुहोस्"</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"ब्लुटुथ अफ हुँदा तपाईं आफ्नो रिमोटमार्फत Google सहायक प्रयोग गर्न सक्नु हुने छैन।"</string>
+    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"सहायक उपकरणमा कनेक्ट गर्नुहोस्"</string>
+    <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"सहायक उपकरणहरू"</string>
+    <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"रिमोट कन्ट्रोल"</string>
+    <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"रिमोट कन्ट्रोलसम्बन्धी सेटिङ"</string>
+    <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"कनेक्ट गर्नुहोस्"</string>
+    <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s मा कनेक्ट गर्नुहोस्"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"डिस्कनेक्ट गर्नुहोस्"</string>
+    <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"%1$s डिस्कनेक्ट गर्नुहोस्"</string>
+    <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"नाम बदल्नुहोस्"</string>
+    <string name="bluetooth_rename" msgid="7791922876280337194">"तपाईंको यन्त्रमा कनेक्ट भएको यन्त्रको नाम बदल्नुहोस्"</string>
+    <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"हटाउनुहोस्"</string>
+    <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"%1$s हटाउनुहोस्"</string>
+    <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"ब्लुटुथ ठेगाना"</string>
+    <string name="bluetooth_connected_status" msgid="8629393539370085418">"कनेक्ट गरियो"</string>
+    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"डिस्कनेक्ट भयो"</string>
     <string name="send_feedback" msgid="936698637869795473">"प्रतिक्रिया पठाउनुहोस्"</string>
     <string name="launch_help" msgid="2607478763131952469">"मद्दत केन्द्र"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -779,6 +810,7 @@
     <string name="manage_notification_access_title" msgid="8659254371564990084">"सूचनामाथिको पहुँच"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"कुनै स्थापना गरिएको अनुप्रयोगले सूचनामाथिको पहुँचको लागि अनुरोध गरेका छैन।"</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"यी एपहरूले सम्पर्कको नाम र तपाईंले प्राप्त गर्नुहुने पाठ सन्देशहरूलगायत सबै सूचनाहरू पढ्न सक्नेछन्। तिनीहरू सूचनाहरू खारेज गर्न वा तिनीहरूमा समावेश कारबाही बटनहरू ट्रिगर गर्न पनि सक्नेछन्।"</string>
+    <string name="default_notification_access_package_summary" msgid="1354775994781420222">"सिस्टमको सेटिङअनुसार यसो गर्नु अनिवार्य छ"</string>
     <string name="directory_access" msgid="7338555825237012006">"निर्देशिकामाथिको पहुँच"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"यी अनुप्रयोगहरूसँग केही निर्देशिकाहरूमाथि पहुँच राख्ने अनुमति छ।"</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
