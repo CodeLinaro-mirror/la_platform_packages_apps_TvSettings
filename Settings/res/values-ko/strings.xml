@@ -674,10 +674,8 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"PIN이 잘못되었습니다. 다시 시도해 주세요."</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"다시 시도해 주세요. PIN이 일치하지 않습니다."</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"<xliff:g id="SSID">%1$s</xliff:g> 비밀번호 입력"</string>
-    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
-    <skip />
-    <!-- no translation found for label_done_key (8576286462300373440) -->
-    <skip />
+    <string name="wifi_setup_description" msgid="6843574399437584520">"계속하려면 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 아이콘을 선택하세요."</string>
+    <string name="label_done_key" msgid="8576286462300373440">"완료"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"연결되었습니다."</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"저장되었습니다."</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"버전 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
@@ -805,6 +803,7 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"모바일 데이터를 절약하기 위해 동영상 품질을 자동 조정합니다."</string>
     <string name="title_data_alert" msgid="8262081890052682475">"데이터 사용량 및 알림"</string>
     <string name="data_saver_header_info" msgid="239820871940156510">"Wi-Fi, 이더넷 또는 휴대전화의 핫스팟으로 인터넷에 연결할 수 있습니다. 도움이 필요한 경우 "<b>"g.co/network"</b>"를 참조하세요."</string>
+    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"허용되지 않는 작업"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"볼륨을 변경할 수 없음"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"전화를 사용할 수 없음"</string>
@@ -820,6 +819,14 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"연결되었습니다."</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"모두 표시"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"검색 중"</string>
+    <string name="channels_and_inputs_title" msgid="7484506121290830217">"채널 및 입력"</string>
+    <string name="channels_and_inputs_summary" msgid="3168386051698084007">"채널, 외부 입력"</string>
+    <string name="channels_settings_title" msgid="8048956665383762510">"채널"</string>
+    <string name="external_inputs_settings_title" msgid="8937038060355986380">"외부 입력"</string>
+    <string name="display_and_sound_vendor_summary" msgid="7661072343315403110">"사진, 화면, 소리"</string>
+    <string name="picture_settings_title" msgid="7643193630924322697">"사진"</string>
+    <string name="screen_settings_title" msgid="7806908869190824434">"화면"</string>
+    <string name="sound_settings_title" msgid="9149367966117889465">"소리"</string>
     <string name="power_and_energy" msgid="4638182439670702556">"전원 및 에너지"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"전원이 켜질 때 동작"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"초기화"</string>

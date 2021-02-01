@@ -288,7 +288,7 @@
     <string name="wifi_forget_network" msgid="4634016112624305571">"ネットワークから切断"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"これにより、このネットワークへの接続に使用されている情報（保存したパスワードなど）が消去されます"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
-    <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"続行"</string>
+    <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"次へ"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"ネットワークを変更"</string>
     <string name="wifi_action_change_network" msgid="3943123581726966199">"変更する"</string>
     <string name="wifi_action_dont_change_network" msgid="2685585142299769847">"変更しない"</string>
@@ -599,7 +599,7 @@
     <string name="autofill_none" msgid="1615056985649424207">"なし"</string>
     <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;このアプリが信頼できることを確認してください&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Password service&gt;%1$s&lt;/xliff:g&gt; は画面上の内容に基づいて、入力可能な情報を判別します。"</string>
     <string name="computing_size" msgid="8623916230485437579">"計算しています…"</string>
-    <string name="title_select_wifi_network" msgid="935820896444071617">"Wi-Fi ネットワークの選択"</string>
+    <string name="title_select_wifi_network" msgid="935820896444071617">"Wi-Fiネットワークの選択"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"名前を変更"</string>
     <string name="accessories_wifi_display_enable" msgid="2385467074170316302">"Wi-Fiディスプレイ"</string>
     <string name="accessories_wifi_display_pin_required" msgid="5434960694140426664">"PINが必要です"</string>
@@ -674,10 +674,8 @@
     <string name="pin_toast_wrong" msgid="4297542365877164402">"PINが間違っています。もう一度お試しください。"</string>
     <string name="pin_toast_not_match" msgid="2439298696342975155">"もう一度お試しください。PINが一致しません。"</string>
     <string name="wifi_setup_input_password" msgid="8510003548463241234">"<xliff:g id="SSID">%1$s</xliff:g> のパスワードを入力してください"</string>
-    <!-- no translation found for wifi_setup_description (6843574399437584520) -->
-    <skip />
-    <!-- no translation found for label_done_key (8576286462300373440) -->
-    <skip />
+    <string name="wifi_setup_description" msgid="6843574399437584520">"続行するには、<xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> を選択してください。"</string>
+    <string name="label_done_key" msgid="8576286462300373440">"完了"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"接続しました"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"保存しました"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"バージョン<xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
@@ -805,6 +803,7 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"モバイルデータ使用量を節約するため、動画の画質を自動的に調整します"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"データ使用量と通知"</string>
     <string name="data_saver_header_info" msgid="239820871940156510">"Wi-Fi、イーサネット、またはスマートフォンのアクセス ポイントを介してインターネットに接続できます。詳しくは、"<b>"g.co/network"</b>" をご覧ください。"</string>
+    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"操作が許可されていません"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"音量を変更することはできません"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"発信は許可されていません"</string>
@@ -820,7 +819,15 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"接続しました"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"すべて表示"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"検索中"</string>
-    <string name="power_and_energy" msgid="4638182439670702556">"電源とエネルギー"</string>
-    <string name="power_on_behavior" msgid="927607372303160716">"電源 ON 時の動作"</string>
+    <string name="channels_and_inputs_title" msgid="7484506121290830217">"チャンネルと入力"</string>
+    <string name="channels_and_inputs_summary" msgid="3168386051698084007">"チャンネルと外部入力"</string>
+    <string name="channels_settings_title" msgid="8048956665383762510">"チャンネル"</string>
+    <string name="external_inputs_settings_title" msgid="8937038060355986380">"外部入力"</string>
+    <string name="display_and_sound_vendor_summary" msgid="7661072343315403110">"画像、画面、音"</string>
+    <string name="picture_settings_title" msgid="7643193630924322697">"画像"</string>
+    <string name="screen_settings_title" msgid="7806908869190824434">"画面"</string>
+    <string name="sound_settings_title" msgid="9149367966117889465">"音"</string>
+    <string name="power_and_energy" msgid="4638182439670702556">"電源と省エネ設定"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"電源オン時の画面"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"リセット"</string>
 </resources>
