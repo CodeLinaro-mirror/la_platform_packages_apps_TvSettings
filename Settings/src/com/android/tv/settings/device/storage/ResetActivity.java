@@ -17,7 +17,6 @@
 package com.android.tv.settings.device.storage;
 
 import android.annotation.Nullable;
-import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
@@ -29,15 +28,17 @@ import android.service.persistentdata.PersistentDataBlockManager;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
 
 import com.android.tv.settings.R;
+import com.android.tv.settings.util.GuidedActionsAlignUtil;
 
 import java.util.List;
 
-public class ResetActivity extends Activity {
+public class ResetActivity extends FragmentActivity {
 
     private static final String TAG = "ResetActivity";
 
@@ -53,11 +54,12 @@ public class ResetActivity extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (savedInstanceState == null) {
-            GuidedStepFragment.addAsRoot(this, ResetFragment.newInstance(), android.R.id.content);
+            GuidedStepSupportFragment
+                    .addAsRoot(this, ResetFragment.newInstance(), android.R.id.content);
         }
     }
 
-    public static class ResetFragment extends GuidedStepFragment {
+    public static class ResetFragment extends GuidedStepSupportFragment {
 
         public static ResetFragment newInstance() {
 
@@ -100,9 +102,14 @@ public class ResetActivity extends Activity {
                 Log.wtf(TAG, "Unknown action clicked");
             }
         }
+
+        @Override
+        public GuidanceStylist onCreateGuidanceStylist() {
+            return GuidedActionsAlignUtil.createGuidanceStylist();
+        }
     }
 
-    public static class ResetConfirmFragment extends GuidedStepFragment {
+    public static class ResetConfirmFragment extends GuidedStepSupportFragment {
 
         public static ResetConfirmFragment newInstance() {
 
@@ -133,6 +140,11 @@ public class ResetActivity extends Activity {
                     .clickAction(GuidedAction.ACTION_ID_OK)
                     .title(getString(R.string.confirm_factory_reset_device))
                     .build());
+        }
+
+        @Override
+        public GuidanceStylist onCreateGuidanceStylist() {
+            return GuidedActionsAlignUtil.createGuidanceStylist();
         }
 
         @Override
