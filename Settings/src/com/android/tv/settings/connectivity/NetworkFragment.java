@@ -37,6 +37,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.provider.Settings;
+import android.util.Log;
 
 import androidx.annotation.Keep;
 import androidx.preference.Preference;
@@ -44,7 +45,6 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceManager;
 import androidx.preference.TwoStatePreference;
 
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.settingslib.wifi.AccessPoint;
 import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
@@ -140,6 +140,11 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     }
 
     @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
         // There doesn't seem to be an API to listen to everything this could cover, so
@@ -231,17 +236,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                 mConnectivityListener.setWifiEnabled(mEnableWifiPref.isChecked());
                 logToggleInteracted(
                         TvSettingsEnums.NETWORK_WIFI_ON_OFF, mEnableWifiPref.isChecked());
-                if (mMetricsFeatureProvider != null) {
-                    if (mEnableWifiPref.isChecked()) {
-                        mMetricsFeatureProvider.action(getContext(),
-                                MetricsProto.MetricsEvent.ACTION_WIFI_ON);
-                    } else {
-                        // Log if user was connected at the time of switching off.
-                        mMetricsFeatureProvider.action(getContext(),
-                                MetricsProto.MetricsEvent.ACTION_WIFI_OFF,
-                                mConnectivityListener.isWifiConnected());
-                    }
-                }
                 return true;
             case KEY_WIFI_COLLAPSE:
                 final boolean collapse = !mWifiNetworksCategory.isCollapsed();
@@ -264,8 +258,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                 return true;
             case KEY_WIFI_ADD:
                 logEntrySelected(TvSettingsEnums.NETWORK_ADD_NEW_NETWORK);
-                mMetricsFeatureProvider.action(getActivity(),
-                        MetricsProto.MetricsEvent.ACTION_WIFI_ADD_NETWORK);
                 break;
         }
         return super.onPreferenceTreeClick(preference);
@@ -442,11 +434,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     @Override
     public void onLevelChanged(AccessPoint accessPoint) {
         ((TvAccessPointPreference) accessPoint.getTag()).onLevelChanged();
-    }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SETTINGS_NETWORK_CATEGORY;
     }
 
     @Override

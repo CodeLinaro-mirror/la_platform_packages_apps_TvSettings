@@ -20,6 +20,8 @@ import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFE
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_TEXT;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_TITLE_ICON;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
@@ -28,6 +30,7 @@ import android.graphics.drawable.Icon;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.transition.Fade;
 import android.util.Log;
@@ -37,11 +40,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.HorizontalScrollView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.preference.LeanbackListPreferenceDialogFragmentCompat;
 import androidx.leanback.preference.LeanbackPreferenceFragmentCompat;
 import androidx.leanback.widget.OnChildViewHolderSelectedListener;
@@ -56,6 +61,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.tv.twopanelsettings.slices.HasSliceUri;
 import com.android.tv.twopanelsettings.slices.InfoFragment;
+import com.android.tv.twopanelsettings.slices.SliceFragment;
 import com.android.tv.twopanelsettings.slices.SlicePreference;
 import com.android.tv.twopanelsettings.slices.SlicesConstants;
 
@@ -159,7 +165,8 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         try {
             return LeanbackPreferenceFragmentCompat.class.isAssignableFrom(Class.forName(fragment));
         } catch (ClassNotFoundException e) {
-            throw new RuntimeException("Fragment class not found.", e);
+            Log.e(TAG, "Fragment class not found " + e);
+            return false;
         }
     }
 
@@ -167,7 +174,8 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         try {
             return InfoFragment.class.isAssignableFrom(Class.forName(fragment));
         } catch (ClassNotFoundException e) {
-            throw new RuntimeException("Fragment class not found.", e);
+            Log.e(TAG, "Fragment class not found " + e);
+            return false;
         }
     }
 
@@ -191,8 +199,15 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             if (pref instanceof SlicePreference) {
                 return false;
             }
-            startImmersiveFragment(Fragment.instantiate(getActivity(), pref.getFragment(),
-                    pref.getExtras()));
+            try {
+                Fragment immersiveFragment = Fragment.instantiate(getActivity(), pref.getFragment(),
+                        pref.getExtras());
+                startImmersiveFragment(immersiveFragment);
+            } catch (Exception e) {
+                Log.e(TAG, "error trying to instantiate fragment " + e);
+                // return true so it won't be handled by onPreferenceTreeClick in PreferenceFragment
+                return true;
+            }
         }
         return true;
     }
@@ -225,6 +240,11 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         }
         initialPreviewFragment.setExitTransition(null);
 
+        if (previewFragment.getView() != null) {
+            previewFragment.getView().setImportantForAccessibility(
+                    View.IMPORTANT_FOR_ACCESSIBILITY_YES);
+        }
+
         mPrefPanelIdx++;
 
         Fragment fragment = getChildFragmentManager().findFragmentById(frameResIds[mPrefPanelIdx]);
@@ -237,6 +257,41 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
 
         moveToPanel(mPrefPanelIdx, true);
         removeFragmentAndAddToBackStack(mPrefPanelIdx - 1);
+    }
+
+    private boolean isA11yOn() {
+        return Settings.Secure.getInt(
+                getActivity().getContentResolver(),
+                Settings.Secure.ACCESSIBILITY_ENABLED, 0) == 1;
+    }
+
+    private void updateAccessibilityTitle(Fragment fragment) {
+        CharSequence newA11yTitle = "";
+        if (fragment instanceof SliceFragment) {
+            newA11yTitle = ((SliceFragment) fragment).getScreenTitle();
+        } else if (fragment instanceof LeanbackPreferenceFragmentCompat) {
+            newA11yTitle = ((LeanbackPreferenceFragmentCompat) fragment).getPreferenceScreen()
+                    .getTitle();
+        } else if (fragment instanceof GuidedStepSupportFragment) {
+            if (fragment.getView() != null) {
+                View titleView = fragment.getView().findViewById(R.id.guidance_title);
+                if (titleView instanceof TextView) {
+                    newA11yTitle = ((TextView) titleView).getText();
+                }
+            }
+        }
+
+        if (!TextUtils.isEmpty(newA11yTitle)) {
+            if (DEBUG) {
+                Log.d(TAG, "changing a11y title to: " + newA11yTitle);
+            }
+
+            // Set both window title and pane title to avoid messy announcements when coming from
+            // other activities. (window title is announced on activity change)
+            getActivity().getWindow().setTitle(newA11yTitle);
+            getView().findViewById(R.id.two_panel_fragment_container)
+                    .setAccessibilityPaneTitle(newA11yTitle);
+        }
     }
 
     private void addOrRemovePreferenceFocusedListener(Fragment fragment, boolean isAddingListener) {
@@ -360,8 +415,6 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         }
         if (previewFragment == null) {
             previewFragment = new DummyFragment();
-        } else {
-            previewFragment.setTargetFragment(prefFragment, 0);
         }
 
         final Fragment existingPreviewFragment =
@@ -445,6 +498,10 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 .remove(target)
                 .addToBackStack(null)
                 .commit();
+        mHandler.post(() -> {
+            updateAccessibilityTitle(fragment);
+        });
+
     }
 
     public static class DummyFragment extends Fragment {
@@ -694,6 +751,15 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                         mScrollView.getScrollX(), animationEnd);
                 slideAnim.setAutoCancel(true);
                 slideAnim.setDuration(PANEL_ANIMATION_MS);
+                slideAnim.addListener(new AnimatorListenerAdapter() {
+                    @Override
+                    public void onAnimationEnd(Animator animation) {
+                        super.onAnimationEnd(animation);
+                        if (isA11yOn() && fragmentToBecomeMainPanel.getView() != null) {
+                            fragmentToBecomeMainPanel.getView().requestFocus();
+                        }
+                    }
+                });
                 slideAnim.start();
                 // Color animation
                 if (scrollsToPreview) {
@@ -767,7 +833,9 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 }
             }
             if (fragmentToBecomeMainPanel != null && fragmentToBecomeMainPanel.getView() != null) {
-                fragmentToBecomeMainPanel.getView().requestFocus();
+                if (!isA11yOn()) {
+                    fragmentToBecomeMainPanel.getView().requestFocus();
+                }
                 for (int resId : frameResIds) {
                     Fragment f = getChildFragmentManager().findFragmentById(resId);
                     if (f != null) {
@@ -789,6 +857,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                                 .onArriveAtMainPanel(isRTL());
                     } // distanceToScrollToRight being 0 means no actual panel sliding; thus noop.
                 }
+                updateAccessibilityTitle(fragmentToBecomeMainPanel);
             }
         });
     }

@@ -85,7 +85,7 @@
     <string name="sync_failed" msgid="2998289556481804047">"同期失敗"</string>
     <string name="sync_active" msgid="1621239982176888680">"同期有効"</string>
     <string name="connectivity_wifi" msgid="1138689464484009184">"Wi-Fi"</string>
-    <string name="connectivity_ethernet" msgid="4270588618633681766">"イーサネット"</string>
+    <string name="connectivity_ethernet" msgid="4270588618633681766">"有線 LAN"</string>
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"イーサネット接続"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ネットワーク接続なし"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi が OFF です"</string>
@@ -135,15 +135,25 @@
     <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"変更"</string>
     <string name="surround_sound_supported_title" msgid="4873195851187547020">"サポートされている形式"</string>
     <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"サポートされていない形式"</string>
+    <string name="surround_sound_format_info" msgid="5671866505653542934">"形式の情報"</string>
+    <string name="surround_sound_show_formats" msgid="1929849219042916469">"形式を表示"</string>
+    <string name="surround_sound_hide_formats" msgid="7770931097236868238">"形式を非表示"</string>
+    <string name="surround_sound_enabled_formats" msgid="5159269040069877148">"有効な形式"</string>
+    <string name="surround_sound_disabled_formats" msgid="2250466936859455802">"無効な形式"</string>
+    <string name="surround_sound_disabled_format_info_clicked" msgid="463393349034930031">"有効にするには、[形式の選択] を [手動] に切り替えてください。"</string>
+    <string name="surround_sound_enabled_format_info_clicked" msgid="4003154853054756792">"無効にするには、[形式の選択] を [手動] に切り替えてください。"</string>
     <string name="display_category_title" msgid="247804007525046312">"ディスプレイ"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"ディスプレイの詳細設定"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"音の詳細設定"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"ゲームモードを有効にする"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"コンテンツのフレームレートを合わせる"</string>
-    <string name="match_content_frame_rate_auto" msgid="6214788970633587734">"自動"</string>
-    <string name="match_content_frame_rate_always" msgid="5642271496986859043">"常時"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"シームレス"</string>
+    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"視聴中のテレビでシームレスな移行が可能である場合に限り、アプリからリクエストがあった場合、デバイスは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせます。"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"非シームレス"</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"アプリからリクエストがあった場合、デバイスは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせます。そのため、動画再生の開始時または終了時に画面が一瞬空白になる場合があります。"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"なし"</string>
+    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"アプリからリクエストがあっても、デバイスでは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせることはありません。"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"キャッシュデータを削除しますか？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"すべてのアプリのキャッシュデータが削除されます。"</string>
     <string name="accessories_add" msgid="413764175035531452">"アクセサリを追加"</string>
@@ -485,34 +495,34 @@
     <string name="system_services" msgid="5754310941186053151">"サービス"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"サービスの設定"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"高コントラスト テキスト"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"ユーザー補助のショートカット"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"ユーザー補助機能のショートカット"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ユーザー補助機能のショートカットを有効にする"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ショートカット サービス"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ショートカットが ON の場合、戻るボタンと下ボタンの両方を 3 秒間押し続けるとユーザー補助機能が起動します。"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"動画の字幕テキストオーバーレイの設定"</string>
-    <string name="captions_display" msgid="2598662495450633375">"ディスプレイ"</string>
+    <string name="captions_display" msgid="2598662495450633375">"表示"</string>
     <string name="captions_display_on" msgid="480438033345455728">"ON"</string>
     <string name="captions_display_off" msgid="87881163874948539">"OFF"</string>
-    <string name="display_options" msgid="2645282080948371603">"表示オプション"</string>
+    <string name="display_options" msgid="2645282080948371603">"詳細設定"</string>
     <string name="captions_configure" msgid="711991018642931958">"設定"</string>
     <string name="captions_language" msgid="5905918439449912646">"言語"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"デフォルト"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"文字サイズ"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"字幕スタイル"</string>
-    <string name="captions_customoptions" msgid="7691004663572161126">"カスタマイズ オプション"</string>
-    <string name="captions_fontfamily" msgid="1026632786438880997">"フォント ファミリー"</string>
+    <string name="captions_customoptions" msgid="7691004663572161126">"カスタム詳細設定"</string>
+    <string name="captions_fontfamily" msgid="1026632786438880997">"書体"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"テキストの色"</string>
     <string name="captions_edgetype" msgid="4875636291904824401">"エッジの種類"</string>
     <string name="captions_edgecolor" msgid="2779925179084237336">"エッジの色"</string>
     <string name="captions_backgroundshow" msgid="1080183686470477645">"背景の表示"</string>
     <string name="captions_backgroundcolor" msgid="2056944109914399253">"背景色"</string>
-    <string name="captions_backgroundopacity" msgid="1850126438162000027">"背景の透明度"</string>
+    <string name="captions_backgroundopacity" msgid="1850126438162000027">"背景の不透明度"</string>
     <string name="captioning_preview_text" msgid="3034147586392743237">"字幕サンプル"</string>
-    <string name="captions_textopacity" msgid="6055602491649526307">"テキストの透明度"</string>
+    <string name="captions_textopacity" msgid="6055602491649526307">"テキストの不透明度"</string>
     <string name="captions_windowshow" msgid="6002072054703167886">"ウィンドウを表示"</string>
     <string name="captions_windowcolor" msgid="7460430328878876648">"ウィンドウの色"</string>
-    <string name="captions_windowopacity" msgid="8645082670322789314">"ウィンドウの透明度"</string>
+    <string name="captions_windowopacity" msgid="8645082670322789314">"ウィンドウの不透明度"</string>
     <string name="captions_style_0" msgid="169414884289770256">"黒地に白"</string>
     <string name="captions_style_1" msgid="8236052739817535538">"白地に黒"</string>
     <string name="captions_style_2" msgid="456353889540431910">"黒地に黄色"</string>
