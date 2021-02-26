@@ -29,6 +29,10 @@
 
     <!-- General use strings -->
     <skip />
+    <!-- General string for items such as buttons for confirmation [CHAR LIMIT=30] -->
+    <string name="general_action_yes">Yes</string>
+    <!-- General string for items such as buttons for rejection [CHAR LIMIT=30] -->
+    <string name="general_action_no">No</string>
     <!-- Title for an action which turns a feature on [CHAR LIMIT=30] -->
     <string name="action_on_title">On</string>
     <!-- Title for an action which turns a feature off [CHAR LIMIT=30] -->
@@ -255,17 +259,49 @@
     <string name="surround_sound_format_dts">DTS</string>
     <!-- Name of the DTS-HD surround sound format that is displayed to the user [CHAR LIMIT=50] -->
     <string name="surround_sound_format_dts_hd">DTS-HD</string>
-    <!-- Name of the IEC61937 surround sound format that is displayed to the user [CHAR LIMIT=50] -->
-    <string name="surround_sound_format_iec61937">IEC61937</string>
+    <!-- Name of the DOLBY_MAT surround sound format that is displayed to the user
+        [CHAR LIMIT=50] -->
+    <string name="surround_sound_format_dolby_mat">Dolby Atmos with Dolby TrueHD</string>
+    <!-- Name of the DOLBY_TRUEHD surround sound format that is displayed to the user
+        [CHAR LIMIT=50] -->
+    <string name="surround_sound_format_dolby_truehd">Dolby TrueHD</string>
+    <!-- Name of the E_AC3_JOC surround sound format that is displayed to the user
+        [CHAR LIMIT=50] -->
+    <string name="surround_sound_format_e_ac3_joc">Dolby Atmos with Dolby Digital Plus</string>
 
-    <!-- An informational message displayed in the surround sound settings, explaining to the user that the auto setting may sometimes cause issues. [CHAR LIMIT=100]-->
-    <string name="surround_sound_auto_info">Note: The Auto option may not work if your device does not report its supported formats correctly.</string>
-    <!-- Text for a radio button that if selected will cause the device to automatically select an appropriate surround sound format. [CHAR LIMIT=50] -->
-    <string name="surround_sound_auto_summary">Auto: Use the formats that your device reports supporting (recommended)</string>
-    <!-- Text for a radio button that if selected will cause the device to never use a surround sound format. [CHAR LIMIT=50] -->
+    <!-- An informational message displayed in the surround sound settings, explaining to the
+        user that the auto setting may sometimes cause issues. [CHAR LIMIT=135]-->
+    <string name="surround_sound_auto_info">Note: The Automatic option may not work if your device
+        does not report its supported formats correctly.</string>
+    <!-- Text for a radio button that if selected will cause the device to automatically select
+        an appropriate surround sound format. [CHAR LIMIT=65] -->
+    <string name="surround_sound_auto_summary">Automatic: Use device reported formats</string>
+    <!-- Text for a radio button that if selected will cause the device to never use a surround
+       sound format. [CHAR LIMIT=50] -->
     <string name="surround_sound_none_summary">None: Never use surround sound</string>
-    <!-- Text for a radio button that if selected will allow the user to manually select surround sound formats. [CHAR LIMIT=50] -->
-    <string name="surround_sound_manual_summary">Manual: Select which formats to use</string>
+    <!-- Text for a radio button that if selected will allow the user to manually select surround
+        sound formats. [CHAR LIMIT=87] -->
+    <string name="surround_sound_manual_summary">Manual: Choose formats manually from available
+        formats</string>
+    <!-- Title for warning dialog that is shown when user enables an unsupported surround sound
+        format. [CHAR LIMIT=70]-->
+    <string name="surround_sound_enable_unsupported_dialog_title">Enabling unsupported sound
+        format?</string>
+    <!-- Description for warning dialog that is shown when user enables an unsupported surround
+        sound format. [CHAR LIMIT=271]-->
+    <string name="surround_sound_enable_unsupported_dialog_desc">Your connected audio device does
+            not report support for this format. This may cause unexpected behaviours like loud
+            noises or pops from your device.</string>
+    <!-- Cancel button title for warning dialog that is shown when user enables an unsupported
+        surround sound format. [CHAR LIMIT=30]-->
+    <string name="surround_sound_enable_unsupported_dialog_cancel">Cancel</string>
+    <!-- Ok button title for warning dialog that is shown when user enables an unsupported surround
+        sound format. [CHAR LIMIT=50]-->
+    <string name="surround_sound_enable_unsupported_dialog_ok">Change anyway</string>
+    <!-- Title for supported surround sound section [CHAR LIMIT=50]-->
+    <string name="surround_sound_supported_title">SUPPORTED FORMATS</string>
+    <!-- Title for unsupported surround sound section [CHAR LIMIT=50]-->
+    <string name="surround_sound_unsupported_title">UNSUPPORTED FORMATS</string>
 
     <string name="match_content_slice_uri" translatable="false" />
     <!-- A category title for the settings related to display. [CHAR LIMIT=50] -->
@@ -360,6 +396,57 @@
     <string name="bluetooth_pair">Pair</string>
     <!-- Action title for Cancelling the Bluetooth secure Pair action [CHAR LIMIT=50] -->
     <string name="bluetooth_cancel">Cancel</string>
+
+    <!-- Toast message when a bluetooth device is connected. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_device_connected_toast">%1$s connected</string>
+    <!-- Toast message when a bluetooth device is disconnected. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_device_disconnected_toast">%1$s disconnected</string>
+
+    <!-- The title for "Remotes & Accessories" Slice [CHAR LIMIT = 50]-->
+    <string name="connected_devices_slice_pref_title">Remotes &amp; Accessories</string>
+    <!-- The title for the Bluetooth toggle [CHAR LIMIT=20] -->
+    <string name="bluetooth_toggle_title">Bluetooth</string>
+    <!-- The title for the confirmation dialog when users try to turn off bluetooth.
+        [CHAR LIMIT=50]-->
+    <string name="bluetooth_toggle_confirmation_dialog_title">Turn off Bluetooth</string>
+    <!-- The summary for the confirmation dialog when users try to turn off bluetooth.
+        [CHAR LIMIT=240]-->
+    <string name="bluetooth_toggle_confirmation_dialog_summary">You will not be able to
+        access Google Assistant from your remote while Bluetooth is off.</string>
+    <!-- The title on button that starts pairing flow. [CHAR LIMIT=40] -->
+    <string name="bluetooth_pair_accessory">Pair accessory</string>
+    <!-- The category title for connected/paired accessories. [CHAR LIMIT=30] -->
+    <string name="bluetooth_known_devices_category">Accessories</string>
+    <!-- Uri to be overlaid by partner to show official remote control settings. -->
+    <string name="bluetooth_official_remote_entry_slice_uri" translatable="false" />
+    <!-- Category for listing official remote control devices. Can be overlaid by OEM to something
+        like "Foobar Remote". -->
+    <string name="bluetooth_official_remote_category">Remote Control</string>
+    <!-- Title for official remote control settings. Can be overlaid by OEM to something like as
+        "Foobar Remote Settings". -->
+    <string name="bluetooth_official_remote_entry_title">Remote control settings</string>
+    <!-- Text on button that allows users to connect their Bluetooth devices. [CHAR LIMIT=30] -->
+    <string name="bluetooth_connect_action_title">Connect</string>
+    <!-- Text asking users to confirm connecting their Bluetooth devices. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connect_confirm">Connect to %1$s</string>
+    <!-- Text on button that allows users to disconnect their Bluetooth devices. [CHAR LIMIT=30] -->
+    <string name="bluetooth_disconnect_action_title">Disconnect</string>
+    <!-- Text asking users to confirm disconnecting their Bluetooth devices. [CHAR LIMIT=40] -->
+    <string name="bluetooth_disconnect_confirm">Disconnect from %1$s</string>
+    <!-- Text on button that allows users to rename their Bluetooth devices. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_action_title">Rename</string>
+    <!-- Text shown on Bluetooth devices renaming screen. [CHAR LIMIT=40] -->
+    <string name="bluetooth_rename">Rename your connected device</string>
+    <!-- Text on button that allows users to forget their Bluetooth devices. [CHAR LIMIT=30] -->
+    <string name="bluetooth_forget_action_title">Forget</string>
+    <!-- Text asking users to confirm forgetting their Bluetooth devices. [CHAR LIMIT=40] -->
+    <string name="bluetooth_forget_confirm">Forget %1$s</string>
+    <!-- Text preceded by the bluetooth serial. [CHAR LIMIT=40] -->
+    <string name="bluetooth_serial_number_label">Bluetooth address</string>
+    <!-- Subtitle showing connected connection status of Bluetooth device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_status">Connected</string>
+    <!-- Subtitle showing disconnected connection status of Bluetooth device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_disconnected_status">Disconnected</string>
 
     <!-- Help and feedback preferences -->
     <skip />
@@ -1752,6 +1839,8 @@
         including personal information such as contact names and the text of messages you receive.
         They will also be able to dismiss notifications or trigger action buttons they contain.
     </string>
+    <!-- Summary to explain why the notification access setting is disabled for some apps. -->
+    <string name="default_notification_access_package_summary">Required by system</string>
 
     <!-- Title of directory access screen in settings [CHAR LIMIT=30] -->
     <string name="directory_access">Directory access</string>
@@ -1945,4 +2034,8 @@
     <!-- Title of the Reset section, which lets user select from factory reset or other reset related operations. [CHAR LIMIT=60] -->
     <string name="reset_options_title">Reset</string>
 
+    <string name="font_sans_serif" translatable="false">sans-serif</string>
+    <string name="font_sans_serif_light" translatable="false">sans-serif-light</string>
+    <string name="font_sans_serif_thin" translatable="false">sans-serif-thin</string>
+    <string name="font_sans_serif_condensed" translatable="false">sans-serif-condensed</string>
 </resources>

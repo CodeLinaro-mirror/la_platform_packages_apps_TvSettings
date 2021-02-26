@@ -29,7 +29,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
 import androidx.preference.ListPreference;
@@ -88,7 +88,9 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        mConnectivityListener = new ConnectivityListener(getContext(), this, getLifecycle());
+        mConnectivityListener = new ConnectivityListener(
+                getContext(), this, getSettingsLifecycle());
+
         mAccessPoint = new AccessPoint(getContext(),
                 getArguments().getBundle(ARG_ACCESS_POINT_STATE));
         super.onCreate(savedInstanceState);
@@ -265,7 +267,7 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
         return TvSettingsEnums.NETWORK_AP_INFO;
     }
 
-    public static class ForgetNetworkConfirmFragment extends GuidedStepFragment {
+    public static class ForgetNetworkConfirmFragment extends GuidedStepSupportFragment {
 
         private AccessPoint mAccessPoint;
         private final MetricsFeatureProvider mMetricsFeatureProvider = new MetricsFeatureProvider();
