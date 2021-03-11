@@ -84,7 +84,7 @@
 %1$s</xliff:g>"</string>
     <string name="sync_failed" msgid="2998289556481804047">"ஒத்திசைப்பதில் தோல்வி"</string>
     <string name="sync_active" msgid="1621239982176888680">"ஒத்திசைவு செயலில் உள்ளது"</string>
-    <string name="connectivity_wifi" msgid="1138689464484009184">"Wi-Fi"</string>
+    <string name="connectivity_wifi" msgid="1138689464484009184">"வைஃபை"</string>
     <string name="connectivity_ethernet" msgid="4270588618633681766">"ஈதர்நெட்"</string>
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ஈத்தர்நெட் இணைக்கப்பட்டது"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"நெட்வொர்க் எதுவும் இணைக்கப்படவில்லை"</string>
@@ -135,15 +135,25 @@
     <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"பரவாயில்லை, மாற்று"</string>
     <string name="surround_sound_supported_title" msgid="4873195851187547020">"ஆதரிக்கப்படும் வடிவங்கள்"</string>
     <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"ஆதரிக்கப்படாத வடிவங்கள்"</string>
+    <string name="surround_sound_format_info" msgid="5671866505653542934">"வடிவமைப்பு குறித்த தகவல்கள்"</string>
+    <string name="surround_sound_show_formats" msgid="1929849219042916469">"வடிவமைப்புகளைக் காட்டுதல்"</string>
+    <string name="surround_sound_hide_formats" msgid="7770931097236868238">"வடிவமைப்புகளை மறைத்தல்"</string>
+    <string name="surround_sound_enabled_formats" msgid="5159269040069877148">"இயக்கப்பட்ட வடிவமைப்புகள்"</string>
+    <string name="surround_sound_disabled_formats" msgid="2250466936859455802">"முடக்கப்பட்ட வடிவமைப்புகள்"</string>
+    <string name="surround_sound_disabled_format_info_clicked" msgid="463393349034930031">"இயக்க, வடிவமைப்புத் தேர்வைக் கைமுறைக்கு மாற்றவும்."</string>
+    <string name="surround_sound_enabled_format_info_clicked" msgid="4003154853054756792">"முடக்க, வடிவமைப்புத் தேர்வைக் கைமுறைக்கு மாற்றவும்."</string>
     <string name="display_category_title" msgid="247804007525046312">"காட்சி அமைப்புகள்"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"மேம்பட்ட காட்சி அமைப்புகள்"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"மேம்பட்ட ஒலி அமைப்புகள்"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"கேம் பயன்முறையை அனுமதி"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"வீடியோவின் ஃப்ரேம் வீதத்தைப் பொருத்து"</string>
-    <string name="match_content_frame_rate_auto" msgid="6214788970633587734">"தானியங்கு"</string>
-    <string name="match_content_frame_rate_always" msgid="5642271496986859043">"எப்போதும்"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"தடையற்ற ஒளிபரப்பு"</string>
+    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"ஆப்ஸ் கோரினால், டிவியில் தடையற்ற ஒளிபரப்புக்கான வசதி இருந்தால் மட்டுமே நீங்கள் பார்த்துக் கொண்டிருக்கும் வீடியோவின் அசல் ஃபிரேம் வீதத்துடன் திரையின் ஃபிரேமை உங்கள் சாதனம் பொருத்தும்."</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"எப்போதும் தடையற்ற ஒளிபரப்பு"</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ஆப்ஸ் கோரினால், நீங்கள் பார்த்துக் கொண்டிருக்கும் வீடியோவின் அசல் ஃபிரேம் வீதத்துடன் திரையின் ஃபிரேமை உங்கள் சாதனம் பொருத்தும். இதனால், வீடியோவின் இயக்கத்திலிருந்து வெளியேறும்போதோ உள்நுழையும்போதோ திரை ஒரு நொடி மறைந்து தெரியக்கூடும்."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ஒருபோதும் வேண்டாம்"</string>
+    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"நீங்கள் பார்த்துக் கொண்டிருக்கும் வீடியோவின் அசல் ஃபிரேம் வீதத்துடன் திரையின் ஃபிரேமைப் பொருத்துவதற்கு ஆப்ஸே கோரினாலும் அதை உங்கள் சாதனம் ஒருபோதும் முயற்சிக்காது."</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"தற்காலிகச் சேமிப்பு தரவை அழிக்கவா?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"இது, எல்லா ஆப்ஸின் தற்காலிகச் சேமிப்பு தரவை அழிக்கும்."</string>
     <string name="accessories_add" msgid="413764175035531452">"துணைக்கருவியைச் சேர்"</string>
@@ -639,7 +649,7 @@
     <string name="computing_size" msgid="8623916230485437579">"கணக்கிடுகிறது..."</string>
     <string name="title_select_wifi_network" msgid="935820896444071617">"உங்கள் வைஃபை நெட்வொர்க்கைத் தேர்ந்தெடுக்கவும்"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"மறுபெயரிடு"</string>
-    <string name="accessories_wifi_display_enable" msgid="2385467074170316302">"Wi-Fi காட்சி"</string>
+    <string name="accessories_wifi_display_enable" msgid="2385467074170316302">"வைஃபை காட்சி"</string>
     <string name="accessories_wifi_display_pin_required" msgid="5434960694140426664">"PIN தேவை"</string>
     <string name="whichApplication" msgid="4510042089342879264">"இதைப் பயன்படுத்தி செயலை முடி"</string>
     <string name="alwaysUseQuestion" msgid="2643084054296937138">"இந்தச் செயலுக்காக எப்போதும் இதைப் பயன்படுத்தவா?"</string>
