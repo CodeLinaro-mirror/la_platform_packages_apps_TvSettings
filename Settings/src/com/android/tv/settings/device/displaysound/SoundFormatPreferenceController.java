@@ -16,9 +16,11 @@
 
 package com.android.tv.settings.device.displaysound;
 
+import android.annotation.NonNull;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.media.AudioManager;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
@@ -31,6 +33,7 @@ import com.android.tv.settings.R;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -42,15 +45,18 @@ public class SoundFormatPreferenceController extends AbstractPreferenceControlle
 
     private int mFormatId;
     private Map<Integer, Boolean> mFormats;
-    private Map<Integer, Boolean> mReportedFormats;
+    private List<Integer> mReportedFormats;
+    private AudioManager mAudioManager;
 
     public SoundFormatPreferenceController(
             Context context,
             int formatId,
-            Map<Integer, Boolean> formats,
-            Map<Integer, Boolean> reportedFormats) {
+            AudioManager audioManager,
+            @NonNull Map<Integer, Boolean> formats,
+            @NonNull List<Integer> reportedFormats) {
         super(context);
         mFormatId = formatId;
+        mAudioManager = audioManager;
         mFormats = formats;
         mReportedFormats = reportedFormats;
     }
@@ -132,25 +138,13 @@ public class SoundFormatPreferenceController extends AbstractPreferenceControlle
         if (!isReportedFormat() && enabled) {
             showWarningDialogOnEnableUnsupportedFormat(preference);
         } else {
-            updateEnabledFormatsSetting(enabled);
+            mAudioManager.setSurroundFormatEnabled(mFormatId, enabled);
         }
     }
 
     /** @return true if the given format is reported by the device. */
     private boolean isReportedFormat() {
-        return mReportedFormats != null && mReportedFormats.get(mFormatId) != null;
-    }
-
-    private void updateEnabledFormatsSetting(boolean enabled) {
-        HashSet<Integer> formats = getEnabledFormats();
-        if (enabled) {
-            formats.add(mFormatId);
-        } else {
-            formats.remove(mFormatId);
-        }
-        Settings.Global.putString(mContext.getContentResolver(),
-                Settings.Global.ENCODED_SURROUND_OUTPUT_ENABLED_FORMATS,
-                TextUtils.join(",", formats));
+        return mReportedFormats.contains(mFormatId);
     }
 
     private void showWarningDialogOnEnableUnsupportedFormat(SwitchPreference preference) {
@@ -161,7 +155,7 @@ public class SoundFormatPreferenceController extends AbstractPreferenceControlle
                     R.string.surround_sound_enable_unsupported_dialog_ok,
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
-                            updateEnabledFormatsSetting(true);
+                            mAudioManager.setSurroundFormatEnabled(mFormatId, true);
                             dialog.dismiss();
                         }
                     })
