@@ -30,7 +30,7 @@
     <string name="disagree" msgid="7402998517682194430">"Không đồng ý"</string>
     <string name="enabled" msgid="5127188665060746381">"Đã bật"</string>
     <string name="disabled" msgid="4589065923272201387">"Đã tắt"</string>
-    <string name="unavailable" msgid="1610732303812180196">"Không dùng được"</string>
+    <string name="unavailable" msgid="1610732303812180196">"Không có sẵn"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Đề xuất"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Cài đặt nhanh"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Cài đặt chung"</string>
@@ -135,15 +135,25 @@
     <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"Vẫn thay đổi"</string>
     <string name="surround_sound_supported_title" msgid="4873195851187547020">"ĐỊNH DẠNG ĐƯỢC HỖ TRỢ"</string>
     <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"ĐỊNH DẠNG KHÔNG ĐƯỢC HỖ TRỢ"</string>
+    <string name="surround_sound_format_info" msgid="5671866505653542934">"THÔNG TIN ĐỊNH DẠNG"</string>
+    <string name="surround_sound_show_formats" msgid="1929849219042916469">"Hiển thị định dạng"</string>
+    <string name="surround_sound_hide_formats" msgid="7770931097236868238">"Ẩn định dạng"</string>
+    <string name="surround_sound_enabled_formats" msgid="5159269040069877148">"ĐỊNH DẠNG ĐÃ BẬT"</string>
+    <string name="surround_sound_disabled_formats" msgid="2250466936859455802">"ĐỊNH DẠNG BỊ TẮT"</string>
+    <string name="surround_sound_disabled_format_info_clicked" msgid="463393349034930031">"Để bật định dạng, hãy thay đổi chế độ lựa chọn định dạng thành Thủ công."</string>
+    <string name="surround_sound_enabled_format_info_clicked" msgid="4003154853054756792">"Để tắt định dạng, hãy thay đổi chế độ lựa chọn định dạng thành Thủ công."</string>
     <string name="display_category_title" msgid="247804007525046312">"Hiển thị"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"Cài đặt hiển thị nâng cao"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Cài đặt âm thanh nâng cao"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Cho phép chế độ trò chơi"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"So khớp tốc độ khung hình của nội dung"</string>
-    <string name="match_content_frame_rate_auto" msgid="6214788970633587734">"Tự động"</string>
-    <string name="match_content_frame_rate_always" msgid="5642271496986859043">"Luôn luôn"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Liền mạch"</string>
+    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Nếu ứng dụng yêu cầu, thiết bị của bạn sẽ khớp đầu ra của màn hình với tốc độ khung hình gốc của nội dung bạn đang xem, CHỈ khi TV có thể thực hiện một lần chuyển đổi liền mạch."</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Không liền mạch"</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Nếu ứng dụng yêu cầu, thiết bị của bạn sẽ khớp đầu ra của màn hình với tốc độ khung hình gốc của nội dung bạn đang xem. Việc này có thể khiến màn hình không hiển thị nội dung trong giây lát khi bạn thoát hoặc vào chế độ phát video."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Không bao giờ"</string>
+    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Ngay cả khi ứng dụng yêu cầu, thiết bị của bạn sẽ không bao giờ tìm cách khớp đầu ra của màn hình với tốc độ khung hình gốc của nội dung bạn đang xem."</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Xóa dữ liệu đã lưu trong bộ nhớ đệm?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Xóa dữ liệu lưu trong cache cho tất cả ứng dụng."</string>
     <string name="accessories_add" msgid="413764175035531452">"Thêm phụ kiên"</string>
@@ -234,8 +244,8 @@
       <item quantity="one">Bây giờ, bạn giờ chỉ cần thực hiện <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> bước nữa là trở thành nhà phát triển</item>
     </plurals>
     <string name="about_ads" msgid="7662896442040086522">"Quảng cáo"</string>
-    <string name="ads_description" msgid="8081069475265061074">"Quản lý các tùy chọn cài đặt quảng cáo, ví dụ: đặt lại mã nhận dạng cho quảng cáo."</string>
-    <string name="ads_content_description" msgid="1006489792324920289">"Quảng cáo, Quản lý các tùy chọn cài đặt quảng cáo, ví dụ: đặt lại mã nhận dạng cho quảng cáo."</string>
+    <string name="ads_description" msgid="8081069475265061074">"Quản lý chế độ cài đặt quảng cáo, ví dụ: đặt lại mã nhận dạng cho quảng cáo."</string>
+    <string name="ads_content_description" msgid="1006489792324920289">"Quảng cáo, Quản lý chế độ cài đặt quảng cáo, ví dụ: đặt lại mã nhận dạng cho quảng cáo."</string>
     <string name="show_dev_on" msgid="612741433124106067">"Hiện bạn đã là nhà phát triển!"</string>
     <string name="show_dev_already" msgid="1522591284776449818">"Không cần, bạn đã là nhà phát triển"</string>
     <string name="device_info_default" msgid="2374506935205518448">"Không xác định"</string>

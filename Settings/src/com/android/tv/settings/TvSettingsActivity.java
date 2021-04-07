@@ -19,7 +19,6 @@ package com.android.tv.settings;
 import static com.android.tv.settings.overlay.FlavorUtils.ALL_FLAVORS_MASK;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.transition.Scene;
 import android.transition.Slide;
@@ -34,8 +33,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
-import com.android.settingslib.core.instrumentation.SharedPreferencesLogger;
 import com.android.tv.settings.overlay.FlavorUtils;
 
 public abstract class TvSettingsActivity extends FragmentActivity {
@@ -176,6 +173,7 @@ public abstract class TvSettingsActivity extends FragmentActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE_STARTUP_VERIFICATION) {
             if (resultCode == RESULT_OK) {
                 Log.v(TAG, "Startup verification succeeded.");
@@ -200,22 +198,5 @@ public abstract class TvSettingsActivity extends FragmentActivity {
                 finish();
             }
         }
-    }
-
-    private String getMetricsTag() {
-        String tag = getClass().getName();
-        if (tag.startsWith("com.android.tv.settings.")) {
-            tag = tag.replace("com.android.tv.settings.", "");
-        }
-        return tag;
-    }
-
-    @Override
-    public SharedPreferences getSharedPreferences(String name, int mode) {
-        if (name.equals(getPackageName() + "_preferences")) {
-            return new SharedPreferencesLogger(this, getMetricsTag(),
-                    new MetricsFeatureProvider());
-        }
-        return super.getSharedPreferences(name, mode);
     }
 }
