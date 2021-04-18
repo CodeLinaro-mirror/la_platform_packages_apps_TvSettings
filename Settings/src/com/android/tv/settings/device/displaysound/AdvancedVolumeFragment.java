@@ -16,6 +16,7 @@
 
 package com.android.tv.settings.device.displaysound;
 
+import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
 import static com.android.tv.settings.util.InstrumentationUtils.logToggleInteracted;
 
@@ -25,13 +26,12 @@ import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.text.TextUtils;
 import android.widget.Toast;
 
 import androidx.annotation.Keep;
-import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceViewHolder;
 import androidx.preference.SwitchPreference;
 
@@ -39,6 +39,8 @@ import com.android.internal.annotations.VisibleForTesting;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.tv.settings.PreferenceControllerFragment;
 import com.android.tv.settings.R;
+import com.android.tv.settings.RadioPreference;
+import com.android.tv.settings.overlay.FlavorUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,9 +50,11 @@ import java.util.Map;
  * The "Advanced sound settings" screen in TV Settings.
  */
 @Keep
-public class AdvancedVolumeFragment extends PreferenceControllerFragment implements
-        Preference.OnPreferenceChangeListener {
-    static final String KEY_SURROUND_PASSTHROUGH = "surround_passthrough";
+public class AdvancedVolumeFragment extends PreferenceControllerFragment {
+    static final String KEY_ADVANCED_SOUND_OPTION = "advanced_sound_settings_option";
+    static final String KEY_SURROUND_SOUND_AUTO = "surround_sound_auto";
+    static final String KEY_SURROUND_SOUND_NONE = "surround_sound_none";
+    static final String KEY_SURROUND_SOUND_MANUAL = "surround_sound_manual";
     static final String KEY_SURROUND_SOUND_FORMAT_PREFIX = "surround_sound_format_";
     static final String KEY_SURROUND_SOUND_FORMAT_INFO_PREFIX = "surround_sound_format_info_";
     static final String KEY_SUPPORTED_SURROUND_SOUND = "supported_formats";
@@ -60,10 +64,6 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
     static final String KEY_ENABLED_FORMATS = "enabled_formats";
     static final String KEY_DISABLED_FORMATS = "disabled_formats";
 
-    static final String VAL_SURROUND_SOUND_AUTO = "auto";
-    static final String VAL_SURROUND_SOUND_NEVER = "never";
-    static final String VAL_SURROUND_SOUND_MANUAL = "manual";
-
     static final int[] SURROUND_SOUND_DISPLAY_ORDER = {
             AudioFormat.ENCODING_AC3, AudioFormat.ENCODING_E_AC3, AudioFormat.ENCODING_DOLBY_TRUEHD,
             AudioFormat.ENCODING_E_AC3_JOC, AudioFormat.ENCODING_DOLBY_MAT,
@@ -71,7 +71,8 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
     };
 
     private Map<Integer, Boolean> mFormats;
-    private Map<Integer, Boolean> mReportedFormats;
+    private List<Integer> mReportedFormats;
+    private AudioManager mAudioManager;
     private List<AbstractPreferenceController> mPreferenceControllers;
     private PreferenceCategory mSupportedFormatsPreferenceCategory;
     private PreferenceCategory mUnsupportedFormatsPreferenceCategory;
@@ -81,9 +82,9 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
 
     @Override
     public void onAttach(Context context) {
-        AudioManager audioManager = getAudioManager();
-        mFormats = audioManager.getSurroundFormats();
-        mReportedFormats = audioManager.getReportedSurroundFormats();
+        mAudioManager = getAudioManager();
+        mFormats = mAudioManager.getSurroundFormats();
+        mReportedFormats = mAudioManager.getReportedSurroundFormats();
         super.onAttach(context);
     }
 
@@ -96,14 +97,17 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.advanced_sound, null /* key */);
 
-        final ListPreference surroundPref = findPreference(KEY_SURROUND_PASSTHROUGH);
-        String surroundPassthroughSetting = getSurroundPassthroughSetting(getContext());
-        surroundPref.setValue(surroundPassthroughSetting);
-        surroundPref.setOnPreferenceChangeListener(this);
+        String surroundSoundSettingKey = getSurroundPassthroughSetting(getContext());
+        selectRadioPreference(findPreference(surroundSoundSettingKey));
+
+        // Do not show sidebar info texts in case of 1 panel settings.
+        if (FlavorUtils.getFlavor(getContext()) != FLAVOR_CLASSIC) {
+            createInfoFragments();
+        }
 
         createFormatInfoPreferences();
         createFormatPreferences();
-        if (surroundPassthroughSetting == VAL_SURROUND_SOUND_MANUAL) {
+        if (surroundSoundSettingKey == KEY_SURROUND_SOUND_MANUAL) {
             showFormatPreferences();
         } else {
             hideFormatPreferences();
@@ -115,7 +119,7 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
         mPreferenceControllers = new ArrayList<>(mFormats.size());
         for (Map.Entry<Integer, Boolean> format : mFormats.entrySet()) {
             mPreferenceControllers.add(new SoundFormatPreferenceController(context,
-                    format.getKey() /*formatId*/, mFormats, mReportedFormats));
+                    format.getKey() /*formatId*/, mAudioManager, mFormats, mReportedFormats));
         }
         return mPreferenceControllers;
     }
@@ -127,6 +131,41 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
             return super.onPreferenceTreeClick(preference);
         }
 
+        if (preference instanceof RadioPreference) {
+            selectRadioPreference(preference);
+
+            switch (key) {
+                case KEY_SURROUND_SOUND_AUTO: {
+                    logEntrySelected(
+                            TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_SELECT_FORMATS_AUTO);
+                    mAudioManager.setEncodedSurroundMode(
+                            Settings.Global.ENCODED_SURROUND_OUTPUT_AUTO);
+                    hideFormatPreferences();
+                    break;
+                }
+                case KEY_SURROUND_SOUND_NONE: {
+                    logEntrySelected(
+                            TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_SELECT_FORMATS_NONE);
+                    mAudioManager.setEncodedSurroundMode(
+                            Settings.Global.ENCODED_SURROUND_OUTPUT_NEVER);
+                    hideFormatPreferences();
+                    break;
+                }
+                case KEY_SURROUND_SOUND_MANUAL: {
+                    logEntrySelected(
+                            TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_SELECT_FORMATS_MANUAL);
+                    mAudioManager.setEncodedSurroundMode(
+                            Settings.Global.ENCODED_SURROUND_OUTPUT_MANUAL);
+                    showFormatPreferences();
+                    break;
+                }
+                default:
+                    throw new IllegalArgumentException("Unknown surround sound pref value: "
+                            + key);
+            }
+            updateFormatPreferencesStates();
+        }
+
         if (key.equals(KEY_SHOW_HIDE_FORMAT_INFO)) {
             if (preference.getTitle().equals(
                     getContext().getString(R.string.surround_sound_hide_formats))) {
@@ -136,19 +175,32 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
                 showFormatInfoPreferences();
                 preference.setTitle(R.string.surround_sound_hide_formats);
             }
-        } else if (key.contains(KEY_SURROUND_SOUND_FORMAT_INFO_PREFIX)) {
+        }
+
+        if (key.contains(KEY_SURROUND_SOUND_FORMAT_INFO_PREFIX)) {
             if (preference.getParent() == mEnabledFormatsPreferenceCategory) {
                 showToast(R.string.surround_sound_enabled_format_info_clicked);
             } else {
                 showToast(R.string.surround_sound_disabled_format_info_clicked);
             }
         }
+
         return super.onPreferenceTreeClick(preference);
     }
 
     @VisibleForTesting
     AudioManager getAudioManager() {
         return getContext().getSystemService(AudioManager.class);
+    }
+
+    private PreferenceGroup getPreferenceGroup() {
+        return (PreferenceGroup) findPreference(KEY_ADVANCED_SOUND_OPTION);
+    }
+
+    private void selectRadioPreference(Preference preference) {
+        final RadioPreference radioPreference = (RadioPreference) preference;
+        radioPreference.setChecked(true);
+        radioPreference.clearOtherRadioPreferences(getPreferenceGroup());
     }
 
     /** Creates titles and switches for each surround sound format. */
@@ -191,7 +243,7 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
                             }
                     );
                 }
-                if (mReportedFormats.containsKey(formatId)) {
+                if (mReportedFormats.contains(formatId)) {
                     mSupportedFormatsPreferenceCategory.addPreference(pref);
                 } else {
                     mUnsupportedFormatsPreferenceCategory.addPreference(pref);
@@ -227,7 +279,7 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
                     continue;
                 }
                 pref = createPreference(titleId, KEY_SURROUND_SOUND_FORMAT_INFO_PREFIX + formatId);
-                if (mReportedFormats.containsKey(formatId)) {
+                if (mReportedFormats.contains(formatId)) {
                     mEnabledFormatsPreferenceCategory.addPreference(pref);
                 } else {
                     mDisabledFormatsPreferenceCategory.addPreference(pref);
@@ -316,44 +368,6 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
         }
     }
 
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (TextUtils.equals(preference.getKey(), KEY_SURROUND_PASSTHROUGH)) {
-            final String selection = (String) newValue;
-            switch (selection) {
-                case VAL_SURROUND_SOUND_AUTO:
-                    logEntrySelected(
-                            TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_SELECT_FORMATS_AUTO);
-                    setSurroundPassthroughSetting(Settings.Global.ENCODED_SURROUND_OUTPUT_AUTO);
-                    hideFormatPreferences();
-                    break;
-                case VAL_SURROUND_SOUND_NEVER:
-                    logEntrySelected(
-                            TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_SELECT_FORMATS_NONE);
-                    setSurroundPassthroughSetting(Settings.Global.ENCODED_SURROUND_OUTPUT_NEVER);
-                    hideFormatPreferences();
-                    break;
-                case VAL_SURROUND_SOUND_MANUAL:
-                    logEntrySelected(
-                            TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_SELECT_FORMATS_MANUAL);
-                    setSurroundPassthroughSetting(Settings.Global.ENCODED_SURROUND_OUTPUT_MANUAL);
-                    showFormatPreferences();
-                    break;
-                default:
-                    throw new IllegalArgumentException("Unknown surround sound pref value: "
-                            + selection);
-            }
-            updateFormatPreferencesStates();
-            return true;
-        }
-        return true;
-    }
-
-    private void setSurroundPassthroughSetting(int newVal) {
-        Settings.Global.putInt(getContext().getContentResolver(),
-                Settings.Global.ENCODED_SURROUND_OUTPUT, newVal);
-    }
-
     static String getSurroundPassthroughSetting(Context context) {
         final int value = Settings.Global.getInt(context.getContentResolver(),
                 Settings.Global.ENCODED_SURROUND_OUTPUT,
@@ -361,12 +375,12 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
 
         switch (value) {
             case Settings.Global.ENCODED_SURROUND_OUTPUT_MANUAL:
-                return VAL_SURROUND_SOUND_MANUAL;
+                return KEY_SURROUND_SOUND_MANUAL;
             case Settings.Global.ENCODED_SURROUND_OUTPUT_NEVER:
-                return VAL_SURROUND_SOUND_NEVER;
+                return KEY_SURROUND_SOUND_NONE;
             case Settings.Global.ENCODED_SURROUND_OUTPUT_AUTO:
             default:
-                return VAL_SURROUND_SOUND_AUTO;
+                return KEY_SURROUND_SOUND_AUTO;
         }
     }
 
@@ -391,6 +405,14 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment impleme
             default:
                 return -1;
         }
+    }
+
+    private void createInfoFragments() {
+        Preference autoPreference = findPreference(KEY_SURROUND_SOUND_AUTO);
+        autoPreference.setFragment(AdvancedVolumeInfo.AutoInfoFragment.class.getName());
+
+        Preference manualPreference = findPreference(KEY_SURROUND_SOUND_MANUAL);
+        manualPreference.setFragment(AdvancedVolumeInfo.ManualInfoFragment.class.getName());
     }
 
     @Override
