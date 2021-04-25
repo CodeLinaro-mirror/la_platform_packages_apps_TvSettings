@@ -98,6 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Apps abiertas recientemente"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Ver todas las apps"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Permisos"</string>
+    <!-- no translation found for apps_security (1392489151324802853) -->
+    <skip />
     <string name="all_apps_title" msgid="3717294436135280133">"Todas las apps"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Mostrar apps del sistema"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Apps instaladas"</string>
@@ -111,7 +113,7 @@
     <string name="device_sound_effects" msgid="2000295001122684957">"Sonidos del sistema"</string>
     <string name="device_apps" msgid="2134756632245008919">"Aplicaciones"</string>
     <string name="device_storage" msgid="8540243547121791073">"Almacenamiento"</string>
-    <string name="device_reset" msgid="6115282675800077867">"Restablecer configuración de fábrica"</string>
+    <string name="device_reset" msgid="6115282675800077867">"Restablecer config. de fábrica"</string>
     <string name="device_backup_restore" msgid="3634531946308269398">"Copias de seguridad y restablecimiento"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Restablecimiento de la configuración de fábrica"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Calibración"</string>
@@ -394,8 +396,6 @@
     <string name="device_status_title" msgid="9051569510258883673">"Estado"</string>
     <string name="battery_status_title" msgid="8850166742025222210">"Estado de batería"</string>
     <string name="battery_level_title" msgid="2672804570916248736">"Nivel de la batería"</string>
-    <string name="sim_status_title" msgid="1704273079796640946">"Estado de SIM"</string>
-    <string name="imei_information_title" msgid="3790368306353698724">"Información de IMEI"</string>
     <string name="status_bt_address" msgid="7190052214963950844">"Dirección de Bluetooth"</string>
     <string name="status_up_time" msgid="1758102680983108313">"Tiempo de actividad"</string>
     <string name="legal_information" msgid="1087445528481370874">"Información legal"</string>
@@ -734,7 +734,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Mostrar capas de hardware en verde al actualizar"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"De mejor a peor: azul, verde, rojo claro, rojo"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Mostrar superficies de ventana al actualizar"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Mostrar pantalla con oper. largas en conv. princ."</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Parpadear si aplicaciones tardan en proceso principal"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Mide tiempo de repr. en adb shell dumpsys gfxinfo."</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Fuentes desconocidas"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Permitir la instalación de aplicaciones que no sean de Play Store"</string>
