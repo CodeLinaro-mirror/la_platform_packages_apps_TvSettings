@@ -98,6 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"हालै खोलिएका एपहरू"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"सबै एपहरू हेर्नुहोस्"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"अनुमति"</string>
+    <!-- no translation found for apps_security (1392489151324802853) -->
+    <skip />
     <string name="all_apps_title" msgid="3717294436135280133">"सबै एपहरू"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"प्रणालीका एपहरू देखाउनुहोस्"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"इन्स्टल गरिएका एपहरू"</string>
@@ -129,7 +131,7 @@
     <string name="surround_sound_auto_title" msgid="4892922385727913277">"स्वचालित: तपाईंको अडियो आउटपुट यन्त्रमा प्रयोग गर्न मिल्ने फर्म्याटहरू मात्र सक्षम पार्नुहोस् "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"यो विकल्प चयन गर्दा, सिस्टमले एपहरूलाई तपाईंको डिभाइसको चेनमा प्रयोग गर्न मिल्ने ध्वनिका सबै फर्म्याट चयन गर्न दिने छ। एपहरूले चयन गर्ने फर्म्याट सबैभन्दा उच्च गुणस्तरको फर्म्याट नहुन सक्छ।"</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"कुनै पनि होइन: कहिले पनि सराउन्ड साउन्ड प्रयोग नगरियोस्"</string>
-    <string name="surround_sound_manual_title" msgid="4935447605070985537">"म्यानुअल: तपाईंको अडियो आउटपुट यन्त्रमा प्रयोग गर्न मिले पनि वा नमिले पनि यो यन्त्रमा प्रयोग गर्न मिल्ने सबै फर्म्याट एक एक गरी सक्षम वा असक्षम पार्नुहोस्।"</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"म्यानुअल: तपाईंको अडियो आउटपुट यन्त्रमा प्रयोग गर्न मिले पनि वा नमिले पनि यो डिभाइसमा प्रयोग गर्न मिल्ने सबै फर्म्याट एक एक गरी सक्षम वा असक्षम पार्नुहोस्।"</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"यो विकल्प चयन गर्दा, तपाईं आफ्नो यन्त्रमा प्रयोग गर्न मिल्ने तर प्लेब्याकमा समस्याहरू उत्पन्न गर्ने ध्वनिका फर्म्याट आफैँ असक्षम पार्न सक्नुहुन्छ। तपाईं आफ्नो यन्त्रमा प्रयोग गर्न नमिल्ने ध्वनिका फर्म्याट सक्षम पार्न सक्नुहुन्छ। केही अवस्थामा एपहरूले चयन गर्ने फर्म्याट सबैभन्दा उच्च गुणस्तरको फर्म्याट नहुन सक्छ।"</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"यन्त्रमा प्रयोग गर्न नमिल्ने साउन्ड फर्म्याट प्रयोग गर्ने हो?"</string>
     <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"तपाईंले कनेक्ट गर्नुभएको अडियो यन्त्रमा यो फर्म्याट प्रयोग गर्न मिल्छ भनी रिपोर्ट गरिएको छैन। यसो हुँदा तपाईंको यन्त्रबाट ठुलो वा केही पड्केको जस्तो आवाज आउने जस्ता अप्रत्याशित समस्या देखिन सक्छन्।"</string>
@@ -168,7 +170,7 @@
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
     <string name="hdr_format_dolby_vision" msgid="7367264615042999587">"Dolby Vision"</string>
     <string name="hdr_format_selection_auto_summary" msgid="7384637194191436727">"यो विकल्प चयन गर्दा, सिस्टमले एपहरूलाई तपाईंको डिभाइसको चेनमा प्रयोग गर्न मिल्ने HDR का सबै फर्म्याट चयन गर्न दिने छ। एपहरूले चयन गर्ने फर्म्याट सबैभन्दा उच्च गुणस्तरको फर्म्याट नहुन सक्छ।"</string>
-    <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"यो विकल्प चयन गर्दा, तपाईं आफ्नो यन्त्रमा प्रयोग गर्न मिल्ने तर प्लेब्याकमा समस्याहरू उत्पन्न गर्ने HDR का फर्म्याट आफैँ असक्षम पार्न सक्नुहुन्छ। तपाईंको यन्त्रमा प्रयोग गर्न नमिल्ने HDR का फर्म्याट बलपूर्वक सक्षम पार्न सकिँदैन। एपहरूले चयन गर्ने फर्म्याट सबैभन्दा उच्च गुणस्तरको फर्म्याट नहुन सक्छ।"</string>
+    <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"यो विकल्प चयन गर्दा, तपाईं आफ्नो यन्त्रमा प्रयोग गर्न मिल्ने तर प्लेब्याकमा समस्याहरू उत्पन्न गर्ने HDR का फर्म्याट आफैँ असक्षम पार्न सक्नुहुन्छ। तपाईंको डिभाइसमा प्रयोग गर्न नमिल्ने HDR का फर्म्याट बलपूर्वक सक्षम पार्न सकिँदैन। एपहरूले चयन गर्ने फर्म्याट सबैभन्दा उच्च गुणस्तरको फर्म्याट नहुन सक्छ।"</string>
     <string name="hdr_format_info" msgid="5652559220799426076">"फर्म्याटसम्बन्धी जानकारी"</string>
     <string name="hdr_show_formats" msgid="171065892975445851">"फर्म्याटहरू देखाउनुहोस्"</string>
     <string name="hdr_hide_formats" msgid="8561568998525727230">"फर्म्याटहरू लुकाउनुहोस्"</string>
@@ -191,7 +193,7 @@
     <string name="accessory_change_name" msgid="6493717176878500683">"नाम परिवर्तन गर्नुहोस्"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"यस सहायक उपकरणको कुनै नयाँ नाम प्रविष्टि गर्नुहोस्"</string>
     <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"ब्लुटुथबाट सहायक उपकरणसँग जोडा बनाउने प्रक्रिया।"</string>
-    <string name="accessories_add_title" msgid="7704824893011194433">"चीजहरूको लागि खोजी कार्य गर्दै..."</string>
+    <string name="accessories_add_title" msgid="7704824893011194433">"चीजहरूको लागि खोजिँदै छ..."</string>
     <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"ब्लुटुथ चल्ने यन्त्रहरूसँग जोडा बनाउनुअघि ती यन्त्रहरूमा जोडा बनाउने मोड अन गरिएको छ भन्ने कुरा सुनिश्चित गर्नुहोस्।"</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"उपकरण फेला परेको थिएन र स्वचालित रूपमा <xliff:g id="COUNTDOWN">%1$s</xliff:g> सेकेन्डमा पेयर हुने छ"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"यो कार्य समर्थित छैन"</string>
@@ -219,11 +221,11 @@
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"डिस्कनेक्ट गर्नुहोस्"</string>
     <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"%1$s डिस्कनेक्ट गर्नुहोस्"</string>
     <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"नाम बदल्नुहोस्"</string>
-    <string name="bluetooth_rename" msgid="7791922876280337194">"तपाईंको यन्त्रमा कनेक्ट भएको डिभाइसको नाम बदल्नुहोस्"</string>
+    <string name="bluetooth_rename" msgid="7791922876280337194">"तपाईंको डिभाइसमा कनेक्ट भएको डिभाइसको नाम बदल्नुहोस्"</string>
     <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"हटाउनुहोस्"</string>
     <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"%1$s हटाउनुहोस्"</string>
     <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"ब्लुटुथ एड्रेस"</string>
-    <string name="bluetooth_connected_status" msgid="8629393539370085418">"कनेक्ट गरियो"</string>
+    <string name="bluetooth_connected_status" msgid="8629393539370085418">"कनेक्ट गरिएको छ"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"डिस्कनेक्ट भयो"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"तपाईं सँग ब्लुटुथ सेटिङहरू परिवर्तन गर्न अनुमति छैन।"</string>
     <string name="send_feedback" msgid="936698637869795473">"प्रतिक्रिया पठाउनुहोस्"</string>
@@ -233,7 +235,7 @@
     <string name="system_language" msgid="5516099388471974346">"भाषा"</string>
     <string name="language_empty_list_user_restricted" msgid="5430199913998605436">"तपाईंसँग उक्त यन्त्रको भाषा परिवर्तन गर्ने अनुमति छैन।"</string>
     <string name="system_keyboard" msgid="1514460705385401872">"किबोर्ड"</string>
-    <string name="system_keyboard_autofill" msgid="8530944165814838255">"किबोर्ड तथा स्वतः भरण सुविधा"</string>
+    <string name="system_keyboard_autofill" msgid="8530944165814838255">"किबोर्ड तथा स्वतः अटोफिल सेवा"</string>
     <string name="system_autofill" msgid="6983989261108020046">"स्वतः भरण"</string>
     <string name="system_home" msgid="2149349845791104094">"गृह स्क्रिन"</string>
     <string name="system_search" msgid="3170169128257586925">"खोजी गर्नुहोस्"</string>
@@ -260,12 +262,12 @@
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"व्यवस्थित गरिएको यन्त्रको जानकारी"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"तपाईंको संगठनले व्यवस्थापन गरेका परिवर्तन र सेटिङहरू"</string>
     <string name="enterprise_privacy_settings_summary_with_name" msgid="2866704039759872293">"<xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ले व्यवस्थापन गरेका परिवर्तन र सेटिङहरू  "</string>
-    <string name="enterprise_privacy_header" msgid="9221881402582661521">"तपाईंको संगठनले तपाईंलाई आफ्नो कार्य सम्बन्धी डेटामाथि पहुँच राख्न दिनका लागि सेटिङहरू परिवर्तन गरी तपाईंको यन्त्रमा सफ्टवेयर स्थापना पनि गर्नसक्छ। \n\nथप विवरणहरूका लागि आफ्नो संगठनका प्रशासकलाई सम्पर्क गर्नुहोस्।"</string>
+    <string name="enterprise_privacy_header" msgid="9221881402582661521">"तपाईंको संगठनले तपाईंलाई आफ्नो कार्य सम्बन्धी डेटामाथि पहुँच राख्न दिनका लागि सेटिङहरू परिवर्तन गरी तपाईंको डिभाइसमा सफ्टवेयर स्थापना पनि गर्नसक्छ। \n\nथप विवरणहरूका लागि आफ्नो संगठनका प्रशासकलाई सम्पर्क गर्नुहोस्।"</string>
     <string name="enterprise_privacy_exposure_category" msgid="1555735251238636669">"तपाईंको संगठनले देख्न सक्ने जानकारीका प्रकारहरू"</string>
     <string name="enterprise_privacy_exposure_changes_category" msgid="7750498604032318318">"तपाईंको संगठनका प्रशासकले गर्नुभएका परिवर्तनहरू"</string>
     <string name="enterprise_privacy_device_access_category" msgid="7397106369136259850">"तपाईंको यस यन्त्रमाथिको पहुँच"</string>
     <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"इमेल र पात्रो जस्ता तपाईंका कार्य खातासँग सम्बन्धित डेटा"</string>
-    <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"तपाईंको यन्त्रमा भएका अनुप्रयोगहरूको सूची"</string>
+    <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"तपाईंको डिभाइसमा भएका अनुप्रयोगहरूको सूची"</string>
     <string name="enterprise_privacy_usage_stats" msgid="7062422823174345793">"प्रत्येक अनुप्रयोगमा खर्च भएको समय र डेटाको परिमाण"</string>
     <string name="enterprise_privacy_network_logs" msgid="305782312671493780">"नेटवर्क ट्राफिकको सबैभन्दा पछिल्लो लग"</string>
     <string name="enterprise_privacy_bug_reports" msgid="2393617117911211486">"सबैभन्दा पछिल्लो बग रिपोर्ट"</string>
@@ -285,7 +287,7 @@
       <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> वटा एप</item>
       <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> एप</item>
     </plurals>
-    <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"पूर्वनिर्धारित किबोर्ड"</string>
+    <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"डिफल्ट किबोर्ड"</string>
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"<xliff:g id="APP_LABEL">%s</xliff:g> मा सेट गरिएको छ"</string>
     <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"सधैँ-सक्रिय रहने VPN सेवा सक्रिय गरिएको छ"</string>
     <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"तपाईँको व्यक्तिगत प्रोफाइलमा सधैँ-सक्रिय रहने VPN सेवा सक्रिय गरिएको छ"</string>
@@ -329,10 +331,10 @@
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"ट्यूटोरियलहरू"</string>
     <string name="about_system_update" msgid="7421264399111367755">"प्रणाली अद्यावधिक"</string>
-    <string name="system_update_description" msgid="998883510488461766">"यसो गर्नुभयो भने तपाईंको सिस्टम सफ्टवेयर अपडेट भई नवीनतम संस्करण बन्ने छ। तपाईंको यन्त्र रिस्टार्ट हुने छ।"</string>
-    <string name="system_update_content_description" msgid="5702888187682876466">"सिस्टम अपडेट, तपाईंले सिस्टम अपडेट गर्नुभयो भने तपाईंको सिस्टम सफ्टवेयर अपडेट भई नवीनतम संस्करण बन्ने छ। तपाईंको यन्त्र रिस्टार्ट हुने छ।"</string>
+    <string name="system_update_description" msgid="998883510488461766">"यसो गर्नुभयो भने तपाईंको सिस्टम सफ्टवेयर अपडेट भई नवीनतम संस्करण बन्ने छ। तपाईंको डिभाइस रिस्टार्ट हुने छ।"</string>
+    <string name="system_update_content_description" msgid="5702888187682876466">"सिस्टम अपडेट, तपाईंले सिस्टम अपडेट गर्नुभयो भने तपाईंको सिस्टम सफ्टवेयर अपडेट भई नवीनतम संस्करण बन्ने छ। तपाईंको डिभाइस रिस्टार्ट हुने छ।"</string>
     <string name="about_preference" msgid="9112690446998150670">"बारेमा"</string>
-    <string name="device_name" msgid="566626587332817733">"उपकरण नाम"</string>
+    <string name="device_name" msgid="566626587332817733">"डिभाइसको नाम"</string>
     <string name="restart_button_label" msgid="911750765086382990">"पुन: सुरु गर्नुहोस्"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"कानूनी जानकारी"</string>
     <string name="about_legal_license" msgid="4801707286720681261">"खुला स्रोतका इजाजतपत्रहरू"</string>
@@ -356,7 +358,7 @@
     <string name="selinux_status_disabled" msgid="4027105362332795142">"असक्षम गरियो"</string>
     <string name="selinux_status_permissive" msgid="8694617578567517527">"अनुमति दिने"</string>
     <string name="selinux_status_enforcing" msgid="4140979635669643342">"सबल पार्दै"</string>
-    <string name="additional_system_update_settings_list_item_title" msgid="1839534735929143986">"थप प्रणाली अद्यावधिकहरू"</string>
+    <string name="additional_system_update_settings_list_item_title" msgid="1839534735929143986">"थप सिस्टम अपडेट"</string>
     <string name="ssl_ca_cert_warning" msgid="7836390021162211069">"सञ्जाल अनुगमित हुन सक्छ"</string>
     <string name="done_button" msgid="616159688526431451">"सम्पन्न भयो"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="8222753634330561111">
@@ -364,8 +366,8 @@
       <item quantity="one">प्रमाणपत्र विश्वसनीय भएको जनाउनुहोस् वा हटाउनुहोस्</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="6128536570911468907">
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ले तपाईंको यन्त्रमा CA सर्टिफिकेट इन्स्टल गर्नुभएको छ। ती प्रमाणपत्रको सहायताले उहाँ इमेल, एप र सुरक्षित वेबसाइटलगायतका तपाईंको यन्त्रमा गरिने नेटवर्कसम्बन्धी क्रियाकलापको निगरानी गर्न सक्नुहुन्छ। \n\nयी प्रमाणपत्रका बारेमा थप जानकारी पाउन आफ्ना एड्मिनलाई सम्पर्क गर्नुहोस्।</item>
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ले तपाईंको यन्त्रमा CA सर्टिफिकेट इन्स्टल गर्नुभएको छ। उक्त प्रमाणपत्रको सहायताले उहाँ इमेल, एप र सुरक्षित वेबसाइटलगायतका तपाईंको यन्त्रमा गरिने नेटवर्कसम्बन्धी क्रियाकलापको निगरानी गर्न सक्नुहुन्छ। \n\nयो प्रमाणपत्रका बारेमा थप जानकारी पाउन आफ्ना एड्मिनलाई सम्पर्क गर्नुहोस्।</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ले तपाईंको डिभाइसमा CA सर्टिफिकेट इन्स्टल गर्नुभएको छ। ती प्रमाणपत्रको सहायताले उहाँ इमेल, एप र सुरक्षित वेबसाइटलगायतका तपाईंको डिभाइसमा गरिने नेटवर्कसम्बन्धी क्रियाकलापको निगरानी गर्न सक्नुहुन्छ। \n\nयी प्रमाणपत्रका बारेमा थप जानकारी पाउन आफ्ना एड्मिनलाई सम्पर्क गर्नुहोस्।</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ले तपाईंको डिभाइसमा CA सर्टिफिकेट इन्स्टल गर्नुभएको छ। उक्त प्रमाणपत्रको सहायताले उहाँ इमेल, एप र सुरक्षित वेबसाइटलगायतका तपाईंको डिभाइसमा गरिने नेटवर्कसम्बन्धी क्रियाकलापको निगरानी गर्न सक्नुहुन्छ। \n\nयो प्रमाणपत्रका बारेमा थप जानकारी पाउन आफ्ना एड्मिनलाई सम्पर्क गर्नुहोस्।</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="5828471957724016946">
       <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ले तपाईंको कार्य प्रोफाइलमा CA सर्टिफिकेट इन्स्टल गर्नुभएको छ। ती प्रमाणपत्रको सहायताले उहाँ इमेल, एप र सुरक्षित वेबसाइटलगायतका कार्यस्थलमा गरिने नेटवर्कसम्बन्धी क्रियाकलापको निगरानी गर्न सक्नुहुन्छ। \n\nयी प्रमाणपत्रका बारेमा थप जानकारी पाउन आफ्ना एड्मिनलाई सम्पर्क गर्नुहोस्।</item>
@@ -394,8 +396,6 @@
     <string name="device_status_title" msgid="9051569510258883673">"स्थिति"</string>
     <string name="battery_status_title" msgid="8850166742025222210">"ब्याट्री स्थिति"</string>
     <string name="battery_level_title" msgid="2672804570916248736">"ब्याट्री स्तर"</string>
-    <string name="sim_status_title" msgid="1704273079796640946">"SIM स्थिति"</string>
-    <string name="imei_information_title" msgid="3790368306353698724">"IMEI जानकारी"</string>
     <string name="status_bt_address" msgid="7190052214963950844">"ब्लुटुथ एड्रेस"</string>
     <string name="status_up_time" msgid="1758102680983108313">"सक्रिय समय"</string>
     <string name="legal_information" msgid="1087445528481370874">"कानूनी जानकारी"</string>
@@ -409,13 +409,13 @@
     <item msgid="2713050260700175954">"राम्रो"</item>
     <item msgid="6005053494500517261">"उत्कृष्ट"</item>
   </string-array>
-    <string name="title_mac_address" msgid="7511588678922209883">"यन्त्रको MAC एड्रेस"</string>
+    <string name="title_mac_address" msgid="7511588678922209883">"डिभाइसको MAC एड्रेस"</string>
     <string name="title_randomized_mac_address" msgid="3359532498635833471">"क्रमरहित MAC एड्रेस"</string>
     <string name="title_signal_strength" msgid="5047116893338315998">"सिङ्केत क्षमता"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"गोपनीयता"</string>
   <string-array name="random_mac_settings_entries">
-    <item msgid="3457228452595715533">"क्रमरहित MAC प्रयोग गर्नुहोस् (पूर्वनिर्धारित)"</item>
-    <item msgid="2490415280467390067">"यन्त्रको MAC प्रयोग गर्नुहोस्"</item>
+    <item msgid="3457228452595715533">"क्रमरहित MAC प्रयोग गरियोस् (डिफल्ट)"</item>
+    <item msgid="2490415280467390067">"डिभाइसको MAC प्रयोग गर्नुहोस्"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"उपलब्ध छैन"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"क्रमरहित MAC"</string>
@@ -546,7 +546,7 @@
     <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"यन्त्रको भण्डारणको रूपमा फर्म्याट गर्नुहोस्"</string>
     <string name="storage_wizard_format_as_private_description" msgid="6143406934742456154">"यो यसलाई सुरक्षित बनाउन USB ड्राइभ फर्म्याट गर्न आवश्यक छ। सुरक्षित तरिकाले फर्म्याट गरेपछि मात्र यो ड्राइभले यस यन्त्रसँग काम गर्छ। फर्म्याट गर्दा ड्राइभमा हाल भण्डारण गरिएका सबै डेटा मेटाउँछ। डेटा हराउनेबाट जोगिन, यसलाई ब्याक अप गर्ने विचार गर्नुहोस्।"</string>
     <string name="storage_wizard_format_as_public_title" msgid="3546915348149438389">"ढाँचा मेटाउनुहोस्"</string>
-    <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"फर्म्याट गरेपछि, तपाईं यो USB ड्राइभलाई अन्य यन्त्रहरूमा प्रयोग गर्न सक्नुहुन्छ। सबै डेटा मेटिनेछन्। पहिले एपहरूलाई अन्य यन्त्रको भण्डारणमा सारेर ब्याक अप गर्ने बारे विचार गर्नुहोस्।"</string>
+    <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"फर्म्याट गरेपछि, तपाईं यो USB ड्राइभलाई अन्य डिभाइसमा प्रयोग गर्न सक्नुहुन्छ। सबै डेटा मेटिनेछन्। पहिले एपहरूलाई अन्य यन्त्रको भण्डारणमा सारेर ब्याक अप गर्ने बारे विचार गर्नुहोस्।"</string>
     <string name="storage_wizard_format_progress_title" msgid="3875906251546380271">"USB ड्राइभ फर्म्याट गरिँदै..."</string>
     <string name="storage_wizard_format_progress_description" msgid="292229747129805538">"यसलाई एक क्षण लाग्न सक्छ। कृपया ड्राइभ नहटाउनुहोस्।"</string>
     <string name="storage_wizard_migrate_choose_title" msgid="8743036821605231654">"डेटालाई माइग्रेट गरिने भण्डारण छनोट गर्नुहोस्"</string>
@@ -584,7 +584,7 @@
     <string name="insufficient_storage" msgid="4175940286022466535">"पर्याप्त भण्डारण ठाउँ छैन।"</string>
     <string name="does_not_exist" msgid="4071082040759146781">"एप अवस्थित छैन"</string>
     <string name="invalid_location" msgid="5571789982293787489">"स्थापना स्थान मान्य छैन।"</string>
-    <string name="system_package" msgid="8276098460517049146">"प्रणाली अद्यावधिकहरू बाह्य मिडियामा स्थापित गर्न सकिँदैन।"</string>
+    <string name="system_package" msgid="8276098460517049146">"सिस्टम अपडेट बाह्य मिडियामा स्थापित गर्न सकिँदैन।"</string>
     <string name="move_error_device_admin" msgid="4144472536756635173">"बाह्य मिडियामा यन्त्र प्रशासकलाई स्थापना गर्न सकिँदैन"</string>
     <string name="learn_more_action" msgid="7972102006620925604">"थप जान्नुहोस्"</string>
     <string name="system_date" msgid="2503462662633178207">"मिति"</string>
@@ -641,9 +641,9 @@
     <string name="display_options" msgid="2645282080948371603">"विकल्पहरू प्रदर्शन गर्नुहोस्"</string>
     <string name="captions_configure" msgid="711991018642931958">"कन्फिगर गर्नुहोस्"</string>
     <string name="captions_language" msgid="5905918439449912646">"भाषा"</string>
-    <string name="captions_language_default" msgid="3894192926725192528">"पूर्वनिर्धारित भाषा"</string>
+    <string name="captions_language_default" msgid="3894192926725192528">"डिफल्ट भाषा"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"पाठ आकार"</string>
-    <string name="captions_captionstyle" msgid="6650139717545516071">"क्याप्सन शैली"</string>
+    <string name="captions_captionstyle" msgid="6650139717545516071">"क्याप्सनको शैली"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"आफू अनुकूल विकल्प"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"फन्ट परिवार"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"पाठ रङ्ग"</string>
@@ -689,8 +689,8 @@
     <string name="system_drawing" msgid="5802739024643871942">"रेखाचित्र"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"अनुगमन गर्दै"</string>
     <string name="system_apps" msgid="8481888654606868074">"एपहरू"</string>
-    <string name="system_stay_awake" msgid="5935117574414511413">"जागा रहनुहोस्"</string>
-    <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP जाँच गर्दै"</string>
+    <string name="system_stay_awake" msgid="5935117574414511413">"डिस्प्ले अफ नहोस्"</string>
+    <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP जाँच"</string>
     <string name="system_hdmi_optimization" msgid="4122753440620724144">"HDMI आफू अनुकूल"</string>
     <string name="system_reboot_confirm" msgid="7035370306447878560">"अब सुरु गर्ने?"</string>
     <string name="system_desc_reboot_confirm" msgid="1567738857421128179">"यो सेटिङ अद्यावधिक गर्न, आफ्नो उपकरण पुनः सुरु गर्न आवश्यक छ"</string>
@@ -699,42 +699,42 @@
     <string name="system_always_check" msgid="384870282800221580">"सधैँ जाँच गर्नुहोस्"</string>
     <string name="system_bt_hci_log" msgid="1891838112637932603">"ब्लुटुथ HCI लग इन हुँदै"</string>
     <string name="system_email_address" msgid="3725494874473757217">"इ-मेल ठेगाना"</string>
-    <string name="system_usb_debugging" msgid="2158285492172755923">"USB डिबग गर्दै"</string>
+    <string name="system_usb_debugging" msgid="2158285492172755923">"USB डिबगिङ"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"नक्कली स्थानहरूलाई अनुमति दिन"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"डिबग एप चयन गर्नुहोस्"</string>
-    <string name="system_wait_for_debugger" msgid="5715878008542589060">"डिबग गर्नेलाई पर्खनुहोस्"</string>
-    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB मा एपहरू रुजु गर्नुहोस्"</string>
-    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"हानिकारक व्यवहारका लागि एडीबी ADB/ADT को माध्यमबाट स्थापित अनुप्रयोगहरूको जाँच गर्नुहोस्"</string>
+    <string name="system_wait_for_debugger" msgid="5715878008542589060">"डिबगरलाई पर्खौँ"</string>
+    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB मा एपको पुष्टि गरियोस्"</string>
+    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"हानिकारक व्यवहार पत्ता लगाउन ADB/ADT बाट इन्स्टल गरिएका एपको जाँच गरियोस्"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Wi-Fi भर्वस लगिङ"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Wi-Fi भर्वस लगिङ सक्षम पार्नुहोस्"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"छुवाइहरू देखाउनुहोस्"</string>
-    <string name="system_pointer_location" msgid="8724050865245555084">"सूचक स्थान"</string>
-    <string name="system_show_layout_bounds" msgid="8803080672553699649">"लेआउट सीमाहरू देखाउनुहोस्"</string>
+    <string name="system_pointer_location" msgid="8724050865245555084">"पोइन्टरको स्थान"</string>
+    <string name="system_show_layout_bounds" msgid="8803080672553699649">"लेआउटका सीमाहरू देखाइयोस्"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU दृश्य अद्यावधिक देखाउनुहोस्"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"हार्डवेयर तह देखाउनुहोस्"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"GPU ओभरड्र देखाउनुहोस्"</string>
-    <string name="system_show_surface_updates" msgid="7680759813613585278">"सतह अद्यावधिक देखाउनुहोस्"</string>
-    <string name="system_window_animation_scale" msgid="685477540250939659">"विन्डो सजीविकरण स्केल"</string>
-    <string name="system_transition_animation_scale" msgid="7266380208347453619">"संक्रमण सजीविकरण मापन"</string>
-    <string name="system_animator_duration_scale" msgid="3829445237130423625">"सजीविकरण अवधि मापन"</string>
-    <string name="system_strict_mode_enabled" msgid="7392183793064579588">"स्ट्रिक्ट मोड सक्षम पारियो"</string>
+    <string name="system_show_surface_updates" msgid="7680759813613585278">"सर्फेस अपडेट देखाइयोस्"</string>
+    <string name="system_window_animation_scale" msgid="685477540250939659">"विन्डो एनिमेसन स्केल"</string>
+    <string name="system_transition_animation_scale" msgid="7266380208347453619">"संक्रमण एनिमेसन स्केल"</string>
+    <string name="system_animator_duration_scale" msgid="3829445237130423625">"एनिमेसनको अवधि मापन"</string>
+    <string name="system_strict_mode_enabled" msgid="7392183793064579588">"स्ट्रिक्ट मोड अन गरियोस्"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"प्रोफाइल GPU रेन्डर गर्दै"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ट्रेस सक्षम पार्नुहोस्"</string>
-    <string name="system_dont_keep_activities" msgid="4641165963339846161">"गतिविधिहरू नराख्नुहोस्"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"पृष्ठभूमि प्रक्रिया सीमा"</string>
+    <string name="system_dont_keep_activities" msgid="4641165963339846161">"गतिविधि नराखियोस्"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"ब्याकग्राउन्ड प्रक्रियाको सीमा सीमा"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"सबै ANRs देखाउनुहोस्"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"स्वप्न मोड अक्षम पार्नुहोस्"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM सामग्रीको लागि मात्र प्रयोग गर्नुहोस्"</string>
     <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"अधिकतम रिजोलुसन वा अधिकतम फ्रेमरेटका लागि प्रदर्शन आफू अनुकूल गर्नुहोस्। यो केवल अल्ट्रा HD प्रदर्शिन असर गर्छ। यो सेटिङ परिवर्तन गर्दा आफ्नो उपकरण पुनःसुरु हुने छ।"</string>
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"ब्लुटुथ HCI स्नूप लगइन गर्ने सक्षम पार्नुहोस्"</string>
-    <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB जडान हुँदा डिबग मोड"</string>
-    <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"डिबग भएको एप कार्यन्वयन हुनु अघि संलग्न हुन डिबग गर्नेलाई पर्खन्छ"</string>
+    <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB कनेक्ट गरिएको बेलामा डिबग मोड"</string>
+    <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"डिबग भएको एप चल्नुअघि डिबगरलाई पर्खिन्छ"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"क्लिप सीमा, मार्जिन, इत्यादि देखाउनुहोस्।"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPU को साथ कोरिएको बेला विन्डोहरू भित्र फ्ल्यास दृश्यहरू"</string>
-    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"फ्ल्यास हार्डवेयर तहहरू अपडेट हुँदा हरिया हुन्छन्"</string>
+    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"हार्डवेयर लेयर अपडेट हुँदा ती लेयर हरिया देखिऊन्"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"सबभन्दा राम्रादेखि खराबसम्म: निलो, हरियो, हल्का रातो, रातो"</string>
-    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"तिनीहरू अपडेट हुँदा पुरै विन्डो सतहहरूमा फ्यास गर्नुहोस्"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"मुख्य थ्रेडमा लामा कार्यहरू अनुप्रयोगले सञ्चालन गर्दा स्क्रिनमा फ्ल्यास गर्नुहोस्"</string>
+    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"अपडेट हुँदा विन्डोका पूरै सतहमा देखाइयोस्"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"एपले मुख्य थ्रेडमा लामा गतिविधि गर्दा स्क्रिन फ्ल्यास गरियोस्"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo मा रेन्डर गर्ने समय मापन गर्नुहोस्"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"अज्ञात स्रोतहरू"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play स्टोर भन्दा अन्य स्रोतहरूबाट अनुप्रयोगहरूको स्थापनालाई अनुमति दिनुहोस्"</string>
@@ -859,7 +859,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"जारी राख्न <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> चयन गर्नुहोस्।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"सम्पन्न भयो"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"सफलतापूर्वक जडान गरियो"</string>
-    <string name="wifi_setup_save_success" msgid="6862510218032734919">"सफलतापूर्वक सुरक्षित गरियो"</string>
+    <string name="wifi_setup_save_success" msgid="6862510218032734919">"सफलतापूर्वक सेभ गरियो"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"संस्करण <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"खोल्नुहोस्"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"दबाब रोक्नुहोस्"</string>
@@ -908,9 +908,9 @@
     <string name="privacy_backup_account" msgid="4527813051841860610">"ब्याकअप खाता"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"स्वचालित पुन: भण्डार"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"उपकरण रिसेट गर्नुहोस्"</string>
-    <string name="factory_reset_description" msgid="6697396335158766785">"तपाईंले फ्याक्ट्री रिसेट गर्नुभयो भने तपाईंको यन्त्र रिस्टोर भई पूर्वनिर्धारित सेटिङ लागू हुने छ र यन्त्रमा भएका सबै डेटा, खाता, फाइल तथा डाउनलोड गरिएका एपहरू मेटिने छन्।"</string>
-    <string name="factory_reset_info_description" msgid="5098454670833183487">"तपाईंले यसो गर्नुभयो भने तपाईंको यन्त्र रिस्टोर भई पूर्वनिर्धारित सेटिङ लागू हुने छ र यन्त्रमा भएका सबै डेटा, खाता, फाइल तथा डाउनलोड गरिएका एपहरू मेटिने छन्।"</string>
-    <string name="factory_reset_content_description" msgid="1677022688420116803">"फ्याक्ट्री रिसेट, तपाईंले फ्याक्ट्री रिसेट गर्नुभयो भने तपाईंको यन्त्र रिस्टोर भई पूर्वनिर्धारित सेटिङ लागू हुने छ र यन्त्रमा भएका सम्पूर्ण डेटा, खाता, फाइल तथा डाउनलोड गरिएका एपहरू मेटिने छन्।"</string>
+    <string name="factory_reset_description" msgid="6697396335158766785">"तपाईंले फ्याक्ट्री रिसेट गर्नुभयो भने तपाईंको यन्त्र रिस्टोर भई डिफल्ट सेटिङ लागू हुने छ र यन्त्रमा भएका सबै डेटा, खाता, फाइल तथा डाउनलोड गरिएका एपहरू मेटिने छन्।"</string>
+    <string name="factory_reset_info_description" msgid="5098454670833183487">"तपाईंले यसो गर्नुभयो भने तपाईंको यन्त्र रिस्टोर भई डिफल्ट सेटिङ लागू हुने छ र यन्त्रमा भएका सबै डेटा, खाता, फाइल तथा डाउनलोड गरिएका एपहरू मेटिने छन्।"</string>
+    <string name="factory_reset_content_description" msgid="1677022688420116803">"फ्याक्ट्री रिसेट, तपाईंले फ्याक्ट्री रिसेट गर्नुभयो भने तपाईंको यन्त्र रिस्टोर भई डिफल्ट सेटिङ लागू हुने छ र यन्त्रमा भएका सम्पूर्ण डेटा, खाता, फाइल तथा डाउनलोड गरिएका एपहरू मेटिने छन्।"</string>
     <string name="confirm_factory_reset_description" msgid="1337483463207721713">"यो यन्त्रबाट तपाईंका सबै व्यक्तिगत जानकारी र डाउनलोड गरिएका एपहरू मेटाउने हो? तपाईं यो कार्य उल्टाउन सक्नुहुन्न!"</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"सबै मेटाउनुहोस्"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"आफ्नो <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को लागि नाम छनौट गर्नुहोस्"</string>
@@ -1002,14 +1002,14 @@
     <string name="admin_device_owner_message" msgid="1935507216776040907">"तपाईंको प्रशासकले यस यन्त्रसँग सम्बन्धित एप र डेटाका साथै सेटिङ, अनुमति, संस्थागत पहुँच, नेटवर्क सम्बन्धी गतिविधि, र यस यन्त्रको स्थानसम्बन्धी जानकारीको अनुगमन र व्यवस्थापन गर्न सक्छ।"</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"कार्य प्रोफाइल हटाउनुहोस्"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"डिभाइसको एडमिन एप"</string>
-    <string name="remove_device_admin" msgid="2623866073546295104">"यो यन्त्रको एडमिन एप डिएक्टिभेट गर्नुहोस्"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"यो डिभाइसको एडमिन एप डिएक्टिभेट गर्नुहोस्"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"एपको स्थापना रद्द गर्नुहोस्"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"निष्क्रिय पार्नुहोस् तथा स्थापना रद्द गर्नुहोस्"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"डिभाइसका एडमिन एपहरू"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"डिभाइसको एडमिन एपलाई सक्रिय गर्ने हो?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"यो डिभाइसको एडमिन एप एक्टिभेट गर्नुहोस्"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"तपाईंले यो एडमिन एप एक्टिभेट गर्नुभयो भने <xliff:g id="APP_NAME">%1$s</xliff:g> ले निम्न कार्य गर्ने अनुमति पाउने छ:"</string>
-    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ले यस यन्त्रको व्यवस्थापन तथा अनुगमन गर्ने छ।"</string>
+    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ले यस डिभाइसको व्यवस्थापन तथा अनुगमन गर्ने छ।"</string>
     <string name="device_admin_status" msgid="5467001937240455367">"यो एडमिन एप सक्रिय छ र <xliff:g id="APP_NAME">%1$s</xliff:g> लाई  निम्न कार्यहरू गर्न दिन्छ:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"अगाडि बढेर, तपाईंको प्रयोगकर्तालाई तपाईंको प्रशासकले व्यवस्थित गर्ने छ, जसले तपाईंको व्यक्तिगत डेटाका साथै सम्बन्धित डेटा समेत भण्डारण गर्न सक्छ।\n\nतपाईंको प्रशासकसँग यो प्रयोगकर्तासँग सम्बन्धित सेटिङ, पहुँच, एप, र डेटाका साथै नेटवर्क गतिविधि र तपाईंको डिभाइसका स्थानसम्बन्धी जानकारीहरूको अनुगमन र व्यवस्थापन गर्ने क्षमता छ।"</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"बग रिपोर्टलाई साझेदारी गर्ने हो?"</string>

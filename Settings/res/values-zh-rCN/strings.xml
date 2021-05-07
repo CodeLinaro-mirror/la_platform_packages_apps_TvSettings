@@ -98,6 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"最近打开的应用"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"查看所有应用"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"权限"</string>
+    <!-- no translation found for apps_security (1392489151324802853) -->
+    <skip />
     <string name="all_apps_title" msgid="3717294436135280133">"所有应用"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"显示系统应用"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"已安装的应用"</string>
@@ -394,8 +396,6 @@
     <string name="device_status_title" msgid="9051569510258883673">"状态"</string>
     <string name="battery_status_title" msgid="8850166742025222210">"电池状态"</string>
     <string name="battery_level_title" msgid="2672804570916248736">"电池电量"</string>
-    <string name="sim_status_title" msgid="1704273079796640946">"SIM 卡状态"</string>
-    <string name="imei_information_title" msgid="3790368306353698724">"IMEI 信息"</string>
     <string name="status_bt_address" msgid="7190052214963950844">"蓝牙地址"</string>
     <string name="status_up_time" msgid="1758102680983108313">"开机累计时长"</string>
     <string name="legal_information" msgid="1087445528481370874">"法律信息"</string>

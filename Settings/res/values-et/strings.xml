@@ -98,6 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Hiljuti avatud rakendused"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Kuva kõik rakendused"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Load"</string>
+    <!-- no translation found for apps_security (1392489151324802853) -->
+    <skip />
     <string name="all_apps_title" msgid="3717294436135280133">"Kõik rakendused"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Kuva süsteemirakendused"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Installitud rakendused"</string>
@@ -394,8 +396,6 @@
     <string name="device_status_title" msgid="9051569510258883673">"Olek"</string>
     <string name="battery_status_title" msgid="8850166742025222210">"Aku olek"</string>
     <string name="battery_level_title" msgid="2672804570916248736">"Aku tase"</string>
-    <string name="sim_status_title" msgid="1704273079796640946">"SIM-kaardi olek"</string>
-    <string name="imei_information_title" msgid="3790368306353698724">"IMEI teave"</string>
     <string name="status_bt_address" msgid="7190052214963950844">"Bluetoothi aadress"</string>
     <string name="status_up_time" msgid="1758102680983108313">"Talitlusaeg"</string>
     <string name="legal_information" msgid="1087445528481370874">"Juriidiline teave"</string>
