@@ -63,10 +63,13 @@ import androidx.preference.PreferenceGroupAdapter;
 import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.tv.twopanelsettings.slices.CustomContentDescriptionPreference;
+import com.android.tv.twopanelsettings.slices.HasCustomContentDescription;
 import com.android.tv.twopanelsettings.slices.HasSliceUri;
 import com.android.tv.twopanelsettings.slices.InfoFragment;
 import com.android.tv.twopanelsettings.slices.SliceFragment;
 import com.android.tv.twopanelsettings.slices.SlicePreference;
+import com.android.tv.twopanelsettings.slices.SliceSwitchPreference;
 import com.android.tv.twopanelsettings.slices.SlicesConstants;
 
 import java.util.Set;
@@ -95,9 +98,9 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
 
     private static final long PANEL_ANIMATION_MS = 400;
     private static final long PANEL_ANIMATION_DELAY_MS = 200;
-    private static final long PREVIEW_PANEL_DEFAULT_DELAY_MS = 200;
+    private static final long PREVIEW_PANEL_DEFAULT_DELAY_MS = 0;
     private static final long CHECK_IDLE_STATE_MS = 100;
-    private static long sPreviewPanelCreationDelay = 0;
+    private long mPreviewPanelCreationDelay = 0;
     private static final float PREVIEW_PANEL_ALPHA = 0.6f;
 
     private int mMaxScrollX;
@@ -121,7 +124,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             boolean checkScrollState = intent.getBooleanExtra(CHECK_SCROLL_STATE, false);
             Log.d(TAG, "New delay for creating preview panel fragment " + delay
                     + " check scroll state " + checkScrollState);
-            sPreviewPanelCreationDelay = delay;
+            mPreviewPanelCreationDelay = delay;
             mCheckVerticalGridViewScrollState = checkScrollState;
         }
     };
@@ -154,6 +157,15 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             moveToPanel(mPrefPanelIdx, false);
         }
     };
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mCheckVerticalGridViewScrollState = getContext().getResources()
+                .getBoolean(R.bool.config_check_scroll_state);
+        mPreviewPanelCreationDelay = getContext().getResources()
+                .getInteger(R.integer.config_preview_panel_create_delay);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -436,12 +448,12 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             ((SliceFragmentCallback) prefFragment).onPreferenceFocused(pref);
         }
         mFocusedPreference = pref;
-        if (mCheckVerticalGridViewScrollState || sPreviewPanelCreationDelay > 0) {
+        if (mCheckVerticalGridViewScrollState || mPreviewPanelCreationDelay > 0) {
             mIsWaitingForUpdatingPreview = true;
             VerticalGridView listView = (VerticalGridView)
                     ((LeanbackPreferenceFragmentCompat) prefFragment).getListView();
             mHandler.postDelayed(new PostShowPreviewRunnable(
-                    listView, pref, forceRefresh), sPreviewPanelCreationDelay);
+                    listView, pref, forceRefresh), mPreviewPanelCreationDelay);
         } else {
             handleFragmentTransactionWhenFocused(pref, forceRefresh);
         }
@@ -1020,12 +1032,48 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 getChildFragmentManager().findFragmentById(frameResIds[mPrefPanelIdx]);
         Preference preference = getChosenPreference(prefFragment);
         preference.setFragment(InfoFragment.class.getCanonicalName());
+
+        if (isA11yOn()) {
+            appendErrorToContentDescription(prefFragment, errorMessage);
+        }
+
         Bundle b = preference.getExtras();
         b.putParcelable(EXTRA_PREFERENCE_INFO_TITLE_ICON,
                 Icon.createWithResource(getContext(), R.drawable.slice_error_icon));
         b.putCharSequence(EXTRA_PREFERENCE_INFO_TEXT, getString(R.string.status_unavailable));
         b.putCharSequence(EXTRA_PREFERENCE_INFO_SUMMARY, errorMessage);
         onPreferenceFocused(preference);
+    }
+
+    private void appendErrorToContentDescription(Fragment fragment, String errorMessage) {
+        Preference preference = getChosenPreference(fragment);
+
+        String errorMessageContentDescription = "";
+        if (preference.getTitle() != null) {
+            errorMessageContentDescription += preference.getTitle().toString();
+        }
+
+        errorMessageContentDescription +=
+                HasCustomContentDescription.CONTENT_DESCRIPTION_SEPARATOR
+                        + getString(R.string.status_unavailable)
+                        + HasCustomContentDescription.CONTENT_DESCRIPTION_SEPARATOR + errorMessage;
+
+        if (preference instanceof SlicePreference) {
+            ((SlicePreference) preference).setContentDescription(errorMessageContentDescription);
+        } else if (preference instanceof SliceSwitchPreference) {
+            ((SliceSwitchPreference) preference)
+                    .setContentDescription(errorMessageContentDescription);
+        } else if (preference instanceof CustomContentDescriptionPreference) {
+            ((CustomContentDescriptionPreference) preference)
+                    .setContentDescription(errorMessageContentDescription);
+        }
+
+        LeanbackPreferenceFragmentCompat leanbackPreferenceFragment =
+                (LeanbackPreferenceFragmentCompat) fragment;
+        if (leanbackPreferenceFragment.getListView() != null
+                && leanbackPreferenceFragment.getListView().getAdapter() != null) {
+            leanbackPreferenceFragment.getListView().getAdapter().notifyDataSetChanged();
+        }
     }
 
     private void updateInfoFragmentStatus(Fragment fragment) {

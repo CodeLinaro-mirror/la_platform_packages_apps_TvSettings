@@ -50,7 +50,7 @@
       <item quantity="one"><xliff:g id="ACCOUNTS_NUMBER_0">%1$d</xliff:g> 件のアカウント</item>
     </plurals>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"メディア サービス、アシスタント、お支払い"</string>
-    <string name="connectivity_network_category_title" msgid="8226264889892008114">"ネットワークとインターネット"</string>
+    <string name="connectivity_network_category_title" msgid="8226264889892008114">"ネ⁠ッ⁠ト⁠ワ⁠ー⁠ク⁠とイ⁠ン⁠タ⁠ー⁠ネ⁠ッ⁠ト"</string>
     <string name="sound_category_title" msgid="7899816751041939518">"サウンド"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"アプリ"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"デバイス設定"</string>
@@ -98,6 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"最近開いたアプリ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"アプリをすべて表示"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"権限"</string>
+    <!-- no translation found for apps_security (1392489151324802853) -->
+    <skip />
     <string name="all_apps_title" msgid="3717294436135280133">"すべてのアプリ"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"システムアプリの表示"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"インストール済みアプリ"</string>
@@ -126,10 +128,10 @@
     <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"ドルビー TrueHD"</string>
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"ドルビー アトモス / ドルビー デジタルプラス"</string>
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"注: デバイスからサポート形式が正しく報告されないと、[自動] 機能は動作しないことがあります。"</string>
-    <string name="surround_sound_auto_title" msgid="3549230030132727609">"自動: デバイスから報告された形式を使用する"</string>
+    <string name="surround_sound_auto_title" msgid="4892922385727913277">"自動: オーディオ出力デバイスでサポートされている形式のみが有効になります。 "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"選択すると、アプリはデバイス チェーンでサポートされているどの音声形式でも指定できるようになります。最高音質ではない形式が指定される可能性もあります。"</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"なし: サラウンド音声を使用しない"</string>
-    <string name="surround_sound_manual_title" msgid="589702982544517671">"手動: 利用可能な形式から手動で形式を選択する"</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"手動: オーディオ出力デバイスでサポートされているかどうかにかかわらず、このデバイスでサポートされている形式を個別に有効または無効にできます。"</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"選択すると、再生に関する問題の原因となる、デバイス チェーンでサポートされている音声形式を手動で無効にできます。デバイス チェーンでサポートされていない音声形式を有効にできます。最高音質ではない形式が指定される可能性もあります。"</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"サポートされていない音声形式を有効にしていますか？"</string>
     <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"接続されているオーディオ機器では、この形式はサポートされていないため、機器で大きなノイズや破裂音など、予期しない動作が発生することがあります。"</string>
@@ -156,6 +158,25 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"アプリからリクエストがあった場合、デバイスは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせます。そのため、動画再生の開始時または終了時に画面が一瞬空白になる場合があります。"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"なし"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"アプリからリクエストがあっても、デバイスでは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせることはありません。"</string>
+    <string name="hdr_format_selection_title" msgid="4042679694363850581">"形式の選択"</string>
+    <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"自動"</string>
+    <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"手動"</string>
+    <string name="hdr_format_selection_auto_desc" msgid="1542210944552409996">"デバイスから報告された形式を使用します"</string>
+    <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"利用可能な形式から手動で形式を選択します"</string>
+    <string name="hdr_format_supported_title" msgid="1458594819224612431">"サポートされている形式"</string>
+    <string name="hdr_format_unsupported_title" msgid="715318408107924941">"サポートされていない形式"</string>
+    <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
+    <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
+    <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
+    <string name="hdr_format_dolby_vision" msgid="7367264615042999587">"ドルビー ビジョン"</string>
+    <string name="hdr_format_selection_auto_summary" msgid="7384637194191436727">"選択すると、アプリは、デバイス チェーンでサポートされているどの HDR 形式でも指定できるようになります。最高画質ではない形式が指定される可能性もあります。"</string>
+    <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"選択すると、再生に関する問題の原因となる、デバイス チェーンでサポートされている HDR 形式を手動で無効にできます。デバイス チェーンでサポートされていない HDR 形式を強制的に有効にすることはできません。最高画質ではない形式が指定される可能性もあります。"</string>
+    <string name="hdr_format_info" msgid="5652559220799426076">"形式の情報"</string>
+    <string name="hdr_show_formats" msgid="171065892975445851">"形式を表示"</string>
+    <string name="hdr_hide_formats" msgid="8561568998525727230">"形式を非表示"</string>
+    <string name="hdr_enabled_formats" msgid="8527870623949982774">"有効な形式"</string>
+    <string name="hdr_disabled_formats" msgid="4758522849421497896">"無効な形式"</string>
+    <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"無効にするには、[形式の選択] を [手動] に切り替えてください。"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"キャッシュデータを削除しますか？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"すべてのアプリのキャッシュデータが削除されます。"</string>
     <string name="accessories_add" msgid="413764175035531452">"アクセサリを追加"</string>
@@ -206,11 +227,13 @@
     <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Bluetooth アドレス"</string>
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"接続完了"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"接続を解除しました"</string>
+    <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Bluetooth設定を変更する権限がありません。"</string>
     <string name="send_feedback" msgid="936698637869795473">"フィードバックを送信"</string>
     <string name="launch_help" msgid="2607478763131952469">"ヘルプセンター"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
     <string name="system_date_time" msgid="5922833592234018667">"日付と時刻"</string>
     <string name="system_language" msgid="5516099388471974346">"言語"</string>
+    <string name="language_empty_list_user_restricted" msgid="5430199913998605436">"デバイスの言語を変更する権限がありません。"</string>
     <string name="system_keyboard" msgid="1514460705385401872">"キーボード"</string>
     <string name="system_keyboard_autofill" msgid="8530944165814838255">"キーボードと自動入力"</string>
     <string name="system_autofill" msgid="6983989261108020046">"自動入力"</string>
@@ -226,6 +249,86 @@
     <string name="system_developer_options" msgid="8480844257066475479">"開発者向けオプション"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"なし"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"使用状況と診断"</string>
+    <string name="no_device_admins" msgid="4628974717150185625">"利用可能なデバイス管理アプリはありません"</string>
+    <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"管理アプリによって無効化"</string>
+    <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"利用できません"</string>
+    <string name="manage_device_admin" msgid="5714217234035017983">"デバイス管理アプリ"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"アクティブなアプリはありません"</string>
+    <plurals name="number_of_device_admins" formatted="false" msgid="5825543996501454373">
+      <item quantity="other">有効なアプリ: <xliff:g id="COUNT_1">%d</xliff:g> 個</item>
+      <item quantity="one">有効なアプリ: <xliff:g id="COUNT_0">%d</xliff:g> 個</item>
+    </plurals>
+    <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"管理者、暗号化ポリシー、または認証情報ストレージにより無効化"</string>
+    <string name="enterprise_privacy_settings" msgid="8226765895133003202">"管理対象デバイスの情報"</string>
+    <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"変更と設定は組織によって管理されています"</string>
+    <string name="enterprise_privacy_settings_summary_with_name" msgid="2866704039759872293">"変更と設定は <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> によって管理されています"</string>
+    <string name="enterprise_privacy_header" msgid="9221881402582661521">"仕事用データへのアクセスを提供するため、組織がデバイスの設定を変更したり、ソフトウェアをインストールしたりする場合があります。\n\n詳しくは、組織の管理者にお問い合わせください。"</string>
+    <string name="enterprise_privacy_exposure_category" msgid="1555735251238636669">"組織が表示できる情報の種類"</string>
+    <string name="enterprise_privacy_exposure_changes_category" msgid="7750498604032318318">"組織の管理者による変更"</string>
+    <string name="enterprise_privacy_device_access_category" msgid="7397106369136259850">"このデバイスへのアクセス"</string>
+    <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"メールアドレスやカレンダーなど、仕事用アカウントに関連付けられたデータ"</string>
+    <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"デバイス上のアプリのリスト"</string>
+    <string name="enterprise_privacy_usage_stats" msgid="7062422823174345793">"各アプリの使用時間とデータ使用量"</string>
+    <string name="enterprise_privacy_network_logs" msgid="305782312671493780">"最新のネットワーク トラフィック ログ"</string>
+    <string name="enterprise_privacy_bug_reports" msgid="2393617117911211486">"最新のバグレポート"</string>
+    <string name="enterprise_privacy_security_logs" msgid="2573545327989145361">"最新のセキュリティ ログ"</string>
+    <string name="enterprise_privacy_none" msgid="6660670916934417519">"なし"</string>
+    <string name="enterprise_privacy_enterprise_installed_packages" msgid="7244796629052581085">"アプリがインストールされています"</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="3875568975752197381">"アプリの数は推定値です。Play ストア以外からインストールしたアプリが含まれていないことがあります。"</string>
+    <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="3891649682522079620">
+      <item quantity="other">アプリ: <xliff:g id="COUNT_1">%d</xliff:g> 個以上</item>
+      <item quantity="one">アプリ: <xliff:g id="COUNT_0">%d</xliff:g> 個以上</item>
+    </plurals>
+    <string name="enterprise_privacy_location_access" msgid="8978502415647245748">"位置情報の権限"</string>
+    <string name="enterprise_privacy_microphone_access" msgid="3746238027890585248">"マイクの権限"</string>
+    <string name="enterprise_privacy_camera_access" msgid="6258493631976121930">"カメラの権限"</string>
+    <string name="enterprise_privacy_enterprise_set_default_apps" msgid="5538330175901952288">"デフォルト アプリ"</string>
+    <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="1652060324792116347">
+      <item quantity="other">アプリ: <xliff:g id="COUNT_1">%d</xliff:g> 個</item>
+      <item quantity="one">アプリ: <xliff:g id="COUNT_0">%d</xliff:g> 個</item>
+    </plurals>
+    <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"デフォルト キーボード"</string>
+    <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"<xliff:g id="APP_LABEL">%s</xliff:g> に設定済み"</string>
+    <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"常時接続 VPN は ON です"</string>
+    <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"個人プロフィールで常時接続 VPN は ON です"</string>
+    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"仕事用プロファイルで常時接続 VPN は ON です"</string>
+    <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"グローバル HTTP プロキシが設定されています"</string>
+    <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"信頼できる認証情報"</string>
+    <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"個人用プロファイル内の信頼できる認証情報"</string>
+    <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"仕事用プロファイル内の信頼できる認証情報"</string>
+    <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="4861211387981268796">
+      <item quantity="other">CA 証明書: <xliff:g id="COUNT_1">%d</xliff:g> 件以上</item>
+      <item quantity="one">CA 証明書: <xliff:g id="COUNT_0">%d</xliff:g> 件以上</item>
+    </plurals>
+    <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"管理者はデバイスをロックしてパスワードを再設定できます"</string>
+    <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"管理者はデバイスのすべてのデータを削除できます"</string>
+    <string name="enterprise_privacy_failed_password_wipe_device" msgid="8272298134556250600">"すべてのデバイスデータが削除されるまでのパスワード入力回数"</string>
+    <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"仕事用プロファイルのデータが削除されるまでのパスワード入力回数"</string>
+    <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8317320334895448341">
+      <item quantity="other">入力回数: <xliff:g id="COUNT_1">%d</xliff:g> 回</item>
+      <item quantity="one">入力回数: <xliff:g id="COUNT_0">%d</xliff:g> 回</item>
+    </plurals>
+    <string name="do_disclosure_generic" msgid="8390478119591845948">"このデバイスは組織によって管理されています。"</string>
+    <string name="do_disclosure_with_name" msgid="4755509039938948975">"このデバイスは <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> により管理されています。"</string>
+    <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="learn_more" msgid="820336467414665686">"詳細"</string>
+    <plurals name="default_camera_app_title" formatted="false" msgid="3870902175441923391">
+      <item quantity="other">カメラアプリ</item>
+      <item quantity="one">カメラアプリ</item>
+    </plurals>
+    <string name="default_calendar_app_title" msgid="1533912443930743532">"カレンダー アプリ"</string>
+    <string name="default_contacts_app_title" msgid="7792041146751261191">"連絡帳アプリ"</string>
+    <plurals name="default_email_app_title" formatted="false" msgid="5601238555065668402">
+      <item quantity="other">メール クライアント アプリ</item>
+      <item quantity="one">メール クライアント アプリ</item>
+    </plurals>
+    <string name="default_map_app_title" msgid="9051013257374474801">"地図アプリ"</string>
+    <plurals name="default_phone_app_title" formatted="false" msgid="1573981201056870719">
+      <item quantity="other">電話アプリ</item>
+      <item quantity="one">電話アプリ</item>
+    </plurals>
+    <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>、<xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
+    <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>、<xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>、<xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"チュートリアル"</string>
     <string name="about_system_update" msgid="7421264399111367755">"システムアップデート"</string>
     <string name="system_update_description" msgid="998883510488461766">"これにより、システム ソフトウェアが最新のバージョンに更新され、デバイスが再起動します。"</string>
@@ -256,6 +359,25 @@
     <string name="selinux_status_permissive" msgid="8694617578567517527">"制約なし"</string>
     <string name="selinux_status_enforcing" msgid="4140979635669643342">"適用"</string>
     <string name="additional_system_update_settings_list_item_title" msgid="1839534735929143986">"その他のシステム アップデート"</string>
+    <string name="ssl_ca_cert_warning" msgid="7836390021162211069">"ネットワークが監視されている可能性があります"</string>
+    <string name="done_button" msgid="616159688526431451">"完了"</string>
+    <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="8222753634330561111">
+      <item quantity="other">証明書の信頼または削除</item>
+      <item quantity="one">証明書の信頼または削除</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="6128536570911468907">
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> が、あなたのデバイスに認証局をインストールしました。これにより、デバイスのネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が管理される可能性があります。\n\nこれらの証明書について詳しくは、管理者にお問い合わせください。</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> が、あなたのデバイスに認証局をインストールしました。これにより、デバイスのネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が管理される可能性があります。\n\nこの証明書について詳しくは、管理者にお問い合わせください。</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="5828471957724016946">
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> が、あなたの仕事用プロファイルに認証局をインストールしました。これにより、仕事のネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が管理される可能性があります。\n\nこれらの証明書について詳しくは、管理者にお問い合わせください。</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> が、あなたの仕事用プロファイルに認証局をインストールしました。これにより、仕事のネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が管理される可能性があります。\n\nこの証明書について詳しくは、管理者にお問い合わせください。</item>
+    </plurals>
+    <string name="ssl_ca_cert_warning_message" msgid="4837017382712096218">"第三者があなたのネットワークアクティビティ（メール、アプリ、保護されたウェブサイトなど）を監視できます。\n\nこれは、信頼できる認証情報がデバイスにインストールされているためです。"</string>
+    <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="196409967946912560">
+      <item quantity="other">証明書を確認</item>
+      <item quantity="one">証明書を確認</item>
+    </plurals>
     <string name="device_status" msgid="8266002761193692207">"ステータス"</string>
     <string name="device_status_summary" msgid="3270932829412434985">"ネットワーク、シリアル番号などの情報"</string>
     <string name="manual" msgid="5683935624321864999">"マニュアル"</string>
@@ -274,8 +396,6 @@
     <string name="device_status_title" msgid="9051569510258883673">"ステータス"</string>
     <string name="battery_status_title" msgid="8850166742025222210">"充電状況"</string>
     <string name="battery_level_title" msgid="2672804570916248736">"電池残量"</string>
-    <string name="sim_status_title" msgid="1704273079796640946">"SIM のステータス"</string>
-    <string name="imei_information_title" msgid="3790368306353698724">"IMEI 情報"</string>
     <string name="status_bt_address" msgid="7190052214963950844">"Bluetooth アドレス"</string>
     <string name="status_up_time" msgid="1758102680983108313">"稼働時間"</string>
     <string name="legal_information" msgid="1087445528481370874">"法的情報"</string>
@@ -388,6 +508,7 @@
     <string name="wifi_summary_title_not_connected" msgid="7991004795297065201">"ネットワーク未接続"</string>
     <string name="wifi_summary_description_connected_to_wifi_network" msgid="8796747274977762311">"すでに <xliff:g id="SSID">%1$s</xliff:g> に接続しています。別のネットワークに接続しますか？"</string>
     <string name="wifi_summary_unknown_network" msgid="8044143986439139664">"不明なネットワーク"</string>
+    <string name="wifi_empty_list_user_restricted" msgid="7326314737931342236">"Wi-Fiネットワークを変更する権限がありません。"</string>
     <string name="title_ok" msgid="6500452958848127145">"OK"</string>
     <string name="title_cancel" msgid="2337143367016419016">"キャンセル"</string>
     <string name="storage_title" msgid="6637715914885228193">"ストレージ"</string>
@@ -510,7 +631,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"高コントラスト テキスト"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ユーザー補助機能のショートカット"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ユーザー補助機能のショートカットを有効にする"</string>
-    <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ショートカット サービス"</string>
+    <string name="accessibility_shortcut_service" msgid="2053250146891420311">"シ⁠ョ⁠ー⁠ト⁠カ⁠ッ⁠ト サ⁠ー⁠ビ⁠ス"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ショートカットが ON の場合、戻るボタンと下ボタンの両方を 3 秒間押し続けるとユーザー補助機能が起動します。"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"動画の字幕テキストオーバーレイの設定"</string>
@@ -523,7 +644,7 @@
     <string name="captions_language_default" msgid="3894192926725192528">"デフォルト"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"文字サイズ"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"字幕スタイル"</string>
-    <string name="captions_customoptions" msgid="7691004663572161126">"カスタム詳細設定"</string>
+    <string name="captions_customoptions" msgid="7691004663572161126">"カ⁠ス⁠タ⁠ム⁠詳⁠細⁠設⁠定"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"書体"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"テキストの色"</string>
     <string name="captions_edgetype" msgid="4875636291904824401">"エッジの種類"</string>
@@ -532,10 +653,10 @@
     <string name="captions_backgroundcolor" msgid="2056944109914399253">"背景色"</string>
     <string name="captions_backgroundopacity" msgid="1850126438162000027">"背景の不透明度"</string>
     <string name="captioning_preview_text" msgid="3034147586392743237">"字幕サンプル"</string>
-    <string name="captions_textopacity" msgid="6055602491649526307">"テキストの不透明度"</string>
+    <string name="captions_textopacity" msgid="6055602491649526307">"テ⁠⁠キ⁠ス⁠ト⁠の⁠不⁠透⁠明⁠度"</string>
     <string name="captions_windowshow" msgid="6002072054703167886">"ウィンドウを表示"</string>
     <string name="captions_windowcolor" msgid="7460430328878876648">"ウィンドウの色"</string>
-    <string name="captions_windowopacity" msgid="8645082670322789314">"ウィンドウの不透明度"</string>
+    <string name="captions_windowopacity" msgid="8645082670322789314">"ウ⁠ィ⁠ン⁠ド⁠ウ⁠の⁠不⁠透⁠明⁠度"</string>
     <string name="captions_style_0" msgid="169414884289770256">"黒地に白"</string>
     <string name="captions_style_1" msgid="8236052739817535538">"白地に黒"</string>
     <string name="captions_style_2" msgid="456353889540431910">"黒地に黄色"</string>
@@ -569,7 +690,7 @@
     <string name="system_monitoring" msgid="7997260748312620855">"監視"</string>
     <string name="system_apps" msgid="8481888654606868074">"アプリ"</string>
     <string name="system_stay_awake" msgid="5935117574414511413">"スリープモードにしない"</string>
-    <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCPチェック"</string>
+    <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP チェック"</string>
     <string name="system_hdmi_optimization" msgid="4122753440620724144">"HDMI最適化"</string>
     <string name="system_reboot_confirm" msgid="7035370306447878560">"今すぐ再起動しますか？"</string>
     <string name="system_desc_reboot_confirm" msgid="1567738857421128179">"この設定を更新するには、デバイスを再起動する必要があります"</string>
@@ -582,7 +703,7 @@
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"仮の現在地情報を許可する"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"デバッグアプリの選択"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"デバッガの待機"</string>
-    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB経由のアプリの確認"</string>
+    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB 経由のアプリも検証"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"ADB/ADT経由でインストールされたアプリに不正な動作がないかを確認する"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Wi-Fi詳細ログ"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Wi-Fi 詳細ログの有効化"</string>
@@ -610,7 +731,7 @@
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"アプリは実行前にデバッガのアタッチを待機します"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"クリップの境界線、マージンなどを表示する"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPUでの描画時にウィンドウ内の表示を点滅させる"</string>
-    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ハードウェア層が更新されると緑を表示"</string>
+    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"更新されたハードウェア層を緑で点滅させる"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"良好な状態から順に: 青、緑、薄い赤、赤"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"更新時にウィンドウの表示面全体を点滅させる"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"メインスレッドの処理が長引く場合は画面を点滅させる"</string>
@@ -827,7 +948,7 @@
     <string name="high_power_apps" msgid="5841073958519976562">"電気使用量の最適化"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"アプリの電気使用量を最適化します"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"最適化が必要なアプリはありません"</string>
-    <string name="high_power_on" msgid="3120162683093360951">"最適化していないアプリ"</string>
+    <string name="high_power_on" msgid="3120162683093360951">"最適化なし"</string>
     <string name="high_power_off" msgid="3588854600942236231">"電気使用量を最適化しているアプリ"</string>
     <string name="high_power_system" msgid="6263052626979462255">"電気使用量の最適化を利用できないアプリ"</string>
     <string name="manage_notification_access_title" msgid="8659254371564990084">"通知へのアクセス"</string>
@@ -848,7 +969,7 @@
     <string name="picture_in_picture_title" msgid="2636935591386702348">"ピクチャー イン ピクチャー"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"ピクチャー イン ピクチャーを許可"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ピクチャー イン ピクチャーに対応したアプリはインストールされていません"</string>
-    <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"アプリを開いているとき、またはアプリを離れた後に、動画の再生を続けるなどの目的でピクチャー イン ピクチャー ウィンドウを表示できるようにします。このウィンドウは、使用中の他のアプリの上に重ねて表示されます。"</string>
+    <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"このアプリを開いている間や、アプリを離れた後にピクチャー イン ピクチャー ウィンドウを表示させることを許可します。このウィンドウにより、再生中の動画などを、使用中の他のアプリの上に重ねて表示できます。"</string>
     <string name="special_access" msgid="21806055758289916">"特別なアプリアクセス"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>、<xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"音声"</string>
@@ -875,6 +996,28 @@
     <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"スクリーンショットは許可されていません"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"このアプリを開くことはできません"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"ご不明な点がある場合は、IT 管理者にお問い合わせください"</string>
+    <string name="admin_support_more_info" msgid="9053232166115098434">"詳細"</string>
+    <string name="admin_profile_owner_message" msgid="5729169873349157622">"管理者は、設定、権限、コーポレート アクセス、ネットワーク アクティビティ、デバイスの位置情報など、ユーザーの仕事用プロファイルに関連付けられたアプリやデータの監視、管理を行えます。"</string>
+    <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"管理者は、設定、権限、コーポレート アクセス、ネットワーク アクティビティ、デバイスの位置情報など、このユーザーに関連付けられたアプリやデータの監視、管理を行えます。"</string>
+    <string name="admin_device_owner_message" msgid="1935507216776040907">"管理者は、設定、権限、コーポレート アクセス、ネットワーク アクティビティ、デバイスの位置情報など、このデバイスに関連付けられたアプリやデータの監視、管理を行えます。"</string>
+    <string name="remove_managed_profile_label" msgid="8950011141359605612">"仕事用プロファイルを削除"</string>
+    <string name="active_device_admin_msg" msgid="185537304726228624">"デバイス管理アプリ"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"このデバイス管理アプリを無効にする"</string>
+    <string name="uninstall_device_admin" msgid="6301368408620948266">"アプリをアンインストール"</string>
+    <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"無効にしてアンインストール"</string>
+    <string name="select_device_admin_msg" msgid="8475934459999710332">"デバイス管理アプリ"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"デバイス管理アプリの有効化"</string>
+    <string name="add_device_admin" msgid="5078281377915844544">"このデバイス管理アプリを有効にする"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"この管理アプリを有効にすると、アプリ（<xliff:g id="APP_NAME">%1$s</xliff:g>）に次の操作を許可することになります:"</string>
+    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"このデバイスは <xliff:g id="APP_NAME">%1$s</xliff:g> によって管理および監視されます。"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"この管理アプリは有効で、アプリ（<xliff:g id="APP_NAME">%1$s</xliff:g>）に次の操作を許可します:"</string>
+    <string name="adding_profile_owner_warning" msgid="3888867082224127564">"次に進むと、ユーザーは管理者の管理対象となり、管理者はユーザーの個人情報に加えて関連データも保存できるようになります。\n\n管理者は、ネットワーク アクティビティやデバイスの位置情報など、このユーザーに関連付けられた設定、アクセス、アプリ、データの監視、管理を行えます。"</string>
+    <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"バグレポートを共有しますか？"</string>
+    <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"IT 管理者からこのデバイスのトラブルシューティングに役立てるためバグレポートを共有するようリクエストがありました。アプリやデータが共有されることがあります。"</string>
+    <string name="share_remote_bugreport_dialog_message" msgid="4637489112422692638">"IT 管理者からこのデバイスのトラブルシューティングに役立てるためバグレポートを共有するようリクエストがありました。アプリやデータが共有され、デバイスの動作が一時的に遅くなる場合があります。"</string>
+    <string name="sharing_remote_bugreport_dialog_message" msgid="8096239263583331293">"このバグレポートを IT 管理者と共有しています。詳しくは、IT 管理者にお問い合わせください。"</string>
+    <string name="share_remote_bugreport_action" msgid="6760197666368262892">"共有する"</string>
+    <string name="decline_remote_bugreport_action" msgid="2130779396296090961">"共有しない"</string>
     <string name="network_connection_request_dialog_title" msgid="4103963119407212989">"<xliff:g id="APPNAME">%1$s</xliff:g> で使用するデバイス"</string>
     <string name="network_connection_timeout_dialog_message" msgid="8408857135950230472">"デバイスが見つかりません。デバイスの電源が入っており、接続が可能であることを確認してください。"</string>
     <string name="network_connection_timeout_dialog_ok" msgid="5374522862360880609">"再試行"</string>
