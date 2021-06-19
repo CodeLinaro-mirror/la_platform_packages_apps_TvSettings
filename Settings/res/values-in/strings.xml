@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Lihat semua aplikasi"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Izin"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"Keamanan"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"Kelola Update"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Semua aplikasi"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Tampilkan aplikasi sistem"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Aplikasi terinstal"</string>
@@ -303,8 +304,8 @@
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"Admin dapat mengunci perangkat dan menyetel ulang sandi"</string>
     <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"Admin dapat menghapus semua data perangkat"</string>
-    <string name="enterprise_privacy_failed_password_wipe_device" msgid="8272298134556250600">"Gagal memasukkan sandi sebelum menghapus semua data perangkat"</string>
-    <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"Gagal memasukkan sandi sebelum menghapus data profil kerja"</string>
+    <string name="enterprise_privacy_failed_password_wipe_device" msgid="8272298134556250600">"Kesalahan sandi sebelum menghapus semua data perangkat"</string>
+    <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"Kesalahan sandi sebelum menghapus data profil kerja"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8317320334895448341">
       <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kesempatan</item>
       <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kesempatan</item>
@@ -328,6 +329,7 @@
       <item quantity="other">Aplikasi telepon</item>
       <item quantity="one">Aplikasi telepon</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"Aplikasi browser"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Tutorial"</string>
@@ -606,6 +608,22 @@
     <item msgid="5645263357181875427">"Gunakan waktu dari aliran transportasi"</item>
     <item msgid="5501503537181350884">"Nonaktif"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"Untuk semua aplikasi dan layanan"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"Baru-Baru Ini Diakses oleh"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Tidak ada akses terbaru"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"Lihat semua"</string>
+    <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"Akses mikrofon"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"Akses aplikasi ke mikrofon"</string>
+    <string name="camera" msgid="1226671478936288283">"Kamera"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Akses kamera"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"Akses aplikasi ke kamera"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Akses Mikrofon: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4436219037877456256">"Jika diaktifkan, semua aplikasi dan layanan yang memiliki izin dapat mengakses mikrofon di perangkat ini.\n\nPeriferal audio seperti perangkat mikrofon eksternal dengan protokol khusus tidak akan terpengaruh oleh setelan ini."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Akses Kamera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="7045001373813906859">"Jika diaktifkan, semua aplikasi dan layanan yang memiliki izin dapat mengakses kamera di perangkat ini.\n\nPeriferal kamera seperti webcam eksternal dengan protokol khusus tidak akan terpengaruh oleh setelan ini."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Aktif"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Nonaktif"</string>
     <string name="system_location" msgid="4057295363709016511">"Lokasi"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"Biarkan aplikasi yang telah meminta izin untuk menggunakan informasi lokasi Anda"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Izin lokasi"</string>
@@ -875,7 +893,7 @@
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"Penyimpanan yang terpakai"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"<xliff:g id="SIZE">%1$s</xliff:g> digunakan di <xliff:g id="VOLUME">%2$s</xliff:g>"</string>
     <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"Hapus data"</string>
-    <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"Semua data aplikasi ini akan dihapus secara permanen. \nData yang dihapus mencakup semua file, setelan, akun, basis data, dll."</string>
+    <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"Semua data aplikasi ini akan dihapus secara permanen. \nData yang dihapus mencakup semua file, setelan, akun, database, dll."</string>
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"Hapus default"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"Luncurkan apl untuk beberapa tindakan"</string>
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Tidak ada default yang disetel"</string>

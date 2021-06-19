@@ -25,6 +25,15 @@
         android:key="location"
         android:title="@string/system_location"
         android:fragment="com.android.tv.settings.system.LocationFragment" />
+    <Preference
+        android:key="microphone"
+        android:title="@string/microphone"
+        android:fragment="com.android.tv.settings.privacy.SensorFragment" />
+    <Preference
+        android:key="camera"
+        android:title="@string/camera"
+        android:fragment="com.android.tv.settings.privacy.SensorFragment" />
+
     <com.android.tv.twopanelsettings.slices.SlicePreference
         android:key="usageAndDiag"
         android:title="@string/system_diagnostic"
@@ -59,6 +68,13 @@
 
     <PreferenceCategory android:title="@string/privacy_app_settings_category" />
 
+    <com.android.tv.twopanelsettings.slices.SlicePreference
+        android:key="play_auto_update"
+        android:title="@string/manage_updates"
+        android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
+        custom:isPreferenceVisible="false"
+        custom:uri="@string/play_auto_update_settings_slice_uri"/>
+
     <Preference
         android:key="permissions"
         android:title="@string/device_apps_permissions">
@@ -79,5 +95,4 @@
         android:title="@string/play_protect_security"
         android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
         custom:uri="@string/play_protect_settings_slice_uri"/>
-
 </PreferenceScreen>
