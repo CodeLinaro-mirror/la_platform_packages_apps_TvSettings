@@ -99,7 +99,6 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Se alle apps"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Tilladelser"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"Sikkerhed"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"Administrer opdateringer"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Alle apps"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Vis systemapps"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Installerede apps"</string>
@@ -160,14 +159,6 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Hvis appen anmoder om det, justerer din enhed outputtet efter den oprindelige billedfrekvens for det indhold, du ser. Dette kan medføre, at din skærm bliver sort i et sekunds tid, når du afslutter eller starter en videoafspilning."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Aldrig"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Selvom appen anmoder om det, forsøger din enhed aldrig at justere outputtet efter den oprindelige billedfrekvens for det indhold, du ser."</string>
-    <string name="font_scale_settings_title" msgid="4114019544800225980">"Skalering af tekst"</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for font_scale_item_detail (1558315053348778805) -->
-    <skip />
-    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Eksempeltekst"</string>
-    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Den vidunderlige troldmand fra Oz"</string>
-    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Kapitel 11: Den vidunderlige smaragdby i Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Selv med øjnene beskyttet bag de grønne briller blev Dorothy og hendes venner til at starte med forblændet af byens vidunderlige funklen. Langs gaderne stod smukke huse i grøn marmor bestrøet med skinnende smaragder. De gik hen over et fortov, der var lavet af det samme grønne marmor, og der hvor fliserne mødtes, var der rækker af smaragder, der side om side skinnede i lyset fra solen. Ruderne var af grønt glas. Selv himlen over byen havde et grønt skær, og solens stråler var grønne. \n\nMange mennesker, både mænd, kvinder og børn, gik omkring, og de var alle klædt i grønt og havde en grønlig hud. De kiggede med undrende øjne på Dorothy og hendes mærkværdige brogede følge, og børnene løb alle hen og gemte sig bag deres mødre, da de så Løven, men der var ingen, der talte til dem. Der var mange butikker på gaden, og Dorothy kunne se, at alle varerne var grønne. Der blev solgt grønt slik og grønne popcorn, grønne sko, grønne hatte og alle slags grønne klæder. En mand solgte grøn lemonade, og da børnene købte det, kunne Dorothy se, at de betalte for det med grønne penge. \n\nDer så ikke ud til at være heste eller dyr af nogen art, og mændene kørte med ting i små grønne vogne, som de skubbede foran sig. Alle virkede glade og tilfredse og velstående."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Valg af format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatisk"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuelt"</string>
@@ -337,7 +328,6 @@
       <item quantity="one">Opkaldsapp</item>
       <item quantity="other">Opkaldsapps</item>
     </plurals>
-    <string name="default_browser_title" msgid="3612813200586492159">"Browserapp"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Selvstudier"</string>
@@ -616,22 +606,6 @@
     <item msgid="5645263357181875427">"Brug transportstrømmens tid"</item>
     <item msgid="5501503537181350884">"Fra"</item>
   </string-array>
-    <string name="sensor_toggle_description" msgid="7415801459994303159">"For alle apps og tjenester"</string>
-    <string name="recently_accessed_by_category" msgid="6841705864715653428">"Brugt for nylig af"</string>
-    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Ikke brugt for nylig"</string>
-    <string name="recently_accessed_show_all" msgid="5234849189704717855">"Se alle"</string>
-    <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
-    <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofonadgang"</string>
-    <string name="open_mic_permissions" msgid="8121871594807641073">"Appadgang til mikrofon"</string>
-    <string name="camera" msgid="1226671478936288283">"Kamera"</string>
-    <string name="camera_toggle_title" msgid="5566469574224956142">"Kameraadgang"</string>
-    <string name="open_camera_permissions" msgid="301360297337141591">"Appadgang til kamera"</string>
-    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonadgang: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Når du har aktiveret denne indstilling, kan alle apps og tjenester, der har fået tilladelse til det, få adgang til enhver mikrofon på denne enhed.\n\nEksterne lydenheder med en tilpasset protokol påvirkes ikke af denne indstilling."</string>
-    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kameraadgang: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Når du har aktiveret denne indstilling, kan alle apps og tjenester, der har fået tilladelse til det, få adgang til ethvert kamera på denne enhed.\n\nEksterne kameraenheder med en tilpasset protokol påvirkes ikke af denne indstilling."</string>
-    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Til"</string>
-    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Fra"</string>
     <string name="system_location" msgid="4057295363709016511">"Placering"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"Tillad, at apps, der har bedt om din tilladelse, bruger dine stedoplysninger"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Placeringssamtykke"</string>

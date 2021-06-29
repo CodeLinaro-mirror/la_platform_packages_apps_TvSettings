@@ -72,8 +72,7 @@ public class MatchContentFrameRateFragment extends SettingsPreferenceFragment {
             createInfoFragments();
         }
         mCurrentPreferenceKey = preferenceKeyFromSetting();
-        getRadioPreference(mCurrentPreferenceKey).setChecked(true);
-        getRadioPreference(mCurrentPreferenceKey).clearOtherRadioPreferences(getPreferenceGroup());
+        onPreferenceTreeClick(getRadioPreference(mCurrentPreferenceKey));
     }
 
     @VisibleForTesting
@@ -81,7 +80,6 @@ public class MatchContentFrameRateFragment extends SettingsPreferenceFragment {
         return (PreferenceGroup) findPreference(KEY_MATCH_CONTENT_FRAME_RATE);
     }
 
-    @VisibleForTesting
     RadioPreference getRadioPreference(String key) {
         return (RadioPreference) findPreference(key);
     }

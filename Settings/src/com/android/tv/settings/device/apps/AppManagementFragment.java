@@ -302,9 +302,7 @@ public class AppManagementFragment extends SettingsPreferenceFragment {
             replacePreference(mEnableDisablePreference);
         } else {
             mEnableDisablePreference.setEntry(mEntry);
-            if (!mEnableDisablePreference.isRestricted()) {
-                mEnableDisablePreference.setEnabled(true);
-            }
+            mEnableDisablePreference.setEnabled(true);
         }
 
         // Storage used

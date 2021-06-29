@@ -18,7 +18,6 @@ package com.android.tv.settings.device.displaysound;
 
 import static com.google.common.truth.Truth.assertThat;
 
-import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.doReturn;
 
 import android.provider.Settings;
@@ -35,7 +34,6 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.Spy;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
-import org.robolectric.shadows.androidx.fragment.FragmentController;
 
 @RunWith(RobolectricTestRunner.class)
 public class MatchContentFrameRateFragmentTest {
@@ -51,10 +49,9 @@ public class MatchContentFrameRateFragmentTest {
 
     private RadioPreference mAlwaysPreference;
 
-    private static final String KEY_MATCH_CONTENT_FRAME_RATE_SEAMLESS =
-            "match_content_frame_rate_seamless";
-    private static final String KEY_MATCH_CONTENT_FRAME_RATE_NON_SEAMLESS =
-            "match_content_frame_rate_non_seamless";
+    private static final String KEY_MATCH_CONTENT_FRAME_RATE_AUTO = "match_content_frame_rate_auto";
+    private static final String KEY_MATCH_CONTENT_FRAME_RATE_ALWAYS =
+            "match_content_frame_rate_always";
     private static final String KEY_MATCH_CONTENT_FRAME_RATE_NEVER =
             "match_content_frame_rate_never";
 
@@ -69,20 +66,14 @@ public class MatchContentFrameRateFragmentTest {
         doReturn(mPreferenceGroup).when(mMatchContentFrameRateFragment).getPreferenceGroup();
 
         mAutoPreference = new RadioPreference(mMatchContentFrameRateFragment.getContext());
-        mAutoPreference.setKey(KEY_MATCH_CONTENT_FRAME_RATE_SEAMLESS);
+        mAutoPreference.setKey(KEY_MATCH_CONTENT_FRAME_RATE_AUTO);
         mPreferenceGroup.addPreference(mAutoPreference);
-        doReturn(mAutoPreference).when(mMatchContentFrameRateFragment)
-                .getRadioPreference(eq(KEY_MATCH_CONTENT_FRAME_RATE_SEAMLESS));
         mNeverPreference = new RadioPreference(mMatchContentFrameRateFragment.getContext());
         mNeverPreference.setKey(KEY_MATCH_CONTENT_FRAME_RATE_NEVER);
         mPreferenceGroup.addPreference(mNeverPreference);
-        doReturn(mNeverPreference).when(mMatchContentFrameRateFragment)
-                .getRadioPreference(eq(KEY_MATCH_CONTENT_FRAME_RATE_NEVER));
         mAlwaysPreference = new RadioPreference(mMatchContentFrameRateFragment.getContext());
-        mAlwaysPreference.setKey(KEY_MATCH_CONTENT_FRAME_RATE_NON_SEAMLESS);
+        mAlwaysPreference.setKey(KEY_MATCH_CONTENT_FRAME_RATE_ALWAYS);
         mPreferenceGroup.addPreference(mAlwaysPreference);
-        doReturn(mAlwaysPreference).when(mMatchContentFrameRateFragment)
-                .getRadioPreference(eq(KEY_MATCH_CONTENT_FRAME_RATE_NON_SEAMLESS));
     }
 
     @Test
@@ -109,13 +100,11 @@ public class MatchContentFrameRateFragmentTest {
     @Test
     public void testOnPreferenceTreeClick_autoSelected_settingModified() {
         mMatchContentFrameRateFragment.onPreferenceTreeClick(mAutoPreference);
-        // Since Settings.Secure.MATCH_CONTENT_FRAMERATE_SEAMLESSS_ONLY is the default value,
-        // this action will not do anything
         assertThat(Settings.Secure.getInt(
                 mMatchContentFrameRateFragment.getContext().getContentResolver(),
                 Settings.Secure.MATCH_CONTENT_FRAME_RATE,
                 BAD_MATCH_CONTENT_FRAME_RATE_VALUE)).isEqualTo(
-                        BAD_MATCH_CONTENT_FRAME_RATE_VALUE);
+                        Settings.Secure.MATCH_CONTENT_FRAMERATE_SEAMLESSS_ONLY);
     }
 
     @Test
@@ -136,25 +125,5 @@ public class MatchContentFrameRateFragmentTest {
                 Settings.Secure.MATCH_CONTENT_FRAME_RATE,
                 BAD_MATCH_CONTENT_FRAME_RATE_VALUE)).isEqualTo(
                     Settings.Secure.MATCH_CONTENT_FRAMERATE_ALWAYS);
-    }
-
-    @Test
-    public void testOnPreferenceTreeClick_neverSelected_then_autoSelected_settingModified() {
-        mMatchContentFrameRateFragment.onPreferenceTreeClick(mNeverPreference);
-        mMatchContentFrameRateFragment.onPreferenceTreeClick(mAutoPreference);
-        assertThat(Settings.Secure.getInt(
-                mMatchContentFrameRateFragment.getContext().getContentResolver(),
-                Settings.Secure.MATCH_CONTENT_FRAME_RATE,
-                BAD_MATCH_CONTENT_FRAME_RATE_VALUE)).isEqualTo(
-                    Settings.Secure.MATCH_CONTENT_FRAMERATE_SEAMLESSS_ONLY);
-    }
-
-    @Test
-    public void testDefaultPreference() {
-        FragmentController.of(mMatchContentFrameRateFragment)
-            .create();
-        assertThat(mAutoPreference.isChecked()).isTrue();
-        assertThat(mNeverPreference.isChecked()).isFalse();
-        assertThat(mAlwaysPreference.isChecked()).isFalse();
     }
 }

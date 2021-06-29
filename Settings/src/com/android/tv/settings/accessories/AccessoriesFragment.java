@@ -16,6 +16,7 @@
 
 package com.android.tv.settings.accessories;
 
+import android.app.admin.DevicePolicyManager;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothClass;
 import android.bluetooth.BluetoothDevice;
@@ -27,6 +28,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.ArraySet;
 import android.util.Log;
@@ -122,7 +124,10 @@ public class AccessoriesFragment extends SettingsPreferenceFragment {
             if (admin == null) {
                 preference.setFragment(BluetoothAccessoryFragment.class.getName());
             } else {
-                RestrictedLockUtils.sendShowAdminSupportDetailsIntent(getContext(), admin);
+                Intent intent = new Intent(Settings.ACTION_SHOW_ADMIN_SUPPORT_DETAILS);
+                intent.putExtra(DevicePolicyManager.EXTRA_RESTRICTION,
+                        UserManager.DISALLOW_CONFIG_BLUETOOTH);
+                preference.setIntent(intent);
             }
 
             BluetoothAccessoryFragment.prepareArgs(

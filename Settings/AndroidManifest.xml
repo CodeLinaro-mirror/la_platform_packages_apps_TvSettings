@@ -41,13 +41,11 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
     <uses-permission android:name="android.permission.MANAGE_DEBUGGING"/>
-    <uses-permission android:name="android.permission.MANAGE_SENSOR_PRIVACY"/>
     <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS"/>
     <uses-permission android:name="android.permission.MANAGE_USERS"/>
     <uses-permission android:name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
     <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
-    <uses-permission android:name="android.permission.OBSERVE_SENSOR_PRIVACY"/>
     <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG"/>
     <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -70,9 +68,7 @@
     <uses-permission android:name="com.google.android.assistant.WRITE_HOTWORD_STATE"/>
     <uses-permission android:name="android.permission.MANAGE_SLICE_PERMISSIONS"/>
 
-    <application
-         android:name=".TvSettingsApplication"
-         android:allowClearUserData="false"
+    <application android:allowClearUserData="false"
          android:banner="@drawable/ic_launcher_banner_settings"
          android:defaultToDeviceProtectedStorage="true"
          android:directBootAware="true"
@@ -195,6 +191,14 @@
             android:exported="true"
             android:theme="@style/Theme.SettingsConnectivity" />
 
+        <activity
+            android:name=".connectivity.AddWifiNetworkEasyConnectActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:theme="@style/Theme.SettingsConnectivity" />
+
         <!-- AccountSliceActivity is just here to facilitate the activity-alias below to eliminate
              the risk of repackaging. -->
         <activity
@@ -204,33 +208,12 @@
             android:theme="@style/TvSettingsActivityTheme"
             android:exported="false" />
 
-        <activity
-            android:name=".accounts.AccountsActivity"
-            android:configChanges="keyboard|keyboardHidden|navigation"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:theme="@style/TvSettingsActivityTheme" />
-
-        <activity
-            android:name=".accounts.AccountsTrampolineActivity"
-            android:excludeFromRecents="true"
-            android:enabled="true"
-            android:launchMode="singleInstance"
-            android:theme="@style/TvSettingsActivityTheme"
-            android:exported="false" />
-
         <activity-alias
             android:name="com.google.android.tv.settings.AccountActivity"
-            android:targetActivity=".accounts.AccountsTrampolineActivity"
+            android:targetActivity=".accounts.AccountSliceActivity"
             android:exported="true">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.USER_SETTINGS"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="android.settings.ACCOUNT_SYNC_SETTINGS"/>
-                <action android:name="android.settings.SYNC_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity-alias>
@@ -241,6 +224,12 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:theme="@style/TvSettingsActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.settings.ACCOUNT_SYNC_SETTINGS"/>
+                <action android:name="android.settings.SYNC_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
 
         <!-- ManageUserServicesSliceActivity is just here to facilitate the activity-alias below to
@@ -912,22 +901,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".privacy.SensorToggleActivity"
-            android:configChanges="keyboard|keyboardHidden|navigation"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:theme="@style/TvSettingsActivityTheme">
-            <intent-filter android:priority="1">
-                <action android:name="android.settings.MANAGE_MICROPHONE_PRIVACY"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter android:priority="1">
-                <action android:name="android.settings.MANAGE_CAMERA_PRIVACY"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-
         <!-- Stub intent filters for CTS TODO: implement something useful -->
         <activity
             android:name=".EmptyStubActivity"
@@ -1063,7 +1036,6 @@
             android:theme="@style/TvSettingsActivityTheme">
             <intent-filter android:priority="1" >
                 <action android:name="android.settings.ACCESSIBILITY_TV_OEM_LINK" />
-                <action android:name="android.settings.ACCESSIBILITY_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -1177,18 +1149,6 @@
             android:theme="@style/TvSettingsActivityTheme">
             <intent-filter>
                 <action android:name="android.settings.SHOW_REMOTE_BUGREPORT_DIALOG" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".enterprise.EnterprisePrivacySettingsActivity"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:label="@string/enterprise_privacy_settings"
-            android:theme="@style/TvSettingsActivityTheme">
-            <intent-filter>
-                <action android:name="android.settings.ENTERPRISE_PRIVACY_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -19,7 +19,6 @@ package com.android.tv.settings.connectivity.setup;
 import android.content.Context;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
-import android.os.UserHandle;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
@@ -27,10 +26,7 @@ import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.android.settingslib.RestrictedLockUtils;
-import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import com.android.tv.settings.R;
-import com.android.tv.settings.connectivity.WifiConfigHelper;
 import com.android.tv.settings.connectivity.util.State;
 import com.android.tv.settings.connectivity.util.StateMachine;
 
@@ -99,13 +95,10 @@ public class KnownNetworkState implements State {
                     .id(ACTION_ID_TRY_AGAIN)
                     .title(R.string.wifi_connect)
                     .build());
-
-            if (canForgetNetwork()) {
-                actions.add(new GuidedAction.Builder(context)
-                        .id(ACTION_ID_VIEW_AVAILABLE_NETWORK)
-                        .title(R.string.wifi_forget_network)
-                        .build());
-            }
+            actions.add(new GuidedAction.Builder(context)
+                    .id(ACTION_ID_VIEW_AVAILABLE_NETWORK)
+                    .title(R.string.wifi_forget_network)
+                    .build());
         }
 
         @Override
@@ -125,22 +118,11 @@ public class KnownNetworkState implements State {
             if (id == ACTION_ID_TRY_AGAIN) {
                 mStateMachine.getListener().onComplete(StateMachine.ADD_START);
             } else if (id == ACTION_ID_VIEW_AVAILABLE_NETWORK) {
-                if (canForgetNetwork()) {
-                    int networkId = mUserChoiceInfo.getWifiConfiguration().networkId;
-                    ((WifiManager) getActivity().getApplicationContext().getSystemService(
-                            Context.WIFI_SERVICE)).forget(networkId, null);
-                } else {
-                    EnforcedAdmin admin = RestrictedLockUtils.getProfileOrDeviceOwner(getActivity(),
-                            UserHandle.of(UserHandle.myUserId()));
-                    RestrictedLockUtils.sendShowAdminSupportDetailsIntent(getActivity(), admin);
-                }
+                int networkId = mUserChoiceInfo.getWifiConfiguration().networkId;
+                ((WifiManager) getActivity().getApplicationContext().getSystemService(
+                        Context.WIFI_SERVICE)).forget(networkId, null);
                 mStateMachine.getListener().onComplete(StateMachine.SELECT_WIFI);
             }
-        }
-
-        private boolean canForgetNetwork() {
-            return !WifiConfigHelper.isNetworkLockedDown(getContext(),
-                    mUserChoiceInfo.getWifiConfiguration());
         }
     }
 }

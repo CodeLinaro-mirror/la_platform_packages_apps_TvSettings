@@ -42,6 +42,7 @@ import com.android.tv.twopanelsettings.slices.SlicePreference;
  */
 @Keep
 public class PrivacyFragment extends SettingsPreferenceFragment {
+
     private static final String KEY_ACCOUNT_SETTINGS_CATEGORY = "accountSettings";
     private static final String KEY_USAGE = "usageAndDiag";
     private static final String KEY_ADS = "ads";
@@ -49,9 +50,6 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
     private static final String KEY_PURCHASES = "purchases";
     private static final String KEY_SECURITY = "security";
     private static final String KEY_PLAY_PROTECT = "play_protect";
-    private static final String KEY_MIC = "microphone";
-    private static final String KEY_CAMERA = "camera";
-    private static final String KEY_PLAY_AUTO_UPDATE = "play_auto_update";
 
     private int getPreferenceScreenResId() {
         switch (FlavorUtils.getFlavor(getContext())) {
@@ -73,12 +71,6 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
         Preference adsPreference = findPreference(KEY_ADS);
         final Preference securityPreference = findPreference(KEY_SECURITY);
         final Preference playProtectPreference = findPreference(KEY_PLAY_PROTECT);
-        final Preference playAutoUpdatePreference = findPreference(KEY_PLAY_AUTO_UPDATE);
-
-        PrivacyToggle.MIC_TOGGLE.preparePreferenceWithSensorFragment(getContext(),
-                findPreference(KEY_MIC), SensorFragment.TOGGLE_EXTRA);
-        PrivacyToggle.CAMERA_TOGGLE.preparePreferenceWithSensorFragment(getContext(),
-                findPreference(KEY_CAMERA), SensorFragment.TOGGLE_EXTRA);
 
         if (FlavorUtils.getFeatureFactory(getContext()).getBasicModeFeatureProvider()
                 .isBasicMode(getContext())) {
@@ -123,14 +115,11 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
         } else {
             showSecurityPreference(securityPreference, playProtectPreference);
         }
-        if (isPlayAutoUpdatePreferenceEnabled(playAutoUpdatePreference)) {
-            playAutoUpdatePreference.setVisible(true);
-        }
     }
 
     private boolean isPlayProtectPreferenceEnabled(@Nullable Preference playProtectPreference) {
         return playProtectPreference instanceof SlicePreference
-                && SliceUtils.isPlayTvSettingsSliceEnabled(
+                && SliceUtils.isSliceProviderValid(
                         getContext(), ((SlicePreference) playProtectPreference).getUri());
     }
 
@@ -150,13 +139,6 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
         if (playProtectPreference != null) {
             playProtectPreference.setVisible(false);
         }
-    }
-
-    private boolean isPlayAutoUpdatePreferenceEnabled(
-            @Nullable Preference playAutoUpdatePreference) {
-        return playAutoUpdatePreference instanceof SlicePreference
-                && SliceUtils.isPlayTvSettingsSliceEnabled(
-                        getContext(), ((SlicePreference) playAutoUpdatePreference).getUri());
     }
 
     @Override

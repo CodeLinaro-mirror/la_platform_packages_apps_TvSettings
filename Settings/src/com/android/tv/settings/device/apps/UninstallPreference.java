@@ -66,19 +66,6 @@ public class UninstallPreference extends AppActionPreference {
         } else {
             setVisible(false);
         }
-
-        UserManager userManager = getContext().getSystemService(UserManager.class);
-        if (userManager.hasUserRestriction(UserManager.DISALLOW_APPS_CONTROL)) {
-            final String packageName = mEntry.info.packageName;
-            final int userId = UserHandle.myUserId();
-            final RestrictedLockUtils.EnforcedAdmin admin = RestrictedLockUtilsInternal
-                    .checkIfUninstallBlocked(mAppContext, packageName, userId);
-            if (admin != null) {
-                setDisabledByAdmin(admin);
-            } else {
-                setEnabled(false);
-            }
-        }
     }
 
     public boolean canUninstall() {
@@ -104,7 +91,10 @@ public class UninstallPreference extends AppActionPreference {
         RestrictedLockUtils.EnforcedAdmin admin =
                 RestrictedLockUtilsInternal.checkIfUninstallBlocked(mAppContext, packageName,
                         userId);
-        if (admin != null && !appsControlDisallowedBySystem) {
+        boolean uninstallBlockedBySystem =
+                appsControlDisallowedBySystem || RestrictedLockUtilsInternal.hasBaseUserRestriction(
+                        mAppContext, packageName, userId);
+        if (admin != null && !uninstallBlockedBySystem) {
             RestrictedLockUtils.sendShowAdminSupportDetailsIntent(mAppContext, admin);
             return true;
         } else {

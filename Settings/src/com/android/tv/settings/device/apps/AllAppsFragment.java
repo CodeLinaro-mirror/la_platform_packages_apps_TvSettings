@@ -22,7 +22,6 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
-import android.os.UserHandle;
 import android.text.TextUtils;
 import android.util.ArrayMap;
 import android.util.ArraySet;
@@ -30,7 +29,6 @@ import android.util.Log;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 
@@ -221,7 +219,7 @@ public class AllAppsFragment extends SettingsPreferenceFragment implements
             Log.d(TAG, "Not updating list for null group");
             return;
         }
-        mUpdateMap.put(group, filterAppsInstalledInParentProfile(entries));
+        mUpdateMap.put(group, entries);
 
         // We can get spammed with updates, so coalesce them to reduce jank and flicker
         if (mRunAt == Long.MIN_VALUE) {
@@ -237,17 +235,6 @@ public class AllAppsFragment extends SettingsPreferenceFragment implements
 
             mHandler.removeCallbacks(mUpdateRunnable);
             mHandler.postDelayed(mUpdateRunnable, delay);
-        }
-    }
-
-    private ArrayList<ApplicationsState.AppEntry> filterAppsInstalledInParentProfile(
-            @Nullable ArrayList<ApplicationsState.AppEntry> appEntries) {
-        if (appEntries == null) {
-            return new ArrayList<>();
-        } else {
-            return appEntries.stream().filter(appEntry ->
-                    UserHandle.getUserId(appEntry.info.uid) == UserHandle.myUserId())
-                    .collect(Collectors.toCollection(ArrayList::new));
         }
     }
 

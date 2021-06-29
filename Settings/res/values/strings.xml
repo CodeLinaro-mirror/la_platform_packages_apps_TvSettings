@@ -203,8 +203,6 @@
     <string name="apps_permissions_category_title">Permissions</string>
     <!-- An item title on the apps screen. If clicked, the user is taken to screen listing Play Protect options. [CHAR_LIMIT=50]-->
     <string name="play_protect_security">Security</string>
-    <!-- An item title on the apps screen. If clicked, the user is taken to screen list Auto Update options. [CHAR_LIMIT=50]-->
-    <string name="manage_updates">Manage Updates</string>
 
     <!-- All application preferences -->
     <skip />
@@ -376,33 +374,6 @@
     <string name="match_content_frame_rate_never_summary">Even if the app requests it, your device
         will never try to match its output to the original frame rate of the content you’re
         watching.</string>
-    <!-- Title for preference which when clicked lets the user configure text scaling. [CHAR LIMIT=50] -->
-    <string name="font_scale_settings_title">Text scaling</string>
-    <!-- A title for the section showing the text scaling preview. [CHAR LIMIT=50] -->
-    <string name="font_scale_item_detail">Scale to <xliff:g id="scale">%1$d</xliff:g>%%</string>
-    <!-- A title for the section showing the text scaling preview. [CHAR LIMIT=50] -->
-    <string name="font_scale_sample_text_title">Sample text</string>
-    <!-- Title text in sample text used to illustrate how the currently selected font scale will appear to the user. [CHAR LIMIT=50] -->
-    <string name="font_scale_preview_text_title"
-            translation_description="Translate manually. No not adopt any copyrighted material for translation.">
-        The Wonderful Wizard of Oz
-    </string>
-    <!-- Subtitle for sample text shown in the text scaling preview. [CHAR LIMIT=100] -->
-    <string name="font_scale_preview_text_subtitle">Chapter 11: The Wonderful Emerald City of Oz</string>
-    <!-- Sample text shown in the text scaling preview. [CHAR LIMIT=NONE] -->
-    <string name="font_scale_preview_text_body">
-        Even with eyes protected by the green spectacles Dorothy and her friends were at first dazzled by the brilliancy of the wonderful City.
-        The streets were lined with beautiful houses all built of green marble and studded everywhere with sparkling emeralds.
-        They walked over a pavement of the same green marble, and where the blocks were joined together were rows of emeralds, set closely, and glittering in the brightness of the sun.
-        The window panes were of green glass; even the sky above the City had a green tint, and the rays of the sun were green.
-        \n\nThere were many people, men, women and children, walking about, and these were all dressed in green clothes and had greenish skins.
-        They looked at Dorothy and her strangely assorted company with wondering eyes, and the children all ran away and hid behind their mothers when they saw the Lion; but no one spoke to them.
-        Many shops stood in the street, and Dorothy saw that everything in them was green.
-        Green candy and green pop-corn were offered for sale, as well as green shoes, green hats and green clothes of all sorts.
-        At one place a man was selling green lemonade, and when the children bought it Dorothy could see that they paid for it with green pennies.
-        \n\nThere seemed to be no horses nor animals of any kind; the men carried things around in little green carts, which they pushed before them.
-        Everyone seeemed happy and contented and prosperous.
-    </string>
 
     <!-- Title for preference for HDR format selection. [CHAR LIMIT=50] -->
     <string name="hdr_format_selection_title">Format selection</string>
@@ -773,8 +744,6 @@
         <item quantity="one">Phone app</item>
         <item quantity="other">Phone apps</item>
     </plurals>
-    <!-- Title for Default Browser settings [CHAR LIMIT=30] -->
-    <string name="default_browser_title">Browser app</string>
     <!-- Template for concatenating two app names -->
     <string name="app_names_concatenation_template_2"><xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g></string>
     <!-- Template for concatenating three app names -->
@@ -1393,55 +1362,6 @@
         <item>transport_stream</item>
         <item>off</item>
     </string-array>
-
-    <!-- Subtitle for the camera/microphone toggle [CHAR LIMIT=50] -->
-    <string name="sensor_toggle_description">For all apps and services</string>
-    <!-- Settings group name that is followed by a list of apps that have recently accessed the sensor [CHAR LIMIT=50] -->
-    <string name="recently_accessed_by_category">Recently Accessed By</string>
-    <!-- Placeholder that shows when no apps have recently accessed the camera/microphone [CHAR LIMIT=50] -->
-    <string name="no_recent_sensor_accesses">No recent accesses</string>
-    <!-- Element on which to click when there are more apps in the list that we want to show initially.
-    The rest of the apps will be shown when the element is clicked [CHAR LIMIT=50]-->
-    <string name="recently_accessed_show_all">See all</string>
-
-    <!-- Title for Microphone settings [CHAR LIMIT=30] -->
-    <string name="microphone">Microphone</string>
-    <!-- Title of the toggle that enables / disables microphone access for all apps [CHAR LIMIT=30] -->
-    <string name="mic_toggle_title">Microphone access</string>
-    <!-- Title for setting that opens the microphone permissions overview for all apps [CHAR LIMIT=50]-->
-    <string name="open_mic_permissions">App access to microphone</string>
-
-    <!-- Title for Camera settings [CHAR LIMIT=30] -->
-    <string name="camera">Camera</string>
-    <!-- Title of the toggle that enables / disables camera access for all apps [CHAR LIMIT=30] -->
-    <string name="camera_toggle_title">Camera access</string>
-    <!-- Title for setting that opens the camera permissions overview for all apps [CHAR LIMIT=50]-->
-    <string name="open_camera_permissions">App access to camera</string>
-
-    <!-- Title of the info panel that is shown on the side when the microphone toggle is selected.
-    The sensor_state is one of the following strings: sensor_toggle_info_on or sensor_toggle_info_off [CHAR LIMIT=30]-->
-    <string name="mic_toggle_info_title">Microphone Access:
-        <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
-    <!-- Message shown in an info panel on the side when the microphone toggle is selected. [CHAR LIMIT=NONE] -->
-    <string name="mic_toggle_info_content">When turned on, all apps and services with permission can
-        access any microphone on this device.\n\nAudio peripherals with a custom protocol will not
-        be affected by this setting.
-    </string>
-
-    <!-- Title of the info panel that is shown on the side when the camera toggle is selected.
-    The camera_state is one of the following strings: sensor_toggle_info_on or sensor_toggle_info_off [CHAR LIMIT=30]-->
-    <string name="camera_toggle_info_title">Camera Access:
-        <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
-    <!-- Message shown in an info panel on the side when the camera toggle is selected. [CHAR LIMIT=NONE] -->
-    <string name="camera_toggle_info_content">When turned on, all apps and services with permission
-        can access any camera on this device.\n\nCamera peripherals with a custom protocol will not
-        be affected by this setting.
-    </string>
-
-    <!-- Camera/Microphone state within mic_toggle_info_title and camera_toggle_info_title [CHAR LIMIT=20] -->
-    <string name="sensor_toggle_info_on">On</string>
-    <!-- Camera/Microphone state within mic_toggle_info_title and camera_toggle_info_title [CHAR LIMIT=20] -->
-    <string name="sensor_toggle_info_off">Off</string>
 
     <!-- Title for Location in System Settings [CHAR LIMIT=50] -->
     <string name="system_location">Location</string>
@@ -2342,12 +2262,6 @@
 
     <!-- Slice uri for general information -->
     <string name="general_info_slice_uri" translatable="false"/>
-
-    <!-- Top level uri for Play settings slices -->
-    <string name="play_settings_slice_uri" translatable="false"/>
-
-    <!-- Slice uri for Auto Update settings -->
-    <string name="play_auto_update_settings_slice_uri" translatable="false"/>
 
     <!-- Slice uri for Play Protect settings -->
     <string name="play_protect_settings_slice_uri" translatable="false"/>

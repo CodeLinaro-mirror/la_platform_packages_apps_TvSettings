@@ -99,7 +99,6 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"ਸਭ ਐਪਾਂ ਦੇਖੋ"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"ਇਜਾਜ਼ਤਾਂ"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"ਸੁਰੱਖਿਆ"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"ਅੱਪਡੇਟਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"ਸਭ ਐਪਾਂ"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"ਸਿਸਟਮ ਐਪਾਂ ਦਿਖਾਓ"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"ਸਥਾਪਤ ਕੀਤੀਆਂ ਐਪਾਂ"</string>
@@ -160,12 +159,6 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ਜੇ ਐਪ ਵੱਲੋਂ ਇਸਦੀ ਬੇਨਤੀ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਤੁਹਾਡੇ ਵੱਲੋਂ ਦੇਖੀ ਜਾ ਰਹੀ ਸਮੱਗਰੀ ਦੇ ਮੂਲ ਫ੍ਰੇਮ ਰੇਟ ਦਾ ਇਸਦੇ ਆਊਟਪੁੱਟ ਨਾਲ ਮਿਲਾਨ ਕਰੇਗਾ। ਅਜਿਹਾ ਕਰਨ ਨਾਲ ਵੀਡੀਓ ਪਲੇਬੈਕ ਤੋਂ ਬਾਹਰ ਨਿਕਲਣ ਅਤੇ ਦਾਖਲ ਹੋਣ ਵੇਲੇ ਤੁਹਾਡੀ ਸਕ੍ਰੀਨ ਇੱਕ ਸਕਿੰਟ ਲਈ ਕਾਲੀ ਹੋ ਜਾਵੇਗੀ।"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ਕਦੇ ਵੀ ਨਹੀਂ"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ਐਪ ਵੱਲੋਂ ਇਸਦੀ ਬੇਨਤੀ ਕਰਨ \'ਤੇ ਵੀ, ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਤੁਹਾਡੇ ਵੱਲੋਂ ਦੇਖੀ ਜਾ ਰਹੀ ਸਮੱਗਰੀ ਦੇ ਮੂਲ ਫ੍ਰੇਮ ਰੇਟ ਦਾ ਇਸਦੇ ਆਊਟਪੁੱਟ ਨਾਲ ਮਿਲਾਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਦੇ ਵੀ ਨਹੀਂ ਕਰੇਗਾ।"</string>
-    <string name="font_scale_settings_title" msgid="4114019544800225980">"ਲਿਖਤ ਸਕੇਲਿੰਗ"</string>
-    <string name="font_scale_item_detail" msgid="1558315053348778805">"<xliff:g id="SCALE">%1$d</xliff:g>%% ਤੱਕ ਸਕੇਲ ਕਰੋ"</string>
-    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"ਨਮੂਨਾ ਲਿਖਤ"</string>
-    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ਔਜ਼ ਦਾ ਨਿਰਾਲਾ ਵਿਜ਼ਾਰਡ"</string>
-    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"ਪਾਠ 11: ਔਜ਼ ਦਾ ਹੀਰਿਆਂ-ਪੰਨਿਆਂ ਵਾਲਾ ਨਿਰਾਲਾ ਸ਼ਹਿਰ"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"ਹਰੇ ਰੰਗ ਦੀਆਂ ਐਨਕਾਂ ਲਗਾ ਕੇ ਵੀ ਡੋਰਥੀ ਅਤੇ ਉਸ ਦੇ ਦੋਸਤ ਨਿਰਾਲੇ ਸ਼ਹਿਰ ਦੀ ਚਮਕ-ਦਮਕ ਦੇਖ ਕੇ ਹੈਰਾਨ ਸਨ। ਹਰੇ ਰੰਗ ਦੇ ਮਾਰਬਲ ਨਾਲ ਬਣੇ ਹੋਏ ਸੁੰਦਰ ਘਰ, ਗਲੀਆਂ ਵਿੱਚ ਕਤਾਰਬੱਧ ਸਨ ਅਤੇ ਉਹਨਾਂ ਵਿੱਚ ਚਮਕਦੇ ਪੰਨੇ ਜੜੇ ਹੋਏ ਸਨ। ਉਹ ਉਸੇ ਹਰੇ ਮਾਰਬਲ ਦੇ ਫੁੱਟਪਾਥ \'ਤੇ ਪੈਦਲ ਤੁਰ ਪਏ ਅਤੇ ਜਿੱਥੇ ਆਲੇ-ਦੁਆਲੇ ਰੱਖੇ ਹੋਏ ਮਾਰਬਲ ਪੱਥਰ ਆਪਸ ਵਿੱਚ ਜੁੜਦੇ ਸਨ ਉੱਥੇ ਨੇੜੇ-ਨੇੜੇ ਲਗਾਏ ਗਏ ਪੰਨਿਆਂ ਦੀਆਂ ਕਤਾਰਾਂ ਸਨ ਅਤੇ ਧੁੱਪ ਵਿੱਚ ਚਮਕ ਰਹੀਆਂ ਸਨ। ਖਿੜਕੀਆਂ ਦੇ ਸ਼ੀਸ਼ੇ ਹਰੇ ਰੰਗ ਦੇ ਸਨ; ਇੱਥੋਂ ਤੱਕ ਕਿ ਸ਼ਹਿਰ ਦੇ ਉੱਤੇ ਅਸਮਾਨ ਵਿੱਚ ਵੀ ਹਰੇ ਰੰਗ ਦੀ ਭਾਅ ਸੀ ਅਤੇ ਸੂਰਜ ਦੀਆਂ ਕਿਰਨਾਂ ਵੀ ਹਰੇ ਰੰਗ ਦੀਆਂ ਸਨ। \n\nਉੱਥੇ ਬਹੁਤ ਸਾਰੇ ਲੋਕ, ਆਦਮੀ, ਔਰਤਾਂ ਅਤੇ ਬੱਚੇ ਘੁੰਮ ਰਹੇ ਸਨ ਅਤੇ ਉਹਨਾਂ ਨੇ ਹਰੇ ਰੰਗ ਦੇ ਕੱਪੜੇ ਪਾਏ ਹੋਏ ਸਨ ਅਤੇ ਉਹਨਾਂ ਦੀ ਚਮੜੀ ਦਾ ਰੰਗ ਵੀ ਹਰਾ ਹੀ ਸੀ। ਉੁਹਨਾਂ ਨੇ ਡੋਰਥੀ ਅਤੇ ਉਸਦੇ ਅਜੀਬੋ-ਗਰੀਬ ਦੋਸਤਾਂ ਵੱਲ ਹੈਰਾਨੀ ਭਰੀਆਂ ਨਜ਼ਰਾਂ ਨਾਲ ਦੇਖਿਆ ਅਤੇ ਜਦੋਂ ਬੱਚਿਆਂ ਨੇ ਸ਼ੇਰ ਨੂੰ ਦੇਖਿਆ ਤਾਂ ਸਾਰੇ ਬੱਚੇ ਭੱਜ ਗਏ ਅਤੇ ਆਪਣੀਆਂ ਮਾਵਾਂ ਦੇ ਪਿੱਛੇ ਜਾ ਕੇ ਲੁਕ ਗਏ; ਪਰ ਕਿਸੇ ਨੇ ਵੀ ਉਹਨਾਂ ਨਾਲ ਗੱਲ ਨਹੀਂ ਕੀਤੀ। ਗਲੀ ਵਿੱਚ ਬਹੁਤ ਸਾਰੀਆਂ ਦੁਕਾਨਾਂ ਸਨ ਅਤੇ ਡੋਰਥੀ ਨੇ ਦੇਖਿਆ ਕਿ ਉੱਥੇ ਸਭ ਕੁਝ ਹਰੇ ਰੰਗ ਦਾ ਹੀ ਸੀ। ਹਰੇ ਰੰਗ ਦੀਆਂ ਟੌਫੀਆਂ ਅਤੇ ਹਰੇ ਰੰਗੇ ਦੇ ਮੱਕੀ ਦੇ ਫੁੱਲੇ ਵੇਚੇ ਜਾ ਰਹੇ ਸਨ, ਹਰੇ ਰੰਗ ਦੇ ਬੂਟ ਵੀ, ਹਰੀਆਂ ਟੋਪੀਆਂ ਅਤੇ ਸਾਰੀਆਂ ਕਿਸਮਾਂ ਦੇ ਹਰੇ ਰੰਗ ਦੇ ਕੱਪੜੇ। ਇੱਕ ਥਾਂ \'ਤੇ ਇੱਕ ਵਿਅਕਤੀ ਹਰੇ ਰੰਗ ਦੀ ਸ਼ਕੰਜਵੀ ਵੇਚ ਰਿਹਾ ਸੀ ਅਤੇ ਜਦੋਂ ਬੱਚੇ ਸ਼ਕੰਜਵੀ ਨੂੰ ਖਰੀਦ ਰਹੇ ਸਨ ਤਾਂ ਡੋਰਥੀ ਦੇਖ ਸਕਦੀ ਸੀ ਕਿ ਉਹ ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਹਰੇ ਰੰਗ ਦੀਆਂ ਪੈਨੀਆਂ (ਪੈਸੇ) ਦੇ ਰਹੇ ਸਨ। \n\nਇੰਝ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਸੀ ਕਿ ਉੱਥੇ ਘੋੜੇ ਜਾਂ ਕਿਸੇ ਵੀ ਕਿਸਮ ਦੇ ਜਾਨਵਰ ਨਹੀਂ ਸਨ: ਬੰਦੇ ਹਰੇ ਰੰਗ ਦੇ ਛੋਟੇ-ਛੋਟੇ ਗੱਡਿਆਂ ਉੱਤੇ ਚੀਜ਼ਾਂ ਨੂੰ ਇੱਧਰ-ਉੱਧਰ ਲੈ ਕੇ ਜਾ ਰਹੇ ਸਨ, ਜਿਨ੍ਹਾਂ ਨੂੰ ਉਹ ਆਪਣੇ ਅੱਗੇ ਧਕੇਲ ਕੇ ਲੈ ਜਾ ਰਹੇ ਸਨ। ਹਰ ਕੋਈ ਖੁਸ਼, ਸੰਤੁਸ਼ਟ ਅਤੇ ਖੁਸ਼ਹਾਲ ਪ੍ਰਤੀਤ ਹੋ ਰਿਹਾ ਸੀ।"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ਫਾਰਮੈਟ ਦੀ ਚੋਣ"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ਸਵੈਚਲਿਤ"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ਹੱਥੀਂ"</string>
@@ -185,8 +178,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"ਚਾਲੂ ਕੀਤੇ ਫਾਰਮੈਟ"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"ਬੰਦ ਕੀਤੇ ਫਾਰਮੈਟ"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"ਬੰਦ ਕਰਨ ਲਈ, ਫਾਰਮੈਟ ਦੀ ਚੋਣ ਨੂੰ \'ਹੱਥੀਂ\' ਵਿੱਚ ਬਦਲੋ।"</string>
-    <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ਕੀ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਹਟਾਉਣਾ ਹੈ?"</string>
-    <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ਇਹ ਸਾਰੀਆਂ ਐਪਾਂ ਲਈ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਕਲੀਅਰ ਕਰ ਦੇਵੇਗਾ।"</string>
+    <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ਕੀ ਕੈਸ਼ ਕੀਤਾ  ਡਾਟਾ  ਹਟਾਉਣਾ ਹੈ?"</string>
+    <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ਇਹ ਸਾਰੀਆਂ ਐਪਾਂ ਲਈ ਕੈਸ਼ ਕੀਤਾ  ਡਾਟਾ  ਕਲੀਅਰ ਕਰ ਦੇਵੇਗਾ।"</string>
     <string name="accessories_add" msgid="413764175035531452">"ਉਪਸਾਧਨ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"ਜੋੜਾਬੱਧ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"</string>
@@ -335,7 +328,6 @@
       <item quantity="one">ਫ਼ੋਨ ਐਪ</item>
       <item quantity="other">ਫ਼ੋਨ ਐਪਾਂ</item>
     </plurals>
-    <string name="default_browser_title" msgid="3612813200586492159">"ਬ੍ਰਾਊਜ਼ਰ ਐਪ"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"ਟਿਊਟੋਰੀਅਲ"</string>
@@ -614,22 +606,6 @@
     <item msgid="5645263357181875427">"ਟ੍ਰਾਂਸਪੋਰਟ ਸਟ੍ਰੀਮ ਵੱਲੋਂ ਮੁਹੱਈਆ ਕੀਤਾ ਸਮਾਂ ਵਰਤੋ"</item>
     <item msgid="5501503537181350884">"ਬੰਦ"</item>
   </string-array>
-    <string name="sensor_toggle_description" msgid="7415801459994303159">"ਸਾਰੀਆਂ ਐਪਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਲਈ"</string>
-    <string name="recently_accessed_by_category" msgid="6841705864715653428">"ਹਾਲ ਹੀ ਵਿੱਚ ਇਹਨਾਂ ਐਪਾਂ ਵੱਲੋਂ ਪਹੁੰਚ ਕੀਤੀ ਗਈ"</string>
-    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"ਕੋਈ ਹਾਲੀਆ ਪਹੁੰਚ ਨਹੀਂ"</string>
-    <string name="recently_accessed_show_all" msgid="5234849189704717855">"ਸਭ ਦੇਖੋ"</string>
-    <string name="microphone" msgid="7893752847683941214">"ਮਾਈਕ੍ਰੋਫ਼ੋਨ"</string>
-    <string name="mic_toggle_title" msgid="7193417007060235665">"ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਪਹੁੰਚ"</string>
-    <string name="open_mic_permissions" msgid="8121871594807641073">"ਐਪ ਦੀ ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਤੱਕ ਪਹੁੰਚ"</string>
-    <string name="camera" msgid="1226671478936288283">"ਕੈਮਰਾ"</string>
-    <string name="camera_toggle_title" msgid="5566469574224956142">"ਕੈਮਰਾ ਪਹੁੰਚ"</string>
-    <string name="open_camera_permissions" msgid="301360297337141591">"ਐਪ ਦੀ ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ"</string>
-    <string name="mic_toggle_info_title" msgid="1086545614315873599">"ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਪਹੁੰਚ: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"ਚਾਲੂ ਕੀਤੇ ਜਾਣ \'ਤੇ, ਇਜਾਜ਼ਤ ਵਾਲੀਆਂ ਸਾਰੀਆਂ ਐਪਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਇਸ ਡੀਵਾਈਸ ਦੇ ਕਿਸੇ ਵੀ ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਤੱਕ ਪਹੁੰਚ ਕਰ ਸਕਦੀਆਂ ਹਨ।\n\nਇਸ ਸੈਟਿੰਗ ਨਾਲ ਵਿਉਂਤੇ ਪ੍ਰੋਟੋਕੋਲ ਵਾਲੇ ਆਡੀਓ ਪੈਰੀਫੈਰਲ ਪ੍ਰਭਾਵਿਤ ਨਹੀਂ ਹੋਣਗੇ।"</string>
-    <string name="camera_toggle_info_title" msgid="3871317082313736088">"ਕੈਮਰਾ ਪਹੁੰਚ: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="2999965953853204003">"ਚਾਲੂ ਕੀਤੇ ਜਾਣ \'ਤੇ, ਇਜਾਜ਼ਤ ਵਾਲੀਆਂ ਸਾਰੀਆਂ ਐਪਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਇਸ ਡੀਵਾਈਸ ਦੇ ਕਿਸੇ ਵੀ ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਕਰ ਸਕਦੀਆਂ ਹਨ।\n\nਇਸ ਸੈਟਿੰਗ ਨਾਲ ਵਿਉਂਤੇ ਪ੍ਰੋਟੋਕੋਲ ਵਾਲੇ ਕੈਮਰਾ ਪੈਰੀਫੈਰਲ ਪ੍ਰਭਾਵਿਤ ਨਹੀਂ ਹੋਣਗੇ।"</string>
-    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ਚਾਲੂ"</string>
-    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"ਬੰਦ"</string>
     <string name="system_location" msgid="4057295363709016511">"ਟਿਕਾਣਾ"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"ਜਿੰਨ੍ਹਾਂ ਐਪਾਂ ਨੇ ਤੁਹਾਡੀ ਇਜਾਜ਼ਤ ਮੰਗੀ ਹੈ, ਉਹਨਾਂ ਨੂੰ ਆਪਣੀ ਟਿਕਾਣਾ ਜਾਣਕਾਰੀ ਵਰਤਣ ਦਿਓ"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"ਟਿਕਾਣਾ ਸਹਿਮਤੀ"</string>
@@ -898,7 +874,7 @@
     <string name="device_apps_app_management_enable_desc" msgid="8686291003061136476">"ਕੀ ਤੁਸੀਂ ਇਸ ਐਪ ਨੂੰ ਯੋਗ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"</string>
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"ਵਰਤੀ ਸਟੋਰੇਜ"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"<xliff:g id="VOLUME">%2$s</xliff:g> ਵਿੱਚ <xliff:g id="SIZE">%1$s</xliff:g> ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਗਈ"</string>
-    <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"ਡਾਟਾ ਕਲੀਅਰ ਕਰੋ"</string>
+    <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">" ਡਾਟਾ  ਹਟਾਓ"</string>
     <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"ਇਸ ਐਪ ਦਾ ਸਾਰਾ  ਡਾਟਾ  ਸਥਾਈ ਤੌਰ \'ਤੇ ਮਿਟਾਇਆ ਜਾਏਗਾ।\nਇਸ ਵਿੱਚ ਸਾਰੀਆਂ ਫ਼ਾਈਲਾਂ, ਸੈਟਿੰਗਾਂ, ਖਾਤੇ,  ਡਾਟਾ ਬੇਸ ਆਦਿ ਸ਼ਾਮਲ ਹਨ।"</string>
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"ਪੂਰਵ-ਨਿਰਧਾਰਤ ਕਿਰਿਆਵਾਂ ਹਟਾਓ"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"ਕੁਝ ਕਾਰਵਾਈਆਂ ਲਈ ਇਸ ਐਪ ਨੂੰ ਲਾਂਚ ਕਰਨਾ ਸੈੱਟ ਕਰੋ"</string>

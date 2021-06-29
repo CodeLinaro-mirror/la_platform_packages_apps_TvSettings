@@ -22,7 +22,6 @@ import android.accessibilityservice.AccessibilityServiceInfo;
 import android.app.tvsettings.TvSettingsEnums;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -47,27 +46,30 @@ import java.util.List;
 public class AccessibilityShortcutFragment extends SettingsPreferenceFragment {
     private static final String KEY_ENABLE = "enable";
     private static final String KEY_SERVICE = "service";
-    private static final String ACCESSIBILITY_SHORTCUT_STORE = "accessibility_shortcut";
-    private static final String LAST_SHORTCUT_SERVICE = "last_shortcut_service";
 
-    private SharedPreferences mSharedPref;
+    /**
+     * Setting specifying if the accessibility shortcut is enabled.
+     *
+     * @deprecated this setting is no longer in use.
+     */
+    @Deprecated
+    private static final String ACCESSIBILITY_SHORTCUT_ENABLED =
+            "accessibility_shortcut_enabled";
+
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.accessibility_shortcut, null);
 
-        final TwoStatePreference enablePref = findPreference(KEY_ENABLE);
-        final String currentService = getCurrentService(getContext());
+        final TwoStatePreference enablePref = (TwoStatePreference) findPreference(KEY_ENABLE);
         enablePref.setOnPreferenceChangeListener((preference, newValue) -> {
             logToggleInteracted(TvSettingsEnums.SYSTEM_A11Y_SHORTCUT_ON_OFF, (Boolean) newValue);
             setAccessibilityShortcutEnabled((Boolean) newValue);
             return true;
         });
-        String enabledComponents = Settings.Secure.getString(getContext().getContentResolver(),
-                Settings.Secure.ACCESSIBILITY_SHORTCUT_TARGET_SERVICE);
-        mSharedPref = getContext().getSharedPreferences(
-                ACCESSIBILITY_SHORTCUT_STORE, Context.MODE_PRIVATE);
-        boolean shortcutEnabled = !TextUtils.isEmpty(enabledComponents)
-                || TextUtils.isEmpty(getLastShortcutService());
+
+        boolean shortcutEnabled = Settings.Secure.getInt(getContext().getContentResolver(),
+                ACCESSIBILITY_SHORTCUT_ENABLED, 1) == 1;
+
         enablePref.setChecked(shortcutEnabled);
         setAccessibilityShortcutEnabled(shortcutEnabled);
     }
@@ -75,10 +77,6 @@ public class AccessibilityShortcutFragment extends SettingsPreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
-        updateServicePrefSummary();
-    }
-
-    private void updateServicePrefSummary() {
         final Preference servicePref = findPreference(KEY_SERVICE);
         final List<AccessibilityServiceInfo> installedServices = getContext()
                 .getSystemService(AccessibilityManager.class)
@@ -88,27 +86,14 @@ public class AccessibilityShortcutFragment extends SettingsPreferenceFragment {
         for (AccessibilityServiceInfo service : installedServices) {
             final String serviceString = service.getComponentName().flattenToString();
             if (TextUtils.equals(currentService, serviceString)) {
-                if (servicePref != null) {
-                    servicePref.setSummary(service.getResolveInfo().loadLabel(packageManager));
-                }
-                putLastShortcutService(currentService);
+                servicePref.setSummary(service.getResolveInfo().loadLabel(packageManager));
             }
         }
     }
+
     private void setAccessibilityShortcutEnabled(boolean enabled) {
-        if (enabled) {
-            String updatedComponent = getLastShortcutService();
-            if (!TextUtils.isEmpty(updatedComponent)) {
-                Settings.Secure.putString(getContext().getContentResolver(),
-                        Settings.Secure.ACCESSIBILITY_SHORTCUT_TARGET_SERVICE, updatedComponent);
-                updateServicePrefSummary();
-            }
-        } else {
-            Settings.Secure.putString(getContext().getContentResolver(),
-                    Settings.Secure.ACCESSIBILITY_SHORTCUT_TARGET_SERVICE, "");
-            final Preference servicePref = findPreference(KEY_SERVICE);
-            servicePref.setSummary(null);
-        }
+        Settings.Secure.putInt(getContext().getContentResolver(),
+                ACCESSIBILITY_SHORTCUT_ENABLED, enabled ? 1 : 0);
         final Preference servicePref = findPreference(KEY_SERVICE);
         servicePref.setEnabled(enabled);
     }
@@ -128,13 +113,5 @@ public class AccessibilityShortcutFragment extends SettingsPreferenceFragment {
     @Override
     protected int getPageId() {
         return TvSettingsEnums.SYSTEM_A11Y_SHORTCUT;
-    }
-
-    private String getLastShortcutService() {
-        return mSharedPref.getString(LAST_SHORTCUT_SERVICE, "");
-    }
-
-    private void putLastShortcutService(String s) {
-        mSharedPref.edit().putString(LAST_SHORTCUT_SERVICE, s).apply();
     }
 }

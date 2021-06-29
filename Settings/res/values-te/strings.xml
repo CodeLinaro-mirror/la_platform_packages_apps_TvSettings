@@ -99,7 +99,6 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"అన్ని యాప్‌లను చూడండి"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"అనుమతులు"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"సెక్యూరిటీ"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"అప్‌డేట్‌లను మేనేజ్ చేయండి"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"అన్ని యాప్‌లు"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"సిస్టమ్ యాప్‌లను చూపు"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"ఇన్‌స్టాల్ చేయబడిన యాప్‌లు"</string>
@@ -160,18 +159,6 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"యాప్ దానిని రిక్వెస్ట్ చేస్తే, మీ పరికరం దాని అవుట్‌పుట్‌ను మీరు చూస్తున్న కంటెంట్‌కు సంబంధించిన ఒరిజినల్ ఫ్రేమ్ రేట్‌తో మ్యాచ్ చేస్తుంది. వీడియో ప్లేబ్యాక్ నుండి నిష్క్రమించేటప్పుడు లేదా ప్రవేశించేటప్పుడు మీ స్క్రీన్ ఒక సెకను బ్లాంక్ కావచ్చు."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ఎప్పుడూ వద్దు"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"యాప్ దానిని రిక్వెస్ట్ చేసినప్పటికీ, మీ పరికరం దాని అవుట్‌పుట్‌ను మీరు చూస్తున్న కంటెంట్‌కు సంబంధించిన ఒరిజినల్ ఫ్రేమ్ రేట్‌తో మ్యాచ్ చేయడానికి ట్రై చేయదు."</string>
-    <!-- no translation found for font_scale_settings_title (4114019544800225980) -->
-    <skip />
-    <!-- no translation found for font_scale_item_detail (1558315053348778805) -->
-    <skip />
-    <!-- no translation found for font_scale_sample_text_title (5239266611413037261) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_title (8056182208511371119) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_subtitle (677394182922188048) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_body (2040384234251207410) -->
-    <skip />
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ఫార్మాట్ ఎంపిక"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ఆటోమేటిక్"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"మాన్యువల్"</string>
@@ -341,7 +328,6 @@
       <item quantity="other">ఫోన్ యాప్‌లు</item>
       <item quantity="one">ఫోన్ యాప్</item>
     </plurals>
-    <string name="default_browser_title" msgid="3612813200586492159">"బ్రౌజర్ యాప్"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"ట్యుటోరియల్‌లు"</string>
@@ -493,7 +479,7 @@
     <string name="wifi_action_proxy_none" msgid="4009573120495700922">"ఏదీ వద్దు"</string>
     <string name="wifi_action_proxy_manual" msgid="7667686394955896293">"మాన్యువల్"</string>
     <string name="wifi_action_dhcp" msgid="6172127495589802964">"DHCP"</string>
-    <string name="wifi_action_static" msgid="8139559358727790887">"స్టాటిక్"</string>
+    <string name="wifi_action_static" msgid="8139559358727790887">"స్థిరం"</string>
     <string name="wifi_action_status_info" msgid="3947061894001350963">"స్థితి సమాచారం"</string>
     <string name="wifi_action_advanced_options_title" msgid="2863126553877147921">"అధునాతన ఎంపికలు"</string>
     <string name="wifi_ip_settings_invalid_ip_address" msgid="4051342269154914595">"చెల్లుబాటు అయ్యే IP చిరునామాను నమోదు చేయండి"</string>
@@ -585,7 +571,7 @@
     <string name="storage_wizard_eject_progress_title" msgid="6025569356827683446">"<xliff:g id="NAME">%1$s</xliff:g>ని తొలగిస్తోంది…"</string>
     <string name="storage_wizard_move_app_title" msgid="6504922588346440942">"వినియోగించిన నిల్వ"</string>
     <string name="storage_wizard_move_app_progress_title" msgid="7058465372227392453">"<xliff:g id="NAME">%1$s</xliff:g>ని తరలిస్తోంది…"</string>
-    <string name="storage_wizard_move_app_progress_description" msgid="7673347796805764888">"తరలించే సమయంలో డ్రైవ్‌ని తీసివేయవద్దు.\nతరలించడం పూర్తయ్యే వరకు ఈ పరికరంలోని <xliff:g id="APPNAME">%1$s</xliff:g> యాప్‌ అందుబాటులో ఉండదు."</string>
+    <string name="storage_wizard_move_app_progress_description" msgid="7673347796805764888">"తరలించే సమయంలో డ్రైవ్‌ని తీసివేయవద్దు.\nతరలించడం పూర్తయ్యే వరకు ఈ పరికరంలోని <xliff:g id="APPNAME">%1$s</xliff:g> అనువర్తనం అందుబాటులో ఉండదు."</string>
     <string name="storage_wizard_forget_confirm_title" msgid="3709482471888830896">"పరికర నిల్వను విస్మరించాలా?"</string>
     <string name="storage_wizard_forget_confirm_description" msgid="5896860042525566767">"\'విస్మరించు\' ఎంచుకుంటే ఈ డ్రైవ్‌లో నిల్వ చేసిన మీ మొత్తం డేటాను శాశ్వతంగా కోల్పోతారు. మీరు కొనసాగించాలనుకుంటున్నారా?"</string>
     <string name="storage_wizard_forget_action" msgid="5609631662522950596">"విస్మరించు"</string>
@@ -597,7 +583,7 @@
     <string name="storage_missing_title" msgid="9068915586235805818">"<xliff:g id="NAME">%1$s</xliff:g> తీసివేయబడింది"</string>
     <string name="storage_missing_description" msgid="6835620703133204249">"డ్రైవ్‌ను మళ్లీ కనెక్ట్ చేసే వరకు కొన్ని యాప్‌లు అందుబాటులో ఉండవు లేదా సరిగ్గా పని చేయవు."</string>
     <string name="insufficient_storage" msgid="4175940286022466535">"తగినంత నిల్వ స్థలం లేదు."</string>
-    <string name="does_not_exist" msgid="4071082040759146781">"యాప్‌ ఉనికిలో లేదు."</string>
+    <string name="does_not_exist" msgid="4071082040759146781">"అనువర్తనం ఉనికిలో లేదు."</string>
     <string name="invalid_location" msgid="5571789982293787489">"ఇన్‌స్టాల్ స్థానం చెల్లదు."</string>
     <string name="system_package" msgid="8276098460517049146">"సిస్టమ్ నవీకరణలను బాహ్య మీడియాలో ఇన్‌స్టాల్ చేయడం సాధ్యపడదు."</string>
     <string name="move_error_device_admin" msgid="4144472536756635173">"పరికర నిర్వాహకుడిని బాహ్య మీడియాలో ఇన్‌స్టాల్ చేయలేరు."</string>
@@ -620,22 +606,6 @@
     <item msgid="5645263357181875427">"రవాణా ప్రసారం అందించిన సమయాన్ని ఉపయోగించు"</item>
     <item msgid="5501503537181350884">"ఆఫ్ చేయి"</item>
   </string-array>
-    <string name="sensor_toggle_description" msgid="7415801459994303159">"అన్ని యాప్‌లు, సర్వీస్‌ల కోసం"</string>
-    <string name="recently_accessed_by_category" msgid="6841705864715653428">"ఇటీవల దాని ద్వారా యాక్సెస్ చేయబడింది"</string>
-    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"ఇటీవలి యాక్సెస్‌లు చేయలేదు"</string>
-    <string name="recently_accessed_show_all" msgid="5234849189704717855">"అన్నీ చూడండి"</string>
-    <string name="microphone" msgid="7893752847683941214">"మైక్రోఫోన్"</string>
-    <string name="mic_toggle_title" msgid="7193417007060235665">"మైక్రోఫోన్ యాక్సెస్"</string>
-    <string name="open_mic_permissions" msgid="8121871594807641073">"మైక్రోఫోన్‌కు యాప్ యాక్సెస్"</string>
-    <string name="camera" msgid="1226671478936288283">"కెమెరా"</string>
-    <string name="camera_toggle_title" msgid="5566469574224956142">"కెమెరా యాక్సెస్"</string>
-    <string name="open_camera_permissions" msgid="301360297337141591">"కెమెరాకు యాప్ యాక్సెస్"</string>
-    <string name="mic_toggle_info_title" msgid="1086545614315873599">"మైక్రోఫోన్ యాక్సెస్: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"ఆన్ చేసినప్పుడు, అన్ని యాప్‌లు, సర్వీస్‌లు అనుమతితో ఈ పరికరంలోని ఏదైనా మైక్రోఫోన్‌ను యాక్సెస్ చేయగలవు.\n\nఅనుకూల ప్రోటోకాల్‌తో ఆడియో పెరిఫెరల్‌లు ఈ సెట్టింగ్ ద్వారా ప్రభావితం కావు."</string>
-    <string name="camera_toggle_info_title" msgid="3871317082313736088">"కెమెరా యాక్సెస్: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="2999965953853204003">"ఆన్ చేసినప్పుడు, అన్ని యాప్‌లు, సర్వీస్‌ల అనుమతితో ఈ పరికరంలోని ఏదైనా కెమెరాను యాక్సెస్ చేయగలవు.\n\nఅనుకూల ప్రోటోకాల్‌తో కెమెరా పెరిఫెరల్‌లు ఈ సెట్టింగ్ ద్వారా ప్రభావితం కావు."</string>
-    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ఆన్"</string>
-    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"ఆఫ్"</string>
     <string name="system_location" msgid="4057295363709016511">"లొకేషన్"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"మీ స్థాన సమాచారాన్ని ఉపయోగించడానికి మీ అనుమతిని అడిగిన అనువర్తనాలను అనుమతించండి"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"స్థాన సమ్మతి"</string>
@@ -739,7 +709,7 @@
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Wi-Fi వెర్బోస్ లాగింగ్"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Wi‑Fi వెర్బోస్ లాగింగ్‌ను ప్రారంభించండి"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"స్పర్శ ప్రదేశాలను చూపు"</string>
-    <string name="system_pointer_location" msgid="8724050865245555084">"పాయింటర్ లొకేషన్"</string>
+    <string name="system_pointer_location" msgid="8724050865245555084">"పాయింటర్ స్థానం"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"లేఅవుట్ హద్దులను చూపు"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU వీక్షణ నవీకరణలను చూపు"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"హార్డ్‌వేర్ లేయర్‌ని చూపండి"</string>
@@ -759,7 +729,7 @@
     <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"డిస్‌ప్లేని గరిష్ట రిజల్యూషన్‌కి లేదా ఫ్రేమ్‌రేట్‌కి అనుకూలపరచండి. ఇది కేవలం అల్ట్రా HD డిస్‌ప్లే‌లను మాత్రమే ప్రభావితం చేస్తుంది. ఈ సెట్టింగ్‌ను మార్చడం వలన మీ పరికరం పునఃప్రారంభమవుతుంది."</string>
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"బ్లూటూత్ HCI స్నూప్ లాగింగ్‌ను ప్రారంభించు"</string>
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB కనెక్ట్ అయినప్పుడు డీబగ్ మోడ్"</string>
-    <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"డీబగ్ చేయబడిన యాప్‌ అమలు కావడానికి ముందు జోడించాల్సిన డీబగ్గర్ కోసం నిరీక్షిస్తుంది"</string>
+    <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"డీబగ్ చేయబడిన అనువర్తనం అమలు కావడానికి ముందు జోడించాల్సిన డీబగ్గర్ కోసం నిరీక్షిస్తుంది"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"క్లిప్ సరిహద్దులు, అంచులు మొ. చూపండి"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPUతో గీసినప్పుడు విండోల లోపల వీక్షణలను ఫ్లాష్ చేయండి"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"హార్డ్‌వేర్ లేయర్‌లు నవీకరించబడినప్పుడు వాటిని ఆకుపచ్చ రంగులో ఫ్లాష్ చేసి చూపండి"</string>
@@ -857,7 +827,7 @@
     <string name="user_new_profile_name" msgid="6637593067318708353">"నియంత్రిత ప్రొఫైల్"</string>
     <string name="user_restrictions_controlled_by" msgid="8124926446168030445">"<xliff:g id="APP">%1$s</xliff:g> ద్వారా నియంత్రించబడింది"</string>
     <string name="app_not_supported_in_limited" msgid="4046604594925826955">"నియంత్రిత ప్రొఫైల్‌ల్లో ఈ అనువర్తనానికి మద్దతు లేదు"</string>
-    <string name="app_sees_restricted_accounts" msgid="174038126799649152">"ఈ యాప్‌ మీ ఖాతాలను ప్రాప్యత చేయగలదు"</string>
+    <string name="app_sees_restricted_accounts" msgid="174038126799649152">"ఈ అనువర్తనం మీ ఖాతాలను ప్రాప్యత చేయగలదు"</string>
     <string name="restriction_location_enable_title" msgid="2552780806199464266">"లొకేషన్"</string>
     <string name="restriction_location_enable_summary" msgid="3719330231217994482">"మీ స్థాన సమాచారాన్ని ఉపయోగించడానికి అనువర్తనాలను అనుమతించండి"</string>
     <string name="restricted_profile_switch_to" msgid="6193201935877168764">"నియంత్రిత ప్రొఫైల్‌లోకి ప్రవేశించు"</string>
@@ -868,7 +838,7 @@
     <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"అనుమతించిన యాప్‌లు"</string>
     <plurals name="restricted_profile_configure_apps_description" formatted="false" msgid="7923692208224457728">
       <item quantity="other">%d యాప్‌లు అనుమతించబడ్డాయి</item>
-      <item quantity="one">1 యాప్‌ అనుమతించబడింది</item>
+      <item quantity="one">1 అనువర్తనం అనుమతించబడింది</item>
     </plurals>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"అనుమతించబడింది"</string>
     <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"అనుమతించబడలేదు"</string>
@@ -876,7 +846,7 @@
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"ఒక క్షణం…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"పిన్‌ను మార్చండి"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
-    <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"ఈ యాప్‌ మీ ఖాతాలను ప్రాప్యత చేయగలదు. <xliff:g id="APP">%1$s</xliff:g> నియంత్రణలో ఉంటుంది"</string>
+    <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"ఈ అనువర్తనం మీ ఖాతాలను ప్రాప్యత చేయగలదు. <xliff:g id="APP">%1$s</xliff:g> నియంత్రణలో ఉంటుంది"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"ఈ ఛానెల్‌ను చూడటానికి పిన్‌ని నమోదు చేయండి"</string>
     <string name="pin_enter_unlock_program" msgid="275489015420025531">"ఈ ప్రోగ్రామ్‌ను చూడటానికి పిన్‌ని నమోదు చేయండి"</string>
     <string name="pin_enter_pin" msgid="5020029261153234751">"పిన్‌ని నమోదు చేయండి"</string>
@@ -905,7 +875,7 @@
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"వినియోగించిన నిల్వ"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"<xliff:g id="VOLUME">%2$s</xliff:g>లో <xliff:g id="SIZE">%1$s</xliff:g> ఉపయోగించబడింది"</string>
     <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"డేటాను తీసివేయి"</string>
-    <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"ఈ యాప్‌ డేటా మొత్తం శాశ్వతంగా తొలగించబడుతుంది.\nఇందులోని అన్ని ఫైల్‌లు, సెట్టింగ్‌లు, ఖాతాలు, డేటాబేస్‌లు మొదలైనవి"</string>
+    <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"ఈ అనువర్తనం డేటా మొత్తం శాశ్వతంగా తొలగించబడుతుంది.\nఇందులోని అన్ని ఫైల్‌లు, సెట్టింగ్‌లు, ఖాతాలు, డేటాబేస్‌లు మొదలైనవి"</string>
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"డిఫాల్ట్‌లను తీసివేయి"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"కొన్ని చర్యలకు ఈ అనువ. ప్రారం. సెట్ చేయ."</string>
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"డిఫాల్ట్‌లు ఏవీ సెట్ చేయలేదు"</string>
@@ -913,7 +883,7 @@
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"నోటిఫికేషన్‌లు"</string>
     <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"ఓపెన్ సోర్స్ లైసెన్స్‌లు"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"అనుమతులు"</string>
-    <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"యాప్‌ అందుబాటులో లేదు"</string>
+    <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"అనువర్తనం అందుబాటులో లేదు"</string>
     <string name="settings_ok" msgid="5950888975075541964">"సరే"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"నిర్ధారించండి"</string>
     <string name="settings_cancel" msgid="576094334743686152">"రద్దు చేయి"</string>
@@ -1031,9 +1001,9 @@
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ కార్యకలాపం మరియు డివైజ్ యొక్క స్థాన సమాచారంతో పాటు మీ కార్యాలయ ప్రొఫైల్‌కి అనుబంధితంగా ఉన్న యాప్‌లు మరియు డేటాని మీ నిర్వాహకులు పర్యవేక్షించగలరు మరియు నిర్వహించగలరు ."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ కార్యకలాపం మరియు డివైజ్ యొక్క స్థాన సమాచారంతో పాటు ఈ వినియోగదారుకి అనుబంధితంగా ఉన్న యాప్‌లు  మరియు డేటాని మీ నిర్వాహకులు పర్యవేక్షించగలరు మరియు నిర్వహించగలరు."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ కార్యకలాపం మరియు డివైజ్  యొక్క స్థాన సమాచారంతో పాటు ఈ డివైజ్‌కు అనుబంధితంగా ఉన్న యాప్‌లు మరియు డేటాని మీ నిర్వాహకులు పర్యవేక్షించగలరు మరియు నిర్వహించగలరు."</string>
-    <string name="remove_managed_profile_label" msgid="8950011141359605612">"ఆఫీస్ ప్రొఫైల్‌ను తీసివేయండి"</string>
+    <string name="remove_managed_profile_label" msgid="8950011141359605612">"కార్యాలయ ప్రొఫైల్‌ను తీసివేయి"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"డివైజ్ నిర్వాహకుల యాప్"</string>
-    <string name="remove_device_admin" msgid="2623866073546295104">"ఈ పరికర అడ్మిన్ యాప్‌ను డీయాక్టివేట్ చేయి"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"ఈ పరికర నిర్వాహకుల యాప్‌ను డీయాక్టివేట్ చేయి"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"యాప్‌ను అన్‌ఇన్‌స్టాల్ చేయి"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"నిష్క్రియం చేసి, అన్ఇన్‌స్టాల్ చేయి"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"పరికర నిర్వాహకుల యాప్‌లు"</string>
@@ -1041,7 +1011,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"ఈ పరికరం నిర్వాహకుల యాప్‌ను యాక్టివేట్‌ చేయి"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"ఈ \'నిర్వాహకుల యాప్‌\'ను యాక్టివేట్‌ చేస్తే, కింది చర్యలను చేయడానికి <xliff:g id="APP_NAME">%1$s</xliff:g> యాప్ అనుమతించబడుతుంది:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"ఈ పరికరం <xliff:g id="APP_NAME">%1$s</xliff:g> ద్వారా నిర్వహించబడుతుంది, పర్యవేక్షించబడుతుంది."</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"ఈ అడ్మిన్ యాప్ యాక్టివ్‌గా ఉంది. కింది చర్యలు చేయడానికి <xliff:g id="APP_NAME">%1$s</xliff:g> యాప్‌ను అనుమతిస్తుంది:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"ఈ నిర్వాహకుల యాప్ యాక్టివ్‌గా ఉంది. కింది చర్యలు చేయడానికి <xliff:g id="APP_NAME">%1$s</xliff:g> యాప్‌ను అనుమతిస్తుంది:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"కొనసాగిస్తే, మీ వినియోగదారును మీ నిర్వాహకులు నిర్వహించగలరు, దాని వలన మీ వ్యక్తిగత డేటాతో పాటు అనుబంధితంగా ఉన్న డేటా కూడా నిల్వ చేయబడవచ్చు.\n\nమీ నిర్వాహకులు నెట్‌వర్క్ కార్యకలాపం మరియు మీ డివైజ్ యొక్క స్థాన సమాచారంతో పాటు ఈ వినియోగదారుకు అనుబంధితంగా ఉన్న సెట్టింగ్‌లు, యాక్సెస్, యాప్‌లు మరియు డేటాని పర్యవేక్షించగలరు మరియు నిర్వహించగలరు."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"బగ్ నివేదికను భాగస్వామ్యం చేయాలా?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"మీ ఐటి నిర్వాహకులు ఈ పరికరం సమస్యకు పరిష్కారాన్ని కనుగొనడంలో సహాయం కోసం బగ్ నివేదికను అభ్యర్థించారు. యాప్‌లు మరియు డేటా భాగస్వామ్యం చేయబడవచ్చు."</string>

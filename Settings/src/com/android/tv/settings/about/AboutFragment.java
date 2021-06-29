@@ -36,7 +36,6 @@ import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.os.UserManager;
-import android.provider.Settings;
 import android.sysprop.TelephonyProperties;
 import android.telephony.CarrierConfigManager;
 import android.text.TextUtils;
@@ -50,7 +49,6 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settingslib.DeviceInfoUtils;
-import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.settingslib.Utils;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
@@ -226,14 +224,8 @@ public class AboutFragment extends SettingsPreferenceFragment {
         }
 
         if (mUm.isAdminUser()) {
-            final Intent systemUpdateIntent = new Intent(Settings.ACTION_SYSTEM_UPDATE_SETTINGS);
-            final ResolveInfo info =
-                    MainFragment.systemIntentIsHandled(getContext(), systemUpdateIntent);
-            if (info == null) {
-                removePreference(updateSettingsPref);
-            } else {
-                updateSettingsPref.setTitle(info.loadLabel(getContext().getPackageManager()));
-            }
+            PreferenceUtils.resolveSystemActivityOrRemove(getActivity(), screen,
+                    updateSettingsPref, PreferenceUtils.FLAG_SET_TITLE);
         } else if (updateSettingsPref != null) {
             // Remove for secondary users
             removePreference(updateSettingsPref);
@@ -299,14 +291,6 @@ public class AboutFragment extends SettingsPreferenceFragment {
                 mHits[mHits.length - 1] = SystemClock.uptimeMillis();
                 if (mHits[0] >= (SystemClock.uptimeMillis() - 500)) {
                     if (mUm.hasUserRestriction(UserManager.DISALLOW_FUN)) {
-                        final RestrictedLockUtils.EnforcedAdmin admin = RestrictedLockUtilsInternal
-                                .checkIfRestrictionEnforced(getContext(), UserManager.DISALLOW_FUN,
-                                        UserHandle.myUserId());
-                        if (admin != null) {
-                            RestrictedLockUtils.sendShowAdminSupportDetailsIntent(getContext(),
-                                    admin);
-                        }
-
                         Log.d(TAG, "Sorry, no fun for you!");
                         return false;
                     }
@@ -329,12 +313,6 @@ public class AboutFragment extends SettingsPreferenceFragment {
                 }
 
                 if (mUm.hasUserRestriction(UserManager.DISALLOW_DEBUGGING_FEATURES)) {
-                    final RestrictedLockUtils.EnforcedAdmin admin = RestrictedLockUtilsInternal
-                            .checkIfRestrictionEnforced(getContext(),
-                                    UserManager.DISALLOW_DEBUGGING_FEATURES, UserHandle.myUserId());
-                    if (admin != null) {
-                        RestrictedLockUtils.sendShowAdminSupportDetailsIntent(getContext(), admin);
-                    }
                     return true;
                 }
 
@@ -386,7 +364,9 @@ public class AboutFragment extends SettingsPreferenceFragment {
                         b.getBoolean(CarrierConfigManager.KEY_CI_ACTION_ON_SYS_UPDATE_BOOL)) {
                     ciActionOnSysUpdate(b);
                 }
-                startActivity(new Intent(Settings.ACTION_SYSTEM_UPDATE_SETTINGS));
+                Intent systemUpdateIntent = new Intent();
+                systemUpdateIntent.setAction("android.settings.SYSTEM_UPDATE_SETTINGS");
+                startActivity(systemUpdateIntent);
                 break;
             case KEY_DEVICE_NAME:
                 logEntrySelected(TvSettingsEnums.SYSTEM_ABOUT_DEVICE_NAME);
