@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನೋಡಿ"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"ಅನುಮತಿಗಳು"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"ಭದ್ರತೆ"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"ಸಿಸ್ಟಂ ಅಪ್ಲಿಕೇಶನ್‌‌ಗಳನ್ನು ತೋರಿಸಿ"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"ಸ್ಥಾಪಿಸಲಾದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"</string>
@@ -159,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ಆ್ಯಪ್ ಅದನ್ನು ವಿನಂತಿಸಿದರೆ, ನಿಮ್ಮ ಸಾಧನವು ಅದರ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೀವು ವೀಕ್ಷಿಸುತ್ತಿರುವ ವಿಷಯದ ಮೂಲ ಫ್ರೇಮ್ ರೇಟ್‌ಗೆ ಹೊಂದಿಸುತ್ತದೆ. ವೀಡಿಯೊ ಪ್ಲೇಬ್ಯಾಕ್‌ನಿಂದ ನಿರ್ಗಮಿಸುವಾಗ ಅಥವಾ ಪ್ರವೇಶಿಸುವಾಗ ಇದು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಒಂದು ಸೆಕೆಂಡ್‌ಗೆ ನಿಷ್ಕ್ರಿಯವಾಗಲು ಕಾರಣವಾಗಬಹುದು."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ಎಂದಿಗೂ ಇಲ್ಲ"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ಆ್ಯಪ್ ಅದನ್ನು ವಿನಂತಿಸಿದರೂ ಸಹ, ನಿಮ್ಮ ಸಾಧನವು ಅದರ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೀವು ವೀಕ್ಷಿಸುತ್ತಿರುವ ವಿಷಯದ ಮೂಲ ಫ್ರೇಮ್ ರೇಟ್‌ಗೆ ಹೊಂದಿಸಲು ಎಂದಿಗೂ ಪ್ರಯತ್ನಿಸುವುದಿಲ್ಲ."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"ಪಠ್ಯ ಸ್ಕೇಲಿಂಗ್"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"<xliff:g id="SCALE">%1$d</xliff:g>%% ಗೆ ಸ್ಕೇಲ್ ಮಾಡಿ"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"ಮಾದರಿ ಪಠ್ಯ"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ಓಜ್‌ನ ಅದ್ಭುತ ಮಾಂತ್ರಿಕ"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"ಅಧ್ಯಾಯ 11: ಓಜ್‌ನ ಅದ್ಭುತ ಪಚ್ಚೆ ನಗರ"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"ಡೋರೊಥಿ ಮತ್ತು ಅವಳ ಸ್ನೇಹಿತರು ತಮ್ಮ ಕಣ್ಣುಗಳ ರಕ್ಷಣೆಗಾಗಿ ಹಸಿರು ಕನ್ನಡಕಗಳನ್ನು ತೊಟ್ಟಿದ್ದರೂ ಸಹ ಆ ಅದ್ಭುತ ನಗರದ ವೈಭವ ಮೊದಲ ನೋಟದಲ್ಲೇ ಅವರ ಕಣ್ಣುಗಳನ್ನು ಕೋರೈಸಿತು. ಬೀದಿಗಳ ಇಕ್ಕೆಲಗಳಲ್ಲಿ ಹಸಿರು ಅಮೃತಶಿಲೆಗಳಿಂದ ಕಟ್ಟಲಾಗಿದ್ದ, ಮತ್ತು ಹೊಳೆಯುವ ಪಚ್ಚೆಗಳಿಂದ ಅಲಂಕರಿಸಲಾಗಿದ್ದ ಸುಂದರ ಮನೆಗಳಿದ್ದವು. ಅವರು ಅದೇ ಹಸಿರು ಅಮೃತಶಿಲೆಯ ಕಾಲುದಾರಿಯ ಮೇಲೆ ನಡೆದು ಸಾಗಿದರು, ಅಲ್ಲಿ ರಸ್ತೆಗಳು ಕೂಡುವ ಜಾಗದಲ್ಲಿ ಒತ್ತೊತ್ತಾಗಿ ಜೋಡಿಸಿದ್ದ ಪಚ್ಚೆಗಳ ಸಾಲುಗಳಿದ್ದವು ಮತ್ತು ಅವು ಸೂರ್ಯನ ಬೆಳಕಿಗೆ ಫಳಫಳ ಹೊಳೆಯುತ್ತಿದ್ದವು. ಕಿಟಕಿಯ ಫಲಕಗಳನ್ನು ಹಸಿರು ಗಾಜಿನಿಂದ ನಿರ್ಮಿಸಲಾಗಿತ್ತು; ನಗರದ ಮೇಲಿನ ಆಕಾಶದಲ್ಲಿಯೂ ಹಸಿರು ಬಣ್ಣದ ಛಾಯೆಯಿತ್ತು, ಮತ್ತು ಸೂರ್ಯನ ಕಿರಣಗಳೂ ಹಸಿರಾಗಿದ್ದವು. \n\nಅಲ್ಲಿ ಹಲವಾರು ಜನ ಗಂಡಸರು, ಹೆಂಗಸರು ಮತ್ತು ಮಕ್ಕಳು ಓಡಾಡುತ್ತಿದ್ದರು ಮತ್ತು ಅವರೆಲ್ಲರೂ ಹಸಿರು ಬಟ್ಟೆಗಳನ್ನು ತೊಟ್ಟಿದ್ದರು ಹಾಗೂ ಅವರ ಚರ್ಮವೂ ಹಸಿರಾಗಿತ್ತು. ಅವರು ಡೋರೊಥಿ ಹಾಗೂ ಅವಳ ಚಿತ್ರವಿಚಿತ್ರ ಜೊತೆಗಾರರನ್ನು ಆಶ್ಚರ್ಯಚಕಿತರಾಗಿ ನೋಡಿದರು ಮತ್ತು ಸಿಂಹವನ್ನು ಕಂಡ ಮಕ್ಕಳೆಲ್ಲ ಓಡಿಹೋಗಿ ತಮ್ಮ ತಮ್ಮ ತಾಯಂದಿರ ಹಿಂದೆ ಅಡಗಿಕೊಂಡರು; ಆದರೆ ಯಾರೂ ಇವರ ಜೊತೆ ಮಾತನಾಡಲಿಲ್ಲ. ಬೀದಿ ಬದಿಯಲ್ಲಿ ಅನೇಕ ಅಂಗಡಿಗಳಿದ್ದವು ಮತ್ತು ಅವುಗಳಲ್ಲಿದ್ದ ಎಲ್ಲಾ ವಸ್ತುಗಳು ಹಸಿರು ಬಣ್ಣದಲ್ಲಿದ್ದದ್ದು ಡೋರೊಥಿಗೆ ಕಾಣಿಸಿತು. ಹಸಿರು ಕ್ಯಾಂಡಿ ಮತ್ತು ಹಸಿರು ಪಾಪ್‌ ಕಾರ್ನ್ ಮಾರಾಟಕ್ಕಿದ್ದವು, ಜೊತೆಗೆ ಹಸಿರು ಶೂಗಳು, ಹಸಿರು ಟೋಪಿಗಳು ಮತ್ತು ವಿವಿಧ ಬಗೆಯ ಹಸಿರು ಬಟ್ಟೆಗಳಿದ್ದವು. ಒಂದು ಕಡೆ ವ್ಯಕ್ತಿಯೊಬ್ಬ ಹಸಿರು ಬಣ್ಣದ ನಿಂಬೆ ಪಾನಕ ಮಾರುತ್ತಿದ್ದ ಮತ್ತು ಅದನ್ನು ಖರೀದಿಸಿದ ಮಕ್ಕಳು ಅವನಿಗೆ ಹಸಿರು ಪೆನ್ನೀಗಳನ್ನು ಪಾವತಿಸಿದ್ದನ್ನು ಡೋರೊಥಿ ನೋಡಿದಳು. \n\n ಅಲ್ಲಿ ಕುದುರೆಗಳು ಅಥವಾ ಯಾವುದೇ ರೀತಿಯ ಪ್ರಾಣಿಗಳು ಇದ್ದಂತೆ ಕಾಣಲಿಲ್ಲ; ಅಲ್ಲಿನ ಗಂಡಸರು ಹಸಿರು ಬಣ್ಣದ ಸಣ್ಣ ಬಂಡಿಗಳಲ್ಲಿ ಸರಕುಗಳನ್ನು ಅತ್ತಿಂದಿತ್ತ ಕೊಂಡೊಯ್ಯುತ್ತಿದ್ದರು, ಅವರು ಆ ಬಂಡಿಗಳನ್ನು ತಳ್ಳಿಕೊಂಡೇ ಸಾಗಿಸುತ್ತಿದ್ದರು. ಪ್ರತಿಯೊಬ್ಬರೂ ಸಂತೋಷವಾಗಿರುವಂತೆ, ತೃಪ್ತರಾಗಿರುವಂತೆ ಹಾಗೂ ಸಮೃದ್ಧರಾಗಿರುವಂತೆ ತೋರುತ್ತಿತ್ತು."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ಫಾರ್ಮ್ಯಾಟ್ ಆಯ್ಕೆ"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ಸ್ವಯಂಚಾಲಿತ"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ಹಸ್ತಚಾಲಿತ"</string>
@@ -328,6 +335,7 @@
       <item quantity="one">ಫೋನ್ ಆ್ಯಪ್‌ಗಳು</item>
       <item quantity="other">ಫೋನ್ ಆ್ಯಪ್‌ಗಳು</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"ಬ್ರೌಸರ್ ಆ್ಯಪ್"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"ಟ್ಯುಟೋರಿಯಲ್‌ಗಳು"</string>
@@ -606,6 +614,22 @@
     <item msgid="5645263357181875427">"ಸಾರಿಗೆ ಸ್ಟ್ರೀಮ್ ಒದಗಿಸಿದ ಸಮಯ ಬಳಸಿ"</item>
     <item msgid="5501503537181350884">"ಆಫ್"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"ಎಲ್ಲಾ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಸೇವೆಗಳಿಗಾಗಿ"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"ಇತ್ತೀಚೆಗೆ ಈ ಸಾಧನ ಪ್ರವೇಶಿಸಿದೆ"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"ಇತ್ತೀಚಿನ ಯಾವುದೇ ಪ್ರವೇಶಗಳಿಲ್ಲ"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"ಎಲ್ಲವನ್ನೂ ನೋಡಿ"</string>
+    <string name="microphone" msgid="7893752847683941214">"ಮೈಕ್ರೊಫೋನ್"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"ಮೈಕ್ರೊಫೋನ್ ಪ್ರವೇಶದ ಅನುಮತಿ"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"ಮೈಕ್ರೊಫೋನ್‌ಗೆ ಆ್ಯಪ್‌ನ ಪ್ರವೇಶ"</string>
+    <string name="camera" msgid="1226671478936288283">"ಕ್ಯಾಮರಾ"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"ಕ್ಯಾಮರಾ ಪ್ರವೇಶದ ಅನುಮತಿ"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"ಕ್ಯಾಮರಾ‌ಗೆ ಆ್ಯಪ್‌ನ ಪ್ರವೇಶ"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"ಮೈಕ್ರೊಫೋನ್‌ ಪ್ರವೇಶದ ಅನುಮತಿ: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"ಆನ್ ಮಾಡಿದಾಗ, ಅನುಮತಿ ಹೊಂದಿರುವ ಎಲ್ಲಾ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಸೇವೆಗಳು ಈ ಸಾಧನದಲ್ಲಿನ ಯಾವುದೇ ಮೈಕ್ರೊಫೋನ್ ಅನ್ನು ಪ್ರವೇಶಿಸಬಹುದು.\n\nಈ ಸೆಟ್ಟಿಂಗ್ ಕಸ್ಟಮ್ ಪ್ರೊಟೊಕಾಲ್ ಹೊಂದಿರುವ ಆಡಿಯೋ ಬಾಹ್ಯೋಪಕರಣಗಳ ಮೇಲೆ ಯಾವುದೇ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"ಕ್ಯಾಮರಾ ಪ್ರವೇಶದ ಅನುಮತಿ: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"ಆನ್ ಮಾಡಿದಾಗ, ಅನುಮತಿ ಹೊಂದಿರುವ ಎಲ್ಲಾ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಸೇವೆಗಳು ಈ ಸಾಧನದಲ್ಲಿನ ಯಾವುದೇ ಕ್ಯಾಮರಾವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು.\n\nಈ ಸೆಟ್ಟಿಂಗ್ ಕಸ್ಟಮ್ ಪ್ರೊಟೊಕಾಲ್ ಹೊಂದಿರುವ ಕ್ಯಾಮರಾ ಬಾಹ್ಯೋಪಕರಣಗಳ ಮೇಲೆ ಯಾವುದೇ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ಆನ್ ಆಗಿದೆ"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"ಆಫ್ ಆಗಿದೆ"</string>
     <string name="system_location" msgid="4057295363709016511">"ಸ್ಥಳ"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"ನಿಮ್ಮ ಅನುಮತಿಯನ್ನು ಕೇಳುವ ಅಪ್ಲಿಕೇಶನ್‌‌ಗೆ ನಿಮ್ಮ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಬಳಸಲು ಅನುಮತಿಸಿ"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"ಸ್ಥಾನದ ಸಮ್ಮತಿ"</string>
@@ -690,7 +714,7 @@
     <string name="system_drawing" msgid="5802739024643871942">"ಚಿತ್ರಣ"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"ಪರಿವೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ"</string>
     <string name="system_apps" msgid="8481888654606868074">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"</string>
-    <string name="system_stay_awake" msgid="5935117574414511413">"ಎಚ್ಚರವಾಗಿರು"</string>
+    <string name="system_stay_awake" msgid="5935117574414511413">"ಎಚ್ಚರವಾಗಿರುವಿಕೆ"</string>
     <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP ಪರೀಕ್ಷಿಸುವಿಕೆ"</string>
     <string name="system_hdmi_optimization" msgid="4122753440620724144">"HDMI ಆಪ್ಟಿಮೈಸೇಶನ್"</string>
     <string name="system_reboot_confirm" msgid="7035370306447878560">"ಈಗ ಮರುಪ್ರಾರಂಭಿಸುವುದೇ?"</string>
@@ -731,7 +755,7 @@
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB ಸಂಪರ್ಕಗೊಂಡಾಗ ಡೀಬಗ್ ಮೋಡ್"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"ಲಗತ್ತನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸುವ ಮೊದಲು ಡೀಬಗರ್‌‌ಗಾಗಿ ಡೀಬಗ್‌‌‌ ಮಾಡಿದ ಅಪ್ಲಿಕೇಶನ್‌‌ ಕಾಯುತ್ತದೆ"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"ಕ್ಲಿಪ್‌ನ ಗಡಿಗಳು, ಅಂಚುಗಳು, ಇತ್ಯಾದಿ ತೋರಿಸು."</string>
-    <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPU ಡ್ರಾ ಮಾಡಿದಾಗ ವಿಂಡೊದಲ್ಲಿ ವೀಕ್ಷಣೆ ಫ್ಲ್ಯಾಶ್‌"</string>
+    <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPU ಸಹಾಯದಿಂದ ಬರೆದಾಗ ವಿಂಡೊದೊಳಗೆ ವೀಕ್ಷಣೆ ಫ್ಲ್ಯಾಶ್‌ ಮಾಡುತ್ತದೆ"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ಅವುಗಳು ನವೀಕರಿಸಿದಾಗ ಹಾರ್ಡ್‌ವೇರ್‌‌ ಲೇಯರ್‌ಗಳು ಹಸಿರು ಫ್ಲ್ಯಾಶ್‌‌ ಆಗುತ್ತದೆ"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"ಉತ್ತಮದಿಂದ ಹಿಡಿದು ಕಳಪೆಯವರೆಗೆ: ನೀಲಿ, ಹಸಿರು, ತಿಳಿಗೆಂಪು, ಕೆಂಪು"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ಅವುಗಳು ನವೀಕರಣವಾಗುವಾಗ ವಿಂಡೋದ ಸಂಪೂರ್ಣ ಮೇಲ್ಮೈ ಫ್ಲ್ಯಾಶ್ ಮಾಡಿ"</string>
@@ -1007,8 +1031,8 @@
     <string name="uninstall_device_admin" msgid="6301368408620948266">"ಅಪ್ಲಿಕೇಶನ್ ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್‍‍ಗಳು"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"ಸಾಧನ ನಿರ್ವಹಣೆ ಅಪ್ಲಿಕೇಶನ್ ಸಕ್ರಿಯ ಮಾಡಬೇಕೇ?"</string>
-    <string name="add_device_admin" msgid="5078281377915844544">"ಈ ಸಾಧನ ನಿರ್ವಹಣೆ ಅಪ್ಲಿಕೇಶನ್ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್ ಸಕ್ರಿಯ ಮಾಡಬೇಕೇ?"</string>
+    <string name="add_device_admin" msgid="5078281377915844544">"ಈ ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"ಈ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿಸಲಾಗುತ್ತದೆ:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"ಈ ಸಾಧನವನ್ನು <xliff:g id="APP_NAME">%1$s</xliff:g> ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುತ್ತದೆ."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"ಈ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಸಕ್ರಿಯವಾಗಿದೆ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿ ನೀಡುತ್ತದೆ:"</string>

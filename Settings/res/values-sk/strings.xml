@@ -103,6 +103,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Zobraziť všetky aplikácie"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Povolenia"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"Zabezpečenie"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"Spravovať aktualizácie"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Všetky aplikácie"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Zobraziť systémové aplikácie"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Nainštalované aplikácie"</string>
@@ -163,6 +164,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ak o to aplikácia požiada, vaše zariadenie prispôsobí výstup pôvodnej snímkovej frekvencii obsahu, ktorý pozeráte. Môže to spôsobiť, že pri ukončení prehrávania videa alebo prejdení naň bude vaša obrazovka chvíľu prázdna."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Nikdy"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Vaše zariadenie sa nikdy nepokúsi prispôsobiť výstup pôvodnej snímkovej frekvencii obsahu, ktorý pozeráte, ani keď o to aplikácia požiada."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Mierka písma"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"Zväčšenie na <xliff:g id="SCALE">%1$d</xliff:g> %%"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Ukážkový text"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Čarodejník z krajiny Oz"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11. kapitola: Nádherné smaragdové mesto"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Lesk tohto nádherného mesta Dorotku a jej priateľov najskôr oslepoval, hoci mali na očiach zelené okuliare. Ulice lemovali nádherné domy zo zeleného mramoru, husto osadené trblietajúcimi sa smaragdmi. Kráčali po chodníku z takého istého zeleného mramoru. Na miestach, kde sa spájali dlaždice, sa ligotali v odraze slnka husté rady smaragdov. Obločné tabule boli zo zeleného skla. Dokonca aj obloha nad mestom bola zafarbená dozelena a slnečné lúče boli tiež zelené. \n\nV uliciach bolo veľa ľudí. Muži, ženy i deti si vykračovali oblečení v zelených šatách a všetci mali zelenkavú pokožku. Zvedavo si obzerali Dorotku a jej prazvláštnu spoločnosť. Keď deti zbadali leva, rýchlo utiekli a skryli sa za matkin chrbát. Nik sa však Dorotke a jej spoločníkom neprihovoril. Na ulici bolo mnoho rozličných obchodov. Dorotkinmu zraku neušlo, že všetok tovar bol zelený. Zelené cukríky, zelené pukance, zelené topánky, zelené klobúky a všelijaké zelené šaty – to všetko tu bolo na predaj. Jeden obchodník predával zelenú limonádu. Keď si ju deti kupovali, Dorotka zbadala, že platia zelenými mincami. \n\nZdalo sa, že sa v meste nenachádzajú žiadne kone ani iné zvieratá. Muži tlačili pred sebou malé zelené vozíky, v ktorých prevážali veci, kam bolo treba. Všetci vyzerali šťastní, spokojní a prekvitajúci."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Výber formátu"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automaticky"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuálne"</string>
@@ -348,6 +355,7 @@
       <item quantity="other">Telefónne aplikácie</item>
       <item quantity="one">Telefónna aplikácia</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"Prehliadač"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Návody"</string>
@@ -413,7 +421,7 @@
     <string name="device_status_summary" msgid="3270932829412434985">"Sieť, sériové čísla a ďalšie informácie"</string>
     <string name="manual" msgid="5683935624321864999">"Ručne"</string>
     <string name="regulatory_information" msgid="9107675969694713391">"Regulačné informácie"</string>
-    <string name="device_feedback" msgid="4871903271442960465">"Spätná väzba o zariadení"</string>
+    <string name="device_feedback" msgid="4871903271442960465">"Odoslať spätnú väzbu o zariadení"</string>
     <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked" msgid="4641790432171693921">"Zavádzací program systému je už odomknutý"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity" msgid="2979556699380115576">"Najprv sa pripojte k internetu"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked" msgid="1946089732305102622">"Pripojte sa k internetu alebo kontaktujte svojho operátora"</string>
@@ -636,6 +644,22 @@
     <item msgid="5645263357181875427">"Použiť čas z transportného streamu"</item>
     <item msgid="5501503537181350884">"Vypnúť"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"Pre všetky aplikácie a služby"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"Aplikácie s nedávnym prístupom"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Žiadne nedávne prístupy"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"Zobraziť všetko"</string>
+    <string name="microphone" msgid="7893752847683941214">"Mikrofón"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"Prístup k mikrofónu"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"Prístup aplikácií k mikrofónu"</string>
+    <string name="camera" msgid="1226671478936288283">"Kamera"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Prístup ku kamere"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"Prístup aplikácií ku kamere"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Prístup k mikrofónu: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Keď zapnete toto nastavenie, všetky aplikácie aj služby s povolením budú mať prístup ku ktorémukoľvek mikrofónu tohto zariadenia.\n\nNeovplyvní periférie zvuku s vlastným protokolom."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Prístup ku kamere: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Keď zapnete toto nastavenie, všetky aplikácie aj služby s povolením budú mať prístup ku ktorejkoľvek kamere tohto zariadenia.\n\nNeovplyvní periférie kamery s vlastným protokolom."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Zapnuté"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Vypnuté"</string>
     <string name="system_location" msgid="4057295363709016511">"Poloha"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"Povoliť aplikáciám, ktoré o to požiadali, používať informácie o polohe"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Súhlas so zhromažďovaním údajov o polohe"</string>

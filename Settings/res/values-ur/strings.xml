@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"سبھی ایپس دیکھیں"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"اجازتیں"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"سیکیورٹی"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"اپ ڈیٹس کا نظم کریں"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"سبھی ایپس"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"سسٹم ایپس دکھائیں"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"انسٹال کردہ ایپس"</string>
@@ -159,6 +160,18 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"اگر ایپ اس کی درخواست کرتی ہے تو آپ کا آلہ اس کے آؤٹ پٹ کو اس مواد کے اصل فریم ریٹ سے مماثل کرے گا جس کو آپ دیکھ رہے ہیں۔ ویڈیو پلے بیک سے باہر نکلنے یا داخل ہونے کے دوران ہو سکتا ہے ایک سیکنڈ کے لیے آپ کی اسکرین خالی ہو جائے۔"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"کبھی نہیں"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"اگر ایپ اس کی درخواست کرتی ہے تو بھی آپ کا آلہ کبھی اس کے آؤٹ پٹ کو اس مواد کے اصل فریم ریٹ سے مماثل کرنے کی کوشش نہیں کرے گا جس کو آپ دیکھ رہے ہیں۔"</string>
+    <!-- no translation found for font_scale_settings_title (4114019544800225980) -->
+    <skip />
+    <!-- no translation found for font_scale_item_detail (1558315053348778805) -->
+    <skip />
+    <!-- no translation found for font_scale_sample_text_title (5239266611413037261) -->
+    <skip />
+    <!-- no translation found for font_scale_preview_text_title (8056182208511371119) -->
+    <skip />
+    <!-- no translation found for font_scale_preview_text_subtitle (677394182922188048) -->
+    <skip />
+    <!-- no translation found for font_scale_preview_text_body (2040384234251207410) -->
+    <skip />
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"فارمیٹ کا انتخاب"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"خودکار"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"دستی"</string>
@@ -328,6 +341,7 @@
       <item quantity="other">فون ایپس</item>
       <item quantity="one">فون ایپ</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"براؤزر ایپ"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>، <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>، <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>، <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"ٹیوٹوریلز"</string>
@@ -464,7 +478,7 @@
     <string name="wifi_action_view_available_networks" msgid="609561604257828342">"دستیاب نیٹ ورکس دیکھیں"</string>
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> سے مربوط ہو رہا ہے"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> کیلئے کنفیگریشن محفوظ کر رہا ہے"</string>
-    <string name="wifi_connect" msgid="2206086690065242121">"مربوط کریں"</string>
+    <string name="wifi_connect" msgid="2206086690065242121">"منسلک کریں"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"نیٹ ورک کو بھول جائیں"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"محفوظ کردہ پاس ورڈ سمیت، یہ اس نیٹ ورک سے منسلک کرنے کیلئے استعمال کردہ معلومات کو صاف کر دیتا ہے۔"</string>
     <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"اپنے موبائل فون سے QR کوڈ اسکین کر کے Wi-Fi میں شامل ہوں اور ہدایت کی پیروی کریں۔"</string>
@@ -520,7 +534,7 @@
     <string name="storage_downloads_usage" msgid="8429196848359517158">"ڈاؤن لوڈز"</string>
     <string name="storage_dcim_usage" msgid="1890098882753254745">"تصاویر اور ویڈیوز"</string>
     <string name="storage_music_usage" msgid="5362871290115089474">"آڈیو"</string>
-    <string name="storage_media_misc_usage" msgid="3404230292054880339">"متفرقات"</string>
+    <string name="storage_media_misc_usage" msgid="3404230292054880339">"متفرق"</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"کیش کردہ ڈیٹا"</string>
     <string name="storage_eject" msgid="3268870873944951902">"خارج کریں"</string>
     <string name="storage_format" msgid="5360900929128087085">"مٹائیں اور فارمیٹ کریں"</string>
@@ -606,6 +620,22 @@
     <item msgid="5645263357181875427">"ٹرانسپورٹ سلسلہ کا فراہم کردہ وقت استعمال کریں"</item>
     <item msgid="5501503537181350884">"آف"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"تمام ایپس اور سروسز کے لیے"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"حال ہی میں رسائی حاصل کی گئی"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"کوئی حالیہ رسائی نہیں"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"سبھی دیکھیں"</string>
+    <string name="microphone" msgid="7893752847683941214">"مائیکروفون"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"مائیکروفون تک رسائی"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"مائیکروفون تک ایپ کی رسائی"</string>
+    <string name="camera" msgid="1226671478936288283">"کیمرا"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"کیمرے تک رسائی"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"کیمرے تک ایپ کی رسائی"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"مائیکروفون تک رسائی: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"آن ہونے پر، اجازت والی تمام ایپس اور سروسز اس آلے پر کسی بھی مائیکروفون تک رسائی حاصل کر سکتی ہیں۔\n\nحسب ضرورت پروٹوکول والے آڈیو پیریفیرلز اس ترتیب سے متاثر نہیں ہوں گے۔"</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"کیمرے تک رسائی: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"آن ہونے پر، اجازت والی تمام ایپس اور سروسز اس آلے پر کسی بھی کیمرے تک رسائی حاصل کر سکتی ہیں۔\n\nحسب ضرورت پروٹوکول والے کیمرا پیریفیرلز اس ترتیب سے متاثر نہیں ہوں گے۔"</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"آن"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"آف"</string>
     <string name="system_location" msgid="4057295363709016511">"مقام"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"جن ایپس نے آپ کی اجازت طلب کی ہے انہیں اپنے مقام کی معلومات استعمال کرنے دیں"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"مقام کی منظوری"</string>

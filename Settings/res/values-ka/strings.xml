@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"ყველა აპის ნახვა"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"ნებართვები"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"უსაფრთხოება"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"განახლებების მართვა"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"ყველა აპი"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"სისტემის აპების ჩვენება"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"დაინსტალირებული აპები"</string>
@@ -159,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"თუ აპი ამას მოითხოვს, თქვენი მოწყობილობა დაამთხვევს თავის გამოსავალს იმ კონტენტის კადრების ორიგინალურ სიჩქარეს, რომელსაც უყურებთ. ამის გამო, შეიძლება, ვიდეოს დაკვრის დაწყებისას ან გათიშვისას ეკრანზე ერთი წამით ყველაფერი გაქრეს."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"არასოდეს"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"თუნდაც აპი ითხოვდეს ამას, თქვენი მოწყობილობა არასოდეს შეეცდება თავისი გამოსავლის დამთხვევას იმ კონტენტის კადრების ორიგინალურ სიჩქარესთან, რომელსაც უყურებთ."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"ტექსტის მასშტაბირება"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"მასშტაბირება <xliff:g id="SCALE">%1$d</xliff:g>%%-მდე"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"ტექსტის ნიმუში"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ოზის საოცარი ჯადოქარი"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"თავი 11: ოზის ზურმუხტის ქალაქი"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"მართალია, მწვანე სათვალეები ეკეთათ, მაგრამ დოროთი და მისი მეგობრები ამ საკვირველი ქალაქის ბრწყინვალებამ მაინც გააოცა. ქუჩებში რიგებად იდგა მწვანე მარმარილოს უმშვენიერესი სახლები, რომლებიც ბრჭყვიალა ზურმუხტებით იყო მორთული. გამვლელები დადიოდნენ ტროტუარზე, რომელიც იმავე მწვანე მარმარილოსი იყო, ხოლო ფილებს შორის ნაპრალები ამოევსოთ ზურმუხტებით, რომლებიც მზის სინათლეზე ბზინავდა. სახლების ფანჯრებს მწვანე მინები ჰქონდა. ზურმუხტის ქალაქის თავზე ცასაც მწვანე ელფერი დაჰკრავდა. მწვანე მზიდან კი ქვემოთ მწვანე სხივები ეცემოდა. \n\nგარშემო ბევრი ადამიანი ირეოდა — კაცები, ქალები, ბავშვები — ყველას მწვანე ტანსაცმელი ეცვა და კანიც მწვანე შეფერილობის ჰქონდათ. ისინი გაკვირვებით შეჰყურებდნენ დოროთისა და მის უცნაურ თანამგზავრებს. ლომის დანახვისთანავე ბავშვები მშობლების ზურგსუკან იმალებოდნენ და ვერავინ ბედავდა სტუმრებთან საუბარს. ქუჩის გაყოლებაზე ბევრი მაღაზია ჩამწკრივებულიყო და დოროთიმ დაინახა, რომ ყველაფერი, რაც გასაყიდად გამოეტანათ, მწვანე ფერისა იყო — მწვანე ტკბილეული თუ მწვანე ბატი-ბუტი, მწვანე ფეხსაცმელი თუ თავსაბურავი და სხვადასხვა ზომის და ფორმის ტანსაცმელიც კი მწვანე იყო. ერთ-ერთ დახლზე კაცი მწვანე ლიმონათს ყიდდა, გარსშემოხვეული ბავშვები კი მწვანე მონეტებით უხდიდნენ. \n\nზურმუხტის ქალაქის ქუჩებში არც ცხენები ჩანდა, არც სხვა ცხოველები. კაცებს ტვირთი პატარა მწვანე ხელის ურიკებით გადაჰქონდათ. ქალაქის მაცხოვრებლებს სახეზე ბედნიერება და კმაყოფილება ეტყობოდათ."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ფორმატის შერჩევა"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ავტომატური"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ხელით"</string>
@@ -328,6 +335,7 @@
       <item quantity="other">ტელეფონის აპები</item>
       <item quantity="one">ტელეფონის აპი</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"ბრაუზერის აპი"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"სახელმძღვანელოები"</string>
@@ -606,6 +614,22 @@
     <item msgid="5645263357181875427">"სატრანსპორტო ნაკადით მოწოდებული დროის გამოყენება"</item>
     <item msgid="5501503537181350884">"გამორთვა"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"ყველა აპისა და სერვისისთვის"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"ახლახან დაფიქსირდა წვდომა შემდეგისგან:"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"ბოლოდროინდელი წვდომები არ არის"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"ყველას ნახვა"</string>
+    <string name="microphone" msgid="7893752847683941214">"მიკროფონი"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"მიკროფონზე წვდომა"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"აპების წვდომა მიკროფონზე"</string>
+    <string name="camera" msgid="1226671478936288283">"კამერა"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"კამერაზე წვდომა"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"აპების წვდომა კამერაზე"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"მიკროფონზე წვდომა: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"როდესაც ჩართულია, ნებართვის მქონე ყველა აპსა და სერვისს შეუძლია წვდომა ამ მოწყობილობის ნებისმიერ მიკროფონზე.\n\nეს პარამეტრი არ იმოქმედებს მორგებული პროტოკოლის მქონე პერიფერიულ აუდიომოწყობილობებზე."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"კამერაზე წვდომა: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"როდესაც ჩართულია, ნებართვის მქონე ყველა აპსა და სერვისს შეუძლია წვდომა ამ მოწყობილობის ნებისმიერ კამერაზე.\n\nეს პარამეტრი არ იმოქმედებს კამერის მორგებული პროტოკოლის მქონე პერიფერიულ მოწყობილობებზე."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ჩართულია"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"გამორთულია"</string>
     <string name="system_location" msgid="4057295363709016511">"მდებარეობა"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"აპებს, რომლებმაც ითხოვა თქვენი მდებარეობის ინფორმაციის გამოყენების ნებართვა"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"მდებარეობაზე დათანხმება"</string>
@@ -1011,7 +1035,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"მოწყობილობის ადმინისტრატორის ამ აპის გააქტიურება"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"ადმინისტრატორის ამ აპის გააქტიურების შემთხვევაში, <xliff:g id="APP_NAME">%1$s</xliff:g>ს აპი შეძლებს განახორციელოს შემდეგი ოპერაციები:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"ამ მოწყობილობის მართვას და მონიტორინგს <xliff:g id="APP_NAME">%1$s</xliff:g> განახორციელებს."</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"ადმინისტრატორის აპი აქტიურია და საშუალებას აძლევს <xliff:g id="APP_NAME">%1$s</xliff:g> აპს, განახორციელოს შემდეგი ოპერაციები:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"ადმინისტრატორის აპი აქტიურია და საშუალებას აძლევს აპს (<xliff:g id="APP_NAME">%1$s</xliff:g>), განახორციელოს შემდეგი ოპერაციები:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"გაგრძელების შემთხვევაში, თქვენი მომხმარებელი მართული იქნება ადმინისტრატორის მიერ, რომელიც თქვენს პირად მონაცემებთან ერთად, დაკავშირებული მონაცემების შენახვასაც შეძლებს.\n\nთქვენს ადმინისტრატორს შეუძლია ამ მომხმარებელთან ასოცირებული პარამეტრების, წვდომის, აპებისა და მონაცემების (მათ შორის, ქსელის აქტივობისა და თქვენი მოწყობილობის მდებარეობის ინფორმაციის) მონიტორინგი და მართვა."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"გსურთ ხარვეზის შესახებ ანგარიშის გაზიარება?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"ამ მოწყობილობის პრობლემების აღმოფხვრაში დასახმარებლად, თქვენი IT ადმინისტრატორი ხარვეზის შესახებ ანგარიშს ითხოვს, რა დროსაც შეიძლება გაზიარდეს აპები და მონაცემები."</string>

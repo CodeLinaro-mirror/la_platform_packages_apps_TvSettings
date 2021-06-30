@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Tingnan ang lahat ng app"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Mga Pahintulot"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"Seguridad"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"Pamahalaan ang Mga Update"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Lahat ng app"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Ipakita ang mga system app"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Mga naka-install na app"</string>
@@ -159,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Kung hihingin ito ng app, itutugma ng iyong device ang output nito sa orihinal na frame rate ng content na pinapanood mo. Posibleng maging sanhi nito ng pagblangko ng iyong screen nang isang segundo kapag lumalabas o pumapasok sa video na playback."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Hindi Kailanman"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Kahit na hingin ito ng app, hindi kailanman susubukan ng iyong device na itugma ang output nito sa orihinal na frame rate ng content na pinapanood mo."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Pagsukat ng text"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"I-scale sa <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Sample na text"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"The Wonderful Wizard of Oz"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Kabanata 11: The Wonderful Emerald City of Oz"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Kahit na pinoprotektahan ng kulay berdeng salamin ang kanilang mga mata, nasilaw si Dorothy at ang kanyang mga kaibigan sa kislap ng kamangha-manghang Lungsod. Nakalinya sa kalsada ang magagandang bahay na gawa sa berdeng marmol at punung-puno ng mga kumikinang na esmeralda. Naglakad sila sa kalsadang gawa rin sa berdeng marmol, may mga esmeraldang nakalagay nang magkakalapit at nakapila kung saan magkadikit ang mga bloke, at kumukutikutitap ang mga ito sa ningning ng araw. Gawa sa kulay berdeng salamin ang mga bintana; may tint na berde maging ang langit sa itaas ng Lungsod, at kulay berde ang mga sinag ng araw. \n\nMaraming tao roon, mga lalaki, babae, at bata, naglalakad-lakad, at nakasuot lahat sila ng mga damit na kulay berde at kulay berde rin ang mga balat nila. Namamangha nilang tiningnan si Dorothy at ang mga kasama niyang kakaiba ang pagkakasari-sari, at tumakbo palayo at nagtago sa likod ng mga nanay nila ang mga bata noong nakita nila ang Leon; ngunit walang kumausap sa kanila. Maraming tindahan ang nakatayo sa kalsada, at nakita ni Dorothy na kulay berde ang lahat ng paninda. Berdeng kendi at berdeng pop-corn ang inaalok para bilhin, pati na rin ang iba\'t ibang uri ng mga berdeng sapatos, berdeng sumbrero at berdeng damit. Sa isang lugar, may lalaking nagtitinda ng berdeng limonada, at kapag bumibili nito ang mga bata, nakikita ni Dorothy na berdeng barya ang ipinambabayad nila. \n\nTila walang kabayo o anumang uri ng hayop doon; dinadala ng mga lalaki ang mga bagay-bagay sa maliliit na berdeng kariton, na itinutulak nila sa kanilang harapan. Mukhang masaya, kuntento at masagana ang lahat."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Pagpipilian ng format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Awtomatiko"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manual"</string>
@@ -328,6 +335,7 @@
       <item quantity="one">Mga app na Telepono</item>
       <item quantity="other">Mga app na Telepono</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"Browser app"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Mga Tutorial"</string>
@@ -606,6 +614,22 @@
     <item msgid="5645263357181875427">"Gamitin ang oras na mula sa transport stream"</item>
     <item msgid="5501503537181350884">"I-off"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"Para sa lahat ng app at serbisyo"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"Kamakailang Na-access Ni"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Walang kamakailang pag-access"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"Tingnan lahat"</string>
+    <string name="microphone" msgid="7893752847683941214">"Mikropono"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"Access sa mikropono"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"Access ng app sa mikropono"</string>
+    <string name="camera" msgid="1226671478936288283">"Camera"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Access sa camera"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"Access ng app sa camera"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Access sa Mikropono: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Kapag naka-on ito, maa-access ng lahat ng app at serbisyong may pahintulot ang anumang mikropono sa device na ito.\n\nHindi maaapektuhan ng setting na ito ang mga peripheral ng mikropono na may custom na protocol."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Access sa Camera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Kapag naka-on ito, maa-access ng lahat ng app at serbisyong may pahintulot ang anumang camera sa device na ito.\n\nHindi maaapektuhan ng setting na ito ang mga peripheral ng camera na may custom na protocol."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Naka-on"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"I-off"</string>
     <string name="system_location" msgid="4057295363709016511">"Lokasyon"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"Hayaan ang apps na humiling ng iyong pahintulot na gamitin ang impormasyon ng iyong lokasyon"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Pahintulot sa lokasyon"</string>

@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"सभी ऐप्लिकेशन देखें"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"अनुमतियां"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"सुरक्षा"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"अपडेट मैनेज करें"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"सभी ऐप्लिकेशन"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"सिस्टम ऐप्लिकेशन दिखाएं"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"इंस्‍टॉल किए गए ऐप्लिकेशन"</string>
@@ -159,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"अगर ऐप्लिकेशन ऐसा करने का अनुरोध करता है, तो आपका डिवाइस उस कॉन्टेंट के मूल फ़्रेम रेट के बराबर आउटपुट देगा जो आप देख रहे हैं. जब आप वीडियो देख रहे होते हैं या वीडियो देखना शुरू करते हैं, तो हो सकता है कि डिवाइस की स्क्रीन पर कुछ सेकंड तक कुछ न दिखे."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"कभी नहीं"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"भले ही, ऐप्लिकेशन ने ऐसा करने का अनुरोध किया हो, लेकिन आपका डिवाइस उस कॉन्टेंट के मूल फ़्रेम रेट के बराबर आउटपुट देने की कोशिश कभी नहीं करेगा जो आप देख रहे हैं."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"टेक्स्ट स्केलिंग"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"<xliff:g id="SCALE">%1$d</xliff:g>%% तक स्केल करें"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"सैंपल टेक्स्ट"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"द वंडरफुल विज़र्ड ऑफ़ ओज़"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"चैप्टर 11: द वंडरफुल एमरल्ड सिटी ऑफ़ ओज़"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"हरे रंग के चश्मे पहने हुए भी डॉरथी और उसके दोस्त इस अद्भुत शहर की चकाचौंध से चकित थे. हरे रंग के संगमरमर से बने खूबसूरत घर, सड़कों के किनारे कतार में खड़े थे और उन पर चमचमाते पन्ने जड़े हुए थे. वे उसी हरे रंग के संगमरमर पर चलने लगे, जहां पास-पास रखे गए ब्लॉक आपस में जुड़ रहे थे. वे पन्ने की कतारें थीं और सूरज की चमक से चमचमा रही थीं. जहां खिड़कियों के शीशे हरे रंग के थे; यहां तक की शहर के ऊपर छाया आसमान भी हरे रंग का था, और सूरज की किरणें भी हरी थीं. \n\nवहां कई लोग थे, महिलाएं, पुरुष, और बच्चे. उन सभी ने हरे रंग के कपड़े पहने हुए थे और उनकी त्वचा भी हरे रंग की थी. उन्होंने डॉरथी और उसके अजीबोगरीब दोस्तों की ओर अचरज भरी नज़रों से देखा. जब बच्चों ने शेर को देखा, तो वे सभी अपनी-अपनी मां के पीछे जाकर छिप गए, लेकिन किसी ने भी उनसे बात नहीं की. सड़क पर कई दुकानें थीं और डॉरथी ने देखा कि दुकानों में रखी हर चीज़ हरे रंग की था. हरी कैंडी और हरे पॉपकॉर्न बिक रहे थे. साथ ही, हरे जूते, हरी टोपियां, और सभी तरह के कपड़े भी हरे रंग के थे. एक जगह पर, एक व्यक्ति हरे रंग वाला नींबू का शरबत बेच रहा था. डॉरथी ने देखा कि शरबत खरीदने के लिए बच्चों ने हरे रंग के सिक्के दिए. \n\nवहां कोई भी घोड़ा या किसी भी तरह का कोई जानवर नहीं था. लोग उनके सामने से हरे रंग की गाड़ियों में यहां-वहां सामान ले जा रहे थे. हर कोई खुश, संतुष्ट और समृद्ध नज़र आ रहा था."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"फ़ॉर्मैट चुनें"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"अपने-आप"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"मैन्युअल तौर पर चुनें"</string>
@@ -328,6 +335,7 @@
       <item quantity="one">फ़ोन ऐप्लिकेशन</item>
       <item quantity="other">फ़ोन ऐप्लिकेशन</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"ब्राउज़र ऐप्लिकेशन"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"ट्यूटोरियल"</string>
@@ -606,6 +614,22 @@
     <item msgid="5645263357181875427">"परिवहन स्‍ट्रीम-प्रदत्त समय का उपयोग करें"</item>
     <item msgid="5501503537181350884">"बंद करें"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"सभी ऐप्लिकेशन और सेवाओं के लिए"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"हाल ही में इन ऐप्लिकेशन ने ऐक्सेस किया है"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"हाल ही में किसी ऐप्लिकेशन ने ऐक्सेस नहीं किया है"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"सभी ऐप्लिकेशन देखें"</string>
+    <string name="microphone" msgid="7893752847683941214">"माइक्रोफ़ोन"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"माइक्रोफ़ोन का ऐक्सेस"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"ऐप्लिकेशन के लिए माइक्रोफ़ोन ऐक्सेस करने की अनुमति"</string>
+    <string name="camera" msgid="1226671478936288283">"कैमरा"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"कैमरे का ऐक्सेस"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"ऐप्लिकेशन के लिए कैमरा ऐक्सेस करने की अनुमति"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"माइक्रोफ़ोन का ऐक्सेस: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"माइक्रोफ़ोन ऐक्सेस करने की सेटिंग चालू होने पर, वे सभी ऐप्लिकेशन और सेवाएं इस डिवाइस का कोई भी माइक्रोफ़ोन ऐक्सेस कर पाएंगी जिन्हें आपने ऐसा करने की अनुमति दी है.\n\nहालांकि, इस सेटिंग को चालू करने से, उन सहायक ऑडियो डिवाइसों पर कोई असर नहीं होगा जो कस्टम प्रोटोकॉल का पालन करते हैं."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"कैमरे का ऐक्सेस: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"कैमरा ऐक्सेस करने की सेटिंग चालू होने पर, वे सभी ऐप्लिकेशन और सेवाएं इस डिवाइस का कोई भी कैमरा ऐक्सेस कर पाएंगी जिन्हें आपने ऐसा करने की अनुमति दी है.\n\nहालांकि, इस सेटिंग को चालू करने से, कैमरे के तौर पर काम करने वाले उन सहायक डिवाइसों पर कोई असर नहीं होगा जो कस्टम प्रोटोकॉल का पालन करते हैं."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"चालू है"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"बंद है"</string>
     <string name="system_location" msgid="4057295363709016511">"जगह"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"आप अपनी उन ऐप्स  को स्थान जानकारी का उपयोग करने दें, जिन्होंने आपकी अनुमति मांगी है."</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"स्‍थान सहमति"</string>

@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"查看所有應用程式"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"權限"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"安全性"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"管理更新"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"所有應用程式"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"顯示系統應用程式"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"已安裝的應用程式"</string>
@@ -159,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"如果應用程式提出要求，你的裝置就會嘗試將輸出的影格速率調整為觀看內容的原始影格速率。這樣一來，當影片開始播放或結束播放時，螢幕可能會短暫出現空白畫面。"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"一律不採用"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"即使應用程式提出要求，你的裝置也一律不會將輸出的影格速率調整為觀看內容的原始影格速率。"</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"文字比例"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"調整為 <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"範例文字"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"綠野仙蹤"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"第 11 章：奧茲國的翡翠城"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"即使配戴著綠色眼鏡保護雙眼，這座美麗城市閃耀的光芒還是令桃樂絲和她的朋友們目眩神迷。街道兩側佇立著以碧綠大理石建造的華美房屋，上頭鑲滿光彩奪目的翡翠。街道路面同樣是以碧綠大理石鋪砌而成，石板接合處嵌有一排排緊密相連的翡翠，在陽光的照耀下閃閃發亮。房屋窗面採用翠綠玻璃，襯著城市上方的淡綠天空，就連陽光也透出青綠色調。\n\n城內居民眾多，無論男女老幼全都穿著綠色衣物，甚至皮膚也帶有綠色光澤。他們充滿好奇地盯著桃樂絲和她那群外貌迥異的夥伴，只是孩子們一看到獅子便飛快躲到母親身後；然而，一直沒有任何人開口與他們交談。街道上的商店五花八門，桃樂絲發現這些商店兜售的商品，從糖果和爆米花到鞋子、帽子和各式衣物，全都是綠色的。有位小販賣著綠色檸檬汁，當小孩掏錢購買時，桃樂絲清楚看見錢幣也是綠色的。\n\n城裡似乎沒有馬匹或任何動物；居民們都是推著綠色小推車來搬運物品。每個人看起來都相當幸福且富足。"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"選取格式"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"自動"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"手動"</string>
@@ -249,7 +256,7 @@
     <string name="system_accessibility" msgid="3081009195560501010">"無障礙設定"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"開發人員選項"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"無"</string>
-    <string name="system_diagnostic" msgid="1654842813331919958">"使用情形與診斷"</string>
+    <string name="system_diagnostic" msgid="1654842813331919958">"使用狀況與診斷"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"沒有可用的裝置管理員應用程式"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"已由管理員停用"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"不適用"</string>
@@ -328,6 +335,7 @@
       <item quantity="other">電話應用程式</item>
       <item quantity="one">電話應用程式</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"瀏覽器應用程式"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>、<xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>、<xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>、<xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"教學課程"</string>
@@ -606,6 +614,22 @@
     <item msgid="5645263357181875427">"使用傳輸串流提供的時間"</item>
     <item msgid="5501503537181350884">"關閉"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"所有應用程式和服務"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"最近使用過存取權的應用程式"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"最近沒有使用過存取權的應用程式"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"查看全部"</string>
+    <string name="microphone" msgid="7893752847683941214">"麥克風"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"麥克風存取權"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"應用程式的麥克風存取權"</string>
+    <string name="camera" msgid="1226671478936288283">"攝影機"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"攝影機存取權"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"應用程式的攝影機存取權"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"麥克風存取權：<xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"開啟後，具有權限的所有應用程式和服務都可以存取這部裝置上的任何麥克風。\n\n這項設定不會影響具有自訂通訊協定的音訊周邊裝置。"</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"攝影機存取權：<xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"開啟後，具有權限的所有應用程式和服務都可以存取這部裝置上的任何攝影機。\n\n這項設定不會影響具有自訂通訊協定的攝影機周邊裝置。"</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"已開啟"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"已關閉"</string>
     <string name="system_location" msgid="4057295363709016511">"位置"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"允許獲得您許可的應用程式使用您的位置資訊"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"同意記錄位置資訊"</string>

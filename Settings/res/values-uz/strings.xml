@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Barcha ilovalar"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Ruxsatlar"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"Xavfsizlik"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"Yangilanishlarni boshqarish"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Barcha ilovalar"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Tizimga oid ilovalar"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Oʻrnatilgan ilovalar"</string>
@@ -159,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ilova talab qilsa, ijrodagi kontent kadr almashish tezligi formatini qurilmaning oʻzi avtomatik sozlaydi. Bunday holda video ijrosi boshida yoki tomoshadan keyin ekran qisqa vaqt oʻchishi mumkin."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Hech qachon"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Ilova talab qilsa ham, ijrodagi kontent kadr almashish tezligi formatini qurilmaning oʻzi avtomatik sozlaydi."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Matn oʻlchami"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"<xliff:g id="SCALE">%1$d</xliff:g>%% ga miqyosini oʻzgartirish"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Namunaviy matn"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Oz mamlakati sehrgari"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11-bob: Oz mamlakatining zumrad shahri"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Yashil koʻzoynak taqishgan boʻlishiga qaramasdan, bu ajoyib shaharning jilosi Doroti va uning doʻstlarining koʻzlarini qamashtirardi. Koʻchalarda yashil marmardan qurilgan va yorqin zumradlar bilan bezalgan goʻzal uylar tizilib turar edi. Ular yurib borayotgan yashil marmarli yoʻlakdagi zumradlar quyosh nurida jilolanardi. Uylar derazalari ham yashil oynadan qilingan edi. Hattoki shahar osmoni ham yashil tusda boʻlib, quyosh nurlari ham yashil edi. \n\nAtrofda yashil libos kiygan erkaklar, ayollar va bolalar yurishardi, ularning terisining rangi ham yashilsifat edi. Ular bir soʻz demay Doroti va uning gʻalati doʻstlariga hayratlanib boqishardi, bolalar bahaybat sherdan qoʻrqqanlaridan yugurib onalarini ortiga qochishardi. Doroti koʻrdiki, koʻchada koʻp doʻkonlar boʻlib, ulardagi barcha narsalar yashil rangda edi: yashil shirinliklar va bodroq, yashil poyabzal va bosh kiyimlar, yashil liboslar va barcha turdagi paltolar. Bir joydagi sotuvchidan bolalar yashil tangaga yashil limonad sotib olishar edi. \n\nOtlar va boshqa turdagi hayvonlar koʻrinmas edi. Odamlarlar oʻzlari surib yurgan yashil aravachalarida narsalarini olib yurishardi. Zumrad shahar aholisi baxtli va mamnun edi."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Format tanlash"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Avtomatik"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Oddiy usulda"</string>
@@ -249,7 +256,7 @@
     <string name="system_accessibility" msgid="3081009195560501010">"Maxsus imkoniyatlar"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"Dasturchi sozlamalari"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Hech qanday"</string>
-    <string name="system_diagnostic" msgid="1654842813331919958">"Foydalanish statistikasi va diagnostika"</string>
+    <string name="system_diagnostic" msgid="1654842813331919958">"Statistika va diagnostika"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"Hech qanday qurilma administratori ilovasi o‘rnatilmagan"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Administrator tomonidan o‘chirilgan"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Mavjud emas"</string>
@@ -328,6 +335,7 @@
       <item quantity="other">Telefon uchun ilovalar</item>
       <item quantity="one">Telefon uchun ilova</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"Brauzer ilovasi"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Qo‘llanmalar"</string>
@@ -606,6 +614,22 @@
     <item msgid="5645263357181875427">"Transport oqimi vaqtidan foydalanish"</item>
     <item msgid="5501503537181350884">"O‘chirib qo‘yish"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"Barcha ilovalar va xizmatlar uchun"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"Oxirgi foydalanish:"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Oxirgi ruxsatlar topilmadi"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"Hammasi"</string>
+    <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofonga ruxsat"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"Mikrofonga ruxsati bor ilovalar"</string>
+    <string name="camera" msgid="1226671478936288283">"Kamera"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Kameraga ruxsat"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"Kameraga ruxsati bor ilovalar"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonga ruxsat: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Yoqilsa, barcha ilova va xizmatlar bu qurilmadagi mikrofondan foydalana oladi.\n\nAudio jihozlar maxsus protokoldan foydalanadi va bu sozlama tomonidan bezovta qilinmaydi."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kameraga ruxsat: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Yoqilsa, barcha ilova va xizmatlar bu qurilmadagi kameradan foydalana oladi.\n\nKamerali jihozlar maxsus protokoldan foydalanadi va bu sozlama tomonidan bezovta qilinmaydi."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Yoniq"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Oʻchiq"</string>
     <string name="system_location" msgid="4057295363709016511">"Mamlakat"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"Sizdan ruxsat so‘ragan ilovalarga joylashuvingiz ma‘lumotidan foydalanishga ruxsat beradi"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Joylashuv rozili"</string>
@@ -680,7 +704,7 @@
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Matndan nutqqa"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Nutq tizimi konfiguratsiyasi"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Parollarni og‘zaki aytish"</string>
-    <string name="system_preferred_engine" msgid="3545505072652708443">"Tanlama mexaniz"</string>
+    <string name="system_preferred_engine" msgid="3545505072652708443">"Asosiy vosita"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"Nutq tezligi"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Namunani o‘ynatish"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Ovoz ma\'lumotlarini o‘rnatish"</string>
@@ -996,7 +1020,7 @@
     <string name="disabled_by_policy_title_camera" msgid="6576557964422257426">"Kameraga ruxsat berilmagan"</string>
     <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skrinshot olishga ruxsat berilmagan"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"Bu ilovani ochish imkonsiz"</string>
-    <string name="default_admin_support_msg" msgid="7913455019068370350">"Savollaringizga javob olish uchun AT administratoringizga murojaat qiling"</string>
+    <string name="default_admin_support_msg" msgid="7913455019068370350">"Savollaringizga javob olish uchun administratoringizga murojaat qiling."</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"Qo‘shimcha tafsilotlar"</string>
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"Administratoringiz ishchi profilingiz bilan bog‘liq ilova va ma’lumotlarni, jumladan, sozlamalar, ruxsatnomalar, korporativ kirish huquqi, tarmoqdagi faollik va qurilmaning joylashuvi haqidagi ma’lumotlarni kuzatishi va boshqarishi mumkin."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"Administratoringiz bu foydalanuvchi bilan bog‘liq ilova va ma’lumotlarni, jumladan, sozlamalar, ruxsatnomalar, korporativ kirish huquqi, tarmoqdagi faollik va qurilmaning joylashuvi haqidagi ma’lumotlarni kuzatishi va boshqarishi mumkin."</string>
