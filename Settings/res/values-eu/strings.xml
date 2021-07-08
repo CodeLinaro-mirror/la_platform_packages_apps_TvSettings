@@ -99,6 +99,8 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Ikusi aplikazio guztiak"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Baimenak"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"Segurtasuna"</string>
+    <!-- no translation found for manage_updates (2228839328071887368) -->
+    <skip />
     <string name="all_apps_title" msgid="3717294436135280133">"Aplikazio guztiak"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Erakutsi sistemaren aplikazioak"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Instalatutako aplikazioak"</string>
@@ -328,6 +330,7 @@
       <item quantity="other">Telefono-aplikazioak</item>
       <item quantity="one">Telefono-aplikazioa</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"Arakatzailea"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Tutorialak"</string>
@@ -496,7 +499,7 @@
     <string name="proxy_error_empty_port" msgid="692020249267351015">"Ataka eremuak ezin du hutsik egon"</string>
     <string name="proxy_error_empty_host_set_port" msgid="5347712018244852847">"Ostalaria eremua hutsik badago, utzi Ataka eremua hutsik"</string>
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"Atakak ez du balio"</string>
-    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"Arakatzaileak HTTP proxya erabiltzen du, baina agian beste aplikazioek ez dute erabiliko."</string>
+    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"Arakatzaileak HTTP proxya erabiltzen du; beste aplikazioek, ordea, agian ezingo dute erabili."</string>
     <string name="proxy_port_description" msgid="6486205863098427787">"Idatzi balio duen ataka bat.\nAdibidez: <xliff:g id="ID_1">8080</xliff:g>"</string>
     <string name="proxy_exclusionlist_description" msgid="5105504899364188296">"Idatzi kanpo utzitako domeinuen zerrenda bat komaz bereizita, edo utzi hutsik.\nAdibidez: <xliff:g id="ID_1">example.com,mycomp.test.com,localhost</xliff:g>"</string>
     <string name="proxy_hostname_description" msgid="5520200112290557199">"Idatzi balio duen ostalari-izen bat.\nAdibidez: <xliff:g id="ID_1">proxy.example.com</xliff:g>"</string>
@@ -596,7 +599,7 @@
     <string name="desc_set_time_zone" msgid="4926392006501180047">"<xliff:g id="OFFSET">%1$s</xliff:g>, <xliff:g id="NAME">%2$s</xliff:g>"</string>
     <string name="system_set_time_format" msgid="902518158066450918">"Erabili 24 orduko formatua"</string>
     <string name="desc_set_time_format" msgid="8688587526768572230">"<xliff:g id="STATE">%1$s</xliff:g> (<xliff:g id="SAMPLE">%2$s</xliff:g>)"</string>
-    <string name="system_auto_date_time" msgid="8458199433555868708">"Data eta ordu automatikoa"</string>
+    <string name="system_auto_date_time" msgid="8458199433555868708">"Data eta ordu automatikoak"</string>
   <string-array name="auto_date_time_entries">
     <item msgid="8119837829162871025">"Erabili sareak emandako ordua"</item>
     <item msgid="369146066143710034">"Desaktibatuta"</item>
@@ -606,6 +609,22 @@
     <item msgid="5645263357181875427">"Erabili datu-jarioak emandako ordua"</item>
     <item msgid="5501503537181350884">"Desaktibatuta"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"Aplikazio eta zerbitzu guztietarako"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"Duela gutxi atzitu dutenak"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Ez dute atzitu azkenaldian"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"Ikusi guztiak"</string>
+    <string name="microphone" msgid="7893752847683941214">"Mikrofonoa"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofonoa atzitzeko baimena"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"Aplikazioen mikrofono-atzitzeak"</string>
+    <string name="camera" msgid="1226671478936288283">"Kamera"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Kamera atzitzeko baimena"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"Aplikazioen kamera-atzitzeak"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonoa atzitzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4436219037877456256">"Aktibatuta dagoenean, gailu honetako edozein mikrofono atzitu ahalko dute baimen hau daukaten aplikazio eta zerbitzu guztiek.\n\nEzarpen honek ez die eragingo protokolo pertsonalizatuak dauzkaten audio-gailu periferikoei (adibidez, hari bidez konektatutako mikrofonoak)."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kamera atzitzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="7045001373813906859">"Aktibatuta dagoenean, gailu honetako edozein kamera atzitu ahalko dute baimen hau daukaten aplikazio eta zerbitzu guztiek.\n\nEzarpen honek ez die eragingo protokolo pertsonalizatuak dauzkaten kamera periferikoei (adibidez, hari bidez konektatutako web-kamerak)."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"aktibatuta"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"desaktibatuta"</string>
     <string name="system_location" msgid="4057295363709016511">"Kokapena"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"Utzi baimena eskatu dizuten aplikazioei zure kokapenaren informazioa erabiltzen"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Kokapena erabiltzeko baimena"</string>
@@ -1009,7 +1028,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Gailua administratzeko aplikazioak"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Gailua administratzeko aplikazioa aktibatu?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Aktibatu gailua administratzeko aplikazioa"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"Gailua administratzeko aplikazio hau aktibatzen baduzu, <xliff:g id="APP_NAME">%1$s</xliff:g> izeneko aplikazioak eragiketa hauek egiteko baimena izango du:"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"Gailua administratzeko aplikazio hau aktibatzen baduzu, <xliff:g id="APP_NAME">%1$s</xliff:g> aplikazioak eragiketa hauek egiteko baimena izango du:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> arduratuko da gailua kudeatu eta kontrolatzeaz."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Gailua administratzeko aplikazio hau aktibo dago eta eragiketa hauek egiteko baimena ematen dio <xliff:g id="APP_NAME">%1$s</xliff:g> aplikazioari:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Aurrera eginez gero, administratzaileak kudeatuko dizu erabiltzaile-kontua, eta erlazionatutako datuak gorde ahal izango ditu zure datu pertsonalez gain.\n\nEra berean, erabiltzaile-kontu honekin erlazionatutako ezarpenak, sarbidea, aplikazioak eta datuak gainbegiratu eta kudeatu ahal izango ditu (esaterako, sareko jarduerak), baita gailuaren kokapen-informazioa ere."</string>
