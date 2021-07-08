@@ -16,6 +16,8 @@
 
 package com.android.tv.settings.system.development;
 
+import static android.view.CrossWindowBlurListeners.CROSS_WINDOW_BLUR_SUPPORTED;
+
 import static com.android.tv.settings.overlay.FlavorUtils.X_EXPERIENCE_FLAVORS_MASK;
 
 import android.Manifest;
@@ -46,7 +48,6 @@ import android.os.StrictMode;
 import android.os.SystemProperties;
 import android.os.UserManager;
 import android.provider.Settings;
-import android.service.persistentdata.PersistentDataBlockManager;
 import android.sysprop.AdbProperties;
 import android.sysprop.DisplayProperties;
 import android.text.TextUtils;
@@ -70,6 +71,7 @@ import com.android.settingslib.core.ConfirmationDialogController;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 import com.android.settingslib.development.SystemPropPoker;
 import com.android.tv.settings.R;
+import com.android.tv.settings.RestrictedPreferenceAdapter;
 import com.android.tv.settings.SettingsPreferenceFragment;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.system.development.audio.AudioDebug;
@@ -131,6 +133,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private static final String DEBUG_HW_OVERDRAW_KEY = "debug_hw_overdraw";
     private static final String DEBUG_LAYOUT_KEY = "debug_layout";
     private static final String FORCE_RTL_LAYOUT_KEY = "force_rtl_layout_all_locales";
+    private static final String WINDOW_BLURS_KEY = "window_blurs";
     private static final String WINDOW_ANIMATION_SCALE_KEY = "window_animation_scale";
     private static final String TRANSITION_ANIMATION_SCALE_KEY = "transition_animation_scale";
     private static final String ANIMATOR_DURATION_SCALE_KEY = "animator_duration_scale";
@@ -217,10 +220,11 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private SwitchPreference mShowHwLayersUpdates;
     private SwitchPreference mDebugLayout;
     private SwitchPreference mForceRtlLayout;
+    private SwitchPreference mWindowBlurs;
     private ListPreference mDebugHwOverdraw;
     private LogdSizePreferenceController mLogdSizeController;
     private LogpersistPreferenceController mLogpersistController;
-    private ListPreference mUsbConfiguration;
+    private RestrictedPreferenceAdapter<ListPreference> mUsbConfiguration;
     private ListPreference mTrackFrameTime;
     private ListPreference mShowNonRectClip;
     private ListPreference mWindowAnimationScale;
@@ -388,11 +392,13 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         mShowHwLayersUpdates = findAndInitSwitchPref(SHOW_HW_LAYERS_UPDATES_KEY);
         mDebugLayout = findAndInitSwitchPref(DEBUG_LAYOUT_KEY);
         mForceRtlLayout = findAndInitSwitchPref(FORCE_RTL_LAYOUT_KEY);
+        mWindowBlurs = findAndInitSwitchPref(WINDOW_BLURS_KEY);
         mDebugHwOverdraw = addListPreference(DEBUG_HW_OVERDRAW_KEY);
         mWifiDisplayCertification = findAndInitSwitchPref(WIFI_DISPLAY_CERTIFICATION_KEY);
         mWifiVerboseLogging = findAndInitSwitchPref(WIFI_VERBOSE_LOGGING_KEY);
         mMobileDataAlwaysOn = findAndInitSwitchPref(MOBILE_DATA_ALWAYS_ON);
-        mUsbConfiguration = addListPreference(USB_CONFIGURATION_KEY);
+        mUsbConfiguration = addListRestrictedPreference(USB_CONFIGURATION_KEY,
+                UserManager.DISALLOW_USB_FILE_TRANSFER);
 
         mWindowAnimationScale = addListPreference(WINDOW_ANIMATION_SCALE_KEY);
         mTransitionAnimationScale = addListPreference(TRANSITION_ANIMATION_SCALE_KEY);
@@ -475,6 +481,16 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         mAllPrefs.add(pref);
         pref.setOnPreferenceChangeListener(this);
         return pref;
+    }
+
+    private RestrictedPreferenceAdapter<ListPreference> addListRestrictedPreference(String prefKey,
+            String userRestriction) {
+        final ListPreference pref = (ListPreference) findPreference(prefKey);
+        pref.setOnPreferenceChangeListener(this);
+        final RestrictedPreferenceAdapter<ListPreference> restrictedListPref =
+                RestrictedPreferenceAdapter.adapt(pref, userRestriction);
+        mAllPrefs.add(restrictedListPref.getOriginalPreference());
+        return restrictedListPref;
     }
 
     private void disableForUser(Preference pref) {
@@ -660,6 +676,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         updateVerifyAppsOverUsbOptions();
         updateBugreportOptions();
         updateForceRtlOptions();
+        updateWindowBlursOptions();
         mLogdSizeController.updateLogdSizeValues();
         mLogpersistController.updateLogpersistValues();
         updateWifiDisplayCertificationOptions();
@@ -1293,6 +1310,22 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                 getActivity().getResources().getConfiguration().getLocales().get(0));
     }
 
+    private void updateWindowBlursOptions() {
+        if (!CROSS_WINDOW_BLUR_SUPPORTED) {
+            mWindowBlurs.setVisible(false);
+        } else {
+            updateSwitchPreference(mWindowBlurs,
+                    Settings.Global.getInt(mContentResolver,
+                            Settings.Global.DISABLE_WINDOW_BLURS, 0) == 0);
+        }
+    }
+
+    private void writeWindowBlursOptions() {
+        boolean value = mWindowBlurs.isChecked();
+        Settings.Global.putInt(mContentResolver,
+                Settings.Global.DISABLE_WINDOW_BLURS, value ? 0 : 1);
+    }
+
     private void updateWifiDisplayCertificationOptions() {
         updateSwitchPreference(mWifiDisplayCertification, Settings.Global.getInt(
                 mContentResolver, Settings.Global.WIFI_DISPLAY_CERTIFICATION_ON, 0) != 0);
@@ -1339,9 +1372,12 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                     break;
                 }
             }
-            mUsbConfiguration.setValue(values[index]);
-            mUsbConfiguration.setSummary(titles[index]);
-            mUsbConfiguration.setOnPreferenceChangeListener(this);
+            final int updateIndex = index;
+            mUsbConfiguration.updatePreference(listPreference -> {
+                listPreference.setValue(values[updateIndex]);
+                listPreference.setSummary(titles[updateIndex]);
+                listPreference.setOnPreferenceChangeListener(this);
+            });
         }
     }
 
@@ -1620,6 +1656,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             writeDebugLayoutOptions();
         } else if (preference == mForceRtlLayout) {
             writeForceRtlOptions();
+        } else if (preference == mWindowBlurs) {
+            writeWindowBlursOptions();
         } else if (preference == mWifiDisplayCertification) {
             writeWifiDisplayCertificationOptions();
         } else if (preference == mWifiVerboseLogging) {
@@ -1650,7 +1688,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             updateHdcpValues();
             SystemPropPoker.getInstance().poke();
             return true;
-        } else if (preference == mUsbConfiguration) {
+        } else if (preference == mUsbConfiguration.getOriginalPreference()) {
             writeUsbConfigurationOption(newValue);
             return true;
         } else if (preference == mWindowAnimationScale) {

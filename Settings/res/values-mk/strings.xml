@@ -99,6 +99,7 @@
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Приказ на сите апликации"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Дозволи"</string>
     <string name="play_protect_security" msgid="1476818421152898821">"Безбедност"</string>
+    <string name="manage_updates" msgid="2228839328071887368">"Управувајте со ажурирањата"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Сите апликации"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Прикажи ги системските апликации"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Инсталирани апликации"</string>
@@ -159,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ако апликацијата го побара тоа, вашиот уред ќе го усогласи својот излез со оригиналната стапка на слики на содржините што ги гледате. Ова може да предизвика затемнување на екранот за миг при излегувањето или влегувањето во видеорепродукцијата."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Никогаш"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Дури и ако апликацијата го побара тоа, вашиот уред никогаш нема да се обиде да го усогласи својот излез со оригиналната стапка на слики на содржините што ги гледате."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Скалирање текст"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"Скалирај на <xliff:g id="SCALE">%1$d</xliff:g> %%"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Пример за текст"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Чудесниот волшебник од Оз"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Поглавје 11: Чудесниот смарагден град Оз"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"И покрај тоа што очите им беа заштитени со зелени очила, Дороти и нејзините пријатели беа заслепени од блескотот на прекрасниот град. По должината на улиците имаше редици прекрасни куќи, изградени од зелен мермер и украсени насекаде со блескави смарагди. Одеа по тротоар од зелен мермер, а на местата каде што се спојуваа мермерните плочи имаше низи од смарагди наредени еден до друг и светкаа на сонцето. Стаклата на прозорците беа зелени, дури и небото над градот беше зеленикаво, па и самите сончеви зраци се зеленееја. \n\nПокрај нив поминуваа многу луѓе - мажи, жени и деца - сите беа облечени во зелено и имаа зеленикава кожа. Чудејќи се, ги погледнуваа Дороти и нејзиното необично друштво, а сите деца бегаа од нив и се криеја зад своите мајки штом ќе го забележеа лавот; но никој не им се обрати. На улицата имаше многу дуќани и Дороти забележа дека и во нив сѐ е зелено. Тука се продаваа зелени бонбони и зелени пуканки, како и зелени чевли и зелена облека од сите видови. На едно место некој човек продаваше зелена лимонада. Кога децата ја купуваа, Дороти виде дека ја плаќаат со зелени парички. \n\nТука, изгледа, немаше ни коњи ни некои други животни; луѓето туркаа пред себе мали зелени колички и секој изгледаше среќен и задоволен како да живее блажено."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Избор на формат"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Автоматски"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Рачно"</string>
@@ -328,6 +335,7 @@
       <item quantity="one">Апликации за телефон</item>
       <item quantity="other">Апликации за телефон</item>
     </plurals>
+    <string name="default_browser_title" msgid="3612813200586492159">"Апликација за прелистување"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Упатства"</string>
@@ -606,6 +614,22 @@
     <item msgid="5645263357181875427">"Користи време обезбедено од TS"</item>
     <item msgid="5501503537181350884">"Исклучено"</item>
   </string-array>
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"За сите апликации и услуги"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"Неодамнешен пристап од"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Нема неодамнешни пристапи"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"Прикажи ги сите"</string>
+    <string name="microphone" msgid="7893752847683941214">"Микрофон"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"Пристап до микрофонот"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"Пристап на апликации до микрофонот"</string>
+    <string name="camera" msgid="1226671478936288283">"Камера"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Пристап до камерата"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"Пристап на апликации до камерата"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Пристап до микрофонот: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Кога е вклучено, сите апликации и услуги со дозвола може да пристапуваат до сите микрофони на уредов.\n\nПериферните аудиоуреди со приспособен протокол нема да бидат засегнати од поставкава."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Пристап до камерата: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Кога е вклучено, сите апликации и услуги со дозвола може да пристапуваат до сите камери на уредов.\n\nПериферните камери со приспособен протокол нема да бидат засегнати од поставкава."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Вклучено"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Исклучено"</string>
     <string name="system_location" msgid="4057295363709016511">"Локација"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"Дозволете апликациите кои побарале дозвола да ги користат вашите информации за локација"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Согласност за локација"</string>
@@ -702,7 +726,7 @@
     <string name="system_email_address" msgid="3725494874473757217">"Адреса за е-пошта"</string>
     <string name="system_usb_debugging" msgid="2158285492172755923">"Отстранување грешки преку USB"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"Овозможи лажни локации"</string>
-    <string name="system_select_debug_app" msgid="6200987902307533721">"Избери апликација за отстранување грешки"</string>
+    <string name="system_select_debug_app" msgid="6200987902307533721">"Изберете апликација за отстранување грешки"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"Почекај ја програмата за отстранување грешки"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"Потврди апликации преку USB"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"Провери апликации инсталирани преку ADB/ADT за штетно однесување"</string>
@@ -942,8 +966,8 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Се снима извештај за грешка"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Достапни виртуелни тастатури"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Управување со тастатури"</string>
-    <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Дозволено"</string>
-    <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Не е дозволено"</string>
+    <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Со дозвола"</string>
+    <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Без дозвола"</string>
     <string name="usage_access" msgid="8402350645248312782">"Пристап за користење"</string>
     <string name="usage_access_description" msgid="3276026988575551587">"Пристапот за користење овозможува апликацијата да следи кои други апликации ги користите и колку често, како и операторот, поставките за јазик и други детали."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Оптимизација на енергијата"</string>
@@ -968,7 +992,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Да"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Не"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Слика во слика"</string>
-    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Дозволете слика во слика"</string>
+    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Дозволи слика во слика"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Ниту една од инсталираните апликации не поддржува слика во слика"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Дозволете апликациите да создаваат прозорец за слика во слика додека апликацијата е отворена или пак, откако ќе ја напуштите (на пр., за да продолжите со гледање видео). Прозорецов се прикажува врз другите апликации што ги користите."</string>
     <string name="special_access" msgid="21806055758289916">"Посебен пристап за апликации"</string>

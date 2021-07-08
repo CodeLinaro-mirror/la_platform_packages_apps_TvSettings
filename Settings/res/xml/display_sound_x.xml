@@ -33,6 +33,10 @@
         android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
         custom:uri="@string/resolution_slice_uri"
         custom:isPreferenceVisible="false" />
+    <Preference
+        android:key="font_scale"
+        android:title="@string/font_scale_settings_title"
+        android:fragment="com.android.tv.settings.device.displaysound.FontScalePreferenceFragment" />
     <com.android.tv.twopanelsettings.slices.EmbeddedSlicePreference
         android:key="hdr_and_color_format"
         android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
@@ -49,7 +53,7 @@
     <PreferenceCategory
         android:key="sound_category"
         android:title="@string/device_sound" />
-    <SwitchPreference
+    <com.android.tv.settings.widget.SwitchWithSoundPreference
         android:key="sound_effects"
         android:persistent="true"
         android:title="@string/device_sound_effects"/>
