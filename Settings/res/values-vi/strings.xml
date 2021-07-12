@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Ứng dụng đã mở gần đây"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Xem tất cả ứng dụng"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Quyền"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"Bảo mật"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"Quản lý bản cập nhật"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Mọi ứng dụng"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Hiển thị ứng dụng hệ thống"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Ứng dụng đã cài đặt"</string>
@@ -346,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"Tên thiết bị"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Khởi động lại"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"Thông tin pháp lý"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"Giấy phép nguồn mở"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"Nguồn của bên thứ ba"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Chính sách pháp lý của Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Hiện không có dữ liệu về giấy phép"</string>
     <string name="about_model" msgid="9164284529291439296">"Kiểu máy"</string>
@@ -905,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Chưa đặt mặc định"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Xóa bộ nhớ đệm"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Thông báo"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"Giấy phép nguồn mở"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Nguồn của bên thứ ba"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Quyền"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Ứng dụng không khả dụng"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
@@ -978,7 +978,7 @@
     <string name="high_power_system" msgid="6263052626979462255">"Tính năng tối ưu hóa năng lượng không có sẵn"</string>
     <string name="manage_notification_access_title" msgid="8659254371564990084">"Quyền truy cập thông báo"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Không có ứng dụng đã cài đặt nào yêu cầu quyền truy cập thông báo."</string>
-    <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Các ứng dụng này sẽ có thể đọc tất cả thông báo, bao gồm cả thông tin cá nhân như tên liên hệ và nội dung của thông báo bạn nhận được. Các ứng dụng này cũng có thể loại bỏ thông báo hoặc kích hoạt nút hành động trong các thông báo đó."</string>
+    <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Các ứng dụng này sẽ có thể đọc tất cả thông báo, bao gồm cả thông tin cá nhân như tên của người liên hệ và nội dung của thông báo bạn nhận được. Các ứng dụng này cũng có thể loại bỏ thông báo hoặc kích hoạt các nút thao tác trong những thông báo đó."</string>
     <string name="default_notification_access_package_summary" msgid="1354775994781420222">"Do hệ thống yêu cầu"</string>
     <string name="directory_access" msgid="7338555825237012006">"Quyền truy cập vào thư mục"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"Các ứng dụng này có quyền truy cập vào một số thư mục nhất định."</string>
@@ -995,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Cho phép hình trong hình"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Không có ứng dụng đã cài đặt nào hỗ trợ chế độ Hình trong hình"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Cho phép ứng dụng tạo cửa sổ hình trong hình khi ứng dụng đang mở hoặc sau khi bạn rời khỏi ứng dụng đó (chẳng hạn như để tiếp tục xem video). Cửa sổ này sẽ hiển thị trên các ứng dụng khác mà bạn đang sử dụng."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Cho phép các ứng dụng đặt chuông báo và lên lịch cho các thao tác cần chính xác về thời gian. Chế độ này cho phép ứng dụng chạy ở chế độ nền và có thể làm tăng mức năng lượng sử dụng.\n\nNếu bạn không cấp quyền này, các chuông báo và sự kiện mà ứng dụng đã đặt lịch sẽ không hoạt động."</string>
     <string name="special_access" msgid="21806055758289916">"Quyền truy cập đặc biệt"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Âm thanh"</string>

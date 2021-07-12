@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"最近開啟的應用程式"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"查看所有應用程式"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"權限"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"安全性"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"管理更新"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"所有應用程式"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"顯示系統應用程式"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"已安裝的應用程式"</string>
@@ -133,10 +133,10 @@
     <string name="surround_sound_auto_title" msgid="4892922385727913277">"自動：僅啟用音訊輸出裝置支援的格式 "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"如果選取這個選項，系統將允許應用程式選取裝置鏈支援的任何音效格式。應用程式不一定會選擇最高音質的格式。"</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"無：一律不使用環場音效"</string>
-    <string name="surround_sound_manual_title" msgid="4935447605070985537">"手動：選擇性啟用或停用這部裝置支援的各種格式，無論音訊輸出裝置支援的格式為何。"</string>
-    <string name="surround_sound_manual_summary" msgid="5155535847461070572">"如果選取這個選項，當裝置鏈支援的音效格式造成播放問題時，你可以手動停用。你也可以啟用裝置鏈不支援的音效格式。在某些情況下，應用程式不一定會選擇最高音質的格式。"</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"手動：選擇啟用或停用這部裝置支援的各種格式，而不考慮音訊輸出裝置是否支援相關格式。"</string>
+    <string name="surround_sound_manual_summary" msgid="5155535847461070572">"如果選取這個選項，當裝置系統支援的音效格式造成播放問題時，你就可以手動停用該格式。你也可以啟用裝置系統不支援的音效格式。在某些情況下，應用程式不一定會選擇最高音質的格式。"</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"要啟用不支援的音效格式嗎？"</string>
-    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"連線的音訊裝置並未回報支援這個格式，裝置可能會因此無法正常運作，例如聲音不連貫或發出大聲的噪音。"</string>
+    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"連線的音訊裝置並未回報支援此格式，裝置可能會因此無法正常運作，例如發出大聲的噪音或爆音。"</string>
     <string name="surround_sound_enable_unsupported_dialog_cancel" msgid="3499147437078761105">"取消"</string>
     <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"仍要變更"</string>
     <string name="surround_sound_supported_title" msgid="4873195851187547020">"支援的格式"</string>
@@ -155,11 +155,11 @@
     <string name="game_mode_title" msgid="7280816243531315755">"允許遊戲模式"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"採用內容影格速率"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"流暢轉換"</string>
-    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"如果應用程式提出要求，你的裝置就會嘗試將輸出的影格速率調整為觀看內容的原始影格速率，前提是你的電視必須支援流暢轉換。"</string>
+    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"如果應用程式要求，而且你的電視支援流暢轉換，你的裝置就會依據所觀看內容的原始影格速率輸出畫面。"</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"非流暢轉換"</string>
-    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"如果應用程式提出要求，你的裝置就會嘗試將輸出的影格速率調整為觀看內容的原始影格速率。這樣一來，當影片開始播放或結束播放時，螢幕可能會短暫出現空白畫面。"</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"如果應用程式要求，你的裝置會依據所觀看內容的原始影格速率輸出畫面。這可能會讓螢幕在影片開始或結束播放時，短暫出現空白畫面。"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"一律不採用"</string>
-    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"即使應用程式提出要求，你的裝置也一律不會將輸出的影格速率調整為觀看內容的原始影格速率。"</string>
+    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"即使應用程式要求，你的裝置也絕不會依據所觀看內容的原始影格速率輸出畫面。"</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"文字比例"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"調整為 <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"範例文字"</string>
@@ -177,8 +177,8 @@
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
     <string name="hdr_format_dolby_vision" msgid="7367264615042999587">"Dolby Vision"</string>
-    <string name="hdr_format_selection_auto_summary" msgid="7384637194191436727">"如果你選取這個選項，系統將允許應用程式選取裝置鏈支援的任何 HDR 格式。應用程式不一定會選擇最高畫質的格式。"</string>
-    <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"如果你選取這個選項，當裝置鏈支援的 HDR 格式造成播放問題時，你就可以手動停用。不過，如果是裝置鏈不支援的 HDR 格式，就無法強制停用。應用程式不一定會選擇最高畫質的格式。"</string>
+    <string name="hdr_format_selection_auto_summary" msgid="7384637194191436727">"如果選取這個選項，系統將允許應用程式選取裝置系統支援的任何 HDR 格式。應用程式不一定會選擇最高畫質的格式。"</string>
+    <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"如果選取這個選項，當裝置系統支援的 HDR 格式造成播放問題時，你就可以手動停用該格式。不過，你無法強制啟用裝置系統不支援的 HDR 格式。應用程式不一定會選擇最高畫質的格式。"</string>
     <string name="hdr_format_info" msgid="5652559220799426076">"格式資訊"</string>
     <string name="hdr_show_formats" msgid="171065892975445851">"顯示格式"</string>
     <string name="hdr_hide_formats" msgid="8561568998525727230">"隱藏格式"</string>
@@ -346,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"裝置名稱"</string>
     <string name="restart_button_label" msgid="911750765086382990">"重新啟動"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"法律資訊"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"開放原始碼授權"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"第三方來源"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google 法律條款"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"無法提供授權資料"</string>
     <string name="about_model" msgid="9164284529291439296">"型號"</string>
@@ -905,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"未設定預設值"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"清除快取"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"通知"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"開放原始碼授權"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"第三方來源"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"權限"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"無法使用應用程式"</string>
     <string name="settings_ok" msgid="5950888975075541964">"確定"</string>
@@ -995,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"允許子母畫面"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"尚未安裝支援子母畫面的應用程式"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"允許應用程式在開啟時或你離開後 (例如離開應用程式以繼續觀看影片) 建立子母畫面視窗。這類視窗會在你目前使用的其他應用程式上層顯示。"</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"允許應用程式設定鬧鐘及安排有時效性的動作。這麼做會讓應用程式在背景執行，可能比較耗電。\n\n如果關閉這項權限，這個應用程式設定的現有鬧鐘將不會響起，而且應用程式也無法在預定的時間發出活動提醒。"</string>
     <string name="special_access" msgid="21806055758289916">"特殊應用程式存取權"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>，<xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"音訊"</string>
