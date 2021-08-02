@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"हालै खोलिएका एपहरू"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"सबै एपहरू हेर्नुहोस्"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"अनुमति"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"सुरक्षा"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"अपडेटहरू व्यवस्थापन गर्नुहोस्"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"सबै एपहरू"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"प्रणालीका एपहरू देखाउनुहोस्"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"इन्स्टल गरिएका एपहरू"</string>
@@ -160,18 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"एपले डिस्प्लेको फ्रेम रेट सामग्रीको फ्रेम रेटका आधारमा निर्धारण गर्ने अनुरोध गरेका खण्डमा तपाईंको यन्त्रले यसको आउटपुट तपाईंले हेरिरहनुभएको सामग्रीको मूल फ्रेम रेटका आधारमा निर्धारण गर्ने छ। यसले गर्दा भिडियो प्ले गर्न थाल्दा वा उक्त भिडियोबाट बाहिरिँदा स्क्रिन खाली देखिन सक्छ।"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"कहिल्यै पनि होइन"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"एपले डिस्प्लेको फ्रेम रेट सामग्रीको फ्रेम रेटका आधारमा निर्धारण गर्न अनुरोध गरेका खण्डमा पनि तपाईंको यन्त्रले कहिल्यै पनि यसको आउटपुट तपाईंले हेरिरहनुभएको सामग्रीको मूल फ्रेम रेटका आधारमा निर्धारण गर्ने प्रयास गर्ने छैन।"</string>
-    <!-- no translation found for font_scale_settings_title (4114019544800225980) -->
-    <skip />
-    <!-- no translation found for font_scale_item_detail (1558315053348778805) -->
-    <skip />
-    <!-- no translation found for font_scale_sample_text_title (5239266611413037261) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_title (8056182208511371119) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_subtitle (677394182922188048) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_body (2040384234251207410) -->
-    <skip />
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"टेक्स्ट स्केलिङ"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"स्केल गरेर <xliff:g id="SCALE">%1$d</xliff:g>%% बनाउनुहोस्"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"नमुना पाठ"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"The Wonderful Wizard of Oz"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"भाग ११: The Wonderful Emerald City of Oz"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"डोरोथी र उनका साथीहरूले सुरक्षाका लागि आँखामा हरियो चस्मा लगाएका भए पनि त्यस अद्भुत सहरको चमक देखेर उनीहरू सुरुमा निकै आश्चर्यचकित भए। त्यस सहरका गल्लीहरूको दुवै छेउमा लस्करै हरियो मार्बलले बनेका सुन्दर घरहरू थिए र ती घरमा जताततै झिलमिलाउँदा पन्नाहरू टाँसिएका थिए। उनीहरू त्यही हरियो मार्बलको पेटीमा हिँडदै थिए, ब्लकहरूलाई आपसमा नजिक नजिक मिलाएर राखी पन्नाका रोहरूले जोडिएको थियो र त्यो सूर्यको प्रकाशमा जगमगाइरहेको थियो। झ्यालका पल्लाहरू हरियो काँचका थिए, त्यतिमात्र कहाँ हो र सहरमाथिको आकाशमा पनि हल्का हरियो रङको छाप देखिन्थ्यो र सूर्यका किरण पनि हरियो रङका नै थिए। \n\nत्यहाँ महिला, पुरुष र बालबालिकाहरू जस्ता धेरै मान्छेहरू यताउता हिँडिरहेका थिए र ती मान्छेहरूले हरियो कपडा लगाएका थिए र उनीहरूको छाला पनि हल्का हरियो खाले थियो। उनीहरूले डोरोथी तथा अनौठो विविधता भएका उनका साथीहरूलाई अचम्मको दृष्टिले हेरे र सिँहलाई देखेर सबै बालबालिकाहरू भागेर आफ्नो आमाको पछाडि लुक्न थाले तर कसैले पनि उनीहरूसँग कुरा गरेनन्। गल्लीमा थुप्रै पसलहरू थिए र डोरोथीले भने त्यहाँ भएका सबै कुराहरू हरियो रङका नै छन् भन्ने देखिन्। त्यहाँ बिक्रीका लागि हरियो क्यान्डी र मकैका फुलाका साथै हरियो रङका जुत्ता, हरियो रङका टोपी र थुप्रै प्रकारका हरियो रङका कपडाहरू राखिएका थिए। एक ठाउँमा एक जना व्यक्ति हरियो रङको कागती पानी बेच्दै थियो र डोरोथीले ती बालबालिकाहरूले त्यो किन्दा हरियो रङका सिक्काहरू दिएको देख्छिन्। \n\nत्यहाँ घोडा वा कुनै अरू जनावरहरू छैनन् जस्तो देखिन्थ्यो; त्यहाँ मान्छेहरू साना हरियो रङका गाडाहरूमा सामानहरू लिएर अगाडितिर धकेल्दै हिँड्थे। सबै जना खुसी र सन्तुष्ट तथा सम्पन्न देखिन्थे।"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"फर्म्याट छनौट"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"स्वचालित"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"म्यानुअल"</string>
@@ -352,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"डिभाइसको नाम"</string>
     <string name="restart_button_label" msgid="911750765086382990">"पुन: सुरु गर्नुहोस्"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"कानूनी जानकारी"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"खुला स्रोतका इजाजतपत्रहरू"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"तेस्रो पक्षीय स्रोत"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google सम्बन्धी कानुनी जानकारी"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"लाइसेन्स डेटा उपलब्ध छैन"</string>
     <string name="about_model" msgid="9164284529291439296">"मोडेल"</string>
@@ -911,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"कुनै पनि पूर्वनिर्धारितहरू सेट छैनन्"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"क्यास खाली गर्नुहोस्"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"सूचनाहरू"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"खुला स्रोतका इजाजतपत्रहरू"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"तेस्रो पक्षीय स्रोत"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"अनुमतिहरू"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"एप उपलब्ध छैन"</string>
     <string name="settings_ok" msgid="5950888975075541964">"ठिक छ"</string>
@@ -968,7 +962,7 @@
     <string name="experimental_preference" msgid="3982593252210557436">"(प्रयोगात्मक)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"सुरक्षित मोडमा पुनःबुट गर्नुहोस्"</string>
     <string name="reboot_safemode_confirm" msgid="5745977150299953603">"तपाईं सुरक्षित मोडमा पुनःबुट गर्न चाहनुहुन्छ?"</string>
-    <string name="reboot_safemode_desc" msgid="2919933461408942799">"यसले तपाईँले स्थापना गरेका सबै तेस्रो पक्षीय एपहरूलाई असक्षम गर्ने छ। तपाईँले पुनःबुट गरेप‍छि तिनीहरूलाई पुनर्स्थापित गरिनेछ।"</string>
+    <string name="reboot_safemode_desc" msgid="2919933461408942799">"यसले तपाईँले स्थापना गरेका सबै तेस्रो पक्षीय एपहरूलाई असक्षम गर्ने छ। तपाईँले पुनःबुट गरेप‍छि तिनीहरूलाई पुनर्स्थापित गरिने छ।"</string>
     <string name="capturing_bugreport" msgid="832512801903486821">"बग रिपोर्ट समावेश गर्दै"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"उपलब्ध भर्चुअल किबोर्ड"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"किबोर्डहरूको व्यवस्थापन गर्नुहोस्"</string>
@@ -1001,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Picture-in-picture लाई अनुमति दिइयोस्"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"स्थापना गरिएको कुनै पनि अनुप्रयोगले Picture-in-picture मोडलाई समर्थन गर्दैन"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"यो एप खुला रहेको अवस्थामा वा तपाईंले यसलाई छाडेपछि (उदाहरणका लागि, भिडियो हेर्ने कार्य जारी राख्न) यस एपलाई picture-in-picture विन्डो सिर्जना गर्ने अनुमति दिनुहोस्। यो विन्डो तपाईंले प्रयोग गरिरहनुभएका अन्य एपहरूको माथि देखिन्छ।"</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"यी एपहरूलाई अलार्म सेट गर्ने र समयमै पूरा गर्नु पर्ने कारबाहीहरूको रुटिन तय गर्ने अनुमति दिनुहोस्। यो अनुमति दिइएको छ भने यी एप ब्याकग्राउन्डमा चल्छन्। त्यसैले, यी एपले धेरै ब्याट्री खपत गर्न सक्छन्।\n\nयो अनुमति दिइएको छैन भने समय तोकिएका अलार्म र यी एपले तय गरेका समयअनुसार चल्ने कार्यक्रमहरूले काम गर्दैनन्।"</string>
     <string name="special_access" msgid="21806055758289916">"एपलाई विशेष पहुँच"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"अडियो"</string>

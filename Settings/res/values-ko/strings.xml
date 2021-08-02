@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"최근에 사용한 앱"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"모든 앱 보기"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"권한"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"보안"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"업데이트 관리"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"모든 앱"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"시스템 앱 보기"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"설치된 앱"</string>
@@ -138,7 +138,7 @@
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"지원되지 않는 사운드 형식을 사용 설정할까요?"</string>
     <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"연결된 오디오 기기가 이 형식을 지원하지 않습니다. 이로 인해 기기에서 큰 잡음과 같은 예기치 않은 동작이 발생할 수 있습니다."</string>
     <string name="surround_sound_enable_unsupported_dialog_cancel" msgid="3499147437078761105">"취소"</string>
-    <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"계속 변경"</string>
+    <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"변경"</string>
     <string name="surround_sound_supported_title" msgid="4873195851187547020">"지원되는 형식"</string>
     <string name="surround_sound_unsupported_title" msgid="2302820271700954900">"지원되지 않는 형식"</string>
     <string name="surround_sound_format_info" msgid="5671866505653542934">"형식 정보"</string>
@@ -153,7 +153,7 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"고급 소리 설정"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"게임 모드 허용"</string>
-    <string name="match_content_frame_rate_title" msgid="153291168560947689">"일치하는 콘텐츠 프레임 속도"</string>
+    <string name="match_content_frame_rate_title" msgid="153291168560947689">"콘텐츠 프레임 속도 일치시키기"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"원활한 전환 사용"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"앱에서 요청하면 TV에서 원활한 전환을 실행할 수 있는 경우에만 기기에서 시청 중인 콘텐츠의 원래 프레임 속도에 출력을 맞춥니다."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"원활한 전환 사용 안함"</string>
@@ -177,7 +177,7 @@
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
     <string name="hdr_format_dolby_vision" msgid="7367264615042999587">"Dolby Vision"</string>
-    <string name="hdr_format_selection_auto_summary" msgid="7384637194191436727">"이 옵션을 선택하면 시스템에서 앱이 기기 체인에서 지원되는 모든 HDR 형식을 선택하도록 허용하게 됩니다. 앱에서 최고 품질이 아닌 형식을 선택할 수 있습니다."</string>
+    <string name="hdr_format_selection_auto_summary" msgid="7384637194191436727">"이 옵션을 선택하면 시스템에서 앱이 기기 체인에서 지원되는 HDR 형식을 선택하도록 허용하게 됩니다. 앱에서 최고 품질이 아닌 형식을 선택할 수 있습니다."</string>
     <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"이 옵션을 선택하면 기기 체인에서 지원되며 재생 관련 문제를 일으키는 HDR 형식을 수동으로 사용 중지할 수 있습니다. 기기 체인에서 지원되지 않는 HDR 형식은 강제로 사용 설정할 수 없습니다. 앱에서 최고 품질이 아닌 형식을 선택할 수 있습니다."</string>
     <string name="hdr_format_info" msgid="5652559220799426076">"형식 정보"</string>
     <string name="hdr_show_formats" msgid="171065892975445851">"형식 표시"</string>
@@ -346,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"기기 이름"</string>
     <string name="restart_button_label" msgid="911750765086382990">"다시 시작"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"법적 정보"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"오픈소스 라이선스"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"제3자 출처"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google 법적 고지"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"라이선스 데이터를 사용할 수 없습니다."</string>
     <string name="about_model" msgid="9164284529291439296">"모델"</string>
@@ -905,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"기본값이 설정되지 않음"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"캐시 삭제"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"알림"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"오픈소스 라이선스"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"제3자 출처"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"권한"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"사용할 수 없는 애플리케이션"</string>
     <string name="settings_ok" msgid="5950888975075541964">"확인"</string>
@@ -995,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"PIP 모드 허용"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"PIP 모드를 지원하는 앱이 설치되지 않았습니다."</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"앱이 열려 있을 때나 사용자가 앱에서 나갔을 때 앱에서 PIP 창을 표시하도록 허용합니다(예: 동영상 시청을 계속하기 위해). 이 창은 사용 중인 다른 앱 위에 표시됩니다."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"앱에서 알람을 설정하고 시간 기반 작업을 예약할 수 있도록 허용합니다. 이렇게 하면 백그라운드에서 앱 실행이 허용되어 전원 사용량이 증가할 수 있습니다.\n\n이 권한을 사용 중지하면 앱에서 예약한 기존의 알람 및 시간 기반 일정이 작동하지 않습니다."</string>
     <string name="special_access" msgid="21806055758289916">"특수 앱 액세스"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"오디오"</string>

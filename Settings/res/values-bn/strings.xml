@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"সম্প্রতি ব্যবহার করা অ্যাপ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"সমস্ত অ্যাপ দেখুন"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"অনুমতি"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"নিরাপত্তা"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"আপডেট ম্যানেজ করুন"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"সব অ্যাপ"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"সিস্টেম অ্যাপগুলি দেখান"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"ইনস্টল করা অ্যাপ"</string>
@@ -160,18 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"অ্যাপ অনুরোধ করলে, আপনি যে কন্টেন্ট দেখছেন তার প্রকৃত ফ্রেম রেটের সঙ্গে এর আউটপুট মেলানোর চেষ্টা ডিভাইস করবে। এর ফলে চালু বা কোনও ভিডিও প্লেব্যাকে ঢুকলে আপনার স্ক্রিন এক সেকেন্ডের জন্য ফাঁকা হয়ে যেতে পারে।"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"কখনই নয়"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"এমনকি অ্যাপও যদি অনুরোধ করে তাও, আপনি যে কন্টেন্ট দেখছেন কখনও তার প্রকৃত ফ্রেম রেটের সঙ্গে এর আউটপুট মেলানোর চেষ্টা ডিভাইস করবে না।"</string>
-    <!-- no translation found for font_scale_settings_title (4114019544800225980) -->
-    <skip />
-    <!-- no translation found for font_scale_item_detail (1558315053348778805) -->
-    <skip />
-    <!-- no translation found for font_scale_sample_text_title (5239266611413037261) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_title (8056182208511371119) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_subtitle (677394182922188048) -->
-    <skip />
-    <!-- no translation found for font_scale_preview_text_body (2040384234251207410) -->
-    <skip />
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"টেক্সট স্কেলিং"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"<xliff:g id="SCALE">%1$d</xliff:g>%% পর্যন্ত স্কেল করুন"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"স্যাম্পেল টেক্সট"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"দি ওয়ান্ডারফুল উইজার্ড অফ ওজ"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"চ্যাপ্টার ১১: দি ওয়ান্ডারফুল এমারল্ড সিটি অফ ওজ"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"চোখে সবুজ চশমা লাগানো থাকলেও, ডরোথি ও তার বন্ধুরা অপূর্ব এই শহরের প্রথম চমক দেখেই অবাক হয়ে গেছিল। রাস্তায় সারিবদ্ধভাবে থাকা সুন্দর সব ঘর, তার সবগুলি সবুজ মার্বেল নির্মিত এবং সর্বত্র ঝলমলে পান্নাখচিত। তারা সেই একই সবুজ মার্বেলের তৈরি একটি ফুটপাথ ধরে হেঁটে চলেছিল, যেখানে একটির সাথে আর একটি ব্লক পরপর সাজানো পান্না দিয়ে যুক্ত করে কঠিনভাবে সেট করা এবং তা সূর্যের আলোকে চকচক করছিল। জানালার সার্শিগুলোও সবুজ কাচের তৈরি; এমনকি শহরের আকাশেও ছিল সবুজের আভা আর সূর্যের কিরণের রঙও সবুজ। \n\nঅনেক লোকজন, পুরুষ, মহিলা ও শিশু সেই পথে যাতায়াত করছিল, সকলেরই পরনে সবুজ রঙের পোশাক, আর তাদের গায়ের রঙও সবুজাভ। তারা ডরোথি ও তার বিস্ময়কর সঙ্গীদের অবাক চোখে দেখছিল এবং সিংহটিকে দেখামাত্র বাচ্চারা তাদের মায়েদের পিছনে লুকিয়ে পড়ল; তবে কেউই তাদের সঙ্গে কোনও কথা বলল না। রাস্তার পাশে অনেক দোকান, ডরোথি দেখল সেখানেও সবকিছুই সবুজ রঙের। সেখানে বিক্রির জন্য সাজানো ছিল সবুজ ক্যান্ডি, সবুজ ভুট্টার খই এমনকি সবুজ জুতো, সবুজ টুপি। আর যত রকম জামাকাপড় ছিল, সবই সবুজ রঙের। একজন লোক এক জায়গায় দাঁড়িয়ে সবুজ রঙের শরবত বিক্রি করছিল। ডরোথি দেখল, একজন বাচ্চা সেটা কিনে সবুজ রঙের পয়সা দিয়ে দাম দিল। \n\nদেখে মনে হচ্ছিল, সেখানে ঘোড়া বা অন্য কোনও ধরনের প্রাণী নেই; পুরুষরা ছোট সবুজ ঠেলাগাড়িতে করে কাছাকাছি জিনিসপত্র বয়ে নিয়ে যাচ্ছিল। প্রত্যেককেই খুশি, সন্তুষ্ট ও সমৃদ্ধ বলে মনে হচ্ছিল।"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ফর্ম্যাট বেছে নেওয়া"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"অটোমেটিক"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ম্যানুয়াল"</string>
@@ -352,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"ডিভাইসের নাম"</string>
     <string name="restart_button_label" msgid="911750765086382990">"রিস্টার্ট করুন"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"আইনি তথ্য"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"ওপেন সোর্স লাইসেন্স"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"থার্ড-পার্টির সোর্স"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google আইনি"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"লাইসেন্স ডেটা অনুপলব্ধ"</string>
     <string name="about_model" msgid="9164284529291439296">"মডেল"</string>
@@ -911,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"কোনো ডিফল্ট সেট করা নেই"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"ক্যাশে সরান"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"বিজ্ঞপ্তিগুলি"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"ওপেন সোর্স লাইসেন্স"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"থার্ড-পার্টির সোর্স"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"অনুমতিগুলি"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"অ্যাপ্লিকেশান অনুপলব্ধ"</string>
     <string name="settings_ok" msgid="5950888975075541964">"ঠিক আছে"</string>
@@ -1001,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"ছবির-মধ্যে-ছবি তৈরির অনুমতি দিন"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ইনস্টল করা কোনও অ্যাপ ছবির-মধ্যে-ছবি মোড সমর্থন করে না"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"অ্যাপটি খোলা থাকার সময় অথবা আপনি এটি ছেড়ে বেরিয়ে গেলে (যেমন, কোনও ভিডিও দেখার জন্য) এটিকে একটি ছবির-মধ্যে-ছবি সমেত উইন্ডো তৈরি করার অনুমতি দিন। চালু থাকা অন্যান্য অ্যাপের উপরে এই উইন্ডোটি দেখা যাবে।"</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"অ্যালার্ম এবং সময়ের মধ্যে শেষ করতে হবে এমন অ্যাকশনের শিডিউল সেট করতে অ্যাপগুলিকে অনুমতি দিন। এর ফলে ব্যাকগ্রাউন্ডে অ্যাপগুলি চলে, যার জন্য আরও ব্যাটারির চার্জ খরচ হতে পারে।\n\nএই অনুমতি বন্ধ করা থাকলে, অ্যাপগুলির মাধ্যমে আগে থেকে শিডিউল করা অ্যালার্ম এবং সময়-ভিত্তিক ইভেন্টের রিমাইন্ডার কাজ করবে না।"</string>
     <string name="special_access" msgid="21806055758289916">"অ্যাপের বিশেষ অ্যাক্সেস"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"অডিও"</string>
