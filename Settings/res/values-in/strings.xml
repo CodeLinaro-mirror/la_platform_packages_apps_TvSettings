@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Aplikasi yang baru dibuka"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Lihat semua aplikasi"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Izin"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"Keamanan"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"Kelola Update"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Semua aplikasi"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Tampilkan aplikasi sistem"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Aplikasi terinstal"</string>
@@ -160,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Jika aplikasi memintanya, perangkat akan mencocokkan outputnya ke kecepatan frame asli konten yang sedang Anda tonton. Hal ini dapat menyebabkan layar kosong sebentar saat keluar dari atau masuk ke pemutaran video."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Jangan pernah"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Meskipun aplikasi memintanya, perangkat tidak akan mencoba mencocokkan outputnya ke kecepatan frame asli konten yang sedang Anda tonton."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Penskalaan teks"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"Skalakan ke <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Teks contoh"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Penyihir Oz yang Menakjubkan"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Bab 11: Oz, Kota Zamrud yang Menakjubkan"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Meski terlindung oleh kacamata berwarna hijau, Dorothy dan teman-temannya disilaukan oleh gemerlap Kota yang menakjubkan. Rumah-rumah cantik dari marmer hijau berderet di sepanjang jalan bertaburkan zamrud. Mereka berjalan di trotoar yang juga terbuat dari marmer hijau, di blok yang menyatu rapat dengan deretan zamrud yang berkilauan di tengah terik matahari. Jendela-jendela rumah terbuat dari kaca hijau; langit di atas Kota tampak kehijauan, dan cahaya mataharinya pun hijau. \n\nDi sana ada banyak orang, laki-laki, perempuan, dan anak-anak, semuanya sibuk lalu-lalang; semua berpakaian hijau dan kulit mereka pun berwarna kehijauan. Mereka memandang Dorothy dan rombongannya yang aneh dengan penuh keheranan. Anak-anak berlari dan bersembunyi di belakang ibu mereka saat melihat si Singa; tetapi tidak ada yang berani mengajaknya bicara. Dorothy melihat ada banyak toko di sepanjang jalan, dan semua isinya juga berwarna hijau. Toko-toko itu menjual permen hijau, brondong jagung hijau, sepatu hijau, topi hijau, dan segala macam pakaian hijau. Ketika melewati sebuah tempat, Dorothy melihat seorang pria menjual limun hijau, yang dibeli anak-anak dengan uang koin berwarna hijau. \n\nSepertinya tidak ada kuda atau hewan apa pun di sini; para lelaki membawa barang dalam gerobak dorong kecil berwarna hijau. Semua orang terlihat bahagia, puas, dan sejahtera."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Pilihan format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Otomatis"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manual"</string>
@@ -340,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"Nama perangkat"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Mulai ulang"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"Informasi hukum"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"Lisensi open source"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"Sumber Pihak Ketiga"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Info hukum Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Data lisensi tidak tersedia"</string>
     <string name="about_model" msgid="9164284529291439296">"Model"</string>
@@ -619,9 +625,9 @@
     <string name="camera_toggle_title" msgid="5566469574224956142">"Akses kamera"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Akses aplikasi ke kamera"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Akses Mikrofon: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4436219037877456256">"Jika diaktifkan, semua aplikasi dan layanan yang memiliki izin dapat mengakses mikrofon di perangkat ini.\n\nPeriferal audio seperti perangkat mikrofon eksternal dengan protokol khusus tidak akan terpengaruh oleh setelan ini."</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Jika diaktifkan, semua aplikasi dan layanan yang memiliki izin dapat mengakses mikrofon di perangkat ini.\n\nPeriferal audio dengan protokol khusus tidak akan terpengaruh oleh setelan ini."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Akses Kamera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="7045001373813906859">"Jika diaktifkan, semua aplikasi dan layanan yang memiliki izin dapat mengakses kamera di perangkat ini.\n\nPeriferal kamera seperti webcam eksternal dengan protokol khusus tidak akan terpengaruh oleh setelan ini."</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Jika diaktifkan, semua aplikasi dan layanan yang memiliki izin dapat mengakses kamera di perangkat ini.\n\nPeriferal kamera dengan protokol khusus tidak akan terpengaruh oleh setelan ini."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Aktif"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Nonaktif"</string>
     <string name="system_location" msgid="4057295363709016511">"Lokasi"</string>
@@ -899,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Tidak ada default yang disetel"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Hapus cache"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Notifikasi"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"Lisensi open source"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Sumber Pihak Ketiga"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Izin"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Aplikasi tidak tersedia"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Oke"</string>
@@ -989,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Izinkan picture-in-picture"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Tidak ada aplikasi terinstal yang mendukung Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Mengizinkan aplikasi membuat jendela picture-in-picture saat aplikasi terbuka atau setelah Anda membiarkannya terbuka (misalnya, untuk melanjutkan aktivitas menonton video). Jendela ini ditampilkan di atas aplikasi lain yang sedang digunakan."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Izinkan aplikasi menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, yang dapat menggunakan lebih banyak daya.\n\nJika izin ini nonaktif, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi tidak akan berfungsi."</string>
     <string name="special_access" msgid="21806055758289916">"Akses aplikasi khusus"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>

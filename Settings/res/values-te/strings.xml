@@ -98,9 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"ఇటీవల తెరిచిన యాప్‌లు"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"అన్ని యాప్‌లను చూడండి"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"అనుమతులు"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"సెక్యూరిటీ"</string>
-    <!-- no translation found for manage_updates (2228839328071887368) -->
-    <skip />
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"అన్ని యాప్‌లు"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"సిస్టమ్ యాప్‌లను చూపు"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"ఇన్‌స్టాల్ చేయబడిన యాప్‌లు"</string>
@@ -161,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"యాప్ దానిని రిక్వెస్ట్ చేస్తే, మీ పరికరం దాని అవుట్‌పుట్‌ను మీరు చూస్తున్న కంటెంట్‌కు సంబంధించిన ఒరిజినల్ ఫ్రేమ్ రేట్‌తో మ్యాచ్ చేస్తుంది. వీడియో ప్లేబ్యాక్ నుండి నిష్క్రమించేటప్పుడు లేదా ప్రవేశించేటప్పుడు మీ స్క్రీన్ ఒక సెకను బ్లాంక్ కావచ్చు."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ఎప్పుడూ వద్దు"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"యాప్ దానిని రిక్వెస్ట్ చేసినప్పటికీ, మీ పరికరం దాని అవుట్‌పుట్‌ను మీరు చూస్తున్న కంటెంట్‌కు సంబంధించిన ఒరిజినల్ ఫ్రేమ్ రేట్‌తో మ్యాచ్ చేయడానికి ట్రై చేయదు."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"టెక్స్ట్ స్కేలింగ్"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"<xliff:g id="SCALE">%1$d</xliff:g>%% వరకు స్కేల్ చేయండి"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"శాంపిల్ టెక్స్ట్"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ది వండర్‌ఫుల్ విజర్డ్ ఆఫ్ ఆజ్"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"చాప్టర్ 11: ది వండర్‌ఫుల్ ఎమరాల్డ్ సిటీ ఆఫ్ ఆజ్"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"డొరోతీ అలాగే ఆమె స్నేహితులు కళ్లకు పచ్చని అద్దాలతో సంరక్షించబడినా, అద్భుతమైన మిరిమిట్లుగొలిపే నగర ప్రకాశాన్ని సందర్శిస్తున్నారు. ప్రతీచోటా మెరిసే పచ్చని రాళ్లతో పొదగబడి ఉన్న ఆకుపచ్చటి పాలరాతితో నిర్మించబడిన అందమైన ఇళ్లతో వీధులు తీర్చిదిద్దబడ్డాయి. వాళ్లు సూర్యకాంతికి మెరుస్తున్న, దగ్గరగా నిర్మితమై ఉన్న, పచ్చల రాళ్లు అన్నీ కలిసి ఉన్న అదే ఆకు పచ్చని పాలరాతిపై నడుస్తున్నారు. కిటికీ అద్దాలు ఆకుపచ్చగా ఉన్నాయి; నగరం పైన ఆకాశం కూడా ఆకుపచ్చ రంగులో ఉంది, సూర్య కిరణాలు కూడా ఆకుపచ్చగా ఉన్నాయి. \n\nఅక్కడ చాలా మంది ఆకు పచ్చని చర్మంతో గల స్త్రీలు, పురుషులు అలాగే పిల్లలు ఆకు పచ్చని దుస్తులతో నడుస్తున్నారు. వాళ్లు డొరోతీని, ఆమె ఇతర స్నేహితులను వింతగా ఆశ్చర్యంగా చూసారు. సింహాన్ని చూసినప్పుడు పిల్లలందరూ పారిపోయి, వారి తల్లిదండ్రుల వెనుక దాగిన విధంగా, కానీ వారితో ఎవరూ మాట్లాడలేదు, వీధిలో చాలా దుకాణాలు ఉన్నాయి. డొరోతీకి అక్కడ ఉన్న అంశాలన్నీ పచ్చగా కనిపించాయి పచ్చని మిఠాయిలు అలాగే పచ్చని పాప్-కార్న్ అమ్మబడుతున్నాయి, అలాగే పచ్చని చెప్పులు, పచ్చని టోపీలు, పచ్చని దుస్తులు కనిపిస్తున్నాయి. ఒక చోట ఒక వ్యక్తి పచ్చని నిమ్మరసాన్ని అమ్ముతుండటం, పిల్లలు వాటి కోసం పచ్చని నాణేలను ఇవ్వడాన్ని డోరోతీ చూస్తోంది. \n\nఅక్కడ ఎటువంటి గుర్రాలు అలాగే ఎటువంటి జంతువులూ లేవు; వ్యక్తులే వస్తువులను పచ్చని బండ్లతో లాగుతున్నారు. ప్రతి ఒక్కరూ చాలా ఆనందంగా, సంతృప్తిగా ఉన్నారు."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ఫార్మాట్ ఎంపిక"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ఆటోమేటిక్"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"మాన్యువల్"</string>
@@ -330,8 +335,7 @@
       <item quantity="other">ఫోన్ యాప్‌లు</item>
       <item quantity="one">ఫోన్ యాప్</item>
     </plurals>
-    <!-- no translation found for default_browser_title (3612813200586492159) -->
-    <skip />
+    <string name="default_browser_title" msgid="3612813200586492159">"బ్రౌజర్ యాప్"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"ట్యుటోరియల్‌లు"</string>
@@ -342,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"పరికరం పేరు"</string>
     <string name="restart_button_label" msgid="911750765086382990">"రీస్టార్ట్ చేయి"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"చట్టబద్ధమైన సమాచారం"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"ఓపెన్ సోర్స్ లైసెన్స్‌లు"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"థర్డ్-పార్టీ సోర్స్"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google చట్టపరం"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"లైసెన్స్ డేటా అందుబాటులో లేదు"</string>
     <string name="about_model" msgid="9164284529291439296">"నమూనా"</string>
@@ -610,38 +614,22 @@
     <item msgid="5645263357181875427">"రవాణా ప్రసారం అందించిన సమయాన్ని ఉపయోగించు"</item>
     <item msgid="5501503537181350884">"ఆఫ్ చేయి"</item>
   </string-array>
-    <!-- no translation found for sensor_toggle_description (7415801459994303159) -->
-    <skip />
-    <!-- no translation found for recently_accessed_by_category (6841705864715653428) -->
-    <skip />
-    <!-- no translation found for no_recent_sensor_accesses (3498112970658050800) -->
-    <skip />
-    <!-- no translation found for recently_accessed_show_all (5234849189704717855) -->
-    <skip />
-    <!-- no translation found for microphone (7893752847683941214) -->
-    <skip />
-    <!-- no translation found for mic_toggle_title (7193417007060235665) -->
-    <skip />
-    <!-- no translation found for open_mic_permissions (8121871594807641073) -->
-    <skip />
-    <!-- no translation found for camera (1226671478936288283) -->
-    <skip />
-    <!-- no translation found for camera_toggle_title (5566469574224956142) -->
-    <skip />
-    <!-- no translation found for open_camera_permissions (301360297337141591) -->
-    <skip />
-    <!-- no translation found for mic_toggle_info_title (1086545614315873599) -->
-    <skip />
-    <!-- no translation found for mic_toggle_info_content (4436219037877456256) -->
-    <skip />
-    <!-- no translation found for camera_toggle_info_title (3871317082313736088) -->
-    <skip />
-    <!-- no translation found for camera_toggle_info_content (7045001373813906859) -->
-    <skip />
-    <!-- no translation found for sensor_toggle_info_on (4568111889147132257) -->
-    <skip />
-    <!-- no translation found for sensor_toggle_info_off (7546772458177469821) -->
-    <skip />
+    <string name="sensor_toggle_description" msgid="7415801459994303159">"అన్ని యాప్‌లు, సర్వీస్‌ల కోసం"</string>
+    <string name="recently_accessed_by_category" msgid="6841705864715653428">"ఇటీవల దాని ద్వారా యాక్సెస్ చేయబడింది"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"ఇటీవలి యాక్సెస్‌లు చేయలేదు"</string>
+    <string name="recently_accessed_show_all" msgid="5234849189704717855">"అన్నీ చూడండి"</string>
+    <string name="microphone" msgid="7893752847683941214">"మైక్రోఫోన్"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"మైక్రోఫోన్ యాక్సెస్"</string>
+    <string name="open_mic_permissions" msgid="8121871594807641073">"మైక్రోఫోన్‌కు యాప్ యాక్సెస్"</string>
+    <string name="camera" msgid="1226671478936288283">"కెమెరా"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"కెమెరా యాక్సెస్"</string>
+    <string name="open_camera_permissions" msgid="301360297337141591">"కెమెరాకు యాప్ యాక్సెస్"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"మైక్రోఫోన్ యాక్సెస్: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"ఆన్ చేసినప్పుడు, అన్ని యాప్‌లు, సర్వీస్‌లు అనుమతితో ఈ పరికరంలోని ఏదైనా మైక్రోఫోన్‌ను యాక్సెస్ చేయగలవు.\n\nఅనుకూల ప్రోటోకాల్‌తో ఆడియో పెరిఫెరల్‌లు ఈ సెట్టింగ్ ద్వారా ప్రభావితం కావు."</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"కెమెరా యాక్సెస్: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"ఆన్ చేసినప్పుడు, అన్ని యాప్‌లు, సర్వీస్‌ల అనుమతితో ఈ పరికరంలోని ఏదైనా కెమెరాను యాక్సెస్ చేయగలవు.\n\nఅనుకూల ప్రోటోకాల్‌తో కెమెరా పెరిఫెరల్‌లు ఈ సెట్టింగ్ ద్వారా ప్రభావితం కావు."</string>
+    <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ఆన్"</string>
+    <string name="sensor_toggle_info_off" msgid="7546772458177469821">"ఆఫ్"</string>
     <string name="system_location" msgid="4057295363709016511">"లొకేషన్"</string>
     <string name="system_desc_location" msgid="1680134126100535031">"మీ స్థాన సమాచారాన్ని ఉపయోగించడానికి మీ అనుమతిని అడిగిన అనువర్తనాలను అనుమతించండి"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"స్థాన సమ్మతి"</string>
@@ -745,7 +733,7 @@
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Wi-Fi వెర్బోస్ లాగింగ్"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Wi‑Fi వెర్బోస్ లాగింగ్‌ను ప్రారంభించండి"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"స్పర్శ ప్రదేశాలను చూపు"</string>
-    <string name="system_pointer_location" msgid="8724050865245555084">"పాయింటర్ స్థానం"</string>
+    <string name="system_pointer_location" msgid="8724050865245555084">"పాయింటర్ లొకేషన్"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"లేఅవుట్ హద్దులను చూపు"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU వీక్షణ నవీకరణలను చూపు"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"హార్డ్‌వేర్ లేయర్‌ని చూపండి"</string>
@@ -917,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"డిఫాల్ట్‌లు ఏవీ సెట్ చేయలేదు"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"కాష్‌ను తీసివేయి"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"నోటిఫికేషన్‌లు"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"ఓపెన్ సోర్స్ లైసెన్స్‌లు"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"థర్డ్-పార్టీ సోర్స్"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"అనుమతులు"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"యాప్‌ అందుబాటులో లేదు"</string>
     <string name="settings_ok" msgid="5950888975075541964">"సరే"</string>
@@ -1007,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"చిత్రంలో చిత్రాన్ని అనుమతించు"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"చిత్రంలో చిత్రానికి మద్దతిచ్చే యాప్‌లు ఏమీ ఇన్‌స్టాల్ చేయబడలేదు"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"యాప్ తెరిచి ఉన్నప్పుడు లేదా మీరు దాని నుండి బ‌య‌ట‌కు వెళ్లిపోయిన‌ప్పుడు \'చిత్రంలో చిత్రం\' విండోను సృష్టించడానికి ఈ యాప్‌ను అనుమతించండి (ఉదాహరణకు, వీడియోను చూడటం కొనసాగించడానికి). మీరు ఉపయోగించే ఇతర యాప్‌‌ల ఎగువున ఈ విండో ప్రదర్శితమవుతుంది."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"అలారంలను సెట్ చేయడానికి, సమయ-ప్రధాన చర్యలను షెడ్యూల్ చేయడానికి యాప్‌లను అనుమతించండి. ఇలా చేయడం వలన ఎక్కువ పవర్‌ను వినియోగించగల యాప్‌లకు బ్యాక్‌గ్రౌండ్‌లో రన్ అయ్యే అనుమతి లభిస్తుంది.\n\nఈ అనుమతిని ఆఫ్ చేస్తే, ఈ యాప్ ద్వారా ఇప్పటికే షెడ్యూల్ చేసి ఉన్న అలారంలు, సమయ-ఆధారిత ఈవెంట్‌లు పనిచేయవు."</string>
     <string name="special_access" msgid="21806055758289916">"ప్రత్యేక యాప్ యాక్సెస్"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"ఆడియో"</string>
@@ -1037,7 +1026,7 @@
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ కార్యకలాపం మరియు డివైజ్ యొక్క స్థాన సమాచారంతో పాటు మీ కార్యాలయ ప్రొఫైల్‌కి అనుబంధితంగా ఉన్న యాప్‌లు మరియు డేటాని మీ నిర్వాహకులు పర్యవేక్షించగలరు మరియు నిర్వహించగలరు ."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ కార్యకలాపం మరియు డివైజ్ యొక్క స్థాన సమాచారంతో పాటు ఈ వినియోగదారుకి అనుబంధితంగా ఉన్న యాప్‌లు  మరియు డేటాని మీ నిర్వాహకులు పర్యవేక్షించగలరు మరియు నిర్వహించగలరు."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ కార్యకలాపం మరియు డివైజ్  యొక్క స్థాన సమాచారంతో పాటు ఈ డివైజ్‌కు అనుబంధితంగా ఉన్న యాప్‌లు మరియు డేటాని మీ నిర్వాహకులు పర్యవేక్షించగలరు మరియు నిర్వహించగలరు."</string>
-    <string name="remove_managed_profile_label" msgid="8950011141359605612">"కార్యాలయ ప్రొఫైల్‌ను తీసివేయి"</string>
+    <string name="remove_managed_profile_label" msgid="8950011141359605612">"ఆఫీస్ ప్రొఫైల్‌ను తీసివేయండి"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"డివైజ్ నిర్వాహకుల యాప్"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"ఈ పరికర అడ్మిన్ యాప్‌ను డీయాక్టివేట్ చేయి"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"యాప్‌ను అన్‌ఇన్‌స్టాల్ చేయి"</string>

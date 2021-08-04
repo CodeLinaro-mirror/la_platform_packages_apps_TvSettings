@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Apps abertos recentemente"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Ver todos os apps"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Permissões"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"Segurança"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"Gerenciar atualizações"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Todos os apps"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Mostrar apps do sistema"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Apps instalados"</string>
@@ -133,7 +133,7 @@
     <string name="surround_sound_auto_title" msgid="4892922385727913277">"Automático: ativar apenas os formatos compatíveis com o dispositivo de saída de áudio "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"Quando selecionado, o sistema permitirá que apps escolham qualquer formato de som compatível com sua cadeia de dispositivos. Os apps podem escolher um formato que não seja o de maior qualidade."</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"Nenhum: nunca usar o som surround"</string>
-    <string name="surround_sound_manual_title" msgid="4935447605070985537">"Manual: ativar ou desativar seletivamente cada formato compatível com este dispositivo, independependentemente do que é compatível com o dispositivo de saída de áudio"</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"Manual: ativar ou desativar seletivamente cada formato compatível com este dispositivo, independentemente do que é compatível com o dispositivo de saída de áudio"</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"Quando selecionado, você poderá desativar manualmente formatos de som compatíveis com sua cadeia de dispositivos que estão causando problemas de reprodução. Os formatos não compatíveis podem ser ativados. Em alguns casos, os apps poderão escolher um formato que não seja o de maior qualidade."</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"Ativar formato de som não compatível?"</string>
     <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"O dispositivo de áudio conectado não informou ser compatível com o formato. Isso pode causar comportamentos inesperados, como ruídos altos ou estalos."</string>
@@ -160,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Se o app solicitar, o dispositivo usará um frame rate igual ao original do conteúdo que você está assistindo. Isso pode fazer com que a tela fique em branco por um segundo ao sair ou entrar em uma reprodução de vídeo."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Nunca"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Mesmo se o app solicitar, o dispositivo nunca tentará usar um frame rate igual ao original do conteúdo que você está assistindo."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Tamanho do texto"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"Ajustar para <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Texto de amostra"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"O Mágico de Oz"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Capítulo 11: A maravilhosa Cidade das Esmeraldas de Oz"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Mesmo com os olhos protegidos pelos óculos verdes, Dorothy e os amigos dela foram ofuscados pelo brilho da magnífica cidade. As ruas estavam repletas de belas casas, todas feitas de mármore verde e cravejadas de esmeraldas brilhantes por toda a parte. Eles caminharam pela calçada do mesmo mármore verde, e, onde os blocos se encontravam, havia fileiras de esmeraldas bem próximas umas das outras, brilhantes à luz do sol. As janelas eram de vidro verde. Até mesmo o céu sobre a cidade era esverdeado, e os raios solares eram verdes. \n\nHavia muitas pessoas, homens, mulheres e crianças, caminhando por lá, e todos vestiam roupas verdes e tinham a pele esverdeada. Eles olharam para Dorothy e os estranhos companheiros da garota com olhos curiosos, e todas as crianças fugiram e se esconderam atrás de suas mães quando viram o Leão, mas ninguém falou com eles. Havia muitas lojas na rua, e Dorothy viu que tudo nelas era verde. Doces verdes e pipoca verde estavam à venda, assim como sapatos verdes, chapéus verdes e roupas verdes de todos os tipos. Em um lugar, um homem estava vendendo limonada verde, e quando as crianças a compravam, Dorothy viu que elas pagavam com moedas verdes. \n\nParecia não haver cavalos nem animais de qualquer espécie. Os homens carregavam as coisas em pequenos carrinhos verdes, que eles empurravam à frente. Todos pareciam felizes, satisfeitos e prósperos."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Seleção de formato"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automático"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manual"</string>
@@ -340,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"Nome do dispositivo"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Reiniciar"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"Informações legais"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"Licenças de código aberto"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"Fonte de terceiros"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Informações legais do Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Os dados de licença estão indisponíveis"</string>
     <string name="about_model" msgid="9164284529291439296">"Modelo"</string>
@@ -619,9 +625,9 @@
     <string name="camera_toggle_title" msgid="5566469574224956142">"Acesso à câmera"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Acesso dos apps à câmera"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Acesso ao microfone: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4436219037877456256">"Quando essa opção está ativada, todos os apps e serviços que têm permissão podem acessar qualquer microfone no dispositivo.\n\nOs periféricos de áudio, como microfones de fácil conexão com protocolo personalizado, não são afetados."</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Quando essa opção está ativada, todos os apps e serviços que têm permissão podem acessar qualquer microfone no dispositivo.\n\nOs periféricos de áudio com protocolo personalizado não são afetados."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Acesso à câmera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="7045001373813906859">"Quando essa opção está ativada, todos os apps e serviços que têm permissão podem acessar qualquer câmera no dispositivo.\n\nOs periféricos de câmera, como webcams de fácil conexão com protocolo personalizado, não são afetados."</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Quando essa opção está ativada, todos os apps e serviços que têm permissão podem acessar qualquer câmera no dispositivo.\n\nOs periféricos de câmera com protocolo personalizado não são afetados."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Ativado"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Desativado"</string>
     <string name="system_location" msgid="4057295363709016511">"Localização"</string>
@@ -899,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Nenhuma ação padrão foi definida"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Limpar cache"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Notificações"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"Licenças de código aberto"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Fonte de terceiros"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Permissões"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"App indisponível"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
@@ -989,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Permitir picture-in-picture"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Nenhum dos apps instalados é compatível com picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Permite que apps abram uma janela picture-in-picture enquanto o app está aberto ou depois que você sai dele (por exemplo, para continuar a assistir um vídeo). Essa janela é sobreposta a outros apps que você esteja usando."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Permitir que apps definam alarmes e programem ações. Essa opção autoriza a execução de apps em segundo plano, o que pode consumir mais bateria.\n\nSe a permissão for desativada, os alarmes e eventos programados pelo app não funcionarão."</string>
     <string name="special_access" msgid="21806055758289916">"Acesso especial a apps"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Áudio"</string>

@@ -67,7 +67,7 @@
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Аккаунттун жөндөөлөрү"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Жардамчы"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Төлөм жана сатып алуулар"</string>
-    <string name="privacy_app_settings_category" msgid="858250971978879266">"Колдонмонун жөндөөлөрү"</string>
+    <string name="privacy_app_settings_category" msgid="858250971978879266">"Колдонмону тууралоо"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Жайгашкан жер, Колдонуу жана мүчүлүштүктөрдү аныктоо, Жарнамалар"</string>
     <string name="add_account" msgid="7386223854837017129">"Аккаунт кошуу"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Аккаунтту өчүрүү"</string>
@@ -98,9 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Акыркы ачылган колдонмолор"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Бардык колдонмолорду көрүү"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Уруксаттар"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"Коопсуздук"</string>
-    <!-- no translation found for manage_updates (2228839328071887368) -->
-    <skip />
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Бардык колдонмолор"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Тутум колдонмолорун көрсөтүү"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Орнотулган колдонмолор"</string>
@@ -161,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Эгер колдонмо суранса, түзмөгүңүз ойнотулуп жаткан видеонун баштапкы кадрларынын жыштыгын тууралайт. Видеону ойноткучка кирип же чыгып жатканда экран бир секундга өчүп калышы мүмкүн."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Эч качан"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Колдонмо суранган учурда да, түзмөгүңүз ойнотулуп жаткан видеонун баштапкы кадрларынын жыштыгын тууралоого эч качан аракет кылбайт."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Тексттин өлчөмүн жөндөө"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"Өлчөмүн <xliff:g id="SCALE">%1$d</xliff:g>%% өзгөртүү"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Үлгү текст"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Оз өлкөсүнүн ажайып сыйкырчысы"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11-бөлүм: Оз өлкөсүнүн ажайып зымырыт шаары"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Жашыл көз айнек тагынып турса да, Дороти менен достору жаркыраган ажайып шаарды көргөндө көздөрү уялып кетти. Шаардын көчөлөрүндөгү үйлөр жалаң гана жашыл мрамордон курулуп, күндүн нуруна чагылышып жалт-жулт эткен зымырыт таштары менен капталган. Жада калса алар өтүп бара жаткан көпүрө да жашыл мрамордон курулган экен. Бут астындагы мрамор төшөмөлөрдүн ортолору зымырыт таштары менен толтурулуп, алар күн нуруна жарк-журк этет. Терезелерге да жашыл айнек коюлуп, шаар үстүндө асман да, күн нурлары да жашыл түскө боёлуп турду. \n\nКөчөдө ары-бери өткөн адамдар да жашыл кийимдерди кийип, өңү-түстөрү да жашыл тартып турат экен. Дороти менен анын кызыктай досторунун жанынан өткөн адамдар аларды айран таң калып карап, арстанды көргөн кичинекей балдар энелеринин аркаларына жашына калып жатышты. Шаардыктардын эч кимиси алардын жанына барып, сүйлөшүүгө даай алышкан жок. Дороти шаардын дүкөндөрүндө сатылып жаткан көйнөктөр, кийим-кечелер, бут кийимдер, шляпалар, момпосуйлар, жада калса, бадырак жүгөрүлөр да жашыл түстө экендигин байкады. Бир жерде балдар жашыл тыйындарды төлөп жашыл лимонад алып жатышат. \n\nШаарда, сыягы, жылкылар жана башка жаныбарлар жок окшойт, себеби эркектер буюмдарын жашыл арабаларга салып түртүп алышкан. Элдин баары бактылуу, жашоосуна ыраазы жана гүлдөп тургандай туюлду."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Форматты тандоо"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Автоматтык түрдө"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Кол менен"</string>
@@ -341,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"Түзмөктүн аталышы"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Өчүрүп күйгүзүү"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"Юридикалык маалымат"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"Ачык программа уруксаттамалары"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"Үчүнчү тараптын булагы"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google юридикалык жобосу"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Уруксаттаманын дайындары жеткиликтүү эмес"</string>
     <string name="about_model" msgid="9164284529291439296">"Үлгүсү"</string>
@@ -588,7 +593,7 @@
     <string name="insufficient_storage" msgid="4175940286022466535">"Сактагычта орун жетишсиз."</string>
     <string name="does_not_exist" msgid="4071082040759146781">"Мындай колдонмо жок."</string>
     <string name="invalid_location" msgid="5571789982293787489">"Орнотула турган жер жараксыз."</string>
-    <string name="system_package" msgid="8276098460517049146">"Тутумдун жаңыртуулары тышкы сактагычка орнотулбайт."</string>
+    <string name="system_package" msgid="8276098460517049146">"Системанын жаңыртуулары тышкы сактагычка орнотулбайт."</string>
     <string name="move_error_device_admin" msgid="4144472536756635173">"Түзмөк администратору тышкы сактагычка орнотулбайт."</string>
     <string name="learn_more_action" msgid="7972102006620925604">"Көбүрөөк билүү"</string>
     <string name="system_date" msgid="2503462662633178207">"Дата"</string>
@@ -620,9 +625,9 @@
     <string name="camera_toggle_title" msgid="5566469574224956142">"Камераны колдонуу"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Колдонмолордун камераны пайдалануу мүмкүнчүлүгү"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Микрофонду колдонуу: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4436219037877456256">"Бул параметр күйгүзүлсө, уруксаты бар колдонмолордун жана кызматтардын баары бул түзмөктөгү микрофондорду пайдалана алат.\n\nАудио түзмөктүн көмөкчү жабдыктарына, мисалы, ыңгайлаштырылган протоколу бар туташтырылуучу микрофон түзмөктөрүнө бул жөндөө таасирин тийгизбейт."</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Бул параметр күйгүзүлсө, уруксаты бар колдонмолордун жана кызматтардын баары бул түзмөктөгү микрофондорду пайдалана алат.\n\nЫңгайлаштырылган протоколу бар аудио түзмөктүн көмөкчү жабдыктарына бул жөндөө таасирин тийгизбейт."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Камераны колдонуу: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="7045001373813906859">"Бул параметр күйгүзүлсө, уруксаты бар колдонмолордун жана кызматтардын баары бул түзмөктөгү камераларды пайдалана алат.\n\nКамеранын көмөкчү жабдыктарына, мисалы, ыңгайлаштырылган протоколу бар туташтырылуучу вебкамераларга бул жөндөө таасирин тийгизбейт."</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Бул параметр күйгүзүлсө, уруксаты бар колдонмолордун жана кызматтардын баары бул түзмөктөгү камераларды пайдалана алат.\n\nЫңгайлаштырылган протоколу бар камеранын көмөкчү жабдыктарына бул жөндөө таасирин тийгизбейт."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Күйүк"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Өчүк"</string>
     <string name="system_location" msgid="4057295363709016511">"Жайгашкан жер"</string>
@@ -900,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Демейки жөндөөлөр коюлган жок"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Кештерди тазалоо"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Билдирмелер"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"Ачык программа уруксаттамалары"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Үчүнчү тараптын булагы"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Уруксаттар"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Колдонмо жеткиликсиз"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
@@ -990,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Сүрөт ичиндеги сүрөткө уруксат берүү"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Орнотулган колдонмолордун бири да сүрөт ичиндеги сүрөт функциясын колдобойт"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Колдонмо ачылып турганда же андан чыгып кеткенде (мисалы, видео көрүүнү улантуу үчүн), колдонмодо сүрөт ичиндеги сүрөт терезеси пайда болушу мүмкүн. Мындай терезе башка колдонмолордун үстүнөн көрүнөт."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Колдонмолорго ойготкучтарды коюуга жана башка аракеттерди графикке киргизүүгө уруксат берүү. Ушуну менен колдонмолор фондо иштеп, көбүрөөк кубат сарпталышы мүмкүн.\n\nЭгер бул уруксат өчүрүлсө, колдонмодогу ойготкучтар жана графикке киргизилген башка аракеттер иштебейт."</string>
     <string name="special_access" msgid="21806055758289916">"Атайын мүмкүнчүлүк"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Аудио"</string>

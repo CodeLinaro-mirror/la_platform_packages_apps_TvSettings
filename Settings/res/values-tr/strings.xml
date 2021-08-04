@@ -98,8 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Son açılan uygulamalar"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Tüm uygulamaları göster"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"İzinler"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"Güvenlik"</string>
-    <string name="manage_updates" msgid="2228839328071887368">"Güncellemeleri Yönetin"</string>
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Tüm uygulamalar"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Sistem uygulamalarını göster"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Yüklü uygulamalar"</string>
@@ -160,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Uygulama isterse cihazınız, çıkışını, izlediğiniz içeriğin orijinal kare hızıyla eşleştirir. Bu, video oynatma işleminden çıkarken veya girerken kısa bir an boş ekran görüntülenmesine yol açabilir."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Hiçbir zaman"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Uygulama istese bile cihazınız, çıkışını, hiçbir zaman izlediğiniz içeriğin orijinal kare hızıyla eşleştirmeye çalışmaz."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Metin ölçekleme"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"%%<xliff:g id="SCALE">%1$d</xliff:g> olarak ölçeklendir"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Örnek metin"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Muhteşem Oz Büyücüsü"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11. Bölüm: Oz\'un Muhteşem Zümrüt Kenti"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Yeşil gözlüklerle korunuyor olsalar bile Dorothy ve arkadaşlarının bu olağanüstü güzellikteki Şehrin parlaklığı karşısında gözleri kamaşmıştı. Tamamı yeşil mermerden yapılmış çok güzel evlerle dolu sokaklarda her yer parlak zümrütlerle bezeliydi. Üzerinde yürüdükleri yeşil mermerden yapılmış kaldırım taşlarının birleştiği yerler, güneş ışığıyla parlayan dizi dizi zümrütlerle süslenmişti. Pencerelerin camları yeşildi. Hatta güneş ışınları ve Şehrin üzerindeki gökyüzünü bile yeşile boyanmıştı.\n\nHepsi yeşil kıyafetler giymiş, yeşil tenli birçok kadın, erkek ve çocuk sokakta geziniyordu. Dorothy ve garip görünümlü arkadaşlarını meraklı bakışlarla süzdüler. Aslan\'ı gören çocuklar kaçıp annelerinin arkasına saklanıyorlardı. Hiç kimse onlarla konuşmuyordu. Sokakta pek çok dükkan vardı. Dorothy, bu dükkanlardaki her şeyin yeşil olduğunu gördü. Yeşil şekerlerin, yeşil renkli patlamış mısırların yanı sıra yeşil ayakkabılar, yeşil şapkalar ve her türden yeşil kıyafetler satılıyordu. Bir yerde, yeşil limonata satan bir adam vardı ve Dorothy, limonata alan çocukların parayı yeşil kuruşlarla ödediklerini gördü. \n\nGörünürde ne at ne de başka hayvan vardı; erkekler, eşyalarını yeşil küçük arabalarla taşıyorlardı. Herkes mutlu, huzurlu ve refah içinde görünüyordu."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Biçim seçimi"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Otomatik"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuel"</string>
@@ -340,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"Cihaz adı"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Yeniden başlat"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"Yasal bilgiler"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"Açık kaynak lisansları"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"Üçüncü Taraf Kaynak"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google yasal"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Lisans verileri kullanılamıyor"</string>
     <string name="about_model" msgid="9164284529291439296">"Model"</string>
@@ -619,9 +625,9 @@
     <string name="camera_toggle_title" msgid="5566469574224956142">"Kamera erişimi"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Uygulamanın kameraya erişimi"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofon Erişimi: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4436219037877456256">"Bu seçenek açıldığında izni olan tüm uygulamalar ve hizmetler, bu cihazdaki herhangi bir mikrofona erişebilir.\n\nÖzel bir protokole sahip eklenti mikrofon cihazları gibi ses çevre birimleri bu ayardan etkilenmez."</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Bu seçenek açıldığında izni olan tüm uygulamalar ve hizmetler, bu cihazdaki herhangi bir mikrofona erişebilir.\n\nÖzel bir protokole sahip ses çevre birimleri bu ayardan etkilenmez."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kamera Erişimi: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="7045001373813906859">"Bu seçenek açıldığında izni olan tüm uygulamalar ve hizmetler, bu cihazdaki herhangi bir kameraya erişebilir.\n\nÖzel bir protokole sahip eklenti web kameraları gibi kamera çevre birimleri bu ayardan etkilenmez."</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Bu seçenek açıldığında izni olan tüm uygulamalar ve hizmetler, bu cihazdaki herhangi bir kameraya erişebilir.\n\nÖzel bir protokole sahip kamera çevre birimleri bu ayardan etkilenmez."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Açık"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Kapalı"</string>
     <string name="system_location" msgid="4057295363709016511">"Konum"</string>
@@ -899,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Varsayılan ayarlanmadı"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Önbelleği temizle"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Bildirimler"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"Açık kaynak lisansları"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Üçüncü Taraf Kaynak"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"İzinler"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Uygulama kullanılamıyor"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Tamam"</string>
@@ -989,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Pencere içinde pencereye izin ver"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Yüklü uygulamalardan hiçbiri pencere içinde pencere özelliğini desteklemiyor"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Uygulamaların, uygulama açıkken veya uygulamadan çıktıktan sonra (örneğin, video izlemeye devam etmek için) pencere içinde pencere oluşturmasına izin verir. Bu pencere, kullandığınız diğer uygulamaların üzerinde gösterilir."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Uygulamaların alarmlar kurup zamana bağlı işlemler programlamasına izin verir. Bu izin, uygulamaların arka planda çalışmasına olanak sağlayarak daha fazla pil harcanmasına neden olabilir.\n\nBu izin verilmezse bu uygulama tarafından programlanmış mevcut alarmlar ve zamana bağlı etkinlikler çalışmaz."</string>
     <string name="special_access" msgid="21806055758289916">"Özel uygulama erişimi"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Ses"</string>

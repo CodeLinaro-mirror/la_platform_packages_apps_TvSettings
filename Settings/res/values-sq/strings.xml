@@ -98,9 +98,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Aplikacionet e hapura së fundi"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Shiko të gjitha aplikacionet"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Lejet"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"Siguria"</string>
-    <!-- no translation found for manage_updates (2228839328071887368) -->
-    <skip />
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Të gjitha aplikacionet"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Shfaq aplikacionet e sistemit"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Aplikacionet e instaluara"</string>
@@ -161,6 +160,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Nëse aplikacioni e kërkon, pajisja jote do ta përshtatë daljen e saj me shpejtësinë origjinale të kuadrove që shikon. Kjo mund të bëjë që ekrani të jetë bosh për një sekondë kur del ose hyn në luajtjen e një videoje."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Asnjëherë"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Edhe nëse aplikacioni e kërkon, pajisja jote asnjëherë nuk do të përpiqet ta përshtatë daljen e saj me shpejtësinë origjinale të kuadrove që shikon."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Shkallëzimi i tekstit"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"Shkalla në <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Teksti shembull"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Magjistari i mrekullueshëm i Ozit"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Kapitulli 11: Qyteti i mrekullueshëm i smeraldtë i Ozit"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Edhe me sytë e mbrojtur nga syzet e gjelbra, Doroti dhe shokët e saj u dalldisën në fillim nga shkëlqimi i Qytetit të mrekullueshëm. Rrugët ishin të mbushura me shtëpi të bukura të gjitha të ndërtuara me mermer të gjelbër dhe kudo shkëlqenin prej tyre smeralde. Ata shëtitën në një trotuar me po të njëjtin mermer të gjelbër dhe aty ku blloqet bashkoheshin kishte radhë të tjera smeraldi, ngjitur me njëra-tjetrën, dhe që shkëlqenin nën ndriçimin e diellit. Dritaret ishin me xhama të gjelbër; edhe qielli mbi Qytet kishte një nuancë të gjelbër, dhe rrezet e diellit ishin të gjelbra. \n\nKishte shumë njerëz, burra, gra dhe fëmijë që shëtisnin dhe të gjithë ishin të veshur me rroba të gjelbra dhe kishin lëkurë të gjelbër. Ata e shikonin Dorotin dhe shoqëruesit e saj të çuditshëm me sy të habitur, dhe fëmijët të gjithë u trembën dhe u fshehën pas nënave kur panë Luanin, por askush nuk u foli. Në rrugë kishte shumë dyqane dhe Doroti pa se gjithçka brenda tyre ishte e gjelbër. Shiteshin karamele të gjelbra dhe kokoshka të gjelbra, si dhe këpucë të gjelbra, kapele të gjelbra dhe rroba të gjelbra të të gjitha llojeve. Në një vend dikush shiste limonadë të gjelbër dhe kur fëmijët blinin, Doroti pa se ata paguanin me monedha të gjelbra. \n\nDukej sikur nuk kishte kuaj apo kafshë të ndonjë lloji; burrat i transportonin sendet me karroca të vogla të gjelbra, të cilat i shtynin përpara. Të gjithë dukeshin të kënaqur, të lumtur dhe të begatë."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Zgjedhja e formatit"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatik"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuale"</string>
@@ -341,7 +346,7 @@
     <string name="device_name" msgid="566626587332817733">"Emri i pajisjes"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Rinis"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"Informacioni ligjor"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"Licencat me burim të hapur"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"Kodi burimor nga një palë e tretë"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Informacioni ligjor i Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Të dhënat e licencës nuk ofrohen"</string>
     <string name="about_model" msgid="9164284529291439296">"Modeli"</string>
@@ -620,9 +625,9 @@
     <string name="camera_toggle_title" msgid="5566469574224956142">"Qasja te kamera"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Qasja e aplikacionit te kamera"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Qasja te mikrofoni: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4436219037877456256">"Kur kjo është e aktivizuar, të gjitha aplikacionet dhe shërbimet që kanë lejen mund të kenë qasje te çdo mikrofon në këtë pajisje.\n\nPajisjet periferike të audios, si p.sh. mikrofonat e lidhur me një protokoll të personalizuar, nuk do të preken nga ky cilësim."</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Kur kjo është e aktivizuar, të gjitha aplikacionet dhe shërbimet që kanë lejen mund të kenë qasje te çdo mikrofon në këtë pajisje.\n\nPajisjet periferike të kamerës me një protokoll të personalizuar nuk do të preken nga ky cilësim."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Qasja te kamera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="7045001373813906859">"Kur kjo është e aktivizuar, të gjitha aplikacionet dhe shërbimet që kanë lejen mund të kenë qasje te çdo kamerë në këtë pajisje.\n\nPajisjet periferike të kamerës me një protokoll të personalizuar nuk do të preken nga ky cilësim."</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"Kur kjo është e aktivizuar, të gjitha aplikacionet dhe shërbimet që kanë lejen mund të kenë qasje te çdo kamerë në këtë pajisje.\n\nPajisjet periferike të kamerës me një protokoll të personalizuar nuk do të preken nga ky cilësim."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Aktiv"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Joaktiv"</string>
     <string name="system_location" msgid="4057295363709016511">"Vendndodhja"</string>
@@ -900,7 +905,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Nuk janë caktuar parazgjedhje"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Pastro memorien specifike"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Njoftime"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"Licencat me burim të hapur"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Kodi burimor nga një palë e tretë"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Lejet"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Aplikacioni nuk disponohet"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Në rregull"</string>
@@ -990,6 +995,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Lejo figurë brenda figurës"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Asnjë aplikacion i instaluar nuk e mbështet figurën brenda figurës"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Lejo aplikacionet të krijojnë dritare \"figurë brenda figure\" ndërkohë që aplikacioni është i hapur ose pasi të dalësh prej tij (për shembull, për të vazhduar shikimin e një videoje). Kjo dritare shfaqet mbi aplikacionet e tjera që po përdor."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Lejo që aplikacionet të caktojnë alarmet dhe të planifikojnë veprime që kanë një afat të caktuar. Kjo lejon që aplikacionet të ekzekutohen në sfond, gjë që mund të përdorë më shumë energji.\n\nNëse kjo leje është caktuar si joaktive, alarmet ekzistuese dhe ngjarjet me bazë kohore të planifikuara nga aplikacionet nuk do të funksionojnë."</string>
     <string name="special_access" msgid="21806055758289916">"Qasja e veçantë e apl."</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audioja"</string>

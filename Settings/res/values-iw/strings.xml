@@ -102,9 +102,8 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"אפליקציות שנפתחו לאחרונה"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"הצגת כל האפליקציות"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"הרשאות"</string>
-    <string name="play_protect_security" msgid="1476818421152898821">"אבטחה"</string>
-    <!-- no translation found for manage_updates (2228839328071887368) -->
-    <skip />
+    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
+    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"כל האפליקציות"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"הצגת אפליקציות מערכת"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"אפליקציות מותקנות"</string>
@@ -165,6 +164,12 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"המכשיר ישנה את קצב הפריימים של המסך בהתאם לקצב הפריימים המקורי של התוכן אם האפליקציה תבקש זאת. במקרה כזה, ייתכן שהמסך יואפל לרגע לפני תחילת הסרטון ובסופו."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"אף פעם"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"המכשיר אף פעם לא ינסה לשנות את קצב הפריימים של המסך כדי להתאים אותו לקצב הפריימים המקורי של התוכן, גם אם האפליקציה תבקש זאת."</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"שינוי גודל הטקסט"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"התאמה ל-%%<xliff:g id="SCALE">%1$d</xliff:g>"</string>
+    <string name="font_scale_sample_text_title" msgid="5239266611413037261">"טקסט לדוגמה"</string>
+    <string name="font_scale_preview_text_title" msgid="8056182208511371119">"הקוסם המופלא מארץ עוץ"</string>
+    <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"פרק 11: עיר הברקת המופלאה של ארץ עוץ"</string>
+    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"אפילו עם המשקפיים הירוקים שהגנו על עיניהם, דורותי וחבריה הסתנוורו בתחילה מזוהרה של העיר הנפלאה. לאורך הרחובות ניצבו בתים יפהפיים, שכולם בנויים משיש ירוק ומשובצים אבני ברקת מבריקות. הם צעדו על פני מדרכה שהייתה עשויה מאותו שיש ירוק, ובמקום המפגש של שורות הבתים היו משובצות זו לצד זו שורות של אבני ברקת, מנצנצות באור השמש הבהיר. אדני החלונות היו עשויים מזכוכית ירוקה. אפילו לשמיים שמעל העיר היה גוון ירקרק, וקרני השמש היו ירוקות. \n\nאנשים רבים התהלכו ברחובות, גברים, נשים וילדים, וכולם היו לבושים בבגדים ירוקים ולעורם היה גון ירוק. הם הסתכלו בהשתוממות על דורותי ועל החבורה המוזרה שסבבה אותה, וכשראו את האריה, כל הילדים ברחו והתחבאו מאחורי אימותיהם. אבל איש לא פנה אליהם בדברים. חנויות רבות ניצבו ברחוב ודורותי ראתה שכל הפריטים שבתוכן היו ירוקים. ממתקים ירוקים ופופקורן ירוק הוצעו למכירה, וגם נעליים ירוקות, כובעים ירוקים ובגדים ירוקים מכל מיני סוגים. בחנות אחת מכר מישהו לימונדה ירוקה, וכשהילדים קנו אותה, דורותי הבחינה שהם שילמו במטבעות ירוקים. \n\nנראה היה שאין שם סוסים, או חיות מכל סוג שהוא. הגברים נשאו דברים בעגלות ירוקות קטנות, שאותן הם דחפו לפניהם. נראה היה שכולם מאושרים, שבעי רצון ומצליחים."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"בחירת הפורמט"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"אוטומטי"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ידני"</string>
@@ -361,7 +366,7 @@
     <string name="device_name" msgid="566626587332817733">"שם המכשיר"</string>
     <string name="restart_button_label" msgid="911750765086382990">"הפעלה מחדש"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"מידע משפטי"</string>
-    <string name="about_legal_license" msgid="4801707286720681261">"רישיונות לקוד פתוח"</string>
+    <string name="about_legal_license" msgid="4056934178111674054">"מקור של צד שלישי"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"הודעות משפטיות של Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"נתוני רישיון אינם זמינים"</string>
     <string name="about_model" msgid="9164284529291439296">"דגם"</string>
@@ -650,9 +655,9 @@
     <string name="camera_toggle_title" msgid="5566469574224956142">"גישה למצלמה"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"גישה של אפליקציות למצלמה"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"סטטוס הגישה למיקרופון: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4436219037877456256">"כשההגדרה מופעלת, לכל האפליקציות והשירותים בעלי הרשאה יש גישה לכל מיקרופון במכשיר הזה.\n\nציוד אודיו היקפי, כמו מכשירי מיקרופון מחוברים עם פרוטוקול בהתאמה אישית, לא יושפעו מההגדרה הזו"</string>
+    <string name="mic_toggle_info_content" msgid="4699624900513326055">"כשההגדרה מופעלת, לכל האפליקציות והשירותים יש גישה לכל מיקרופון במכשיר הזה.\n\nההגדרה לא תשפיע על ציוד אודיו היקפי של עם פרוטוקול בהתאמה אישית."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"סטטוס הגישה למצלמה: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="camera_toggle_info_content" msgid="7045001373813906859">"כשההגדרה מופעלת, לכל האפליקציות והשירותים בעלי הרשאה יש גישה לכל מצלמה במכשיר הזה.\n\nציוד היקפי של המצלמה, כמו מצלמות רשת מחוברות עם פרוטוקול בהתאמה אישית, לא יושפעו מההגדרה הזו."</string>
+    <string name="camera_toggle_info_content" msgid="2999965953853204003">"כשההגדרה מופעלת, לכל האפליקציות והשירותים יש גישה לכל מצלמה במכשיר הזה.\n\nההגדרה לא תשפיע על ציוד היקפי של מצלמות עם פרוטוקול בהתאמה אישית."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"מופעל"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"כבוי"</string>
     <string name="system_location" msgid="4057295363709016511">"מיקום"</string>
@@ -938,7 +943,7 @@
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"לא הוגדרו ברירות מחדל"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"נקה מטמון"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"התראות"</string>
-    <string name="device_apps_app_management_licenses" msgid="5554510375160907076">"רישיונות קוד פתוח"</string>
+    <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"מקור של צד שלישי"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"אישורים"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"האפליקציה אינה זמינה"</string>
     <string name="settings_ok" msgid="5950888975075541964">"אישור"</string>
@@ -1028,6 +1033,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"תמונה בתוך תמונה"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"אין אפליקציות מותקנות שתומכות ב\'תמונה בתוך תמונה\'"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"אפליקציה זו תוכל ליצור חלון מסוג תמונה בתוך תמונה בזמן שהיא תהיה פתוחה או לאחר היציאה ממנה (למשל, כדי להמשיך לצפות בסרטון). חלון זה מוצג מעל אפליקציות אחרות שנמצאות בשימוש."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"ההגדרה הזו מתירה לאפליקציות להגדיר התראות ולתזמן פעולות בלוח זמנים. האפליקציות יוכלו לפעול ברקע ובכך להגביר את צריכת הסוללה.\n\nאם ההרשאה מושבתת, ההתראות והאירועים שתוזמנו בלוח זמנים על ידי האפליקציה לא יפעלו."</string>
     <string name="special_access" msgid="21806055758289916">"גישה מיוחדת לאפליקציה"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"אודיו"</string>
