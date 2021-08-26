@@ -130,10 +130,10 @@
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Atmos avec Dolby Digital Plus"</string>
     <string name="surround_sound_format_dra" msgid="6102878163986662443">"DRA"</string>
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"Remarque : L\'option \"Automatique\" peut mal fonctionner si les formats acceptés ne sont pas signalés."</string>
-    <string name="surround_sound_auto_title" msgid="4892922385727913277">"Automatique : n\'activer que les formats compatibles avec votre périphérique de sortie audio "</string>
+    <string name="surround_sound_auto_title" msgid="4892922385727913277">"Sélection automatique : n\'activer que les formats compatibles avec votre périphérique de sortie audio "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"Lorsque cette option est sélectionnée, le système autorise les applis à choisir un format sonore compatible avec votre chaîne d\'appareils. Les applis peuvent opter pour un format qui ne garantit pas la meilleure qualité."</string>
-    <string name="surround_sound_none_title" msgid="1600095173519889326">"Aucun : ne jamais utiliser le son surround"</string>
-    <string name="surround_sound_manual_title" msgid="4935447605070985537">"Manuelle : activer ou désactiver séparément chaque format compatible avec cet appareil, quels que soient les formats compatibles avec votre périphérique de sortie audio."</string>
+    <string name="surround_sound_none_title" msgid="1600095173519889326">"Jamais : ne jamais utiliser le son surround"</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"Sélection manuelle : activer ou désactiver séparément chaque format compatible avec cet appareil, quels que soient les formats compatibles avec votre périphérique de sortie audio."</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"Si l\'option est sélectionnée, vous pouvez désactiver manuellement les formats sonores compatibles avec votre chaîne d\'appareils générant des problèmes de lecture. Vous pouvez activer les formats sonores incompatibles. Les applis choisissent parfois un format ne garantissant pas la meilleure qualité."</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"Activer le format sonore non compatible ?"</string>
     <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"L\'appareil audio connecté n\'est pas compatible avec ce format. Il est possible que votre appareil émette des claquements ou des bruits inattendus."</string>
@@ -178,7 +178,7 @@
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
     <string name="hdr_format_dolby_vision" msgid="7367264615042999587">"Dolby Vision"</string>
     <string name="hdr_format_selection_auto_summary" msgid="7384637194191436727">"Lorsque cette option est sélectionnée, le système autorise les applis à choisir un format HDR compatible avec votre chaîne d\'appareils. Les applis peuvent opter pour un format qui ne garantit pas la meilleure qualité."</string>
-    <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"Si l\'option est sélectionnée, vous pouvez désactiver manuellement formats HDR compatibles avec chaîne d\'appareils qui provoquent problèmes de lecture. Vous ne pouvez pas forcer l\'activation des formats HDR incompatibles. Les applis peuvent opter pour un format qui ne garantit pas la meilleure qualité."</string>
+    <string name="hdr_format_selection_manual_summary" msgid="7886959642083639353">"Cette option permet de désactiver manuellement les formats HDR compatibles avec votre chaîne d\'appareils provoquant des problèmes de lecture. Vous ne pouvez pas forcer l\'activation des formats HDR incompatibles. Les applis peuvent opter pour un format qui ne garantit pas la meilleure qualité."</string>
     <string name="hdr_format_info" msgid="5652559220799426076">"INFOS SUR LE FORMAT"</string>
     <string name="hdr_show_formats" msgid="171065892975445851">"Afficher les formats"</string>
     <string name="hdr_hide_formats" msgid="8561568998525727230">"Masquer les formats"</string>
@@ -412,6 +412,9 @@
     <string name="license_title" msgid="4032466200355435641">"Licence"</string>
     <string name="terms_title" msgid="192888187310800678">"Conditions d\'utilisation"</string>
     <string name="webview_license_title" msgid="5370270485188947540">"Licence WebView du système"</string>
+    <string name="consumer_information_title" msgid="7729729568416672733">"Informations consommateurs"</string>
+    <string name="consumer_information_message" msgid="205236637689468764">"Les contenus accessibles sur Android TV proviennent de partenaires tiers, tels que des développeurs d\'applis et des studios de cinéma, mais aussi de Google. Pour en savoir plus, veuillez consulter "<a href="g.co/tv/androidtvinfo">"g.co/tv/androidtvinfo"</a></string>
+    <string name="consumer_information_button_ok" msgid="6979480064600038080">"OK"</string>
   <string-array name="wifi_signal_strength">
     <item msgid="4475363344103354364">"Médiocre"</item>
     <item msgid="2098818614362343532">"Assez bon"</item>
