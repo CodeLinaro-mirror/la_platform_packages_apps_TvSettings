@@ -226,6 +226,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Додаци"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Даљински управљач"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Подешавања даљинског управљања"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Подесите дугмад на даљинском управљачу"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Контролишите јачину звука, напајање и улаз ТВ-а, пријемника и саундбарова"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Повежи"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Повежите се са уређајем %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Прекини везу"</string>
@@ -493,7 +495,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Повежи"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Заборави мрежу"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Овако ћете обрисати информације за повезивање на ову мрежу, укључујући и сачувану лозинку"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Придружите се WiFi мрежи тако што ћете скенирати QR кôд помоћу мобилног телефона и пратити упутства."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Придружите се WiFi мрежи тако што ћете скенирати QR кôд помоћу мобилног телефона и пратити упутства.\n \n На "<b>"Android телефону"</b>" идите у Подешавања -&gt; Мрежа и интернет -&gt; WiFi -&gt; Изаберите WiFi -&gt; Напредно -&gt; Додајте уређај и скенирајте QR кôд."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Притисните дугме Назад да бисте отказали"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Потврди"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Настави"</string>

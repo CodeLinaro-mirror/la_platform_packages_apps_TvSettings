@@ -226,6 +226,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Accesorii"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Telecomandă"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Setări pentru telecomandă"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Configurați butoanele telecomenzii"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Controlați volumul, alimentarea și intrarea pentru televizoare, receivere și bare de sunet"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Conectați"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Conectați-vă la %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Deconectați"</string>
@@ -493,7 +495,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Conectați-vă"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Eliminați rețeaua"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Vor fi șterse informațiile utilizate pentru conectarea la această rețea, inclusiv parolele salvate"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Conectați-vă la o rețea Wi-Fi scanând codul QR de pe telefonul mobil și urmați instrucțiunile."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Conectați-vă la o rețea Wi-Fi scanând codul QR de pe telefonul mobil și urmați instrucțiunile.\n \n Pe un "<b>"telefon Android"</b>", accesați Setări -&gt; Rețea și internet -&gt; Wi-Fi -&gt; Selectați o rețea Wi-Fi -&gt; Avansat -&gt; Adăugați dispozitivul și scanați codul QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Apăsați butonul Înapoi pentru a anula"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Continuați"</string>

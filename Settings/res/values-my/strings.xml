@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ဆက်စပ်ပစ္စည်းများ"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"အဝေးထိန်းခလုတ်"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"အဝေးထိန်းခလုတ် ဆက်တင်များ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"အဝေးထိန်း ခလုတ်များကို စနစ်ထည့်သွင်းခြင်း"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"TV၊ လက်ခံစက်နှင့် အသံဘားများတွင် အသံအတိုးအကျယ်၊ အဖွင့်အပိတ်၊ အဝင်တို့ကို ထိန်းချုပ်ပါ"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ချိတ်ဆက်ရန်"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s သို့ ချိတ်ဆက်ပါ"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ချိတ်ဆက်မှု ဖြုတ်ရန်"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"ချိတ်ဆက်ရန်"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ကွန်ရက်ကို မေ့ပစ်ရန်"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"၎င်းက ဒီကွန်ရက်ကို ချိတ်ဆက်စဉ် အသုံးပြုခဲ့သည့် အချက်အလက်များကို၊ သိမ်းဆည်းခဲ့သည့် စကားဝှက် တစ်ခုခု အပါအဝင်ကို၊ ရှင်းပစ်သည်။"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"သင့်မိုဘိုင်းဖုန်းမှ QR ကုဒ်ကို စကင်ဖတ်၍ ညွှန်ကြားချက်အတိုင်း လုပ်ဆောင်ခြင်းဖြင့် WiFi နှင့်ချိတ်ဆက်ပါ။"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" မိုဘိုင်းဖုန်းမှ QR ကုဒ်ကို စကင်ဖတ်၍ ညွှန်ကြားချက်များအတိုင်း လုပ်ဆောင်ခြင်းဖြင့် Wi-Fi နှင့်ချိတ်ဆက်ပါ။\n \n "<b>"Android ဖုန်း"</b>" မှ ‘ဆက်တင်များ -&gt; ကွန်ရက်နှင့် အင်တာနက် -&gt; Wi-Fi -&gt; Wi-Fi ရွေးခြင်း -&gt; အဆင့်မြင့် -&gt; စက်ထည့်ခြင်း’ သို့ သွားပြီး QR ကုဒ်ကို စကင်ဖတ်ပါ။"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ပယ်ဖျက်ရန် နောက်သို့ခလုတ်ကို နှိပ်ပါ"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ရှေ့ဆက်ရန်"</string>

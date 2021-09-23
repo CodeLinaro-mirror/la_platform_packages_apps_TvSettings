@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"لوازمات"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ریموٹ کنٹرول"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ریموٹ کنٹرول کی ترتیبات"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ریموٹ بٹنز سیٹ اپ کریں"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"TVs، ریسیورز اور ساؤنڈ بارز پر والیوم، پاور اور ان پٹ کنٹرول کریں"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"منسلک کریں"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s سے منسلک ہوں"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"غیر منسلک کریں"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"منسلک کریں"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"نیٹ ورک کو بھول جائیں"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"محفوظ کردہ پاس ورڈ سمیت، یہ اس نیٹ ورک سے منسلک کرنے کیلئے استعمال کردہ معلومات کو صاف کر دیتا ہے۔"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"اپنے موبائل فون سے QR کوڈ اسکین کر کے Wi-Fi میں شامل ہوں اور ہدایت کی پیروی کریں۔"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" موبائل فون سے QR کوڈ اسکین کر کے Wi-Fi میں شامل ہوں اور ہدایت کی پیروی کریں۔\n \n "<b>"Android فون"</b>" سے ترتیبات ‎-&gt; نیٹ ورک اور انٹرنیٹ ‎-&gt;‏Wi-Fi پر جائیں ‏‎-&gt; Wi-Fi ‏‎-&gt; جدید ترین منتخب کریں ‎-&gt; آلہ شامل کریں پھر QR کوڈ اسکین کریں۔"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"منسوخ کرنے کیلئے \"پیچھے جائيں\" بٹن پر دبائیں"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ٹھیک ہے"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"جاری رکھیں"</string>

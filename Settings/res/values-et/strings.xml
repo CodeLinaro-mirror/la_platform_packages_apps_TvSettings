@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Lisatarvikud"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Kaugjuhtimispult"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Kaugjuhtimispuldi seaded"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Puldi nuppude seadistamine"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Helitugevuse, toite ja sisendi juhtimine telerites, vastuvõtjates ning heliribades"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Ühenda"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Ühenda seadmega %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Katkesta ühendus"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Ühenda"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Unusta võrk"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"See kustutab teabe, mida kasutatakse võrguga ühenduse loomiseks, sh salvestatud parooli"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Liituge WiFi-võrguga, skannides oma mobiilseadmega QR-koodi ja järgides juhiseid."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Liituge WiFi-võrguga, skannides oma mobiiltelefoniga QR-koodi ja järgides juhiseid.\n \n Tehke "<b>"Android-telefonis"</b>" valikud Seaded -&gt; Võrk ja internet -&gt; WiFi -&gt; valige WiFi-võrk -&gt; tehke valik Täpsemad -&gt; lisage seade ja skannige siis QR-kood."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Tühistamiseks vajutage tagasiliikumise nuppu"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Jätka"</string>

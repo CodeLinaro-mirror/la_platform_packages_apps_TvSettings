@@ -228,6 +228,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Аксесуары"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Дыстанцыйнае кіраванне"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Налады пульта дыстанцыйнага кіравання"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Наладзіць кнопкі пульта кіравання"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Кіраванне гучнасцю, сілкаваннем, уваходнымі сігналамі на тэлевізарах, рэсіверах і гукавых панэлях"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Падключыць"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Падключыцца да %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Адключыць"</string>
@@ -508,7 +510,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Падключыцца"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Забыцца пра сетку"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Гэта ачышчае інфармацыю, якая выкарыстоўваецца для падключэння да гэтай сеткі, у тым ліку пароль"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Каб далучыцца да сеткі Wi-Fi, адсканіруйце QR-код з мабільнага тэлефона і выканайце інструкцыі."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Каб далучыцца да сеткі Wi-Fi, адсканіруйце QR-код з мабільнага тэлефона і выканайце інструкцыі.\n \n На "<b>"тэлефоне Android"</b>" адкрыйце Налады -&gt; Сетка &amp; інтэрнэт -&gt; Wi-Fi -&gt; выберыце Wi-Fi -&gt; Пашыраныя налады -&gt; Дадаць прыладу, а потым адсканіруйце QR-код."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Каб скасаваць, націсніце кнопку \"Назад\""</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Працягнуць"</string>

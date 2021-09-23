@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"యాక్సెసరీలు"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"రిమోట్ కంట్రోల్"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"రిమోట్ కంట్రోల్ సెట్టింగ్‌లు"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"రిమోట్ బటన్‌లను సెటప్ చేయండి"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"వాల్యూమ్, పవర్, టీవీలలో ఇన్‌పుట్, రిసీవర్‌లు అలాగే సౌండ్‌బార్‌లను కంట్రోల్ చేయండి"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"కనెక్ట్ చేయి"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$sకు కనెక్ట్ అవ్వండి"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"డిస్‌కనెక్ట్ చేయి"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"కనెక్ట్ చేయి"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"నెట్‌వర్క్‌ను విస్మరించు"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ఇది సేవ్ చేసిన పాస్‌వర్డ్‌తో సహా ఈ నెట్‌వర్క్‌కి కనెక్ట్ చేయడా. ఉపయో. సమాచారాన్ని క్లియర్ చేస్తుంది"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"మీ మొబైల్ ఫోన్‌లో QR కోడ్‌ను స్కాన్ చేయడం ద్వారా Wifiకి కనెక్ట్ అవండి, సూచనను ఫాలో చేయండి."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" మీ మొబైల్ ఫోన్‌లో QR కోడ్‌ను స్కాన్ చేయడం ద్వారా Wi-Fiకి కనెక్ట్ అవండి, సూచనను ఫాలో చేయండి.\n \n Android ఫోన్ "<b>"లో"</b>" సెట్టింగ్‌లు -&gt; నెట్‌వర్క్ &amp; ఇంటర్నెట్ -&gt; Wi-Fiకి వెళ్లండి -&gt; Wi-Fi -&gt; అధునాతనంను ఎంచుకోండి -&gt; పరికరాన్ని జోడించి, ఆపై QR కోడ్‌ను స్కాన్ చేయండి."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"రద్దు చేయడానికి \'వెనుకకు\' బటన్‌ను నొక్కండి"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"సరే"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"కొనసాగించండి"</string>

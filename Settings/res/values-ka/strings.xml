@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"აქსესუარები"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"დისტანციური მართვა"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"დისტანციური მართვის პარამეტრები"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"დისტანციური მართვის ღილაკების დაყენება"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ტელევიზორებზე, მიმღებებსა და ხმოვან პანელებზე ხმის, ელკვების და შეყვანის მართვა"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"დაკავშირება"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"დაკავშირება %1$s-თან"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"გათიშვა"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"დაკავშირება"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ქსელის დავიწყება"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ეს წაშლის ამ ქსელთან დასაკავშირებლად გამოყენებულ მთელ ინფორმაციას, მათ შორის, შენახულ პაროლს."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"დაუკავშირდით Wi-Fi-ს თქვენი მობილური ტელეფონიდან QR კოდის სკანირების გზით და მიჰყევით ინსტრუქციას."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" დაუკავშირდით Wi-Fi-ს მობილური ტელეფონიდან QR კოდის სკანირების გზით და მიჰყევით ინსტრუქციას.\n \n "<b>"Android ტელეფონიდან"</b>" გადადით: პარამეტრები -&gt; ქსელი და ინტერნეტი -&gt; Wi-Fi -&gt; აირჩიეთ Wi-Fi -&gt; გაფართოებული -&gt; დაამატეთ მოწყობილობა და შემდეგ დაასკანირეთ QR კოდი."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"გასაუქმებლად დააჭირეთ უკან გადასვლის ღილაკს"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"კარგი"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"გაგრძელება"</string>

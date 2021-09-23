@@ -16,15 +16,16 @@
 
 package com.android.tv.settings.device.displaysound;
 
-import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
-import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_TWO_PANEL;
-import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_VENDOR;
-import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_X;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_CLASSIC;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_TWO_PANEL;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_VENDOR;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_X;
 import static com.android.tv.settings.util.InstrumentationUtils.logToggleInteracted;
 
 import android.app.tvsettings.TvSettingsEnums;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.hardware.hdmi.HdmiControlManager;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -36,8 +37,8 @@ import androidx.preference.TwoStatePreference;
 
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
-import com.android.tv.settings.overlay.FlavorUtils;
-import com.android.tv.settings.util.SliceUtils;
+import com.android.tv.settings.library.overlay.FlavorUtils;
+import com.android.tv.settings.library.util.SliceUtils;
 import com.android.tv.twopanelsettings.slices.SlicePreference;
 
 /**
@@ -50,6 +51,7 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment {
     private static final String KEY_CEC = "cec";
 
     private AudioManager mAudioManager;
+    private HdmiControlManager mHdmiControlManager;
 
     public static DisplaySoundFragment newInstance() {
         return new DisplaySoundFragment();
@@ -63,6 +65,7 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment {
     @Override
     public void onAttach(Context context) {
         mAudioManager = context.getSystemService(AudioManager.class);
+        mHdmiControlManager = context.getSystemService(HdmiControlManager.class);
         super.onAttach(context);
     }
 
@@ -125,10 +128,8 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment {
                 && SliceUtils.isSliceProviderValid(
                         getContext(), ((SlicePreference) cecPreference).getUri())) {
             ContentResolver resolver = getContext().getContentResolver();
-            // Note that default CEC is enabled. You'll find similar retrieval of property in
-            // HdmiControlService.
-            boolean cecEnabled =
-                    Settings.Global.getInt(resolver, Settings.Global.HDMI_CONTROL_ENABLED, 1) != 0;
+            boolean cecEnabled = mHdmiControlManager.getHdmiCecEnabled()
+                    == HdmiControlManager.HDMI_CEC_CONTROL_ENABLED;
             cecPreference.setSummary(cecEnabled ? R.string.enabled : R.string.disabled);
             cecPreference.setVisible(true);
         } else {

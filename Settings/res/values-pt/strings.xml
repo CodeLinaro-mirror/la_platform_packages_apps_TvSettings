@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Acessórios"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Controle remoto"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Configurações de controle remoto"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Configurar botões de controle remoto"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Controle o volume, a função liga/desliga e a entrada em TVs, receptores e soundbars"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Conectar"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Conectar a %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Desconectar"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Conectar"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Esquecer a rede"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Esta ação limpa as informações usadas para se conectar a esta rede, incluindo uma senha salva."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Leia o código QR no seu smartphone e siga as instruções para se conectar a uma rede Wi-Fi."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Leia o código QR em um smartphone e siga as instruções para se conectar a uma rede Wi-Fi.\n \n Em um "<b>"smartphone Android"</b>", acesse Configurações -&gt; Rede e Internet -&gt; Wi-Fi -&gt; Selecionar Wi-Fi -&gt; Avançado -&gt; adicione o dispositivo e leia o código QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Pressione o botão \"Voltar\" para cancelar"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Continuar"</string>

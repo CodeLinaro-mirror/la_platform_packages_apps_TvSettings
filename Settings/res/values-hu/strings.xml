@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Tartozékok"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Távirányító"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Távirányító beállításai"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Távirányító gombjainak beállítása"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Hangerő, bekapcsológomb és bemenet kezelése tévén, vevőeszközön és hangprojektoron"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Csatlakozás"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Csatlakozás a következőhöz: %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Leválasztás"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Csatlakozás"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Hálózat elfelejtése"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Ezzel törli a hálózathoz való kapcsolódás során használt adatokat, beleértve a mentett jelszót is"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"A Wi-Fi-hez való csatlakozáshoz olvassa be a QR-kódot a mobiltelefonjáról, majd kövesse az utasításokat."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" A Wi-Fi-hez való csatlakozáshoz olvassa be a QR-kódot mobiltelefonról, majd kövesse az utasításokat.\n\n "<b>"Android-telefon"</b>" esetén lépjen a Beállítások &gt; Hálózat és internet &gt; Wi-Fi ponthoz &gt; válassza ki a kívánt Wi-Fi-hálózatot &gt; a Speciális &gt; Eszköz hozzáadása elemet, majd olvassa be a QR-kódot."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"A megszakításhoz nyomja meg a vissza gombot"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Tovább"</string>

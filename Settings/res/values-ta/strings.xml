@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"துணைக்கருவிகள்"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ரிமோட் கன்ட்ரோல்"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ரிமோட் கன்ட்ரோல் அமைப்புகள்"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ரிமோட் பட்டன்களை அமைத்தல்"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"டிவிகள், ரிசீவர்கள், சவுண்ட்பார்கள் ஆகியவற்றில் ஒலியளவையும் பவரையும் உள்ளீட்டையும் கட்டுப்படுத்தலாம்"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"இணை"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s உடன் இணைக்கவா?"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"இணைப்பைத் துண்டி"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"இணை"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"நெட்வொர்க்கை நீக்கு"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"சேமித்த கடவுச்சொல் உள்ளிட்ட இந்த நெட்வொர்க்குடன் இணைக்கப் பயன்படுத்திய தகவலை இது அழிக்கிறது"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"உங்கள் மொபைலில் QR குறியீட்டை ஸ்கேன் செய்வதன் மூலம் Wi-Fiயில் இணைந்து வழிமுறைகளைப் பின்பற்றவும்."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" மொபைலில் QR குறியீட்டை ஸ்கேன் செய்து வழிமுறைகளைப் பின்பற்றுவதன் மூலம் வைஃபையில் இணையலாம்.\n \n "<b>"Android மொபைலில்"</b>" அமைப்புகள் -&gt; நெட்வொர்க் &amp; இணையம் -&gt; வைஃபை -&gt; என்பதற்குச் சென்று, வைஃபை -&gt; மேம்பட்டவை -&gt; என்பதைத் தேர்ந்தெடுத்து, சாதனத்தைச் சேர்த்து QR குறியீட்டை ஸ்கேன் செய்யுங்கள்."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ரத்துசெய்ய \'பின்செல்\' பட்டனை அழுத்தவும்"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"சரி"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"தொடர்க"</string>

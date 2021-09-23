@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"আনুষংগিক সামগ্ৰী"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ৰিম’ট কণ্ট্ৰ’ল"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ৰিম’ট কণ্ট্ৰ’লৰ ছেটিংসমূহ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ৰিম’টৰ বুটামসমূহ ছেট আপ কৰক"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"টিভি, ৰিচিভাৰ আৰু ছাউণ্ডবাৰত ভলিউম, পাৱাৰ আৰু ইনপুট নিয়ন্ত্ৰণ কৰক"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"সংযোগ কৰক"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$sৰ সৈতে সংযোগ কৰক"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"সংযোগ বিচ্ছিন্ন কৰক"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"সংযোগ কৰক"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"নেটৱৰ্কটো পাহৰি যাওক"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"এই কাৰ্যই ছেভ কৰি ৰখা পাছৱৰ্ডকে ধৰি এই নেটৱৰ্কৰ সৈতে সংযোগ কৰিবলৈ ব্যৱহাৰ হোৱা সকলো তথ্য মচি পেলাব"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"আপোনাৰ ম\'বাইল ফ\'নৰ পৰা কিউআৰ ক\'ডটো স্কেন কৰি এটা ৱাই-ফাইত যোগদান কৰক আৰু নিৰ্দেশনাখিনি মানি চলক।"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" এটা ম\'বাইল ফ\'নৰ পৰা কিউআৰ ক\'ডটো স্কেন কৰি এটা ৱাই-ফাইত যোগদান কৰক আৰু নিৰ্দেশনাৱলী অনুসৰণ কৰক।\n \n এটা "<b>"Android ফ\'ন"</b>"ৰ পৰা ছেটিং -&gt; নেটৱর্ক আৰু ইণ্টাৰনেট -&gt; ৱাই-ফাই -&gt; এটা ৱাই-ফাই বাছনি কৰক -&gt; উচ্চখাপৰ -&gt; ডিভাইচ যোগ দি কিউআৰ ক\'ডটো স্কেন কৰক।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"বাতিল কৰিবলৈ উভতি যাওক বুটামটো টিপক"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ঠিক আছে"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"অব্যাহত ৰাখক"</string>

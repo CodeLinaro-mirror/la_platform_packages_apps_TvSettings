@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Accessoires"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Télécommande"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Paramètres de la télécommande"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Configurer la télécommande"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Contrôlez le volume, l\'alimentation et le mode d\'entrée sur vos téléviseurs, vos récepteurs et vos barres de son"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Connecter"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Connecter à %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Déconnecter"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Se connecter"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Supprimer le réseau"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Supprimer les infos utilisées pour se connecter à ce réseau, y compris tout mot de passe enregistré."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Pour rejoindre un réseau Wi-Fi, scannez le code QR via votre téléphone mobile, puis suivez les instructions."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Pour rejoindre un réseau Wi-Fi, scannez le code QR depuis un téléphone mobile et suivez les instructions.\n \n Sur un "<b>"téléphone Android"</b>", accédez à Paramètres -&gt; Réseau et Internet -&gt; Wi-Fi -&gt; sélectionnez un réseau Wi-Fi -&gt; Paramètres avancés -&gt; ajoutez un appareil et scannez le code QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Appuyer sur le bouton \"Retour\" pour annuler"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Continuer"</string>

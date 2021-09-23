@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ઍક્સેસરી"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"રિમોટ કન્ટ્રોલ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"રિમોટ કન્ટ્રોલ સેટિંગ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"રિમોટ બટનનું સેટઅપ કરો"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ટીવી, રિસીવર અને સાઉન્ડબાર પર વૉલ્યૂમ, પાવર અને ઇનપુટને નિયંત્રિત કરો"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"કનેક્ટ કરો"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$sની સાથે કનેક્ટ કરો"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ડિસ્કનેક્ટ કરો"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"કનેક્ટ કરો"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"નેટવર્કને ભૂલી જાઓ"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"આ સાચવેલ પાસવર્ડ સહિત આ નેટવર્કથી કનેક્ટ કરવા માટે ઉપયોગમાં લેવાયેલ માહિતીને સાફ કરી દે છે"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"તમારા મોબાઇલ ફોનથી QR કોડ સ્કૅન કરીને વાઇ-ફાઇથી જોડાઓ અને સૂચના ફૉલો કરો."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" મોબાઇલ ફોનથી QR કોડ સ્કૅન કરીને વાઇ-ફાઇથી જોડાઓ અને સૂચના ફૉલો કરો.\n \n "<b>"Android ફોન"</b>"માં સેટિંગ -&gt; નેટવર્ક અને ઇન્ટરનેટ -&gt; વાઇ-ફાઇ -&gt; વાઇ-ફાઇ નેટવર્ક -&gt; પસંદ કરો, વિગતવાર -&gt; ડિવાઇસ ઉમેરો અને પછી QR કોડ સ્કૅન કરો."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"રદ કરવા માટે, \'પાછળ\' જવા માટેનું બટન દબાવો"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ઓકે"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"આગળ વધો"</string>

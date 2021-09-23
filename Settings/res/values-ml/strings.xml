@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ആക്‌സസറികൾ"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"റിമോട്ട് കൺട്രോൾ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"റിമോട്ട് കൺട്രോൾ ക്രമീകരണം"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"റിമോട്ട് ബട്ടണുകൾ സജ്ജീകരിക്കുക"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ശബ്‌ദം, പവർ, ടിവികളിലെ ഇൻപുട്ട്, റിസീവറുകൾ, സൗണ്ട് ബാറുകൾ എന്നിവ നിയന്ത്രിക്കുക"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"കണക്റ്റ് ചെയ്യുക"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s എന്നതിലേക്ക് കണക്‌റ്റ് ചെയ്യുക"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"വിച്ഛേദിക്കുക"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"കണക്റ്റുചെയ്യുക"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"നെറ്റ്‌വർക്ക് മറക്കുക"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"സംരക്ഷിച്ച ഒരു പാസ്‌വേഡ് ഉൾപ്പടെ, ഈ നെറ്റ്‌വർക്കിലേക്ക് കണക്‌റ്റുചെയ്യാൻ ഉപയോഗിച്ച വിവരങ്ങളെ ഇത് മായ്ക്കുന്നു"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"നിങ്ങളുടെ മൊബൈലിൽ QR കോഡ് സ്‌കാൻ ചെയ്‌ത ശേഷം നിർദ്ദേശങ്ങൾ പിന്തുടർന്ന് വൈഫൈയിൽ ചേരുക."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" നിങ്ങളുടെ മൊബൈലിൽ QR കോഡ് സ്‌കാൻ ചെയ്‌ത ശേഷം നിർദ്ദേശങ്ങൾ പിന്തുടർന്ന് വൈഫൈയിൽ ചേരുക.\n \n ഒരു "<b>"Android ഫോണിൽ നിന്ന്"</b>" ക്രമീകരണം -&gt; നെറ്റ്‌വർക്കും ഇന്റർനെറ്റും -&gt; വൈഫൈ -&gt; വൈഫൈ തിരഞ്ഞെടുക്കുക -&gt; വിപുലമായത് -&gt; ഉപകരണം ചേർത്ത ശേഷം QR കോഡ് സ്‌കാൻ ചെയ്യുക എന്നതിലേക്ക് പോകുക."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"റദ്ദാക്കാൻ, മടങ്ങുക ബട്ടൺ അമർത്തുക"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ശരി"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"തുടരുക"</string>

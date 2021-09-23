@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"අමතර උපාංග"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"දුරස්ථ පාලකය"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"දුරස්ථ පාලක සැකසීම්"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"දුරස්ථ පාලක බොත්තම් පිහිටුවන්න"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"TV, ග්‍රාහක සහ හඬ තීරුවල හඬ පරිමාව, බලය, ආදානය පාලනය කරන්න"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"සම්බන්ධ වන්න"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s වෙත සම්බන්ධ වන්න"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"විසන්ධි කරන්න"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"සම්බන්ධ කරන්න"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ජාලය අමතක කරන්න"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"සුරකින ලද මුරපදය ඇතුළත්ව, මෙම ජාලයට සම්බන්ධ වීමට භාවිතා කළ තොරතුරු සියල්ල මෙය ඉවත් කරයි"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"ඔබගේ ජංගම දුරකථනයෙන් QR කේතය ස්කෑන් කිරීමෙන් Wi-Fi වෙත සම්බන්ධ වී උපදෙස් අනුගමනය කරන්න."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ජංගම දුරකථනයකින් QR කේතය ස්කෑන් කිරීමෙන් Wi-Fi වෙත සම්බන්ධ වී උපදෙස් අනුගමනය කරන්න.\n \n "<b>"Android දුරකථනයකින්"</b>" සැකසීම් -&gt; ජාලය සහ අන්තර්ජාලය -&gt; Wi-Fi -&gt; වෙත ගොස් Wi-Fi -&gt; උසස් -&gt; තෝරා උපාංගය එක් කර අනතුරුව QR කේතය ස්කෑන් කරන්න."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"අවලංගු කිරීමට ආපසු බොත්තම ඔබන්න"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"හරි"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ඉදිරියට යන්න"</string>

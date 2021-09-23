@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Osagarriak"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Urruneko kontrolagailua"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Urruneko kontrolagailuaren ezarpenak"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Konfiguratu urruneko kontrolagailuaren botoiak"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Kontrolatu telebista, hargailu eta soinu-barren bolumena, etengailua eta sarrera."</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Konektatu"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Konektatu %1$s gailura"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Deskonektatu"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Konektatu"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Ahaztu sarea"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Sarera konektatzeko erabilitako informazioa garbituko da, gordetako pasahitza barne"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Sartu wifi-sare batean telefono mugikorrarekin QR kodea eskaneatuz, eta jarraitu argibideak."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Konektatu wifi-sarera telefono mugikorrarekin QR kodea eskaneatuz, eta jarraitu argibideei.\n \n "<b>"Android telefono"</b>" batean, sakatu Ezarpenak -&gt; Sareak eta Internet -&gt; Wifia -&gt; Hautatu wifi-sarea -&gt; Aurreratuak -&gt; Gehitu gailu bat, eta, ondoren, eskaneatu QR kodea."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Bertan behera uzteko, sakatu Atzera botoia"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Ados"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Egin aurrera"</string>

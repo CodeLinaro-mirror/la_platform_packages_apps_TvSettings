@@ -230,6 +230,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Urządzenia współpracujące"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Pilot"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Ustawienia pilota"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Skonfiguruj przyciski pilota"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Steruj głośnością, zasilaniem i źródłem sygnału na telewizorach, amplitunerach i soundbarach"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Połącz"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Połącz z: %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Odłącz"</string>
@@ -510,7 +512,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Połącz"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Zapomnij sieć"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Powoduje to wyczyszczenie informacji używanych do łączenia z tą siecią, w tym zapisanego hasła"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Jeśli chcesz się połączyć z Wi-Fi, zeskanuj telefonem kod QR i postępuj zgodnie z instrukcjami."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Jeśli chcesz połączyć się z Wi-Fi, zeskanuj telefonem kod QR i postępuj zgodnie z instrukcjami.\n \n Na "<b>"telefonie z Androidem"</b>" otwórz Ustawienia &gt; Sieć i internet &gt; Wi-Fi &gt; wybierz Wi-Fi &gt; Zaawansowane &gt; dodaj urządzenie i zeskanuj kod QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Aby anulować, naciśnij przycisk Wstecz"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Dalej"</string>
