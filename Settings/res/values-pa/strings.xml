@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ਐਕਸੈਸਰੀਆਂ"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ਰਿਮੋਟ ਕੰਟਰੋਲ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ਰਿਮੋਟ ਕੰਟਰੋਲ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ਰਿਮੋਟ ਦੇ ਬਟਨਾਂ ਦਾ ਸੈੱਟਅੱਪ ਕਰੋ"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ਟੀਵੀ, ਰਿਸੀਵਰ ਅਤੇ ਸਾਊਂਡਬਾਰ \'ਤੇ ਅਵਾਜ਼, ਪਾਵਰ ਅਤੇ ਇਨਪੁੱਟ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s ਨਾਲ ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ਡਿਸਕਨੈਕਟ ਕਰੋ"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ਨੈੱਟਵਰਕ ਭੁੱਲ ਜਾਓ"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ਇਹ ਇਸ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਲੀਅਰ ਕਰ ਦਿੰਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਰੱਖਿਅਤ ਕੀਤਾ ਪਾਸਵਰਡ ਵੀ ਸ਼ਾਮਲ ਹੈ"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"ਆਪਣੇ ਮੋਬਾਈਲ ਫ਼ੋਨ ਤੋਂ QR ਕੋਡ ਸਕੈਨ ਕਰਕੇ ਵਾਈ-ਫਾਈ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ ਅਤੇ ਹਿਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ਮੋਬਾਈਲ ਫ਼ੋਨ ਤੋਂ QR ਕੋਡ ਸਕੈਨ ਕਰਕੇ ਵਾਈ-ਫਾਈ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ ਅਤੇ ਹਿਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।\n \n ਕਿਸੇ "<b>"Android ਫ਼ੋਨ"</b>" ਤੋਂ ਸੈਟਿੰਗਾਂ -&gt; ਨੈੱਟਵਰਕ &amp; ਇੰਟਰਨੈੱਟ -&gt; ਵਾਈ-ਫਾਈ -&gt; ਕੋਈ ਵਾਈ-ਫਾਈ ਚੁਣੋ -&gt; ਉੱਨਤ -&gt; ਡੀਵਾਈਸ ਸ਼ਾਮਲ ਕਰੋ \'ਤੇ ਜਾਓ ਅਤੇ ਫਿਰ QR ਕੋਡ ਸਕੈਨ ਕਰੋ।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ਰੱਦ ਕਰਨ ਲਈ \'ਪਿੱਛੇ\' ਬਟਨ ਨੂੰ ਦਬਾਓ"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ਠੀਕ ਹੈ"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ਜਾਰੀ ਰੱਖੋ"</string>

@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Aksesuarlar"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Pult"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Pult ayarları"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Məsafədən idarə düymələrini ayarlayın"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"TV\'lər, qəbuledicilər və səs panellərində səsi, yandırıb-söndürməni və girişi idarə edin"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Qoşun"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s cihazına qoşulun"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Ayırın"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Qoşul"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Şəbəkəni unudun"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Bu, saxlanılmış parol daxil olmaqla bu şəbəkəyə qoşulmaq üçün istifadə olunan məlumatı silir"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Mobil telefonunuzdan QR kodunu skan edərək Wifi\'a qoşulun və təlimatı izləyin."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Mobil telefonunuzdan QR kodunu skan edərək Wi-Fi\'a qoşulun və təlimatları izləyin.\n \n "<b>"Android Telefonunda"</b>" Ayarlar -&gt; Şəbəkə və internet -&gt; Wi-Fi -&gt; Wi-Fi seç -&gt; Qabaqcıl -&gt; Cihaz əlavə et bölməsinə keçin və QR kodunu skan edin."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Ləğv etmək üçün Geri düyməsinə basın"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Davam edin"</string>

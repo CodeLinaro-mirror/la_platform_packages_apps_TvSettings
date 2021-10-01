@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Aksessuarlar"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Masofaviy boshqaruv"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Masofaviy boshqaruv pulti sozlamalari"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Pult tugmalarini sozlash"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Televizor, resiver va saundbarlardagi tovush balandligi, quvvat va manbalarni boshqarish"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Ulash"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s bilan ulash"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Uzish"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Ulanish"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Tarmoqni unutish"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Bu ushbu tarmoqqa ulanish uchun foydalanilgan ma\'lumotlarni, jumladan saqlangan parolni o\'chiradi"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Mobil telefonda Wifi tarmoqqa ulanish uchun QR kodni skanerlang va koʻrsatmalarni bajaring."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Mobil telefonda Wi-Fi tarmoqqa ulanish uchun QR kodni skanerlang va koʻrsatmalarni bajaring.\n \n "<b>"Android telefoni"</b>" orqali Sozlamalar -&gt; Tarmoq va internet -&gt; Wi-Fi -&gt; Wi-Fi tarmoqni tanlash -&gt; Kengaytirilgan -&gt; Qurilma kiritish sozlamasini oching va QR kodni skanerlang."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Bekor qilish uchun Orqaga tugmasini bosing"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Davom etish"</string>

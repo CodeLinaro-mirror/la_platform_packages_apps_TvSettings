@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Aksesuarlar"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Uzaktan Kumanda"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Uzaktan kumanda ayarları"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Uzaktan kumanda düğmeleri ayarlayın"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"TV\'lerde, alıcılarda ve ses çubuklarında ses düzeyini, gücü, girişi kontrol edin"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Bağlan"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s cihazına bağlan"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Bağlantıyı kes"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Bağlan"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Ağı unut"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Bu işlem, bu ağa bağlanmak için kullanılan bilgileri (tüm kayıtlı şifreler dahil) siler."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Cep telefonunuzla QR kodu tarayarak kablosuz ağa katılıp talimatları uygulayın."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Bir cep telefonuyla QR kodu tarayarak kablosuz ağa katılın ve talimatları uygulayın.\n \n Bir "<b>"Android Telefonda"</b>" Ayarlar -&gt; Ağ ve internet -&gt; Kablosuz -&gt; Kablosuz ağ seç -&gt; Gelişmiş -&gt; Cihaz ekle\'ye gidip QR kodu tarayın."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"İptal etmek için geri düğmesine basın"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Tamam"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Devam"</string>

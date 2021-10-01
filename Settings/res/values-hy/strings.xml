@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Լրասարքեր"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Հեռակառավարման վահանակ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Հեռակառավարման վահանակի կարգավորումներ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Հեռակառավարման վահանակի կոճակների կարգավորում"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Միացրեք/անջատեք հեռուստացույցը, ընդունիչները և բարձրախոս-վահանակները, ինչպես նաև կառավարեք դրանց ձայնի ուժգնությունն ու մուտքի աղբյուրները"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Միացնել"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Միացնել %1$s սարքին"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Անջատել"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Միանալ"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Մոռանալ ցանցը"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Այս ցանցին միանալու համար օգտագործվող տվյալները, ներառյալ պահված գաղտնաբառը, կջնջվեն:"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Wi-Fi-ին միանալու համար ձեր հեռախոսով սկանավորեք QR կոդը և հետևեք հրահանգներին։"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Wi-Fi-ին միանալու համար հեռախոսով սկանավորեք QR կոդը և հետևեք հրահանգներին։\n \n "<b>"Android հեռախոսում"</b>" անցեք Կարգավորումներ -&gt; Ցանց և ինտերնետ -&gt; Wi-Fi -&gt; Ընտրել Wi-Fi ցանց -&gt; Լրացուցիչ -&gt; Ավելացնել սարք, այնուհետև սկանավորեք QR կոդը։"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Չեղարկելու համար սեղմեք «Հետ» կոճակը"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Լավ"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Շարունակել"</string>

@@ -228,6 +228,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Аксесуари"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Пульт ДК"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Налаштування пульта ДК"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Налаштуйте кнопки дистанційного керування"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Керуйте гучністю, живленням і джерелами вхідного сигналу телевізора, приймача та звукової панелі"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Підключити"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Підключитися до пристрою %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Відключити"</string>
@@ -508,7 +510,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Під’єднатись"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Видалити мережу"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Буде видалено відомості, потрібні для під’єднання до цієї мережі, зокрема збережений пароль"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Щоб підключитися до мережі Wi-Fi, відскануйте QR-код за допомогою мобільного телефона й дотримуйтеся вказівок на екрані."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Щоб підключитися до мережі Wi-Fi, відскануйте QR-код мобільним телефоном і виконайте вказівки.\n \n На "<b>"телефоні Android"</b>" виберіть \"Налаштування\" -&gt; \"Мережа й Інтернет\" -&gt; \"Wi-Fi\" -&gt; виберіть мережу Wi-Fi -&gt; \"Додатково\" -&gt; \"Додати пристрій\", а потім відскануйте QR-код."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Щоб скасувати, натисніть кнопку \"Назад\""</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Продовжити"</string>

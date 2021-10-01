@@ -228,6 +228,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"אביזרים"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"שלט רחוק"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"הגדרות לשלט רחוק"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"הגדרת הלחצנים בשלט הרחוק"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"שליטה בעוצמת הקול, בהפעלה, בקלט של טלוויזיות, ברסיברים ובמקרני קול."</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"התחברות"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"חיבור אל %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ניתוק"</string>
@@ -508,7 +510,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"התחבר"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"שכח רשת"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"פעולה זו מנקה מידע המשמש להתחבר אל הרשת הזו, כולל סיסמה שמורה"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"כדי להצטרף לרשת Wi-Fi, ניתן לסרוק קוד QR באמצעות הטלפון הנייד ואז לפעול לפי ההוראות."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" כדי להצטרף לרשת Wi-Fi, ניתן לסרוק קוד QR באמצעות טלפון נייד ואז לפעול לפי ההוראות.\n \n ב"<b>"טלפון Android"</b>", עוברים אל \'הגדרות\' -&gt; \'רשת\' ואינטרנט -&gt; Wi-Fi -&gt; בוחרים רשת Wi-Fi‏ -&gt; מתקדם -&gt; מוסיפים מכשיר ואז סורקים את קוד ה-QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"יש ללחוץ על הלחצן \'הקודם\' כדי לבטל"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"אישור"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"המשך"</string>

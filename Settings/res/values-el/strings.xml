@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Αξεσουάρ"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Τηλεχειριστήριο"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Ρυθμίσεις τηλεχειριστηρίου"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Ρύθμιση κουμπιών τηλεχειριστηρίου"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Έλεγχος έντασης ήχου, έναρξης και τερματισμού λειτουργίας, πηγών εισόδου σε τηλεοράσεις, δέκτες και soundbar"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Σύνδεση"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Σύνδεση σε %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Αποσύνδεση"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Σύνδεση"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Διαγραφή δικτύου από τη μνήμη"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Διαγράφει τις πληροφορίες σύνδεσης σε αυτό το δίκτυο, όπως τον αποθηκευμένο κωδικό πρόσβασης"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Συνδεθείτε σε ένα δίκτυο Wi-Fi σαρώνοντας τον κωδικό QR από το κινητό σας τηλέφωνο και ακολουθήστε τις οδηγίες."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Συνδεθείτε σε ένα δίκτυο Wi-Fi σαρώνοντας τον κωδικό QR από ένα κινητό τηλέφωνο και ακολουθήστε τις οδηγίες.\n \n Από ένα "<b>"τηλέφωνο Android"</b>" μεταβείτε στις Ρυθμίσεις -&gt; Δίκτυο και διαδίκτυο -&gt; Wi-Fi -&gt; Επιλογή Wi-Fi -&gt; Σύνθετες -&gt; Προσθέστε τη συσκευή και σαρώστε τον κωδικό QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Πατήστε το κουμπί πίσω για ακύρωση"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Συνέχεια"</string>

@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ອຸປະກອນເສີມ"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ຣີໂໝດ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ການຕັ້ງຄ່າ​ຣີ​ໂໝດ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ຕັ້ງຄ່າປຸ່ມຣີໂໝດ"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ຄວບຄຸມລະດັບສຽງ, ການເປີດປິດ, ອິນພຸດຢູ່ໂທລະທັດ ແລະ ລຳໂພງຊາວບາ"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ເຊື່ອມຕໍ່"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"ເຊື່ອມຕໍ່ຫາ %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ຕັດການເຊື່ອມຕໍ່"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"ເຊື່ອມຕໍ່"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ລືມເຄືອຂ່າຍ"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ນີ້​ຈະ​ເປັນ​ການ​ລຶບ​ລ້າງ​ຂໍ້ມູນທີ່​ໃຊ້ໃນ​ການເຊື່ອມ​ຕໍ່ກັບ​ເຄືອ​ຂ່າຍນີ້, ຮວມ​ທັງລະ​ຫັດຜ່ານ​ທີ່ບັນ​ທຶກໄວ້."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"ເຂົ້າຮ່ວມ Wifi ໂດຍການສະແກນລະຫັດ QR ຈາກໂທລະສັບມືຖືຂອງທ່ານແລ້ວເຮັດຕາມຄຳແນະນຳ."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ເຂົ້າຮ່ວມ Wi-Fi ໂດຍການສະແກນລະຫັດ QR ຈາກໂທລະສັບມືຖືແລ້ວເຮັດຕາມຄຳແນະນຳ.\n \n ຈາກ "<b>"ໂທລະສັບ Android"</b>" ໃຫ້ເຂົ້າໄປການຕັ້ງຄ່າ -&gt; ເຄືອຂ່າຍ ແລະ ອິນເຕີເນັດ -&gt; Wi-Fi -&gt; ເລືອກ Wi-Fi -&gt; ຂັ້ນສູງ -&gt; ເພີ່ມອຸປະກອນແລ້ວສະແກນລະຫັດ QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ກົດປຸ່ມກັບຄືນເພື່ອຍົກເລີກ"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ຕົກລົງ"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ສືບຕໍ່"</string>

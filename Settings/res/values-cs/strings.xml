@@ -228,6 +228,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Příslušenství"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Dálkové ovládání"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Nastavení dálkového ovládání"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Nastavení vzdálených tlačítek"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Ovládání hlasitosti, vstupu a napájení televizorů, přijímačů a soundbarů"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Připojit"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Připojit k zařízení %s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Odpojit"</string>
@@ -508,7 +510,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Spojit"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Odstranit záznam sítě"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Tato akce vymaže údaje používané k připojení k této síti, včetně uloženého hesla."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Připojte se k Wi-Fi: naskenujte QR kód pomocí telefonu a postupujte podle pokynů."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Připojte se k Wi-Fi: naskenujte QR kód pomocí mobilního telefonu a postupujte podle pokynů.\n \n V "<b>"telefonu Android"</b>" přejděte do Nastavení -&gt; Síť a internet -&gt; Wi-Fi -&gt; Vyberte síť Wi-Fi -&gt; Rozšířená nastavení -&gt; Přidat zařízení a potom naskenujte QR kód."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Akci zrušíte stisknutím tlačítka Zpět"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Pokračovat"</string>

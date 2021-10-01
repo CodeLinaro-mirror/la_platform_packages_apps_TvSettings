@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ಪರಿಕರಗಳು"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ರಿಮೋಟ್ ನಿಯಂತ್ರಣ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ರಿಮೋಟ್ ನಿಯಂತ್ರಣದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ರಿಮೋಟ್ ಬಟನ್‌ಗಳನ್ನು ಸೆಟಪ್ ಮಾಡಿ"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ಟಿವಿಗಳು, ರಿಸೀವರ್‌ಗಳು ಮತ್ತು ಸೌಂಡ್‌ಬಾರ್‌ಗಳಲ್ಲಿ ವಾಲ್ಯೂಮ್, ಪವರ್ ಹಾಗೂ ಇನ್‌ಪುಟ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಿ"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ಕನೆಕ್ಟ್ ಮಾಡಿ"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಿ"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಿ"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"ಸಂಪರ್ಕಪಡಿಸು"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ನೆಟ್‌ವರ್ಕ್‌ ಮರೆತುಬಿಡು"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ಇದು ಉಳಿಸಲಾಗಿರುವ ಪಾಸ್‌ವರ್ಡ್ ಸೇರಿದಂತೆ, ಈ ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕಿಸಲು ಬಳಸಲಾಗಿರುವ ಮಾಹಿತಿಯನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"ನಿಮ್ಮ ಮೊಬೈಲ್ ಫೋನ್‌ ಸಹಾಯದಿಂದ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ವೈಫೈಗೆ ಸೇರಿ ಹಾಗೂ ಸೂಚನೆಯನ್ನು ಅನುಸರಿಸಿ."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ನಿಮ್ಮ ಮೊಬೈಲ್ ಫೋನ್‌ ಸಹಾಯದಿಂದ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ವೈಫೈಗೆ ಸೇರಿ ಹಾಗೂ ಸೂಚನೆಗಳನ್ನು ಅನುಸರಿಸಿ.\n \n "<b>"Android ಫೋನ್‌ನಿಂದ"</b>" ಸೆಟ್ಟಿಂಗ್‌ಗಳು -&gt; ನೆಟ್‌ವರ್ಕ್ &amp; ಇಂಟರ್ನೆಟ್ -&gt; ವೈ-ಫೈ -&gt; ವೈ-ಫೈ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ -&gt; ಸುಧಾರಿತ -&gt; ಸಾಧನವನ್ನು ಸೇರಿಸಿ ಮತ್ತು ನಂತರ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಆಯ್ಕೆಗೆ ಹೋಗಿ."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ರದ್ದುಗೊಳಿಸಲು, ಹಿಂದಿರುಗು ಬಟನ್ ಅನ್ನು ಒತ್ತಿ"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ಸರಿ"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ಮುಂದುವರಿಸಿ"</string>

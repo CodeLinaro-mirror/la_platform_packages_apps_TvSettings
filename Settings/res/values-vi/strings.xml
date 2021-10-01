@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Phụ kiện"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Điều khiển từ xa"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Cài đặt điều khiển từ xa"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Thiết lập các nút trên điều khiển từ xa"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Điều chỉnh âm lượng, nguồn, nguồn đầu vào của TV, bộ thu và loa thanh"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Kết nối"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Kết nối với %1$s?"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Ngắt kết nối"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Kết nối"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Xóa mạng"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Thao tác này sẽ xóa thông tin được sử dụng để kết nối với mạng này, bao gồm mật khẩu đã lưu"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Kết nối với một mạng Wi-Fi bằng cách quét mã QR trên điện thoại di động của bạn rồi làm theo hướng dẫn."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Kết nối với một mạng Wi-Fi bằng cách quét mã QR trên điện thoại di động rồi làm theo hướng dẫn.\n \n Trên "<b>"điện thoại Android"</b>", hãy chuyển đến phần Cài đặt -&gt; Mạng và Internet -&gt; Wi-Fi -&gt; Chọn Wi-Fi -&gt; Nâng cao -&gt; Thêm thiết bị rồi quét mã QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Nhấn vào nút quay lại để hủy"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Tiếp tục"</string>

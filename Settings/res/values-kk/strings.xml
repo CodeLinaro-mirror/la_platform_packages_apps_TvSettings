@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Жабдықтар"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Пульт"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Пульт параметрлері"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Пульт түймелерін реттеу"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Теледидардағы, қабылдағыштардағы және саундбарлардағы дыбыс деңгейін, қуатты, кіріс сигналының көздерін басқару"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Жалғау"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s құрылғысына жалғау"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Ажырату"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Қосылу"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Желіні ұмыту"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Бұл осы желіге қосылу үшін пайдаланылған ақпаратты, соның ішінде, сақталған құпия сөзді тазалайды."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Ұялы телефоныңыздан QR кодын сканерлеңіз де, нұсқауларды орындап, Wi-Fi желісіне қосылыңыз."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Ұялы телефоннан QR кодын сканерлеңіз де, нұсқауларды орындап, Wi-Fi желісіне қосылыңыз.\n \n "<b>"Android телефонынан"</b>" \"Параметрлер -&gt; Желі және интернет -&gt; Wi-Fi -&gt; Wi-Fi-ды таңдау -&gt; Кеңейтілген -&gt; Құрылғы қосу және бұдан кейін QR кодын сканерлеу\" тармағын таңдаңыз."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Бас тарту үшін \"Артқа\" түймесін басыңыз."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Жарайды"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Жалғастыру"</string>

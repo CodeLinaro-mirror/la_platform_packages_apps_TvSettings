@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"सहायक उपकरणहरू"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"रिमोट कन्ट्रोल"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"रिमोट कन्ट्रोलसम्बन्धी सेटिङ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"रिमोटका बटनहरू सेटअप गर्नुहोस्"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"टिभी, रिसिभर र साउन्डबारको भोल्युम, पावर र इनपुट नियन्त्रण गर्नुहोस्"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"कनेक्ट गर्नुहोस्"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s मा कनेक्ट गर्नुहोस्"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"डिस्कनेक्ट गर्नुहोस्"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"कनेक्ट गर्नुहोस्"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"सञ्जाल बिर्सनुहोस्"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"यसले यो नेटवर्कमा सुरक्षित भएका पासवर्ड सहित जडान गर्न प्रयोग हुने जानकरीलाई क्लियर गर्दछ।"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"आफ्नो मोबाइल फोनमार्फत QR कोड स्क्यान गरेर आफ्नो फोन Wi-Fi मा कनेक्ट गर्नुहोस् अनि दिइएको निर्देशन पालना गर्नुहोस्।"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" कुनै मोबाइल फोनमार्फत QR कोड स्क्यान गरेर उक्त फोन Wi-Fi मा कनेक्ट गर्नुहोस् अनि दिइएका निर्देशनहरूको पालना गर्नुहोस्।\n \n"<b>"Android फोन"</b>" प्रयोग गरी \'सेटिङ -&gt; नेटवर्क तथा इन्टरनेट -&gt; Wi-Fi -&gt; Wi-Fi नेटवर्क चयन गर्नुहोस् -&gt; उन्नत -&gt; डिभाइस थप्नुहोस्\' मा जानुहोस् अनि QR कोड स्क्यान गर्नुहोस्।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"रद्द गर्न \'पछाडि\' बटन थिच्नुहोस्"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ठिक छ"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"जारी राख्नुहोस्"</string>

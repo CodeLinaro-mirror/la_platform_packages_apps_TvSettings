@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Aksesorët"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Telekomanda"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Cilësimet e telekomandës"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Konfiguro butonat e telekomandës"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Kontrollo volumin, energjinë dhe hyrjen në televizorë, marrës dhe soundbar-ë"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Lidh"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Lidhe me %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Shkëput"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Lidh"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Harroje rrjetin"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Kjo pastron informacionet e përdorura për t\'u lidhur me këtë rrjet, duke përfshirë një fjalëkalim të ruajtur"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Bashkohu me një rrjet Wi-Fi duke skanuar kodin QR nga telefoni celular dhe ndiq udhëzimet."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Bashkohu me një rrjet Wi-Fi duke skanuar kodin QR nga një telefon celular dhe ndiq udhëzimet.\n \n Nga "<b>"një telefon Android"</b>", shko te Cilësimet -&gt; Rrjeti dhe interneti -&gt; Wi-Fi -&gt; Zgjidh një rrjet Wi-Fi -&gt; Të përparuara -&gt; Shto një pajisje dhe më pas skano kodin QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Shtyp butonin \"Prapa\" për ta anuluar"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Në rregull"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Vazhdo"</string>

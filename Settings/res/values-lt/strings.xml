@@ -228,6 +228,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Priedai"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Nuotolinio valdymo pultelis"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Nuotolinio valdymo nustatymai"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Nuotolinio valdymo pultelio mygtukų nustatymas"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Valdykite TV, imtuvų ir garso kolonėlių garsumą, maitinimą bei įvestį"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Susieti"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Prisijungti prie „%1$s“ įrenginio"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Atjungti"</string>
@@ -508,7 +510,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Prisijungti"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Pamiršti tinklą"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Bus išvalyta informacija, naudota prisijungiant prie šio tinklo, įskaitant išsaugotą slaptažodį"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Prisijunkite prie „Wi-Fi“ nuskaitę QR kodą iš mobiliojo telefono ir vadovaukitės instrukcijomis."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Prisijunkite prie „Wi-Fi“ nuskaitę QR kodą iš mobiliojo telefono ir vadovaukitės instrukcijomis.\n \n "<b>"„Android“ telefone"</b>" eikite į skiltį „Nustatymai“ -&gt; „Tinklas ir internetas“ -&gt; „Wi-Fi“ -&gt; „Pasirinkti „Wi-Fi“ -&gt; „Išplėstiniai“ -&gt; „Pridėti įrenginį“ ir nuskaitykite QR kodą."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Paspauskite mygtuką „Atgal“, kad atšauktumėte"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Gerai"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Tęsti"</string>

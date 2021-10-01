@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ଆକସେସୋରୀଗୁଡ଼ିକ"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ରିମୋଟ୍ କଣ୍ଟ୍ରୋଲ୍"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ରିମୋଟ୍ କଣ୍ଟ୍ରୋଲ୍ ସେଟିଂସ୍"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ରିମୋଟ୍ ବଟନଗୁଡ଼ିକୁ ସେଟ୍ ଅପ୍ କରନ୍ତୁ"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ଟିଭି, ରିସିଭର୍ ଏବଂ ସାଉଣ୍ଡବାରଗୁଡ଼ିକରେ ଭଲ୍ୟୁମ୍, ପାୱାର, ଇନପୁଟକୁ ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s ସହ ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"କନେକ୍ଟ କରନ୍ତୁ"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ନେଟୱର୍କକୁ ଡିଲିଟ କରିଦିଅନ୍ତୁ"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ସେଭ୍‌ ହୋଇଥିବା ପାସୱାର୍ଡ୍‌ ସହିତ, ଏହି ନେଟୱର୍କ୍‌କୁ କନେକ୍ଟ କରିବାକୁ ବ୍ୟବହୃତ ହୋଇଥିବା ସୂଚନାକୁ ଏହା ଖାଲି କରେ"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"ଆପଣଙ୍କ ମୋବାଇଲ ଫୋନରୁ QR କୋଡ୍ ସ୍କାନ୍ କରି ଏକ ୱାଇଫାଇରେ ଯୋଗ ଦେଇ ନିର୍ଦ୍ଦେଶ ଅନୁସରଣ କରନ୍ତୁ।"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ଏକ ମୋବାଇଲ ଫୋନରୁ QR କୋଡ୍ ସ୍କାନ୍ କରି ୱାଇ-ଫାଇରେ ଯୋଗ କରିବା ପରେ ନିର୍ଦ୍ଦେଶାବଳୀର ଅନୁସରଣ କରନ୍ତୁ।\n \n ଏକ "<b>"Android ଫୋନ"</b>"ରୁ \"ସେଟିଂସ୍ -&gt; ନେଟୱାର୍କ ଏବଂ ଇଣ୍ଟରନେଟ୍ -&gt; ୱାଇ-ଫାଇ -&gt; ଏକ ୱାଇ-ଫାଇ ଚୟନ କରନ୍ତୁ -&gt; ଉନ୍ନତ -&gt; ଡିଭାଇସ୍ ଯୋଗ କରନ୍ତୁ\"କୁ ଯାଆନ୍ତୁ ଏବଂ ତା\'ପରେ QR କୋଡ୍ ସ୍କାନ୍ କରନ୍ତୁ।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ବାତିଲ୍ କରିବା ପାଇଁ \'ପଛକୁ ଫେରନ୍ତୁ\' ବଟନ୍ ଦବାନ୍ତୁ"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ଠିକ୍ ଅଛି"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ଜାରି ରଖନ୍ତୁ"</string>

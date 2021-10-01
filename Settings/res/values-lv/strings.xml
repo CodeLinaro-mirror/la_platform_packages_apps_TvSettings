@@ -226,6 +226,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Piederumi"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Tālvadības ierīce"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Tālvadības ierīces iestatījumi"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Tālvadības ierīces pogu iestatīšana"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Kontrolējiet skaļumu, ieslēgšanu un izslēgšanu, kā arī televizora, uztvērēju un skaņas joslu ieejas avotus"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Izveidot savienojumu"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Izveidot savienojumu ar “%1$s”"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Pārtraukt savienojumu"</string>
@@ -493,7 +495,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Izveidot savienojumu"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Tīkla aizmiršana"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Tiks dzēsta informācija, kas izmantota savienojuma izveidei ar šo tīklu, tostarp saglabātā parole."</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Pievienojieties Wi-Fi tīklam, skenējot ātrās atbildes kodu savā mobilajā tālrunī, un izpildiet sniegtos norādījumus."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Pievienojieties Wi-Fi tīklam, skenējot ātrās atbildes kodu mobilajā tālrunī, un izpildiet sniegtos norādījumus.\n \n "<b>"Android tālrunī"</b>" atveriet sadaļu Iestatījumi -&gt; Tīkls un internets -&gt; Wi-Fi -&gt; Atlasīt Wi-Fi -&gt; Papildu -&gt; Pievienot ierīci. Pēc tam skenējiet QR kodu."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Nospiediet pogu Atpakaļ, lai atceltu darbību."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Labi"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Turpināt"</string>

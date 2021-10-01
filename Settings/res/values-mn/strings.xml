@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Дагалдах хэрэгслүүд"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Алсын удирдлага"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Алсын удирдлагын тохиргоо"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Удирдлагын товчлуур тохируулах"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ТВ, хүлээн авагч болон дууны самбар дээрх дууны түвшин, асаах/унтраах, оролтыг удирдах"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Холбогдох"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s-д холбогдох"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Салгах"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Холбох"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Сүлжээг мартах"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Ингэснээр тус сүлжээнд холбогдоход шаардагддаг хадгалагдсан нууц үг гэх мэт мэдээллийг арилгах болно"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Мобайл утаснаасаа QR кодыг скан хийж, Wi-Fi-д нэгдээд зааварчилгааг дагана уу."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Мобайл утаснаас QR кодыг скан хийснээр Wi-Fi-д нэгдэж, зааварчилгааг дагана уу.\n \n "<b>"Android утаснаасаа"</b>" Тохиргоо -&gt; Сүлжээ &amp; Интернэт -&gt; Wi-Fi -&gt; Wi-Fi сонгох -&gt; Дэвшилтэт -&gt; Төхөөрөмж нэмэх рүү очоод, дараа нь QR кодыг скан хийнэ үү."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Цуцлахын тулд буцах товчлуурыг дарна уу"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Үргэлжлүүлэх"</string>

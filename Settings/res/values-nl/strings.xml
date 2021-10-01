@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Accessoires"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Afstandsbediening"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Instellingen voor afstandsbediening"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Afstandsbedieningsknoppen instellen"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Volume bedienen, aan- en uitzetten en invoer selecteren op tv\'s, ontvangers en soundbars"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Koppelen"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Koppelen met %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Ontkoppelen"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Verbinding maken"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Netwerk vergeten"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Hierdoor wordt de gebruikte info voor verbinding met dit netwerk gewist, waaronder een opgeslagen ww"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"Maak verbinding met een wifi-netwerk door de QR-code te scannen op je mobiele telefoon en de instructies te volgen."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Maak verbinding met een wifi-netwerk door de QR-code te scannen op een mobiele telefoon en de instructies te volgen.\n \n Ga op een "<b>"Android-telefoon"</b>" naar Instellingen -&gt; Netwerk en internet -&gt; Wifi -&gt; Een wifi-netwerk selecteren -&gt; Geavanceerd -&gt; Apparaat toevoegen en scan de QR-code."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Druk op de terugknop om te annuleren"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Doorgaan"</string>

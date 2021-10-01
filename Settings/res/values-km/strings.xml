@@ -224,6 +224,8 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"គ្រឿងបន្ថែម"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ឧបករណ៍​បញ្ជា​ពី​ចម្ងាយ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ការកំណត់​ឧបករណ៍​បញ្ជា​ពីចម្ងាយ"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"រៀបចំ​ប៊ូតុងឧបករណ៍​បញ្ជា​ពី​ចម្ងាយ"</string>
+    <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"គ្រប់គ្រងកម្រិតសំឡេង ថាមពល ប្រភពបញ្ចូលនៅលើទូរទស្សន៍ ឧបករណ៍ចាប់សំឡេងនិងរូបភាព និងរបារ​សំឡេង"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ភ្ជាប់"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"ភ្ជាប់ទៅ %1$s"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ផ្ដាច់"</string>
@@ -478,7 +480,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"តភ្ជាប់"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"បំភ្លេច​បណ្ដាញ"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"វា​សម្អាត​ព័ត៌មាន​ដែល​បាន​ប្រើ​ដើម្បី​ភ្ជាប់​បណ្ដាញ​នេះ រួមមាន​ពាក្យ​សម្ងាត់​បាន​រក្សាទុក"</string>
-    <string name="wifi_scan_qr_code_description" msgid="2375814285190385839">"ភ្ជាប់ Wifi ដោយស្កេនកូដ QR ពីទូរសព្ទ​ចល័តរបស់អ្នក និងធ្វើតាមការណែនាំ។"</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ភ្ជាប់ Wi-Fi ដោយស្កេន​កូដ QR ពីទូរសព្ទចល័ត និងធ្វើតាម​ការណែនាំ។\n \n ពី"<b>"ទូរសព្ទ Android"</b>" សូមចូល​ទៅកាន់​ការកំណត់ -&gt; បណ្ដាញ និងអ៊ីនធឺណិត -&gt; Wi-Fi -&gt; ជ្រើសរើស Wi-Fi -&gt; កម្រិតខ្ពស់ -&gt; បញ្ចូល​ឧបករណ៍ រួចស្កេនកូដ QR។"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ចុចប៊ូតុង \"ថយក្រោយ\" ដើម្បីបោះបង់"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"យល់ព្រម"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"បន្ត"</string>
