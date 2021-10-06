@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"بازنشانی داده‌های کارخانه"</string>
     <string name="device_calibration" msgid="2907914144048739705">"کالیبراسیون"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"بهینه‌سازی انرژی"</string>
+    <string name="device_fastpair" msgid="1235240814051277047">"دستگاه‌ها"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"انتخاب قالب"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"صدای فراگیر"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -160,8 +161,8 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"اگر برنامه درخواست کند، دستگاهتان خروجی‌اش را با نرخ فریم اصلی محتوایی که تماشا می‌کنید هماهنگ خواهد کرد. در چنین شرایطی، وقتی از بازپخش ویدیو خارج می‌شوید یا به آن وارد می‌شود، ممکن است صفحه‌تان لحظه‌ای خالی شود."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"هرگز"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"حتی اگر برنامه درخواست کند، دستگاهتان هیچ‌گاه خروجی‌اش را با نرخ فریم اصلی محتوایی که تماشا می‌کنید هماهنگ نخواهد کرد."</string>
-    <string name="font_scale_settings_title" msgid="4114019544800225980">"مقیاس‌بندی نوشتار"</string>
-    <string name="font_scale_item_detail" msgid="1558315053348778805">"تغییر اندازه: <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"مقیاس‌گذاری نوشتار"</string>
+    <string name="font_scale_item_detail" msgid="1558315053348778805">"مقیاس‌گذاری به <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"نوشتار نمونه"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"جادوگر شهر اوز"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"فصل ۱۱: شهر زمردی شگفت‌انگیز اوز"</string>
@@ -185,6 +186,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"قالب‌های فعال"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"قالب‌های غیرفعال"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"برای غیرفعال کردن، انتخاب قالب را به «دستی» تغییر دهید."</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"وضوح"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"خودکار"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"اطلاعات در حافظه پنهان پاک شود؟"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"اطلاعات در حافظه پنهان همه برنامه‌ها پاک می‌شود."</string>
     <string name="accessories_add" msgid="413764175035531452">"افزودن وسیله جانبی"</string>
@@ -549,6 +552,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"فضای ذخیره‌سازی دستگاه"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"فضای ذخیره‌سازی جداشدنی"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"بازنشانی"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"آزاد کردن فضای ذخیره‌سازی"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"پاک کردن داده‌های ذخیره‌شده در حافظه پنهان"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"آزاد کردن <xliff:g id="SPACE">%1$s</xliff:g>"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"فایل‌های موقتی را که فضا اشغال می‌کنند پاک می‌کند. بر داده‌های ذخیره‌شده (مثل اولویت‌های برنامه یا ویدیوهای آفلاین) تأثیر نخواهد گذاشت و لازم نیست دوباره به سیستم برنامه‌ها وارد شوید."</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"داده‌های ذخیره‌شده در حافظه پنهان پاک شود؟"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"داده‌های ذخیره‌شده در حافظه پنهان همه برنامه‌ها پاک می‌شود."</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"حذف نصب برنامه‌ها"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"<xliff:g id="NAME">%1$s</xliff:g> جاگذاری شد"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"<xliff:g id="NAME">%1$s</xliff:g> جاگذاری نشد"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"فضای ذخیره‌سازی USB دوباره متصل شد"</string>
@@ -700,6 +710,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"فیروزه‌ای"</string>
     <string name="color_yellow" msgid="3519470952904560404">"زرد"</string>
     <string name="color_magenta" msgid="2377854703399624607">"سرخابی"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"شرح خودکار"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"انتخاب پیش‌فرض تراک صوتی دارای شرح صوتی"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"فعال کردن"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"پیکربندی"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"از <xliff:g id="SERVICE">%1$s</xliff:g> استفاده شود؟"</string>
@@ -752,7 +764,7 @@
     <string name="system_enable_traces" msgid="108745519968154528">"فعال کردن ردیابی"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"فعالیت‌ها را ادامه ندهید"</string>
     <string name="system_background_process_limit" msgid="1985373407150771045">"محدودیت پردازش در پس‌زمینه"</string>
-    <string name="system_show_all_anrs" msgid="5353216640638263217">"نمایش تمام ANRها"</string>
+    <string name="system_show_all_anrs" msgid="5353216640638263217">"نمایش تمام برنامه‌هایی که پاسخ نمی‌دهند"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"غیرفعال کردن حالت خواب"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"استفاده فقط برای محتوای DRM"</string>
     <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"بهینه‌سازی نمایشگر برای حداکثر وضوح تصویر یا حداکثر نرخ فریم. تنها برای نمایشگرهای Ultra HD کاربرد دارد. با تغییر این تنظیم دستگاه شما راه‌اندازی مجدد می‌شود."</string>

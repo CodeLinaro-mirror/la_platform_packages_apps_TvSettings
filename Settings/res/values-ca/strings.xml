@@ -60,7 +60,7 @@
       <item quantity="other"><xliff:g id="ACCESSORIES_NUMBER_1">%1$d</xliff:g> accessoris</item>
       <item quantity="one"><xliff:g id="ACCESSORIES_NUMBER_0">%1$d</xliff:g> accessori</item>
     </plurals>
-    <string name="display_and_sound_category_title" msgid="9203309625380755860">"Imatge i so"</string>
+    <string name="display_and_sound_category_title" msgid="9203309625380755860">"Pantalla i so"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ajuda i suggeriments"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Privadesa"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Configuració del dispositiu"</string>
@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Restabliment de les dades de fàbrica"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Calibratge"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Estalvi d\'energia"</string>
+    <string name="device_fastpair" msgid="1235240814051277047">"Dispositius"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Selecciona els formats"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"So envoltant"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -160,7 +161,7 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Si l\'aplicació ho sol·licita, el dispositiu mostrarà el contingut que estàs mirant amb els fotogrames per segon del vídeo original. Això pot provocar que la pantalla es quedi en blanc un segon en entrar a la reproducció d\'un vídeo o sortir-ne."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Mai"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Encara que l\'aplicació ho sol·liciti, el dispositiu mai no provarà de mostrar el contingut que estàs mirant amb els fotogrames per segon del vídeo original."</string>
-    <string name="font_scale_settings_title" msgid="4114019544800225980">"Ajusta la mida del text"</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Ajust del text"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"Ajusta al <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Text de mostra"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"El meravellós mag d\'Oz"</string>
@@ -185,6 +186,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"FORMATS ACTIVATS"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"FORMATS DESACTIVATS"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Per desactivar-lo, canvia la selecció de format a Manual."</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"Resolució"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automàtica"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vols esborrar dades emmagatzem. a memòria cau?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"S\'esborraran dades aplicacions a la memòria cau."</string>
     <string name="accessories_add" msgid="413764175035531452">"Afegeix un accessori"</string>
@@ -276,7 +279,7 @@
     <string name="enterprise_privacy_exposure_category" msgid="1555735251238636669">"Tipus d\'informació que la teva organització pot veure"</string>
     <string name="enterprise_privacy_exposure_changes_category" msgid="7750498604032318318">"Canvis fets per l\'administrador de la teva organització"</string>
     <string name="enterprise_privacy_device_access_category" msgid="7397106369136259850">"El teu accés a aquest dispositiu"</string>
-    <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"Dades associades al teu compte de la feina, com ara el correu electrònic i el calendari"</string>
+    <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"Dades associades al teu compte de treball, com ara el correu electrònic i el calendari"</string>
     <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"Llista de les aplicacions que hi ha al dispositiu"</string>
     <string name="enterprise_privacy_usage_stats" msgid="7062422823174345793">"Temps dedicat i dades utilitzades en cada aplicació"</string>
     <string name="enterprise_privacy_network_logs" msgid="305782312671493780">"Registre del trànsit de xarxa més recent"</string>
@@ -549,6 +552,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"Emmagatzematge del dispositiu"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Emmagatzematge extraïble"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"Restablir"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"Allibera emmagatzematge"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"Esborra les dades desades a la memòria cau"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"Allibera <xliff:g id="SPACE">%1$s</xliff:g>"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"S\'esborraran els fitxers temporals que ocupen espai. Les dades desades com ara les preferències de les aplicacions o els vídeos sense connexió no es veuran afectades, i no caldrà que iniciïs la sessió a les aplicacions una altra vegada."</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"Vols esborrar les dades desades a la memòria cau?"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"S\'esborraran les dades per a totes les aplicacions."</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"Desinstal·la aplicacions"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"S\'ha activat <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"No s\'ha pogut activar <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"L\'emmagatzematge USB s\'ha tornat a connectar"</string>
@@ -700,6 +710,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Cian"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Groc"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Magenta"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Audiodescripció"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Selecciona una banda sonora amb audiodescripció de manera predeterminada"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Activa"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configuració"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Vols fer servir <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

@@ -248,6 +248,9 @@
     <string name="device_calibration">Calibration</string>
     <!-- Preference which changes energy saver settings. [CHAR LIMIT=50] -->
     <string name="device_energy_saver">Energy saver</string>
+    <!-- Preference which shows fastpair settings. [CHAR LIMIT=50] -->
+    <string name="device_fastpair">Devices</string>
+    <string name="fastpair_slice_uri" translatable="false" />
 
     <!-- Display and sound screen -->
     <skip />
@@ -453,6 +456,11 @@
         [CHAR LIMIT=250]-->
     <string name="hdr_enabled_format_info_clicked">To disable, change the
         format selection to Manual.</string>
+
+    <!-- Title for preference for Resolution selection. [CHAR LIMIT=50] -->
+    <string name="resolution_selection_title">Resolution</string>
+    <!-- Title for Automatic preference for Resolution selection. [CHAR LIMIT=50] -->
+    <string name="resolution_selection_auto_title">Automatic</string>
 
     <!-- Title of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
     <string name="device_storage_clear_cache_title">Clear cached data?</string>
@@ -1243,6 +1251,21 @@
     <!-- Header title for device reset [CHAR_LIMIT=50] -->
     <string name="storage_reset_section">Reset</string>
 
+    <!-- Header title for free up storage[CHAR_LIMIT=50] -->
+    <string name="storage_free_up">Free up storage</string>
+    <!-- Header title for free up storage[CHAR_LIMIT=50] -->
+    <string name="storage_free_up_clear_cached_data">Clear cached data</string>
+    <!-- Header title for free up storage[CHAR_LIMIT=50] -->
+    <string name="storage_free_up_clear_cached_data_summary">Free up <xliff:g id="space" example="100MB">%1$s</xliff:g></string>
+    <!-- Header title for free up storage[CHAR_LIMIT=500] -->
+    <string name="storage_free_up_clear_cached_data_info">Clears temporary files that take up space. Will not impact saved data like app preferences or offline videos, and you won\'t need to sign in to apps again.</string>
+    <!-- Header title for free up storage[CHAR_LIMIT=50] -->
+    <string name="storage_free_up_clear_cached_data_confirm_title">Clear cached data?</string>
+    <!-- Header title for free up storage[CHAR_LIMIT=50] -->
+    <string name="storage_free_up_clear_cached_data_confirm_description">This will clear cached data for all apps.</string>
+    <!-- Header title for free up storage[CHAR_LIMIT=50] -->
+    <string name="storage_free_up_uninstall_apps">Uninstall apps</string>
+
     <!-- Toast informing that storage mount operation was successful. [CHAR LIMIT=64]-->
     <string name="storage_mount_success"><xliff:g id="name" example="SD card">%1$s</xliff:g> is mounted</string>
     <!-- Toast informing that storage unmount operation failed. [CHAR LIMIT=64]-->
@@ -1592,6 +1615,11 @@
     <string name="color_yellow">Yellow</string>
     <!-- Label for the color magenta. [CHAR LIMIT=35] -->
     <string name="color_magenta">Magenta</string>
+
+    <!-- Title for the accessibility preference to audio description. [CHAR LIMIT=35] -->
+    <string name="accessibility_toggle_audio_description_preference_title">Audio Description</string>
+    <!-- Summary for the accessibility preference to audio description. [CHAR LIMIT=35] -->
+    <string name="accessibility_audio_description_summary">Select audio sound track with audio description by default</string>
 
     <!-- Title for accessibility service status [CHAR LIMIT=50] -->
     <string name="system_accessibility_status">Enable</string>

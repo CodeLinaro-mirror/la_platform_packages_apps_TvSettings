@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Pag-reset ng factory data"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Pag-calibrate"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Pangtipid sa energy"</string>
+    <string name="device_fastpair" msgid="1235240814051277047">"Mga Device"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Pumili ng mga format"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Surround Sound"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -160,7 +161,7 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Kung hihingin ito ng app, itutugma ng iyong device ang output nito sa orihinal na frame rate ng content na pinapanood mo. Posibleng maging sanhi nito ng pagblangko ng iyong screen nang isang segundo kapag lumalabas o pumapasok sa video na playback."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Hindi Kailanman"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Kahit na hingin ito ng app, hindi kailanman susubukan ng iyong device na itugma ang output nito sa orihinal na frame rate ng content na pinapanood mo."</string>
-    <string name="font_scale_settings_title" msgid="4114019544800225980">"Pagsukat ng text"</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Sukat ng text"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"I-scale sa <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Sample na text"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"The Wonderful Wizard of Oz"</string>
@@ -185,6 +186,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"MGA NAKA-ENABLE NA FORMAT"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"MGA NAKA-DISABLE NA FORMAT"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Para i-disable, gawing Manual ang pagpili ng format."</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"Resolution"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Awtomatiko"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"I-clear ang naka-cache na data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"I-clear nito ang naka-cache na data para sa app."</string>
     <string name="accessories_add" msgid="413764175035531452">"Magdagdag ng accessory"</string>
@@ -549,6 +552,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"Storage ng device"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Naaalis na storage"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"I-reset"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"Magbakante ng storage"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"I-clear ang naka-cache na data"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"Magbakante ng <xliff:g id="SPACE">%1$s</xliff:g>"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"Kini-clear ang mga pansamantalang file na gumagamit ng space. Hindi nito maaapektuhan ang naka-save na data gaya ng mga kagutuhan sa app o mga offline na video, at hindi mo na kakailanganing mag-sign in ulit sa mga app."</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"I-clear ang naka-cache na data?"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"Iki-clear nito ang naka-cache na data sa mga app."</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"Mag-uninstall ng mga app"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"Na-mount na ang <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"Hindi ma-mount ang <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"nakakonektang muli ang USB storage"</string>
@@ -700,6 +710,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Cyan"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Dilaw"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Magenta"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Paglalarawan ng Audio"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Pumili ng audio sound track na may paglalarawan ng audio bilang default"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"I-enable"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configuration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Gamitin ang <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

@@ -122,6 +122,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Ponastavitev na tovarniške nastavitve"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Umerjanje"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Varčevanje z energijo"</string>
+    <string name="device_fastpair" msgid="1235240814051277047">"Naprave"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Izbira oblik zvoka"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Prostorski zvok"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -164,7 +165,7 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Če to zahteva aplikacija, bo naprava svoj izhod uskladila z izvirnim številom sličic v sekundi vsebine, ki jo gledate. Zaradi tega bo med začetkom ali ustavitvijo predvajanja videoposnetka zaslon za nekaj sekund morda prazen."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Nikoli"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Tudi če to zahteva aplikacija, naprava svojega izhoda ne bo nikoli poskušala uskladiti z izvirnim številom sličic v sekundi vsebine, ki jo gledate."</string>
-    <string name="font_scale_settings_title" msgid="4114019544800225980">"Prilagajanje besedila"</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Prilagajanje velikosti besedila"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"Prilagoditev na <xliff:g id="SCALE">%1$d</xliff:g> %%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Vzorčno besedilo"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Čudoviti čarovnik iz Oza"</string>
@@ -189,6 +190,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"OMOGOČENE OBLIKE"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"ONEMOGOČENE OBLIKE"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Če želite onemogočiti, izbor oblike spremenite na »Ročno«."</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"Ločljivost"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Samodejno"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Želite izbrisati predpomnjene podatke?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Izbrisali boste predpomn. pod. vseh aplikacij."</string>
     <string name="accessories_add" msgid="413764175035531452">"Dodaj pripomoček"</string>
@@ -579,6 +582,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"Shramba naprave"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Izmenljiva shramba"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"Ponastavitev"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"Sprostitev prostora v shrambi"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"Brisanje predpomnjenih podatkov"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"Sprostitev <xliff:g id="SPACE">%1$s</xliff:g>"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"Izbrisani so predpomnjeni podatki, ki zasedajo prostor. To ne vpliva na shranjene podatke, kot so nastavitve aplikacij ali videoposnetki za ogled brez povezave, in ne bo se vam treba znova prijaviti v aplikacije."</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"Želite izbrisati predpomnjene podatke?"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"Izbrisali boste predpomn. podatke vseh aplikacij."</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"Odmestitev aplikacij"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"Vpeto: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"Tega ni bilo mogoče vpeti: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"Shramba USB je znova priključena"</string>
@@ -730,6 +740,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Cianova"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Rumena"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Škrlatna"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Zvočni opis"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Privzeta izbira zvočnega posnetka z zvočnim opisom"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Omogoči"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguracija"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Želite uporabiti <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

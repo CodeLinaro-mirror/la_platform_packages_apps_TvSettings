@@ -18,14 +18,20 @@ package com.android.tv.settings.compat;
 
 import static com.android.tv.settings.compat.TsCollapsibleCategory.COLLAPSE;
 import static com.android.tv.settings.library.ManagerUtil.INFO_WIFI_SIGNAL_LEVEL;
+import static com.android.tv.settings.library.ManagerUtil.STATE_ACCESSIBILITY_SERVICE;
+import static com.android.tv.settings.library.ManagerUtil.STATE_APPS;
 import static com.android.tv.settings.library.ManagerUtil.STATE_APP_MANAGEMENT;
 import static com.android.tv.settings.library.ManagerUtil.STATE_EMPTY;
+import static com.android.tv.settings.library.ManagerUtil.STATE_MISSING_STORAGE;
+import static com.android.tv.settings.library.ManagerUtil.STATE_STORAGE;
 import static com.android.tv.settings.library.ManagerUtil.STATE_WIFI_DETAILS;
 import static com.android.tv.settings.library.PreferenceCompat.TYPE_LIST;
 import static com.android.tv.settings.library.PreferenceCompat.TYPE_PREFERENCE;
 import static com.android.tv.settings.library.PreferenceCompat.TYPE_PREFERENCE_ACCESS_POINT;
 import static com.android.tv.settings.library.PreferenceCompat.TYPE_PREFERENCE_CATEGORY;
 import static com.android.tv.settings.library.PreferenceCompat.TYPE_PREFERENCE_WIFI_COLLAPSE_CATEGORY;
+import static com.android.tv.settings.library.PreferenceCompat.TYPE_RADIO;
+import static com.android.tv.settings.library.PreferenceCompat.TYPE_SWITCH;
 
 import android.content.Context;
 
@@ -34,6 +40,7 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.TwoStatePreference;
 
 import com.android.tv.settings.R;
+import com.android.tv.settings.RadioPreference;
 import com.android.tv.settings.library.PreferenceCompat;
 
 import java.util.Arrays;
@@ -98,6 +105,10 @@ public final class RenderUtil {
                             }
                             updatePreference(context, newPref, preferenceCompat,
                                     order != -1 ? order : i);
+                            if (newPref instanceof PreferenceGroup) {
+                                updatePreferenceGroup((PreferenceGroup) newPref,
+                                        preferenceCompat.getChildPrefCompats(), -1);
+                            }
                         });
     }
 
@@ -168,23 +179,37 @@ public final class RenderUtil {
         setVisible(preference, preferenceCompat);
         setSelectable(preference, preferenceCompat);
         setEnabled(preference, preferenceCompat);
+        setPersistent(preference, preferenceCompat);
         if (preference instanceof TwoStatePreference) {
             setChecked((TwoStatePreference) preference, preferenceCompat);
         }
+        if (preference instanceof TsRadioPreference) {
+            if (preferenceCompat.getRadioGroup() != null) {
+                ((RadioPreference) preference).setRadioGroup(preferenceCompat.getRadioGroup());
+            }
+        }
         if (preference instanceof TsRestrictedPreference) {
             ((TsRestrictedPreference) preference).setDisabledByAdmin(
+                    preferenceCompat.isDisabledByAdmin());
+        }
+        if (preference instanceof TsRestrictedSwitchPreference) {
+            ((TsRestrictedSwitchPreference) preference).setDisabledByAdmin(
                     preferenceCompat.isDisabledByAdmin());
         }
         if (preference instanceof TsListPreference) {
             ((TsListPreference) preference).setEntries(preferenceCompat.getEntries());
             ((TsListPreference) preference).setEntryValues(preferenceCompat.getEntryValues());
             ((TsListPreference) preference).setValueIndex(preferenceCompat.getValueIndex());
+            ((TsListPreference) preference).setValue(preferenceCompat.getValue());
         }
         preference.setOrder(order);
     }
 
     public static HasKeys createPreference(Context context, PreferenceCompat preferenceCompat) {
         if (preferenceCompat.isRestricted()) {
+            if (preferenceCompat.getType() == TYPE_SWITCH) {
+                return new TsRestrictedSwitchPreference(preferenceCompat.getKey(), context);
+            }
             return new TsRestrictedPreference(preferenceCompat.getKey(), context);
         }
         if (preferenceCompat.hasSlice()) {
@@ -193,15 +218,17 @@ public final class RenderUtil {
         }
         switch (preferenceCompat.getType()) {
             case TYPE_PREFERENCE_ACCESS_POINT:
-                TsAccessPointPreference accessPointPreference =
-                        new TsAccessPointPreference(context, preferenceCompat.getKey());
-                return accessPointPreference;
+                return new TsAccessPointPreference(context, preferenceCompat.getKey());
             case TYPE_PREFERENCE_CATEGORY:
                 return new TsPreferenceCategory(context, preferenceCompat.getKey());
             case TYPE_PREFERENCE_WIFI_COLLAPSE_CATEGORY:
                 return new TsCollapsibleCategory(context, preferenceCompat.getKey());
             case TYPE_LIST:
                 return new TsListPreference(context, preferenceCompat.getKey());
+            case TYPE_RADIO:
+                return new TsRadioPreference(context, preferenceCompat.getKey());
+            case TYPE_SWITCH:
+                return new TsSwitchPreference(context, preferenceCompat.getKey());
             case TYPE_PREFERENCE:
             default:
                 return new TsPreference(context, preferenceCompat.getKey());
@@ -219,11 +246,20 @@ public final class RenderUtil {
     }
 
     public static void setChecked(
-            TwoStatePreference preference, PreferenceCompat preferenceParcelable) {
-        if (preferenceParcelable.getChecked() == PreferenceCompat.STATUS_ON) {
+            TwoStatePreference preference, PreferenceCompat preferenceCompat) {
+        if (preferenceCompat.getChecked() == PreferenceCompat.STATUS_ON) {
             preference.setChecked(true);
-        } else if (preferenceParcelable.getChecked() == PreferenceCompat.STATUS_OFF) {
+        } else if (preferenceCompat.getChecked() == PreferenceCompat.STATUS_OFF) {
             preference.setChecked(false);
+        }
+    }
+
+    public static void setPersistent(
+            Preference preference, PreferenceCompat preferenceCompat) {
+        if (preferenceCompat.getPersistent() == PreferenceCompat.STATUS_ON) {
+            preference.setPersistent(true);
+        } else if (preferenceCompat.getPersistent() == PreferenceCompat.STATUS_OFF) {
+            preference.setPersistent(false);
         }
     }
 
@@ -279,6 +315,14 @@ public final class RenderUtil {
                 return "com.android.tv.settings.connectivity.WifiDetailsFragmentCompat";
             case STATE_APP_MANAGEMENT:
                 return "com.android.tv.settings.device.apps.AppManagementFragmentCompat";
+            case STATE_ACCESSIBILITY_SERVICE:
+                return "com.android.tv.settings.accessibility.AccessibilityServiceFragmentCompat";
+            case STATE_STORAGE:
+                return "com.android.tv.settings.device.storage.StorageFragmentCompat";
+            case STATE_MISSING_STORAGE:
+                return "com.android.tv.settings.device.storage.MissingStorageFragmentCompat";
+            case STATE_APPS:
+                return "com.android.tv.settings.device.apps.AppsFragmentCompat";
             case STATE_EMPTY:
             default:
                 return null;
