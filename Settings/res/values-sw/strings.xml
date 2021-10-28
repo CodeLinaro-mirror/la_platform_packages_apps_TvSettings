@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Kurejesha data iliyotoka nayo kiwandani"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Marekebisho"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Kiokoa nishati"</string>
+    <string name="device_fastpair" msgid="1235240814051277047">"Vifaa"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Chagua miundo"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Sauti inayozingira"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -160,7 +161,7 @@
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ikihitajika na programu, kifaa chako kitalinganisha kasi yake ya utoaji maudhui na kasi halisi ya picha ya maudhui unayotazama. Huenda hii ikasababisha skrini kutoonyesha maudhui yoyote kwa muda mfupi unapoanza kucheza au unapositisha video."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Kamwe"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Hata ikihitajika na programu, kifaa chako kamwe hakitajaribu kulinganisha kasi yake ya utoaji maudhui na kasi halisi ya picha ya maudhui unayotazama."</string>
-    <string name="font_scale_settings_title" msgid="4114019544800225980">"Ubadilishaji ukubwa wa maandishi"</string>
+    <string name="font_scale_settings_title" msgid="4114019544800225980">"Kubadilisha ukubwa wa maandishi"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"Weka ukubwa kuwa <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Sampuli ya maandishi"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Wachawi wa Ajabu kutoka Oz"</string>
@@ -185,6 +186,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"MIUNDO INAYOTUMIKA"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"MIUNDO ISIYOTUMIKA"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Ili uzime, badilisha uteuzi wa muundo kuwa \'Teua Mwenyewe\'."</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"Ubora"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Otomatiki"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Ungependa kufuta data iliyo kwenye akiba?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Hii itafuta data iliyo kwenye akiba ya programu zote."</string>
     <string name="accessories_add" msgid="413764175035531452">"Ongeza kifaa"</string>
@@ -549,6 +552,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"Hifadhi ya kifaa"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Hifadhi unayoweza kuondoa"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"Weka upya"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"Futa faili ili upate nafasi"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"Futa data iliyo kwenye akiba"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"Ongeza nafasi ya <xliff:g id="SPACE">%1$s</xliff:g>"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"Itafuta faili zilizohifadhiwa kwa muda zinazochukua nafasi nyingi. Haitaathiri data uliyohifadhi kama vile mapendeleo ya programu au video za nje ya mtandao, na hutahitaji kuingia tena katika akaunti kwenye programu."</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"Ungependa kufuta data iliyo kwenye akiba?"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"Hatua hii itafuta data iliyo kwenye akiba ya programu zote."</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"Ondoa programu"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"<xliff:g id="NAME">%1$s</xliff:g> imepachikwa"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"Haikuweza kupachika <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"Hifadhi ya USB imeunganishwa upya"</string>
@@ -700,6 +710,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Samawati-Kijani"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Manjano"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Majenta"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Maelezo ya Sauti"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Chagua wimbo wa filamu wenye maelezo ya sauti kwa chaguo msingi"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Washa"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Usanidi"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g>: iwashwe?"</string>

@@ -38,6 +38,9 @@ public class PreferenceCompat {
     public static final byte TYPE_PREFERENCE_WIFI_COLLAPSE_CATEGORY = 3;
     public static final byte TYPE_LIST = 4;
     public static final byte TYPE_SWITCH = 5;
+    public static final byte TYPE_RADIO = 6;
+    public static final byte TYPE_PREFERENCE_COLLAPSE_CATEGORY = 7;
+
     public static final byte STATUS_UNASSIGNED = 0;
     public static final byte STATUS_OFF = 1;
     public static final byte STATUS_ON = 2;
@@ -71,6 +74,9 @@ public class PreferenceCompat {
     // 0: not updated, 1 :not selectable, 2: selectable
     private byte mEnabled;
 
+    // 0: not updated, 1 :not focused, 2: focused
+    private boolean mIsFocused;
+
     private boolean mShouldRemove;
 
     // Indicate whether there is on preference change listener
@@ -81,6 +87,10 @@ public class PreferenceCompat {
 
     // Indicates whether the preference is disabled by admin.
     private boolean mIsDisabledByAdmin;
+
+    private byte mPersistent;
+
+    private String mRadioGroup;
 
     // Next state of the current state, -1 to indicate there is no next state.
     private Integer mNextState;
@@ -427,8 +437,50 @@ public class PreferenceCompat {
 
     /** @hide */
     @SystemApi
+    public byte getPersistent() {
+        return mPersistent;
+    }
+
+    /** @hide */
+    @SystemApi
+    public void setPersistent(byte persistent) {
+        mPersistent = persistent;
+    }
+
+    /** @hide */
+    @SystemApi
+    public void setPersistent(boolean persistent) {
+        setPersistent(ManagerUtil.getPersistent(persistent));
+    }
+
+    /** @hide */
+    @SystemApi
+    public String getRadioGroup() {
+        return mRadioGroup;
+    }
+
+    /** @hide */
+    @SystemApi
+    public void setRadioGroup(String radioGroup) {
+        mRadioGroup = radioGroup;
+    }
+
+    /** @hide */
+    @SystemApi
     public void setEnabled(boolean enabled) {
         setEnabled(ManagerUtil.getEnabled(enabled));
+    }
+
+    /** @hide */
+    @SystemApi
+    public boolean isFocused() {
+        return mIsFocused;
+    }
+
+    /** @hide */
+    @SystemApi
+    public void setFocused(boolean focused) {
+        mIsFocused = focused;
     }
 
     /** @hide */

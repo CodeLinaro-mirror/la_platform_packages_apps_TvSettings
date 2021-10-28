@@ -39,6 +39,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
@@ -73,7 +74,9 @@ import com.android.tv.twopanelsettings.slices.PreferenceSliceLiveData.SliceLiveD
 import com.android.tv.twopanelsettings.slices.SlicePreferencesUtil.Data;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * A screen presenting a slice in TV settings.
@@ -82,6 +85,7 @@ import java.util.List;
 public class SliceFragment extends SettingsPreferenceFragment implements Observer<Slice>,
         SliceFragmentCallback {
     private static final int SLICE_REQUEST_CODE = 10000;
+    private static final int A11Y_FOCUS_REQUEST_DELAY = 1000;
     private static final String TAG = "SliceFragment";
     private static final String KEY_PREFERENCE_FOLLOWUP_INTENT = "key_preference_followup_intent";
     private static final String KEY_PREFERENCE_FOLLOWUP_RESULT_CODE =
@@ -135,7 +139,9 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
     @Override
     public void onCreate(Bundle savedInstanceState) {
         mUriString = getArguments().getString(SlicesConstants.TAG_TARGET_URI);
-        ContextSingleton.getInstance().grantFullAccess(getContext(), Uri.parse(mUriString));
+        if (!TextUtils.isEmpty(mUriString)) {
+            ContextSingleton.getInstance().grantFullAccess(getContext(), Uri.parse(mUriString));
+        }
         super.onCreate(savedInstanceState);
     }
 
@@ -147,13 +153,17 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
         this.getPreferenceScreen().removeAll();
 
         showProgressBar();
-        getSliceLiveData().observeForever(this);
+        if (!TextUtils.isEmpty(mUriString)) {
+            getSliceLiveData().observeForever(this);
+        }
         if (TextUtils.isEmpty(mScreenTitle)) {
             mScreenTitle = getArguments().getCharSequence(SlicesConstants.TAG_SCREEN_TITLE, "");
         }
         super.onResume();
-        getContext().getContentResolver().registerContentObserver(
-                SlicePreferencesUtil.getStatusPath(mUriString), false, mContentObserver);
+        if (!TextUtils.isEmpty(mUriString)) {
+            getContext().getContentResolver().registerContentObserver(
+                    SlicePreferencesUtil.getStatusPath(mUriString), false, mContentObserver);
+        }
         fireFollowupPendingIntent();
     }
 
@@ -318,6 +328,31 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             ((TwoPanelSettingsFragment) getParentFragment()).refocusPreference(this);
         }
         mIsMainPanelReady = true;
+
+        resetA11yFocusIfNeeded();
+    }
+
+    // Because the SliceProvider may call for updates an uncertain amount of times, we
+    // should have the current focus request a11yFocus after the update, since it will
+    // be lost otherwise. The delay is to give the screen reader enough time to
+    // process the update.
+    private void resetA11yFocusIfNeeded() {
+        if (isA11yOn()) {
+            mHandler.postDelayed(() -> {
+                if (isResumed() && getListView() != null && getListView().findFocus() != null) {
+                    getListView().findFocus().requestAccessibilityFocus();
+                }
+            }, A11Y_FOCUS_REQUEST_DELAY);
+        }
+    }
+
+    private boolean isA11yOn() {
+        if (getActivity() == null) {
+            return false;
+        }
+        return Settings.Secure.getInt(
+                getActivity().getContentResolver(),
+                Settings.Secure.ACCESSIBILITY_ENABLED, 0) == 1;
     }
 
 
@@ -379,6 +414,14 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             }
         }
 
+        Map<Integer, Boolean> twoStatePreferenceIsCheckedByOrder = new HashMap<>();
+        for (int i = 0; i < newPrefs.size(); i++) {
+            if (newPrefs.get(i) instanceof TwoStatePreference) {
+                twoStatePreferenceIsCheckedByOrder.put(
+                        i, ((TwoStatePreference) newPrefs.get(i)).isChecked());
+            }
+        }
+
         //Iterate the new preferences list and give each preference a correct order
         for (int i = 0; i < newPrefs.size(); i++) {
             Preference newPref = newPrefs.get(i);
@@ -396,11 +439,6 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                         oldPref.setSelectable(newPref.isSelectable());
                         oldPref.setFragment(newPref.getFragment());
                         oldPref.getExtras().putAll(newPref.getExtras());
-                        if ((oldPref instanceof TwoStatePreference)
-                                && (newPref instanceof TwoStatePreference)) {
-                            ((TwoStatePreference) oldPref)
-                                    .setChecked(((TwoStatePreference) newPref).isChecked());
-                        }
                         if ((oldPref instanceof HasSliceAction)
                                 && (newPref instanceof HasSliceAction)) {
                             ((HasSliceAction) oldPref)
@@ -422,6 +460,16 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             if (neededToAddNewPref) {
                 newPref.setOrder(i);
                 screen.addPreference(newPref);
+            }
+        }
+        //addPreference will reset the checked status of TwoStatePreference.
+        //So we need to add them back
+        for (int i = 0; i < screen.getPreferenceCount(); i++) {
+            Preference screenPref = screen.getPreference(i);
+            if (screenPref instanceof TwoStatePreference
+                    && twoStatePreferenceIsCheckedByOrder.get(i) != null) {
+                ((TwoStatePreference) screenPref)
+                        .setChecked(twoStatePreferenceIsCheckedByOrder.get(i));
             }
         }
         removeAnimationClipping(getView());

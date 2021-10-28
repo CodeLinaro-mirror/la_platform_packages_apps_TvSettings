@@ -660,6 +660,7 @@
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
+            android:permission="android.permission.BLUETOOTH_CONNECT"
             android:theme="@style/TvSettingsActivityTheme" />
 
         <activity
@@ -668,6 +669,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask"
+            android:permission="android.permission.BLUETOOTH_CONNECT"
             android:persistableMode="persistNever"
             android:showWhenLocked="true"
             android:taskAffinity=""
@@ -691,6 +693,7 @@
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
+            android:permission="android.permission.BLUETOOTH_PRIVILEGED"
             android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
@@ -844,7 +847,13 @@
         <activity
             android:name=".device.storage.FormatActivity"
             android:excludeFromRecents="true"
-            android:exported="false" />
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.android.tv.settings.device.storage.FormatActivity.formatAsPublic"/>
+                <action android:name="com.android.tv.settings.device.storage.FormatActivity.formatAsPrivate"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".device.storage.MigrateStorageActivity"
@@ -1009,14 +1018,6 @@
                 <action android:name="com.android.settings.action.SUGGESTION_STATE_PROVIDER"/>
             </intent-filter>
         </provider>
-
-        <!-- Workaround to fix b/139637267 in Q. -->
-        <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="${applicationId}.lifecycle-tests"
-            android:exported="false"
-            android:multiprocess="true"
-            tools:replace="android:authorities" />
 
         <activity
             android:name=".deviceadmin.ProfileOwnerAdd"

@@ -36,7 +36,7 @@
     <string name="header_category_general_settings" msgid="3897615781153506434">"সাধাৰণ ছেটিংসমূহ"</string>
     <string name="dismiss_suggestion" msgid="6200814545590126814">"পৰামৰ্শ বাতিল কৰক"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"OK Google\" চিনাক্তকৰণ"</string>
-    <string name="hotwording_summary" msgid="2170375928302175449">"যিকোনো সময়তে Google সহায়কৰ সৈতে কথা পাতক"</string>
+    <string name="hotwording_summary" msgid="2170375928302175449">"যিকোনো সময়তে Google Assistantৰ সৈতে কথা পাতক"</string>
     <string name="header_category_device" msgid="3023893663454705969">"ডিভাইচ"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"অগ্ৰাধিকাৰসমূহ"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"ৰিম’ট আৰু আনুষংগিক সামগ্ৰী"</string>
@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"ফেক্টৰী ডাটা ৰিছেট"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ক্ৰমাংকণ"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"শক্তি সঞ্চয়কাৰী"</string>
+    <string name="device_fastpair" msgid="1235240814051277047">"ডিভাইচ"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ফৰমেটসমূহ বাছনি কৰক"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"ছাৰাউণ্ড ছাউণ্ড"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -185,6 +186,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"সক্ষম কৰা ফৰ্মেট"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"অক্ষম কৰা ফৰ্মেট"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"অক্ষম কৰিবলৈ ফৰ্মেটৰ বাছনি মেনুৱেললৈ সলনি কৰক।"</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"ৰিজ’লিউশ্বন"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"স্বয়ংক্ৰিয়"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"কেশ্ব কৰা ডাটা মচিবনে?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"এই কাৰ্যই সকলো এপৰ কেশ্ব ডেটা পৰিষ্কাৰ কৰিব।"</string>
     <string name="accessories_add" msgid="413764175035531452">"সহায়ক সামগ্ৰী যোগ কৰক"</string>
@@ -248,7 +251,7 @@
     <string name="system_keyboard_autofill" msgid="8530944165814838255">"কীব’ৰ্ড আৰু স্বয়ংপূৰ্তি"</string>
     <string name="system_autofill" msgid="6983989261108020046">"স্বয়ংপূৰ্তি"</string>
     <string name="system_home" msgid="2149349845791104094">"গৃহ স্ক্ৰীণ"</string>
-    <string name="system_search" msgid="3170169128257586925">"Search"</string>
+    <string name="system_search" msgid="3170169128257586925">"সন্ধান"</string>
     <string name="system_google" msgid="945985164023885276">"Google"</string>
     <string name="system_security" msgid="1012999639810957132">"সুৰক্ষা আৰু সীমাবদ্ধতা"</string>
     <string name="system_speech" msgid="8779582280374089518">"কথন"</string>
@@ -549,6 +552,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"ডিভাইচৰ সঞ্চয়াগাৰ"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"আঁতৰাব পৰা সঞ্চয়াগাৰ"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"ৰিছেট কৰক"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"ষ্ট’ৰেজৰ ঠাই খালী কৰক"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"কেশ্ব কৰা ডেটা মচক"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"<xliff:g id="SPACE">%1$s</xliff:g> খালী কৰক"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"ঠাই দখল কৰা অস্থায়ী ফাইলসমূহ মচে। এপৰ অগ্ৰাধিকাৰ অথবা অফলাইন ভিডিঅ’ৰ দৰে ছেভ কৰি থোৱা ডেটাত প্ৰভাৱ নেপেলাব আৰু আপুনি এপত পুনৰ ছাইন ইন কৰিব নালাগিব।"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"কেশ্ব কৰা ডেটা মচিবনে?"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"এইটোৱে আটাইবোৰ এপৰ কেশ্ব কৰা ডেটা মচিব।"</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"এপ্ আনইনষ্টল কৰক"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"<xliff:g id="NAME">%1$s</xliff:g> সংলগ্ন কৰা হৈছে"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"<xliff:g id="NAME">%1$s</xliff:g> সংলগ্ন কৰিব পৰা নগ\'ল"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"USB সঞ্চয়াগাৰ পুনৰ সংলগ্ন হ’ল"</string>
@@ -652,8 +662,8 @@
     <string name="third_party_location_services_title" msgid="2826218400381676508">"৩য় পক্ষৰ অৱস্থান সেৱাসমূহ"</string>
     <string name="location_reporting" msgid="3552501333650895634">"অৱস্থান সবিশেষ"</string>
     <string name="location_history" msgid="4055660203090513120">"অৱস্থানৰ ইতিহাস"</string>
-    <string name="location_reporting_desc" msgid="1580018652781674608">"Googleএ এই বৈশিষ্ট্যবোৰ Google Now আৰু Google মেপৰ দৰে সামগ্ৰীবোৰত ব্যৱহাৰ কৰে। আপোনাৰ অৱস্থান সবিশেষ সক্ৰিয় কৰিলে যিকোনো Google প্ৰডাক্টক এই বৈশিষ্ট্য ব্যৱহাৰ কৰি আপোনাৰ Google একাউণ্টৰ সৈতে সম্পৰ্ক থকা ডিভাইচৰ একেবাৰে শেহতীয়া অৱস্থান সঞ্চয় কৰি ৰখাৰ আৰু ব্যৱহাৰ কৰাৰ অনুমতি দিয়ে।"</string>
-    <string name="location_history_desc" msgid="926674012916014270">"এই একাউণ্টৰ বাবে যেতিয়া অৱস্থানৰ ইতিহাস সক্ৰিয় হৈ থাকে, Googleএ আপোনাৰ ডিভাইচৰ অৱস্থানৰ ইতিহাস সঞ্চয় কৰি ৰাখে যাতে আপোনাৰ এপবোৰে ব্যৱহাৰ কৰিব পাৰে।\n\nউদাহৰণস্বৰূপে, Google মেপে আপোনাক পথ দেখুৱাব পাৰে, আৰু Google Nowএ আপোনাক ট্ৰেফিকৰ বিষয়ে জনাব পাৰে।\n\nআপুনি যেতিয়াই বিচাৰে অৱস্থানৰ ইতিহাস অফ কৰিব পাৰে, কিন্তু এনে কৰিলে এইবোৰ মচা নাযায়। আপোনাৰ অৱস্থানৰ ইতিহাস চাবলৈ, maps.google.com/locationhistory লৈ যাওক।"</string>
+    <string name="location_reporting_desc" msgid="1580018652781674608">"Googleএ এই বৈশিষ্ট্যবোৰ Google Now আৰু Google Mapৰ দৰে সামগ্ৰীবোৰত ব্যৱহাৰ কৰে। আপোনাৰ অৱস্থান সবিশেষ সক্ৰিয় কৰিলে যিকোনো Google প্ৰডাক্টক এই বৈশিষ্ট্য ব্যৱহাৰ কৰি আপোনাৰ Google একাউণ্টৰ সৈতে সম্পৰ্ক থকা ডিভাইচৰ একেবাৰে শেহতীয়া অৱস্থান সঞ্চয় কৰি ৰখাৰ আৰু ব্যৱহাৰ কৰাৰ অনুমতি দিয়ে।"</string>
+    <string name="location_history_desc" msgid="926674012916014270">"এই একাউণ্টৰ বাবে যেতিয়া অৱস্থানৰ ইতিহাস সক্ৰিয় হৈ থাকে, Googleএ আপোনাৰ ডিভাইচৰ অৱস্থানৰ ইতিহাস সঞ্চয় কৰি ৰাখে যাতে আপোনাৰ এপবোৰে ব্যৱহাৰ কৰিব পাৰে।\n\nউদাহৰণস্বৰূপে, Google Mapএ আপোনাক পথ দেখুৱাব পাৰে, আৰু Google Nowএ আপোনাক ট্ৰেফিকৰ বিষয়ে জনাব পাৰে।\n\nআপুনি যেতিয়াই বিচাৰে অৱস্থানৰ ইতিহাস অফ কৰিব পাৰে, কিন্তু এনে কৰিলে এইবোৰ মচা নাযায়। আপোনাৰ অৱস্থানৰ ইতিহাস চাবলৈ, maps.google.com/locationhistory লৈ যাওক।"</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"অৱস্থানৰ ইতিহাস মচক"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"ইয়াৰ ফলত এই Google একাউণ্টৰ বাবে এই ডিভাইচটোৰ পৰা সঞ্চয় কৰা সকলো অৱস্থানৰ ইতিহাস মচি পেলাব। আপুনি এই মচা কাৰ্য আনডু কৰিব নোৱাৰিব। Google Nowকে ধৰি কিছুমান এপে কাম নকৰা হ\'ব।"</string>
     <string name="system_services" msgid="5754310941186053151">"সেৱাসমূহ"</string>
@@ -700,6 +710,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"চাইয়ান"</string>
     <string name="color_yellow" msgid="3519470952904560404">"হালধীয়া"</string>
     <string name="color_magenta" msgid="2377854703399624607">"মেজেণ্টা"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"অডিঅ’ৰ বিৱৰণ"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"ডিফ’ল্ট হিচাপে অডিঅ’ৰ বিৱৰণৰ সৈতে থকা অডিঅ’ ছাউণ্ড ট্ৰেক বাছনি কৰক"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"সক্ষম কৰক"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"কনফিগাৰেশ্বন"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> ব্যৱহাৰ কৰিব নেকি?"</string>

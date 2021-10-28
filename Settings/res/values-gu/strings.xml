@@ -118,6 +118,8 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"ફેક્ટરી ડેટા રીસેટ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"કેલિબ્રેશન"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"એનર્જી સેવર"</string>
+    <!-- no translation found for device_fastpair (1235240814051277047) -->
+    <skip />
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ફૉર્મેટ પસંદ કરો"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"સરાઉન્ડ સાઉન્ડ"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -185,6 +187,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"ચાલુ કરેલા ફોર્મેટ"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"બંધ કરેલા ફોર્મેટ"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"બંધ કરવા માટે, ફોર્મેટની પસંદગીને બદલીને મેન્યુઅલ કરો."</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"રિઝોલ્યુશન"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"ઑટોમૅટિક"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"કૅશ કરેલ ડેટા સાફ કરીએ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"આ તમામ ઍપ્લિકેશનોનો કેશ્ડ ડેટા સાફ કરશે."</string>
     <string name="accessories_add" msgid="413764175035531452">"ઍક્સેસરી ઉમેરો"</string>
@@ -323,8 +327,8 @@
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
     <string name="learn_more" msgid="820336467414665686">"વધુ જાણો"</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="3870902175441923391">
-      <item quantity="one">કૅમેરા ઍપ</item>
-      <item quantity="other">કૅમેરા ઍપ</item>
+      <item quantity="one">Camera ઍપ</item>
+      <item quantity="other">Camera ઍપ</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"કૅલેન્ડર ઍપ્લિકેશન"</string>
     <string name="default_contacts_app_title" msgid="7792041146751261191">"સંપર્ક ઍપ્લિકેશન"</string>
@@ -549,6 +553,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"ઉપકરણ સ્ટોરેજ"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"દૂર કરવા યોગ્ય સ્ટોરેજ"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"રીસેટ કરો"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"સ્ટોરેજ ખાલી કરો"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"કૅશ મેમરીનો ડેટા સાફ કરો"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"<xliff:g id="SPACE">%1$s</xliff:g> ખાલી કરો"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"સ્પેસ રોકતી હંગામી ફાઇલો સાફ કરે છે. ઍપની પસંદગીઓ કે ઑફલાઇન વીડિયો જેવા સાચવેલા ડેટાને આની કોઈ અસર થતી નથી તેમજ તમારે ઍપમાં ફરીથી સાઇન ઇન કરવાની પણ જરૂર રહેશે નહીં."</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"શું કૅશ મેમરીનો ડેટા સાફ કરીએ?"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"આમ કરવાથી બધી ઍપનો કૅશ મેમરીનો ડેટા સાફ થઈ જશે."</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"ઍપ અનઇન્સ્ટૉલ કરો"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"<xliff:g id="NAME">%1$s</xliff:g> માઉન્ટ થયેલ છે"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"<xliff:g id="NAME">%1$s</xliff:g> માઉન્ટ કરી શકાયું નહીં"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"USB સ્ટોરેજ ફરીથી કનેક્ટ કર્યું"</string>
@@ -652,8 +663,8 @@
     <string name="third_party_location_services_title" msgid="2826218400381676508">"3જા પક્ષની સ્થાન સેવાઓ"</string>
     <string name="location_reporting" msgid="3552501333650895634">"સ્થાનની જાણ કરવી"</string>
     <string name="location_history" msgid="4055660203090513120">"સ્થાન ઇતિહાસ"</string>
-    <string name="location_reporting_desc" msgid="1580018652781674608">"Google, આ સુવિધાનો ઉપયોગ Google Now અને Google નકશા જેવા ઉત્પાદનોમાં કરે છે. સ્થાનની જાણ કરવીને ચાલુ કરવું, કોઈપણ Google ઉત્પાદન કે જે આ સુવિધાનો ઉપયોગ કરે છે તેને તમારા Google એકાઉન્ટના જોડાણમાં તમારા ઉપકરણના સૌથી તાજેતરના સ્થાન ડેટાને સ્ટોર કરવા અને ઉપયોગમાં લેવા દે છે."</string>
-    <string name="location_history_desc" msgid="926674012916014270">"જ્યારે આ એકાઉન્ટ માટે સ્થાન ઇતિહાસ ચાલુ કરેલ હોય, ત્યારે Google, તમારી ઍપ્લિકેશનો દ્વારા ઉપયોગ માટે તમારા ઉપકરણના સ્થાન ડેટાને સ્ટોર કરી શકે છે.\n\nઉદાહરણ તરીકે, Google નકશા તમને દિશા નિર્દેશો આપી શકે છે અને Google Now તમને સફરમાં રહેલ ટ્રાફિક વિશે માહિતગાત કરી શકે છે.\n\nતમે કોઈપણ સમયે સ્થાન ઇતિહાસને બંધ કરી શકો છો, પરંતુ આવું કરવું તેને કાઢી નાખશે નહીં. તમારા સ્થાન ઇતિહાસને જોવા અને સંચાલિત કરવા માટે, maps.google.com/locationhistory ની મુલાકાત લો."</string>
+    <string name="location_reporting_desc" msgid="1580018652781674608">"Google, આ સુવિધાનો ઉપયોગ Google Now અને Google Maps જેવી પ્રોડક્ટમાં કરે છે. સ્થાનની જાણ કરવાનું ચાલુ કરવાથી, કોઈપણ Google પ્રોડક્ટ કે જે આ સુવિધાનો ઉપયોગ કરે છે તેને તમારા Google એકાઉન્ટના જોડાણમાં તમારા ડિવાઇસના સૌથી તાજેતરના સ્થાન ડેટાને સ્ટોર કરવા અને ઉપયોગમાં લેવા દે છે."</string>
+    <string name="location_history_desc" msgid="926674012916014270">"જ્યારે આ એકાઉન્ટ માટે સ્થાન ઇતિહાસ ચાલુ કરેલ હોય, ત્યારે Google, તમારી ઍપ્લિકેશનો દ્વારા ઉપયોગ માટે તમારા ડિવાઇસના સ્થાન ડેટાને સ્ટોર કરી શકે છે.\n\nઉદાહરણ તરીકે, Google Maps તમને દિશાનિર્દેશો આપી શકે છે અને Google Now તમને સફરમાં રહેલ ટ્રાફિક વિશે માહિતગાત કરી શકે છે.\n\nતમે કોઈપણ સમયે સ્થાન ઇતિહાસને બંધ કરી શકો છો, પરંતુ આવું કરવું તેને કાઢી નાખશે નહીં. તમારા સ્થાન ઇતિહાસને જોવા અને મેનેજ કરવા માટે, maps.google.com/locationhistoryની મુલાકાત લો."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"સ્થાન ઇતિહાસ કાઢી નાખો"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"આ, આ Google એકાઉન્ટ માટે આ ઉપકરણમાંથી સ્ટોર કરેલ તમામ સ્થાન ઇતિહાસને કાઢી નાખશે. તમે આ કાઢી નાખવાની ક્રિયાને પૂર્વવત્ કરી શકતાં નથી. Google Now સહિત કેટલીક ઍપ્લિકેશનો કામ કરવાનું બંધ કરી દેશે."</string>
     <string name="system_services" msgid="5754310941186053151">"સેવાઓ"</string>
@@ -700,6 +711,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"વાદળી"</string>
     <string name="color_yellow" msgid="3519470952904560404">"પીળો"</string>
     <string name="color_magenta" msgid="2377854703399624607">"મજેન્ટા"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"ઑડિયોનું વર્ણન"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"વર્ણનથી ઑડિયો સાઉન્ડટ્રૅક પસંદ કરો"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"સક્ષમ કરો"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"ગોઠવણી"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> નો ઉપયોગ કરીએ?"</string>
@@ -767,7 +780,7 @@
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"જ્યારે મુખ્ય થ્રેડ પર ઍપ્લિકેશનો લાંબી કામગીરીઓ કરે ત્યારે સ્ક્રીનને ફ્લેશ કરો"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo માં રીડિંગ સમય માપો"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"અજાણ્યા સ્રોતો"</string>
-    <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play સ્ટોર સિવાયનાં અન્ય સ્રોતોથી ઍપ્લિકેશનોનાં ઇન્સ્ટૉલેશનની મંજૂરી આપો"</string>
+    <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play Store સિવાયનાં અન્ય સ્રોતોથી ઍપ્લિકેશનોનાં ઇન્સ્ટૉલેશનની મંજૂરી આપો"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"અજાણ્યા સ્રોતોને મંજૂરી આપો"</string>
     <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"તમારું ડિવાઇસ અને વ્યક્તિગત ડેટા અજાણ્યા સ્રોતોની ઍપ દ્વારા હુમલા માટે વધુ સંવેદનશીલ છે. તમે સંમત થાઓ છો કે આ ઍપનાં ઉપયોગ કરવાથી તમારા ડિવાઇસને થતી કોઈપણ ક્ષતિ કે ડેટાના નુકસાન માટે એકમાત્ર તમે જ જવાબદાર છો."</string>
     <string name="system_hdcp_checking_never" msgid="3251512398865365135">"ક્યારેય નહીં"</string>

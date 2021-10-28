@@ -122,6 +122,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Gamyklinių duomenų atkūrimas"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibravimas"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Energijos taupymo priemonė"</string>
+    <string name="device_fastpair" msgid="1235240814051277047">"Įrenginiai"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Rinktis formatus"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Erdvinis garsas"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -189,6 +190,8 @@
     <string name="hdr_enabled_formats" msgid="8527870623949982774">"ĮGALINTI FORMATAI"</string>
     <string name="hdr_disabled_formats" msgid="4758522849421497896">"IŠJUNGTI FORMATAI"</string>
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Norėdami išjungti, pakeiskite formato pasirinkimo parinktį į „Neautomatinis“."</string>
+    <string name="resolution_selection_title" msgid="2873993320284587853">"Skyra"</string>
+    <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automatinis"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Išvalyti talpykloje saugomus duomenis?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Bus išval. visų progr. talpykl. saugomi duomen."</string>
     <string name="accessories_add" msgid="413764175035531452">"Pridėti priedą"</string>
@@ -579,6 +582,13 @@
     <string name="storage_device_storage_section" msgid="22958375769694027">"Įrenginio atmintinė"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Keičiama atmintis"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"Nustatyti iš naujo"</string>
+    <string name="storage_free_up" msgid="5719667150891467122">"Saugyklos vietos atlaisvinimas"</string>
+    <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"Talpykloje saugomų duomenų išvalymas"</string>
+    <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"Iki <xliff:g id="SPACE">%1$s</xliff:g> saugyklos vietos atlaisvinimas"</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"Išvalomi laikini failai, užimantys vietą. Tai neturės įtakos išsaugotiems duomenims, pvz., programų nuostatoms ar neprisijungus pasiekiamiems vaizdo įrašams, o jums nereikės dar kartą prisijungti prie programų."</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"Išvalyti talpykloje saugomus duomenis?"</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"Bus išval. visų progr. talpykl. saugomi duomen."</string>
+    <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"Programų pašalinimas"</string>
     <string name="storage_mount_success" msgid="4459298609971461753">"Įdėta: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_failure" msgid="8521666906216755903">"Nepavyko įdėti: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_mount_adopted" msgid="8880688040694403520">"USB atmintis prijungta iš naujo"</string>
@@ -730,6 +740,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Žalsvai mėlyna"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Geltona"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Purpurinė"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Garsų aprašas"</string>
+    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Pasir. garso takelį su garsų apr. pagal numat. aprib."</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Įgalinti"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfigūracija"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Naudoti „<xliff:g id="SERVICE">%1$s</xliff:g>“?"</string>

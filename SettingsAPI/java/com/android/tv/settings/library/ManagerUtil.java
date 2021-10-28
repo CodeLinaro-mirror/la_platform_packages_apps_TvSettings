@@ -49,11 +49,35 @@ public final class ManagerUtil {
     public static final int STATE_KEYBOARD = 17;
     public static final int STATE_AVAILABLE_KEYBOARD = 18;
     public static final int STATE_AUTO_FILL_PICKER_STATE = 19;
+    public static final int STATE_LANGUAGE = 20;
+    public static final int STATE_ACCESSIBILITY = 21;
+    public static final int STATE_ACCESSIBILITY_SERVICE = 22;
+    public static final int STATE_ACCESSIBILITY_SHORTCUT = 23;
+    public static final int STATE_ACCESSIBILITY_SHORTCUT_SERVICE = 24;
+    public static final int STATE_STORAGE = 25;
+    public static final int STATE_STORAGE_SUMMARY = 26;
+    public static final int STATE_MISSING_STORAGE = 27;
+    public static final int STATE_POWER_AND_ENERGY = 28;
+    public static final int STATE_ENERGY_SAVER = 29;
+    public static final int STATE_DAYDREAM = 30;
+    public static final int STATE_DISPLAY_SOUND = 31;
+    public static final int STATE_FONT_SCALE = 32;
+    public static final int STATE_MATCH_CONTENT_FRAME = 33;
+    public static final int STATE_ADVANCED_DISPLAY = 34;
+    public static final int STATE_ADVANCED_VOLUME = 35;
+    public static final int STATE_HDR_FORMAT_SELECTION = 36;
+    public static final int STATE_LOCATION = 37;
+    public static final int STATE_SENSOR = 38;
+    public static final int STATE_PRIVACY = 39;
 
     public static final String KEY_KEYBOARD_SETTINGS = "autofillSettings";
     public static final String INFO_INTENT = "intent";
     public static final String INFO_WIFI_SIGNAL_LEVEL = "wifi_signal_level";
     public static final String INFO_COLLAPSE = "collapse";
+    /** Argument key containing the current font scale value. */
+    public static final String INFO_CURRENT_FONT_SCALE_VALUE = "current_font_scale_value";
+    /** Argument key containing the font scale value this fragment will preview. */
+    public static final String INFO_PREVIEW_FONT_SCALE_VALUE = "preview_font_scale_value";
 
     private ManagerUtil() {
     }
@@ -73,6 +97,11 @@ public final class ManagerUtil {
     static byte getEnabled(boolean enabled) {
         return enabled ? STATUS_ON : STATUS_OFF;
     }
+
+    static byte getPersistent(boolean persistent) {
+        return persistent ? STATUS_ON : STATUS_OFF;
+    }
+
 
     /**
      * @hide
