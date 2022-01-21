@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The Android Open Source Project
+ * Copyright (C) 2014 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,22 +14,21 @@
  * limitations under the License.
  */
 
-package com.android.tv.settings.oemlink;
-
-import static com.android.tv.settings.library.overlay.FlavorUtils.X_EXPERIENCE_FLAVORS_MASK;
+package com.android.tv.settings.system;
 
 import androidx.fragment.app.Fragment;
 
 import com.android.tv.settings.TvSettingsActivity;
-import com.android.tv.settings.accessibility.AccessibilityFragment;
 
-/** An OEM hook for starting accessibility settings directly. */
-public class AccessibilitySettingsActivity extends TvSettingsActivity {
+/**
+ * Controls Text-to-Speech settings.
+ */
+public class TextToSpeechActivity extends TvSettingsActivity {
 
     @Override
     protected Fragment createSettingsFragment() {
         return com.android.tv.settings.overlay.FlavorUtils.getFeatureFactory(
                 this).getSettingsFragmentProvider()
-                .newSettingsFragment(AccessibilityFragment.class.getName(), null);
+                .newSettingsFragment(TextToSpeechFragment.class.getName(), null);
     }
 }
