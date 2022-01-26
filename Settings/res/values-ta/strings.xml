@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"தரவின் ஆரம்பநிலை மீட்டமைப்பு"</string>
     <string name="device_calibration" msgid="2907914144048739705">"அளவுக்குறியீடு"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"எனர்ஜி சேமிப்பான்"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"சாதனங்கள்"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"வடிவங்களைத் தேர்ந்தெடுக்கவும்"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"சரவுண்ட் சவுண்ட்"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"முடக்க, வடிவமைப்புத் தேர்வைக் கைமுறைக்கு மாற்றவும்."</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"தெளிவுத்திறன்"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"தானியங்கு"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"தெளிவுத்திறன் மாற்றப்பட்டது"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"இப்போதிலிருந்து %1$s தெளிவுத்திறனைப் பயன்படுத்த \"சரி\" என்பதைத் தேர்ந்தெடுக்கவும்."</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ரத்துசெய்"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"சரி"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"தற்காலிகச் சேமிப்பு தரவை அழிக்கவா?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"இது, எல்லா ஆப்ஸின் தற்காலிகச் சேமிப்பு தரவை அழிக்கும்."</string>
     <string name="accessories_add" msgid="413764175035531452">"துணைக்கருவியைச் சேர்"</string>

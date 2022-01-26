@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Restablecemento dos datos de fábrica"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Calibración"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Aforrador de enerxía"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Dispositivos"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Seleccionar formatos"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Son envolvente"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Para desactivar a opción, cambia a selección de formato a Manual."</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"Resolución"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automática"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Modificouse a resolución"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Se queres utilizar %1$s a partir de agora, selecciona Aceptar."</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Cancelar"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Aceptar"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Queres borrar os datos da caché?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Isto borrará datos da caché para as aplicacións"</string>
     <string name="accessories_add" msgid="413764175035531452">"Engadir accesorio"</string>

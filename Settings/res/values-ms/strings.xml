@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Tetapan semula data kilang"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Penentukuran"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Penjimat tenaga"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Peranti"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Pilih format"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Bunyi Keliling"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Untuk melumpuhkan, tukar pilihan format ke Manual."</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"Peleraian"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automatik"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Peleraian telah ditukar"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Pilih OK untuk menggunakan %1$s mulai sekarang."</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Batal"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Padam bersih data cache?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Ini akan memadam bersih data cache semua apl."</string>
     <string name="accessories_add" msgid="413764175035531452">"Tambah aksesori"</string>
@@ -380,14 +385,14 @@
       <item quantity="one">Percayai atau alih keluar sijil</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="6128536570911468907">
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa pada peranti anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti, termasuk e-mel, apl dan tapak web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa pada profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti, termasuk e-mel, apl dan tapak web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa pada peranti anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti, termasuk e-mel, apl dan laman web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa pada profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti, termasuk e-mel, apl dan laman web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="5828471957724016946">
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan tapak web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan tapak web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan laman web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan laman web selamat.\n\nUntuk mendapatkan maklumat lanjut tentang sijil ini, hubungi pentadbir anda.</item>
     </plurals>
-    <string name="ssl_ca_cert_warning_message" msgid="4837017382712096218">"Pihak ketiga berkeupayaan untuk memantau aktiviti rangkaian anda, termasuk e-mel, apl dan tapak web selamat.\n\nBukti kelayakan dipercayai yang dipasang pada peranti anda yang membolehkan perkara ini."</string>
+    <string name="ssl_ca_cert_warning_message" msgid="4837017382712096218">"Pihak ketiga berkeupayaan untuk memantau aktiviti rangkaian anda, termasuk e-mel, apl dan laman web selamat.\n\nBukti kelayakan dipercayai yang dipasang pada peranti anda yang membolehkan perkara ini."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="196409967946912560">
       <item quantity="other">Semak sijil</item>
       <item quantity="one">Semak sijil</item>

@@ -118,8 +118,8 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"فیکٹری ڈیٹا ری سیٹ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"کیلیبریشن"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"انرجی سیور"</string>
-    <!-- no translation found for device_fastpair (1235240814051277047) -->
-    <skip />
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
+    <string name="device_fastpair" msgid="1235240814051277047">"آلات"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"فارمیٹس منتخب کریں"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"محیط آواز"</string>
     <string name="surround_sound_format_ac3" msgid="4759143098751306492">"Dolby Digital"</string>
@@ -189,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"غیر فعال کرنے کیلئے فارمیٹ سلیکشن کو دستی میں تبدیل کریں۔"</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"ریزولیوشن"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"خودکار"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"ریزولیوشن کو تبدیل کر دیا گیا ہے"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"اب سے ‏%1$s کا استعمال کرنے کے لیے \'ٹھیک ہے\' کو منتخب کریں۔"</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"منسوخ کریں"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ٹھیک ہے"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"کیش کیا ہوا ڈیٹا صاف کریں؟"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"یہ سبھی ایپس کیلئے کیش کیے ہوئے ڈیٹا کو صاف کر دے گا۔"</string>
     <string name="accessories_add" msgid="413764175035531452">"امدادی سامان شامل کریں"</string>

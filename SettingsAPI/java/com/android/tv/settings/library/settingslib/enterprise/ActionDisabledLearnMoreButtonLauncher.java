@@ -26,6 +26,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.UserHandle;
 import android.os.UserManager;
+
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.tv.settings.library.settingslib.RestrictedLockUtils.EnforcedAdmin;
 
@@ -101,7 +102,7 @@ public abstract class ActionDisabledLearnMoreButtonLauncher {
     protected boolean isSameProfileGroup(Context context, int enforcementAdminUserId) {
         UserManager um = context.getSystemService(UserManager.class);
 
-        return um.isSameProfileGroup(enforcementAdminUserId, um.getUserHandle());
+        return um.isSameProfileGroup(enforcementAdminUserId, um.getProcessUserId());
     }
 
     private boolean isEnforcedByDeviceOwnerOnSystemUserMode(

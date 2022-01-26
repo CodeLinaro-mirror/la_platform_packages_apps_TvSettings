@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"ਫੈਕਟਰੀ ਡਾਟਾ ਰੀਸੈੱਟ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ਕੈਲੀਬਰੇਸ਼ਨ"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"ਊਰਜਾ ਸੇਵਰ"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ਡੀਵਾਈਸ"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ਫਾਰਮੈਟ ਚੁਣੋ"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"ਆਲੇ-ਦੁਆਲੇ ਸੰਬੰਧੀ ਧੁਨੀ"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"ਬੰਦ ਕਰਨ ਲਈ, ਫਾਰਮੈਟ ਦੀ ਚੋਣ ਨੂੰ \'ਹੱਥੀਂ\' ਵਿੱਚ ਬਦਲੋ।"</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"ਰੈਜ਼ੋਲਿਊਸ਼ਨ"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"ਸਵੈਚਲਿਤ"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਨੂੰ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"ਹੁਣ ਤੋਂ %1$s ਵਰਤਣ ਲਈ \'ਠੀਕ ਹੈ\' ਚੁਣੋ।"</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ਰੱਦ ਕਰੋ"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ਠੀਕ ਹੈ"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ਕੀ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਹਟਾਉਣਾ ਹੈ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ਇਹ ਸਾਰੀਆਂ ਐਪਾਂ ਲਈ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਕਲੀਅਰ ਕਰ ਦੇਵੇਗਾ।"</string>
     <string name="accessories_add" msgid="413764175035531452">"ਉਪਸਾਧਨ ਸ਼ਾਮਲ ਕਰੋ"</string>
@@ -945,7 +950,7 @@
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"ਕਿਰਪਾ ਕਰਕੇ ਨਵੀਂ ਸੈਟਿੰਗ ਦੀ <xliff:g id="SLEEP_TIME">%1$s</xliff:g> ਅਨੁਸਾਰ ਤਸਦੀਕ ਕਰੋ, ਕਿਉਂਕਿ ਇਸ ਸੈਟਿੰਗ ਵਿੱਚ ਊਰਜਾ ਦੀ ਵਧੀਕ ਵਰਤੋਂ ਦੀ ਸੰਭਾਵਨਾ ਹੈ।"</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"ਵਰਤਮਾਨ ਤੌਰ \'ਤੇ ਕੋਈ ਖਾਤਾ ਬੈਕਅੱਪ ਲਏ ਡਾਟੇ ਨੂੰ ਸਟੋਰ ਨਹੀਂ ਕਰ ਰਿਹਾ ਹੈ"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
-    <string name="backup_erase_dialog_message" msgid="222169533402624861">"ਕੀ ਆਪਣੇ Wi‑Fi ਪਾਸਵਰਡਾਂ, ਬੁੱਕਮਾਰਕਾਂ, ਹੋਰ ਸੈਟਿੰਗਾਂ ਅਤੇ ਐਪ ਡਾਟੇ ਦਾ ਬੈਕਅੱਪ ਲੈਣਾ ਬੰਦ ਕਰਨਾ ਹੈ ਅਤੇ Google ਸਰਵਰਾਂ \'ਤੇ ਸਾਰੀਆਂ ਕਾਪੀਆਂ ਮਿਟਾਉਣੀਆਂ ਹਨ?"</string>
+    <string name="backup_erase_dialog_message" msgid="222169533402624861">"ਕੀ ਆਪਣੇ ਵਾਈ-ਫਾਈ ਪਾਸਵਰਡਾਂ, ਬੁੱਕਮਾਰਕਾਂ, ਹੋਰ ਸੈਟਿੰਗਾਂ ਅਤੇ ਐਪ ਡਾਟੇ ਦਾ ਬੈਕਅੱਪ ਲੈਣਾ ਬੰਦ ਕਰਨਾ ਹੈ ਅਤੇ Google ਸਰਵਰਾਂ \'ਤੇ ਸਾਰੀਆਂ ਕਾਪੀਆਂ ਮਿਟਾਉਣੀਆਂ ਹਨ?"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"ਮੇਰੇ ਡਾਟੇ ਦਾ ਬੈਕ ਅੱਪ ਲਓ"</string>
     <string name="privacy_backup_account" msgid="4527813051841860610">"ਬੈਕਅੱਪ ਖਾਤਾ"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"ਸਵੈਚਾਲਿਤ ਮੁੜ-ਬਹਾਲੀ"</string>

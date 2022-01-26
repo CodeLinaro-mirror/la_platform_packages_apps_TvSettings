@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"फ़ैक्ट्री डेटा रीसेट"</string>
     <string name="device_calibration" msgid="2907914144048739705">"अंशांकन"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"ऊर्जा बचाने की सेटिंग"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"डिवाइस"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"फ़ॉर्मैट चुनें"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"आस-पास की आवाज़"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"चालू किए गए फ़ॉर्मैट को बंद करने के लिए, फ़ॉर्मैट चुनने की सेटिंग को मैन्युअल पर सेट करें."</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"रिज़ॉल्यूशन"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"अपने-आप"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"रिज़ॉल्यूशन बदल दिया गया है"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"अब से %1$s रिज़ॉल्यूशन का इस्तेमाल करने के लिए, \'ठीक है\' चुनें."</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"अभी नहीं"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ठीक है"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"संचित डेटा साफ़ करें?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"इससे सभी ऐप्‍स का संचित डेटा साफ़ हो जाएगा."</string>
     <string name="accessories_add" msgid="413764175035531452">"एक्सेसरी जोड़ें"</string>
@@ -483,7 +488,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"जोड़ दें"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"नेटवर्क भूलें"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"इससे सहेजे गए पासवर्ड सहित, इस नेटवर्क से कनेक्ट होने में उपयोग होने वाली जानकारी साफ़ हो जाती है"</string>
-    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" मोबाइल फ़ोन से क्यूआर कोड स्कैन करके, वाई-फ़ाई से जुड़ें और दिए गए निर्देशों का पालन करें.\n \n "<b>"Android फ़ोन"</b>"में, सेटिंग -&gt; नेटवर्क और इंटरनेट -&gt; वाई-फ़ाई -&gt; वाई-फ़ाई नेटवर्क चुनें -&gt; बेहतर -&gt; डिवाइस जोड़ें और \'क्यूआर कोड स्कैन करें\' पर जाएं."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" मोबाइल फ़ोन से क्यूआर कोड स्कैन करके, वाई-फ़ाई से जुड़ें और दिए गए निर्देशों का पालन करें.\n \n "<b>"Android फ़ोन"</b>" में, सेटिंग -&gt; नेटवर्क और इंटरनेट -&gt; वाई-फ़ाई -&gt; वाई-फ़ाई नेटवर्क चुनें -&gt; बेहतर -&gt; डिवाइस जोड़ें और \'क्यूआर कोड स्कैन करें\' पर जाएं."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"इस कार्रवाई को रद्द करने के लिए, \'वापस जाएं\' बटन दबाएं"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ठीक"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"जारी रखें"</string>
@@ -663,14 +668,14 @@
     <string name="location_reporting" msgid="3552501333650895634">"स्थान रिपोर्टिंग"</string>
     <string name="location_history" msgid="4055660203090513120">"जगह की जानकारी का इतिहास"</string>
     <string name="location_reporting_desc" msgid="1580018652781674608">"Google इस सुविधा का इस्तेमाल ‘Google नाओ’ और Google Maps जैसे प्रॉडक्टों में करता है. स्थान रिपोर्टिंग की सुविधा चालू हो, तो Google के वे प्रॉडक्ट जो इस सुविधा का इस्तेमाल करते हैं, आपके डिवाइस की सबसे हाल की जगह की जानकारी का डेटा स्टोर और इस्तेमाल कर सकते हैं. ऐसा वे आपके Google खाते के ज़रिए करते हैं."</string>
-    <string name="location_history_desc" msgid="926674012916014270">"इस खाते के लिए स्थान इतिहास चालू होने पर, Google आपके डिवाइस के स्थान डेटा को आपके ऐप्स द्वारा उपयोग किए जाने के लिए संग्रहित कर सकता है.\n\nउदाहरण के लिए, Google मैप आपको दिशा-निर्देश दे सकता है और Google नाओ आपको यात्रा ट्रैफ़िक के बारे में सूचित कर सकती है.\n\nआप स्थान इतिहास को कभी भी बंद कर सकते हैं, लेकिन ऐसा करने से वह हटता नहीं है. अपने स्थान इतिहास को देखने और उसे प्रबंधित करने के लिए, maps.google.com/locationhistory पर जाएं."</string>
+    <string name="location_history_desc" msgid="926674012916014270">"इस खाते के लिए स्थान इतिहास चालू होने पर, Google आपके डिवाइस के स्थान डेटा को आपके ऐप्स द्वारा उपयोग किए जाने के लिए संग्रहित कर सकता है.\n\nउदाहरण के लिए, Google Maps आपको दिशा-निर्देश दे सकता है और Google नाओ आपको यात्रा ट्रैफ़िक के बारे में सूचित कर सकती है.\n\nआप स्थान इतिहास को कभी भी बंद कर सकते हैं, लेकिन ऐसा करने से वह हटता नहीं है. अपने स्थान इतिहास को देखने और उसे प्रबंधित करने के लिए, maps.google.com/locationhistory पर जाएं."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"स्थान इतिहास हटाएं"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"इससे इस डिवाइस पर इस Google खाते के लिए संगृहीत किया गया सभी स्थान इतिहास हट जाएगा. आप इस हटाए जाने को पूर्ववत नहीं कर सकते. Google नाओ सेवा सहित कुछ ऐप्लिकेशन काम करना बंद कर देंगे."</string>
     <string name="system_services" msgid="5754310941186053151">"सेवाएं"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"सेवा सेटिंग"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"उच्च कंट्रास्ट लेख"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"सुलभता सुविधा का शॉर्टकट"</string>
-    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ऐक्सेस-योग्यता शॉर्टकट सक्षम करें"</string>
+    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"सुलभता सुविधा का शॉर्टकट चालू करें"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"शॉर्टकट सेवा"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"शॉर्टकट इस्तेमाल करने के दौरान, आप \'वापस जाएं\' और \'नीचे जाएं\' बटन को एक साथ 3 सेकंड तक दबा के, सुलभता सुविधा शुरू कर सकते हैं."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"कैप्शन"</string>
@@ -712,7 +717,7 @@
     <string name="color_magenta" msgid="2377854703399624607">"मैजेंटा"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"जानकारी सुनने की सुविधा"</string>
     <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"डिफ़ॉल्ट रूप से जानकारी सुनने की सुविधा के साथ ऑडियो साउंड ट्रैक चुनें"</string>
-    <string name="system_accessibility_status" msgid="8504842254080682515">"सक्षम करना"</string>
+    <string name="system_accessibility_status" msgid="8504842254080682515">"चालू करें"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"कॉन्फ़िगरेशन"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> का उपयोग करें?"</string>
     <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"पासवर्ड को छोड़कर, <xliff:g id="SERVICE">%1$s</xliff:g>   लिखा गया सभी लेख एकत्रित कर सकती है. इसमें व्‍यक्तिगत डेटा, जैसे क्रेडिट कार्ड नंबर शामिल हैं."</string>

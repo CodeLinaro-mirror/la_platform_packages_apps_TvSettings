@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Zavod sozlamalarini tiklash"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrlash"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Quvvat tejalishi"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Qurilmalar"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Formatlarni tanlang"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Qamrovli ovoz"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Faolsizlantirish uchun mustaqil rejimga oʻzgartiring."</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"Tasvir aniqligi"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Avtomatik"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Piksellar sigʻimi oʻzgartirildi"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Hozirdan %1$s ishlatish uchun OK tugmasini bosing."</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Bekor qilish"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Kesh tozalansinmi?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Barcha ilovalarning keshi o‘chirib tashlanadi."</string>
     <string name="accessories_add" msgid="413764175035531452">"Aksessuarni qo‘shish"</string>

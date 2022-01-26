@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Үйлдвэрээс гарсан төлөвт"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Тааруулалт"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Эрчим хүч хэмнэгч"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Төхөөрөмжүүд"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Формат сонгох"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Орчин тойрны дуу"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"Идэвхгүй болгохын тулд форматын сонголтыг Гар арга руу өөрчилнө үү."</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"Нягтрал"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Автомат"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Нягтралыг өөрчилсөн"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Одооноос %1$s-г ашиглахын тулд OK-г сонгоно уу."</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Цуцлах"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кеш хийгдсэн өгөгдлийг арилгах уу?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бүх програмд зориулан кеш хийгдсэн өгөгдлийг арилгах болно."</string>
     <string name="accessories_add" msgid="413764175035531452">"Аксесуар нэмэх"</string>

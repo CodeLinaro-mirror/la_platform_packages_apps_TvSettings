@@ -118,6 +118,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"回復原廠設定"</string>
     <string name="device_calibration" msgid="2907914144048739705">"校正"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"省電模式"</string>
+    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"裝置"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"選取格式"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"環迴音效"</string>
@@ -188,6 +189,10 @@
     <string name="hdr_enabled_format_info_clicked" msgid="1466675962665861040">"如要停用，請將格式選項轉為「手動」。"</string>
     <string name="resolution_selection_title" msgid="2873993320284587853">"解像度"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"自動"</string>
+    <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"解像度已變更"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"選擇 [確定] 即可從現在開始使用 %1$s。"</string>
+    <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"取消"</string>
+    <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"確定"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"清除快取資料？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"這會清除所有應用程式的快取資料。"</string>
     <string name="accessories_add" msgid="413764175035531452">"新增配件"</string>
