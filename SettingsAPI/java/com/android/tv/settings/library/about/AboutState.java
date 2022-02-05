@@ -252,7 +252,8 @@ public class AboutState implements State {
         refreshDeviceName();
 
         context.registerReceiver(mDeviceNameReceiver,
-                new IntentFilter(DeviceManager.ACTION_DEVICE_NAME_UPDATE));
+                new IntentFilter(DeviceManager.ACTION_DEVICE_NAME_UPDATE),
+                Context.RECEIVER_EXPORTED_UNAUDITED);
     }
 
     @Override
@@ -471,5 +472,10 @@ public class AboutState implements State {
                         info.loadLabel(context.getPackageManager()).toString());
             }
         }
+    }
+
+    @Override
+    public void onDisplayDialogPreference(String[] key) {
+
     }
 }
