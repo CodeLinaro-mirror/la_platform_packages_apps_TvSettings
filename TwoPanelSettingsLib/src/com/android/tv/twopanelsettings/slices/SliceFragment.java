@@ -50,6 +50,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
@@ -141,35 +142,27 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
         mUriString = getArguments().getString(SlicesConstants.TAG_TARGET_URI);
         if (!TextUtils.isEmpty(mUriString)) {
             ContextSingleton.getInstance().grantFullAccess(getContext(), Uri.parse(mUriString));
+            getSliceLiveData().observe(this, this);
+        }
+        if (TextUtils.isEmpty(mScreenTitle)) {
+            mScreenTitle = getArguments().getCharSequence(SlicesConstants.TAG_SCREEN_TITLE, "");
         }
         super.onCreate(savedInstanceState);
     }
 
     @Override
     public void onResume() {
-        this.setTitle(mScreenTitle);
-        this.setSubtitle(mScreenSubtitle);
-        this.setIcon(mScreenIcon);
-        this.getPreferenceScreen().removeAll();
-
-        showProgressBar();
-        if (!TextUtils.isEmpty(mUriString)) {
-            getSliceLiveData().observeForever(this);
-        }
-        if (TextUtils.isEmpty(mScreenTitle)) {
-            mScreenTitle = getArguments().getCharSequence(SlicesConstants.TAG_SCREEN_TITLE, "");
-        }
         super.onResume();
         if (!TextUtils.isEmpty(mUriString)) {
             getContext().getContentResolver().registerContentObserver(
                     SlicePreferencesUtil.getStatusPath(mUriString), false, mContentObserver);
         }
+        removeAnimationClipping(getView());
         fireFollowupPendingIntent();
     }
 
     private SliceLiveDataImpl getSliceLiveData() {
-        return ContextSingleton.getInstance()
-                .getSliceLiveData(getActivity(), Uri.parse(mUriString));
+        return ContextSingleton.getInstance().getSliceLiveData(getContext(), Uri.parse(mUriString));
     }
 
     private void fireFollowupPendingIntent() {
@@ -211,7 +204,6 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
         super.onPause();
         hideProgressBar();
         getContext().getContentResolver().unregisterContentObserver(mContentObserver);
-        getSliceLiveData().removeObserver(this);
     }
 
     @Override
@@ -267,7 +259,7 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             getSliceLiveData().removeObserver(this);
             getContext().getContentResolver().unregisterContentObserver(mContentObserver);
             mUriString = redirectSlice;
-            getSliceLiveData().observeForever(this);
+            getSliceLiveData().observe(this, this);
             getContext().getContentResolver().registerContentObserver(
                     SlicePreferencesUtil.getStatusPath(mUriString), false, mContentObserver);
         }
@@ -307,7 +299,9 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
         for (SliceContent contentItem : items) {
             SliceItem item = contentItem.getSliceItem();
             if (SlicesConstants.TYPE_PREFERENCE.equals(item.getSubType())
-                    || SlicesConstants.TYPE_PREFERENCE_CATEGORY.equals(item.getSubType())) {
+                    || SlicesConstants.TYPE_PREFERENCE_CATEGORY.equals(item.getSubType())
+                    || SlicesConstants.TYPE_PREFERENCE_EMBEDDED_PLACEHOLDER.equals(
+                            item.getSubType())) {
                 Preference preference =
                         SlicePreferencesUtil.getPreference(
                                 item, mContextThemeWrapper, getClass().getCanonicalName(),
@@ -392,16 +386,20 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
     }
 
     private void updatePreferenceScreen(PreferenceScreen screen, List<Preference> newPrefs) {
-        // Remove all the preferences in the screen that satisfy such two cases:
+        // Remove all the preferences in the screen that satisfy such three cases:
         // (a) Preference without key
         // (b) Preference with key which does not appear in the new list.
+        // (c) Preference with key which does appear in the new list, but the preference has changed
+        // ability to handle slices and needs to be replaced instead of re-used.
         int index = 0;
         while (index < screen.getPreferenceCount()) {
             boolean needToRemoveCurrentPref = true;
             Preference oldPref = screen.getPreference(index);
             if (oldPref != null && oldPref.getKey() != null) {
                 for (Preference newPref : newPrefs) {
-                    if (newPref.getKey() != null && newPref.getKey().equals(oldPref.getKey())) {
+                    if (newPref.getKey() != null && newPref.getKey().equals(oldPref.getKey())
+                            && (newPref instanceof HasSliceUri)
+                            == (oldPref instanceof HasSliceUri)) {
                         needToRemoveCurrentPref = false;
                         break;
                     }
@@ -431,7 +429,13 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             if (newPref.getKey() != null) {
                 for (int j = 0; j < screen.getPreferenceCount(); j++) {
                     Preference oldPref = screen.getPreference(j);
-                    if (oldPref.getKey() != null && oldPref.getKey().equals(newPref.getKey())) {
+                    // EmbeddedSlicePreference has its own slice observer
+                    // (EmbeddedSlicePreferenceHelper). Should therefore not be updated by
+                    // slice observer in SliceFragment.
+                    boolean allowUpdate = !(oldPref instanceof EmbeddedSlicePreference);
+                    boolean sameKey = oldPref.getKey() != null
+                            && oldPref.getKey().equals(newPref.getKey());
+                    if (allowUpdate && sameKey) {
                         oldPref.setIcon(newPref.getIcon());
                         oldPref.setTitle(newPref.getTitle());
                         oldPref.setSummary(newPref.getSummary());
@@ -449,7 +453,15 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                             ((HasSliceUri) oldPref)
                                     .setUri(((HasSliceUri) newPref).getUri());
                         }
+                        if ((oldPref instanceof HasCustomContentDescription)
+                                && (newPref instanceof HasCustomContentDescription)) {
+                            ((HasCustomContentDescription) oldPref).setContentDescription(
+                                    ((HasCustomContentDescription) newPref)
+                                            .getContentDescription());
+                        }
                         oldPref.setOrder(i);
+                    }
+                    if (sameKey) {
                         neededToAddNewPref = false;
                         break;
                     }
@@ -707,8 +719,22 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
 
     private void handleUri(Uri uri) {
         String uriString = uri.getQueryParameter(SlicesConstants.PARAMETER_URI);
+        String errorMessage = uri.getQueryParameter(SlicesConstants.PARAMETER_ERROR);
+        // Display the errorMessage based upon two different scenarios:
+        // a) If the provided uri string matches with current page slice uri(usually happens
+        // when the data fails to correctly load), show the errors in the current panel using
+        // InfoFragment UI.
+        // b) If the provided uri string does not match with current page slice uri(usually happens
+        // when the data fails to save), show the error message as the toast.
+        if (uriString != null && errorMessage != null) {
+            if (!uriString.equals(mUriString)) {
+                showErrorMessageAsToast(errorMessage);
+            } else {
+                showErrorMessage(errorMessage);
+            }
+        }
         // Provider should provide the correct slice uri in the parameter if it wants to do certain
-        // action(includes go back, forward, error message), otherwise TvSettings would ignore it.
+        // action(includes go back, forward), otherwise TvSettings would ignore it.
         if (uriString == null || !uriString.equals(mUriString)) {
             return;
         }
@@ -722,11 +748,18 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                 finish();
             }
         }
+    }
 
-        String errorMessage = uri.getQueryParameter(SlicesConstants.PARAMETER_ERROR);
-        if (errorMessage != null) {
-            showErrorMessage(errorMessage);
-        }
+    private void showErrorMessageAsToast(String errorMessage) {
+        Toast.makeText(getActivity(), errorMessage, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle b) {
+        super.onViewCreated(view, b);
+        setTitle(mScreenTitle);
+        setSubtitle(mScreenSubtitle);
+        setIcon(mScreenIcon);
     }
 
     private void finish() {
