@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2022 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,26 +18,28 @@ package com.android.tv.twopanelsettings.slices;
 
 import android.content.Context;
 import android.text.TextUtils;
+import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.preference.PreferenceViewHolder;
-import androidx.slice.core.SliceActionImpl;
+
+import com.android.settingslib.RestrictedPreference;
 
 /**
- * Slice version of RadioPreference.
+ * Restricted preference that allows external classes to set its view's content description for
+ * accessibility purposes.
  */
-public class SliceRadioPreference extends RadioPreference implements HasSliceAction, HasSliceUri,
+public class CustomContentDescriptionRestrictedPreference extends RestrictedPreference implements
         HasCustomContentDescription {
-    private int mActionId;
-    private SliceActionImpl mSliceAction;
-    private String mUri;
-    private SliceActionImpl mFollowupSliceAction;
+
     private String mContentDescription;
 
-    public SliceRadioPreference(Context context, SliceActionImpl action) {
+    public CustomContentDescriptionRestrictedPreference(Context context) {
         super(context);
-        mSliceAction = action;
-        update();
+    }
+
+    public CustomContentDescriptionRestrictedPreference(Context context, AttributeSet attrs) {
+        super(context, attrs);
     }
 
     @Override
@@ -49,60 +51,14 @@ public class SliceRadioPreference extends RadioPreference implements HasSliceAct
         }
     }
 
-    @Override
-    public int getActionId() {
-        return mActionId;
-    }
-
-    @Override
-    public void setActionId(int actionId) {
-        mActionId = actionId;
-    }
-
-    @Override
-    public SliceActionImpl getSliceAction() {
-        return mSliceAction;
-    }
-
-    @Override
-    public void setSliceAction(SliceActionImpl sliceAction) {
-        mSliceAction = sliceAction;
-    }
-
-    @Override
-    public SliceActionImpl getFollowupSliceAction() {
-        return mFollowupSliceAction;
-    }
-
-    @Override
-    public void setFollowupSliceAction(SliceActionImpl sliceAction) {
-        mFollowupSliceAction = sliceAction;
-    }
-
-    private void update() {
-        this.setChecked(mSliceAction.isChecked());
-    }
-
-    @Override
-    public void setUri(String uri) {
-        this.mUri = uri;
-    }
-
-    @Override
-    public String getUri() {
-        return mUri;
-    }
-
     /**
      * Sets the accessibility content description that will be read to the TalkBack users when they
-     * select this preference.
+     * focus on this preference.
      */
-    @Override
     public void setContentDescription(String contentDescription) {
         this.mContentDescription = contentDescription;
     }
 
-    @Override
     public String getContentDescription() {
         return mContentDescription;
     }
