@@ -51,7 +51,6 @@ import android.view.ContextThemeWrapper;
 
 import androidx.core.graphics.drawable.IconCompat;
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
 import androidx.slice.Slice;
 import androidx.slice.SliceItem;
 import androidx.slice.core.SliceActionImpl;
@@ -143,13 +142,7 @@ public final class SlicePreferencesUtil {
                 CharSequence uri = getText(data.mTargetSliceItem);
                 if (uri == null || TextUtils.isEmpty(uri)) {
                     if (preference == null) {
-                        // if contains info text
-                        if (getInfoSummary(item) != null) {
-                            preference = new CustomContentDescriptionPreference(
-                                        contextThemeWrapper);
-                        } else {
-                            preference = new Preference(contextThemeWrapper);
-                        }
+                        preference = new CustomContentDescriptionPreference(contextThemeWrapper);
                     }
                 } else {
                     if (preference == null) {
@@ -170,7 +163,7 @@ public final class SlicePreferencesUtil {
                     preference.setFragment(className);
                 }
             } else if (item.getSubType().equals(SlicesConstants.TYPE_PREFERENCE_CATEGORY)) {
-                preference = new PreferenceCategory(contextThemeWrapper);
+                preference = new CustomContentDescriptionPreferenceCategory(contextThemeWrapper);
             }
         }
 
@@ -218,17 +211,6 @@ public final class SlicePreferencesUtil {
                 }
             }
 
-            if (shouldForceContentDescription(item)) {
-                String fallbackContentDescription = "";
-                if (preference.getTitle() != null) {
-                    fallbackContentDescription = preference.getTitle().toString();
-                }
-
-                if (preference instanceof SlicePreference) {
-                    ((SlicePreference) preference).setContentDescription(
-                            getInfoContentDescription(item, fallbackContentDescription));
-                }
-            }
             // Set preview info image and text
             CharSequence infoText = getInfoText(item);
             CharSequence infoSummary = getInfoSummary(item);
@@ -265,18 +247,25 @@ public final class SlicePreferencesUtil {
             if (infoSummary != null) {
                 b.putCharSequence(EXTRA_PREFERENCE_INFO_SUMMARY, infoSummary);
                 fallbackInfoContentDescription +=
-                        CONTENT_DESCRIPTION_SEPARATOR + infoSummary.toString();
+                        CONTENT_DESCRIPTION_SEPARATOR + infoSummary;
             }
-            if (infoText != null || infoSummary != null) {
-                if (preference instanceof SlicePreference) {
-                    ((SlicePreference) preference).setContentDescription(
-                            getInfoContentDescription(item, fallbackInfoContentDescription));
-                } else if (preference instanceof SliceSwitchPreference) {
-                    ((SliceSwitchPreference) preference).setContentDescription(
-                            getInfoContentDescription(item, fallbackInfoContentDescription));
-                } else if (preference instanceof CustomContentDescriptionPreference) {
-                    ((CustomContentDescriptionPreference) preference).setContentDescription(
-                            getInfoContentDescription(item, fallbackInfoContentDescription));
+            String contentDescription = getInfoContentDescription(item);
+            // Respect the content description values provided by slice.
+            // If not provided, for SlicePreference, SliceSwitchPreference,
+            // CustomContentDescriptionPreference, use the fallback value.
+            // Otherwise, do not set the contentDescription for preference. Rely on the talkback
+            // framework to generate the value itself.
+            if (!TextUtils.isEmpty(contentDescription)) {
+                if (preference instanceof HasCustomContentDescription) {
+                    ((HasCustomContentDescription) preference).setContentDescription(
+                            contentDescription);
+                }
+            } else {
+                if ((preference instanceof SlicePreference)
+                        || (preference instanceof SliceSwitchPreference)
+                        || (preference instanceof CustomContentDescriptionPreference)) {
+                    ((HasCustomContentDescription) preference).setContentDescription(
+                            fallbackInfoContentDescription);
                 }
             }
             if (infoImage != null || infoText != null || infoSummary != null) {
@@ -613,7 +602,7 @@ public final class SlicePreferencesUtil {
      * Get the content description from SliceItem if available
      */
     private static String getInfoContentDescription(
-            SliceItem sliceItem, String contentDescription) {
+            SliceItem sliceItem) {
         List<SliceItem> items = sliceItem.getSlice().getItems();
         for (SliceItem item : items)  {
             if (item.getSubType() != null
@@ -621,6 +610,6 @@ public final class SlicePreferencesUtil {
                 return item.getText().toString();
             }
         }
-        return contentDescription;
+        return null;
     }
 }
