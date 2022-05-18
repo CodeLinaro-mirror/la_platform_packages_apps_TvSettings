@@ -182,7 +182,7 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"ความละเอียด"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"อัตโนมัติ"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"เปลี่ยนความละเอียดแล้ว"</string>
-    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"เลือก \"ตกลง\" เพื่อใช้ %1$s นับจากนี้ไป"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"เลือก \"ตกลง\" เพื่อเริ่มใช้ %1$s"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ยกเลิก"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ตกลง"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ล้างข้อมูลในแคชไหม"</string>
@@ -257,7 +257,7 @@
     <string name="system_inputs_devices" msgid="2158421111699829399">"อินพุตและอุปกรณ์"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ตัวควบคุมชุดโฮมเธียเตอร์"</string>
     <string name="system_accessibility" msgid="3081009195560501010">"การช่วยเหลือพิเศษ"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"ตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"ตัวเลือกสำหรับนักพัฒนาแอป"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ไม่มี"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"การใช้งานและการวินิจฉัย"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"ไม่มีแอปผู้ดูแลระบบอุปกรณ์พร้อมใช้งาน"</string>
