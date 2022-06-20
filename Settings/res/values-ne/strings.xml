@@ -400,7 +400,7 @@
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"सबै हेर्नुहोस्"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"अझ थोरै हेर्नुहोस्"</string>
     <string name="wifi_setting_available_networks" msgid="2096957819727319750">"उपलब्ध नेटवर्कहरू"</string>
-    <string name="wifi_setting_other_options_add_network" msgid="6490215784178866978">"नयाँ नेटवर्क थप्नुहोस्"</string>
+    <string name="wifi_setting_other_options_add_network" msgid="6490215784178866978">"नयाँ नेटवर्क हाल्नुहोस्"</string>
     <string name="wifi_setting_other_options_add_network_via_easyconnect" msgid="2869989555950644533">"छिटो कनेक्ट गर्ने सुविधा"</string>
     <string name="wifi_setting_other_options_add_network_via_easyconnect_info_summary" msgid="4564538591168691865">"तपाईं छिटो कनेक्ट गर्ने सुविधाको सहायताले आफ्नो फोनमार्फत QR कोड स्क्यान गरेर सो फोन तुरुन्तै आफ्नो Wi-Fi मा कनेक्ट गर्न सक्नुहुन्छ।"</string>
     <string name="security_type" msgid="2297615092250075696">"सुरक्षाको प्रकार"</string>
@@ -641,7 +641,7 @@
     <string name="captions_configure" msgid="711991018642931958">"कन्फिगर गर्नुहोस्"</string>
     <string name="captions_language" msgid="5905918439449912646">"भाषा"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"डिफल्ट भाषा"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"पाठ आकार"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"पाठको आकार"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"क्याप्सनको शैली"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"आफू अनुकूल विकल्प"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"फन्ट परिवार"</string>
@@ -1033,6 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"पावर तथा इनर्जी"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"पावर अन हुँदा देखिने मोड"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"रिसेट गर्नुहोस्"</string>
-    <!-- no translation found for adb_pairing_device_dialog_ethernet_pairing_code_label (7551782499828944838) -->
-    <skip />
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"इथरनेट कनेक्सन कोड"</string>
 </resources>
