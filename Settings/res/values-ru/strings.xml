@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Сброс настроек"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калибровка"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Режим энергосбережения"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Настройки экономичного режима"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Устройства"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Выбор форматов"</string>
@@ -186,6 +187,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Отмена"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ОК"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Очистить кеш?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Будут удалены данные всех приложений."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -628,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"Сервисы"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Настройки службы"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Контрастный текст"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Быстрое включение"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Быстрое включение"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Быстрое включение сервиса"</string>
@@ -891,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Во время воспроизведения медиаконтента"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Подтвердите настройки режима энергосбережения"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Подтвердите новое время задержки отключения экрана (<xliff:g id="SLEEP_TIME">%1$s</xliff:g>). Если настройка будет применена, может увеличиться энергопотребление."</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ограничение сети в режиме ожидания"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Сокращает расход энергии в режиме ожидания"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"В режиме ожидания телевизор отключится от сети, если не запланировано автоматических обновлений системы. Это может уменьшить энергопотребление, но некоторые функции (например, Google Cast и Ассистент) станут недоступны."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"Подключение к сети в режиме ожидания"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Подключение к сети в режиме ожидания увеличит энергопотребление."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Нет аккаунтов c резервными копиями данных"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Отключить резервное копирование закладок, паролей сетей Wi-Fi, а также других настроек и данных приложений? Все копии на серверах Google будут удалены."</string>

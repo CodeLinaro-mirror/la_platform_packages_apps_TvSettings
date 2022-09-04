@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Berrezarri jatorrizko datuak"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrazioa"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Energia-aurrezlea"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Eko moduaren ezarpenak"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Gailuak"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Hautatu formatuak"</string>
@@ -186,6 +187,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Utzi"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Ados"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Cacheko datuak garbitu nahi dituzu?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Aplikazio guztien cacheko datuak garbituko dira."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -628,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"Zerbitzuak"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Zerbitzuaren ezarpenak"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Kontraste handiko testua"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Erabilerraztasunaren lasterbidea"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Gaitu erabilerraztasunaren lasterbidea"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Lasterbideari esleitutako zerbitzua"</string>
@@ -741,7 +745,7 @@
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Iturburu ezezagunak"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Baimendu Play Store ez diren iturburuetatik datozen aplikazioak instalatzea"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"Baimendu iturburu ezezagunak"</string>
-    <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"Gailuak eta datu pertsonalek iturburu ezezagunetako aplikazioen erasoak jaso ditzakete. Aplikazio horiek erabiltzen badituzu, onartzen duzu gailuari agian gertatuko zaizkion kalteen edo datu-galeren erantzule bakarra zeu zarela."</string>
+    <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"Baliteke gailuak eta datu pertsonalek iturburu ezezagunetako aplikazioen erasoak jasatea. Aplikazio horiek erabiltzen badituzu, onartu egingo duzu gailuari agian gertatuko zaizkion kalteen edo datu-galeren erantzulea zeu izango zarela."</string>
     <string name="system_hdcp_checking_never" msgid="3251512398865365135">"Inoiz ez"</string>
     <string name="system_hdcp_checking_drm" msgid="2159124883496899278">"DRM edukirako"</string>
     <string name="system_hdcp_checking_always" msgid="5868177105455148262">"Beti"</string>
@@ -891,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Multimedia-edukia erreproduzitzean"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Berretsi Energia-aurrezlea moduaren ezarpena"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Berretsi beste ezarpen bat denbora honetarako: <xliff:g id="SLEEP_TIME">%1$s</xliff:g>. Baliteke energia gehiago kontsumitzea modu horrek."</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Mugatu sarerako konexioak egonean moduan"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Energia gutxiago kontsumitzen du egonean moduan"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Egonean moduan, telebista ez da sarera konektatuta egongo eguneratze automatikoak jasotzeko ez bada. Horrela energia gutxiago kontsumituko du, baina ezingo dituzu erabili funtzioetako batzuk; esate baterako Cast eta Google Laguntzailea."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"Eman egonean moduan sarera konektatuta egoteko baimena"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Egonean moduan sarera konektatuta egoteko baimena emanez gero, energia gehiago kontsumituko da."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Ez dago babeskopiak gordetzen dituen aplikaziorik"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Wifi-sareetako pasahitzen, laster-marken, bestelako ezarpenen eta aplikazioetako datuen babeskopia egiteari utzi eta Google-ren zerbitzarietako kopia guztiak ezabatu nahi dituzu?"</string>
