@@ -51,6 +51,8 @@
     <string name="sound_category_title" msgid="7899816751041939518">"ಧ್ವನಿ"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"ಸಾಧನದ ಪ್ರಾಶಸ್ತ್ಯಗಳು"</string>
+    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
+    <skip />
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"ರಿಮೋಟ್‌ಗಳು ಮತ್ತು ಪರಿಕರಗಳು"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"ಡಿಸ್‌ಪ್ಲೇ ಮತ್ತು ಧ್ವನಿ"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"ಸಹಾಯ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ"</string>
@@ -259,7 +261,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"ಇನ್‌ಪುಟ್‌ಗಳು"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ಇನ್‌ಪುಟ್‌ಗಳು &amp; ಸಾಧನಗಳು"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ಹೋಮ್ ಥಿಯೇಟರ್ ನಿಯಂತ್ರಣ"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"ಪ್ರವೇಶಿಸುವಿಕೆ"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"ಡೆವಲಪರ್ ಆಯ್ಕೆಗಳು"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ಯಾವುದೂ ಇಲ್ಲ"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"ಬಳಕೆ ಮತ್ತು ಡಯಾಗ್ನಸ್ಟಿಕ್ಸ್"</string>
@@ -630,8 +631,25 @@
     <string name="system_services" msgid="5754310941186053151">"ಸೇವೆಗಳು"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"ಸೇವಾ ಸೆಟ್ಟಿಂಗ್‌‌ಗಳು"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ಹೆಚ್ಚು ಕಾಂಟ್ರಾಸ್ಟ್‌ನ ಪಠ್ಯ"</string>
-    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
-    <skip />
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"ಬೋಲ್ಡ್ ಪಠ್ಯ"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"ಬಣ್ಣದ ತಿದ್ದುಪಡಿ"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"ಬಣ್ಣ ತಿದ್ದುಪಡಿಯನ್ನು ಬಳಸಿ"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"ಬಣ್ಣದ ಮೋಡ್"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"ಡ್ಯುಟೆರೊನೊಮಾಲಿ"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"ಕೆಂಪು-ಹಸಿರು"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"ಪ್ರೊಟನೊಮಾಲಿ"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"ಕೆಂಪು-ಹಸಿರು"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"ಟ್ರೈಟನೊಮಾಲಿ"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"ನೀಲಿ-ಹಳದಿ"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"ಗ್ರೇಸ್ಕೇಲ್"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"ಕೆಂಪು"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"ಕಿತ್ತಳೆ"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"ಹಳದಿ"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"ಹಸಿರು"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"ಹಸಿರುನೀಲಿ"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"ನೀಲಿ"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"ನೇರಳೆ"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"ಬೂದು"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ಪ್ರವೇಶ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಪ್ರವೇಶಿಸುವಿಕೆ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ಶಾರ್ಟ್‌ಕಟ್ ಸೇವೆ"</string>
@@ -705,7 +723,7 @@
     <string name="system_always_check" msgid="384870282800221580">"ಯಾವಾಗಲೂ ಪರೀಕ್ಷಿಸು"</string>
     <string name="system_bt_hci_log" msgid="1891838112637932603">"ಬ್ಲೂಟೂತ್ HCI ಲಾಗಿಂಗ್"</string>
     <string name="system_email_address" msgid="3725494874473757217">"ಇಮೇಲ್ ವಿಳಾಸ"</string>
-    <string name="system_usb_debugging" msgid="2158285492172755923">"USB ಡೀಬಗಿಂಗ್‌"</string>
+    <string name="system_usb_debugging" msgid="2158285492172755923">"USB ಡೀಬಗ್‌ ಮಾಡುವಿಕೆ"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"ಅಣಕು ಸ್ಥಾನಗಳನ್ನು ಅನುಮತಿಸಿ"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"ಡೀಬಗ್ ಅಪ್ಲಿಕೇಶನ್‌ ಆಯ್ಕೆಮಾಡಿ"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"ಡೀಬಗರ್‌‌ಗಾಗಿ ಕಾಯಿರಿ"</string>
@@ -895,6 +913,8 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"ಮೀಡಿಯಾ ಪ್ಲೇಬ್ಯಾಕ್ ಸಮಯದಲ್ಲಿ"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"ಎನರ್ಜಿ ಸೇವರ್ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ದೃಡೀಕರಿಸಿ"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"<xliff:g id="SLEEP_TIME">%1$s</xliff:g> ಗಾಗಿ ಹೊಸ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ದೃಡೀಕರಿಸಿ, ಇದು ಹೆಚ್ಚಿದ ಶಕ್ತಿಯ ಬಳಕೆಯ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೊಂದಿದೆ."</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"ಎನರ್ಜಿ ಸೇವರ್ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"ವೀಕ್ಷಿಸುವಾಗ ಡಿಸ್‌ಪ್ಲೇ ಆಫ್ ಆಗುವುದನ್ನು ತಡೆಯಲು ಖಚಿತಪಡಿಸಿ ಏಕೆಂದರೆ ಅದು ಹೆಚ್ಚಿನ ಶಕ್ತಿಯನ್ನು ಬಳಸಬಹುದು."</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿ ನೆಟ್‌ವರ್ಕ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಮಿತಿಗೊಳಿಸಿ"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿ ಕಡಿಮೆ ವಿದ್ಯುತ್ ಅನ್ನು ಬಳಸುತ್ತದೆ"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"ಸ್ವಯಂಚಾಲಿತ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದನ್ನು ಹೊರತುಪಡಿಸಿ, ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿದ್ದಾಗ ನಿಮ್ಮ ಟಿವಿಯನ್ನು ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್‌ನಿಂದ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಲಾಗುತ್ತದೆ. ಇದು ನಿಮ್ಮ ಟಿವಿಯ ವಿದ್ಯುತ್ ಬಳಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು, ಇದರರ್ಥ ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿದ್ದಾಗ ಬಿತ್ತರಿಸುವುದು ಹಾಗೂ Google Assistant ನಂತಹ ಕಾರ್ಯಗಳನ್ನು ಬಳಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗದಿರಬಹುದು."</string>

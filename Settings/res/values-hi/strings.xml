@@ -51,6 +51,8 @@
     <string name="sound_category_title" msgid="7899816751041939518">"आवाज़"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"ऐप्लिकेशन"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"डिवाइस से जुड़ी पसंद"</string>
+    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
+    <skip />
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"रिमोट और एक्सेसरी"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"डिसप्ले और आवाज़"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"सहायता और सुझाव"</string>
@@ -259,7 +261,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"इनपुट"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"इनपुट और डिवाइस"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"होम थिएटर से जुड़े नियंत्रण"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"सुलभता"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"डेवलपर विकल्प"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"कोई नहीं"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"इस्तेमाल और निदान"</string>
@@ -630,8 +631,25 @@
     <string name="system_services" msgid="5754310941186053151">"सेवाएं"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"सेवा सेटिंग"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ज़्यादा कंट्रास्ट वाला टेक्स्ट"</string>
-    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
-    <skip />
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"टेक्स्ट को बोल्ड करने की सुविधा"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"रंग में सुधार करने की सुविधा"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"रंग में सुधार करें"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"कलर मोड"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"लाल-हरे रंगों को न पहचान पाना"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"हरा रंग लाल दिखता है"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"लाल-हरे रंगों को न पहचान पाना"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"लाल रंग हरा दिखता है"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"नीले-पीले रंगों को न पहचान पाना"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"नीला-पीला रंग न पहचान पाना"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"ग्रेस्केल"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"लाल"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"नारंगी"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"पीला"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"हरा"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"सायन"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"नीला"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"बैंगनी"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"स्लेटी"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"सुलभता सुविधा का शॉर्टकट"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"सुलभता सुविधा का शॉर्टकट चालू करें"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"शॉर्टकट सेवा"</string>
@@ -895,6 +913,8 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"मीडिया चलाते समय"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"देखें कि बैटरी बचाने की सेटिंग चालू है या नहीं"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"पक्का करें कि नई सेटिंग, <xliff:g id="SLEEP_TIME">%1$s</xliff:g> पर सेट हो. इससे बैटरी बचाई जा सकती है."</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"बैटरी बचाने की सेटिंग बंद करें"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"कृपया पुष्टि करें कि आपको मीडिया देखते समय, डिसप्ले बंद न होने की सेटिंग चालू करनी है. ध्यान रखें कि ऐसा करने से बैटरी ज़्यादा खर्च हो सकती है."</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"स्टैंडबाय मोड में इंटरनेट का सीमित इस्तेमाल करें"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"स्टैंडबाय मोड में कम ऊर्जा इस्तेमाल करता है"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"स्टैंडबाय मोड में टीवी को इंटरनेट से डिसकनेक्ट कर दिया जाएगा. हालांकि, आपको ऑटोमैटिक अपडेट मिलते रहेंगे. हो सकता है कि इससे आपकी टीवी कम ऊर्जा इस्तेमाल करे. हालांकि, यह भी हो सकता है कि स्टैंडबाय मोड में, आप कास्ट करने और Google Assistant जैसे फ़ंक्शन का इस्तेमाल न कर पाएं."</string>
