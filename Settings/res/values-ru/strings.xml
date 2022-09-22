@@ -51,6 +51,8 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Звук"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Приложения"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Настройки устройства"</string>
+    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
+    <skip />
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Пульты и аксессуары"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Экран и звук"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Справка/отзыв"</string>
@@ -259,7 +261,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"Входы"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"Входы и устройства"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"Управление домашним кинотеатром"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"Специальные возможности"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"Для разработчиков"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Нет"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"Использование и диагностика"</string>
@@ -630,8 +631,25 @@
     <string name="system_services" msgid="5754310941186053151">"Сервисы"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Настройки службы"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Контрастный текст"</string>
-    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
-    <skip />
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Полужирный шрифт"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"Коррекция цвета"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"Использовать коррекцию цвета"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"Цветной режим"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"Дейтераномалия"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"Красный и зеленый"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"Протаномалия"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"Красный и зеленый"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"Тританомалия"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"Синий и желтый"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"Оттенки серого"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"Красный"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"Оранжевый"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"Желтый"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"Зеленый"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"Голубой"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"Синий"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"Фиолетовый"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"Серый"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Быстрое включение"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Быстрое включение"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Быстрое включение сервиса"</string>
@@ -895,6 +913,8 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Во время воспроизведения медиаконтента"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Подтвердите настройки режима энергосбережения"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Подтвердите новое время задержки отключения экрана (<xliff:g id="SLEEP_TIME">%1$s</xliff:g>). Если настройка будет применена, может увеличиться энергопотребление."</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Отключите параметр энергосбережения"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Подтвердите изменение, чтобы предотвратить отключение экрана во время просмотра. Возможно, это повлечет увеличение расхода энергии."</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ограничение сети в режиме ожидания"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Сокращает расход энергии в режиме ожидания"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"В режиме ожидания телевизор отключится от сети, если не запланировано автоматических обновлений системы. Это может уменьшить энергопотребление, но некоторые функции (например, Google Cast и Ассистент) станут недоступны."</string>

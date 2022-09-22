@@ -51,6 +51,8 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Sonido"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Apps"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Preferencias del dispositivo"</string>
+    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
+    <skip />
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Control remoto y accesorios"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Pantalla y sonido"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ayuda y comentarios"</string>
@@ -259,7 +261,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"Entradas"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"Entradas y dispositivos"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"Control de home theater"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"Accesibilidad"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"Opciones del programador"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Ninguno"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"Uso y diagnósticos"</string>
@@ -625,13 +626,30 @@
     <string name="location_history" msgid="4055660203090513120">"Historial de ubicaciones"</string>
     <string name="location_reporting_desc" msgid="1580018652781674608">"Google utiliza esta función en ciertos productos, como Google Now y Google Maps. Activar los Informes de Ubicación permite que cualquier producto de Google que utilice esta función pueda almacenar y hacer uso de los datos de ubicación más recientes del dispositivo asociados a la cuenta de Google."</string>
     <string name="location_history_desc" msgid="926674012916014270">"Al activar el Historial de ubicaciones para esta cuenta, Google podrá almacenar los datos de ubicación del dispositivo para que los utilicen las aplicaciones.\n\nPor ejemplo, Google Maps puede ofrecerte rutas y Google Now información sobre el tráfico en tu viaje cotidiano.\n\nPuedes desactivar el Historial de ubicaciones en cualquier momento, pero esta acción no eliminará el historial. Para consultar y administrar el Historial de ubicaciones, visita maps.google.com/locationhistory."</string>
-    <string name="delete_location_history_title" msgid="707559064715633152">"Eliminar Historial de ubicaciones"</string>
+    <string name="delete_location_history_title" msgid="707559064715633152">"Borrar Historial de ubicaciones"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Se borrará Historial Ubicaciones; imposible revertir. Ciertas apl., como Google Now, no funcionarán."</string>
     <string name="system_services" msgid="5754310941186053151">"Servicios"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Configuración del servicio"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Texto de alto contraste"</string>
-    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
-    <skip />
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Texto en negrita"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"Corrección de colores"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"Usar corrección de colores"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"Modo de color"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"Deuteronomalía"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"Rojo-verde"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"Protanomalía"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"Rojo-verde"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"Tritanomalía"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"Azul-amarillo"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"Escala de grises"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"Rojo"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"Naranja"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"Amarillo"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"Verde"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"Cian"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"Azul"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"Púrpura"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"Gris"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Combinaciones de accesibilidad"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Habilitar combinación de teclas de accesibilidad"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servicio de combinación de teclas"</string>
@@ -895,6 +913,8 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Durante la reproducción de contenido multimedia"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Confirma la configuración del ahorro de energía"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Confirma que la nueva configuración es <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, que tiene el potencial de aumentar el uso de energía."</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Inhabilitar ahorro de energía"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Confirma para evitar que la pantalla se apague mientras está en uso, lo que puede aumentar el consumo de energía."</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limita conexión de red en modo en espera"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Consume menos energía en modo en espera"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"La TV se desconectará de la red cuando esté en modo en espera, salvo para recibir actualizaciones automáticas. Puede que así se reduzca el consumo de energía de la TV, aunque también es posible que, mientras esté en modo en espera, algunas funciones, como Transmitir y Asistente de Google, no estén disponibles."</string>
@@ -917,7 +937,7 @@
   <string-array name="rooms">
     <item msgid="6590829789532602097">"Android TV"</item>
     <item msgid="1140506340411482365">"TV de la sala de estar"</item>
-    <item msgid="6448060889026244632">"TV de la sala de estar"</item>
+    <item msgid="6448060889026244632">"TV de la sala familiar"</item>
     <item msgid="3336274213215419228">"TV del dormitorio"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"Ingresar nombre personalizado…"</string>

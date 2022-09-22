@@ -51,6 +51,8 @@
     <string name="sound_category_title" msgid="7899816751041939518">"サウンド"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"アプリ"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"デバイス設定"</string>
+    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
+    <skip />
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"リモコンとアクセサリ"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"ディスプレイと音"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"ヘルプとフィードバック"</string>
@@ -207,7 +209,7 @@
     <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"Bluetooth ペア設定。"</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"アクセサリを検索しています…"</string>
     <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"Bluetooth デバイスをペアリングする前に、デバイスがペアリング モードになっていることを確認してください。"</string>
-    <string name="accessories_autopair_msg" msgid="2501824457418285019">"デバイスが見つかりました。<xliff:g id="COUNTDOWN">%1$s</xliff:g>秒以内にペア設定が自動的に開始します"</string>
+    <string name="accessories_autopair_msg" msgid="2501824457418285019">"デバイスが見つかりました。<xliff:g id="COUNTDOWN">%1$s</xliff:g>秒以内にペア設定が自動的に始まります"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"この操作はサポートされていません"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"Bluetoothのペア設定リクエスト"</string>
     <string name="bluetooth_confirm_passkey_msg" msgid="7397401633869153520">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;をペアに設定する場合、パスキー（&lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;）が表示されていることを確認してください"</string>
@@ -259,7 +261,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"入力"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"入力とデバイス"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ホームシアター コントロール"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"ユーザー補助"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"開発者向けオプション"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"なし"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"使用状況と診断"</string>
@@ -630,8 +631,25 @@
     <string name="system_services" msgid="5754310941186053151">"サービス"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"サービスの設定"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"高コントラスト テキスト"</string>
-    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
-    <skip />
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"テキストを太字にする"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"色補正"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"色補正の使用"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"色モード"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"第二色弱"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"赤 / 緑"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"第一色弱"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"赤 / 緑"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"第三色弱"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"青 / 黄"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"グレースケール"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"赤"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"オレンジ"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"黄"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"緑"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"シアン"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"青"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"紫"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"グレー"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ユーザー補助機能のショートカット"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ユーザー補助機能のショートカットを有効にする"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"シ⁠ョ⁠ー⁠ト⁠カ⁠ッ⁠ト サ⁠ー⁠ビ⁠ス"</string>
@@ -733,7 +751,7 @@
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRMコンテンツのみに使用"</string>
     <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"最大解像度または最大フレームレートの表示を最適化します。この影響を受けるのはUltra HDディスプレイのみです。変更するとデバイスを再起動します。"</string>
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"Bluetooth HCIスヌープログを有効にする"</string>
-    <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB 接続時はデバッグモードにする"</string>
+    <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB 接続時にデバッグモードにする"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"アプリは実行前にデバッガのアタッチを待機します"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"クリップの境界線、マージンなどを表示する"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPUでの描画時にウィンドウ内の表示を点滅させる"</string>
@@ -895,6 +913,8 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"メディアの再生時"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"省エネ設定の確認"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"新しい設定（<xliff:g id="SLEEP_TIME">%1$s</xliff:g>）をご確認ください。この設定ではエネルギーの使用が増える可能性があります。"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"省エネ設定を無効にする"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"エネルギーの使用が増える可能性あがるため、再生中にディスプレイがオフにならないよう、設定をご確認ください。"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"スタンバイ時のネットワーク接続を制限"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"スタンバイ モード時のエネルギー使用量を節約します"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"スタンバイ モード時は、自動アップデートを受信する場合を除き、テレビとネットワークの接続を解除します。スタンバイ時のテレビのエネルギー使用量を減らせますが、キャストや Google アシスタントなどの機能を利用することはできなくなります。"</string>
