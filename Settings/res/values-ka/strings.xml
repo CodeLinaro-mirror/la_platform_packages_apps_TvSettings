@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"ქარხნული მონაცემების აღდგენა"</string>
     <string name="device_calibration" msgid="2907914144048739705">"კალიბრაცია"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"ენერგიის დამზოგი"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"ეკო პარამეტრები"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"მოწყობილობები"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"აირჩიეთ ფორმატები"</string>
@@ -186,6 +187,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"გაუქმება"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"კარგი"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"ჰც"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> ჰც)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"წაიშალოს ქეშირებული მონაცემები?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"წაიშლება ქეშირებული მონაცემები ყველა აპისთვის."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -628,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"სერვისები"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"სერვისის პარამეტრები"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"მაღალკონტრასტული ტექსტი"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"მარტივი წვდომის მალსახმობი"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"მარტივი წვდომის მალსახმობის ჩართვა"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"მალსახმობი სერვისი"</string>
@@ -891,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"მედიაფაილის დაკვრის განმავლობაში"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"დაადასტურეთ ენერგიის დამზოგის პარამეტრი"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"გთხოვთ, დაადასტუროთ ახალი პარამეტრი (<xliff:g id="SLEEP_TIME">%1$s</xliff:g>), რომელმაც შეიძლება ენერგიის მოხმარება გაზარდოს."</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"შეზღუდეთ ქსელთან კავშირი მოლოდინის რეჟიმში"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"ნაკლებ ენერგიას ხარჯავს მოლოდინის რეჟიმში"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"თქვენი ტელევიზორი გაითიშება თქვენი ქსელისგან როდესაც მოლოდინის რეჟიმშია, გარდა ავტომატური განახლებების მიღების დროს. ამან შეიძლება შეამციროს თქვენი ტელევიზორის ენერგიის მოხმარება, თუმცა ეს ასევე ნიშნავს, რომ თქვენ ვერ შეძლებთ გამოიყენოთ ფუნქციები, როგორიცაა Cast და Google Assistant მოლოდინის რეჟიმში."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"დაუშვით ქსელური კავშირი ლოდინის რეჟიმში"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"ლოდინის რეჟიმში ქსელთან კავშირის დაშვება გაზრდის ლოდინის რეჟიმში ენერგიის მოხმარებას."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"ამჟამად მონაცემებს არ ინახავს არცერთი ანგარიში"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"შეწყდეს თქვენი Wi-Fi პაროლების, სანიშნეების, სხვა პარამეტრების და აპების მონაცემების დამარქაფება და წაიშალოს ყველა ასლი Google-ის სერვერებზე?"</string>
@@ -978,6 +987,9 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"დრო კითხვის დაწყებამდე"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"დრო აუდიოს სწორი მონაცემების მიღებამდე"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ცარიელი აუდიოს ხანგრძლივობა"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"ჩაწერილი აუდიო-წყარო"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"აირჩიეთ ჩაწერილი აუდიო-წყარო შემდეგი ჩანაწერისთვის"</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"ჩაწერილი მიკროფონ(ებ)ი"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"აუდიოს ჩაწერის დაწყება ვერ მოხერხდა."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"აუდიოს ჩაწერა ვერ მოხერხდა."</string>
     <string name="title_data_saver" msgid="7500278996154002792">"მონაცემთა დამზოგველი"</string>
@@ -1033,4 +1045,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"დენი და ენერგია"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ქცევა ჩართვისას"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"გადაყენება"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-ის დაკავშირების კოდი"</string>
 </resources>

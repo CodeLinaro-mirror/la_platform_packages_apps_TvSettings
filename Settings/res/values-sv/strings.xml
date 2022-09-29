@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Återställ standardinställningarna"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrering"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Strömsparläge"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Eko-inställningar"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Enheter"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Välj format"</string>
@@ -151,7 +152,7 @@
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Sömlöst"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Om appen begär det matchar enheten utdatan med den ursprungliga bildfrekvensen av det du tittar på, ENDAST om tv:n har stöd för sömlös övergång."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Inte sömlöst"</string>
-    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Om appen begär det matchar enheten utdatan med den ursprungliga bildfrekvensen av det du tittar på. Dettas kan leda till att skärmen blir svart i någon sekund när du avslutar eller startar videouppspelning."</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Om appen begär det matchar enheten utdatan med den ursprungliga bildfrekvensen av det du tittar på. Detta kan leda till att skärmen blir svart i någon sekund när du avslutar eller startar videouppspelning."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Aldrig"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Enheten försöker aldrig matcha utdatan med den ursprungliga bildfrekvensen av det du tittar på, även om appen begär det."</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"Textskalning"</string>
@@ -185,8 +186,8 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Välj OK om du vill använda %1$s i fortsättningen."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Avbryt"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
-    <!-- no translation found for resolution_selection_hz (4425902505388495637) -->
-    <skip />
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vill du ta bort cachelagrad data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Cachelagrad data tas bort i alla appar."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -629,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"Tjänster"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Tjänstinställningar"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Text med hög kontrast"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Aktivera tillgänglighet snabbt"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Använd Aktivera tillgänglighet snabbt"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Tjänst för kortkommando"</string>
@@ -892,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Under medieuppspelning"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Bekräfta inställning för energisparläge"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Bekräfta den nya inställningen <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, som kan leda till ökad energiförbrukning."</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Begränsa nätverksanslutning i viloläge"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Använder mindre energi i viloläge"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Tv:n kopplas från nätverket i viloläge, förutom när den tar emot automatiska uppdateringar. Detta kan minska tv:ns energianvändning, men det innebär också att du kanske inte kan använda funktioner som Cast och Google Assistent i viloläge."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"Tillåt nätverksanslutning i viloläge"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Om du tillåter nätverksanslutning i viloläge ökar energianvändningen i viloläge."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Säkerhetskopierade uppgifter lagras för tillfället inte i något konto"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Vill du sluta säkerhetskopiera wifi-lösenord, bokmärken, andra inställningar och appdata samt ta bort alla kopior på Googles servrar?"</string>
@@ -908,9 +916,9 @@
     <string name="select_device_name_description" msgid="8528185095614986580">"Ge enheten ett namn så att det blir lättare att identifiera den när du castar eller ansluter till den från andra enheter."</string>
   <string-array name="rooms">
     <item msgid="6590829789532602097">"Android-TV"</item>
-    <item msgid="1140506340411482365">"TV:n i vardagsrummet"</item>
+    <item msgid="1140506340411482365">"Tv:n i vardagsrummet"</item>
     <item msgid="6448060889026244632">"TV:n i familjerummet"</item>
-    <item msgid="3336274213215419228">"TV:n i sovrummet"</item>
+    <item msgid="3336274213215419228">"Tv:n i sovrummet"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"Ange eget namn …"</string>
     <string name="device_rename_title" msgid="9070021379000499270">"Byt namn på <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
@@ -979,6 +987,9 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"Dags att börja läsa"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"Varaktighet före giltig ljuddata"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"Tystnadens varaktighet"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"Ljudkälla"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"Välj ljudkälla för nästa inspelning"</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"Mikrofoner för inspelning"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Det gick inte att starta ljudinspelningen."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Ljudinspelningen misslyckades."</string>
     <string name="title_data_saver" msgid="7500278996154002792">"Databesparing"</string>
@@ -1034,4 +1045,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Ström och energi"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Beteende när tv:n slås på"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Återställ"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-kopplingskod"</string>
 </resources>

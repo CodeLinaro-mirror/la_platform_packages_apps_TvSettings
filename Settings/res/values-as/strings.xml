@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"ফেক্টৰী ডেটা ৰিছেট"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ক্ৰমাংকণ"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"শক্তি সঞ্চয়কাৰী"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"ইক’ৰ ছেটিং"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ডিভাইচ"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ফৰমেটসমূহ বাছনি কৰক"</string>
@@ -185,8 +186,8 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"এতিয়াৰ পৰা %1$s ব্যৱহাৰ কৰিবলৈ ঠিক আছে বাছনি কৰক।"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"বাতিল কৰক"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ঠিক আছে"</string>
-    <!-- no translation found for resolution_selection_hz (4425902505388495637) -->
-    <skip />
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"হাৰ্টজ"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> হাৰ্টজ)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"কেশ্ব কৰা ডেটা মচিবনে?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"এই কাৰ্যই সকলো এপৰ কেশ্ব ডেটা পৰিষ্কাৰ কৰিব।"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -268,7 +269,7 @@
     <string name="manage_device_admin" msgid="5714217234035017983">"ডিভাইচৰ প্ৰশাসকৰ এপসমূহ"</string>
     <string name="number_of_device_admins_none" msgid="2734299122299837459">"কোনো সক্ৰিয় এপ্ নাই"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"প্ৰশাসক, এনক্ৰিপশ্বন নীতি বা ক্ৰেডেনশ্বিয়েল ষ্ট’ৰেজৰ দ্বাৰা অক্ষম কৰা হৈছে"</string>
-    <string name="enterprise_privacy_settings" msgid="8226765895133003202">"ডিভাইচ সম্পৰ্কীয় তথ্য পৰিচালনা কৰক"</string>
+    <string name="enterprise_privacy_settings" msgid="8226765895133003202">"পৰিচালিত ডিভাইচৰ তথ্য"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"আপোনাৰ প্ৰতিষ্ঠানে সাল-সলনি আৰু ছেটিংসমূহ পৰিচালনা কৰে"</string>
     <string name="enterprise_privacy_settings_summary_with_name" msgid="2866704039759872293">"<xliff:g id="ORGANIZATION_NAME">%s</xliff:g>এ সাল-সলনি আৰু ছেটিংসমূহ পৰিচালনা কৰিছে"</string>
     <string name="enterprise_privacy_header" msgid="9221881402582661521">"আপোনাৰ কৰ্মস্থানৰ ডেটালৈ আপোনাক প্ৰৱেশাধিকাৰ দিবলৈ, আপোনাৰ প্ৰতিষ্ঠানে আপোনাৰ ডিভাইচৰ ছেটিংসমূহ সলনি কৰিব পাৰে আৰু তাত ছফটৱেৰ ইনষ্টল কৰিব পাৰে।\n\nঅধিক জানিবৰ বাবে আপোনাৰ প্ৰতিষ্ঠানৰ প্ৰশাসকৰ সৈতে যোগাযোগ কৰক।"</string>
@@ -629,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"সেৱাসমূহ"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"সেৱা সম্পৰ্কীয় ছেটিংসমূহ"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ৰঙৰ উচ্চ প্ৰভেদযুক্ত পাঠ"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"সাধ্য সুবিধাসমূহৰ শ্বৰ্টকাট"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"সাধ্য সুবিধাৰ শ্বৰ্টকাট সক্ষম কৰক"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"শ্বৰ্টকাট সেৱা"</string>
@@ -892,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"মিডিয়া প্লে’বেকৰ সময়ত"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"শক্তি সঞ্চয়কাৰী ছেটিং নিশ্চিত কৰক"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"অনুগ্ৰহ কৰি নতুন ছেটিং <xliff:g id="SLEEP_TIME">%1$s</xliff:g>ত কৰাটো নিশ্চিত কৰক, য’ত শক্তিৰ বৰ্ধিত ব্যৱহাৰৰ সম্ভাৱনা আছে।"</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ষ্টেণ্ডবাই ম’ডত নেটৱৰ্কৰ সংযোগ সীমিত কৰক"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"ষ্টেণ্ডবাই ম’ডত কম শক্তি ব্যৱহাৰ কৰে"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"ষ্টেণ্ডবাই ম’ডত থাকিলে স্বয়ংক্ৰিয় আপডে’টসমূহ গ্ৰহণ কৰাৰ বাহিৰে আপোনাৰ নেটৱৰ্কৰ পৰা আপোনাৰ টিভিৰ সংযোগ বিচ্ছিন্ন কৰা হ’ব। এইটোৱে আপোনাৰ টিভিৰ শক্তিৰ ব্যৱহাৰ কমাব, যদিও এইটোৱে ইয়াকো বুজাই যে আপুনি ষ্টেণ্ডবাই ম’ডত থকাৰ অৱস্থাত Cast আৰু Google Assistantৰ দৰে ফাংশ্বনসমূহ ব্যৱহাৰ কৰিব নোৱাৰে।"</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"ষ্টেণ্ডবাই ম’ডত নেটৱৰ্কৰ সংযোগৰ অনুমতি দিয়ক"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"ষ্টেণ্ডবাই ম’ডত নেটৱৰ্কৰ সংযোগৰ অনুমতি দিয়াটোৱে ষ্টেণ্ডবাই ম’ডৰ শক্তিৰ ব্যৱহাৰ বৃদ্ধি কৰিব।"</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"সম্প্ৰতি কোনো একাউণ্টে বেকআপ লোৱা ডেটা সঞ্চয় কৰা নাই"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"আপোনাৰ ৱাই-ফাই পাছৱৰ্ড, বুকমাৰ্ক, অন্য ছেটিং আৰু এপ্ ডেটাৰ বেকআপ বন্ধ কৰাৰ লগতে Google ছাৰ্ভাৰত প্ৰতিলিপি কৰা সকলো বস্তুব মচিবনে?"</string>
@@ -979,6 +987,9 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"পঢ়িবলৈ আৰম্ভ কৰাৰ সময়"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"অডিঅ’ ডেটা মান্য কৰাৰ সময়"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"খালী অডিঅ’ৰ সময়সীমা"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"ৰেকর্ড কৰা অডিঅ’ৰ উৎস"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"পৰৱর্তী ৰেকর্ডিঙৰ বাবে ৰেকর্ড কৰা অডিঅ’ৰ উৎস বাছনি কৰক"</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"ৰেকর্ড কৰা মাইক্ৰ’ফ’ন(সমূহ)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"অডিঅ\' ৰেকৰ্ড আৰম্ভ কৰাত বিফল হ\'ল।"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"অডিঅ\' ৰেকৰ্ড কৰাত বিফল হ\'ল।"</string>
     <string name="title_data_saver" msgid="7500278996154002792">"ডেটা সঞ্চয়কাৰী"</string>
@@ -1034,4 +1045,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ক্ষমতা আৰু শক্তি"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"আৰম্ভ হওঁতে প্ৰদৰ্শিত হোৱা কাৰ্যকলাপ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ৰিছেট কৰক"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ইথাৰনেট পেয়াৰ কৰাৰ ক’ড"</string>
 </resources>

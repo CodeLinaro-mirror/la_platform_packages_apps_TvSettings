@@ -57,6 +57,9 @@ import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
 import com.android.tv.settings.about.RebootConfirmFragment;
 import com.android.tv.settings.autofill.AutofillHelper;
+import com.android.tv.settings.customization.CustomizationConstants;
+import com.android.tv.settings.customization.Partner;
+import com.android.tv.settings.customization.PartnerPreferencesMerger;
 import com.android.tv.settings.inputmethod.InputMethodHelper;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.privacy.PrivacyToggle;
@@ -94,6 +97,7 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
     private static final String KEY_FASTPAIR_SETTINGS_SLICE = "fastpair_slice";
     private static final String KEY_OVERLAY_INTERNAL_SETTINGS_SLICE = "overlay_internal";
     private static final String KEY_ASSISTANT_BROADCAST = "assistant_broadcast";
+    private static final String KEY_AMBIENT_SETTINGS = "ambient_settings";
     private static final String RES_TOP_LEVEL_ASSISTANT_SLICE_URI = "top_level_assistant_slice_uri";
 
     private Preference mSoundsPref;
@@ -123,6 +127,13 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(getPreferenceScreenResId(), null);
+        if (Partner.getInstance(getContext()).isCustomizationPackageProvided()) {
+            PartnerPreferencesMerger.mergePreferences(
+                    getContext(),
+                    getPreferenceScreen(),
+                    CustomizationConstants.DEVICE_SCREEN
+            );
+        }
         mSoundsPref = findPreference(KEY_SOUNDS);
         mSoundsSwitchPref = findPreference(KEY_SOUNDS_SWITCH);
         if (mSoundsSwitchPref != null) {
@@ -183,6 +194,7 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
         updateInternalSettings();
         updateFastpairSettings();
         updateKeyboardAutofillSettings();
+        updateAmbientSettings();
         hideIfIntentUnhandled(findPreference(KEY_HOME_SETTINGS));
         hideIfIntentUnhandled(findPreference(KEY_CAST_SETTINGS));
         hideIfIntentUnhandled(findPreference(KEY_USAGE));
@@ -384,6 +396,15 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
             }
         }
         keyboardPref.setSummary(summary);
+    }
+
+    private void updateAmbientSettings() {
+        final SlicePreference ambientSlicePref = findPreference(KEY_AMBIENT_SETTINGS);
+        if (ambientSlicePref != null) {
+            if (SliceUtils.isSliceProviderValid(getContext(), ambientSlicePref.getUri())) {
+                ambientSlicePref.setVisible(true);
+            }
+        }
     }
 
     @Override

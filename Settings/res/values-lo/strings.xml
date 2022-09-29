@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"ຣີເຊັດຄ່າຈາກໂຮງງານ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ການ​ປັບ​ທຽບ"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"ຕົວປະຢັດພະລັງງານ"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"ການຕັ້ງຄ່າ Eco"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ອຸປະກອນ"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ເລືອກຮູບແບບ"</string>
@@ -186,6 +187,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ຍົກເລີກ"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ຕົກລົງ"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ລຶບຂໍ້ມູນທີ່ເກັບໄວ້ບໍ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ອັນນີ້ຈະລຶບຂໍ້ມູນທີ່ເກັບໄວ້ສຳ​ລັບທຸກແອັບຯ."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -628,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"ບໍລິການ"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"​ການ​ຕັ້ງ​ຄ່າ​ບໍ​ລິ​ການ"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ຕົວອັກສອນຄອນທຣາສສູງ"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ປຸ່ມລັດ​ສຳລັບ​ການ​ເຂົ້າ​ເຖິງ"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ເປີດໃຊ້ປຸ່ມລັດການຊ່ວຍເຂົ້າເຖິງ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ບໍລິການປຸ່ມທາງລັດ"</string>
@@ -891,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"ໃນລະຫວ່າງການຫຼິ້ນມີເດຍ"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"ຢືນຢັນການຕັ້ງຄ່າຕົວປະຢັດພະລັງງານ"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"ກະລຸນາຢືນຢັນການຕັ້ງຄ່າໃໝ່ເປັນ <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, ເຊິ່ງມີໂອກາດເພີ່ມການນຳໃຊ້ພະລັງງານ."</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ຈຳກັດການເຊື່ອມຕໍ່ເຄືອຂ່າຍໃນໂໝດສະແຕນບາຍ"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"ໃຊ້ພະລັງງານໜ້ອຍລົງໃນໂໝດສະແຕນບາຍ"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"ໂທລະທັດຂອງທ່ານຈະຕັດການເຊື່ອມຕໍ່ຈາກເຄືອຂ່າຍເມື່ອຢູ່ໃນໂໝດສະແຕນບາຍ, ຍົກເວັ້ນເພື່ອຮັບອັບເດດອັດຕະໂນມັດ. ນີ້ອາດຫຼຸດການໃຊ້ພະລັງງານຂອງໂທລະທັດທ່ານ, ເຖິງແມ່ນວ່າມັນຈະໝາຍເຖິງວ່າທ່ານຈະບໍ່ສາມາດໃຊ້ຄຸນສົມບັດຕ່າງໆໄດ້ ເຊັ່ນ: ການສົ່ງສັນຍານ ແລະ ຜູ້ຊ່ວຍ Google ໃນເວລາຢູ່ໃນໂໝດສະແຕນບາຍ."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"ອະນຸຍາດການເຊື່ອມຕໍ່ເຄືອຂ່າຍໃນໂໝດສະແຕນບາຍ"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"ການອະນຸຍາດການເຊື່ອມຕໍ່ເຄືອຂ່າຍໃນໂໝດສະແຕນບາຍຈະເພີ່ມການໃຊ້ພະລັງງານສະແຕນບາຍຫຼາຍຂຶ້ນ."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"ບໍ່ມີບັນຊີໃດຈັດເກັບຂໍ້ມູນສຳຮອງໄວ້ໃນ​ປະ​ຈຸ​ບັນ"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"​ຢຸດ​ການ​ສຳ​ຮອງ​ລະ​ຫັດ​ຜ່ານ Wi-Fi, ບຸກ​ມາກ​ສ໌, ການ​ຕັ້ງ​ຄ່າ​ອື່ນ, ແລະ​ຂໍ້​ມູນ​ແອັບຯ​ຂອງ​ທ່ານ, ແລະ​ລຶບ​ທຸກ​ສຳ​ເນົາ​ຢູ່​ໃນ​ເຊີບ​ເວີ Google?"</string>
@@ -978,6 +987,9 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"ເວລາໃນການເລີ່ມການອ່ານ"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ເວລາເພື່ອກວດສອບຂໍ້ມູນສຽງ"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ໄລຍະເວລາຂອງສຽງຫວ່າງເປົ່າ"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"ສຽງຂໍ້ມູນສຽງທີ່ບັນທຶກໄວ້"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"ເລືອກແຫຼ່ງຂໍ້ມູນສຽງທີ່ບັນທຶກໄວ້ສຳລັບການບັນທຶກຕໍ່ໄປ"</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"ໄມໂຄຣໂຟນທີ່ບັນທຶກໄວ້"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ເລີ່ມການບັນທຶກສຽງບໍ່ສຳເລັດ."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ບັນທຶກສຽງບໍ່ສຳເລັດ."</string>
     <string name="title_data_saver" msgid="7500278996154002792">"ຕົວປະຢັດຂໍ້ມູນ"</string>
@@ -1033,4 +1045,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ການເປີດປິດ ແລະ ພະລັງງານ"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ພຶດຕິກຳການເປີດ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ຣີເຊັດ"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ລະ​ຫັດ​ການ​ຈັບ​ຄູ່ອີເທີເນັດ"</string>
 </resources>

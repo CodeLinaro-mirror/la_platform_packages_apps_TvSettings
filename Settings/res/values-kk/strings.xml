@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"Зауыттық деректерді қалпына келтіру"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калибрлеу"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"Қуат үнемдеу"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Eco параметрлері"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Құрылғылар"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Форматтарды таңдау"</string>
@@ -185,8 +186,8 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Қазірден бастап %1$s рұқсатын пайдалану үшін \"Жарайды\" түймесін басыңыз."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Бас тарту"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Жарайды"</string>
-    <!-- no translation found for resolution_selection_hz (4425902505388495637) -->
-    <skip />
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кэштелген деректер өшірілсін бе?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бұл барлық қолданбалардың кэштелген деректерін тазартады."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -266,7 +267,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Әкімші өшірген"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Қолжетімсіз"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"Құрылғы әкімшісінің қолданбалары"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Қосулы қолданбалар жоқ"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Істеп тұрған қолданбалар жоқ"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"Әкімші, шифрлау саясаты немесе тіркелкі деректерінің жады өшірген"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Басқарылатын құрылғы ақпараты"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"Ұйым басқаратын өзгерістер мен параметрлер"</string>
@@ -629,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"Қызметтер"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Қызмет параметрлері"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Жоғары контрасты мәтін"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Арнайы мүмкіндік пернелер тіркесімі"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Арнайы мүмкіндіктер таңбашасын қосу"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Қызметті тез қосу"</string>
@@ -892,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Медиамазмұн ойнату кезінде"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Energy Saver параметрін растаңыз"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Жаңа <xliff:g id="SLEEP_TIME">%1$s</xliff:g> параметрін растаңыз, мұның нәтижесінде қуат көбірек пайдаланылуы мүмкін."</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Күту режимінде желі байланысын шектеу"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Күту режимінде аз қуат жұмсайды."</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Теледидарыңыз күту режимінде желіден ажыратылады (автоматты түрде жаңарту туралы хабарлар келген кезді қоспағанда). Бұл – теледидардың қуатты жұмсауын азайтуы мүмкін, алайда күту режимінде трансляциялау және Google Assistant сияқты функцияларды пайдалана алмайсыз."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"Күту режимінде желі байланысына рұқсат ету"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Күту режимінде желі байланысына рұқсат етілсе, қуаттың жұмсалуы артады."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Ешқандай аккаунт қазір сақтық көшірмесі жасалған деректерді сақтап жатқан жоқ"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Wi-Fi құпия сөздерінің, бетбелгілердің, басқа параметрлердің және қолданба деректерінің сақтық көшірмесін жасауды тоқтатып, Google серверлеріндегі барлық көшірмелерді өшіру керек пе?"</string>
@@ -930,7 +938,7 @@
     <string name="reboot_safemode_confirm" msgid="5745977150299953603">"Қауіпсіз режимге қосылғыңыз келе ме?"</string>
     <string name="reboot_safemode_desc" msgid="2919933461408942799">"Бұл орнатылған барлық үшінші тарап қолданбаларын өшіреді. Олар қайта жүктелген кезде қалпына келеді."</string>
     <string name="capturing_bugreport" msgid="832512801903486821">"Қате туралы есеп жасалуда"</string>
-    <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Қолжетімді виртуалды пернетақталар"</string>
+    <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Қолжетімді виртуалдық пернетақталар"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Пернетақталарды басқару"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Рұқсат етілген"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Рұқсат етілмеген"</string>
@@ -979,6 +987,9 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"Оқуды бастау уақыты"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"Аудио деректерді тексеру уақыты"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"Бос аудионың ұзақтығы"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"Жазуға арналған аудио дереккөзі"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"Келесі жазу әрекеті үшін аудио дереккөзін таңдаңыз"</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"Жазуға арналған микрофондар"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Аудионы жазуды бастау мүмкін болмады."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Аудио жазылмады."</string>
     <string name="title_data_saver" msgid="7500278996154002792">"Трафикті үнемдеу"</string>
@@ -1034,4 +1045,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Қуат және энергия"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Қосылу кезіндегі әрекет"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Қайтару"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet жұптау коды"</string>
 </resources>

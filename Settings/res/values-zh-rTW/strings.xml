@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"恢復原廠設定"</string>
     <string name="device_calibration" msgid="2907914144048739705">"校正"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"節約耗電量"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"節能設定"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"裝置"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"選取格式"</string>
@@ -125,7 +126,7 @@
     <string name="surround_sound_format_dra" msgid="6102878163986662443">"DRA"</string>
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"注意：如果裝置未正確回報支援的格式，「自動」選項可能會無法運作。"</string>
     <string name="surround_sound_auto_title" msgid="4892922385727913277">"自動：僅啟用音訊輸出裝置支援的格式 "</string>
-    <string name="surround_sound_auto_summary" msgid="7073023654150720285">"如果選取這個選項，系統將允許應用程式選取裝置鏈支援的任何音效格式。應用程式不一定會選擇最高音質的格式。"</string>
+    <string name="surround_sound_auto_summary" msgid="7073023654150720285">"如果選取這個選項，系統將允許應用程式選取裝置系統支援的任何音效格式。應用程式不一定會選擇最高音質的格式。"</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"無：一律不使用環場音效"</string>
     <string name="surround_sound_manual_title" msgid="4935447605070985537">"手動：選擇啟用或停用這部裝置支援的各種格式，而不考慮音訊輸出裝置是否支援相關格式。"</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"如果選取這個選項，當裝置系統支援的音效格式造成播放問題時，你就可以手動停用該格式。你也可以啟用裝置系統不支援的音效格式。在某些情況下，應用程式不一定會選擇最高音質的格式。"</string>
@@ -186,6 +187,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"取消"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"確定"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"清除快取資料？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"這項操作會清除所有應用程式的快取資料。"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -628,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"服務"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"服務設定"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"高對比文字"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"無障礙快速鍵"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"啟用無障礙快速鍵"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"快速鍵服務"</string>
@@ -891,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"播放媒體時"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"確認節約耗電量設定"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"請確認是否要將螢幕關閉延遲時間設為 <xliff:g id="SLEEP_TIME">%1$s</xliff:g>，這項設定可能會提高用電量。"</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"在待機模式下限制網路連線"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"待機模式可減少使用能源"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"除非收到自動更新，否則電視在待機模式下不會連上網路。這麼做或許可減少電視用電量，但待機模式下可能無法使用投放和 Google 助理等功能。"</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"允許在待機模式下連上網路"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"如果允許在待機模式下連上網路，待機時的用電量就會增加。"</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"目前沒有任何帳戶在儲存備份資料"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"停止備份您的 Wi-Fi 密碼、書籤、其他設定和應用程式資料，並清除 Google 伺服器上的所有複本嗎？"</string>
@@ -978,6 +987,9 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"錄音開始時間"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"音訊資料驗證時間"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"空白音訊的時間長度"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"先前錄音的音訊來源"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"選取先前錄音的音訊來源做為下次的錄音音訊來源"</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"用於錄音的麥克風"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"無法開始錄音。"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"錄音失敗。"</string>
     <string name="title_data_saver" msgid="7500278996154002792">"數據節省模式"</string>
@@ -1033,4 +1045,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"開關和電源"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"開機行為"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"重設"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"乙太網路配對碼"</string>
 </resources>

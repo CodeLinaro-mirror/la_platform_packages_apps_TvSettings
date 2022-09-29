@@ -110,6 +110,7 @@
     <string name="device_factory_reset" msgid="1110189450013225971">"ಫ್ಯಾಕ್ಟರಿ ಡೇಟಾ ರಿಸೆಟ್"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ಕ್ಯಾಲಿಬರೇಶನ್"</string>
     <string name="device_energy_saver" msgid="1105023232841036991">"ಎನರ್ಜಿ ಸೇವರ್ ಮೋಡ್"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"ಪರಿಸರ-ಸ್ನೇಹಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ಸಾಧನಗಳು"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ಸ್ವರೂಪಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
@@ -124,13 +125,13 @@
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Digital Plus ಜೊತೆಗೆ Dolby Atmos"</string>
     <string name="surround_sound_format_dra" msgid="6102878163986662443">"DRA"</string>
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"ಗಮನಿಸಿ: ಸಾಧನ ಅದರ ಬೆಂಬಲಿತ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಸರಿಯಾಗಿ ವರದಿ ಮಾಡದಿದ್ದರೆ, ಸ್ವಯಂಚಾಲಿತ ಆಯ್ಕೆ ಕಾರ್ಯನಿರ್ವಹಿಸದಿರಬಹುದು."</string>
-    <string name="surround_sound_auto_title" msgid="4892922385727913277">"ಸ್ವಯಂಚಾಲಿತ: ನಿಮ್ಮ ಆಡಿಯೊ ಔಟ್‌ಪುಟ್ ಸಾಧನವು ಬೆಂಬಲಿಸುವ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಮಾತ್ರ ಸಕ್ರಿಯಗೊಳಿಸಿ "</string>
+    <string name="surround_sound_auto_title" msgid="4892922385727913277">"ಸ್ವಯಂಚಾಲಿತ: ನಿಮ್ಮ ಆಡಿಯೋ ಔಟ್‌ಪುಟ್ ಸಾಧನವು ಬೆಂಬಲಿಸುವ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಮಾತ್ರ ಸಕ್ರಿಯಗೊಳಿಸಿ "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"ಆಯ್ಕೆಮಾಡಿದಾಗ, ನಿಮ್ಮ ಸಾಧನ ನೆಟ್‌ವರ್ಕ್ ಬೆಂಬಲಿಸುವ ಯಾವುದೇ ಧ್ವನಿ ಫಾರ್ಮ್ಯಾಟ್‌ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಸಿಸ್ಟಂ ಆ್ಯಪ್‌ಗಳನ್ನು ಅನುಮತಿಸುತ್ತದೆ. ಆ್ಯಪ್‌ಗಳು ಮೇಲಿನಿಂದ ಸ್ವಲ್ಪ ಕಡಿಮೆ ಗುಣಮಟ್ಟದ ಫಾರ್ಮ್ಯಾಟ್‌ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು."</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"ಯಾವುದೂ ಇಲ್ಲ: ಸರೌಂಡ್ ಸೌಂಡ್ ಅನ್ನು ಎಂದಿಗೂ ಬಳಸಬೇಡಿ"</string>
-    <string name="surround_sound_manual_title" msgid="4935447605070985537">"ಕೈಪಿಡಿ: ನಿಮ್ಮ ಆಡಿಯೊ ಔಟ್‌ಪುಟ್ ಸಾಧನವನ್ನು ಬೆಂಬಲಿಸುತ್ತಿದ್ದರೂ, ಈ ಸಾಧನದಲ್ಲಿ ಬೆಂಬಲಿಸುವ ಬೇಕಾದ ಪ್ರತಿಯೊಂದು ಫಾರ್ಮ್ಯಾಟ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"ಕೈಪಿಡಿ: ನಿಮ್ಮ ಆಡಿಯೋ ಔಟ್‌ಪುಟ್ ಸಾಧನವನ್ನು ಬೆಂಬಲಿಸುತ್ತಿದ್ದರೂ, ಈ ಸಾಧನದಲ್ಲಿ ಬೆಂಬಲಿಸುವ ಬೇಕಾದ ಪ್ರತಿಯೊಂದು ಫಾರ್ಮ್ಯಾಟ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"ಆಯ್ಕೆಮಾಡಿದಾಗ, ಪ್ಲೇಬ್ಯಾಕ್ ಸಮಸ್ಯೆಗಳಿಗೆ ಕಾರಣವಾಗುವ ಧ್ವನಿ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ನೀವು ನೇರವಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು ಮತ್ತು ನೆಟ್‌ವರ್ಕ್ ಸಾಧನಗಳನ್ನು ಬೆಂಬಲಿಸಬಹುದು. ನಿಮ್ಮ ಸಾಧನ ನೆಟ್‌ವರ್ಕ್ ಬೆಂಬಲಿಸದ ಧ್ವನಿ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು. ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಆ್ಯಪ್‌ಗಳು ಸ್ವಲ್ಪ ಕಡಿಮೆ ಗುಣಮಟ್ಟದ ಫಾರ್ಮ್ಯಾಟ್‌ ಆಯ್ಕೆ ಮಾಡಬಹುದು."</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"ಬೆಂಬಲಿಸದ ಧ್ವನಿ ಫಾರ್ಮ್ಯಾಟ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತಿರುವಿರೇ?"</string>
-    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"ಕನೆಕ್ಟ್ ಮಾಡಿರುವ ಆಡಿಯೊ ಸಾಧನವು ಈ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಬೆಂಬಲವನ್ನು ವರದಿ ಮಾಡುವುದಿಲ್ಲ. ಇದು ನಿಮ್ಮ ಸಾಧನದಿಂದ ಅನಿರೀಕ್ಷಿತ ವರ್ತನೆಗಳಾದ ಜೋರು ಶಬ್ದಗಳು, ಪಾಪ್ ಉಂಟು ಮಾಡಬಹುದು."</string>
+    <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"ಕನೆಕ್ಟ್ ಮಾಡಿರುವ ಆಡಿಯೋ ಸಾಧನವು ಈ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಬೆಂಬಲವನ್ನು ವರದಿ ಮಾಡುವುದಿಲ್ಲ. ಇದು ನಿಮ್ಮ ಸಾಧನದಿಂದ ಅನಿರೀಕ್ಷಿತ ವರ್ತನೆಗಳಾದ ಜೋರು ಶಬ್ದಗಳು, ಪಾಪ್ ಉಂಟು ಮಾಡಬಹುದು."</string>
     <string name="surround_sound_enable_unsupported_dialog_cancel" msgid="3499147437078761105">"ರದ್ದುಮಾಡಿ"</string>
     <string name="surround_sound_enable_unsupported_dialog_ok" msgid="7466983147896640444">"ಹೇಗಾದರೂ ಬದಲಾಯಿಸಿ"</string>
     <string name="surround_sound_supported_title" msgid="4873195851187547020">"ಬೆಂಬಲಿತ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳು"</string>
@@ -186,6 +187,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ರದ್ದುಗೊಳಿಸಿ"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ಸರಿ"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ಸಂಗ್ರಹ ಡೇಟಾವನ್ನು ತೆರುವುಗೊಳಿಸುವುದೇ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ಎಲ್ಲ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಸಂಗ್ರಹ ಡೇಟಾವನ್ನು ಇದು ತೆರುವುಗೊಳಿಸುತ್ತದೆ."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -628,6 +630,8 @@
     <string name="system_services" msgid="5754310941186053151">"ಸೇವೆಗಳು"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"ಸೇವಾ ಸೆಟ್ಟಿಂಗ್‌‌ಗಳು"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ಹೆಚ್ಚು ಕಾಂಟ್ರಾಸ್ಟ್‌ನ ಪಠ್ಯ"</string>
+    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
+    <skip />
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ಪ್ರವೇಶ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಪ್ರವೇಶಿಸುವಿಕೆ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ಶಾರ್ಟ್‌ಕಟ್ ಸೇವೆ"</string>
@@ -891,6 +895,11 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"ಮೀಡಿಯಾ ಪ್ಲೇಬ್ಯಾಕ್ ಸಮಯದಲ್ಲಿ"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"ಎನರ್ಜಿ ಸೇವರ್ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ದೃಡೀಕರಿಸಿ"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"<xliff:g id="SLEEP_TIME">%1$s</xliff:g> ಗಾಗಿ ಹೊಸ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ದೃಡೀಕರಿಸಿ, ಇದು ಹೆಚ್ಚಿದ ಶಕ್ತಿಯ ಬಳಕೆಯ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೊಂದಿದೆ."</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿ ನೆಟ್‌ವರ್ಕ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಮಿತಿಗೊಳಿಸಿ"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿ ಕಡಿಮೆ ವಿದ್ಯುತ್ ಅನ್ನು ಬಳಸುತ್ತದೆ"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"ಸ್ವಯಂಚಾಲಿತ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದನ್ನು ಹೊರತುಪಡಿಸಿ, ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿದ್ದಾಗ ನಿಮ್ಮ ಟಿವಿಯನ್ನು ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್‌ನಿಂದ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಲಾಗುತ್ತದೆ. ಇದು ನಿಮ್ಮ ಟಿವಿಯ ವಿದ್ಯುತ್ ಬಳಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು, ಇದರರ್ಥ ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿದ್ದಾಗ ಬಿತ್ತರಿಸುವುದು ಹಾಗೂ Google Assistant ನಂತಹ ಕಾರ್ಯಗಳನ್ನು ಬಳಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗದಿರಬಹುದು."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"ನೆಟ್‌ವರ್ಕ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿ ಅನುಮತಿಸಿ"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"ನೆಟ್‌ವರ್ಕ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿ ಅನುಮತಿಸುವುದರಿಂದ ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನ ವಿದ್ಯುತ್ ಬಳಕೆಯು ಹೆಚ್ಚಾಗುತ್ತದೆ."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"ಪ್ರಸ್ತುತ ಯಾವುದೇ ಖಾತೆಯು ಬ್ಯಾಕಪ್ ಮಾಡಲಾದ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುತ್ತಿಲ್ಲ"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"ನಿಮ್ಮ ವೈ-ಫೈ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು, ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳು, ಇತರ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡುವುದನ್ನು ನಿಲ್ಲಿಸುವುದೇ ಹಾಗೂ Google ಸರ್ವರ್‌ಗಳಲ್ಲಿನ ಎಲ್ಲಾ ನಕಲುಗಳನ್ನು ಅಳಿಸುವುದೇ?"</string>
@@ -978,6 +987,9 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"ರೆಕಾರ್ಡಿಂಗ್ ಓದುವುದನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲಿನ ಅವಧಿ"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ರೆಕಾರ್ಡ್ ಮಾಡುವ ಮೊದಲಿನ ಆಡಿಯೋ ಡೇಟಾದ ಅವಧಿ"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ಖಾಲಿ ಇರುವ ಆಡಿಯೋ ಅವಧಿ"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"ರೆಕಾರ್ಡ್ ಮಾಡಲಾದ ಆಡಿಯೊ ಮೂಲ"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"ಮುಂದಿನ ರೆಕಾರ್ಡಿಂಗ್‌ಗಾಗಿ ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೊ ಮೂಲವನ್ನು ಆರಿಸಿ"</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"ರೆಕಾರ್ಡ್ ಮಾಡಲಾದ ಮೈಕ್ರೊಫೋನ್(ಗಳು)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸುವಾಗ ವಿಫಲವಾಗಿದೆ"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್ ವಿಫಲವಾಗಿದೆ"</string>
     <string name="title_data_saver" msgid="7500278996154002792">"ಡೇಟಾ ಸೇವರ್"</string>
@@ -1033,4 +1045,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ವಿದ್ಯುತ್ &amp; ಶಕ್ತಿ"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ಪವರ್ ಆನ್ ನಡವಳಿಕೆ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ಮರುಹೊಂದಿಸಿ"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ಇಥರ್ನೆಟ್ ಜೋಡಣೆ ಕೋಡ್‌"</string>
 </resources>
