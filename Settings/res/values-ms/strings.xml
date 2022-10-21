@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Didayakan"</string>
     <string name="disabled" msgid="4589065923272201387">"Dilumpuhkan"</string>
     <string name="unavailable" msgid="1610732303812180196">"Tidak tersedia"</string>
+    <string name="allow" msgid="6982558814345894019">"Benarkan"</string>
+    <string name="deny" msgid="8291577308813053917">"Tolak"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Cadangan"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Tetapan Pantas"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Tetapan Umum"</string>
@@ -915,18 +917,14 @@
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Sahkan tetapan Penjimat Tenaga"</string>
-    <!-- no translation found for device_energy_saver_confirmation_text (1253846259965911752) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Tindakan membiarkan paparan anda hidup selama <xliff:g id="SLEEP_TIME">%1$s</xliff:g> mungkin meningkatkan penggunaan tenaga"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Lumpuhkan tetapan penjimat tenaga"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Sila sahkan untuk menghalang peranti daripada dimatikan semasa menonton, yang mampu meningkatkan penggunaan tenaga."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Apabila tidak aktif"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Apabila menonton"</string>
-    <!-- no translation found for device_energy_saver_category_title (2604826113821035545) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_sleep_timeout_dialog_title (1223814536589471788) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_attentive_timeout_dialog_title (1654557070579253248) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Matikan TV secara automatik"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Matikan TV secara automatik apabila tidak aktif"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Matikan TV secara automatik apabila menonton"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Hadkan sambungan rangkaian dlm tunggu sedia"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Menggunakan kurang tenaga dalam mod tunggu sedia"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"TV anda akan diputuskan sambungan daripada rangkaian anda semasa dalam mod tunggu sedia, kecuali untuk menerima kemaskinian automatik. Tetapan ini mungkin mengurangkan penggunaan tenaga TV anda, namun ini juga bermakna anda mungkin tidak dapat menggunakan fungsi seperti Hantar dan Google Assistant semasa dalam mod tunggu sedia."</string>
@@ -1028,6 +1026,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Laraskan kualiti video secara automatik untuk menggunakan kurang data mudah alih"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Penggunaan data dan makluman"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Anda boleh menyambung ke Internet dengan Wi-Fi, Ethernet atau tempat liputan telefon anda."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Perlihatkan kepada peranti Bluetooth yang lain?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Terdapat apl yang mahu memperlihatkan TV anda kepada peranti Bluetooth yang lain selama <xliff:g id="TIMEOUT">%1$d</xliff:g> saat."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Tindakan tidak dibenarkan"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Kelantangan tidak boleh ditukar"</string>

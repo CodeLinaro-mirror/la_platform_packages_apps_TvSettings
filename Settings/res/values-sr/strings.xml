@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Омогућено"</string>
     <string name="disabled" msgid="4589065923272201387">"Онемогућено"</string>
     <string name="unavailable" msgid="1610732303812180196">"Недоступно"</string>
+    <string name="allow" msgid="6982558814345894019">"Дозволи"</string>
+    <string name="deny" msgid="8291577308813053917">"Одбиј"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Предлози"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Брза подешавања"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Општа подешавања"</string>
@@ -915,18 +917,14 @@
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Потврдите подешавање Уштеде енергије"</string>
-    <!-- no translation found for device_energy_saver_confirmation_text (1253846259965911752) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Ако екран остане укључен <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, то може да повећа потрошњу енергије"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Онемогућите подешавање уштеде енергије"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Потврдите да бисте спречили да се екран искључује док гледате, што може да изазове повећану потрошњу енергије."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Током неактивности"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Током гледања"</string>
-    <!-- no translation found for device_energy_saver_category_title (2604826113821035545) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_sleep_timeout_dialog_title (1223814536589471788) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_attentive_timeout_dialog_title (1654557070579253248) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Аутоматски искључи ТВ"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Аутоматско искључивање ТВ-а при неактивности"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Аутоматско искључивање ТВ-а при гледању"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ограничи мрежну везу у режиму мировања"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Користи мање енергије у режиму мировања"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Веза између ТВ-а и мреже ће се прекинути у режиму мировања, осим за добијање аутоматских ажурирања. То може да смањи потрошњу енергије ТВ-а, али такође значи да нећете моћи да користите функције као што су Пребацивање и Google помоћник у режиму мировања."</string>
@@ -1028,6 +1026,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Аутоматски прилагођава квалитет видеа ради уштеде мобилних података"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Потрошња података и обавештења"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Можете да се повежете на интернет помоћу WiFi-ја, етернета или хотспота на телефону."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Желите да учините видљивим за друге Bluetooth уређаје?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Апликација жели да учини ТВ видљивим за друге Bluetooth уређаје на <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Радња није дозвољена"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Не можете да промените јачину звука"</string>

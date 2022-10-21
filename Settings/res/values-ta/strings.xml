@@ -31,6 +31,10 @@
     <string name="enabled" msgid="5127188665060746381">"இயக்கப்பட்டுள்ளது"</string>
     <string name="disabled" msgid="4589065923272201387">"முடக்கப்பட்டுள்ளது"</string>
     <string name="unavailable" msgid="1610732303812180196">"கிடைக்கவில்லை"</string>
+    <!-- no translation found for allow (6982558814345894019) -->
+    <skip />
+    <!-- no translation found for deny (8291577308813053917) -->
+    <skip />
     <string name="header_category_suggestions" msgid="106077820663753645">"பரிந்துரைகள்"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"விரைவு அமைப்புகள்"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"பொது அமைப்புகள்"</string>
@@ -915,18 +919,14 @@
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"எனர்ஜி சேமிப்பான் அமைப்பை உறுதிசெய்தல்"</string>
-    <!-- no translation found for device_energy_saver_confirmation_text (1253846259965911752) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"உங்கள் டிவி டிஸ்ப்ளேவை <xliff:g id="SLEEP_TIME">%1$s</xliff:g> மணிநேரம் ஆனில் வைத்திருப்பது மின்சாரப் பயன்பாட்டை அதிகரிக்கக்கூடும்"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"எனர்ஜி சேமிப்பான் அமைப்பை முடக்குதல்"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"எனர்ஜியின் பயன்பாடு அதிகரிக்கக்கூடும் என்பதால் பார்த்துக்கொண்டிருக்கும்போது திரை முடக்கப்படுவதைத் தடுக்க வேண்டுமா என்பதை உறுதிசெய்யுங்கள்."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"செயல்பாட்டில் இல்லாதபோது"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"பார்க்கும்போது"</string>
-    <!-- no translation found for device_energy_saver_category_title (2604826113821035545) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_sleep_timeout_dialog_title (1223814536589471788) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_attentive_timeout_dialog_title (1654557070579253248) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"டிவியைத் தானாக ஆஃப் செய்தல்"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"டிவி செயலில் இல்லாதபோது தானாகவே ஆஃப் செய்தல்"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"டிவி பார்க்கும்போது தானாகவே ஆஃப் செய்தல்"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"காத்திருப்பில் நெட்வொர்க் இணைப்பு வரம்பு"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"காத்திருப்புப் பயன்முறையில் மின் உபயோகம் குறைவாக இருக்கும்"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"காத்திருப்புப் பயன்முறையில் இருக்கும்போது தானியங்குப் புதுப்பிப்புகளைப் பெறுவதற்கு மட்டும் நெட்வொர்க்குடன் உங்கள் டிவி இணைக்கப்படும். இது உங்கள் டிவி பயன்படுத்தும் மின்சாரத்தின் அளவை குறைக்கக்கூடும். ஆனால் காத்திருப்புப் பயன்முறையின்போது அலைபரப்பு, Google Assistant போன்ற செயல்பாடுகளை உங்களால் பயன்படுத்த முடியாமலும் போகக்கூடும்."</string>
@@ -1028,6 +1028,10 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"மொபைல் டேட்டாவைப் பயன்படுத்த வீடியோ தரத்தைத் தானாகவே சரிசெய்யுசெய்யும்"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"டேட்டா உபயோகமும் விழிப்பூட்டல்களும்"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"வைஃபை, ஈதர்நெட், மொபைலின் ஹாட்ஸ்பாட் ஆகியவை மூலம் இணையத்துடன் இணையலாம்."</string>
+    <!-- no translation found for bluetooth_ask_discovery_title (4955540555242269694) -->
+    <skip />
+    <!-- no translation found for bluetooth_ask_discovery_message (8609666862877703398) -->
+    <skip />
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"செயல் அனுமதிக்கப்படவில்லை"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"ஒலியளவை மாற்ற முடியாது"</string>
