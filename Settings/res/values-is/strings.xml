@@ -31,6 +31,10 @@
     <string name="enabled" msgid="5127188665060746381">"Virkt"</string>
     <string name="disabled" msgid="4589065923272201387">"Óvirkt"</string>
     <string name="unavailable" msgid="1610732303812180196">"Ekki í boði"</string>
+    <!-- no translation found for allow (6982558814345894019) -->
+    <skip />
+    <!-- no translation found for deny (8291577308813053917) -->
+    <skip />
     <string name="header_category_suggestions" msgid="106077820663753645">"Tillögur"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Flýtistillingar"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Almennar stillingar"</string>
@@ -915,18 +919,14 @@
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Staðfestu orkusparnaðarstilingu"</string>
-    <!-- no translation found for device_energy_saver_confirmation_text (1253846259965911752) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Ef kveikt er á skjánum í <xliff:g id="SLEEP_TIME">%1$s</xliff:g> eykst orkunotkunin hugsanlega"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Slökkva á orkusparnaðarstillingu"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Staðfestu til að koma í veg fyrir að skjárinn slökkvi á sér í miðju áhorfi, sem getur leitt til meiri orkunotkunar."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Þegar tæki er óvirkt"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Á meðan áhorfi stendur"</string>
-    <!-- no translation found for device_energy_saver_category_title (2604826113821035545) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_sleep_timeout_dialog_title (1223814536589471788) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_attentive_timeout_dialog_title (1654557070579253248) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Slökkva sjálfkrafa á sjónvarpi"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Slökkva sjálfkrafa á sjónvarpi þegar það er ekki í notkun"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Slökkva sjálfkrafa á sjónvarpi á meðan horft er"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Takmarka nettengingu í biðstöðu"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Notar minni orku í biðstöðu"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Sjónvarpið mun aftengjast netinu þegar það er í biðstöðu, nema til að móttaka sjálfvirkar uppfærslur. Þetta getur minnkað orkunotkun sjónvarpsins en getur einnig þýtt að þú getir ekki notað eiginleika á borð við Cast og Google hjálpara á meðan það er í biðstöðu."</string>
@@ -1028,6 +1028,10 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Stilla myndgæði sjálfkrafa til að nota minna af farsímagögnum"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Gagnanotkun og tilkynningar"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Þú getur tengst við internetið um Wi-Fi, Ethernet eða heitan reit símans."</string>
+    <!-- no translation found for bluetooth_ask_discovery_title (4955540555242269694) -->
+    <skip />
+    <!-- no translation found for bluetooth_ask_discovery_message (8609666862877703398) -->
+    <skip />
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Aðgerð ekki leyfileg"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Ekki er hægt að breyta hljóðstyrk"</string>
