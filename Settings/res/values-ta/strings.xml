@@ -51,6 +51,8 @@
     <string name="sound_category_title" msgid="7899816751041939518">"ஒலி"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"ஆப்ஸ்"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"சாதன விருப்பத்தேர்வுகள்"</string>
+    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
+    <skip />
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"ரிமோட்கள் &amp; துணைக்கருவிகள்"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"டிஸ்ப்ளேவும் சத்தமும்"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"உதவி &amp; கருத்து"</string>
@@ -259,7 +261,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"உள்ளீடுகள்"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"உள்ளீடுகள் &amp; சாதனங்கள்"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ஹோம் தியேட்டர் கட்டுப்பாடு"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"அணுகல்தன்மை"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"டெவெலப்பர் விருப்பங்கள்"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ஏதுமில்லை"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"உபயோகம் &amp; பிழை அறிக்கைகள்"</string>
@@ -630,8 +631,25 @@
     <string name="system_services" msgid="5754310941186053151">"சேவைகள்"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"சேவை அமைப்புகள்"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"அதிக ஒளி மாறுபாடுடைய உரை"</string>
-    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
-    <skip />
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"தடிமன் எழுத்துகள்"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"கலர் கரெக்‌ஷன்"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"கலர் கரெக்‌ஷனைப் பயன்படுத்துதல்"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"வண்ணப் பயன்முறை"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"டியூட்டரனாமலி"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"சிவப்பு-பச்சை"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"புரோடனாமலி"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"சிவப்பு-பச்சை"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"டிரைடனாமலி"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"நீலம்-மஞ்சள்"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"கிரேஸ்கேல்"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"சிவப்பு"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"ஆரஞ்சு"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"மஞ்சள்"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"பச்சை"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"சியான்"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"நீலம்"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"பர்ப்பிள்"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"சாம்பல்"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"அணுகல்தன்மை ஷார்ட்கட்"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"அணுகல்தன்மை ஷார்ட்கட்டை இயக்கு"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ஷார்ட்கட் சேவை"</string>
@@ -895,6 +913,8 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"மீடியா பிளேபேக்கின்போது"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"எனர்ஜி சேமிப்பான் அமைப்பை உறுதிசெய்தல்"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"மின்சாரப் பயன்பாடு அதிகரிக்க வாய்ப்புள்ளதால் <xliff:g id="SLEEP_TIME">%1$s</xliff:g>க்கான புதிய அமைப்பை உறுதிசெய்க."</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"எனர்ஜி சேமிப்பான் அமைப்பை முடக்குதல்"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"எனர்ஜியின் பயன்பாடு அதிகரிக்கக்கூடும் என்பதால் பார்த்துக்கொண்டிருக்கும்போது திரை முடக்கப்படுவதைத் தடுக்க வேண்டுமா என்பதை உறுதிசெய்யுங்கள்."</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"காத்திருப்பில் நெட்வொர்க் இணைப்பு வரம்பு"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"காத்திருப்புப் பயன்முறையில் மின் உபயோகம் குறைவாக இருக்கும்"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"காத்திருப்புப் பயன்முறையில் இருக்கும்போது தானியங்குப் புதுப்பிப்புகளைப் பெறுவதற்கு மட்டும் நெட்வொர்க்குடன் உங்கள் டிவி இணைக்கப்படும். இது உங்கள் டிவி பயன்படுத்தும் மின்சாரத்தின் அளவை குறைக்கக்கூடும். ஆனால் காத்திருப்புப் பயன்முறையின்போது அலைபரப்பு, Google Assistant போன்ற செயல்பாடுகளை உங்களால் பயன்படுத்த முடியாமலும் போகக்கூடும்."</string>

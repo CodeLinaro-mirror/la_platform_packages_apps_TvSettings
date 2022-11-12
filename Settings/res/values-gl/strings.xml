@@ -51,6 +51,8 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Son"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Aplicacións"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Preferencias do dispositivo"</string>
+    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
+    <skip />
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Mandos a distancia e accesorios"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Pantalla e son"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Axuda e comentarios"</string>
@@ -259,7 +261,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"Entradas"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"Entradas e dispositivos"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"Control de home cinema"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"Accesibilidade"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"Opcións para programadores"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Ningunha"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"Uso e diagnóstico"</string>
@@ -278,7 +279,7 @@
     <string name="enterprise_privacy_device_access_category" msgid="7397106369136259850">"O teu acceso a este dispositivo"</string>
     <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"Datos asociados coa túa conta do traballo, como o correo electrónico e o calendario"</string>
     <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"Lista das aplicacións do teu dispositivo"</string>
-    <string name="enterprise_privacy_usage_stats" msgid="7062422823174345793">"Cantidade de tempo investido e datos consumidos en cada aplicación"</string>
+    <string name="enterprise_privacy_usage_stats" msgid="7062422823174345793">"Tempo de uso e datos consumidos para cada aplicación"</string>
     <string name="enterprise_privacy_network_logs" msgid="305782312671493780">"Rexistro do tráfico de rede máis recente"</string>
     <string name="enterprise_privacy_bug_reports" msgid="2393617117911211486">"Informe de erros máis recente"</string>
     <string name="enterprise_privacy_security_logs" msgid="2573545327989145361">"Rexistro de seguranza máis recente"</string>
@@ -630,8 +631,25 @@
     <string name="system_services" msgid="5754310941186053151">"Servizos"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Configuración dos servizos"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Texto de alto contraste"</string>
-    <!-- no translation found for accessibility_toggle_bold_text_preference_title (3328992531170432669) -->
-    <skip />
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Texto en grosa"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"Corrección da cor"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"Usar corrección da cor"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"Modo de cor"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"Deuteranomalía"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"Vermello-verde"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"Protanomalía"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"Vermello-verde"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"Tritanomalía"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"Azul-amarelo"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"Escala de grises"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"Vermello"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"Laranxa"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"Amarelo"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"Verde"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"Ciano"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"Azul"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"Violeta"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"Gris"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Atallo de accesibilidade"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activar atallo de accesibilidade"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servizo do atallo"</string>
@@ -895,6 +913,8 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Durante a reprodución de contido multimedia"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Confirmar configuración de aforro de enerxía"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Confirma que a nova configuración é <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, o cal pode aumentar o consumo enerxético."</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Desactivar a configuración de aforro de enerxía"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Confirma para evitar que a pantalla se apague mentres ves contido nela, o que podería aumentar o consumo enerxético."</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limitar conexión de rede en espera"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Consome menos enerxía no modo de espera"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"A televisión desconectarase da rede no modo de espera (agás para recibir actualizacións automáticas). Aínda que isto pode supoñer unha redución do consumo enerxético, tamén é posible que non poidas usar determinadas funcións nese modo, como Google Cast ou o Asistente de Google."</string>
