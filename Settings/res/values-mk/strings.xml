@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Овозможено"</string>
     <string name="disabled" msgid="4589065923272201387">"Оневозможено"</string>
     <string name="unavailable" msgid="1610732303812180196">"Недостапно"</string>
+    <string name="allow" msgid="6982558814345894019">"Дозволи"</string>
+    <string name="deny" msgid="8291577308813053917">"Одбиј"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Предлози"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Брзи поставки"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Општи поставки"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Звук"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Апликации"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Поставки за уредот"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Пристапност"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Далечински управувач и додатоци"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Екран и звук"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Помош и повратни информации"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Прикажи ги сите"</string>
     <string name="microphone" msgid="7893752847683941214">"Микрофон"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Пристап до микрофонот"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Пристап до микрофонот на далечинскиот управувач"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Пристап на апликации до микрофонот"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Пристапот до микрофонот е блокиран"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"За да одблокирате, поместете го прекинувачот за приватност на уредот во положбата „Микрофонот е вклучен“ што ќе дозволи пристап до него."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Пристапот до камерата е блокиран"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"За да одблокирате, поместете го прекинувачот за приватност на уредот во положбата „Камерата е вклучена“ што ќе дозволи пристап до неа."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Пристап до микрофонот: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Кога е вклучено, сите апликации и услуги со дозвола може да пристапуваат до сите микрофони на уредов.\n\nПериферните аудиоуреди со приспособен протокол нема да бидат засегнати од поставкава."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Кога е вклучен, сите апликации и услуги на кои им е дозволено да го користат микрофонот ќе може да пристапуваат до него.\n\nКога е исклучен, ниту една апликација или услуга нема да може да пристапува до микрофонот. Но, можеби сѐ уште ќе може да разговарате со вашиот „Помошник на Google“ така што ќе го притиснете копчето за „Помошникот“ на далечинскиот управувач.\n\nАудиоуредите што користат приспособени протоколи за комуникација со телевизорот може нема да бидат засегнати од оваа поставка."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Микрофонот е овозможен на далечинскиот управувач"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"„Помошникот на Google“ може да пристапува до микрофонот на далечинскиот управувач. Ќе може да разговарате со вашиот „Помошник“ така што ќе го притиснете копчето за „Помошникот на Google“ на далечинскиот управувач."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Микрофонот е оневозможен на далечинскиот управувач"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Нема да може да разговарате со вашиот „Помошник на Google“ преку далечинскиот управувач. За да може да го користите копчето за „Помошникот на Google“, овозможете пристап до микрофонот."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Пристап до камерата: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Кога е вклучено, сите апликации и услуги со дозвола може да пристапуваат до сите камери на уредов.\n\nПериферните камери со приспособен протокол нема да бидат засегнати од поставкава."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Вклучено"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Кога е вклучена Историја за локација за оваа сметка, Google може да ги складира податоците за локацијата на вашиот уред за да ги користат апликациите.\n\nНа пример, Карти на Google ви дава насоки, а Google Now ве информира за сообраќај кога одите на работа.\n\nМоже да ја исклучите Историја за локација во кое било време, но со тоа не ја бришете. За прикажување и управување со вашата Историја за локација, посетете ја maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Избриши историја за локација"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Ова ќе ја избрише целата Историја за локација која е складирана од овој уред за оваа сметка на Google. Не може да го вратите ова бришење. Некои апликации, вклучувајќи ја Google Now, ќе престанат да работат."</string>
-    <string name="system_services" msgid="5754310941186053151">"Услуги"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Читачи на екран"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Приказ"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Контроли за интеракција"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Аудио и текст на екранот"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Експериментални"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Услуги"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Поставки на услуга"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Текст со висок контраст"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Текст во болд"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Корекција на боите"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Заштитникот на екран започнува по овој период на неактивност. Ако не е избран заштитник на екран, екранот се исклучува."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"По <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> неактивност"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Исклучи го екранот"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"По <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Исклучи го екранот по"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Дозволете исклучување на екранот"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"При препродукција на аудиовизуелни содржини"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Потврдете ја поставката за „Штедачот на енергија“"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Потврдете ја новата поставка од <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, којашто може да ја зголеми потрошувачката на енергија."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Ако го оставите екранот вклучен <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, тоа може да ја зголеми потрошувачката на енергијата"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Оневозможете ја поставката за заштеда на енергија"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Потврдете за да не се исклучува екранот додека гледате, но така се зголемува потрошувачката на енергија."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Кога е неактивно"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Кога се гледа"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Автоматско исклучување на телевизорот"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Автоматско исклучување на телевизорот кога е неактивен"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Автоматско исклучување на телевизорот кога се гледа"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ограничена мрежна врска во режим на подготвеност"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Користи помалку струја во режим на подготвеност."</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Телевизорот ќе биде исклучен од мрежата додека е во режим на подготвеност, освен за да прима автоматски ажурирања. Ова може да ја намали потрошувачката на струја на телевизорот, но значи и дека нема да може да ги користите функциите, како Cast и „Помошник на Google“ во режимот на подготвеност."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Автоматски приспособи квалитетот на видеото да користи помалку мобилен интернет"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Потрошен интернет и известувања"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Може да се поврзете на интернет преку Wi-Fi, етернет или точката на пристап на телефонот."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Да се направи видлив за другите уреди со Bluetooth?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Апликација сака да го направи телевизорот видлив за другите уреди со Bluetooth во траење од <xliff:g id="TIMEOUT">%1$d</xliff:g> секунди."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Дејството не е дозволено"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Јачината на звукот не може да се смени"</string>

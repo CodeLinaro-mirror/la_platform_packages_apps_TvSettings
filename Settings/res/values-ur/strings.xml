@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"فعال"</string>
     <string name="disabled" msgid="4589065923272201387">"غیر فعال"</string>
     <string name="unavailable" msgid="1610732303812180196">"غیر دستیاب ہے"</string>
+    <string name="allow" msgid="6982558814345894019">"اجازت دیں"</string>
+    <string name="deny" msgid="8291577308813053917">"مسترد کریں"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"تجاویز"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"فوری ترتیبات"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"عام ترتیبات"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"آواز"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"ایپس"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"آلہ کی ترجیحات"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"ایکسیسبیلٹی"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"ریموٹس اور لوازمات"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"ڈسپلے اور آواز"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"مدد اور تاثرات"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"سبھی دیکھیں"</string>
     <string name="microphone" msgid="7893752847683941214">"مائیکروفون"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"مائیکروفون تک رسائی"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"آپ کے ریموٹ پر مائکروفون تک رسائی"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"مائیکروفون تک ایپ کی رسائی"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"مائیکروفون تک رسائی مسدود ہے"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"غیر مسدود کرنے کے لیے، کیمرا تک رسائی کی اجازت دینے کے لیے اپنے آلے پر رازداری سوئچ کو \'مائیکروفون آن ہے\' وضع پر لے جائیں۔"</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"کیمرے تک رسائی مسدود ہے"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"غیر مسدود کرنے کی خاطر، کیمرا تک رسائی کی اجازت دینے کے لیے اپنے آلے پر موجود رازداری سوئچ کو \'کیمرا آن ہے\' وضع پر لے جائیں۔"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"مائیکروفون تک رسائی: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"آن ہونے پر، اجازت والی تمام ایپس اور سروسز اس آلے پر کسی بھی مائیکروفون تک رسائی حاصل کر سکتی ہیں۔\n\nحسب ضرورت پروٹوکول والے آڈیو پیریفیرلز اس ترتیب سے متاثر نہیں ہوں گے۔"</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"آن ہونے پر، تمام ایپس اور سروسز جنہیں مائیکروفون استعمال کرنے کی اجازت ہے وہ اس تک رسائی حاصل کر سکیں گی۔\n\nآف ہونے پر، کوئی ایپس یا سروسز مائیکروفون تک رسائی حاصل نہیں کر سکیں گی۔ لیکن آپ پھر بھی اپنے ریموٹ پر اسسٹنٹ بٹن دبا کر اپنی Google اسسٹنٹ سے بات کر سکتے ہیں۔\n\nTV سے مواصلت کرنے کے لیے حسب ضرورت پروٹوکولز استعمال کرنے والے آڈیو آلات اس ترتیب سے متاثر نہیں ہو سکتے۔"</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"مائیکروفون ریموٹ پر فعال ہے"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google اسسٹنٹ آپ کے ریموٹ پر مائکروفون تک رسائی حاصل کرنے کے قابل ہے۔ آپ اپنے ریموٹ پر Google اسسٹنٹ بٹن دبا کر اپنی اسسٹنٹ سے بات کر سکیں گے۔"</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"مائیکروفون ریموٹ پر غیر فعال ہے"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"آپ اپنے ریموٹ کا استعمال کرتے ہوئے اپنی Google اسسٹنٹ سے بات نہیں کر سکیں گے۔ Google اسسٹنٹ بٹن استعمال کرنے کے لیے، مائیکروفون تک رسائی کو فعال کریں۔"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"کیمرے تک رسائی: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"آن ہونے پر، اجازت والی تمام ایپس اور سروسز اس آلے پر کسی بھی کیمرے تک رسائی حاصل کر سکتی ہیں۔\n\nحسب ضرورت پروٹوکول والے کیمرا پیریفیرلز اس ترتیب سے متاثر نہیں ہوں گے۔"</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"آن"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"اس اکاؤنٹ کیلئے مقام کی سرگزشت آن کر دیے جانے پر، Google آپ کی ایپس کے ذریعے استعمال کیلئے آپ کے آلہ کے مقام کا ڈیٹا اسٹور کر سکتا ہے۔\n\nمثلاً، Google Maps آپ کو ڈائریکشنز دے سکتا ہے اور Google Now روزانہ کے دو طرفہ سفر کے بارے میں آپ کو مطلع کر سکتا ہے۔\n\nآپ کسی بھی وقت مقام کی سرگزشت آف کر سکتے ہیں لیکن ایسا کرنے سے یہ حذف نہیں ہوگی۔ اپنے مقام کی سرگزشت دیکھنے اور اس کا نظم کرنے کیلئے، maps.google.com/locationhistory ملاحظہ کریں۔"</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"مقام کی سرگزشت حذف کریں"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"اس سے اس Google اکاؤنٹ کیلئے اس آلہ سے اسٹور کردہ سبھی مقام کی سرگزشت حذف ہو جائے گی۔ آپ اس تنسیخ کو واپس نہیں لا سکتے ہیں۔ Google Now سمیت کچھ ایپس کام کرنا بند کر دیں گی۔"</string>
-    <string name="system_services" msgid="5754310941186053151">"سروسز"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"اسکرین ریڈرز"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"ڈسپلے"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"انٹرایکشن کنٹرولز"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"آڈیو اور اسکرین پر موجود ٹیکسٹ"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"تجرباتی"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"سروسز"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"سروس کی ترتیبات"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"اعلی تناسب امتزاج والا ٹیکسٹ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"بولڈ ٹیکسٹ"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"رنگ کی اصلاح"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"غیر فعالیت کے اس دورانیے کے بعد اسکرین سیور شروع ہو جاتا ہے۔ اگر کوئی اسکرین سیور منتخب نہیں ہے تو ڈسپلے آف ہو جاتا ہے۔"</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"غیرفعالیت کے <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> کے بعد"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"ڈسپلے آف کریں"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> کے بعد"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"کے بعد ڈسپلے آف کریں"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"سکرین آف کرنے کی اجازت دیں"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"میڈیا پلے بیک کے دوران"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"اینرجی سیور کی ترتیبات کی توثیق کریں"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"براہ کرم نئی ترتیب کی توثیق <xliff:g id="SLEEP_TIME">%1$s</xliff:g> پر کریں، جس میں اینرجی کے استعمال میں اضافہ کا امکان موجود ہے۔"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"اپنے ڈسپلے کو <xliff:g id="SLEEP_TIME">%1$s</xliff:g> کے لیے آن چھوڑنے سے توانائی کا استعمال بڑھ سکتا ہے"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"توانائی بچانے والی ترتیب کو غیر فعال کریں"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"براہ کرم توثیق کریں کہ دیکھتے ہوئے ڈسپلے کو بند ہونے سے روکیں، جس میں توانائی کے استعمال میں اضافے کا امکان ہے۔"</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"غیر فعال ہرنے پر"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"دیکھنے پر"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"خودکار طور پر TV بند کریں"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"غیر فعال ہونے پر خودکار طور پر TV بند کریں"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"دیکھتے وقت خودکار طور پر TV بند کریں"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"اسٹینڈ بائی میں نیٹ ورک کنکشن محدود کریں"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"اسٹینڈ بائی وضع میں کم توانائی استعمال کرتا ہے"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"اسٹینڈ بائی وضع میں ہونے پر سوائے خودکار اپ ڈیٹس موصول کرنے کے، آپ کا TV آپ کے نیٹ ورک سے غیر منسلک ہو جائے گا۔ اس سے آپ کے TV کی توانائی کے استعمال میں کمی واقع ہو سکتی ہے، حالانکہ اس کا مطلب یہ بھی ہے کہ اسٹینڈ بائی میں رہتے ہوئے ہو سکتا ہے کہ آپ Cast اور Google اسسٹنٹ جیسے فنکشنز استعمال کرنے کے قابل نہ ہوں۔"</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"کم موبائل ڈیٹا استعمال کرنے کے ليے ویڈیو کے معیار کو خودکار طور پر ایڈجسٹ کریں"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"ڈیٹا کا استعمال اور الرٹس"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"آپ انٹرنیٹ سے Wi-Fi، ایتھرنیٹ یا اپنے فون کے ہاٹ اسپاٹ کے ساتھ منسلک کر سکتے ہیں۔"</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"دوسرے بلوٹوتھ آلات پر مرئی بنائیں؟"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ایپ آپ کے TV کو <xliff:g id="TIMEOUT">%1$d</xliff:g> سیکنڈ کیلئے دیگر بلوٹوتھ آلات پر مرئی بنانا چاہتی ہے۔"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"کارروائی کی اجازت نہیں ہے"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"والیوم تبدیل نہیں کر سکتے"</string>

@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Ενεργή"</string>
     <string name="disabled" msgid="4589065923272201387">"Ανενεργή"</string>
     <string name="unavailable" msgid="1610732303812180196">"Μη διαθέσιμη"</string>
+    <string name="allow" msgid="6982558814345894019">"Να επιτρέπεται"</string>
+    <string name="deny" msgid="8291577308813053917">"Όχι"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Προτάσεις"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Γρήγορες ρυθμίσεις"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Γενικές ρυθμίσεις"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Ήχος"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Εφαρμογές"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Προτιμήσεις συσκευής"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Προσβασιμότητα"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Τηλεχειριστήρια και αξεσουάρ"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Οθόνη και ήχος"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Βοήθεια και σχόλια"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Εμφάνιση όλων"</string>
     <string name="microphone" msgid="7893752847683941214">"Μικρόφωνο"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Πρόσβαση μικροφώνου"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Πρόσβαση μικροφώνου στο τηλεχειριστήριο"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Πρόσβαση εφαρμογής στο μικρόφωνο"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Η πρόσβαση στο μικρόφωνο είναι αποκλεισμένη"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Για την κατάργηση του αποκλεισμού, μετακινήστε τον διακόπτη απορρήτου για το μικρόφωνο στη θέση ενεργοποίησης, προκειμένου να επιτρέψετε την πρόσβαση στο μικρόφωνο."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Η πρόσβαση στην κάμερα είναι αποκλεισμένη"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Για την κατάργηση του αποκλεισμού, μετακινήστε τον διακόπτη απορρήτου για την κάμερα στη θέση ενεργοποίησης, προκειμένου να επιτρέψετε την πρόσβαση στην κάμερα."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Πρόσβαση μικροφώνου: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Όταν είναι ενεργή η ρύθμιση, όλες οι εφαρμογές και οι υπηρεσίες που έχουν λάβει τη σχετική άδεια θα μπορούν να έχουν πρόσβαση σε οποιοδήποτε μικρόφωνο αυτής της συσκευής.\n\nΤα περιφερειακά ήχου με προσαρμοσμένο πρωτόκολλο δεν θα επηρεαστούν από αυτήν τη ρύθμιση."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Όταν είναι ενεργοποιημένο, όλες οι εφαρμογές και οι υπηρεσίες που επιτρέπεται να χρησιμοποιούν το μικρόφωνο θα έχουν πρόσβαση σε αυτό.\n\nΌταν είναι απενεργοποιημένο, καμία εφαρμογή ή υπηρεσία δεν έχει πρόσβαση στο μικρόφωνο. Ωστόσο, ίσως μπορείτε ακόμη να μιλήσετε στον Βοηθό Google πατώντας το Κουμπί Βοηθού στο τηλεχειριστήριο.\n\nΟι συσκευές ήχου που χρησιμοποιούν προσαρμοσμένα πρωτόκολλα για την επικοινωνία με την τηλεόραση ενδέχεται να μην επηρεάζονται από αυτήν τη ρύθμιση."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Το μικρόφωνο ενεργοποιήθηκε στο τηλεχειριστήριο"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Ο Βοηθός Google μπορεί να αποκτήσει πρόσβαση στο μικρόφωνο του τηλεχειριστηρίου. Θα μπορείτε να μιλάτε στον Βοηθό πατώντας το Κουμπί Βοηθού Google στο τηλεχειριστήριο."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Το μικρόφωνο απενεργοποιήθηκε στο τηλεχειριστήριο"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Δεν θα μπορείτε να μιλήσετε στον Βοηθό Google χρησιμοποιώντας το τηλεχειριστήριο. Για να μπορέσετε να χρησιμοποιήσετε το Κουμπί Βοηθού Google, ενεργοποιήστε την πρόσβαση στο μικρόφωνο."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Πρόσβαση κάμερας: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Όταν είναι ενεργή η ρύθμιση, όλες οι εφαρμογές και οι υπηρεσίες που έχουν λάβει τη σχετική άδεια θα μπορούν να έχουν πρόσβαση σε οποιαδήποτε κάμερα αυτής της συσκευής.\n\nΤα περιφερειακά κάμερας με προσαρμοσμένο πρωτόκολλο δεν θα επηρεαστούν από αυτήν τη ρύθμιση."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Ενεργό"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Όταν το ιστορικό τοποθεσίας είναι ενεργό στο λογαριασμό, η Google μπορεί να αποθηκεύει τα δεδομένα τοποθεσίας της συσκευής, για να τα χρησιμοποιούν οι εφαρμογές σας.\n\nΠ.χ., οι Χάρτες Google μπορούν να παρέχουν κατευθύνσεις και το Google Now να σας ενημερώνει για την κίνηση.\n\nΜπορείτε να απενεργοποιήσετε το ιστορικό τοποθεσίας ανά πάσα στιγμή, αλλά η απενεργοποίησή του δεν το διαγράφει. Για να δείτε και να διαχειριστείτε το ιστορικό τοποθεσίας, μεταβείτε στη διεύθυνση maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Διαγραφή ιστορικού τοποθεσίας"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Αυτή η επιλογή θα διαγράψει όλο το περιεχόμενο που έχει αποθηκεύσει το ιστορικό τοποθεσίας από αυτήν τη συσκευή, για αυτόν το Λογαριασμό Google. Δεν είναι δυνατή η αναίρεση αυτής της διαγραφής. Ορισμένες εφαρμογές, όπως το Google Now, θα σταματήσουν να λειτουργούν."</string>
-    <string name="system_services" msgid="5754310941186053151">"Υπηρεσίες"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Αναγνώστες οθόνης"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Οθόνη"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Στοιχεία ελέγχου αλληλεπίδρασης"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Ήχος και κείμενο στην οθόνη"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Πειραματική"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Υπηρεσίες"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Ρυθμίσεις υπηρεσίας"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Κείμενο υψηλής αντίθεσης"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Κείμενο με έντονη γραφή"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Διόρθωση χρωμάτων"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Η προφύλαξη οθόνης ενεργοποιείται μετά από αυτήν την περίοδο αδράνειας. Εάν δεν έχει οριστεί κάποια επιλογή προφύλαξης οθόνης, η οθόνη σβήνει."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"Μετά από <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> αδράνειας"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Απενεργοποίηση οθόνης"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"Μετά τις <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Απενεργοποίηση οθόνης μετά τις"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Να επιτρέπεται η απενεργοποίηση οθόνης"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Κατά τη διάρκεια αναπαραγωγής μέσων"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Επιβεβαίωση ρύθμισης Εξοικονόμησης ενέργειας"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Επιβεβαιώστε τη νέα ρύθμιση σε <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, η οποία ενδέχεται να κάνει αυξημένη χρήση ενέργειας."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Αν αφήσετε ενεργή την οθόνη για <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, μπορεί να αυξηθεί η χρήση ενέργειας"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Απενεργοποίηση ρύθμισης εξοικονόμησης ενέργειας"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Επιβεβαιώστε ότι δεν θέλετε να απενεργοποιείται η οθόνη κατά την παρακολούθηση, επιλογή που μπορεί να αυξήσει τη χρήση ενέργειας."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Όταν είναι ανενεργή"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Κατά την παρακολούθηση"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Αυτόματη απενεργοποίηση της τηλεόρασης"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Αυτόματη απενεργοποίηση της τηλεόρασης όταν είναι αδρανής"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Αυτόματη απενεργοποίηση της τηλεόρασης κατά την παρακολούθηση"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Περιορισμός σύνδ. δικτύου σε κατ. αναμ."</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Χρησιμοποιεί λιγότερη ενέργεια σε κατάσταση αναμονής"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Η τηλεόραση θα αποσυνδέεται από το δίκτυό σας όταν βρίσκεται σε κατάσταση αναμονής, εκτός από τις περιπτώσεις λήψης αυτόματων ενημερώσεων. Αυτό μπορεί να μειώσει τη χρήση ενέργειας από την τηλεόραση, ωστόσο, ενδέχεται να μην μπορείτε να χρησιμοποιείτε λειτουργίες όπως το Cast και ο Βοηθός Google όταν η τηλεόραση βρίσκεται σε κατάσταση αναμονής."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Αυτόματη προσαρμογή ποιότητας βίντεο για οικονομία δεδομένων κινητής τηλεφωνίας"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Χρήση δεδομένων και ειδοποιήσεις"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Μπορείτε να συνδεθείτε στο διαδίκτυο μέσω Wi-Fi, Ethernet ή του σημείου πρόσβασης Wi-Fi του τηλεφώνου σας."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Να είναι ορατή σε άλλες συσκευές Bluetooth;"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Μια εφαρμογή θέλει να κάνει ορατή την τηλεόρασή σας σε άλλες συσκευές Bluetooth για <xliff:g id="TIMEOUT">%1$d</xliff:g> δευτερόλεπτα."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Δεν επιτρέπεται η ενέργεια"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Δεν είναι δυνατή η αλλαγή της έντασης του ήχου"</string>

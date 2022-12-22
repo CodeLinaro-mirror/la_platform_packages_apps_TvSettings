@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Omogućeno"</string>
     <string name="disabled" msgid="4589065923272201387">"Onemogućeno"</string>
     <string name="unavailable" msgid="1610732303812180196">"Nedostupno"</string>
+    <string name="allow" msgid="6982558814345894019">"Dozvoli"</string>
+    <string name="deny" msgid="8291577308813053917">"Odbij"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Predlozi"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Brza podešavanja"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Opšta podešavanja"</string>
@@ -592,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Prikaži sve"</string>
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Pristup mikrofonu"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Pristup mikrofonu na daljinskom upravljaču"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Pristup aplikacije mikrofonu"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Pristup mikrofonu je blokiran"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Da biste odblokirali, pomerite prekidač za privatnost na uređaju na poziciju uključeno za mikrofon kako biste omogućili pristup mikrofonu."</string>
@@ -601,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Pristup kameri je blokiran"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Da biste odblokirali, pomerite prekidač za privatnost na uređaju na poziciju uključeno za kameru kako biste omogućili pristup kameri."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Pristup mikrofonu: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Kada je uključeno, sve aplikacije i usluge sa dozvolom mogu da pristupaju svakom mikrofonu na ovom uređaju.\n\nOvo podešavanje ne utiče na periferne audio uređaje sa prilagođenim protokolom."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Kada je mikrofon uključen, sve aplikacije i usluge kojima je dozvoljeno da koriste mikrofon moći će da mu pristupaju .\n\nKada je isključen, nijedna aplikacija ni usluga neće moći da pristupa mikrofonu. Ali možda ćete i dalje moći da razgovarate sa Google pomoćnikom pritiskom na dugme za Pomoćnik na daljinskom upravljaču.\n\nOvo podešavanje možda neće uticati na audio uređaje koji koriste prilagođene protokole za komuniciranje sa TV-om."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Mikrofon je omogućen na daljinskom upravljaču"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google može da pristupa mikrofonu na daljinskom upravljaču. Moći ćete da razgovarate sa Pomoćnikom pritiskom na dugme za Google pomoćnik na daljinskom upravljaču."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofon je onemogućen na daljinskog"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Nećete moći da razgovarate sa Google pomoćnikom preko daljinskog upravljača. Da biste mogli da koristite dugme Google pomoćnik, omogućite pristup mikrofonu."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Pristup kameri: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Kada je uključeno, sve aplikacije i usluge sa dozvolom mogu da pristupaju svakoj kameri na ovom uređaju.\n\nOvo podešavanje ne utiče na periferne uređaje kamere sa prilagođenim protokolom."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Uključeno"</string>
@@ -627,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Kada je Istorija lokacija uključena za ovaj nalog, Google može da čuva podatke o lokaciji sa uređaja da bi ih aplikacije koristile.\n\nNa primer, Google mape mogu da vam daju uputstva, a Google trenutno može da vas obaveštava o saobraćaju na redovnom putovanju.\n\nMožete da isključite Istoriju lokacija u bilo kom trenutku, ali time je nećete izbrisati. Da biste pregledali Istoriju lokacija i upravljali njom, posetite maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Izbriši Istoriju lokacija"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Ovim ćete izbrisati sve sačuvane podatke Istorije lokacija sa ovog uređaja za ovaj Google nalog. Ne možete da opozovete ovo. Neke aplikacije, uključujući Google trenutno, prestaće da funkcionišu."</string>
-    <string name="system_services" msgid="5754310941186053151">"Usluge"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Čitači ekrana"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Ekran"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Kontrole interakcije"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Zvuk i tekst na ekranu"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Eksperimentalno"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Usluge"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Podešavanja usluge"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Tekst visokog kontrasta"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Podebljani tekst"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Korekcija boja"</string>
@@ -906,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Čuvar ekrana se pokreće posle ovog perioda neaktivnosti. Ako nikakav čuvar ekrana nije izabran, ekran se isključuje."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"Posle <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> neaktivnosti"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Isključi ekran"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"Posle <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Isključi ekran posle"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Dozvoli isključivanje ekrana"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Tokom reprodukcije medija"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Potvrdite podešavanje Uštede energije"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Potvrdite novo podešavanje na <xliff:g id="SLEEP_TIME">%1$s</xliff:g>. Ono može da poveća potrošnju energije."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Ako ekran ostane uključen <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, to može da poveća potrošnju energije"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Onemogućite podešavanje uštede energije"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Potvrdite da biste sprečili da se ekran isključuje dok gledate, što može da izazove povećanu potrošnju energije."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Tokom neaktivnosti"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Tokom gledanja"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Automatski isključi TV"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Automatsko isključivanje TV-a pri neaktivnosti"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Automatsko isključivanje TV-a pri gledanju"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ograniči mrežnu vezu u režimu mirovanja"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Koristi manje energije u režimu mirovanja"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Veza između TV-a i mreže će se prekinuti u režimu mirovanja, osim za dobijanje automatskih ažuriranja. To može da smanji potrošnju energije TV-a, ali takođe znači da nećete moći da koristite funkcije kao što su Prebacivanje i Google pomoćnik u režimu mirovanja."</string>
@@ -1015,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Automatski prilagođava kvalitet videa radi uštede mobilnih podataka"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Potrošnja podataka i obaveštenja"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Možete da se povežete na internet pomoću WiFi-ja, eterneta ili hotspota na telefonu."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Želite da učinite vidljivim za druge Bluetooth uređaje?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Aplikacija želi da učini TV vidljivim za druge Bluetooth uređaje na <xliff:g id="TIMEOUT">%1$d</xliff:g> sek."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Radnja nije dozvoljena"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Ne možete da promenite jačinu zvuka"</string>

@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Imewashwa"</string>
     <string name="disabled" msgid="4589065923272201387">"Imezimwa"</string>
     <string name="unavailable" msgid="1610732303812180196">"Haipatikani"</string>
+    <string name="allow" msgid="6982558814345894019">"Ruhusu"</string>
+    <string name="deny" msgid="8291577308813053917">"Kataa"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Mapendekezo"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Mipangilio ya Haraka"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Mipangilio ya Jumla"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Sauti"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Programu"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Mapendeleo ya Kifaa"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Zana za ufikivu"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Vidhibiti mbali na vifaa vya ziada"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Onyesho na Sauti"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Usaidizi na Maoni"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Angalia zote"</string>
     <string name="microphone" msgid="7893752847683941214">"Maikrofoni"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Ufikiaji wa maikrofoni"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Ufikiaji wa maikrofoni kwenye kidhibiti chako cha mbali"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Idhini ya programu ya kufikia maikrofoni"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Ufikiaji wa maikrofoni umezuiwa"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Ili uondoe kizuizi, sogeza swichi ya faragha ya maikrofoni kwenye kifaa chako ili kuiwasha na uruhusu ufikiaji wa maikrofoni."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Ufikiaji wa kamera umezuiwa"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Ili uondoe kizuizi, sogeza swichi ya faragha ya kamera kwenye kifaa chako ili kuiwasha na uruhusu ufikiaji wa kamera."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Ufikiaji wa Maikrofoni: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Ukiwasha, programu na huduma zote zilizoidhinishwa zinaweza kufikia maikrofoni yoyote kwenye kifaa hiki.\n\nVifaa vya sauti vyenye mipangilio maalum havitaathiriwa na kipengele hiki."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Ikiwashwa, programu na huduma zote zinazoruhusiwa kutumia maikrofoni zitaweza kuifikia.\n\nIkizimwa, hakuna programu au huduma zitakazoweza kufikia maikrofoni. Lakini bado unaweza kuzungumza na programu ya Mratibu wa Google kwa kubonyeza kitufe cha Mratibu kwenye kidhibiti chako cha mbali.\n\nVifaa vya sauti vinavyotumia itifaki maalum ili kuwasiliana na TV huenda visiathiriwe na mipangilio hii."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Maikrofoni imewashwa kwenye kidhibiti cha mbali"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Programu ya Mratibu wa Google inaweza kufikia maikrofoni kwenye kidhibiti chako cha mbali. Utaweza kuzungumza na programu yako ya Mratibu kwa kubonyeza kitufe cha Mratibu wa Google kwenye kidhibiti chako cha mbali."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Maikrofoni imezimwa kwenye kidhibiti cha mbali"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Hutaweza kuzungumza na programu yako ya Mratibu wa Google ukitumia kidhibiti chako cha mbali. Ili uweze kutumia kitufe cha programu ya Mratibu wa Google, ruhusu uwezo wa kufikia maikrofoni."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Ufikiaji wa Kamera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Ukiwasha, programu na huduma zote zilizoidhinishwa zinaweza kufikia kamera yoyote kwenye kifaa hiki.\n\nVifaa vya kamera vyenye mipangilio maalum havitaathiriwa na kipengele hiki."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Imewashwa"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Historia ya Mahali inapowashwa kwa akaunti hii, Google inaweza kuhifadhi data ya eneo la kifaa chako kwa matumizi na programu zako.\n\nKwa mfano, Ramani za Google acn inakupa maelekezo na Google Msaidizi inaweza kukuarifu kuhusu trafiki ya safari.\n\nUnaweza kuzima Historia ya Mahali wakati wowote, lakini kufanya hivyo hakutaifuta. Ili utazame na kusimamia Historia ya Mahali pako, tembelea maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Futa historia ya mahali"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Hii itafuta yote ambayo Historia ya Mahali imehifadhi kutoka kwa kifaa hiki kwa hii Akaunti ya Google. Huwezi kutengua kufuta huku. Baadhi ya programu, ikiwa ni pamoja na Google Msaidizi, zitaacha kufanya kazi."</string>
-    <string name="system_services" msgid="5754310941186053151">"Huduma"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Visoma Skrini"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Skrini"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Vidhibiti vya Mawasiliano"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Sauti na Maandishi kwenye Skrini"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Ya majaribio"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Huduma"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Mipangilio ya huduma"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Maandishi yenye utofautishaji bora"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Herufi nzito"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Usahihishaji wa rangi"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Itaanzisha taswira ya skrini baada ya kipindi cha hali tuli. Skrini ya kifaa chako itazimika ikiwa hujachagua taswira ya skrini."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"Baada ya <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> za kutotumika"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Zima skrini"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"Baada ya <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Zima skrini baada ya"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Ruhusu uzimaji skrini"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Wakati wa kucheza maudhui"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Thibitisha mipangilio ya Kiokoa Nishati"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Tafadhali thibitisha kuwa ungependa iwe <xliff:g id="SLEEP_TIME">%1$s</xliff:g>. Huenda hii ikaongeza kiwango cha nishati kinachotumika."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Kutozima skrini yako kwa <xliff:g id="SLEEP_TIME">%1$s</xliff:g> kunaweza kuongeza matumizi ya nishati"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Zima mipangilio ya kiokoa nishati"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Tafadhali thibitisha ili uzuie skrini isizime unapotazama maudhui, hatua ambayo huenda ikaongeza kiwango cha nishati inayotumika."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Wakati hakitumiki"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Wakati unatazama"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Zima televisheni kiotomatiki"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Zima televisheni kiotomatiki wakati haitumiki"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Zima televisheni kiotomatiki wakati unatazama"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Dhibiti muunganisho wa mtandao katika hali tuli"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Hutumia nishati kidogo katika hali tuli"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"TV yako itatenganishwa na mtandao wako ikiwa kwenye hali tuli, isipokuwa kupokea masasiho ya kiotomatiki. Huenda hali hii ikapunguza matumizi ya nishati ya TV yako, ingawaje inaweza kumaanisha hutaweza kutumia utendaji kama vile Cast na Mratibu wa Google, hali tuli inapotumika."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Rekebisha ubora wa video kiotomatiki ili utumie kiasi kidogo cha data ya simu"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Arifa na matumizi ya data"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Unaweza kuunganisha kwenye intaneti ukitumia Wi-Fi, Ethaneti au mtandao pepe wa simu yako."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Ungependa kufanya televisheni ionekane kwenye vifaa vingine vyenye Bluetooth?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Programu inataka kufanya televisheni yako ionekane kwenye vifaa vingine vyenye Bluetooth kwa sekunde <xliff:g id="TIMEOUT">%1$d</xliff:g>."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Kitendo hakiruhusiwi"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Haiwezi kubadilisha sauti"</string>

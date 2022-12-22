@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"已啟用"</string>
     <string name="disabled" msgid="4589065923272201387">"已停用"</string>
     <string name="unavailable" msgid="1610732303812180196">"無法使用"</string>
+    <string name="allow" msgid="6982558814345894019">"允許"</string>
+    <string name="deny" msgid="8291577308813053917">"拒絕"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"建議"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"快速設定"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"一般設定"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"音效"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"應用程式"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"裝置偏好設定"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"無障礙功能"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"遙控器與配件"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"螢幕和音效偏好設定"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"說明和意見回饋"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"查看全部"</string>
     <string name="microphone" msgid="7893752847683941214">"麥克風"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"麥克風存取權"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"遙控器的麥克風存取權"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"應用程式的麥克風存取權"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"無法存取麥克風"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"如要允許存取麥克風，請將裝置的隱私權切換鈕切換到「開啟麥克風」的位置。"</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"無法存取相機"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"如要允許存取相機，請將裝置的隱私權切換鈕切換到「開啟相機」的位置。"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"麥克風存取權：<xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"開啟後，具有權限的所有應用程式和服務都可以存取這部裝置上的任何麥克風。\n\n這項設定不會影響具有自訂通訊協定的音訊周邊裝置。"</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"設為開啟時，所有具備麥克風存取權的應用程式和服務都可以使用麥克風。\n\n設為關閉時，所有應用程式和服務都無法使用麥克風。不過，你還是可以按下遙控器上的 Google 助理按鈕，對 Google 助理下達語音指令。\n\n使用自訂通訊協定與電視進行通訊的音訊裝置可能不會受到這項設定影響。"</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"遙控器的麥克風已啟用"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google 助理能夠使用遙控器的麥克風。只要按下遙控器上的 Google 助理按鈕，即可對 Google 助理下達語音指令。"</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"遙控器的麥克風已停用"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"你將無法使用遙控器對 Google 助理下達語音指令。你必須啟用麥克風存取權，才能使用 Google 助理按鈕。"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"攝影機存取權：<xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"開啟後，具有權限的所有應用程式和服務都可以存取這部裝置上的任何攝影機。\n\n這項設定不會影響具有自訂通訊協定的攝影機周邊裝置。"</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"已開啟"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"為這個帳戶開啟定位記錄後，Google 即可儲存裝置的位置資料，供您的應用程式使用。\n\n舉例來說，Google 地圖可為您規劃路線，Google 即時資訊則可讓您瞭解通勤路況。\n\n您隨時可以關閉定位記錄，但記錄內容不會因此遭到刪除。如要查看及管理您的定位記錄，請造訪 maps.google.com/locationhistory。"</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"刪除定位記錄"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"這會刪除您透過這個裝置儲存在此 Google 帳戶中的所有定位記錄，且一旦刪除即無法復原。部分應用程式會因此而停止運作，包括 Google 即時資訊在內。"</string>
-    <string name="system_services" msgid="5754310941186053151">"服務"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"螢幕閱讀器"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"螢幕"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"互動控制項"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"音訊和畫面上的文字"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"實驗功能"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"服務"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"服務設定"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"高對比文字"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"粗體文字"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"色彩校正"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"經過這段閒置時間後，螢幕保護程式就會啟動。如果未選取螢幕保護程式，螢幕將自動關閉。"</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"閒置 <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>後"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"關閉螢幕"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>之後"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"在以下時間後關閉螢幕"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"允許關閉螢幕"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"播放媒體時"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"確認節約耗電量設定"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"請確認是否要將螢幕關閉延遲時間設為 <xliff:g id="SLEEP_TIME">%1$s</xliff:g>，這項設定可能會提高用電量。"</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"讓螢幕保持開啟 <xliff:g id="SLEEP_TIME">%1$s</xliff:g>可能使耗電量增加"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"停用節約耗電量設定"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"請確認是否要停用在播放媒體時關閉螢幕的設定，這麼做可能使耗電量增加。"</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"閒置時"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"觀看影視內容時"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"自動關閉電視"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"閒置時自動關閉電視"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"在播放媒體時自動關閉電視"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"在待機模式下限制網路連線"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"待機模式可減少使用能源"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"除非收到自動更新，否則電視在待機模式下不會連上網路。這麼做或許可減少電視用電量，但待機模式下可能無法使用投放和 Google 助理等功能。"</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"自動調整影片畫質，藉此降低行動數據用量"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"數據用量和快訊"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"你可以透過 Wi-Fi、乙太網路或手機的無線基地台連上網際網路。"</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"要開放讓其他藍牙裝置偵測嗎？"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"應用程式要求開放 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他藍牙裝置能偵測到你的電視。"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"不允許此操作"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"無法變更音量"</string>

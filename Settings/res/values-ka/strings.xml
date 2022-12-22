@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"ჩართულია"</string>
     <string name="disabled" msgid="4589065923272201387">"გათიშულია"</string>
     <string name="unavailable" msgid="1610732303812180196">"მიუწვდომელია"</string>
+    <string name="allow" msgid="6982558814345894019">"დაშვება"</string>
+    <string name="deny" msgid="8291577308813053917">"უარყოფა"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"შეთავაზებები"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"სწრაფი პარამეტრები"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"ძირითადი პარამეტრები"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"ხმა"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"აპები"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"მოწყობილობის პარამეტრები"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"მარტივი წვდომა"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"დისტანციური მართვის საშუალებები და აქსესუარები"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"ჩვენება და ხმა"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"დახმარება და გამოხმაურება"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"ყველას ნახვა"</string>
     <string name="microphone" msgid="7893752847683941214">"მიკროფონი"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"მიკროფონზე წვდომა"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"მიკროფონზე წვდომა თქვენს დისტანციური მართვის პულტზე"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"აპების წვდომა მიკროფონზე"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"მიკროფონზე წვდომა დაბლოკილია"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"განსაბლოკად თქვენი მოწყობილობის კონფიდენციალურობის ჩამრთველი გადაიტანეთ მიკროფონთან ისეთ პოზიციაზე, რომ შეიძლებოდეს მიკროფონზე წვდომა."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"კამერაზე წვდომა დაბლოკილია"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"განსაბლოკად თქვენი მოწყობილობის კონფიდენციალურობის ჩამრთველი გადაიტანეთ კამერასთან ისეთ პოზიციაზე, რომ შეიძლებოდეს კამერაზე წვდომა."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"მიკროფონზე წვდომა: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"როდესაც ჩართულია, ნებართვის მქონე ყველა აპსა და სერვისს შეუძლია წვდომა ამ მოწყობილობის ნებისმიერ მიკროფონზე.\n\nეს პარამეტრი არ იმოქმედებს მორგებული პროტოკოლის მქონე პერიფერიულ აუდიომოწყობილობებზე."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"როდესაც ჩართულია, მასზე წვდომა ექნება ყველა აპს და სერვისს, რომელსაც აქვს მიკროფონის გამოყენების უფლება.\n\nროდესაც გამორთულია, არცერთი აპი ან სერვისი ვერ შეძლებს მიკროფონზე წვდომას. მაგრამ თქვენ მაინც გექნებათ საშუალება ესაუბროთ თქვენს Google ასისტენტს დისტანციურ პულტზე ასისტენტის ღილაკზე დაჭერით.\n\nაუდიო მოწყობილობებს, რომლებიც იყენებენ მორგებულ პროტოკოლებს ტელევიზორთან კომუნიკაციისთვის, შესაძლოა ამ პარამეტრს არ შეეხოს გავლენა."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"მიკროფონი ჩართულია დისტანციური მართვის პულტზე"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google ასისტენტს შეუძლია თქვენი დისტანციური მართვის მიკროფონზე წვდომა. თქვენ შეძლებთ თქვენს ასისტენტს ესაუბროთ დისტანციურ პულტზე Google Assistant ღილაკზე დაჭერით."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"მიკროფონი გათიშულია დისტანციური მართვის პულტზე"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"თქვენ ვერ შეძლებთ თქვენს Google ასისტენტთან საუბარს თქვენი დისტანციური მართვის გამოყენებით. იმისათვის, რომ შეძლოთ Google Assistant ღილაკის გამოყენება, ჩართეთ მიკროფონზე წვდომა."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"კამერაზე წვდომა: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"როდესაც ჩართულია, ნებართვის მქონე ყველა აპსა და სერვისს შეუძლია წვდომა ამ მოწყობილობის ნებისმიერ კამერაზე.\n\nეს პარამეტრი არ იმოქმედებს კამერის მორგებული პროტოკოლის მქონე პერიფერიულ მოწყობილობებზე."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ჩართულია"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"როცა მდებარეობის ისტორია ჩართულია ამ ანგარიშისთვის, Google-ს შეუძლია შეინახოს თქვენი მდებარეობის მონაცემები თქვენი აპების მიერ გამოსაყენებლად.\n\nმაგალითად, Google Maps შეუძლია მოგაწოდოთ მიმართულებები, Google Now-ს შეუძლია შეგატყობინოთ სამგზავრო ტრაფიკის შესახებ.\n\nშეგიძლიათ ნებისმიერ დროს გამორთოთ მდებარეობის ისტორია, მაგრამ ამით ის ვერ წაიშლება. თქვენი მდებარეობის ისტორიის სანახავად და სამართავად იხილეთ maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"მდებარეობის ისტორიის წაშლა"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"ეს წაშლის მთელ მდებარეობის ისტორიას, რაც შენახულია ამ მოწყობილობიდან ამ Google-ის ანგარიშისთვის. ამ წაშლის დაბრუნება შეუძლებელია. ზოგიერთი აპი, მათ შორის, Google Now, შეწყვეტს მუშაობას."</string>
-    <string name="system_services" msgid="5754310941186053151">"სერვისები"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"ეკრანის წამკითხველები"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"ჩვენება"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"ინტერაქციის მართვის საშუალებები"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"აუდიო და ეკრანზე გამოტანილი ტექსტი"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"ექსპერიმენტული"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"სერვისები"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"სერვისის პარამეტრები"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"მაღალკონტრასტული ტექსტი"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"მუქი ტექსტი"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ფერთა კორექცია"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"ეკრანმზოგი უმოქმედობის მითითებული პერიოდის შემდეგ გაეშვება. თუ ეკრანმზოგი არ არის არჩეული, ეკრანი გამოირთვება."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"უმოქმედობის <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> შემდეგ"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"ეკრანის გამორთვა"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>-ის შემდეგ"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"ეკრანის გამორთვამდე"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"ეკრანის გამორთვის დაშვება"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"მედიაფაილის დაკვრის განმავლობაში"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"დაადასტურეთ ენერგიის დამზოგის პარამეტრი"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"გთხოვთ, დაადასტუროთ ახალი პარამეტრი (<xliff:g id="SLEEP_TIME">%1$s</xliff:g>), რომელმაც შეიძლება ენერგიის მოხმარება გაზარდოს."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"ეკრანის ჩართულად დატოვება <xliff:g id="SLEEP_TIME">%1$s</xliff:g> ენერგიის მოხმარებას გაზრდის"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"ენერგიის დამზოგის პარამეტრის გათიშვა"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"დაადასტურეთ, რათა თავიდან აიცილოთ ეკრანის გამორთვა ყურების პროცესში, რაც პოტენციურად ენერგიის მოხმარების გაზრდას იწვევს."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"უმოქმედობისას"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"ყურებისას"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"ტელევიზორის ავტომატურად გამორთვა"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"ტელევიზორის ავტომატურად გამორთვა, როდესაც არ არის აქტიური"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"ტელევიზორის ავტომატურად გამორთვა ყურებისას"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"შეზღუდეთ ქსელთან კავშირი მოლოდინის რეჟიმში"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"ნაკლებ ენერგიას ხარჯავს მოლოდინის რეჟიმში"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"თქვენი ტელევიზორი გაითიშება თქვენი ქსელისგან როდესაც მოლოდინის რეჟიმშია, გარდა ავტომატური განახლებების მიღების დროს. ამან შეიძლება შეამციროს თქვენი ტელევიზორის ენერგიის მოხმარება, თუმცა ეს ასევე ნიშნავს, რომ თქვენ ვერ შეძლებთ გამოიყენოთ ფუნქციები, როგორიცაა Cast და Google Assistant მოლოდინის რეჟიმში."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"მობილური ინტერნეტის ნაკლებად მოსახმარად ავტომატურად დააკორექტირეთ ვიდეოს ხარისხი"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"მონაცემთა მოხმარება და გაფრთხილებები"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"ინტერნეტთან დაკავშირება შეგიძლიათ Wi-Fi-ის, Ethernet-ის ან თქვენი ტელეფონის უსადენო ქსელის მეშვეობით."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"გსურთ, გახადოთ ის ხილული სხვა Bluetooth მოწყობილობისთვის?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"აპს სურს, გახადოს თქვენი ტაბლეტი ხილვადი სხვა Bluetooth მოწყობილობებისთვის <xliff:g id="TIMEOUT">%1$d</xliff:g> წამით."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"მოქმედება დაუშვებელია"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"ხმის შეცვლა ვერ მოხერხდა"</string>

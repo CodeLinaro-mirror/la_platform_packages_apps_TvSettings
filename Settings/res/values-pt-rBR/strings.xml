@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Ativado"</string>
     <string name="disabled" msgid="4589065923272201387">"Desativado"</string>
     <string name="unavailable" msgid="1610732303812180196">"Indisponível"</string>
+    <string name="allow" msgid="6982558814345894019">"Permitir"</string>
+    <string name="deny" msgid="8291577308813053917">"Negar"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Sugestões"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Configurações rápidas"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Configurações gerais"</string>
@@ -592,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Ver todos"</string>
     <string name="microphone" msgid="7893752847683941214">"Microfone"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Acesso ao microfone"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Acesso ao microfone no controle remoto"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Acesso dos apps ao microfone"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Acesso ao microfone bloqueado"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Para desbloquear, mude a chave de privacidade do dispositivo para autorizar o acesso ao microfone."</string>
@@ -601,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Acesso à câmera bloqueado"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Para desbloquear, mude a chave de privacidade do dispositivo para autorizar o acesso à câmera."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Acesso ao microfone: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Quando essa opção está ativada, todos os apps e serviços que têm permissão podem acessar qualquer microfone no dispositivo.\n\nOs periféricos de áudio com protocolo personalizado não são afetados."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Quando ativado, todos os apps e serviços autorizados a usar o microfone vão ter acesso a ele.\n\nQuando desativado, nenhum app ou serviço poderá acessar o microfone. Talvez você ainda possa pressionar o botão Google Assistente no controle remoto para falar com ele.\n\nOs dispositivos de áudio que usam protocolos personalizados para se comunicarem com a TV podem não ser afetados por essa configuração."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"O microfone está ativado no controle remoto"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"O Google Assistente pode acessar o microfone no controle remoto. Você poderá falar com ele pressionando o botão Google Assistente no controle."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"O microfone está desativado no controle remoto"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Não vai ser possível falar com o Google Assistente usando o controle remoto. Para usar o botão Google Assistente, ative o acesso ao microfone."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Acesso à câmera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Quando essa opção está ativada, todos os apps e serviços que têm permissão podem acessar qualquer câmera no dispositivo.\n\nOs periféricos de câmera com protocolo personalizado não são afetados."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Ativado"</string>
@@ -627,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Quando o Histórico de localização está ativado nesta conta, o Google pode armazenar os dados de localização do dispositivo para serem usados pelos apps.\n\nPor exemplo, o Google Maps pode apresentar rotas e o Google Now pode informar sobre as condições do trânsito.\n\nVocê pode desativar o Histórico de localização a qualquer momento, mas ao fazê-lo, ele não será excluído. Para ver e gerenciar seu Histórico de localização, acesse maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Excluir histórico de localização"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"O histórico será excluído e alguns apps pararão de funcionar. Não é possível desfazer."</string>
-    <string name="system_services" msgid="5754310941186053151">"Serviços"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Leitores de tela"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Tela"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Controles de interação"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Áudio e texto na tela"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Experimental"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Serviços"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Configurações do serviço"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Texto em alto contraste"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Negrito"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Correção de cor"</string>
@@ -906,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"O protetor de tela entra em funcionamento após esse período de inatividade. Se nenhum protetor de tela estiver selecionado, a tela será desligada."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"Após <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> de inatividade"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Desligar a tela"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"Após <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Desligar a tela após"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Permitir que a tela seja desligada"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Durante a reprodução de mídia"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Confirmar configuração de Economia de energia"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Confirme a nova configuração de <xliff:g id="SLEEP_TIME">%1$s</xliff:g>. Isso pode aumentar o uso de energia."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Deixar a tela ligada por <xliff:g id="SLEEP_TIME">%1$s</xliff:g> pode aumentar o uso de energia"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Desativar a configuração de economia de energia"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Confirme para evitar que a tela desligue enquanto você estiver assistindo. A tela ligada aumenta o uso de energia."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Durante a inatividade"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Durante a reprodução de mídia"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Desligar a TV automaticamente"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Desligar a TV automaticamente quando estiver em inatividade"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Desligar a TV automaticamente enquanto estiver assistindo"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limitar conexão de rede no modo de espera"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Usa menos energia no modo de espera"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Sua TV será desconectada da rede quando entrar no modo de espera, exceto ao receber atualizações automáticas. Isso pode diminuir o uso de energia da TV, mas também significa que talvez não seja possível usar funções como a transmissão e o Google Assistente no modo de espera."</string>
@@ -1015,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Ajusta automaticamente a qualidade de vídeo para usar menos dados móveis"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Alertas e uso de dados"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"É possível se conectar à Internet por Wi-Fi, Ethernet ou pelo ponto de acesso do smartphone."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Ficar visível para outros dispositivos Bluetooth?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Um app quer tornar sua TV visível para outros dispositivos Bluetooth por <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Ação não permitida"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Não é possível alterar o volume"</string>

@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Enabled"</string>
     <string name="disabled" msgid="4589065923272201387">"Disabled"</string>
     <string name="unavailable" msgid="1610732303812180196">"Unavailable"</string>
+    <string name="allow" msgid="6982558814345894019">"Allow"</string>
+    <string name="deny" msgid="8291577308813053917">"Deny"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Suggestions"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Quick Settings"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"General Settings"</string>
@@ -188,7 +190,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Cancel"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Clear cached data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"This will clear cached data for all apps."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -592,16 +594,21 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"See all"</string>
     <string name="microphone" msgid="7893752847683941214">"Microphone"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Microphone access"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Microphone access on your remote"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"App access to microphone"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Microphone access blocked"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"To unblock, move the privacy switch on your device to the microphone \'on position\' to allow microphone access."</string>
-    <string name="camera" msgid="1226671478936288283">"camera"</string>
+    <string name="camera" msgid="1226671478936288283">"Camera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Camera access"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"App access to camera"</string>
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Camera access blocked"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"To unblock, move the privacy switch on your device to the camera\'s \'on position\' to allow camera access."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Microphone access: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"When turned on, all apps and services with permission can access any microphone on this device.\n\nAudio peripherals with a custom protocol will not be affected by this setting."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"When turned on, all apps and services that are allowed to use the microphone will be able to access it.\n\nWhen turned off, no apps or services will be able to access the microphone. But you may still be able to talk to your Google Assistant by pressing the Assistant button on your remote.\n\nAudio devices using custom protocols for communicating with the TV may not be affected by this setting."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Microphone enabled on remote"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google Assistant is able to access the microphone on your remote. You will be able to talk to your Assistant by pressing the Google Assistant button on your remote."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Microphone disabled on remote"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"You will not be able to talk to your Google Assistant using your remote. To be able to use the Google Assistant button, enable microphone access."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Camera access: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"When turned on, all apps and services with permission can access any camera on this device.\n\nCamera peripherals with a custom protocol will not be affected by this setting."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"On"</string>
@@ -627,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"When Location History is turned on for this account, Google can store your device\'s location data for use by your apps.\n\nFor example, Google Maps can give you directions, and Google Now can inform you about commute traffic.\n\nYou can turn off Location History at any time, but doing so doesn\'t delete it. To view and manage your Location History, visit maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Delete location history"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"This will delete all Location History has stored from this device for this Google Account. You can\'t undo this deletion. Some apps, including Google Now, will stop working."</string>
-    <string name="system_services" msgid="5754310941186053151">"Services"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Screen readers"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Display"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Interaction controls"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Audio &amp; on-screen text"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Experimental"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Services"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Service settings"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"High-contrast text"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Bold text"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Colour correction"</string>
@@ -906,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Screen saver begins after this period of inactivity. If no screen saver is selected, the display turns off."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"After <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> of inactivity"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Turn off display"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"After <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Turn off display after"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Allow turning screen off"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"During media playback"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Confirm energy saver setting"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Please confirm new setting to <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, which has the potential for increased energy use."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Leaving your display on for <xliff:g id="SLEEP_TIME">%1$s</xliff:g> may increase energy use"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Disable energy saver setting"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Please confirm to prevent the display from turning off while watching, which has the potential for increased energy use."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"When inactive"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"When watching"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Automatically turn off TV"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Automatically turn off TV when inactive"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Automatically turn off TV when watching"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limit network connection in standby"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Uses less energy in standby mode"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Your TV will be disconnected from your network when in standby mode, except to receive automatic updates. This may decrease your TV’s energy use, though it also means you may not be able to use functions such as Cast and Google Assistant while in standby."</string>
@@ -1015,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Automatically adjust video quality to use less mobile data"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Data usage and alerts"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"You can connect to the Internet with Wi-Fi, Ethernet or your phone\'s hotspot."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Make visible to other Bluetooth devices?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"An app wants to make your TV visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Action not allowed"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Can’t change volume"</string>

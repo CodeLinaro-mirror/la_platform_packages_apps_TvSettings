@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Didayakan"</string>
     <string name="disabled" msgid="4589065923272201387">"Dilumpuhkan"</string>
     <string name="unavailable" msgid="1610732303812180196">"Tidak tersedia"</string>
+    <string name="allow" msgid="6982558814345894019">"Benarkan"</string>
+    <string name="deny" msgid="8291577308813053917">"Tolak"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Cadangan"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Tetapan Pantas"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Tetapan Umum"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Bunyi"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Apl"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Pilihan Peranti"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Kebolehaksesan"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Alat Kawalan Jauh &amp; aksesori"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Paparan &amp; Bunyi"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Bantuan &amp; Maklum Balas"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Lihat semua"</string>
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Akses mikrofon"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Akses mikrofon pada alat kawalan jauh anda"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Akses apl kepada mikrofon"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Akses mikrofon disekat"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Untuk menyahsekat mikrofon, gerakkan suis privasi pada peranti anda kepada kedudukan \"mikrofon hidup\" untuk membenarkan akses mikrofon."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Akses kamera disekat"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Untuk menyahsekat kamera, gerakkan suis privasi pada peranti anda kepada kedudukan \"kamera hidup\" untuk membenarkan akses kamera."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Akses Mikrofon: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Apabila dihidupkan, semua apl dan perkhidmatan yang mempunyai kebenaran boleh mengakses sebarang mikrofon pada peranti ini.\n\nPersisian audio dengan protokol tersuai tidak akan terjejas dengan tetapan ini."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Apabila dihidupkan, semua apl dan perkhidmatan yang dibenarkan untuk menggunakan mikrofon akan dapat mengakses mikrofon.\n\nApabila dimatikan, tiada app atau perkhidmatan yang dapat mengakses mikrofon. Namun, anda masih boleh bercakap dengan Google Assistant anda dengan menekan butang Assistant pada alat kawalan jauh anda.\n\nPeranti audio yang menggunakan protokol tersuai untuk berkomunikasi dengan TV mungkin tidak terjejas dengan tetapan ini."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Mikrofon didayakan pada alat kawalan jauh"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google Assistant dapat mengakses mikrofon pada alat kawalan jauh anda. Anda akan dapat bercakap dengan Assistant anda dengan menekan butang Google Assistant pada alat kawalan jauh anda."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofon dilumpuhkan pada alat kawalan jauh"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Anda tidak akan dapat bercakap dengan Google Assistant anda menggunakan alat kawalan jauh anda. Untuk menggunakan butang Google Assistant, dayakan akses mikrofon."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Akses Kamera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Apabila dihidupkan, semua apl dan perkhidmatan yang mempunyai kebenaran boleh mengakses sebarang kamera pada peranti ini.\n\nPersisian kamera dengan protokol tersuai tidak akan terjejas dengan tetapan ini."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Hidup"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Apabila Sejarah Lokasi dihidupkan untuk akaun ini, Google dapat menyimpan data lokasi peranti anda untuk digunakan oleh apl anda.\n\nContohnya, Google Maps dapat memberi anda arah, manakala Google Now dapat memaklumkan anda tentang sebarang trafik pergi dan balik.\n\nAnda boleh mematikan Sejarah Lokasi pada bila-bila masa tetapi tindakan itu tidak memadamkan datanya. Untuk melihat dan mengurus Sejarah Lokasi anda, lawati maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Padamkan sejarah lokasi"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Ini akan memadamkan Sejarah Lokasi dan tidak boleh dibuat asal. Sesetengah aplikasi tidak berfungsi."</string>
-    <string name="system_services" msgid="5754310941186053151">"Perkhidmatan"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Pembaca Skrin"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Paparan"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Kawalan Interaksi"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Audio &amp; Teks Pada Skrin"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Percubaan"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Perkhidmatan"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Tetapan perkhidmatan"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Teks kontras tinggi"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Teks huruf tebal"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Pembetulan warna"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Penyelamat skrin bermula selepas tempoh tidak aktif ini. Paparan dimatikan jika tiada penyelamat skrin dipilih."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"Selepas <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> tiada aktiviti"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Matikan paparan"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"Selepas <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Matikan paparan selepas"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Benarkan skrin dimatikan"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Semasa main balik media"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Sahkan tetapan Penjimat Tenaga"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Sila sahkan tetapan baharu kepada <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, yang berpotensi untuk peningkatan penggunaan tenaga."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Tindakan membiarkan paparan anda hidup selama <xliff:g id="SLEEP_TIME">%1$s</xliff:g> mungkin meningkatkan penggunaan tenaga"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Lumpuhkan tetapan penjimat tenaga"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Sila sahkan untuk menghalang peranti daripada dimatikan semasa menonton, yang mampu meningkatkan penggunaan tenaga."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Apabila tidak aktif"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Apabila menonton"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Matikan TV secara automatik"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Matikan TV secara automatik apabila tidak aktif"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Matikan TV secara automatik apabila menonton"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Hadkan sambungan rangkaian dlm tunggu sedia"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Menggunakan kurang tenaga dalam mod tunggu sedia"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"TV anda akan diputuskan sambungan daripada rangkaian anda semasa dalam mod tunggu sedia, kecuali untuk menerima kemaskinian automatik. Tetapan ini mungkin mengurangkan penggunaan tenaga TV anda, namun ini juga bermakna anda mungkin tidak dapat menggunakan fungsi seperti Hantar dan Google Assistant semasa dalam mod tunggu sedia."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Laraskan kualiti video secara automatik untuk menggunakan kurang data mudah alih"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Penggunaan data dan makluman"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Anda boleh menyambung ke Internet dengan Wi-Fi, Ethernet atau tempat liputan telefon anda."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Perlihatkan kepada peranti Bluetooth yang lain?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Terdapat apl yang mahu memperlihatkan TV anda kepada peranti Bluetooth yang lain selama <xliff:g id="TIMEOUT">%1$d</xliff:g> saat."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Tindakan tidak dibenarkan"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Kelantangan tidak boleh ditukar"</string>

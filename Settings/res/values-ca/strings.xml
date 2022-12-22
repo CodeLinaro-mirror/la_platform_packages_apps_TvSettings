@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Activat"</string>
     <string name="disabled" msgid="4589065923272201387">"Desactivat"</string>
     <string name="unavailable" msgid="1610732303812180196">"No disponible"</string>
+    <string name="allow" msgid="6982558814345894019">"Permet"</string>
+    <string name="deny" msgid="8291577308813053917">"Denega"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Suggeriments"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Configuració ràpida"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Configuració general"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"So"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Aplicacions"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Preferències del dispositiu"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Accessibilitat"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Comandaments i accessoris"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Pantalla i so"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ajuda i suggeriments"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Mostra-ho tot"</string>
     <string name="microphone" msgid="7893752847683941214">"Micròfon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Accés al micròfon"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Accés al micròfon del comandament"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Accés de les aplicacions al micròfon"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Accés al micròfon bloquejat"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Per desbloquejar-lo, mou l\'interruptor de privadesa del dispositiu a la posició Micròfon activat per permetre l\'accés al micròfon."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Accés a la càmera bloquejat"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Per desbloquejar-lo, mou l\'interruptor de privadesa del dispositiu a la posició Càmera activada per permetre l\'accés a la càmera."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Accés al micròfon: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Quan s\'activa, tots els serveis i aplicacions amb permís poden accedir a qualsevol micròfon d\'aquest dispositiu.\n\nAquesta opció de configuració no afectarà els perifèrics d\'àudio que disposin d\'un protocol personalitzat."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Si l\'actives, totes les aplicacions i els serveis que poden utilitzar el micròfon podran accedir-hi.\n\nSi el desactives, cap aplicació ni servei podrà accedir al micròfon. Però encara podràs parlar amb el teu Assistent de Google fent clic al botó de l\'Assistent del comandament.\n\nPot ser que els dispositius d\'àudio que fan servir protocols personalitzats per comunicar-se amb la televisió no estiguin afectats per aquesta opció de configuració."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"El micròfon està activat al comandament"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"L\'Assistent de Google pot accedir al micròfon del comandament. Podràs parlar amb el teu Assistent fent clic al botó de l\'Assistent de Google del comandament."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"El micròfon està desactivat al comandament"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"No podràs parlar amb el teu Assistent de Google amb el comandament. Per poder utilitzar el botó de l\'Assistent de Google, has d\'activar l\'accés al micròfon."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Accés a la càmera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Quan s\'activa, tots els serveis i aplicacions amb permís poden accedir a qualsevol càmera d\'aquest dispositiu.\n\nAquesta opció de configuració no afectarà els perifèrics de càmera que disposin d\'un protocol personalitzat."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Activat"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Si l\'historial d\'ubicacions està activat per a aquest compte, Google pot desar les dades d\'ubicació del dispositiu perquè les teves aplicacions les utilitzin.\n\nPer exemple, Google Maps et pot donar indicacions i Google Now et pot informar sobre l\'estat del trànsit al trajecte de casa a la feina.\n\nPots desactivar l\'historial d\'ubicacions en qualsevol moment, però aquesta acció no n\'esborra les dades. Per consultar i gestionar l\'historial d\'ubicacions, accedeix a maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Suprimeix l\'historial d\'ubicacions"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Així se suprimirà tot l\'historial d\'ubicacions d\'aquest dispositiu que hi hagi emmagatzemat en aquest compte de Google. L\'acció no es pot desfer. Algunes aplicacions, com ara Google Now, deixaran de funcionar."</string>
-    <string name="system_services" msgid="5754310941186053151">"Serveis"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Lectors de pantalla"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Pantalla"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Controls d\'interacció"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Àudio i text en pantalla"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Experimental"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Serveis"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Configuració del servei"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Text d\'alt contrast"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Text en negreta"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Correcció de color"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"L\'estalvi de pantalla s\'inicia després d\'aquest període d\'inactivitat. Si no se\'n selecciona cap, la pantalla s\'apaga."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> d\'inactivitat"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Desactiva la pantalla"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"Després de: <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Temps per desactivar la pantalla"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Permet desactivar la pantalla"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Durant la reproducció de contingut multimèdia"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Confirma la configuració d\'Estalvi d\'energia"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Confirma que la nova configuració és <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, que pot incrementar l\'ús d\'energia."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Si deixes la pantalla activada durant <xliff:g id="SLEEP_TIME">%1$s</xliff:g> pot ser que augmenti el consum d\'energia"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Desactiva l\'opció de configuració d\'estalvi d\'energia"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Confirma que vols evitar que la pantalla es desactivi mentre mires contingut, cosa que pot incrementar l\'ús d\'energia."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Mentre estigui inactiu"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Mentre estigui mirant contingut"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Desactiva el televisor automàticament"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Desactiva el televisor automàticament quan estigui inactiu"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Desactiva el televisor automàticament en mirar"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limita la connexió a la xarxa en espera"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Consumeix menys energia en mode d\'espera"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"El televisor es desconnectarà de la xarxa quan estigui en mode d\'espera, excepte per rebre actualitzacions automàtiques. Això pot disminuir el consum d\'energia del televisor, però també implica que pot ser que no puguis utilitzar funcions com Cast i l\'Assistent de Google en mode d\'espera."</string>
@@ -1012,10 +1027,12 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Micròfons de la gravació"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"No s\'ha pogut començar a gravar àudio."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"No s\'ha pogut gravar àudio."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Economitzador de dades"</string>
+    <string name="title_data_saver" msgid="7500278996154002792">"Estalvi de dades"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"Ajusta la qualitat del vídeo automàticament per utilitzar menys dades mòbils"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Alertes i ús de dades"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Pots connectar-te a Internet per Wi‑Fi, Ethernet o mitjançant el punt d\'accés Wi‑Fi del teu telèfon."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Vols que sigui visible per a altres dispositius Bluetooth?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Una aplicació vol que el televisor sigui visible per a la resta de dispositius Bluetooth durant <xliff:g id="TIMEOUT">%1$d</xliff:g> segons."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Acció no permesa"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"No es pot canviar el volum"</string>

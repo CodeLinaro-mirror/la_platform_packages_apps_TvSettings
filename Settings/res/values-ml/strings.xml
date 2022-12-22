@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"പ്രവർത്തനക്ഷമമാക്കി"</string>
     <string name="disabled" msgid="4589065923272201387">"പ്രവർത്തനരഹിതമാക്കി"</string>
     <string name="unavailable" msgid="1610732303812180196">"ലഭ്യമല്ല"</string>
+    <string name="allow" msgid="6982558814345894019">"അനുവദിക്കുക"</string>
+    <string name="deny" msgid="8291577308813053917">"നിരസിക്കുക"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"നിർദ്ദേശങ്ങൾ"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"ദ്രുത ക്രമീകരണം"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"പൊതു ക്രമീകരണം"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"ശബ്‌ദം"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"ആപ്പുകൾ"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"ഉപകരണ മുൻഗണനകൾ"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"ഉപയോഗസഹായി"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"റിമോട്ടുകളും ആക്‌സസറികളും"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"ഡിസ്‌പ്ലേയും ശബ്‌ദവും"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"സഹായവും ഫീഡ്‌ബാക്കും"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"എല്ലാം കാണുക"</string>
     <string name="microphone" msgid="7893752847683941214">"മൈക്രോഫോൺ"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"മൈക്രോഫോൺ ആക്‌സസ്"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"നിങ്ങളുടെ റിമോട്ടിലെ മൈക്രോഫോൺ ആക്സസ്"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"മൈക്രോഫോണിലേക്കുള്ള ആപ്പ് ആക്സസ്"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"മൈക്രോഫോൺ ആക്‌സസ് ബ്ലോക്ക് ചെയ്തിരിക്കുന്നു"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"അൺബ്ലോക്ക് ചെയ്യാൻ, മൈക്രോഫോൺ ആക്സസ് അനുവദിക്കുന്നതിന്, മൈക്രോഫോൺ ഓണാണ് എന്ന സ്ഥാനത്തേക്ക് നിങ്ങളുടെ ഉപകരണത്തിലെ സ്വകാര്യത മാറ്റുക."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"ക്യാമറാ ആക്സസ് ബ്ലോക്ക് ചെയ്തിരിക്കുന്നു"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"അൺബ്ലോക്ക് ചെയ്യാൻ, ക്യാമറാ ആക്സസ് അനുവദിക്കുന്നതിന്, ക്യാമറ ഓണാണ് എന്ന സ്ഥാനത്തേക്ക് നിങ്ങളുടെ ഉപകരണത്തിലെ സ്വകാര്യത മാറ്റുക."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"മൈക്രോഫോൺ ആക്‌സസ്: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"ഓണായിരിക്കുമ്പോൾ, അനുമതിയുള്ള എല്ലാ ആപ്പുകൾക്കും സേവനങ്ങൾക്കും ഈ ഉപകരണത്തിലെ ഏത് മൈക്രോഫോണും ആക്സസ് ചെയ്യാനാകും.\n\nഇഷ്ടാനുസൃത പ്രോട്ടോക്കോളുള്ള ഓഡിയോ പെരിഫറലുകളെ ഈ ക്രമീകരണം ബാധിക്കില്ല."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"ഓൺ ചെയ്തിരിക്കുമ്പോൾ, മൈക്രോഫോൺ ഉപയോഗിക്കാൻ അനുവദിച്ചിട്ടുള്ള എല്ലാ ആപ്പുകൾക്കും സേവനങ്ങൾക്കും അത് ആക്സസ് ചെയ്യാനാകും.\n\nഓഫ് ചെയ്തിരിക്കുമ്പോൾ, ഒരു ആപ്പുകൾക്കും സേവനങ്ങൾക്കും മൈക്രോഫോൺ ആക്സസ് ചെയ്യാനാകില്ല. എന്നാൽ റിമോട്ടിലെ Assistant ബട്ടൺ അമർത്തിക്കൊണ്ട് നിങ്ങൾക്ക് തുടർന്നും Google Assistant-നോട് സംസാരിക്കാനായേക്കും.\n\nടിവിയുമായി ആശയവിനിമയം നടത്താൻ ഇഷ്ടാനുസൃത പ്രോട്ടോക്കോളുകൾ ഉപയോഗിക്കുന്ന ഓഡിയോ ഉപകരണങ്ങളെ ഈ ക്രമീകരണം ബാധിച്ചേക്കില്ല."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"റിമോട്ടിൽ മൈക്രോഫോൺ പ്രവർത്തനക്ഷമമാക്കി"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"നിങ്ങളുടെ റിമോട്ടിൽ മൈക്രോഫോൺ ആക്സസ് ചെയ്യാൻ Google Assistant-ന് കഴിയും. നിങ്ങളുടെ റിമോട്ടിലെ Google Assistant ബട്ടൺ അമർത്തിക്കൊണ്ട് Assistant-നോട് സംസാരിക്കാൻ നിങ്ങൾക്കാകും."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"റിമോട്ടിൽ മൈക്രോഫോൺ പ്രവർത്തനക്ഷമമാക്കി"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"റിമോട്ട് ഉപയോഗിച്ച് നിങ്ങളുടെ Google Assistant-നോട് സംസാരിക്കാനാകില്ല. Google Assistant ഉപയോഗിക്കാൻ, മൈക്രോഫോൺ ആക്സസ് പ്രവർത്തനക്ഷമമാക്കുക."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"ക്യാമറാ ആക്‌സസ്: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"ഓണായിരിക്കുമ്പോൾ, അനുമതിയുള്ള എല്ലാ ആപ്പുകൾക്കും സേവനങ്ങൾക്കും ഈ ഉപകരണത്തിലെ ഏത് ക്യാമറയും ആക്സസ് ചെയ്യാനാകും.\n\nഇഷ്ടാനുസൃത പ്രോട്ടോക്കോളുള്ള ക്യാമറാ പെരിഫറലുകളെ ഈ ക്രമീകരണം ബാധിക്കില്ല."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ഓണാണ്"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"ഈ അക്കൗണ്ടിനായി ലൊക്കേഷൻ ചരിത്രം ഓണായിരിക്കുമ്പോൾ, നിങ്ങളുടെ ആപ്പുകൾക്ക് ഉപയോഗിക്കുന്നതിനായി Google-ന് നിങ്ങളുടെ ഉപകരണത്തിന്റെ ലൊക്കേഷൻ ഡാറ്റ സംഭരിക്കാനാകും.\n\nഉദാഹരണത്തിന്, Google Maps-ന് വഴികൾ നൽകാനും Google Now എന്നതിന് യാത്രാമാർഗത്തിലെ ട്രാഫിക്കിനെക്കുറിച്ച് അറിയിക്കാനുമാകും.\n\nഎപ്പോൾ വേണമെങ്കിലും നിങ്ങൾക്ക് ലൊക്കേഷൻ ചരിത്രം ഓഫാക്കാനാകുമെങ്കിലും അങ്ങനെ ചെയ്യുന്നത് അതിനെ ഇല്ലാതാക്കുന്നില്ല. നിങ്ങളുടെ ലൊക്കേഷൻ ചരിത്രം കാണാനും നിയന്ത്രിക്കാനും, maps.google.com/locationhistory സന്ദർശിക്കുക."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"ലൊക്കേഷൻ ചരിത്രം ഇല്ലാതാക്കുക"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"ഈ Google അക്കൗണ്ടിനായി ഈ ഉപകരണത്തിൽ സംഭരിച്ച എല്ലാ ലൊക്കേഷൻ ചരിത്രത്തെയും ഇത് ഇല്ലാതാക്കും. ഈ ഇല്ലാതാക്കൽ നിങ്ങൾക്ക് പഴയപടിയാക്കാനാവില്ല. \'Google നൗ\' ഉൾപ്പടെയുള്ള ചില അപ്ലിക്കേഷനുകൾ പ്രവർത്തനം നിർത്തും."</string>
-    <string name="system_services" msgid="5754310941186053151">"സേവനങ്ങള്‍"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"സ്‌ക്രീൻ റീഡറുകൾ"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"ഡിസ്‌പ്ലേ"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"ഇടപെടൽ നിയന്ത്രണങ്ങൾ"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"ഓഡിയോയും സ്‌ക്രീനിലെ ടെക്‌സ്‌റ്റും"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"പരീക്ഷണാത്മകം"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"സേവനങ്ങൾ"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"സേവന ക്രമീകരണങ്ങള്‍"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ദൃശ്യതീവ്രതയേറിയ ടെക്‌സ്റ്റ്"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"ബോൾഡ് ടെക്സ്റ്റ്"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"നിറം ശരിയാക്കൽ"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"ഈ നിഷ്‌ക്രിയത്വ കാലയളവിനുശേഷം സ്ക്രീൻ സേവർ ആരംഭിക്കുന്നു. സ്ക്രീൻ സേവറൊന്നും തിരഞ്ഞെടുത്തില്ലെങ്കിൽ, ഡിസ്പ്ലേ ഓഫാകുന്നതാണ്."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> നിഷ്‌ക്രിയത്വത്തിന് ശേഷം"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"ഡിസ്പ്ലേ ഓഫാക്കുക"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>-ന് ശേഷം"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"ശേഷം ഡിസ്‌പ്ലേ ഓഫാക്കുക"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"സ്‌ക്രീൻ ഓഫാകാൻ അനുവദിക്കുക"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"മീഡിയ പ്ലേബാക്ക് ചെയ്യുമ്പോൾ"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"എനർജി സേവർ ക്രമീകരണം സ്ഥിരീകരിക്കുക"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"കൂടുതൽ വൈദ്യുതി ഉപയോഗിക്കാൻ സാധ്യതയുള്ള <xliff:g id="SLEEP_TIME">%1$s</xliff:g> ആയി പുതിയ ക്രമീകരണം സജ്ജീകരിക്കണോ എന്ന് സ്ഥിരീകരിക്കുക."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"<xliff:g id="SLEEP_TIME">%1$s</xliff:g> സമയത്തേക്ക് നിങ്ങളുടെ ഡിസ്പ്ലേ ഓണായിരിക്കുന്നത് വൈദ്യുതി ഉപഭോഗം വർദ്ധിപ്പിച്ചേക്കാം"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"എനർജി സേവർ ക്രമീകരണം പ്രവർത്തനരഹിതമാക്കുക"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"കണ്ടുകൊണ്ടിരിക്കുമ്പോൾ ഡിസ്പ്ലേ ഓഫായി പോകുന്നതിൽ നിന്ന് തടയാൻ സ്ഥിരീകരിക്കുക, ഇത് ഊർജ്ജ ഉപഭോഗം കൂട്ടാനുള്ള സാധ്യതയുണ്ട്."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"നിർജ്ജീവമായിരിക്കുമ്പോൾ"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"കാണുമ്പോൾ"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"ടിവി സ്വയമേവ ഓഫാക്കുക"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"നിർജ്ജീവമായിരിക്കുമ്പോൾ സ്വയമേവ ഓഫാക്കുക"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"കാണുമ്പോൾ ടിവി സ്വയമേവ ഓഫാക്കുക"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"സ്റ്റാൻഡ്ബൈയിൽ പരിമിത നെറ്റ്‌വർക്ക് കണക്ഷൻ"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"സ്റ്റാൻഡ്ബൈ മോഡിൽ ഊർജ്ജ ഉപയോഗം കുറയ്ക്കുന്നു"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"സ്റ്റാൻഡ്ബൈ മോഡിലായിരിക്കുമ്പോൾ നിങ്ങളുടെ നെറ്റ്‌വർക്കിൽ നിന്ന് ടിവി കണക്ഷൻ വിച്ഛേദിക്കും, എന്നിരുന്നാലും സ്വയമേവയുള്ള അപ്ഡേറ്റുകൾ തുടർന്നും ലഭിക്കും. ഇത് നിങ്ങളുടെ ടിവിയുടെ ഊർജ്ജ ഉപയോഗം കുറയ്ക്കാൻ സഹായിക്കും, അതായത് സ്റ്റാൻഡ്ബൈ മോഡിൽ ആയിരിക്കുമ്പോൾ Cast, Google Assistant എന്നിവ പോലുള്ള ഫംഗ്ഷനുകൾ ഉപയോഗിക്കാനായേക്കില്ല എന്നുകൂടിയാണ് ഇതിനർത്ഥം."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"കുറഞ്ഞ മൊബെെൽ ഡാറ്റ ഉപയോഗിക്കുന്നതിന്, വീഡിയോ നിലവാരം സ്വയമേവ ക്രമീകരിക്കുക"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"ഡാറ്റാ ഉപയോഗവും മുന്നറിയിപ്പുകളും"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"വെെഫെെ, ഇതർനെറ്റ്, അല്ലെങ്കിൽ ഫോണിന്റെ ഹോട്ട്‌സ്‌പോട്ട് ഉപയോഗിച്ച് ഇന്റർനെറ്റിലേക്ക് കണക്റ്റ് ചെയ്യാം."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"മറ്റ് Bluetooth ഉപകരണങ്ങൾക്ക് ദൃശ്യമാക്കണോ?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ഒരു ആപ്പ് <xliff:g id="TIMEOUT">%1$d</xliff:g> സെക്കൻഡ് സമയത്തേക്ക് നിങ്ങളുടെ ടിവി മറ്റ് Bluetooth ഉപകരണങ്ങൾക്ക് ദൃശ്യമാക്കാൻ താൽപ്പര്യപ്പെടുന്നു."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"പ്രവർത്തനം അനുവദനീയമല്ല"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"വോളിയം മാറ്റാനാകില്ല"</string>

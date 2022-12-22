@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"चालू है"</string>
     <string name="disabled" msgid="4589065923272201387">"बंद है"</string>
     <string name="unavailable" msgid="1610732303812180196">"यह सेटिंग उपलब्ध नहीं है"</string>
+    <string name="allow" msgid="6982558814345894019">"अनुमति दें"</string>
+    <string name="deny" msgid="8291577308813053917">"अनुमति न दें"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"सुझाव"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"क्विक सेटिंग"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"सामान्य सेटिंग"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"आवाज़"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"ऐप्लिकेशन"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"डिवाइस से जुड़ी पसंद"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"सुलभता"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"रिमोट और एक्सेसरी"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"डिसप्ले और आवाज़"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"सहायता और सुझाव"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"सभी ऐप्लिकेशन देखें"</string>
     <string name="microphone" msgid="7893752847683941214">"माइक्रोफ़ोन"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"माइक्रोफ़ोन का ऐक्सेस"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"रिमोट पर मौजूद माइक्रोफ़ोन का ऐक्सेस"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"ऐप्लिकेशन के लिए माइक्रोफ़ोन ऐक्सेस करने की अनुमति"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"माइक्रोफ़ोन का ऐक्सेस ब्लॉक किया गया है"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"अनब्लॉक करने के लिए, आपको माइक्रोफ़ोन का ऐक्सेस देना होगा. इसके लिए, अपने डिवाइस के प्राइवसी स्विच से \'माइक्रोफ़ोन चालू है\' वाली पोज़िशन पर ले जाएं."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"कैमरे का ऐक्सेस ब्लॉक किया गया है"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"अनब्लॉक करने के लिए, आपको कैमरे का ऐक्सेस देना होगा. इसके लिए, डिवाइस के प्राइवसी स्विच को \'कैमरे चालू है\' वाली पोज़िशन पर ले जाएं."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"माइक्रोफ़ोन का ऐक्सेस: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"माइक्रोफ़ोन ऐक्सेस करने की सेटिंग चालू होने पर, वे सभी ऐप्लिकेशन और सेवाएं इस डिवाइस का कोई भी माइक्रोफ़ोन ऐक्सेस कर पाएंगी जिन्हें आपने ऐसा करने की अनुमति दी है.\n\nहालांकि, इस सेटिंग को चालू करने से, उन सहायक ऑडियो डिवाइसों पर कोई असर नहीं होगा जो कस्टम प्रोटोकॉल का पालन करते हैं."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"माइक्रोफ़ोन ऐक्सेस करने की सेटिंग चालू होने पर, जिन सेवाओं और ऐप्लिकेशन को माइक्रोफ़ोन ऐक्सेस करने की अनुमति है वे सभी इसका इस्तेमाल कर पाएंगे. \n\nइस सेटिंग के बंद होने पर, कोई भी ऐप्लिकेशन या सेवा, माइक्रोफ़ोन को ऐक्सेस नहीं कर पाएगी. हालांकि, अब भी रिमोट के Assistant बटन को दबाकर, Google Assistant से बात की जा सकती है.\n\nइस सेटिंग का, उन ऑडियो डिवाइसों पर कोई असर नहीं होगा जो टीवी से कनेक्ट करने के लिए कस्टम प्रोटोकॉल का इस्तेमाल करते हैं."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"रिमोट पर माइक्रोफ़ोन ऐक्सेस करने की सेटिंग चालू है"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google Assistant, रिमोट पर माइक्रोफ़ोन को ऐक्सेस कर सकती है. रिमोट पर Google Assistant बटन दबाकर Assistant से बात की जा सकती है."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"रिमोट पर माइक्रोफ़ोन ऐक्सेस करने की सेटिंग चालू है"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"यह सेटिंग बंद करने पर, रिमोट का इस्तेमाल करके Google Assistant से बात नहीं की जा सकेगी. Google Assistant बटन का इस्तेमाल करने के लिए, माइक्रोफ़ोन को ऐक्सेस करने की सेटिंग चालू करें."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"कैमरे का ऐक्सेस: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"कैमरा ऐक्सेस करने की सेटिंग चालू होने पर, वे सभी ऐप्लिकेशन और सेवाएं इस डिवाइस का कोई भी कैमरा ऐक्सेस कर पाएंगी जिन्हें आपने ऐसा करने की अनुमति दी है.\n\nहालांकि, इस सेटिंग को चालू करने से, कैमरे के तौर पर काम करने वाले उन सहायक डिवाइसों पर कोई असर नहीं होगा जो कस्टम प्रोटोकॉल का पालन करते हैं."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"चालू है"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"इस खाते के लिए स्थान इतिहास चालू होने पर, Google आपके डिवाइस के स्थान डेटा को आपके ऐप्स द्वारा उपयोग किए जाने के लिए संग्रहित कर सकता है.\n\nउदाहरण के लिए, Google Maps आपको दिशा-निर्देश दे सकता है और Google नाओ आपको यात्रा ट्रैफ़िक के बारे में सूचित कर सकती है.\n\nआप स्थान इतिहास को कभी भी बंद कर सकते हैं, लेकिन ऐसा करने से वह हटता नहीं है. अपने स्थान इतिहास को देखने और उसे प्रबंधित करने के लिए, maps.google.com/locationhistory पर जाएं."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"स्थान इतिहास हटाएं"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"इससे इस डिवाइस पर इस Google खाते के लिए संगृहीत किया गया सभी स्थान इतिहास हट जाएगा. आप इस हटाए जाने को पूर्ववत नहीं कर सकते. Google नाओ सेवा सहित कुछ ऐप्लिकेशन काम करना बंद कर देंगे."</string>
-    <string name="system_services" msgid="5754310941186053151">"सेवाएं"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"स्क्रीन रीडर"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"डिसप्ले"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"इंटरैक्शन कंट्रोल"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"ऑडियो और स्क्रीन पर मौजूद टेक्स्ट"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"फ़िलहाल, आज़माने के लिए उपलब्ध है"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"सेवाएं"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"सेवा सेटिंग"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ज़्यादा कंट्रास्ट वाला टेक्स्ट"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"टेक्स्ट को बोल्ड करने की सुविधा"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"रंग में सुधार करने की सुविधा"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"स्क्रीन सेवर निष्क्रियता की इस समयावधि के बाद शुरू होता है. अगर कोई भी स्क्रीर सेवर चयनित ना हो, तो डिस्प्ले बंद हो जाता है."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"निष्क्रियता के <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> बाद"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"डिसप्ले बंद करें"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> के बाद"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"डिसप्ले इतने समय बाद बंद करें"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"स्क्रीन बंद करने की अनुमति दें"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"मीडिया चलाते समय"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"देखें कि बैटरी बचाने की सेटिंग चालू है या नहीं"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"पक्का करें कि नई सेटिंग, <xliff:g id="SLEEP_TIME">%1$s</xliff:g> पर सेट हो. इससे बैटरी बचाई जा सकती है."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"टीवी को <xliff:g id="SLEEP_TIME">%1$s</xliff:g> तक चालू रखने पर ज़्यादा बिजली खर्च हो सकती है"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"बैटरी बचाने की सेटिंग बंद करें"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"कृपया पुष्टि करें कि आपको मीडिया देखते समय, डिसप्ले बंद न होने की सेटिंग चालू करनी है. ध्यान रखें कि ऐसा करने से बैटरी ज़्यादा खर्च हो सकती है."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"जब डिवाइस का इस्तेमाल न किया जा रहा हो"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"जब डिवाइस पर कॉन्टेंट चल रहा हो"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"टीवी के अपने-आप बंद होने की सेटिंग चालू करें"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"लंबे समय तक कोई गतिविधि न होने पर, टीवी के अपने-आप बंद होने की सेटिंग चालू करें"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"वीडियो देखते समय टीवी के अपने-आप बंद होने की सेटिंग चालू करें"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"स्टैंडबाय मोड में इंटरनेट का सीमित इस्तेमाल करें"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"स्टैंडबाय मोड में कम ऊर्जा इस्तेमाल करता है"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"स्टैंडबाय मोड में टीवी को इंटरनेट से डिसकनेक्ट कर दिया जाएगा. हालांकि, आपको ऑटोमैटिक अपडेट मिलते रहेंगे. हो सकता है कि इससे आपकी टीवी कम ऊर्जा इस्तेमाल करे. हालांकि, यह भी हो सकता है कि स्टैंडबाय मोड में, आप कास्ट करने और Google Assistant जैसे फ़ंक्शन का इस्तेमाल न कर पाएं."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"मोबाइल डेटा बचाने के लिए, वीडियो क्वालिटी को अपने-आप एडजस्ट होने दें"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"डेटा खर्च और सूचनाएं"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"वाई-फ़ाई, ईथरनेट या फ़ोन के हॉटस्पॉट का इस्तेमाल करके, इंटरनेट से कनेक्ट किया जा सकता है."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"क्या आपको अन्य ब्लूटूथ डिवाइसों को इसे दिखाना है?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"एक ऐप्लिकेशन आपके टीवी को <xliff:g id="TIMEOUT">%1$d</xliff:g> सेकंड के लिए अन्य ब्लूटूथ डिवाइसों को दिखाना चाहता है."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"कार्रवाई की अनुमति नहीं"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"कॉल की आवाज़ कम या ज़्यादा नहीं की जा सकती"</string>

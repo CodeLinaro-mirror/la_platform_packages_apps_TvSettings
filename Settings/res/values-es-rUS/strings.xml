@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"Habilitado"</string>
     <string name="disabled" msgid="4589065923272201387">"Inhabilitado"</string>
     <string name="unavailable" msgid="1610732303812180196">"No disponible"</string>
+    <string name="allow" msgid="6982558814345894019">"Permitir"</string>
+    <string name="deny" msgid="8291577308813053917">"Rechazar"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"Sugerencias"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Configuración rápida"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Configuración general"</string>
@@ -51,8 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Sonido"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Apps"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Preferencias del dispositivo"</string>
-    <!-- no translation found for accessibility_category_title (1552664829936369592) -->
-    <skip />
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Accesibilidad"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Control remoto y accesorios"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Pantalla y sonido"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ayuda y comentarios"</string>
@@ -593,6 +594,7 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Ver todo"</string>
     <string name="microphone" msgid="7893752847683941214">"Micrófono"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Acceso al micrófono"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Acceso al micrófono en tu control remoto"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Accesos de las apps al micrófono"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Acceso al micrófono bloqueado"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Para desbloquearlo, mueve el interruptor de privacidad del dispositivo a la posición de micrófono activado para permitir el acceso al micrófono."</string>
@@ -602,7 +604,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Acceso a la cámara bloqueado"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Para desbloquearlo, mueve el interruptor de privacidad del dispositivo a la posición de cámara activada para permitir el acceso a la cámara."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Acceso al micrófono: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"Cuando se activa, todos los servicios y las apps con los permisos correspondientes pueden acceder a cualquiera de los micrófonos de este dispositivo.\n\nLos periféricos del audio con protocolo personalizado no se verán afectados por este parámetro de configuración."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, todas las apps y servicios que puedan utilizar el micrófono podrán acceder a él.\n\nSi se desactiva, las apps y los servicios no podrán acceder al micrófono. Sin embargo, es posible que puedas seguir hablando con Asistente de Google si presionas el botón del Asistente en el control remoto.\n\nLos dispositivos de audio que utilizan protocolos personalizados para comunicarse con la TV pueden no verse afectados por esta configuración."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Se habilitó el micrófono en el control remoto"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Asistente de Google puede acceder al micrófono en el control remoto. Si presionas el botón del Asistente de Google en el control remoto, podrás hablar con Asistente."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"El micrófono está inhabilitado en el control remoto"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"No podrás hablar con Asistente de Google desde el control remoto. Para poder usar el botón del Asistente de Google, habilita el acceso al micrófono."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Acceso a la cámara: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Cuando se activa, todos los servicios y las apps con los permisos correspondientes pueden acceder a cualquiera de las cámaras de este dispositivo.\n\nLos periféricos de la cámara con protocolo personalizado no se verán afectados por este parámetro de configuración."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Sí"</string>
@@ -628,8 +634,14 @@
     <string name="location_history_desc" msgid="926674012916014270">"Al activar el Historial de ubicaciones para esta cuenta, Google podrá almacenar los datos de ubicación del dispositivo para que los utilicen las aplicaciones.\n\nPor ejemplo, Google Maps puede ofrecerte rutas y Google Now información sobre el tráfico en tu viaje cotidiano.\n\nPuedes desactivar el Historial de ubicaciones en cualquier momento, pero esta acción no eliminará el historial. Para consultar y administrar el Historial de ubicaciones, visita maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Borrar Historial de ubicaciones"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Se borrará Historial Ubicaciones; imposible revertir. Ciertas apl., como Google Now, no funcionarán."</string>
-    <string name="system_services" msgid="5754310941186053151">"Servicios"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Lectores de pantalla"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Pantalla"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Controles de interacción"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Audio y texto en pantalla"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Experimental"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"Servicios"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Configuración del servicio"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Texto de alto contraste"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Texto en negrita"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Corrección de colores"</string>
@@ -907,14 +919,17 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"El protector de pantalla comenzará después de este período de inactividad. Si no seleccionas un protector de pantalla, la pantalla se apagará."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"Después de <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> de inactividad"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Apagar la pantalla"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"Después de <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g>"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"Apagar la pantalla después de"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"Permitir que se apague la pantalla"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Durante la reproducción de contenido multimedia"</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Confirma la configuración del ahorro de energía"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Confirma que la nueva configuración es <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, que tiene el potencial de aumentar el uso de energía."</string>
+    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Dejar la pantalla encendida durante <xliff:g id="SLEEP_TIME">%1$s</xliff:g> puede aumentar el consumo de energía"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Inhabilitar ahorro de energía"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Confirma para evitar que la pantalla se apague mientras está en uso, lo que puede aumentar el consumo de energía."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Cuando entre en inactividad"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Cuando esté mirando"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Apagar automáticamente la TV"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Apagar automáticamente la TV ante inactividad"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Apagar automáticamente la TV al mirar"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limita conexión de red en modo en espera"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Consume menos energía en modo en espera"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"La TV se desconectará de la red cuando esté en modo en espera, salvo para recibir actualizaciones automáticas. Puede que así se reduzca el consumo de energía de la TV, aunque también es posible que, mientras esté en modo en espera, algunas funciones, como Transmitir y Asistente de Google, no estén disponibles."</string>
@@ -1016,6 +1031,8 @@
     <string name="summary_data_saver" msgid="6793558728898207405">"Ajustar automáticamente la calidad de video para usar menos datos móviles"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Uso de datos y alertas"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"Puedes conectarte a Internet con una red Wi-Fi, Ethernet o el hotspot del teléfono."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"¿Quieres permitir que otros dispositivos Bluetooth lo detecten?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Una app quiere hacer visible tu TV para otros dispositivos Bluetooth durante <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Acción no permitida"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"No se puede cambiar el volumen"</string>
