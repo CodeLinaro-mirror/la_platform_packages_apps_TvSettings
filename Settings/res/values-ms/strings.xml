@@ -112,7 +112,7 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Sandarkan &amp; Pulihkan"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Tetapan semula data kilang"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Penentukuran"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"Penjimat tenaga"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Kuasa &amp; Tenaga"</string>
     <string name="device_eco_settings" msgid="8478430139722946388">"Tetapan eko"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Peranti"</string>
@@ -154,6 +154,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Kadar bingkai kandungan dipadankan"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Lancar"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Jika diminta oleh apl, peranti anda akan memadankan output mengikut kadar bingkai asal kandungan yang sedang anda tonton, HANYA jika TV anda boleh menjalankan peralihan yang lancar."</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Paparan anda yang disambungkan tidak menyokong peralihan kadar segar semula yang lancar. Pilihan ini tidak akan memberikan kesan melainkan anda menukar kepada paparan yang menyokong tindakan."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Tidak lancar"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Jika diminta oleh apl, peranti anda akan memadamkan output mengikut kadar bingkai asal kandungan yang sedang anda tonton. Keadaan ini boleh menyebabkan skrin anda menjadi kosong selama satu saat apabila keluar atau masuk kawalan main balik video."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Jangan sekali-kali"</string>
@@ -171,6 +172,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Pilih format secara manual daripada format yang tersedia"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"FORMAT DISOKONG"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"FORMAT TIDAK DISOKONG"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -186,7 +188,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Peleraian"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automatik"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Peleraian telah ditukar"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Tukar resolusi kepada %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Pilih OK untuk menggunakan %1$s mulai sekarang."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision tidak disokong pada %1$s dan akan dilumpuhkan dalam \"Tetapan Paparan Terperinci\""</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Mod ini menyokong %1$s. Pada sesetengah TV, anda mungkin perlu menghidupkan HDMI Dipertingkat untuk mendayakan lebih banyak format HDR. Semak tetapan TV anda untuk melihat jika ciri ini disokong."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Batal"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -311,6 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Peranti ini diurus oleh organisasi anda."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Peranti ini diurus oleh <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Ketahui lebih lanjut"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Apl kamera}other{Apl kamera}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Apl Kalendar"</string>
@@ -888,7 +895,7 @@
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"Henti paksa"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"Jika anda menghentikan aplikasi secara paksa, mungkin fungsinya akan terganggu."</string>
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"Nyahpasang"</string>
-    <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"Nyahpasang kemas kini"</string>
+    <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"Nyahpasang kemaskinian"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"Semua kemas kini pada apl sistem Android ini akan dinyahpasang."</string>
     <string name="device_apps_app_management_disable" msgid="819003297535493633">"Lumpuhkan"</string>
     <string name="device_apps_app_management_disable_desc" msgid="9143166267511427607">"Adakah anda ingin melumpuhkan apl ini?"</string>
@@ -911,7 +918,7 @@
     <string name="settings_confirm" msgid="4489126458677153411">"Sahkan"</string>
     <string name="settings_cancel" msgid="576094334743686152">"Batal"</string>
     <string name="settings_on" msgid="7734010120323404333">"Hidupkan"</string>
-    <string name="settings_off" msgid="4060451657850476369">"Matikan"</string>
+    <string name="settings_off" msgid="4060451657850476369">"Mati"</string>
     <string name="device_daydreams_none" msgid="3405655350757277348">"Matikan skrin"</string>
     <string name="device_daydreams_select" msgid="7203264446482623438">"Penyelamat skrin"</string>
     <string name="device_daydreams_test" msgid="7828275397550076567">"Mulakan sekarang"</string>
@@ -921,8 +928,8 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Matikan paparan"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Sahkan tetapan Penjimat Tenaga"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Tindakan membiarkan paparan anda hidup selama <xliff:g id="SLEEP_TIME">%1$s</xliff:g> mungkin meningkatkan penggunaan tenaga"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Sahkan tetapan Kuasa &amp; Tenaga"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Tindakan membiarkan TV anda hidup untuk tempoh yang lama mungkin meningkatkan penggunaan tenaga"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Lumpuhkan tetapan penjimat tenaga"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Sila sahkan untuk menghalang peranti daripada dimatikan semasa menonton, yang mampu meningkatkan penggunaan tenaga."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Apabila tidak aktif"</string>
@@ -930,6 +937,8 @@
     <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Matikan TV secara automatik"</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Matikan TV secara automatik apabila tidak aktif"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Matikan TV secara automatik apabila menonton"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Pemasa \"Apabila tidak aktif\" mesti lebih pendek daripada pemasa \"Apabila menonton\""</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Pemasa \"Apabila menonton\" mesti lebih lama daripada pemasa \"Apabila tidak aktif\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Hadkan sambungan rangkaian dlm tunggu sedia"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Menggunakan kurang tenaga dalam mod tunggu sedia"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"TV anda akan diputuskan sambungan daripada rangkaian anda semasa dalam mod tunggu sedia, kecuali untuk menerima kemaskinian automatik. Tetapan ini mungkin mengurangkan penggunaan tenaga TV anda, namun ini juga bermakna anda mungkin tidak dapat menggunakan fungsi seperti Hantar dan Google Assistant semasa dalam mod tunggu sedia."</string>

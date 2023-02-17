@@ -112,7 +112,7 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Резервне копіювання й відновлення"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Відновлення заводських налаштувань"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калібрування"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"Режим енергозбереження"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Живлення й енергія"</string>
     <string name="device_eco_settings" msgid="8478430139722946388">"Налаштування режиму \"Еко\""</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Пристрої"</string>
@@ -154,6 +154,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Відповідно до частоти кадрів контенту"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Плавний перехід"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Якщо цього вимагає додаток, пристрій відтворюватиме зображення без зміни частоти кадрів, ЛИШЕ якщо телевізор може виконати плавний перехід."</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Підключений екран не підтримує плавну зміну частоти оновлення. Вибір цієї опції не дасть результату, якщо ви не використовуватимете екран, який підтримує цю функцію."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Без плавного переходу"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Якщо цього вимагає додаток, пристрій відтворюватиме зображення без зміни частоти кадрів. Через це зображення на екрані може на секунду зникати, коли ви вмикаєте або вимикаєте відтворення відео."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Ніколи"</string>
@@ -171,6 +172,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Вибирати формат вручну зі списку доступних"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"ПІДТРИМУВАНІ ФОРМАТИ"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"НЕПІДТРИМУВАНІ ФОРМАТИ"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -186,7 +188,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Роздільна здатність"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Автоматично"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Роздільну здатність змінено"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Змінити роздільну здатність на %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Натисніть OK, щоб надалі використовувати роздільну здатність %1$s."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Формат Dolby Vision не підтримується в режимі %1$s. Його буде вимкнено в меню \"Додаткові налаштування екрана\"."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Цей режим підтримує %1$s. Можливо, на деяких телевізорах потрібно ввімкнути розширені параметри HDMI, щоб використовувати інші формати HDR. Це можна перевірити в налаштуваннях телевізора."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Скасувати"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
@@ -311,6 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Цим пристроєм керує адміністратор вашої організації."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Цим пристроєм керує <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Докладніше"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Додаток для камери}one{Додатки для камери}few{Додатки для камери}many{Додатки для камери}other{Додатки для камери}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Додаток для календарів"</string>
@@ -921,8 +928,8 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Вимикати екран"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Підтвердьте налаштування енергозбереження"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Якщо екран залишатиметься ввімкненим упродовж <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, може використовуватися більше електроенергії"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Підтвердьте налаштування живлення й енергії"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Якщо телевізор залишатиметься ввімкненим упродовж тривалого часу, може використовуватися більше електроенергії"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Вимкнути налаштування енергозбереження"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Підтвердьте, що дисплей не має вимикатися під час перегляду (це може збільшити споживання енергії)."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Якщо немає взаємодії"</string>
@@ -930,6 +937,8 @@
     <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Автоматично вимикати телевізор"</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Автоматично вимикати телевізор, коли він неактивний"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Автоматично вимикати телевізор під час перегляду"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Період на таймері \"Якщо немає взаємодії\" має бути коротшим, ніж на таймері \"Під час перегляду\""</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Період на таймері \"Під час перегляду\" має бути довшим, ніж на таймері \"Якщо немає взаємодії\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Очікування: обмежити з’єднання з мережею"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Зменште споживання електроенергії в режимі очікування"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"У режимі очікування ваш телевізор підключатиметься до мережі, лише щоб отримати автоматичні оновлення. Завдяки цьому телевізор споживатиме менше електроенергії, однак ви, імовірно, не зможете користуватися такими функціями, як Google Cast і Google Асистент, у режимі очікування."</string>

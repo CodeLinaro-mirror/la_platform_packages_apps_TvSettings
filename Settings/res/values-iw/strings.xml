@@ -112,7 +112,7 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"גיבוי ושחזור"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"איפוס לנתוני היצרן"</string>
     <string name="device_calibration" msgid="2907914144048739705">"כיול"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"חיסכון באנרגיה"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"הפעלה ואנרגיה"</string>
     <string name="device_eco_settings" msgid="8478430139722946388">"הגדרות חיסכון באנרגיה"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"מכשירים"</string>
@@ -154,6 +154,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"התאמת התוכן לקצב הפריימים"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"שינוי חלק של קצב הפריימים"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"המכשיר ישנה את קצב הפריימים של המסך בהתאם לקצב הפריימים המקורי של התוכן בעקבות בקשה של האפליקציה רק אם הטלוויזיה יכולה לבצע את השינוי בצורה חלקה."</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"המסך המחובר שלך לא תומך במעברים עם קצב רענון חלק. לאפשרות זו לא תהיה השפעה אלא אם עוברים למסך שתומך בה."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"שינוי לא-חלק של קצב הפריימים"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"המכשיר ישנה את קצב הפריימים של המסך בהתאם לקצב הפריימים המקורי של התוכן אם האפליקציה תבקש זאת. במקרה כזה, ייתכן שהמסך יואפל לרגע לפני תחילת הסרטון ובסופו."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"אף פעם"</string>
@@ -171,6 +172,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"בחירה ידנית של פורמטים מתוך הפורמטים הזמינים"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"פורמטים נתמכים"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"פורמטים שלא נתמכים"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+‎"</string>
@@ -186,7 +188,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"רזולוציה"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"אוטומטית"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"הרזולוציה שונתה"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"לשנות את הרזולוציה ל-%1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"בוחרים באפשרות \'אישור\' כדי להשתמש ברזולוציה %1$s מעכשיו והלאה."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision לא נתמך ב-%1$s. ניתן להשבית אותו בהגדרות התצוגה המתקדמות"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"המצב הזה תומך ב-%1$s. בחלק מהטלוויזיות ניתן להפעיל HDMI משופר כדי לאפשר הפעלה של עוד פורמטים של איכות HDR. כדאי לבדוק אם התכונה הזו נתמכת בהגדרות של הטלוויזיה."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ביטול"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"אישור"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"הרץ (Hz)"</string>
@@ -311,6 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"מכשיר זה מנוהל על ידי הארגון שלך."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"מכשיר זה מנוהל על ידי <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ."</string>
     <string name="learn_more" msgid="820336467414665686">"מידע נוסף"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{אפליקציית מצלמה}one{אפליקציות מצלמה}two{אפליקציות מצלמה}other{אפליקציות מצלמה}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"אפליקציית יומן"</string>
@@ -887,24 +894,24 @@
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"פתח"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"אילוץ עצירה"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"אם תאלץ עצירה של אפליקציה, ייתכן שהיא לא תפעל כהלכה."</string>
-    <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"הסר התקנה"</string>
-    <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"הסר התקנה של עדכונים"</string>
+    <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"הסרת ההתקנה"</string>
+    <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"הסרת ההתקנה של עדכונים"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"כל העדכונים לאפליקציית מערכת Android הזו יוסרו."</string>
-    <string name="device_apps_app_management_disable" msgid="819003297535493633">"השבת"</string>
+    <string name="device_apps_app_management_disable" msgid="819003297535493633">"השבתה"</string>
     <string name="device_apps_app_management_disable_desc" msgid="9143166267511427607">"האם ברצונך להשבית את האפליקציה הזו?"</string>
     <string name="device_apps_app_management_enable" msgid="9173340340253029114">"הפעלה"</string>
     <string name="device_apps_app_management_enable_desc" msgid="8686291003061136476">"האם ברצונך להפעיל את האפליקציה הזו?"</string>
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"שטח אחסון בשימוש"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"<xliff:g id="SIZE">%1$s</xliff:g> בשימוש ב-<xliff:g id="VOLUME">%2$s</xliff:g>"</string>
-    <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"נקה נתונים"</string>
+    <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"ניקוי נתונים"</string>
     <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"כל נתוני האפליקציה הזו יימחקו לצמיתות.\nנתונים אלה כוללים את כל הקבצים, ההגדרות, החשבונות, מסדי הנתונים וכו\'."</string>
-    <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"נקה ברירות מחדל"</string>
+    <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"ניקוי ברירות המחדל"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"הגדר הפעלה של האפליקציה לפעולות מסוימות"</string>
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"לא הוגדרו ברירות מחדל"</string>
-    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"נקה מטמון"</string>
+    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"ניקוי המטמון"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"התראות"</string>
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"מקור של צד שלישי"</string>
-    <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"אישורים"</string>
+    <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"הרשאות"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"האפליקציה אינה זמינה"</string>
     <string name="unused_apps" msgid="5539166745483454543">"אפליקציות שמזמן לא השתמשת בהן"</string>
     <string name="settings_ok" msgid="5950888975075541964">"אישור"</string>
@@ -921,8 +928,8 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"כיבוי התצוגה"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"אישור ההגדרה \'חיסכון באנרגיה\'"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"השארת התצוגה דולקת למשך <xliff:g id="SLEEP_TIME">%1$s</xliff:g> עשויה להגדיל את צריכת האנרגיה"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"אישור ההגדרה של הפעלה ואנרגיה"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"השארת הטלוויזיה דולקת למשך זמן רב עשויה להגדיל את צריכת האנרגיה"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"השבתה של הגדרת החיסכון באנרגיה"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"להשבית את כיבוי המסך בזמן הצפייה? השארת המסך דלוק עלולה לגרום לצריכת אנרגיה מוגברת."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"כשאין פעילות"</string>
@@ -930,6 +937,8 @@
     <string name="device_energy_saver_category_title" msgid="2604826113821035545">"כיבוי אוטומטי של הטלוויזיה"</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"כיבוי אוטומטי של הטלוויזיה כשאין פעילות"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"כיבוי אוטומטי של הטלוויזיה בזמן הצפייה"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"משך הזמן שמוגדר בטיימר \'כשאין פעילות\' צריך להיות קצר יותר ממשך הזמן שמוגדר בטיימר \'בזמן הצפייה\'"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"משך הזמן שמוגדר בטיימר \'בזמן הצפייה\' צריך להיות ארוך יותר ממשך הזמן שמוגדר בטיימר \'כשאין פעילות\'"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"הגבלת החיבור לרשת במצב המתנה"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"במצב המתנה הטלוויזיה צורכת פחות אנרגיה"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"במצב המתנה הטלוויזיה תתנתק מהרשת, ותתחבר רק לקבלת עדכונים אוטומטיים. הפעולה הזו תפחית את צריכת האנרגיה של הטלוויזיה, אבל לא ניתן יהיה להשתמש בפונקציות כמו העברה (Cast) ו-Google Assistant במצב ההמתנה."</string>
@@ -962,7 +971,7 @@
     <string name="device_name_suggestion_summary" msgid="4582691399302362938">"יש לבחור בשם זה כשמעבירים תמונות, סרטונים ופריטים נוספים מהטלפון"</string>
     <string name="change_setting" msgid="7211706374208138343">"שינוי"</string>
     <string name="keep_settings" msgid="703474489210093961">"ללא שינוי"</string>
-    <string name="apps_permissions" msgid="7876407267050498394">"אישורים"</string>
+    <string name="apps_permissions" msgid="7876407267050498394">"הרשאות"</string>
     <string name="device_apps_permissions" msgid="8421323706003063878">"הרשאות לאפליקציות"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g> מתוך <xliff:g id="COUNT_1">%2$d</xliff:g> אפליקציות קיבלו הרשאה"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"בקשה להרשאת Bluetooth"</string>

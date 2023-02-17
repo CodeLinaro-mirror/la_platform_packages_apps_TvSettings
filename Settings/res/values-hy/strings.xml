@@ -112,7 +112,7 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Պահուստավորում և վերականգնում"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Վերակայել բոլոր տվյալները"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Չափաբերում"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"Էներգիայի տնտեսում"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Սնուցում և էներգիա"</string>
     <string name="device_eco_settings" msgid="8478430139722946388">"Էկո ռեժիմի կարգավորումներ"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Սարքեր"</string>
@@ -154,6 +154,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Համապատասխանեցնել բովանդակության կադրերի հաճախականությունը"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Սահուն"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Երբ հավելվածը պահանջում է, սարքը կհամապատասխանեցնի իր հաճախականությունը նվագարկվող տեսանյութի կադրերի հաճախականությանը ՄԻԱՅՆ ԱՅՆ ԴԵՊՔՈՒՄ, եթե ձեր հեռուստացույցն աջակցում է սահուն անցում։"</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Ձեր միացված էկրանը չի աջակցում թարմացման հաճախականության սահուն անցումներ։ Այս կարգավորումը չի գործի, մինչև որ չանցնեք այն աջակցող էկրանի։"</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Ոչ սահուն"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Երբ հավելվածը պահանջում է, սարքը կհամապատասխանեցնի իր հաճախականությունը նվագարկվող տեսանյութի կադրերի հաճախականությանը։ Տեսանյութի նվագարկման սկզբում և վերջում էկրանը մի պահ կարող է սպիտակել։"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Երբեք"</string>
@@ -171,6 +172,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Ձեռքով ընտրեք ձևաչափեր հասանելի տարբերակներից"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"ԱՋԱԿՑՎՈՂ ՁԵՎԱՉԱՓԵՐ"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"ՉԱՋԱԿՑՎՈՂ ՁԵՎԱՉԱՓԵՐ"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -186,7 +188,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Լուծաչափ"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Ավտոմատ"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Լուծաչափը փոխվել է"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Դարձնե՞լ լուծաչափը %1$s"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Սեղմեք «Եղավ»՝ %1$s լուծաչափն այս պահից սկսած օգտագործելու համար։"</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision-ը չի աջակցվում %1$s ռեժիմում և կանջատվի էկրանի ընդլայնված կարգավորումներում։"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Այս ռեժիմն աջակցում է %1$s ձևաչափերը։ Որոշ հեռուստացույցներում, հնարավոր է, անհրաժեշտ լինի միացնել ընդլայնված HDMI ձևաչափը, որպեսզի ավելի շատ HDR ձևաչափեր համատեղելի լինեն։ Ստուգեք հեռուստացույցի կարգավորումներում՝ արդյոք այս գործառույթն աջակցվում է։"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Չեղարկել"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Եղավ"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Հց"</string>
@@ -311,6 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Այս սարքի կառավարիչը ձեր կազմակերպությունն է։"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Այս սարքի կառավարիչն է <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> կազմակերպությունը։"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Մանրամասն"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Տեսախցիկի հավելված}one{Տեսախցիկի հավելված}other{Տեսախցիկի հավելվածներ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Օրացույցի հավելված"</string>
@@ -643,7 +650,7 @@
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Ծառայության կարգավորումներ"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Բարձր կոնտրաստի տեքստ"</string>
-    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Թավ տառատեսակով տեքստ"</string>
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Թավ տեքստ"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Գունաշտկում"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Օգտագործել գունաշտկումը"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Գույների ռեժիմ"</string>
@@ -705,7 +712,7 @@
     <string name="color_magenta" msgid="2377854703399624607">"Մանուշակագույն"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Աուդիո նկարագրություն"</string>
     <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Ինչ է կատարվում էկրանին"</string>
-    <string name="system_accessibility_status" msgid="8504842254080682515">"Ակտիվ"</string>
+    <string name="system_accessibility_status" msgid="8504842254080682515">"Ակտիվացնել"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Կարգավորում"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Օգտագործե՞լ <xliff:g id="SERVICE">%1$s</xliff:g> ծառայությունը:"</string>
     <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> ծառայությունը կարող է պահել ցանկացած մուտքագրված տեքստ, բացի գաղտնաբառերից: Պահվում են նաև անձնական տվյալները, ինչպես օրինակ բանկային քարտի համարները և այլն:"</string>
@@ -888,7 +895,7 @@
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"Կանգնեցնել"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"Հավելվածը հարկադրաբար դադարեցնելու դեպքում նրա գործունեությունը կարող է խանգարվել:"</string>
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"Ապատեղադրել"</string>
-    <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"Հեռացնել թարմացումները"</string>
+    <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"Ապատեղադրել թարմացումները"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"Այս Android հավելվածին վերաբերող բոլոր թարմացումները հեռացվելու են:"</string>
     <string name="device_apps_app_management_disable" msgid="819003297535493633">"Անջատել"</string>
     <string name="device_apps_app_management_disable_desc" msgid="9143166267511427607">"Ցանկանո՞ւմ եք անջատել այս հավելվածը:"</string>
@@ -921,8 +928,8 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Անջատել էկրանը"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Հաստատեք էներգիայի տնտեսման կարգավորումը"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Եթե էկրանը <xliff:g id="SLEEP_TIME">%1$s</xliff:g> միացված թողնեք, էլեկտրաէներգիայի սպառումը կարող է ավելանալ"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Հաստատեք սնուցման և էներգիայի կարգավորումը"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Եթե հեռուստացույցը երկար ժամանակ միացված թողնեք, էլեկտրաէներգիայի սպառումը կարող է ավելանալ"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Անջատեք էներգիայի տնտեսման կարգավորումը"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Խնդրում ենք հաստատել, որպեսզի էկրանը չանջատվի դիտման ժամանակ (կարող է ավելի շատ էներգիա սպառվել)։"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Երբ ակտիվ չէ"</string>
@@ -930,6 +937,8 @@
     <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Հեռուստացույցի ավտոմատ անջատում"</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Հեռուստացույցի ավտոմատ անջատում ոչ ակտիվ լինելու դեպքում"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Հեռուստացույցի ավտոմատ անջատում դիտելու ընթացքում"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"«Անգործունության ժամանակ» ժամաչափը պետք է «Դիտելու ժամանակ» ժամաչափից ավելի կարճ լինի"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"«Դիտելու ժամանակ» ժամաչափը պետք է «Անգործունության ժամանակ» ժամաչափից ավելի երկար լինի"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Սահմանափակեք կապը սպասման ռեժիմում"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Ավելի քիչ էներգիա օգտագործեք սպասման ռեժիմում"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Ձեր հեռուստացույցը սպասման ռեժիմում կանջատվի ցանցից՝ բացի այն դեպքերից, երբ ավտոմատ թարմացումներ ստանա։ Հեռուստացույցի կողմից էլեկտրաէներգիայի օգտագործումը կարող է նվազել, սակայն դա նաև նշանակում է, որ հնարավոր է՝ սպասման ռեժիմում դուք չեք կարողանա օգտվել գործառույթներից, ինչպիսիք են հեռարձակումը և Google Օգնականը։"</string>

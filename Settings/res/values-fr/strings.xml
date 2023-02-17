@@ -91,7 +91,7 @@
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Se connecter au réseau"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnostic réseau"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Applications ouvertes récemment"</string>
-    <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applications"</string>
+    <string name="apps_see_all_apps" msgid="2002886135933443688">"Voir toutes les applis"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Autorisations"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
@@ -112,7 +112,7 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Sauvegarde et restauration"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Rétablissement de la configuration d\'usine"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Étalonnage"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"Économie d\'énergie"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Alimentation et énergie"</string>
     <string name="device_eco_settings" msgid="8478430139722946388">"Paramètres Éco"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Appareils"</string>
@@ -154,6 +154,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Ajuster en fonction de la fréquence d\'images du contenu"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Fluide"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Si l\'appli le demande, votre appareil ajustera sa sortie en fonction de la fréquence d\'images d\'origine du contenu que vous regardez, uniquement si votre TV peut effectuer une transition fluide."</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Votre écran connecté n\'est pas compatible avec les transitions fluides de la fréquence d\'actualisation. Cette option n\'aura aucun effet, sauf si vous remplacez l\'écran par un modèle compatible."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Non fluide"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Si l\'appli le demande, votre appareil ajustera sa sortie en fonction de la fréquence d\'images d\'origine du contenu que vous regardez. Votre écran risque alors d\'être vide pendant une seconde lors du démarrage ou de l\'arrêt d\'une vidéo."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Jamais"</string>
@@ -171,6 +172,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Sélectionner des formats manuellement parmi les formats disponibles"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"FORMATS COMPATIBLES"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"FORMATS NON COMPATIBLES"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -186,7 +188,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Résolution"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automatique"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"La résolution a été modifiée"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Passer en résolution %1$s ?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Sélectionnez \"OK\" pour utiliser %1$s à partir de maintenant."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"La technologie Dolby Vision n\'est pas compatible à %1$s et sera désactivée dans \"Paramètres d\'affichage avancés\""</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Ce mode est compatible avec %1$s. Sur certains téléviseurs, vous devrez peut-être activer le HDMI amélioré pour activer d\'autres formats HDR. Examinez les paramètres de votre téléviseur pour vérifier la compatibilité."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Annuler"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -311,6 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Cet appareil est géré par votre organisation."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Cet appareil est géré par <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"En savoir plus"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Appli d\'appareil photo}one{Appli d\'appareil photo}other{Applis d\'appareil photo}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Agenda"</string>
@@ -638,7 +645,7 @@
     <string name="accessibility_display_category_title" msgid="593444602101558017">"Écran"</string>
     <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Commandes d\'interaction"</string>
     <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Audio et texte à l\'écran"</string>
-    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Test"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Expérimental"</string>
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"Services"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Paramètres du service"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
@@ -901,7 +908,7 @@
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"Effacer les valeurs par défaut"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"Lancer cette appli pour certaines actions"</string>
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Aucune valeur par défaut définie"</string>
-    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Effacer du cache"</string>
+    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Vider le cache"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Notifications"</string>
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Code tiers"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Autorisations"</string>
@@ -921,8 +928,8 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Désactiver l\'écran"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Confirmer le réglage Économie d\'énergie"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Laisser votre écran allumé pendant <xliff:g id="SLEEP_TIME">%1$s</xliff:g> peut augmenter la consommation d\'énergie"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Confirmer le paramètre d\'alimentation et d\'énergie"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"En laissant votre TV allumée pendant de longues périodes, vous risquez de consommer plus d\'énergie"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Désactiver le paramètre Économie d\'énergie"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Veuillez confirmer pour empêcher l\'écran de s\'éteindre lors du visionnage, ce qui peut augmenter la consommation d\'énergie."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"En cas d\'inactivité"</string>
@@ -930,6 +937,8 @@
     <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Éteindre le téléviseur automatiquement"</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Éteindre le téléviseur automatiquement lorsqu\'il est inactif"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Éteindre le téléviseur automatiquement lors du visionnage"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Le minuteur \"En cas d\'inactivité\" doit être plus court que le minuteur \"Lors du visionnage\""</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Le minuteur \"Lors du visionnage\" doit être plus long que le minuteur \"En cas d\'inactivité\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limiter la connexion réseau en veille"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Consomme moins d\'énergie en mode veille"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Le téléviseur sera déconnecté du réseau en mode veille, sauf pour recevoir les mises à jour automatiques. La consommation d\'énergie du téléviseur pourrait être réduite, mais vous risquez de ne pas pouvoir utiliser des fonctions comme Cast et l\'Assistant Google en mode veille."</string>

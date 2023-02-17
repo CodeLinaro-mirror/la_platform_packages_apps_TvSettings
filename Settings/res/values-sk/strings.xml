@@ -112,7 +112,7 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Zálohovanie a obnovenie"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Obnovenie výrobných nastavení"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrácia"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"Šetrič energie"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Výkon a energia"</string>
     <string name="device_eco_settings" msgid="8478430139722946388">"Nastavenia ekorežimu"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Zariadenia"</string>
@@ -154,6 +154,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Prispôsobiť snímkovej frekvencii obsahu"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Plynulé"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Ak o to aplikácia požiada, vaše zariadenie prispôsobí výstup pôvodnej snímkovej frekvencii obsahu, ktorý pozeráte, ale IBA vtedy, keď váš televízor dokáže zaistiť plynulý prechod."</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Vaša pripojená obrazovka nepodporuje plynulé prechody frekvencie obnovenia. Táto možnosť nebude mať žiadny vplyv, kým nepripojíte obrazovku, ktorá ju podporuje."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Neplynulé"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ak o to aplikácia požiada, vaše zariadenie prispôsobí výstup pôvodnej snímkovej frekvencii obsahu, ktorý pozeráte. Môže to spôsobiť, že pri ukončení prehrávania videa alebo prejdení naň bude vaša obrazovka chvíľu prázdna."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Nikdy"</string>
@@ -171,6 +172,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Vyberte formáty ručne z dostupných formátov"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"PODPOROVANÉ FORMÁTY"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"NEPODPOROVANÉ FORMÁTY"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -186,7 +188,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Rozlíšenie"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automatické"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Rozlíšenie bolo zmenené"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Chcete zmeniť rozlíšenie na %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Ak chcete odteraz používať rozlíšenie %1$s, vyberte OK."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Technológia Dolby Vision nie je podporovaná pri rozlíšení %1$s a bude deaktivovaná v rozšírených nastaveniach zobrazenia"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Tento režim podporuje %1$s. Ak chcete povoliť ďalšie formáty HDR, v niektorých televízoroch zrejme budete musieť zapnúť Rozšírené HDMI. Skontrolujte v nastaveniach televízora, či je to podporované."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Zrušiť"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -311,6 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Toto zariadenie spravuje vaša organizácia."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Toto zariadenie spravuje organizácia <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">"  "</string>
     <string name="learn_more" msgid="820336467414665686">"Ďalšie informácie"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplikácia kamery}few{Aplikácie kamery}many{Aplikácie kamery}other{Aplikácie kamery}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplikácia Kalendár"</string>
@@ -551,7 +558,7 @@
     <string name="storage_wizard_eject_private_title" msgid="1336088625197134497">"Odpojiť úložisko zariadenia"</string>
     <string name="storage_wizard_eject_private_description" msgid="4341905730016007385">"Po odpojení tohto úložiska zariadenia prestanú fungovať všetky aplikácie, ktorú sú v ňom uložené. Tento disk USB je naformátovaný tak, aby fungoval iba v tomto zariadení. V iných zariadeniach fungovať nebude."</string>
     <string name="storage_wizard_eject_progress_title" msgid="6025569356827683446">"Odpája sa úložisko <xliff:g id="NAME">%1$s</xliff:g>…"</string>
-    <string name="storage_wizard_move_app_title" msgid="6504922588346440942">"Využité úložisko"</string>
+    <string name="storage_wizard_move_app_title" msgid="6504922588346440942">"Využitý priestor"</string>
     <string name="storage_wizard_move_app_progress_title" msgid="7058465372227392453">"Presúva sa aplikácia <xliff:g id="NAME">%1$s</xliff:g>…"</string>
     <string name="storage_wizard_move_app_progress_description" msgid="7673347796805764888">"Úložisko počas presunu neodoberajte.\nAplikácia <xliff:g id="APPNAME">%1$s</xliff:g> bude v tomto zariadení k dispozícii až po dokončení presunu."</string>
     <string name="storage_wizard_forget_confirm_title" msgid="3709482471888830896">"Zabudnúť úložisko zariadenia?"</string>
@@ -645,7 +652,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Text s vysokým kontrastom"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Tučný text"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Úprava farieb"</string>
-    <string name="color_correction_usage" msgid="4160611639548748657">"Použitie úpravy farieb"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"Používať úpravu farieb"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Farebný režim"</string>
     <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"Deuteranomália"</string>
     <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"Červená a zelená"</string>
@@ -890,11 +897,11 @@
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"Odinštalovať"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"Odinštalovať aktualizácie"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"Všetky aktualizácie tejto aplikácie systému Android budú odinštalované."</string>
-    <string name="device_apps_app_management_disable" msgid="819003297535493633">"Vypnúť"</string>
+    <string name="device_apps_app_management_disable" msgid="819003297535493633">"Deaktivovať"</string>
     <string name="device_apps_app_management_disable_desc" msgid="9143166267511427607">"Chcete vypnúť túto aplikáciu?"</string>
     <string name="device_apps_app_management_enable" msgid="9173340340253029114">"Zapnúť"</string>
     <string name="device_apps_app_management_enable_desc" msgid="8686291003061136476">"Chcete zapnúť túto aplikáciu?"</string>
-    <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"Využité úložisko"</string>
+    <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"Využitý priestor"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"Využité miesto v úložisku <xliff:g id="VOLUME">%2$s</xliff:g>: <xliff:g id="SIZE">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"Vymazať údaje"</string>
     <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"Všetky údaje tejto aplikácie budú natrvalo odstránené.\nTýka sa to všetkých súborov, nastavení, účtov, databáz atď."</string>
@@ -921,8 +928,8 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Vypnúť obrazovku"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Potvrďte nastavenie šetriča energie"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"Ak necháte obrazovku zapnutú <xliff:g id="SLEEP_TIME">%1$s</xliff:g>, spotreba energie môže stúpnuť"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Potvrďte nastavenie výkonu a energie"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Ak necháte televízor zapnutý dlho, môže sa zvýšiť spotreba energie"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Deaktivovanie šetriča energie"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Potvrďte, že sa obrazovka pri pozeraní nemá vypínať (môže to spôsobiť vyššiu spotrebu energie)."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Pri neaktivite"</string>
@@ -930,6 +937,8 @@
     <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Automatické vypínanie televízora"</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Automatické vypínanie televízora pri nečinnosti"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Automatické vypínanie televízora pri pozeraní"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Časovač Pri nečinnosti musí byť nastavený na kratšie ako časovač Pri pozeraní"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Časovač Pri pozeraní musí byť nastavený na dlhšie ako časovač Pri nečinnosti"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Obmedziť pripoj. k sieti v pohot. režime"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Znížiť spotrebu energie v pohotovostnom režime"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Televízor sa v pohotovostnom režime odpojí od siete. Bude prijímať iba automatické aktualizácie. Môže to znížiť spotrebu energie, ale v pohotovostnom režime zrejme nebudete môcť používať určité funkcie, ako sú prenosy a Asistent Google."</string>
