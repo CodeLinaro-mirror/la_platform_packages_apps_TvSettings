@@ -112,7 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"အရန်သိမ်းခြင်းနှင့် ပြန်ယူခြင်း"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"စက်ရုံထုတ် အခြေအနေ ပြန်ယူခြင်း"</string>
     <string name="device_calibration" msgid="2907914144048739705">"စံကိုက်ညှိမှု"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"စွမ်းအင်ချွေတာမှု"</string>
+    <!-- no translation found for device_energy_saver (5560942970290949739) -->
+    <skip />
     <string name="device_eco_settings" msgid="8478430139722946388">"အီကို ဆက်တင်များ"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"စက်များ"</string>
@@ -122,8 +123,7 @@
     <string name="surround_sound_format_e_ac3" msgid="6923129088903887242">"Dolby ဒစ်ဂျစ်တယ် Plus"</string>
     <string name="surround_sound_format_dts" msgid="8331816247117135587">"DTS"</string>
     <string name="surround_sound_format_dts_hd" msgid="4268947520371740146">"DTS-HD"</string>
-    <!-- no translation found for surround_sound_format_dts_uhd (4340749818133578788) -->
-    <skip />
+    <string name="surround_sound_format_dts_uhd" msgid="4340749818133578788">"DTS:X"</string>
     <string name="surround_sound_format_dolby_mat" msgid="3029804841912462928">"Dolby Atmos with Dolby TrueHD"</string>
     <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"Dolby TrueHD"</string>
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Atmos with Dolby Digital Plus"</string>
@@ -155,6 +155,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"အကြောင်းအရာ၏ ဖရိန်ပြနှုန်းကို တူညီအောင်ညှိခြင်း"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"တစ်ဆက်တည်း"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"အက်ပ်က ၎င်းကို တောင်းဆိုပါက သင်၏ TV သည် တစ်ဆက်တည်း ကူးပြောင်းခြင်းကို လုပ်ဆောင်နိုင်မှသာ သင့်စက်သည် ၎င်း၏ရုပ်ထွက်ကို သင်ကြည့်နေသည့် အကြောင်းအရာ၏ မူရင်းဖရိမ်ပြနှုန်းနှင့် ကိုက်ညီအောင် လုပ်ပါမည်။"</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"သင်ချိတ်ဆက်ထားသော ဖန်သားပြင်သည် ချောမွေ့သော ပြန်လည်စတင်နှုန်း ကူးပြောင်းမှုများကို မပံ့ပိုးပါ။ ဤရွေးစရာကို ပံ့ပိုးသော ဖန်သားပြင်ကို မပြောင်းလဲဘဲ ၎င်းက သက်ရောက်မည်မဟုတ်ပါ။"</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"တစ်ဆက်တည်း မဟုတ်သော"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"အက်ပ်က ၎င်းကို တောင်းဆိုပါက သင့်စက်သည် ၎င်း၏ရုပ်ထွက်ကို သင်ကြည့်နေသည့် အကြောင်းအရာ၏ မူရင်းဖရိမ်ပြနှုန်းနှင့် ကိုက်ညီအောင် လုပ်ပါမည်။ ၎င်းက ဗီဒီယိုဖွင့်ခြင်းမှ ထွက်သောအခါ (သို့) ၎င်းသို့ဝင်သောအခါ သင့်ဖန်သားပြင်ကို တစ်စက္ကန့်ကြာ ဗလာဖြစ်သွားစေနိုင်သည်။"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"မည်သည့်အခါမှ"</string>
@@ -643,7 +644,7 @@
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"ဝန်ဆောင်မှုများ"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"ဝန်ဆောင်မှု ဆက်တင်များ"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ဖြူမဲခြားနားချက် မြင့် စာသား"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"အရောင်ခြားနားချက်မြင့် စာသား"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"စာလုံးထူ စာသား"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"အရောင် အမှန်ပြင်ခြင်း"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"အရောင်ပြင်ဆင်မှု သုံးခြင်း"</string>
@@ -707,7 +708,7 @@
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"အသံဖြင့် ရှင်းလင်းချက်"</string>
     <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"ပံ့ပိုးထားသော ရုပ်ရှင်နှင့် ရှိုးများတွင် ဘာဖြစ်နေကြောင်း စခရင်၌ဖော်ပြချက်ကို နားထောင်နိုင်သည်"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"ဖွင့်ပါ"</string>
-    <string name="system_accessibility_config" msgid="4820879735377962851">"စီစဉ်ဖွဲ့စည်းမှု"</string>
+    <string name="system_accessibility_config" msgid="4820879735377962851">"စီစဉ်သတ်မှတ်ချက်"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g>ကိုသုံးမလား?"</string>
     <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> သည် သက် ရိုက်ထည့်သည့် စာသား အားလုံးကို၊ စကားဝှက်များမှ အပ၊ စုစည်းနိုင်သည်။ ၎င်းထဲမှာ အကြွေးကဒ် နံပါတ်များလို ကိုယ်ရေး ဒေတာများ ပါဝင်ကြသည်။"</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> ကိုရပ်မလား။"</string>
@@ -902,7 +903,7 @@
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"ပုံသေများကို ဖယ်ရှားရန်"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"အချို့သော လုပ်ဆောင်မှုများအတွက် ဤ အက်ပ်ကိုဖွင့်ရန်သတ်မှတ်ပါ"</string>
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"မူရင်း သတ်မှတ်မထားပါ။"</string>
-    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"ကက်ရှကို ဖယ်ရှားရန်"</string>
+    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"ကက်ရှ်ကို ဖယ်ရှားရန်"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"အကြောင်းကြားချက်များ"</string>
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"ပြင်ပကုမ္ပဏီရင်းမြစ်"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"ခွင့်ပြုချက်များ"</string>
@@ -922,8 +923,10 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"ဖန်သားပြင်ပြသမှုကို ပိတ်ရန်"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"\'စွမ်းအင်ချွေတာမှု\' ဆက်တင်ကို အတည်ပြုပါ"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="1253846259965911752">"<xliff:g id="SLEEP_TIME">%1$s</xliff:g> ကြာအောင် ဖန်သားပြင်ကို ဖွင့်ထားပါက စွမ်းအင်သုံးစွဲမှု မြင့်တက်လာနိုင်သည်"</string>
+    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
+    <skip />
+    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
+    <skip />
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"စွမ်းအင်ချွေတာမှုဆက်တင် ပိတ်ခြင်း"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"ကြည့်ရှုနေစဉ် ဖန်သားပြင်ပိတ်ခြင်းကို တားမြစ်ရန် အတည်ပြုပါ။ ၎င်းက စွမ်းအင်ကို ပိုသုံးနိုင်ချေရှိသည်။"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"အသုံးမပြုစဉ်"</string>
@@ -931,6 +934,10 @@
     <string name="device_energy_saver_category_title" msgid="2604826113821035545">"TV အလိုအလျောက်ပိတ်ခြင်း"</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"အသုံးမပြုစဉ် TV အလိုအလျောက်ပိတ်ခြင်း"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"ကြည့်နေစဉ် TV အလိုအလျောက်ပိတ်ခြင်း"</string>
+    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
+    <skip />
+    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
+    <skip />
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"အရန်သင့်မုဒ်တွင်ကွန်ရက်ချိတ်ဆက်မှုကန့်သတ်ခြင်း"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"အရန်သင့်မုဒ်တွင် စွမ်းအင်လျှော့သုံးသည်"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"အလိုအလျှောက် အပ်ဒိတ်ရယူခြင်းများမှလွဲ၍ အရန်သင့်မုဒ်တွင် TV ကို ကွန်ရက်ချိတ်ဆက်မှုဖြုတ်မည်။ ၎င်းက TV ၏ စွမ်းအင်သုံးစွဲမှု လျော့ကျစေနိုင်သော်လည် အရန်သင့်မုဒ်တွင် ‘ကာစ်လုပ်ခြင်း’ နှင့် Google Assistant ကဲ့သို့ အင်္ဂါရပ်များကို မသုံးနိုင်ပါ။"</string>
@@ -969,7 +976,7 @@
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"ဘလူးတုသ် ခွင့်ပြုချက် တောင်းခံမှု"</string>
     <string name="security_patch" msgid="8924741264829495392">"Android TV အိုအက်စ် (OS) လုံခြုံမှု ပက်ခ်ျ အဆင့်"</string>
     <string name="choose_application" msgid="2375936782103669988">"အပလီကေးရှင်းကို ရွေးပါ"</string>
-    <string name="experimental_preference" msgid="3982593252210557436">"(စမ်းသပ်ရေး)"</string>
+    <string name="experimental_preference" msgid="3982593252210557436">"(စမ်းသပ်)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"ဘေးကင်းလုံခြုံသည့်မုဒ်သို့ ပြန်စပါ"</string>
     <string name="reboot_safemode_confirm" msgid="5745977150299953603">"ဘေးကင်းလုံခြုံသည့်မုဒ်သို့ ပြန်စလိုပါသလား။"</string>
     <string name="reboot_safemode_desc" msgid="2919933461408942799">"၎င်းသည် ပြင်ပကုမ္ပဏီမှ သင်ထည့်သွင်းထားသည့် အက်ပ်များကို ပိတ်လိုက်ပါမည်။ သင်စက်ကို ပြန်စသည့်အချိန်တွင် ၎င်းတို့ပြန်ပွင့်လာပါလိမ့်မည်။"</string>
