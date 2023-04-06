@@ -246,9 +246,9 @@
     <!-- Preference which sets the device's display calibration. [CHAR LIMIT=50] -->
     <string name="device_calibration">Calibration</string>
     <!-- Preference which changes energy saver settings. [CHAR LIMIT=50] -->
-    <string name="device_energy_saver">Power &amp; Energy</string>
-    <!-- Preference which changes eco settings. [CHAR LIMIT=50] -->
-    <string name="device_eco_settings">Eco settings</string>
+    <string name="device_energy_saver">Shut-Off Timer</string>
+    <!-- Summary of the preference which changes energy saver settings. [CHAR LIMIT=80] -->
+    <string name="device_energy_saver_summary">Set timers to turn TV off and save energy</string>
     <!-- Preference which shows internal settings. [CHAR LIMIT=50] -->
     <string name="overlay_internal_slice_title"/>
     <string name="overlay_internal_slice_uri" translatable="false"/>
@@ -2772,8 +2772,6 @@
     <!-- Title of power on behavior item [CHAR LIMIT=60] -->
     <string name="power_on_behavior">Power on behavior</string>
     <string name="power_boot_resume_slice_uri" translatable="false" />
-    <!-- Slice Uri for Eco settings [CHAR LIMIT=NONE] -->
-    <string name="eco_settings_slice_uri" translatable="false">content://com.android.tv.settings.device.sliceprovider/eco_settings</string>
     <!-- Title of the Reset section, which lets user select from factory reset or other reset related operations. [CHAR LIMIT=60] -->
     <string name="reset_options_title">Reset</string>
 
@@ -2784,4 +2782,15 @@
 
     <!-- Adb wireless pairing device dialog ethernet pairing code label [CHAR LIMIT=60] -->
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Ethernet pairing code</string>
+
+    <!-- Title for energy modes preference -->
+    <string name="energy_modes">Energy Modes</string>
+    <!-- Title for energy mode selection confirmation dialog -->
+    <string name="energy_modes_summary">Improve energy efficiency when TV is not in use</string>
+    <!-- Header for list of features enabled in the selected energy mode -->
+    <string name="energy_mode_enables">Enables:</string>
+    <!-- Warning that selecting a higher energy mode may increase power consumption -->
+    <string name="energy_mode_eco_hint">Note that this mode may increase the power consumption of the device.</string>
+    <!-- Title for energy mode selection confirmation dialog -->
+    <string name="energy_modes_confirmation_title">Enable \"<xliff:g id="energyModeName" example="Essential network features">%s</xliff:g>\"</string>
 </resources>
