@@ -100,7 +100,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"ထည့်ထားသည့် အက်ပ်များ"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"စနစ် အက်ပ်များ"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"ပိတ်ထားသော အက်ပ်များ"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"စခရင်နားချိန်"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"စခရင်နားချိန်ပုံ"</string>
     <string name="device_display" msgid="244634591698925025">"မြင်ကွင်း"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"ဖန်သားပြင်ပြသမှုနှင့် အသံ"</string>
     <string name="device_sound" msgid="8616320533559404963">"အသံ"</string>
@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR အထွက်ကို မဖြစ်မနေလုပ်မလား။"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"မူရင်းသတ်မှတ်ချက်အရ ပြောင်းလဲမှုကို <xliff:g id="HDR_TYPE">%s</xliff:g> အဖြစ် လုပ်ခိုင်းမည်။"</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"သင့်ဖန်သားပြင်သည် 1080p 60Hz ပုံရိပ်ပြတ်သားကိန်းဖြင့် လုပ်ဆောင်မည်။ ဖန်သားပြင်သည် ၄k 60Hz ပုံရိပ်ပြတ်သားကိန်းဖြင့် လုပ်ဆောင်သောအခါ ဤရွေးစရာကို တွဲမသုံးနိုင်ပါ။"</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"‘Dolby မြင်ကွင်း’ ကို လက်ရှိပုံရိပ်ပြတ်သားကိန်းဖြင့် ပံ့ပိုးမထားပါ။ ‘Dolby မြင်ကွင်း’ ကို ကိုယ်တိုင်ဖွင့်ပါက ဖန်သားပြင်၏ ပုံရိပ်ပြတ်သားကိန်းကို 1080p 60Hz သို့ပြောင်းမည်"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"ပုံရိပ်ပြတ်သားကိန်းကို 1080p 60Hz သို့ပြောင်းမလား။"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"‘Dolby မြင်ကွင်း’ သို့ အမြဲတမ်း မဖြစ်မနေပြောင်းရန်"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"‘အဆင့်မြင့် ဖန်သားပြင်ပြသမှု ဆက်တင်များ’ ရှိ ‘HDR ဖော်မက်များ’ တွင် ‘Dolby မြင်ကွင်း’ ပိတ်ထားပါက ၎င်းသို့ မဖြစ်မနေပြောင်းခြင်းဖြင့် ပြန်ဖွင့်ပေးမည်။"</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR10 သို့ အမြဲတမ်း မဖြစ်မနေပြောင်းရန်"</string>
@@ -216,11 +218,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"ပုံရိပ်ပြတ်သားကိန်းကို %1$s သို့ ပြောင်းမလား။"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"%1$s ကို ယခုမှစသုံးရန် OK ကိုရွေးပါ။"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"‘Dolby မြင်ကွင်း’ ကို %1$s ဖြင့် မပံ့ပိုးသဖြင့် \"အဆင့်မြင့် ဖန်သားပြင်ဆက်တင်များ\" တွင် ပိတ်ပါမည်"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"ဤမုဒ်သည် %1$s ကို ပံ့ပိုးသည်။ အချို့ TV များတွင် နောက်ထပ် HDR ဖော်မက်များ ဖွင့်ရန် ‘အဆင့်မြင့် HDMI’ ကို ဖွင့်ရန် လိုအပ်နိုင်သည်။ ၎င်းကို ပံ့ပိုးထားခြင်း ရှိ၊ မရှိ သိနိုင်ရန် TV ဆက်တင်များကို ကြည့်ပါ။"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"ဤမုဒ်ကပံ့ပိုးသည့် အမျိုးအစားများ- %1$s\nTV အချို့တွင် နောက်ထပ် HDR ဖော်မက်များ ဖွင့်ရန်အတွက် ‘အဆင့်မြင့် HDMI’ ကိုဖွင့်ရန် လိုအပ်နိုင်သည်။ ၎င်းကို ပံ့ပိုးထားခြင်း ရှိ၊ မရှိ သိနိုင်ရန် TV ဆက်တင်များကို ကြည့်ပါ။"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"မလုပ်တော့"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ကရှ်ဒေတာများကို ရှင်းမည်လား?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"apps အားလုံးအတွက် ကရှ်ဒေတာများကို ရှင်းမည်။"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +343,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"ဤစက်ပစ္စည်းကို သင်၏အဖွဲ့အစည်းက စီမံခန့်ခွဲထားသည်။"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"ဤစက်ပစ္စည်းကို <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> က စီမံခန့်ခွဲထားပါသည်။"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">"၊"</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"ပိုမိုလေ့လာရန်"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{ကင်မရာအက်ပ်}other{ကင်မရာအက်ပ်များ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"ပြက္ခဒိန်အက်ပ်"</string>

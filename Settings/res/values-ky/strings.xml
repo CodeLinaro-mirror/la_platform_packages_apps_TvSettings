@@ -40,7 +40,7 @@
     <string name="hotwording_title" msgid="2606899304616599026">"\"Ok Google\" аныктоо функциясы"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Google Жардамчы менен каалаган убакта сүйлөшүңүз"</string>
     <string name="header_category_device" msgid="3023893663454705969">"Түзмөк"</string>
-    <string name="header_category_preferences" msgid="3738388885555798797">"Жеке жөндөөлөр"</string>
+    <string name="header_category_preferences" msgid="3738388885555798797">"Жеке параметрлер"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Пульттар жана аксессуарлар"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Жеке"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Тармакка туташуу"</string>
@@ -96,7 +96,7 @@
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Бардык колдонмолор"</string>
-    <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Тутум колдонмолорун көрсөтүү"</string>
+    <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Система колдонмолорун көрсөтүү"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Орнотулган колдонмолор"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Системанын колдонмолору"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Өчүрүлгөн колдонмолор"</string>
@@ -105,7 +105,7 @@
     <string name="device_display_sound" msgid="7399153506435649193">"Дисплей жана добуш"</string>
     <string name="device_sound" msgid="8616320533559404963">"Үн"</string>
     <string name="device_surround_sound" msgid="1889436002598316470">"Айланадагы үндөр"</string>
-    <string name="device_sound_effects" msgid="2000295001122684957">"Тутум добуштары"</string>
+    <string name="device_sound_effects" msgid="2000295001122684957">"Система добуштары"</string>
     <string name="device_apps" msgid="2134756632245008919">"Колдонмолор"</string>
     <string name="device_storage" msgid="8540243547121791073">"Сактагыч"</string>
     <string name="device_reset" msgid="6115282675800077867">"Баштапкы абалга кайтаруу"</string>
@@ -154,18 +154,20 @@
     <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Контенттин динамикалык диапазонуна дал келтирүү"</string>
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Бул параметр иштетилсе, контентке дал келүү үчүн тутум ар түрдүү динамикалык диазапондун форматтарына которулат. Форматка которулуп жатканда экран карарып калышы мүмкүн.\n\nДинамикалык диапазондун варианттарын көрүү үчүн Экрандын өркүндөтүлгөн параметрлерине өтүңүз."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Тандалган динамикалык диапазон"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Тутум тарабынан тандалган формат"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Система тарабынан тандалган формат"</string>
     <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Формат өзгөртүүсүн тутум башкарсын"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Бул параметр тандалганда, тутум ылайыктуу динамикалык диапазонду таап, экраныңыздын форматына жараша мазмун форматын өзгөртүшү мүмкүн."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Ар дайым мазмундун форматына дал келет"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Башка форматка өзгөртүү"</string>
     <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Тандалган форматка өзгөртөт"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Тандалган форматка өзгөртүлсүн. Өзгөртүү Көрсөтүү режиминдеги же HDR форматындагы башка жөндөөлөргө таасир этиши мүмкүн."</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Тандалган форматка өзгөртүлсүн. Өзгөртүү Көрсөтүү режиминдеги же HDR форматындагы башка параметрлерге таасир этиши мүмкүн."</string>
     <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Ар дайым SDR сакталсын"</string>
     <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Ар дайым <xliff:g id="HDR_TYPE">%s</xliff:g> форматы сакталсын"</string>
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR форматына өзгөртүүнү улантасызбы?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Демейки шартта формат <xliff:g id="HDR_TYPE">%s</xliff:g> форматына өзгөртүлөт."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Экраныңыз 1080p 60 Гц дааналыгында көрсөтүлөт. Экраныңыз 4K 60 Гц дааналыгында көрсөтүлсө, бул параметр туура келбейт."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision учурдагы резолюцияда колдоого алынбайт. Эгер Dolby Vision форматын кол менен иштетсеңиз, экрандын резолюциясы 1080p 60 Гц болуп өзгөрөт"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Резолюция 1080p 60 Гц болуп өзгөрсүнбү?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Dolby Vision форматына ар дайым мажбурлап өзгөртүү"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Эгер Экрандын өркүндөтүлгөн параметрлериндеги HDR форматтарында Dolby Vision өчүрүлгөн болсо, башка форматка мажбурлап өзгөртүү аны кайрадан иштетет."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR10 форматына ар дайым мажбурлап өзгөртүү"</string>
@@ -216,11 +218,12 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Резолюция %1$s болуп өзгөрсүнбү?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Мындан ары %1$s колдонуу үчүн \"Жарайт\" баскычын басыңыз."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$s режиминде Dolby Vision колдоого алынбайт жана \"Экрандын өркүндөтүлгөн параметрлеринде\" өчүрүлөт"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Бул режимде %1$s колдоого алынат. Айрым сыналгыларда кошумча HDR форматтарын иштетүү үчүн Жакшыртылган HDMI\'ды күйгүзүү керектелиши мүмкүн. Сыналгынын параметрлерине өтүп, анын колдоого алынарын текшериңиз."</string>
+    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
+    <skip />
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Жокко чыгаруу"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Жарайт"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Герц"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Герц)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Герц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кеш берилиштери тазалансынбы?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бул бардык колдонмолордун кештелген берилиштерин тазалайт."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +344,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Бул түзмөк уюмуңуз тарабынан башкарылат."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Бул түзмөк <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> тарабынан башкарылат."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <!-- no translation found for hdr_capability (3331021013422460270) -->
+    <skip />
     <string name="learn_more" msgid="820336467414665686">"Кеңири маалымат"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Камера колдонмосу}other{Камера колдонмолору}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Жылнаама колдонмосу"</string>
@@ -388,7 +391,7 @@
     <string name="manual" msgid="5683935624321864999">"Кол менен"</string>
     <string name="regulatory_information" msgid="9107675969694713391">"Башкаруучу маалыматтар"</string>
     <string name="device_feedback" msgid="4871903271442960465">"Түзмөк тууралуу пикир билдирүү"</string>
-    <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked" msgid="4641790432171693921">"Иш тутумун жүктөгүчтүн кулпусу мурунтан эле ачылган"</string>
+    <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked" msgid="4641790432171693921">"Иш системасын жүктөгүчтүн кулпусу мурунтан эле ачылган"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity" msgid="2979556699380115576">"Адегенде Интернетке туташыңыз"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked" msgid="1946089732305102622">"Интернетке туташыңыз же операторуңуз менен байланышыңыз"</string>
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device" msgid="5634005787486307657">"Байланыш оператору кулпулаган түзмөктөрдө жеткиликтүү эмес"</string>
@@ -474,7 +477,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Туташуу"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Тармак унутулсун"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Ушуну менен бул тармакка туташуу үчүн колдонулган маалымат, ошондой эле сакталган сырсөз тазаланат"</string>
-    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Мобилдик телефондун камерасы менен QR кодун скандап, Wi-Fi тармагына туташып, нускамаларды аткарыңыз.\n \n "<b>"Android телефонунан"</b>" Жөндөөлөргө -&gt; Тармак жана Интернет -&gt; Wi-Fi -&gt; бөлүмүнө өтүп, Wi-Fi -&gt; Өркүндөтүлгөн -&gt; Түзмөктү кошууну тандап, QR кодун скандаңыз."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Мобилдик телефондун камерасы менен QR кодун скандап, Wi-Fi тармагына туташып, нускамаларды аткарыңыз.\n \n "<b>"Android телефонунан"</b>" Параметрлерге -&gt; Тармак жана Интернет -&gt; Wi-Fi -&gt; бөлүмүнө өтүп, Wi-Fi -&gt; Өркүндөтүлгөн -&gt; Түзмөктү кошууну тандап, QR кодун скандаңыз."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Жокко чыгаруу үчүн \"Артка\" баскычын басыңыз"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Улантуу"</string>
@@ -930,9 +933,9 @@
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"<xliff:g id="VOLUME">%2$s</xliff:g> ичинен <xliff:g id="SIZE">%1$s</xliff:g> колдонулат"</string>
     <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"Маалыматты өчүрүү"</string>
     <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"Бул колдонмонун файлдар, жөндөөлөр, каттоо эсептери, маалыматтар базасы \nсыяктуу бардык маалыматтары биротоло жок болот."</string>
-    <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"Демейки жөндөөлөрдү тазалап салуу"</string>
+    <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"Демейки параметрлерди тазалап салуу"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"Бул колдонмо айрым аракеттер үчүн ишке киргизилет деп коюлган"</string>
-    <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Демейки жөндөөлөр коюлган жок"</string>
+    <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"Демейки параметрлер коюлган жок"</string>
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"Кештерди тазалоо"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"Билдирмелер"</string>
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Үчүнчү тараптын булагы"</string>
@@ -971,14 +974,14 @@
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Көшүү режиминде тармакка туташууга уруксат берсеңиз, көшүү режиминде электр энергиясы көбүрөөк колдонулат."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Дайындардын камдык көчүрмөсүн сактап жаткан аккаунт жок"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
-    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Wi-Fi сырсөздөрүнүн, кыстармалардын жана башка жөндөөлөрдүн, ошондой эле колдонмолордун дайындарынын камдык көчүрмөлөрүн сактоо аракети токтотулуп, Google серверлериндеги бардык көчүрмөлөр өчүрүлсүнбү?"</string>
+    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Wi-Fi сырсөздөрүнүн, кыстармалардын жана башка параметрлердин, ошондой эле колдонмолордун дайындарынын камдык көчүрмөлөрүн сактоо аракети токтотулуп, Google серверлериндеги бардык көчүрмөлөр өчүрүлсүнбү?"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"Дайындарымдын камдык көчүрмөсүн сактоо"</string>
     <string name="privacy_backup_account" msgid="4527813051841860610">"Камдык көчүрмө каттоо эсеби"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Авто калыбына келтирүү"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"Түзмөктү баштапкы абалга келтирүү"</string>
-    <string name="factory_reset_description" msgid="6697396335158766785">"Бул аракет түзмөгүңүздү демейки жөндөөлөргө кайтарып, бардык маалыматты, аккаунттарды, файлдарды жана жүктөлүп алынган колдонмолорду өчүрөт."</string>
-    <string name="factory_reset_info_description" msgid="5098454670833183487">"Бул аракет түзмөгүңүздү демейки жөндөөлөргө кайтарып, бардык маалыматты, аккаунттарды, файлдарды жана жүктөлүп алынган колдонмолорду өчүрөт."</string>
-    <string name="factory_reset_content_description" msgid="1677022688420116803">"Баштапкы абалга кайтаруу. Бул аракет түзмөгүңүздү демейки жөндөөлөргө кайтарып, бардык маалыматты, аккаунттарды, файлдарды жана жүктөлүп алынган колдонмолорду өчүрөт."</string>
+    <string name="factory_reset_description" msgid="6697396335158766785">"Бул аракет түзмөгүңүздү демейки параметрлерге кайтарып, бардык маалыматты, аккаунттарды, файлдарды жана жүктөлүп алынган колдонмолорду өчүрөт."</string>
+    <string name="factory_reset_info_description" msgid="5098454670833183487">"Бул аракет түзмөгүңүздү демейки параметрлерге кайтарып, бардык маалыматты, аккаунттарды, файлдарды жана жүктөлүп алынган колдонмолорду өчүрөт."</string>
+    <string name="factory_reset_content_description" msgid="1677022688420116803">"Баштапкы абалга кайтаруу. Бул аракет түзмөгүңүздү демейки параметрлерге кайтарып, бардык маалыматты, аккаунттарды, файлдарды жана жүктөлүп алынган колдонмолорду өчүрөт."</string>
     <string name="confirm_factory_reset_description" msgid="1337483463207721713">"Жеке маалыматыңыз менен жүктөп алган колдонмолоруңузду өчүрөсүзбү? Аларды кайра калыбына келтире албайсыз."</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"Баарын өчүрүү"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g> үчүн ат тандаңыз"</string>
@@ -1022,7 +1025,7 @@
     <string name="manage_notification_access_title" msgid="8659254371564990084">"Эскертмелерге уруксат"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Орнотулган колдонмолор үчүн билдирмелерди колдонууга уруксат суралган жок."</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Бул колдонмолор билдирмелердин баарын, ошону менен катар байланыштардын аты-жөнү жана алынган билдирүүлөр сыяктуу жеке маалыматты окуй алышат. Мындан тышкары, алар бул билдирмелерди жок кылып же алардагы баскычтарды баса алышат."</string>
-    <string name="default_notification_access_package_summary" msgid="1354775994781420222">"Тутум талап кылат"</string>
+    <string name="default_notification_access_package_summary" msgid="1354775994781420222">"Система талап кылат"</string>
     <string name="directory_access" msgid="7338555825237012006">"Каталогго мүмкүнчүлүк алуу"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"Бул колдонмолордун айрым каталогдорго кирүүгө уруксаттары бар."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>

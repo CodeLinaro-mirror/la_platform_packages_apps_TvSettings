@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Haluatko pakottaa HDR-tulon?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Muunnos pakotetaan oletuksena tähän muotoon: <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Näytön resoluutio on 1080p ja 60 Hz. Tämä vaihtoehto ei ole yhteensopiva näytön kanssa, kun sen resoluutio on 4K ja 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Visionia ei tueta nykyisellä resoluutiolla. Jos otat Dolby Visionin käyttöön manuaalisesti, näytön resoluutioksi muutetaan 1080p 60 Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Muutetaanko resoluutioksi 1080p 60 Hz?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Pakota aina muuntaminen Dolby Visioniin"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Jos Dolby Vision on pois käytöstä näytön lisäasetusten HDR-muodoissa, Dolby Visioniin muuntamisen pakottaminen ottaa sen käyttöön."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Pakota aina muuntaminen HDR10:een"</string>
@@ -216,11 +218,12 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Muutetaanko resoluutioksi %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Valitse OK, jos haluat, että %1$s on käytössä tästä lähtien."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$s ei tue Dolby Visionia. Se poistetaan käytöstä Näytön lisäasetuksista."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"%1$s on tuettu tässä tilassa. Parannettu HDMI pitää laittaa päälle joillain televisioilla, jotta saat käyttöön enemmän HDR-muotoja. Tarkista, tuetaanko tätä TV:n asetuksista."</string>
+    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
+    <skip />
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Peru"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Tyhjennetäänkö välimuistitiedot?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Sovellusten välimuistit tyhjennetään."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +344,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Organisaatiosi hallinnoi tätä laitetta."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Tätä laitetta hallitsee <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <!-- no translation found for hdr_capability (3331021013422460270) -->
+    <skip />
     <string name="learn_more" msgid="820336467414665686">"Lue lisää"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kamerasovellus}other{Kamerasovellukset}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Kalenterisovellus"</string>

@@ -207,10 +207,11 @@ public final class EnergyModesHelper {
     }
 
     private boolean areEnergyModesEnabled() {
+        boolean enableEnergyModes = mContext.getResources().getBoolean(R.bool.enable_energy_modes);
         boolean customPoliciesEnabled = DeviceConfig.getBoolean(NAMESPACE_LOW_POWER_STANDBY,
                 KEY_ENABLE_POLICY, false);
 
-        return isLowPowerStandbySupported(mContext) && customPoliciesEnabled;
+        return enableEnergyModes && customPoliciesEnabled && isLowPowerStandbySupported(mContext);
     }
 
     /** Returns whether Energy Modes should be shown and used on this device */
@@ -329,7 +330,7 @@ public final class EnergyModesHelper {
         return string.split(",");
     }
 
-    private LowPowerStandbyPolicy getPolicy(EnergyMode mode) {
+    LowPowerStandbyPolicy getPolicy(EnergyMode mode) {
         if (!mode.enableLowPowerStandby) {
             return new LowPowerStandbyPolicy(
                     mContext.getString(mode.identifierRes),

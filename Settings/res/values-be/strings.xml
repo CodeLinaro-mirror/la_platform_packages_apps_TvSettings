@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Прымусова перавесці ў фармат HDR?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Стандартна размова будзе прымусова адкрывацца ў <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Ваш дысплэй будзе мець раздзяляльнасць 1080p 60 Гц. Гэты параметр несумяшчальны з вашым дысплэем пры выкарыстанні раздзяляльнасці 4k 60 Гц."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision не падтрымліваецца ў бягучай раздзяляльнасці. Калі вы ўключыце Dolby Vision уручную, раздзяляльнасць экрана будзе зменена на 1080p 60 Гц"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Змяніць раздзяляльнасць на 1080p 60 Гц?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Заўсёды прымусова задаваць фармат Dolby Vision"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Калі фармат Dolby Vision адключаны ў Фарматах HDR у пашыраных наладах дысплэя, прымусовае задаванне фармату Dolby Vision зноў уключыць яго."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Заўсёды прымусова задаваць фармат HDR10"</string>
@@ -216,11 +218,12 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Змяніць раздзяляльнасць на %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Выберыце ОК, каб адразу ж выкарыстоўваць %1$s."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision не падтрымліваецца ў рэжыме %1$s і будзе адключаны ў пашыраных наладах дысплэя"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Гэты рэжым падтрымлівае %1$s. На некаторых тэлевізарах можа спатрэбіцца ўключыць палепшаны HDMI, каб выкарыстоўваць больш фарматаў HDR. Даведацца, якія фарматы падтрымліваюцца, можна ў наладах тэлевізара."</string>
+    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
+    <skip />
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Скасаваць"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ОК"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Ачысціць кэшаваныя даныя?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Гэта ачысціць кэшаваныя даныя для ўсіх праграм."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +344,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Гэта прылада знаходзіцца пад кіраваннем вашай арганізацыі."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Гэта прылада знаходзіцца пад кіраваннем <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <!-- no translation found for hdr_capability (3331021013422460270) -->
+    <skip />
     <string name="learn_more" msgid="820336467414665686">"Даведацца больш"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Праграма \"Камера\"}one{Праграмы \"Камера\"}few{Праграмы \"Камера\"}many{Праграмы \"Камера\"}other{Праграмы \"Камера\"}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Праграма \"Каляндар\""</string>
@@ -354,7 +357,7 @@
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Кіраўніцтвы"</string>
-    <string name="about_system_update" msgid="7421264399111367755">"Абнаўленні сістэмы"</string>
+    <string name="about_system_update" msgid="7421264399111367755">"Абнаўленне сістэмы"</string>
     <string name="system_update_description" msgid="998883510488461766">"У выніку праграмнае забеспячэнне сістэмы будзе абноўлена да апошняй версіі. Ваша прылада будзе перазапушчана."</string>
     <string name="system_update_content_description" msgid="5702888187682876466">"Абнаўленне сістэмы. У выніку гэтага дзеяння праграмнае забеспячэнне сістэмы будзе абноўлена да апошняй версіі. Ваша прылада будзе перазапушчана."</string>
     <string name="about_preference" msgid="9112690446998150670">"Інфармацыя"</string>

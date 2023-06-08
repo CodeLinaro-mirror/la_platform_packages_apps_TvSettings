@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Vil du tvinge HDR-utdata?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Som standard blir konverteringen tvunget til <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Skjermen kjøres med 1080p-oppløsning og 60 Hz. Dette alternativet er ikke kompatibelt med skjermen når den kjører med 4k-oppløsning og 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision støttes ikke med denne oppløsningen. Hvis du slår på Dolby Vision manuelt, byttes oppløsningen på skjermen til 1080p 60 Hz."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Vil du bytte oppløsning til 1080p 60 Hz?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Tving alltid konvertering til Dolby Vision"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Hvis Dolby Vision er deaktivert i HDR-formater i Avanserte skjerminnstillinger og du tvinger konvertering til Dolby Vision, aktiveres det igjen."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Tving alltid konvertering til HDR10"</string>
@@ -183,7 +185,7 @@
     <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Alltid"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Hvis appen ber om det, kommer enheten til å matche utgangen til den opprinnelige bildefrekvensen til innholdet du ser på. Dette kan føre til at skjermen blir tom i et øyeblikk når du avslutter eller starter videoavspilling."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Aldri"</string>
-    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Selv om appen ber om det, kommer enheten aldri til å prøve å matche utgangen til den opprinnelige bildefrekvensen til innholdet du ser på."</string>
+    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Selv om appen ber om det, prøver enheten aldri å matche utgangen til den opprinnelige bildefrekvensen for innholdet du ser på."</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"Tekstskalering"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"Skaler til <xliff:g id="SCALE">%1$d</xliff:g> %%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Eksempeltekst"</string>
@@ -216,11 +218,12 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Vil du endre oppløsning til %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Velg OK for å bruke %1$s fra nå av."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision støttes ikke ved %1$s og blir slått av i «Avanserte skjerminnstillinger»"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Denne modusen støtter %1$s. På noen TV-er må du muligens slå på Forbedret HDMI for å aktivere flere HDR-formater. Sjekk TV-innstillingene for å se om dette støttes."</string>
+    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
+    <skip />
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Avbryt"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vil du slette bufrede data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Dette sletter bufrede data for alle apper."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +344,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Denne enheten administreres av organisasjonen din."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Denne enheten administreres av <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <!-- no translation found for hdr_capability (3331021013422460270) -->
+    <skip />
     <string name="learn_more" msgid="820336467414665686">"Finn ut mer"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kameraapp}other{Kameraapper}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Kalender-app"</string>
@@ -774,7 +777,7 @@
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"Bekreft apper via USB"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"Sjekk om det er skadelig atferd i apper som er installert via ADB/ADT"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Detaljert loggføring for wifi"</string>
-    <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Slå på detaljert Wifi-loggføring"</string>
+    <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Slå på detaljert wifi-loggføring"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"Vis berøringer"</string>
     <string name="system_pointer_location" msgid="8724050865245555084">"Pekerplassering"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"Vis layoutgrenser"</string>

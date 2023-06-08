@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR 出力に強制しますか？"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"デフォルトでは、<xliff:g id="HDR_TYPE">%s</xliff:g>に強制変換されます。"</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"ディスプレイの解像度は 1080p 60Hz になります。このオプションは、解像度が 4K 60Hz のディスプレイには対応していません。"</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"ドルビー ビジョンは現在の解像度ではサポートされていません。ドルビー ビジョンを手動で有効にした場合、ディスプレイの解像度が 1080p 60 Hz に変更されます"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"解像度を 1080p 60 Hz に変更しますか？"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"常にドルビー ビジョンに強制変換する"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"[ディスプレイの詳細設定] で HDR 形式のドルビー ビジョンが無効になっている場合、ドルビー ビジョンに強制変換すると、ドルビー ビジョンが有効になります。"</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"常に HDR10 に強制変換する"</string>
@@ -216,11 +218,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"解像度を %1$s に変更しますか？"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"これから %1$s を使用するには、[OK] を選択してください。"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"ドルビー ビジョンは %1$s ではサポートされていないため、[ディスプレイの詳細設定] で無効になります"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"このモードは %1$s をサポートしています。テレビによっては、拡張 HDMI を ON にして他の HDR 形式を有効にする必要があります。テレビの設定で、この機能に対応しているかどうかをご確認ください。"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"このモードは以下をサポートしています: %1$s\nテレビによっては、拡張 HDMI を ON にして他の HDR 形式を有効にする必要があります。テレビの設定で、この機能に対応しているかどうかをご確認ください。"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"キャンセル"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g>（<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz）"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g>（<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz）"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"キャッシュデータを削除しますか？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"すべてのアプリのキャッシュデータが削除されます。"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +343,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"このデバイスは組織によって管理されています。"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"このデバイスは <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> により管理されています。"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">"、"</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"詳細"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{カメラアプリ}other{カメラアプリ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"カレンダー アプリ"</string>
@@ -893,7 +894,7 @@
     <string name="restricted_profile_delete_title" msgid="7153982195273379506">"制限付きプロファイルを削除"</string>
     <string name="restricted_profile_create_title" msgid="700322590579894058">"制限付きプロファイルの作成"</string>
     <string name="restricted_profile_configure_title" msgid="3327502517511010296">"設定"</string>
-    <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"許可されたアプリ"</string>
+    <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"許可されているアプリ"</string>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"許可済み"</string>
     <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"許可しない"</string>
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"制限をカスタマイズ"</string>

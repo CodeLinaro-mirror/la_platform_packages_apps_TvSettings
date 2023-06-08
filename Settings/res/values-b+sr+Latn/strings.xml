@@ -67,7 +67,7 @@
     <string name="add_account" msgid="7386223854837017129">"Dodaj nalog"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Uklanjanje naloga"</string>
     <string name="account_sync" msgid="4315295293211313989">"Izaberite sinhronizovane aplikacije"</string>
-    <string name="sync_now" msgid="4335217984374620551">"Sinhronizuj odmah"</string>
+    <string name="sync_now" msgid="4335217984374620551">"Sinhronizuj"</string>
     <string name="sync_in_progress" msgid="8081367667406185785">"Sinhronizovanje…"</string>
     <string name="last_synced" msgid="8371967816955123864">"Poslednji put sinhronizovano <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="sync_disabled" msgid="6652778349371079140">"Onemogućeno je"</string>
@@ -75,7 +75,7 @@
     <string name="account_remove_failed" msgid="5654411101098531690">"Nije moguće ukloniti nalog"</string>
     <!-- no translation found for sync_item_title (5884138264243772176) -->
     <skip />
-    <string name="sync_one_time_sync" msgid="1665961083810584134">"Sinhronizuj odmah<xliff:g id="LAST_SYNC_TIME">
+    <string name="sync_one_time_sync" msgid="1665961083810584134">"Sinhronizuj<xliff:g id="LAST_SYNC_TIME">
 %1$s</xliff:g>"</string>
     <string name="sync_failed" msgid="2998289556481804047">"Sinhronizacija nije uspela"</string>
     <string name="sync_active" msgid="1621239982176888680">"Sinhronizacija je aktivna"</string>
@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Želite da nametnete HDR izlaz?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Podrazumevano nametnuće se konverzija u <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Rezolucija ekrana biće 1080 piksela na 60 Hz. Ta opcija nije kompatibilna sa vašim ekranom rezolucije 4K na 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision nije podržan pri aktuelnoj rezoluciji. Ako ručno omogućite Dolby Vision, rezolucija ekrana će se promeniti u 1080 piksela na 60 Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Želite da promenite rezoluciju u 1080 piksela na 60 Hz?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Uvek obavljaj prinudnu konverziju u Dolby Vision"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Ako je Dolby Vision onemogućen u HDR formatima u Naprednim podešavanjima ekrana, prinudna konverzija u Dolby Vision će ga ponovo omogućiti."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Uvek obavljaj prinudnu konverziju u HDR10"</string>
@@ -216,11 +218,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Želite da promenite rezoluciju u %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Izaberite Potvrdi da biste koristili %1$s od sada."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolbi Vision nije podržan na %1$s i biće onemogućen u „Naprednim podešavanjima prikaza“"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Ovaj režim podržava %1$s. Na nekim televizorima ćete možda morati da uključite poboljšan HDMI da biste omogućili više HDR formata. Proverite podešavanja TV-a da biste videli da li je to podržano."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Ovaj režim podržava: %1$s\nNa nekim televizorima ćete možda morati da uključite poboljšan HDMI da biste omogućili više HDR formata. Proverite podešavanja TV-a da biste videli da li je to podržano."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Otkaži"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Potvrdi"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Želite li da obrišete keširane podatke?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Biće obrisani keširani podaci za sve aplikacije."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +343,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Ovim uređajem upravlja organizacija."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Ovim uređajem upravlja <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Saznajte više"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplikacija za kameru}one{Aplikacije za kameru}few{Aplikacije za kameru}other{Aplikacije za kameru}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplikacija Kalendar"</string>
@@ -756,7 +757,7 @@
     <string name="system_drawing" msgid="5802739024643871942">"Crtanje"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"Nadgledanje"</string>
     <string name="system_apps" msgid="8481888654606868074">"Aplikacije"</string>
-    <string name="system_stay_awake" msgid="5935117574414511413">"Ne zaključavaj"</string>
+    <string name="system_stay_awake" msgid="5935117574414511413">"Ne gasi ekran"</string>
     <string name="keep_screen_on_summary" msgid="4680661166009970792">"Ekran nikada neće biti u režimu spavanja"</string>
     <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP provera"</string>
     <string name="system_hdmi_optimization" msgid="4122753440620724144">"HDMI optimizacija"</string>

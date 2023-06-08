@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"هل تريد فرض تشغيل إخراج النطاق العالي الديناميكية (HDR)؟"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"سيتم فرض التحويل تلقائيًا إلى \"<xliff:g id="HDR_TYPE">%s</xliff:g>\"."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"سيتم تشغيل شاشتك بدقة 1080p و60 هرتز. لا يتوافق هذا الخيار مع شاشتك عند تشغيلها بدقة 4K و60 هرتز."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"لا يُسمح باستخدام تقنية Dolby Vision مع درجة الدقة الحالية. في حال تفعيل Dolby Vision يدويًا، سيتم تغيير درجة دقة الشاشة إلى 1080p و60 هرتز."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"هل تريد تغيير درجة الدقة إلى 1080p و60 هرتز؟"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"فرض التحويل إلى تقنية Dolby Vision دائمًا"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"إذا كانت تقنية Dolby Vision غير مفعَّلة في تنسيقات النطاق العالي الديناميكية (HDR) ضمن \"إعدادات العرض المتقدّمة\"، سيؤدي فرض التحويل إلى تقنية Dolby Vision إلى إعادة تفعيلها."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"فرض التحويل إلى تقنية HDR10 دائمًا"</string>
@@ -180,7 +182,7 @@
     <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"الانتقال السلس فقط"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"بناءً على طلب التطبيق وشريطة توفّر إمكانية الانتقال السلس في التلفزيون الخاص بك، ستتطابق مخرجات جهازك مع العدد الأصلي للقطات في الثانية الذي يظهر به ما تشاهده من محتوى."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"لا تتيح الشاشة المتصلة الانتقالات السلِسة لمعدّل التحديث. لن يكون لهذا الخيار أي تأثير إلا في حال استخدام شاشة متوافقة معه."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"دومًا"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"دائمًا"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ستتطابق مخرجات جهازك مع العدد الأصلي للقطات في الثانية الذي يظهر به ما تشاهده من محتوى إذا طلب التطبيق ذلك. وقد يؤدي ذلك إلى ظهور شاشة فارغة لفترة قصيرة عند الدخول إلى وضع تشغيل فيديو أو الخروج منه."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"أبدًا"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"لن تتطابق مخرجات جهازك أبدًا مع العدد الأصلي للقطات في الثانية الذي يظهر به ما تشاهده من محتوى حتى إذا طلب التطبيق ذلك."</string>
@@ -216,11 +218,12 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"هل تريد تغيير درجة الدقة إلى ‏%1$s؟"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"اختَر \"حسنًا\" لاستخدام %1$s من الآن فصاعدًا."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"تقنية Dolby Vision غير متاحة في ‏%1$s وسيتم إيقافها في \"إعدادات العرض المتقدّمة\"."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"يتوافق هذا الوضع مع ‏%1$s. في بعض أجهزة التلفزيون، قد تحتاج إلى تفعيل خيار \"منفذ HDMI المحسَّن\" لتفعيل المزيد من صيغ النطاق العالي الديناميكية (HDR). يُرجى الانتقال إلى إعدادات التلفزيون لمعرفة ما إذا كان هذا الخيار متاحًا."</string>
+    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
+    <skip />
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"إلغاء"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"حسنًا"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"هرتز"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> هرتز)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> هرتز)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"هل تريد محو البيانات المؤقتة؟"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"يؤدي ذلك إلى محو البيانات المؤقتة لكل التطبيقات."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +344,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"تتولى مؤسستك إدارة هذا الجهاز."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"تتم إدارة هذا الجهاز بواسطة <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">"،"</string>
-    <string name="space_separator" msgid="4169645647388594972">" U+2060"</string>
+    <!-- no translation found for hdr_capability (3331021013422460270) -->
+    <skip />
     <string name="learn_more" msgid="820336467414665686">"مزيد من المعلومات"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{تطبيق الكاميرا}zero{تطبيقات الكاميرا}two{تطبيقا الكاميرا}few{تطبيقات الكاميرا}many{تطبيقات الكاميرا}other{تطبيقات الكاميرا}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"تطبيق التقويم"</string>

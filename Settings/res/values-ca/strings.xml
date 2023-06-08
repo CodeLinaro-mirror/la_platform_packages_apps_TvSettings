@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Vols forçar la sortida HDR?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"De manera predeterminada, la conversió es forçarà a <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"La pantalla s\'executarà amb una resolució de 1080p a 60Hz. Aquesta opció no és compatible amb la teva pantalla quan s\'executa amb una resolució de 4K a 60Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision no s\'admet amb la resolució actual. Si actives Dolby Vision manualment, es canviarà a una resolució de pantalla de 1080p a 60 Hz."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Vols canviar a una resolució de 1080p a 60 Hz?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Força sempre la conversió a Dolby Vision"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Si Dolby Vision no està activat als formats HDR de la configuració avançada de la pantalla, forçant la conversió a Dolby Vision es tornarà a activar."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Força sempre la conversió a HDR10"</string>
@@ -216,11 +218,12 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Vols canviar la resolució a %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Selecciona D\'acord per utilitzar %1$s a partir d\'ara."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision no s\'admet a %1$s i es desactivarà a Configuració avançada de la pantalla"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Aquest mode admet %1$s. En alguns televisors, és possible que hagis d\'activar l\'HDMI millorat per tenir disponibles més formats HDR. Comprova la configuració del televisor per veure si és compatible."</string>
+    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
+    <skip />
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Cancel·la"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"D\'acord"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vols esborrar dades emmagatzem. a memòria cau?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"S\'esborraran dades aplicacions a la memòria cau."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -271,7 +274,7 @@
     <string name="bluetooth_rename" msgid="7791922876280337194">"Canvia el nom del dispositiu connectat"</string>
     <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"Oblida"</string>
     <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"Oblida el dispositiu %1$s"</string>
-    <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Adreça Bluetooth"</string>
+    <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Adreça de Bluetooth"</string>
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Connectat"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Desconnectat"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"No tens permís per canviar la configuració del Bluetooth."</string>
@@ -341,8 +344,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"La teva organització gestiona aquest dispositiu."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"<xliff:g id="ORGANIZATION_NAME">%s</xliff:g> gestiona aquest dispositiu."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <!-- no translation found for hdr_capability (3331021013422460270) -->
+    <skip />
     <string name="learn_more" msgid="820336467414665686">"Més informació"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplicació de càmera}other{Aplicacions de càmera}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplicació de calendari"</string>
@@ -401,7 +404,7 @@
     <string name="device_status_title" msgid="9051569510258883673">"Estat"</string>
     <string name="battery_status_title" msgid="8850166742025222210">"Estat de la bateria"</string>
     <string name="battery_level_title" msgid="2672804570916248736">"Nivell de la bateria"</string>
-    <string name="status_bt_address" msgid="7190052214963950844">"Adreça Bluetooth"</string>
+    <string name="status_bt_address" msgid="7190052214963950844">"Adreça de Bluetooth"</string>
     <string name="status_up_time" msgid="1758102680983108313">"Temps d\'activitat"</string>
     <string name="legal_information" msgid="1087445528481370874">"Informació legal"</string>
     <string name="copyright_title" msgid="5879660711078649518">"Drets d\'autor"</string>
@@ -782,8 +785,8 @@
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"Mostra la capa de programari"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"Mostra el sobredibuix de la GPU"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Mostra els canvis de superfície"</string>
-    <string name="system_window_animation_scale" msgid="685477540250939659">"Escala de l\'animació de la finestra"</string>
-    <string name="system_transition_animation_scale" msgid="7266380208347453619">"Escala de l\'animació de transició"</string>
+    <string name="system_window_animation_scale" msgid="685477540250939659">"Escala d\'animació de la finestra"</string>
+    <string name="system_transition_animation_scale" msgid="7266380208347453619">"Escala d\'animació de la transició"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"Escala de durada de l\'animació"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"Mode estricte activat"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Perfil de representació de GPU"</string>
@@ -802,7 +805,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Il·lumina capes de maquinari en verd en actualitzar-se"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"De millor a pitjor: blau, verd, vermell clar, vermell"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Il·lumina superfície de finestres en actualitzar-se"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Il·lumina si aplicacions tarden molt al procés principal"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Il·lumina la pantalla quan les aplicacions facin operacions llargues al fil principal"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Mesura temps represen. a adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Fonts desconegudes"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Permet instal·lar aplicacions que no siguin de Play Store"</string>

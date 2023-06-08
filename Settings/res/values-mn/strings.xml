@@ -166,6 +166,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Та HDR гаралтыг хүчлэхийг хүсэж байна уу?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Өгөгдмөлөөр хувиралтыг <xliff:g id="HDR_TYPE">%s</xliff:g> болгож хүчилнэ."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Таны дэлгэц 1080p 60Hz нягтралтайгаар ажиллана. Таны дэлгэц 4000 60Hz нягтралтайгаар ажиллаж байгаа үед энэ сонголт тохиромжгүй."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision-г одоогийн нягтралд дэмждэггүй. Хэрэв та Dolby Vision-г гар аргаар идэвхжүүлбэл таны дэлгэцийн нягтралыг 1080p 60Hz болгож өөрчилнө"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Нягтралыг 1080p 60Hz болгож өөрчлөх үү?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Хувиралтыг үргэлж Dolby Vision рүү хүчлэх"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Хэрэв Дэлгэцийн нарийвчилсан тохиргооны HDR форматууд Dolby Vision-г идэвхгүй болгосон бол хувиралтыг Dolby Vision рүү хүчлэх нь үүнийг дахин идэвхжүүлнэ."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Хувиралтыг үргэлж HDR10 руу хүчлэх"</string>
@@ -216,11 +218,12 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Нягтралыг %1$s болгож өөрчлөх үү?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Одооноос %1$s-г ашиглахын тулд OK-г сонгоно уу."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision нь %1$s дээр дэмжигдээгүй бөгөөд \"Дэлгэцийн нарийвчилсан тохиргоо\" хэсэгт идэвхгүй болно."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Энэ горим %1$s-г дэмждэг. Зарим ТВ дээр илүү олон HDR форматыг идэвхжүүлэхийн тулд сайжруулсан HDMI-г асаах шаардлагатай байж магадгүй. Үүнийг дэмжиж байгаа эсэхийг харахын тулд ТВ-н тохиргоогоо шалгана уу."</string>
+    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
+    <skip />
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Цуцлах"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кеш хийгдсэн өгөгдлийг арилгах уу?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бүх програмд зориулан кеш хийгдсэн өгөгдлийг арилгах болно."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -341,8 +344,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Энэ төхөөрөмжийг таны байгууллага удирдаж байна."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Энэ төхөөрөмжийг <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> удирддаг"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <!-- no translation found for hdr_capability (3331021013422460270) -->
+    <skip />
     <string name="learn_more" msgid="820336467414665686">"Дэлгэрэнгүй үзэх"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Камерын апп}other{Камерын аппууд}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Хуанлины апп"</string>
