@@ -218,8 +218,7 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"ରିଜୋଲ୍ୟୁସନକୁ %1$sକୁ ବଦଳାଇବେ?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"ବର୍ତ୍ତମାନଠାରୁ %1$sକୁ ବ୍ୟବହାର କରିବା ପାଇଁ \"ଠିକ୍ ଅଛି\"କୁ ଚୟନ କରନ୍ତୁ।"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$sରେ Dolby Vision ସମର୍ଥିତ ନୁହେଁ ଏବଂ ଏହା \'ଉନ୍ନତ ଡିସପ୍ଲେ ସେଟିଂସ\'ରେ ଅକ୍ଷମ ହୋଇଯିବ"</string>
-    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
-    <skip />
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"ଏହି ମୋଡ ଏହାକୁ ସମର୍ଥନ କରେ: %1$s\nକିଛି ଟିଭିରେ, ଅଧିକ HDR ଫର୍ମାଟ ସକ୍ଷମ କରିବାକୁ ଆପଣଙ୍କୁ ଉନ୍ନତ HDMIକୁ ଚାଲୁ କରିବା ଆବଶ୍ୟକ ହୋଇପାରେ। ଏହା ସମର୍ଥିତ ନା ନୁହେଁ ଦେଖିବାକୁ ଆପଣଙ୍କ ଟିଭି ସେଟିଂସକୁ ଯାଞ୍ଚ କରନ୍ତୁ।"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ବାତିଲ କରନ୍ତୁ"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ଠିକ୍ ଅଛି"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -297,7 +296,7 @@
     <string name="system_home_theater_control" msgid="6228949628173590310">"ହୋମ ଥିଏଟର ନିୟନ୍ତ୍ରଣ"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"ଡେଭଲପରଙ୍କ ବିକଳ୍ପ"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"କିଛିନାହିଁ"</string>
-    <string name="system_diagnostic" msgid="1654842813331919958">"ବ୍ୟବହାର ଏବଂ ଡାଇଗ୍ନୋଷ୍ଟିକ୍‌ଗୁଡ଼ିକ"</string>
+    <string name="system_diagnostic" msgid="1654842813331919958">"ବ୍ୟବହାର ଏବଂ ଡାଇଗ୍ନୋଷ୍ଟିକ୍ସ"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"କୌଣସି ଡିଭାଇସ୍‌ ଆଡମିନ୍‌ ଆପ୍‌ ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"ଆଡମିନଙ୍କ ଦ୍ଵାରା ଅକ୍ଷମ କରାଯାଇଛି"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"ଉପଲବ୍ଧ ନାହିଁ"</string>
@@ -344,8 +343,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"ଏହି ଡିଭାଇସ୍‌ ଆପଣଙ୍କ ସଂସ୍ଥା ଦ୍ୱାରା ପରିଚାଳିତ"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"ଏହି ଡିଭାଇସ୍‌ <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ଦ୍ୱାରା ପରିଚାଳିତ ହେଉଛି।"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <!-- no translation found for hdr_capability (3331021013422460270) -->
-    <skip />
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"ଅଧିକ ଜାଣନ୍ତୁ"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{କ୍ୟାମେରା ଆପ}other{କ୍ୟାମେରା ଆପ୍ସ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"କ୍ୟାଲେଣ୍ଡର ଏପ"</string>
@@ -436,7 +434,7 @@
     <string name="connected" msgid="4981532275162345997">"କନେକ୍ଟ କରାଗଲା"</string>
     <string name="not_connected" msgid="475810896484271663">"କନେକ୍ଟ ହୋ‍ଇନାହିଁ"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ଅନ୍ୟ ବିକଲ୍ପଗୁଡ଼ିକ"</string>
-    <string name="wifi_setting_see_all" msgid="5048103047976316675">"ସମସ୍ତ ଦେଖନ୍ତୁ"</string>
+    <string name="wifi_setting_see_all" msgid="5048103047976316675">"ସବୁ ଦେଖନ୍ତୁ"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"କିଛି ଦେଖନ୍ତୁ"</string>
     <string name="wifi_setting_available_networks" msgid="2096957819727319750">"ଉପଲବ୍ଧ ଥିବା ନେଟ୍‌ୱର୍କ"</string>
     <string name="wifi_setting_other_options_add_network" msgid="6490215784178866978">"ନୂଆ ନେଟ୍‌ୱାର୍କ ଯୋଗ କରନ୍ତୁ"</string>
