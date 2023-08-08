@@ -218,8 +218,7 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Ubah resolusi ke %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Pilih Oke untuk menggunakan %1$s mulai sekarang."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision tidak didukung di %1$s dan akan dinonaktifkan di \"Setelan Tampilan Lanjutan\""</string>
-    <!-- no translation found for resolution_hdr_description_info (2408761621976850238) -->
-    <skip />
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Mode ini mendukung: %1$s\nDi beberapa TV, Anda mungkin perlu mengaktifkan HDMI yang Ditingkatkan untuk memungkinkan lebih banyak format HDR. Periksa setelan TV Anda untuk melihat apakah fitur ini didukung."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Batal"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Oke"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -344,8 +343,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Perangkat ini dikelola oleh organisasi."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Perangkat ini dikelola oleh <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <!-- no translation found for hdr_capability (3331021013422460270) -->
-    <skip />
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Pelajari lebih lanjut"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplikasi kamera}other{Aplikasi kamera}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"aplikasi Kalender"</string>
@@ -542,7 +540,7 @@
     <string name="storage_migrate_away" msgid="7880100961434638430">"Pindahkan data ke penyimpanan lainnya"</string>
     <string name="storage_no_apps" msgid="95566375753627272">"Tidak ada aplikasi untuk dicadangkan"</string>
     <string name="storage_forget" msgid="4671975563260507003">"Lupakan penyimpanan perangkat ini"</string>
-    <string name="storage_forget_wall_of_text" msgid="230454348256179142">"Untuk menggunakan aplikasi atau data dalam drive ini, colokkan kembali drive tersebut. Selain itu, Anda dapat memilih untuk melupakan penyimpanan ini jika drive tidak tersedia.\n\nJika Anda memilih Lupakan, semua data di dalam drive akan hilang selamanya.\n\nAnda dapat memasang aplikasi lagi nanti, namun data yang tersimpan dalam drive ini akan hilang."</string>
+    <string name="storage_forget_wall_of_text" msgid="230454348256179142">"Untuk menggunakan aplikasi atau data dalam drive ini, colokkan kembali drive tersebut. Selain itu, Anda dapat memilih untuk melupakan penyimpanan ini jika drive tidak tersedia.\n\nJika Anda memilih Lupakan, semua data di dalam drive akan hilang selamanya.\n\nAnda dapat menginstal aplikasi lagi nanti, namun data yang tersimpan dalam drive ini akan hilang."</string>
     <string name="storage_device_storage_section" msgid="22958375769694027">"Penyimpanan perangkat"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Penyimpanan yang dapat dicopot"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"Reset"</string>
@@ -924,7 +922,7 @@
     <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"Jika Anda menghentikan aplikasi secara paksa, mungkin fungsinya akan terganggu."</string>
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"Uninstal"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"Uninstal pembaruan"</string>
-    <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"Semua pembaruan untuk aplikasi sistem Android ini akan dicopot pemasangannya."</string>
+    <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"Semua update untuk aplikasi sistem Android ini akan di-uninstal."</string>
     <string name="device_apps_app_management_disable" msgid="819003297535493633">"Nonaktifkan"</string>
     <string name="device_apps_app_management_disable_desc" msgid="9143166267511427607">"Ingin menonaktifkan aplikasi ini?"</string>
     <string name="device_apps_app_management_enable" msgid="9173340340253029114">"Aktifkan"</string>
@@ -1045,7 +1043,7 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Tidak ada aplikasi terinstal yang mendukung Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Mengizinkan aplikasi membuat jendela picture-in-picture saat aplikasi terbuka atau setelah Anda membiarkannya terbuka (misalnya, untuk melanjutkan aktivitas menonton video). Jendela ini ditampilkan di atas aplikasi lain yang sedang digunakan."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Izinkan aplikasi menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, yang dapat menggunakan lebih banyak daya.\n\nJika izin ini nonaktif, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi tidak akan berfungsi."</string>
-    <string name="turn_screen_on_title" msgid="5293798529284629011">"Mengaktifkan layar"</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Pengaktifan layar"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Izinkan pengaktifan layar"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Mengizinkan aplikasi mengaktifkan layar. Jika diizinkan, aplikasi dapat mengaktifkan layar kapan saja tanpa izin eksplisit dari Anda."</string>
     <string name="special_access" msgid="21806055758289916">"Akses aplikasi khusus"</string>
