@@ -37,6 +37,7 @@ import android.os.Handler;
 import android.os.SystemClock;
 import android.os.UserManager;
 import android.provider.Settings;
+import android.view.View;
 
 import androidx.annotation.Keep;
 import androidx.preference.Preference;
@@ -45,7 +46,7 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.TwoStatePreference;
 
 import com.android.settingslib.RestrictedPreference;
-import com.android.settingslib.wifi.AccessPoint;
+import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RestrictedPreferenceAdapter;
@@ -263,8 +264,13 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                 return true;
             case KEY_WIFI_COLLAPSE:
                 final boolean collapse = !mWifiNetworksCategory.isCollapsed();
-                mCollapsePref.setTitle(collapse
+                View collapsePrefView = getListView().getChildAt(mCollapsePref.getOrder());
+                String wifiCollapseTitle = getContext().getString(collapse
                         ? R.string.wifi_setting_see_all : R.string.wifi_setting_see_fewer);
+                mCollapsePref.setTitle(wifiCollapseTitle);
+                if (collapsePrefView != null) {
+                    collapsePrefView.setAccessibilityPaneTitle(wifiCollapseTitle);
+                }
                 mWifiNetworksCategory.setCollapsed(collapse);
                 logEntrySelected(
                         collapse
