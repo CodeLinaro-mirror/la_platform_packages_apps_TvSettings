@@ -278,6 +278,8 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"সংযোগ কৰা হ’ল"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"সংযোগ বিচ্ছিন্ন কৰা হ\'ল"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"ব্লুটুথ ছেটিংসমূহ সলনি কৰিবলৈ আপোনাৰ অনুমতি নাই৷"</string>
+    <!-- no translation found for bluetooth_toggle_active_audio_output_title (3715722506642793944) -->
+    <skip />
     <string name="send_feedback" msgid="936698637869795473">"মতামত পঠিয়াওক"</string>
     <string name="launch_help" msgid="2607478763131952469">"সহায় কেন্দ্ৰ"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -374,8 +376,8 @@
     <string name="about_ads" msgid="7662896442040086522">"বিজ্ঞাপনসমূহ"</string>
     <string name="ads_description" msgid="8081069475265061074">"আপোনাৰ বিজ্ঞাপন ID ৰিছেট কৰাৰ দৰে নিজৰ বিজ্ঞাপনৰ ছেটিং পৰিচালনা কৰক।"</string>
     <string name="ads_content_description" msgid="1006489792324920289">"বিজ্ঞাপন, আপোনাৰ বিজ্ঞাপনৰ আইডি ৰিছেট কৰাৰ দৰে নিজৰ বিজ্ঞাপনৰ ছেটিং পৰিচালনা কৰক।"</string>
-    <string name="show_dev_on" msgid="612741433124106067">"এতিয়া আপুনি এজন বিকাশকৰ্তা!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"কোনো প্ৰয়োজন নাই, আপুনি ইতিমধ্যে এজন ডেভেলপাৰ।"</string>
+    <string name="show_dev_on" msgid="612741433124106067">"এতিয়া আপুনি এগৰাকী বিকাশকৰ্তা!"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"কোনো প্ৰয়োজন নাই, আপুনি ইতিমধ্যে এগৰাকী ডেভেলপাৰ।"</string>
     <string name="device_info_default" msgid="2374506935205518448">"অজ্ঞাত"</string>
     <string name="selinux_status" msgid="1146662734953021410">"SELinuxৰ স্থিতি"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"নিষ্ক্ৰিয়"</string>
