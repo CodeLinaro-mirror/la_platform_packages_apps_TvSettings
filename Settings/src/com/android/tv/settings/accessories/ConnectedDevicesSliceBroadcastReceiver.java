@@ -16,12 +16,18 @@
 
 package com.android.tv.settings.accessories;
 
+import static android.content.Intent.FLAG_INCLUDE_STOPPED_PACKAGES;
+import static android.content.Intent.FLAG_RECEIVER_FOREGROUND;
+import static android.content.Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND;
+
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceProvider.KEY_EXTRAS_DEVICE;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.DIRECTION_BACK;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.EXTRAS_DIRECTION;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.EXTRAS_SLICE_URI;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.FIND_MY_REMOTE_PHYSICAL_BUTTON_ENABLED_SETTING;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.notifyDeviceChanged;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.notifyToGoBack;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.setFindMyRemoteButtonEnabled;
 
 import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
@@ -39,9 +45,10 @@ public class ConnectedDevicesSliceBroadcastReceiver extends BroadcastReceiver {
 
     private static final String TAG = "ConnectedSliceReceiver";
 
+    static final String ACTION_FIND_MY_REMOTE = "com.google.android.tv.FIND_MY_REMOTE";
     static final String ACTION_TOGGLE_CHANGED =
             "com.android.tv.settings.accessories.TOGGLE_CHANGED";
-    // The extra to specify toggle type. Currently, there is only Bluetooth toggle.
+    // The extra to specify toggle type.
     static final String EXTRA_TOGGLE_TYPE = "TOGGLE_TYPE";
     static final String EXTRA_TOGGLE_STATE = "TOGGLE_STATE";
     // Bluetooth off is handled differently by ResponseActivity with confirmation dialog.
@@ -53,6 +60,7 @@ public class ConnectedDevicesSliceBroadcastReceiver extends BroadcastReceiver {
         // Handle CEC control toggle.
         final String action = intent.getAction();
         if (ACTION_TOGGLE_CHANGED.equals(action)) {
+            final boolean isChecked = intent.getBooleanExtra(EXTRA_TOGGLE_STATE, false);
             final String toggleType = intent.getStringExtra(EXTRA_TOGGLE_TYPE);
             if (toggleType != null) {
                 switch (toggleType) {
@@ -70,8 +78,20 @@ public class ConnectedDevicesSliceBroadcastReceiver extends BroadcastReceiver {
                         // refresh device
                         notifyDeviceChanged(context, device);
                     }
+                    case FIND_MY_REMOTE_PHYSICAL_BUTTON_ENABLED_SETTING -> {
+                        setFindMyRemoteButtonEnabled(context, isChecked);
+                        context.getContentResolver().notifyChange(
+                                ConnectedDevicesSliceUtils.FIND_MY_REMOTE_SLICE_URI, null);
+                    }
                 }
             }
+        } else if (ACTION_FIND_MY_REMOTE.equals(action)) {
+            context.sendBroadcast(
+                    new Intent(ACTION_FIND_MY_REMOTE)
+                            .putExtra("reason", "SETTINGS")
+                            .setFlags(FLAG_INCLUDE_STOPPED_PACKAGES | FLAG_RECEIVER_FOREGROUND
+                                    | FLAG_RECEIVER_INCLUDE_BACKGROUND),
+                    "com.google.android.tv.permission.FIND_MY_REMOTE");
         }
 
         // Notify TvSettings to go back to the previous level.
