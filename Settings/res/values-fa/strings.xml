@@ -93,7 +93,7 @@
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"عیب‌یابی شبکه"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"برنامه‌های اخیراً بازشده"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"مشاهده همه برنامه‌ها"</string>
-    <string name="apps_permissions_category_title" msgid="8099660060701465267">"مجوزها"</string>
+    <string name="apps_permissions_category_title" msgid="8099660060701465267">"اجازه‌ها"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"همه برنامه‌ها"</string>
@@ -129,10 +129,10 @@
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Atmos به‌همراه Dolby Digital Plus"</string>
     <string name="surround_sound_format_dra" msgid="6102878163986662443">"DRA"</string>
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"توجه: اگر دستگاه قالب‌هایی را که پشتیبانی می‌کند به‌درستی گزارش نکند، شاید گزینه «خودکار» عمل نکند."</string>
-    <string name="surround_sound_auto_title" msgid="4892922385727913277">"خودکار: فقط قالب‌هایی که دستگاه خروجی صدا از آن‌ها پشتیبانی می‌کند فعال شود "</string>
+    <string name="surround_sound_auto_title" msgid="4892922385727913277">"خودکار: فقط قالب‌هایی که دستگاه خروجی صوتی از آن‌ها پشتیبانی می‌کند فعال شود "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"درصورت انتخاب، سیستم به برنامه‌ها اجازه می‌دهد هر قالب صدایی را که در زنجیره دستگاهتان پشتیبانی می‌شود انتخاب کنند. برنامه‌ها ممکن است قالبی را انتخاب کنند که بالاترین کیفیت را نداشته باشد."</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"هیچ‌کدام: هرگز از صدای فراگیر استفاده نکنید"</string>
-    <string name="surround_sound_manual_title" msgid="4935447605070985537">"دستی: قالب‌هایی که این دستگاه از آن‌ها پشتیبانی می‌کند به‌صورت انتخابی فعال یا غیرفعال شود، بدون درنظر گرفتن اینکه دستگاه خروجی صدا از چه قالبی پشتیبانی می‌کند."</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"دستی: قالب‌هایی که این دستگاه از آن‌ها پشتیبانی می‌کند به‌صورت انتخابی فعال یا غیرفعال شود، بدون درنظر گرفتن اینکه دستگاه خروجی صوتی از چه قالبی پشتیبانی می‌کند."</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"درصورت انتخاب، می‌توانید قالب‌های صدایی را که در زنجیره دستگاهتان پشتیبانی می‌شود اما باعث بروز مشکلات بازپخش می‌شود دستی غیرفعال کنید. می‌توانید قالب‌های صدایی را که در زنجیره دستگاهتان پشتیبانی نمی‌شود فعال کنید. دربرخی موارد، ممکن است برنامه‌ها قالبی را انتخاب کنند که باکیفیت‌ترین نباشد."</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"قالب صدای پشتیبانی‌نشده فعال شود؟"</string>
     <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"دستگاه صوتی متصل شما پشتیبانی از این قالب را گزارش نکرده است. این کار ممکن است باعث عملکردهای غیرمنتظره (مثل صداهای بلند یا نمایان شدن بالاپر) در دستگاه شود."</string>
@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"متصل"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"متصل نیست"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"اجازه ندارید تنظیمات بلوتوث را تغییر دهید."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"استفاده برای صدای تلویزیون"</string>
     <string name="send_feedback" msgid="936698637869795473">"ارسال بازخورد"</string>
     <string name="launch_help" msgid="2607478763131952469">"مرکز راهنمایی"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -901,6 +902,20 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"سفارشی کردن محدودیت‌ها"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"یک لحظه..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"تغییر پین"</string>
+    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
+    <skip />
+    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
+    <skip />
+    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
+    <skip />
+    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
+    <skip />
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"این برنامه می‌تواند به حساب‌های شما دسترسی داشته باشد. تحت کنترل <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"برای مشاهده این کانال، پین را وارد کنید"</string>
@@ -938,7 +953,7 @@
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"پاک کردن حافظه پنهان"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"اعلان‌ها"</string>
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"منبع شخص ثالث"</string>
-    <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"مجوزها"</string>
+    <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"اجازه‌ها"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"برنامه دردسترس نیست"</string>
     <string name="unused_apps" msgid="5539166745483454543">"برنامه‌های استفاده‌نشده"</string>
     <string name="settings_ok" msgid="5950888975075541964">"تأیید"</string>
@@ -998,7 +1013,7 @@
     <string name="device_name_suggestion_summary" msgid="4582691399302362938">"هنگام ارسال عکس، ویدیو و سایر محتواها از تلفنتان، از این نام استفاده کنید"</string>
     <string name="change_setting" msgid="7211706374208138343">"تغییر داده شود"</string>
     <string name="keep_settings" msgid="703474489210093961">"تغییر داده نشود"</string>
-    <string name="apps_permissions" msgid="7876407267050498394">"مجوزها"</string>
+    <string name="apps_permissions" msgid="7876407267050498394">"اجازه‌ها"</string>
     <string name="device_apps_permissions" msgid="8421323706003063878">"اجازه‌های برنامه"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g> از <xliff:g id="COUNT_1">%2$d</xliff:g> برنامه‌های مجاز"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"درخواست اجازه بلوتوث"</string>
@@ -1079,9 +1094,9 @@
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"نمی‌توان این برنامه را باز کرد"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"اگر سؤالی دارید، با سرپرست فناوری اطلاعات تماس بگیرید"</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"جزئیات بیشتر"</string>
-    <string name="admin_profile_owner_message" msgid="5729169873349157622">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این نمایه کاری (ازجمله تنظیمات، مجوزها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
-    <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این کاربر (ازجمله تنظیمات، مجوزها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
-    <string name="admin_device_owner_message" msgid="1935507216776040907">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این دستگاه (ازجمله تنظیمات، مجوزها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
+    <string name="admin_profile_owner_message" msgid="5729169873349157622">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این نمایه کاری (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
+    <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این کاربر (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
+    <string name="admin_device_owner_message" msgid="1935507216776040907">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این دستگاه (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"حذف نمایه کار"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"برنامه سرپرست دستگاه"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"غیرفعال کردن این برنامه سرپرست دستگاه"</string>
@@ -1126,4 +1141,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"این حالت را فعال می‌کند:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"توجه داشته باشید که ممکن است این حالت مصرف برق دستگاه را افزایش دهد."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"فعال کردن «<xliff:g id="ENERGYMODENAME">%s</xliff:g>»"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از دور"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"دکمه پشت Google TV را فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از دور پخش شود. این روش فقط در کنترل از دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از دور را فشار دهید."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"وقتی «پیدا کردن کنترل از دور» فعال باشد، اگر کنترل از دور Google TV در جای خودش نباشد، می‌توانید با پخش صدا آن را پیدا کنید."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"پخش صدا"</string>
 </resources>

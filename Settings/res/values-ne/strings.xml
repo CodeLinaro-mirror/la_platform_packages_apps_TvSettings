@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"कनेक्ट गरिएको छ"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"डिस्कनेक्ट भयो"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"तपाईं सँग ब्लुटुथ सेटिङहरू परिवर्तन गर्न अनुमति छैन।"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"टिभीको अडियोका लागि प्रयोग गर्नुहोस्"</string>
     <string name="send_feedback" msgid="936698637869795473">"प्रतिक्रिया पठाउनुहोस्"</string>
     <string name="launch_help" msgid="2607478763131952469">"मद्दत केन्द्र"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -901,6 +902,20 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"प्रतिबन्धहरू आफू अनुकूल गर्नुहोस्"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"एकक्षण ..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"PIN परिवर्तन गर्नुहोस्"</string>
+    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
+    <skip />
+    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
+    <skip />
+    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
+    <skip />
+    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
+    <skip />
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"यस एपले तपाईंको खाताहरूमा पहुँच गर्न सक्छ। <xliff:g id="APP">%1$s</xliff:g> द्वारा नियन्त्रित।"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"यो च्यानल हेर्ने पिन प्रविष्टि गर्नुहोस्"</string>
@@ -1126,4 +1141,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"निम्न सुविधाहरू सक्षम गर्छ:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"तपाईंले यो मोड प्रयोग गर्नुभयो भने तपाईंको डिभाइसले ऊर्जाको प्रयोग बढाउन सक्छ भन्ने कुरा याद राख्नुहोस्।"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" अन गर्नुहोस्"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरो रिमोट भेट्टाइयोस्"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"आफ्नो Google TV रिमोट हराएका खण्डमा उक्त रिमोट भेट्टाउन कुनै साउन्ड प्ले गर्नुहोस्"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"रिमोटमा ३० सेकेन्डसम्म साउन्ड प्ले गर्न Google TV को पछाडिपट्टि रहेको बटन थिच्नुहोस्। यो Google TV का रिमोट कन्ट्रोलहरू प्रयोग गरी मात्र चलाउन मिल्छ।\n\nयो साउन्ड बन्द गर्न आफ्नो रिमोटको कुनै पनि बटन थिच्नुहोस्।"</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"मेरो रिमोट भेट्टाइयोस्\" अन गरिएका बेला तपाईंको Google TV रिमोट हराएका खण्डमा तपाईं उक्त रिमोट भेट्टाउन कुनै साउन्ड प्ले गर्न सक्नुहुन्छ।"</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउन्ड प्ले गर्नुहोस्"</string>
 </resources>

@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Disambungkan"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Diputuskan sambungan"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Anda tidak mempunyai kebenaran untuk menukar tetapan Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Gunakan untuk audio TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Hantar maklum balas"</string>
     <string name="launch_help" msgid="2607478763131952469">"Pusat Bantuan"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -901,6 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Sesuaikan sekatan"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Tunggu sebentar…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Tukar pin"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Buat profil terhad?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Sudah Dibuat"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Langkau"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Buat PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Masuk ke profil terhad?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Tiada profil terhad"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Sudah dimasukkan"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Apl ini boleh mengakses akaun anda. Dikawal oleh <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Masukkan PIN untuk menonton saluran ini"</string>
@@ -1126,4 +1134,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Mendayakan:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Harap maklum bahawa mod ini mungkin meningkatkan penggunaan tenaga peranti."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Dayakan \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Cari alat kawalan jauh saya"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Tekan butang di belakang Google TV anda untuk memainkan bunyi pada alat kawalan jauh anda selama 30 saat. Kaedah ini hanya berfungsi dengan alat kawalan jauh Google TV yang disokong.\n\nUntuk menghentikan bunyi, tekan mana-mana butang pada alat kawalan jauh anda."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Apabila Cari alat kawalan jauh saya dihidupkan, anda boleh memainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Mainkan bunyi"</string>
 </resources>
