@@ -2683,6 +2683,8 @@
     <string name="advanced_color_format_slice_uri" translatable="false"/>
     <!-- Slice uri for Dolby Vision Mode in Advanced display settings -->
     <string name="advanced_dolby_vision_mode_slice_uri" translatable="false"/>
+    <!-- Slice uri for extended audio settings in Display & Sound settings -->
+    <string name="audio_ext_uri" translatable="false"/>
 
     <!-- Slice uri for general information -->
     <string name="general_info_slice_uri" translatable="false"/>
@@ -2788,6 +2790,10 @@
     <string name="network_connection_request_dialog_showall">Show all</string>
     <!-- Bluetooth settings screen, text that appears in heading bar when scanning for devices -->
     <string name="progress_scanning">Searching</string>
+
+    <!-- All information about NetworkChangeContentProvider to be overlaid -->
+    <string name="network_change_signatures_prod" translatable="false"/>
+    <string name="network_change_signatures_debug" translatable="false"/>
 
     <!-- Message of a dialog shown to inform that the account intent is not available. [CHAR LIMIT=100] -->
     <string name="add_account_intent_not_available_dialog_message">Failed to retrieve add account intent from authenticator.</string>

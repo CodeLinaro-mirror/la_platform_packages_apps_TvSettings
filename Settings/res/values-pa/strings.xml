@@ -902,20 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"ਮਨਾਹੀਆਂ ਨੂੰ ਵਿਸ਼ੇਸ਼-ਵਿਉਂਤਬੱਧ ਕਰੋ"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"ਬੱਸ ਥੋੜ੍ਹੀ ਦੇਰ…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"ਪਿਨ ਬਦਲੋ"</string>
-    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
-    <skip />
-    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
-    <skip />
-    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
-    <skip />
-    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
-    <skip />
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"ਕੀ ਪ੍ਰਤਿਬੰਧਿਤ ਪ੍ਰੋਫਾਈਲ ਬਣਾਉਣੀ ਹੈ?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"ਪਹਿਲਾਂ ਹੀ ਬਣਾਈ ਗਈ"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"ਛੱਡੋ"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"ਪਿੰਨ ਬਣਾਓ"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"ਕੀ ਪ੍ਰਤਿਬੰਧਿਤ ਪ੍ਰੋਫਾਈਲ ਦਾਖਲ ਕਰਨੀ ਹੈ?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"ਕੋਈ ਪ੍ਰਤਿਬੰਧਿਤ ਪ੍ਰੋਫਾਈਲ ਨਹੀਂ"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"ਪਹਿਲਾਂ ਹੀ ਦਾਖਲ ਕੀਤੀ ਗਈ"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"ਇਹ ਐਪ ਤੁਹਾਡੇ ਖਾਤਿਆਂ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੀ ਹੈ। <xliff:g id="APP">%1$s</xliff:g> ਦੁਆਰਾ ਕੰਟਰੋਲ ਕੀਤਾ ਗਿਆ ਹੈ"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"ਇਹ ਚੈਨਲ ਦੇਖਣ ਲਈ PIN ਦਾਖਲ ਕਰੋ"</string>
@@ -1080,7 +1073,7 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ਆਡੀਓ ਰਿਕਾਰਡਿੰਗ ਅਸਫਲ ਰਹੀ।"</string>
     <string name="title_data_saver" msgid="7500278996154002792">"ਡਾਟਾ ਸੇਵਰ"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"ਮੋਬਾਈਲ ਡਾਟਾ ਦੀ ਬੱਚਤ ਕਰਨ ਲਈ ਵੀਡੀਓ ਕੁਆਲਿਟੀ ਨੂੰ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ਡਾਟਾ ਵਰਤੋਂ ਅਤੇ ਸੁਚੇਤਨਾਵਾਂ"</string>
+    <string name="title_data_alert" msgid="8262081890052682475">"ਡਾਟਾ ਵਰਤੋਂ ਅਤੇ ਅਲਰਟ"</string>
     <string name="data_saver_header_info" msgid="2706725187498535785">"ਤੁਸੀਂ ਵਾਈ-ਫਾਈ, ਈਥਰਨੈੱਟ ਜਾਂ ਆਪਣੇ ਫ਼ੋਨ ਦੇ ਹੌਟਸਪੌਟ ਰਾਹੀਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਕਨੈਕਟ ਕਰ ਸਕਦੇ ਹੋ।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ਕੀ ਹੋਰ ਬਲੂਟੁੱਥ ਡੀਵਾਈਸਾਂ ਲਈ ਦਿਖਣਯੋਗ ਬਣਾਉਣਾ ਹੈ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ਕੋਈ ਐਪ ਤੁਹਾਡੇ ਟੀਵੀ ਨੂੰ <xliff:g id="TIMEOUT">%1$d</xliff:g> ਸਕਿੰਟਾਂ ਵਾਸਤੇ ਹੋਰ ਬਲੂਟੁੱਥ ਡੀਵਾਈਸਾਂ ਲਈ ਦਿਖਣਯੋਗ ਬਣਾਉਣਾ ਚਾਹੁੰਦੀ ਹੈ।"</string>
