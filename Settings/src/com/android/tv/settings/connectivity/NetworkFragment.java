@@ -29,12 +29,13 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.ConnectivityManager;
-import android.net.NetworkCapabilities;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
+import android.os.SystemProperties;
 import android.os.UserManager;
 import android.provider.Settings;
 import android.util.ArrayMap;
@@ -51,6 +52,7 @@ import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RestrictedPreferenceAdapter;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.settings.basic.BasicModeFeatureProvider;
 import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.SliceUtils;
@@ -87,11 +89,8 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     private static final String KEY_ETHERNET_STATUS = "ethernet_status";
     private static final String KEY_ETHERNET_PROXY = "ethernet_proxy";
     private static final String KEY_ETHERNET_DHCP = "ethernet_dhcp";
-    private static final String KEY_DATA_SAVER_SLICE = "data_saver_slice";
-    private static final String KEY_DATA_ALERT_SLICE = "data_alert_slice";
     private static final String KEY_NETWORK_DIAGNOSTICS = "network_diagnostics";
 
-    private static final String ACTION_DATA_ALERT_SETTINGS = "android.settings.DATA_ALERT_SETTINGS";
     private static final int INITIAL_UPDATE_DELAY = 500;
 
     private static final String NETWORK_DIAGNOSTICS_ACTION =
@@ -112,7 +111,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     private Preference mEthernetStatusPref;
     private Preference mEthernetProxyPref;
     private Preference mEthernetDhcpPref;
-    private PreferenceCategory mWifiOther;
     private Map<WifiEntry, RestrictedPreferenceAdapter<TvAccessPointPreference>> mPrefMap =
             Collections.emptyMap();
 
@@ -195,7 +193,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         mAddPref = (RestrictedPreference) findPreference(KEY_WIFI_ADD);
         mAddEasyConnectPref = (RestrictedPreference) findPreference(KEY_WIFI_ADD_EASYCONNECT);
         mAlwaysScan = (TwoStatePreference) findPreference(KEY_WIFI_ALWAYS_SCAN);
-        mWifiOther = (PreferenceCategory) findPreference(KEY_WIFI_OTHER);
 
         mEthernetCategory = (PreferenceCategory) findPreference(KEY_ETHERNET);
         mEthernetStatusPref = findPreference(KEY_ETHERNET_STATUS);
@@ -204,20 +201,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
 
         if (!mIsWifiHardwarePresent) {
             mEnableWifiPref.setVisible(false);
-        }
-
-        updateVisibilityForDataSaver();
-        Preference dataSaverSlicePref = findPreference(KEY_DATA_SAVER_SLICE);
-        Preference dataAlertSlicePref = findPreference(KEY_DATA_ALERT_SLICE);
-        Intent i = getActivity().getIntent();
-        if (i != null && i.getAction() != null) {
-            if (i.getAction().equals(Settings.ACTION_DATA_SAVER_SETTINGS)
-                    && dataSaverSlicePref.isVisible()) {
-                mHandler.post(() -> scrollToPreference(dataSaverSlicePref));
-            } else if (i.getAction().equals(ACTION_DATA_ALERT_SETTINGS)
-                    && dataAlertSlicePref.isVisible()) {
-                mHandler.post(() -> scrollToPreference(dataAlertSlicePref));
-            }
         }
 
         Preference networkDiagnosticsPref = findPreference(KEY_NETWORK_DIAGNOSTICS);
@@ -254,17 +237,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         }
     }
 
-    private void updateVisibilityForDataSaver() {
-        Preference dataSaverSlicePref = findPreference(KEY_DATA_SAVER_SLICE);
-        Preference dataAlertSlicePref = findPreference(KEY_DATA_ALERT_SLICE);
-        boolean isDataSaverVisible = isConnected() && SliceUtils.isSliceProviderValid(
-                getContext(), ((SlicePreference) dataSaverSlicePref).getUri());
-        boolean isDataAlertVisible = isConnected() && SliceUtils.isSliceProviderValid(
-                getContext(), ((SlicePreference) dataAlertSlicePref).getUri());
-        dataSaverSlicePref.setVisible(isDataSaverVisible);
-        dataAlertSlicePref.setVisible(isDataAlertVisible);
-    }
-
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference.getKey() == null) {
@@ -272,7 +244,22 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         }
         switch (preference.getKey()) {
             case KEY_WIFI_ENABLE:
-                mConnectivityListener.setWifiEnabled(mEnableWifiPref.isChecked());
+                BasicModeFeatureProvider provider = FlavorUtils.getFeatureFactory(
+                        getContext()).getBasicModeFeatureProvider();
+                if (mEnableWifiPref.isChecked() &&
+                        Settings.Global.getInt(
+                                getContext().getContentResolver(), Settings.Global.ADB_ENABLED, 0)
+                                != 1 && SystemProperties.getInt(
+                        "ro.product.first_api_level", Build.VERSION.SDK_INT)
+                        >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE && provider.isBasicMode(
+                        getContext())
+                        && !provider.isStoreDemoMode(getContext())) {
+                    // WiFi turned ON + not developer + launched on U+ + basic mode.
+                    // Prevent WiFi connection by launching dialog instead.
+                    provider.startBasicModeInternetBlock(getActivity());
+                } else {
+                    mConnectivityListener.setWifiEnabled(mEnableWifiPref.isChecked());
+                }
                 logToggleInteracted(
                         TvSettingsEnums.NETWORK_WIFI_ON_OFF, mEnableWifiPref.isChecked());
                 return true;
@@ -386,8 +373,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                     ? R.string.connected : R.string.not_connected);
             mEthernetStatusPref.setSummary(mConnectivityListener.getEthernetIpAddress());
         }
-
-        updateVisibilityForDataSaver();
     }
 
     private void updateWifiList() {
@@ -443,7 +428,14 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
             }
             newPrefMap.put(accessPoint.getWifiEntry(), restrictedPref);
 
-            if (accessPoint.isActive() && !isCaptivePortal(accessPoint)) {
+            if (isCaptivePortal(accessPoint)) {
+                pref.setFragment(null);
+                pref.setIntent(null);
+                pref.setOnPreferenceClickListener(preference -> {
+                    accessPoint.getWifiEntry().signIn(null);
+                    return true;
+                });
+            } else if (accessPoint.isActive()) {
                 pref.setFragment(WifiDetailsFragment.class.getName());
                 // No need to track entry selection as new page will be focused
                 pref.setOnPreferenceClickListener(preference -> false);
@@ -461,12 +453,12 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
             pref.setVisible(!restrictedPref.isRestricted(UserManager.DISALLOW_CONFIG_WIFI)
                     || accessPoint.isSaved());
             pref.setOrder(index++);
-            pref.setSummary(accessPoint.isActive()? R.string.connected : R.string.not_connected);
+            pref.setSummary(WifiUtils.getConnectionStatus(accessPoint.getWifiEntry()));
             restrictedPref.updatePreference();
 
             Preference restrictedChild = restrictedPref.getPreference();
             if (restrictedChild.getParent() != null &&
-                restrictedChild.getParent() != mWifiNetworksCategory) {
+                    restrictedChild.getParent() != mWifiNetworksCategory) {
                 // Remove first if added to parent from old fragment.
                 restrictedChild.getParent().removePreference(restrictedChild);
             }
@@ -492,12 +484,7 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     }
 
     private boolean isCaptivePortal(AccessPoint accessPoint) {
-        if (accessPoint.getWifiEntry().getConnectedState() != WifiEntry.CONNECTED_STATE_CONNECTED) {
-            return false;
-        }
-        NetworkCapabilities nc = mConnectivityManager.getNetworkCapabilities(
-                mWifiManager.getCurrentNetwork());
-        return nc != null && nc.hasCapability(NetworkCapabilities.NET_CAPABILITY_CAPTIVE_PORTAL);
+        return accessPoint.getWifiEntry().canSignIn();
     }
 
     private Intent makeNetworkDiagnosticsIntent() {

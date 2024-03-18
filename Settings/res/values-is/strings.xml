@@ -60,7 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Persónuvernd"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Stillingar tækis"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Reikningsstillingar"</string>
-    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google hjálpari"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google-hjálpari"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Greiðsla og kaup"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Forritsstillingar"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Staðsetning, notkun og greining, auglýsingar"</string>
@@ -435,6 +435,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internettenging"</string>
     <string name="connected" msgid="4981532275162345997">"Tengt"</string>
     <string name="not_connected" msgid="475810896484271663">"Ekki tengt"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Engin nettenging"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Vistað"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Rangt aðgangsorð"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi-aðgangsorðið er of stutt"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Innskráningar krafist"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Aðrir valkostir"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Sjá allt"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Sýna færri"</string>
@@ -668,7 +673,7 @@
     <string name="location_reporting_desc" msgid="1580018652781674608">"Google notar þennan eiginleika í vörum á borð við Google Now og Google-kort. Ef þú kveikir á staðsetningartilkynningum geta allar Google vörur sem nota eiginleikann vistað og notað nýjustu staðsetningargögn tækisins í tengslum við Google reikninginn þinn."</string>
     <string name="location_history_desc" msgid="926674012916014270">"Þegar kveikt er á staðsetningarferli fyrir þennan reikning getur Google vistað staðsetningargögn tækisins og gert þau aðgengileg öðrum forritum.\n\nGoogle-kort geta t.a.m. gefið þér leiðarlýsingu og Google Now getur sagt þér hvernig umferðin er á leiðinni.\n\nÞú getur slökkt á staðsetningarferlinum hvenær sem er en við það er honum ekki eytt. Til að skoða og hafa umsjón með staðsetningarferlinum skaltu fara á maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Eyða staðsetningarferli"</string>
-    <string name="delete_location_history_desc" msgid="4035229731487113147">"Þetta eyðir öllum vistuðum staðsetningarferli frá þessu tæki fyrir þennan Google reikning. Ekki er hægt að afturkalla þessa eyðingu. Sum forrit, svo sem Google Now, munu hætta að virka."</string>
+    <string name="delete_location_history_desc" msgid="4035229731487113147">"Þetta eyðir öllum vistuðum staðsetningarferli frá þessu tæki fyrir þennan Google-reikning. Ekki er hægt að afturkalla þessa eyðingu. Sum forrit, svo sem Google Now, munu hætta að virka."</string>
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Skjálesarar"</string>
     <string name="accessibility_display_category_title" msgid="593444602101558017">"Skjástilling"</string>
     <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Gagnvirknistýringar"</string>
@@ -1130,13 +1135,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Endurstilla"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-pörunarkóði"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Orkustillingar"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Bæta orkunotkun þegar sjónvarpið er ekki í notkun"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Þessar stillingar hafa áhrif á tækið þegar það er ekki í notkun"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Virkjar:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Athugaðu að þessi stilling kann að auka orkunotkun tækisins."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Orkunotkun kann að aukast með fjölda sjónvarpseiginleika sem þú virkjar."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Kveikja á „<xliff:g id="ENERGYMODENAME">%s</xliff:g>“"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finna fjarstýringuna mína"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spilaðu hljóð til að finna Google TV-fjarstýringuna ef hún týnist"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Ýttu á hnappinn aftan á Google TV til að spila hljóð í fjarstýringunni í 30 sekúndur. Þetta virkar aðeins í studdum Google TV-fjarstýringum.\n\nÝttu á hvaða hnapp sem er á fjarstýringunni til að stöðva hljóðið."</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Það er hnappur á Google TV sem þú getur ýtt á til að spila hljóð á fjarstýringunni þinni í 30 sekúndur. Þetta virkar aðeins í studdum Google TV-fjarstýringum.\n\nÝttu á hvaða hnapp sem er á fjarstýringunni til að stöðva hljóðið."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Þegar kveikt er á „Finna fjarstýringuna mína“ geturðu spilað hljóð til að finna Google TV-fjarstýringuna ef hún týnist."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spila hljóð"</string>
 </resources>
