@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Nakakonekta ang Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Walang nakakonektang network"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Naka-off ang Wi-Fi"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Palaging available ang pag-scan"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network kahit na naka-off ang Wi-Fi"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Palaging available ang pag-scan, Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network, kahit na naka-off ang Wi-Fi"</string>
@@ -368,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google legal"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Hindi available ang data ng lisensya"</string>
     <string name="about_model" msgid="9164284529291439296">"Modelo"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Device Mode"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Demo sa Tindahan"</string>
     <string name="about_version" msgid="6223547403835399861">"Bersyon ng Android TV OS"</string>
     <string name="about_serial" msgid="3432319328808745459">"Serial number"</string>
     <string name="about_build" msgid="8467840394761634575">"Build ng Android TV OS"</string>
@@ -706,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"I-enable ang shortcut sa pagiging accessible"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serbisyo ng shortcut"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kapag naka-on ang shortcut, puwede mong pindutin nang 3 segundo ang parehong button na bumalik at button na pababa nang 3 segundo para magsimula ng feature ng pagiging accessible."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tagal ng pag-aksyon"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tagal ng pag-aksyon (Timeout ng accessibility)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Timing"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Wala sa lahat ng app ang timing preference na ito."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Mga Caption"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mga setting para sa text overlay para sa paglalagay ng mga nakasarang caption sa video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Display"</string>
@@ -1076,10 +1084,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"(Mga) recorded microphone"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Hindi nasimulan ang pag-record ng audio."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Hindi na-record ang audio."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Data Saver"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Awtomatikong isaayos ang kalidad ng video para sa mas kaunting mobile data"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Paggamit ng data at mga alerto"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Puwede kang kumonekta sa internet gamit ang Wi-Fi, Ethernet, o hotspot ng iyong telepono."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Gawing nakikita sa iba pang Bluetooth device?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Gusto ng isang app na gawing nakikita ng iba pang Bluetooth device ang iyong TV sa loob ng <xliff:g id="TIMEOUT">%1$d</xliff:g> (na) segundo."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1133,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Power at Kuryente"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Gawi sa pag-on"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"I-reset"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Telebisyon"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code ng pagpapares ng Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Mga Energy Mode"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Naaapektuhan ng mga setting na ito ang device kapag hindi ginagamit"</string>

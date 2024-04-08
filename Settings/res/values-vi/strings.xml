@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Đã kết nối với Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Chưa kết nối với mạng nào"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi đã bị tắt"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Luôn quét"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Cho phép dịch vụ định vị và các ứng dụng khác của Google quét tìm mạng, ngay cả khi Wi-Fi bị tắt"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Luôn quét, Cho phép dịch vụ vị trí và các ứng dụng khác của Google quét tìm mạng, ngay cả khi Wi-Fi đang tắt"</string>
@@ -368,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Chính sách pháp lý của Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Hiện không có dữ liệu về giấy phép"</string>
     <string name="about_model" msgid="9164284529291439296">"Kiểu máy"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Chế độ thiết bị"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Bản minh hoạ cửa hàng"</string>
     <string name="about_version" msgid="6223547403835399861">"Phiên bản hệ điều hành Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Số sê-ri"</string>
     <string name="about_build" msgid="8467840394761634575">"Bản dựng hệ điều hành Android TV"</string>
@@ -706,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Bật phím tắt hỗ trợ tiếp cận?"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Dịch vụ phím tắt"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Khi bật phím tắt, bạn có thể nhấn vào cả hai nút quay lại và xuống trong 3 giây để bật tính năng hỗ trợ tiếp cận."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Thời gian thực hiện hành động"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Thời gian thực hiện hành động (Thời gian chờ của tính năng Hỗ trợ tiếp cận)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Thời gian"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Không phải ứng dụng nào cũng hỗ trợ tuỳ chọn hiển thị thời gian này"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Phụ đề"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Cài đặt cho lớp phủ văn bản phụ đề đóng trên video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Hiển thị"</string>
@@ -810,7 +818,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Lớp phần cứng flash có màu xanh khi chúng cập nhật"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Từ tốt nhất đến tồi nhất: lam, lục, đỏ tươi, đỏ"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Chuyển nhanh toàn bộ các giao diện cửa sổ khi các giao diện này cập nhật"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Màn hình nháy khi ứng dụng thực hiện các hoạt động dài trên luồng chính"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Nhấp nháy màn hình khi ứng dụng thực hiện các hoạt động dài trên luồng chính"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Đo thời gian kết xuất trong adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Nguồn không xác định"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Cho phép cài đặt ứng dụng từ những nguồn khác ngoài Cửa hàng Play"</string>
@@ -1076,10 +1084,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"(Các) micrô ghi âm"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Không bắt đầu ghi âm được."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Không ghi âm được."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Trình tiết kiệm dữ liệu"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Tự động điều chỉnh chất lượng video để tiết kiệm dữ liệu di động"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Mức sử dụng dữ liệu và thông báo"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Bạn có thể kết nối Internet qua Wi-Fi, cáp Ethernet hoặc điểm phát sóng của điện thoại."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Đặt ở chế độ hiển thị với các thiết bị Bluetooth khác?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Một ứng dụng muốn đặt TV của bạn ở chế độ hiển thị với các thiết bị Bluetooth khác trong <xliff:g id="TIMEOUT">%1$d</xliff:g> giây."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1133,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Điện và năng lượng"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Chế độ khi bật TV"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Đặt lại"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Truyền hình"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Mã ghép nối Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Chế độ năng lượng"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Các chế độ cài đặt này có ảnh hưởng đến thiết bị khi bạn không dùng thiết bị"</string>

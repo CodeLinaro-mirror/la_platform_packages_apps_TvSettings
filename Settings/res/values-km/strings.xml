@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"បាន​ភ្ជាប់​អ៊ីសឺរណិត"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"មិន​មាន​ការ​ភ្ជាប់​បណ្តាញ​ទេ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"បានបិទ Wi-Fi"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ការស្កេនតែងតែមានជានិច្ច"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"អនុញ្ញាតឲ្យសេវាកម្ម Google និងកម្មវិធីផ្សេងៗស្កេនរកបណ្ដាញ បើទោះបីជា Wi-Fi បិទក៏ដោយ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"អាចប្រើ​ការស្កេនបានជានិច្ច អនុញ្ញាតឱ្យសេវាកម្មទីតាំង​របស់ Google និងកម្មវិធី​ផ្សេងទៀតស្កេនរកបណ្ដាញ ទោះបីជានៅពេលបិទ Wi-Fi ក៏ដោយ"</string>
@@ -368,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"ផ្នែកច្បាប់ Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"មិន​មាន​ទិន្នន័យ​អាជ្ញាប័ណ្ណ​ទេ"</string>
     <string name="about_model" msgid="9164284529291439296">"ម៉ូដែល"</string>
+    <string name="device_mode" msgid="7258350575590118152">"មុខងារឧបករណ៍"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"គំរូបង្ហាញក្នុងហាង"</string>
     <string name="about_version" msgid="6223547403835399861">"កំណែប្រព័ន្ធ​ប្រតិបត្តិការ Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"លេខ​សៀរៀល"</string>
     <string name="about_build" msgid="8467840394761634575">"កំណែបង្កើត​ប្រព័ន្ធប្រតិបត្តិការ Android TV"</string>
@@ -706,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"បើកផ្លូវកាត់​ភាព​ងាយស្រួល"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"សេវាកម្មផ្លូវកាត់"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"នៅពេលដែលផ្លូវកាត់នេះបើក អ្នកអាច​ចុចទាំងប៊ូតុង​ថយក្រោយ និងប៊ូតុងចុះក្រោមឱ្យបាន 3 វិនាទី ដើម្បី​ចាប់ផ្តើម​មុខងារភាពងាយប្រើ។"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"ដល់​ពេលធ្វើ​សកម្មភាព​ហើយ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ដល់ពេលធ្វើសកម្មភាព (មុខងារភាពងាយស្រួលអស់ម៉ោង)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ការកំណត់​ពេល"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"កម្មវិធីទាំងអស់មិនអាចប្រើចំណូលចិត្តនៃការកំណត់ពេលនេះបានទេ។"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"អក្សររត់"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ការ​កំណត់​សម្រាប់​អត្ថបទ​ដែល​មាន​ចំណងជើង​បិទ​​គ្រប់​ពី​លើ​វីដេអូ"</string>
     <string name="captions_display" msgid="2598662495450633375">"បង្ហាញ"</string>
@@ -1076,10 +1084,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"មីក្រូហ្វូន​ដែល​បានថត"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"មិនអាច​ចាប់ផ្ដើម​ថតសំឡេង​បានទេ។"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ការថតសំឡេង​មិនបាន​សម្រេចទេ។"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"មុខងារសន្សំសំចៃទិន្នន័យ"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"កែតម្រូវ​គុណភាពវីដេអូ​ដោយស្វ័យប្រវត្តិ ដើម្បីប្រើទិន្នន័យ​ទូរសព្ទចល័ត​តិចជាងមុន"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ការប្រើប្រាស់​ទិន្នន័យ និងការជូនដំណឹង"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"អ្នកអាចភ្ជាប់​អ៊ីនធឺណិត​តាមរយៈ Wi-Fi, អ៊ីសឺរណិត ឬហតស៉្បតទូរសព្ទ​របស់អ្នក។"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ធ្វើឱ្យឧបករណ៍ប៊្លូធូសផ្សេងទៀតអាចមើលឃើញឬ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"កម្មវិធីចង់ធ្វើឱ្យឧបករណ៍​ប៊្លូធូសផ្សេងទៀតអាចមើលឃើញទូរទស្សន៍របស់អ្នករយៈពេល <xliff:g id="TIMEOUT">%1$d</xliff:g> វិនាទី។"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1133,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"កម្លាំង និង​ថាមពល"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"សកម្មភាព​នៅពេល​បើក"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"កំណត់​ឡើងវិញ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ទូរទស្សន៍"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"កូដផ្គូផ្គងអ៊ីសឺរណិត"</string>
     <string name="energy_modes" msgid="1331693860386361744">"មុខងារថាមពល"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"ការកំណត់​ទាំងនេះ​ប៉ះពាល់ដល់​ឧបករណ៍ នៅពេល​ដែលមិន​ស្ថិតក្នុងការ​ប្រើប្រាស់"</string>

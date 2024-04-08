@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ඊතර්නෙට් සම්බන්ධ කරන ලදී"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"සම්බන්ධිත ජාලයක් නොමැත"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ක්‍රියාත්මකයි"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"පරිලෝකනය සැමවිට ලබාගත හැක"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi ක්‍රියාවිරහිත විට පවා, Google හි පිහිටීම් සේවාව සහ වෙනත් යෙදුම්වලට ජාල සඳහා ස්කෑන් කිරීමට ඉඩ දෙන්න"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ස්කෑන් කිරීම සැම විට ලබා ගත හැකිය, Wi-Fi ක්‍රියාවිරහිත විට පවා, Google හි ස්ථාන සේවාවට සහ වෙනත් යෙදුම්වලට ජාල සඳහා ස්කෑන් කිරීමට ඉඩ දෙන්න"</string>
@@ -368,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google නීතිමය"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"බලපත්‍ර දත්ත ලබාගත නොහැක"</string>
     <string name="about_model" msgid="9164284529291439296">"අනුකෘතිය"</string>
+    <string name="device_mode" msgid="7258350575590118152">"උපාංග ප්‍රකාරය"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"ගබඩා ආදර්ශනය"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS අනුවාදය"</string>
     <string name="about_serial" msgid="3432319328808745459">"අනුක්‍රමාංකය"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS තැනුම"</string>
@@ -706,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ප්‍රවේශ්‍යතා කෙටි මග සබල කරන්න"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"කෙටි මං සේවා"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"කෙටි මඟ ක්‍රියාත්මක විට, ප්‍රවේශ්‍යතා අංගයක් ආරම්භ කිරීමට ඔබට ආපසු සහ පහළ බොත්තම් දෙකම තත්පර 3ක් ඔබා ගෙන සිටිය හැකිය."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"ක්‍රියා කිරීමට කාලය"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ක්‍රියාමාර්ගය ගැනීමට කාලය (ප්‍රවේශ්‍යතා කාලය අවසන් වීම)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"කාල නියාමනය"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"මෙම කාල මනාපය සියලු යෙදුම් මගින් සහාය නොදක්වයි."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"සිරස්තල"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"වීඩියෝව මත යටි ලියමන කළ පෙළ වාසාලිම වැසීම සඳහා සැකසීම්"</string>
     <string name="captions_display" msgid="2598662495450633375">"දර්ශනය"</string>
@@ -1076,10 +1084,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"පටිගත කළ මයික්‍රෆෝනය(න්)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ශ්‍රව්‍ය පටිගත කිරීම ඇරඹීමට අසමත් විය."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ශ්‍රව්‍ය පටිගත කිරීම අසමත් විය."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"දත්ත සුරැකුම"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"ජංගම දත්ත අඩුවෙන් භාවිත කිරීමට වීඩියෝ ගුණත්වය ස්වයංක්‍රීයව ගළපන්න"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"දත්ත භාවිතය සහ ඇඟවීම්"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"ඔබට Wi-Fi, ඊතර්නෙට් හෝ ඔබගේ දුරකථනයෙහි හොට්ස්පොට් සමග අන්තර්ජාලයට සම්බන්ධ විය හැකිය."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"වෙනත් බ්ලූටූත් උපාංගවලට දෘශ්‍යමාන කරන්න ද?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"යෙදුමකට ඔබේ රූපවාහිනිය තත්පර <xliff:g id="TIMEOUT">%1$d</xliff:g>ක් සඳහා වෙනත් බ්ලූටූත් උපාංගවලට දෘශ්‍යමාන කිරීමට අවශ්‍යයි."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1133,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"බලය සහ ශක්තිය"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"බලය ක්‍රියාත්මක කිරීමේ චර්යාව"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"යළි සකසන්න"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"රූපවාහිනිය"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ඊතර්නෙට් යුගලන කේතය"</string>
     <string name="energy_modes" msgid="1331693860386361744">"බලශක්ති ප්‍රකාර"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"භාවිතයේ නොමැති විට මෙම සැකසීම් උපාංගයට බලපායි"</string>

@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet під’єднано"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Мережі не під’єднано"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi вимкнено"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Постійний пошук мереж"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволити службі локації Google та іншим додаткам сканувати мережі, навіть якщо Wi-Fi вимкнено"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Сканування завжди доступне. Cлужба локації Google та інші додатки можуть сканувати мережі, навіть якщо Wi-Fi вимкнено."</string>
@@ -368,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Юридичні умови Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Дані ліцензії недоступні"</string>
     <string name="about_model" msgid="9164284529291439296">"Модель"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Режим пристрою"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Демонстраційний режим для магазинів"</string>
     <string name="about_version" msgid="6223547403835399861">"Версія ОС Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Серійний номер"</string>
     <string name="about_build" msgid="8467840394761634575">"Складання ОС Android TV"</string>
@@ -706,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Швидке ввімкнення"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Швидке ввімкнення сервісу"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Якщо цю комбінацію кнопок увімкнено, ви можете активувати спеціальні можливості, утримуючи кнопки \"Назад\" і \"Униз\" протягом 3 секунд."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Час на виконання дії"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Час очікування для функцій доступності"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Час"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Це налаштування часу підтримують не всі додатки."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Субтитри"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Параметри накладання тексту прихованих субтитрів на відео"</string>
     <string name="captions_display" msgid="2598662495450633375">"Показ"</string>
@@ -1076,10 +1084,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Мікрофони, з яких записувався звук"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Не вдалося почати запис аудіо."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Не вдалося записати аудіо."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Заощадження трафіку"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Автоматично змінювати якість відео, щоб заощаджувати мобільний трафік"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Використання трафіку та сповіщення"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Ви можете підключитися до Інтернету через Wi-Fi, Ethernet або точку доступу свого телефона."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Зробити видимим для інших пристроїв із Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Додаток хоче зробити ваш телевізор видимим для інших пристроїв із Bluetooth упродовж <xliff:g id="TIMEOUT">%1$d</xliff:g> с."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1133,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Живлення й енергія"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Поведінка під час увімкнення"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Скидання"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Телевізор"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код підключення Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Режими енергоспоживання"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Ці налаштування впливають на пристрій, коли він не використовується"</string>

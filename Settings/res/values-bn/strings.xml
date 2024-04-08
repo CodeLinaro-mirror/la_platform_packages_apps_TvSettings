@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ইথারনেট কানেক্ট করা হয়েছে"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"কোনও নেটওয়ার্কে কানেক্ট করা নেই"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ওয়াই-ফাই বন্ধ আছে"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"স্ক্যান করা সর্বদা উপলভ্য"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google লোকেশন পরিষেবা এবং অন্যান্য অ্যাপকে নেটওয়ার্কের জন্য স্ক্যান করতে দিন, এমনকি ওয়াই-ফাই বন্ধ থাকা সত্ত্বেও"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"স্ক্যান করার সুবিধা সব সময় চালু রাখা, Google-এর লোকেশন ভিত্তিক পরিষেবা এবং অন্যান্য অ্যাপকে উপলভ্য নেটওয়ার্ক স্ক্যান করতে দিন, এমনকি ওয়াই-ফাই বন্ধ থাকলেও"</string>
@@ -368,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google আইনি"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"লাইসেন্স ডেটা অনুপলব্ধ"</string>
     <string name="about_model" msgid="9164284529291439296">"মডেল"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ডিভাইস মোড"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"স্টোর ডেমো"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS ভার্সন"</string>
     <string name="about_serial" msgid="3432319328808745459">"ক্রমিক সংখ্যা"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS বিল্ড ভার্সন"</string>
@@ -706,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"অ্যাক্সেসিবিলিটি শর্টকাট চালু করুন"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"শর্টকাট পরিষেবা"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"শর্টকাটটি চালু থাকলে ফিরে যাওয়ার এবং নিচে যাওয়ার বোতামদুটি একসাথে ৩ সেকেন্ড টিপে ধরে রেখে আপনি একটি অ্যাক্সেসিবিলিটি বৈশিষ্ট্য চালু করতে পারবেন।"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"অ্যাকশন নেওয়ার সময়"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"অ্যাকশন নেওয়ার সময় (অ্যাক্সেসিবিলিটি টাইম-আউট)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"টাইমিং"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"সব অ্যাপে সময় সংক্রান্ত পছন্দের সুবিধা কাজ করে না।"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"ক্যাপশন"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ভিডিওতে ক্লোজড ক্যাপশনিং পাঠ্য ওভারলের জন্য সেটিংস"</string>
     <string name="captions_display" msgid="2598662495450633375">"প্রদর্শন"</string>
@@ -1076,10 +1084,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"রেকর্ড করা মাইক্রোফোন"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"অডিও রেকর্ডিং চালু করা যায়নি।"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"অডিও রেকর্ডিং করা যায়নি।"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ডেটা সেভার"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"কম মোবাইল ডেটা ব্যবহার করতে অটোমেটিক ভিডিও কোয়ালিটি অ্যাডজাস্ট করুন"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ডেটার ব্যবহার এবং সতর্কতা"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"ওয়াই-ফাই, ইথারনেট বা আপনার ফোনের হটস্পট ব্যবহার করে আপনি ইন্টারনেটে কানেক্ট করতে পারেন।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"অন্যান্য ব্লুটুথ ডিভাইসে দেখাবেন?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"একটি অ্যাপ আপনার টিভিকে অন্যান্য ব্লুটুথ ডিভাইসের কাছে <xliff:g id="TIMEOUT">%1$d</xliff:g> সেকেন্ডের জন্য দেখাতে চায়।"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1133,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"পাওয়ার ও এনার্জি"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"চালু হওয়ার সময় যা যা হবে"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"রিসেট করুন"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"টেলিভিশন"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ইথারনেট পেয়ারিং কোড"</string>
     <string name="energy_modes" msgid="1331693860386361744">"পাওয়ার মোড"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"এইসব সেটিংস ডিভাইস বন্ধ থাকাকালীন তার উপর প্রভাব ফেলতে পারে"</string>
