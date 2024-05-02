@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connectada"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"No hi ha cap xarxa connectada"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"La Wi-Fi està desactivada"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconnecta el cable Ethernet per utilitzar la Wi‑Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Cerca sempre disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permet que el servei d\'ubicacions de Google i altres aplicacions cerquin xarxes, fins i tot si la Wi-Fi està desactivada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Cerca sempre disponible, Permet que els serveis d\'ubicació de Google i altres aplicacions cerquin xarxes, fins i tot si la Wi‑Fi està desactivada."</string>
@@ -158,7 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"En activar aquesta opció, el sistema canviarà entre els diferents formats de rang dinàmic per igualar-lo amb el del contingut. És possible que la pantalla es torni negra durant el canvi de format.\n\nFes clic a Configuració avançada de la pantalla per a més opcions de rang dinàmic."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rang dinàmic preferit"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversió preferida pel sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permet que el sistema gestioni la conversió del format"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permet que el sistema gestioni la conversió del format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"En seleccionar aquesta opció, el sistema determinarà un rang dinàmic adequat per a la teva pantalla i convertirà el contingut a aquest rang dinàmic, si cal."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Sempre coincideix amb el format del contingut"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Força la conversió"</string>
@@ -711,7 +710,7 @@
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servei associat a la drecera"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Si la drecera està activada, pots prémer els botons Enrere i Avall durant 3 segons per iniciar una funció d\'accessibilitat."</string>
     <string name="accessibility_timeout" msgid="5806441204926407081">"Temps per fer l\'acció"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Temps per fer l\'acció (accessibilitat)"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Temps per fer l\'acció (temps espera accessibilitat)"</string>
     <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Temps"</string>
     <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Preferència de temps no admesa en totes les apps"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtítols"</string>
@@ -1105,7 +1104,7 @@
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Desinstal·la l\'aplicació"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Desactiva i desinstal·la"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Aplicacions d\'administració del dispositiu"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"Activar l\'aplicació d\'administració?"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"Vols activar l\'app d\'administració?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Activa aquesta aplicació d\'administració del dispositiu"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"En activar aquesta aplicació d\'administració, l\'aplicació <xliff:g id="APP_NAME">%1$s</xliff:g> podrà dur a terme les operacions següents:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> gestionarà i supervisarà aquest dispositiu."</string>
