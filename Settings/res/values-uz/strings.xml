@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Shaxsiy"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Tarmoqqa ulanish"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Hisobingizga kiring"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Hisoblar va tizimga kirish"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Hisoblar va profillar"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Hech qanday hisob yo‘q"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# ta hisob}other{# ta hisob}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Media xizmatlar, Assistent, toʻlovlar"</string>
@@ -1148,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV qurilmasida bosilganda pultni 30 soniya jiringlatadigan tugma mavjud. Bu faqat Google TV pultlarida ishlaydi.\n\nTovushni toʻxtatish uchun pultdagi istalgan tugmani bosing."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pultimni top funksiyasi yoniq boʻlsa, yoʻqolgan Google TV pultini ovozli signal orqali topish mumkin."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Jiringlatish"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s tovushi balandligi"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s karnayida Assistent tovushi balandligini boshqarish mumkin"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Faqat %1$s qurilmasida amal qiladi (televizorda emas)"</string>
 </resources>

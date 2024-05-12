@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personali"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Collegati alla rete"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Aggiungi un account"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Account e accesso"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Account e profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nessun account"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# account}other{# account}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servizi multimediali, Assistente, Pagamenti"</string>
@@ -1148,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Puoi premere un pulsante su Google TV che farà emettere un suono al telecomando per 30 secondi. Questa opzione è disponibile solo sui telecomandi di Google TV supportati.\n\nPer interrompere il suono, premi qualsiasi tasto del telecomando."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quando la funzionalità Trova il telecomando è attivata, puoi riprodurre un suono per trovare il tuo telecomando di Google TV se non sai dov\'è."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Riproduci suono"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puoi controllare il volume dell\'assistente su %1$s speaker"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Influisce sul volume solo su %1$s dispositivo, non sulla TV"</string>
 </resources>
