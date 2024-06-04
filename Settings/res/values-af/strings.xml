@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Persoonlik"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Koppel aan netwerk"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Voeg \'n rekening by"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Rekeninge en aanmelding"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Rekeninge en Profiele"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Geen rekeninge nie"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# rekening}other{# rekeninge}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediadienste, Assistent, betalings"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privaatheid"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Toestelinstellings"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Rekeninginstellings"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling en aankope"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Programinstellings"</string>
@@ -817,7 +819,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Laat hardewarelae groen flits wanneer hulle opgedateer word"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Van die beste na die slegste: blou, groen, ligrooi, rooi"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Flits vensteroppervlakke in geheel wanneer dit opdateer"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Flits skerm as programme lang bewerkings uitvoer op hoofdraad"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Flits skerm as apps lang bewerkings uitvoer op die hoofdraad"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Meet leweringstyd in die adb-dop dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Onbekende bronne"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Laat die installering van programme van ander bronne as die Play Winkel af toe"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Daar is ’n knoppie op jou Google TV wat jy kan druk om vir 30 sekondes ’n klank op jou afstandbeheerder te speel. Dit werk net met ondersteunde Google TV-afstandbeheerders.\n\nDruk enige knoppie op jou afstandbeheerder om die klank te stop."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"As Soek my afstandbeheerder geaktiveer is, kan jy ’n klank speel om jou Google TV se afstandbeheerder op te spoor indien dit misplaas is."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Speel klank"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Jy kan die Assistent volume op die %1$s-luidspreker beheer."</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Beïnvloed slegs die volume op die %1$s-toestel, nie op TV nie"</string>
 </resources>

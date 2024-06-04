@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ವೈಯಕ್ತಿಕ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ಖಾತೆಯನ್ನು ಸೇರಿಸಿ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"ಖಾತೆಗಳು ಮತ್ತು ಸೈನ್ ಇನ್"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"ಖಾತೆಗಳು &amp; ಪ್ರೊಫೈಲ್‌ಗಳು"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ಯಾವುದೇ ಖಾತೆಗಳಿಲ್ಲ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# ಖಾತೆ}one{# ಖಾತೆಗಳು}other{# ಖಾತೆಗಳು}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"ಮಾಧ್ಯಮ ಸೇವೆಗಳು, Assistant, ಪಾವತಿಗಳು"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ಗೌಪ್ಯತೆ"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ಸಾಧನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ಪಾವತಿ &amp; ಖರೀದಿಗಳು"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -817,7 +819,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ಅವುಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿದಾಗ ಹಾರ್ಡ್‌ವೇರ್‌‌ ಲೇಯರ್‌ಗಳು ಹಸಿರು ಫ್ಲ್ಯಾಶ್‌‌ ಆಗುತ್ತದೆ"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"ಉತ್ತಮದಿಂದ ಹಿಡಿದು ಕಳಪೆಯವರೆಗೆ: ನೀಲಿ, ಹಸಿರು, ತಿಳಿಗೆಂಪು, ಕೆಂಪು"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ಅವುಗಳು ಅಪ್‌ಡೇಟ್ ಆಗುವಾಗ ವಿಂಡೋದ ಸಂಪೂರ್ಣ ಮೇಲ್ಮೈ ಫ್ಲ್ಯಾಶ್ ಮಾಡಿ"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆ ನಿರ್ವಹಿಸಿದಾಗ ಪರದೆಯನ್ನು ಫ್ಲ್ಯಾಶ್ ಮಾಡು"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಆ್ಯಪ್‍ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ನಿರ್ವಹಿಸಿದಾಗ ಸ್ಕ್ರೀನ್ ಫ್ಲ್ಯಾಶ್ ಆಗಲಿ"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo ನಲ್ಲಿ ಸಲ್ಲಿಸುವಿಕೆ ಸಮಯವನ್ನು ಮಾಪನ ಮಾಡಿ"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"ಅಪರಿಚಿತ ಮೂಲಗಳು"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play Store ಹೊರಗಿನ ಬೇರೆ ಮೂಲಗಳ ಅಪ್ಲಿಕೇಶನ್‌‌ ಸ್ಥಾಪನೆಯನ್ನು ಅನುಮತಿಸಿ"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ನಿಮ್ಮ Google TV ಯಲ್ಲಿ 30 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿ ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಲು ನೀವು ಪುಶ್ ಮಾಡಬಹುದಾದ ಬಟನ್ ಇದೆ. ಇದು ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗಳಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.\n\nಸೌಂಡ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು, ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿರುವ ಯಾವುದೇ ಬಟನ್ ಅನ್ನು ಒತ್ತಿ."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಬಹುದು."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ವಾಲ್ಯೂಮ್"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ನೀವು %1$s ಸ್ಪೀಕರ್‌ನಲ್ಲಿ Assistant ವಾಲ್ಯೂಮ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಬಹುದು"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s ಸಾಧನದಲ್ಲಿನ ವಾಲ್ಯೂಮ್ ಅನ್ನು ಪ್ರಭಾವಿಸುತ್ತದೆ, TV ವಾಲ್ಯೂಮ್ ಅನ್ನು ಅಲ್ಲ"</string>
 </resources>

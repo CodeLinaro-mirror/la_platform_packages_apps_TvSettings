@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Conectarse a una red"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Añadir una cuenta"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Cuentas e inicio de sesión"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Cuentas y perfiles"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"No hay ninguna cuenta"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# cuenta}other{# cuentas}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servicios multimedia, el Asistente y pagos"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacidad"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Ajustes del dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configuración de la cuenta"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistente de Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pago y compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Ajustes de aplicaciones"</string>
@@ -647,7 +649,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Acceso a la cámara bloqueado"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Para desbloquearlo, mueve el interruptor de privacidad de tu dispositivo a la posición \"activado\" de la cámara para permitir el acceso a la cámara."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Acceso al micrófono: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, todas las aplicaciones y todos los servicios que tienen permiso para usar el micrófono podrán acceder a él.\n\nCuando esté desactivado, ninguna aplicación ni servicio podrá acceder al micrófono. Es posible que aún puedas hablar con el Asistente de Google pulsando el botón del Asistente en el mando a distancia.\n\nLos dispositivos de audio que utilizan protocolos personalizados para comunicarse con el televisor pueden no verse afectados por este ajuste."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, todas las aplicaciones y servicios con permiso para usar el micrófono podrán acceder a él.\n\nCuando esté desactivado, ninguna aplicación ni servicio podrá acceder a él. Es posible que aún puedas hablar con el Asistente pulsando el botón del Asistente del mando.\n\nLos dispositivos de audio que usan protocolos personalizados para comunicarse con el TV pueden no verse afectados por este ajuste."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Micrófono habilitado en el mando a distancia"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"El Asistente de Google puede acceder al micrófono de tu mando a distancia. Podrás hablar con él pulsando el botón del Asistente de Google en el mando a distancia."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Micrófono inhabilitado en el mando a distancia"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Hay un botón en tu Google TV que puedes pulsar para reproducir un sonido en tu mando a distancia durante 30 segundos. Solo funciona con mandos de Google TV compatibles.\n\nPara detener el sonido, pulsa cualquier botón del mando a distancia."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Cuando la opción Encontrar mi mando a distancia está activada, puedes reproducir un sonido para localizar el mando a distancia de Google TV si no sabes dónde está."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir sonido"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumen: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puedes controlar el volumen del Asistente en el altavoz %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Solo afecta al volumen del dispositivo %1$s, no al de la tele"</string>
 </resources>

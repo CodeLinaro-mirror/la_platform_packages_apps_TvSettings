@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personnel"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Se connecter au réseau"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ajouter un compte"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Comptes et connexion"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Comptes et profils"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Aucun compte"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# compte}one{# compte}other{# comptes}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Services multimédias, Assistant, paiements"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Confidentialité"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Paramètres de l\'appareil"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Paramètres du compte"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistant Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Paiement et achats"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
@@ -647,7 +649,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Accès à la caméra bloqué"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Pour débloquer la caméra et autoriser l\'accès à celle-ci, placez le bouton de désactivation qui se trouve sur votre appareil en position \"caméra activée\"."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Accès au micro : <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Lorsqu\'il est activé, toutes les applis et tous les services autorisés à utiliser le micro pourront y accéder.\n\nLorsqu\'il est désactivé, aucune appli et aucun service ne pourra accéder au micro. Néanmoins, il est possible que vous puissiez toujours parler à votre Assistant Google en appuyant sur le bouton Assistant de votre télécommande.\n\nLes appareils audio qui utilisent des protocoles de communication personnalisés avec la TV ne seront peut-être pas affectés par ce paramètre."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"En cas d\'activation, les applis et services autorisés à utiliser le micro pourront y accéder.\n\nEn cas de désactivation, aucune appli ni aucun service ne pourra accéder au micro. Vous pourrez cependant parler à l\'Assistant Google en appuyant sur le bouton Assistant de votre télécommande.\n\nLes appareils audio qui utilisent des protocoles de communication personnalisés avec la TV ne seront peut-être pas affectés par ce paramètre."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Micro activé sur la télécommande"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"L\'Assistant Google a l\'autorisation d\'accéder au micro de votre télécommande. Vous pourrez parler à votre Assistant en appuyant sur le bouton Assistant Google de votre télécommande."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Microphone désactivé sur la télécommande"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Votre Google TV comporte un bouton sur lequel appuyer pour que votre télécommande émette un son pendant 30 secondes. Cela ne fonctionne que sur les télécommandes Google TV compatibles.\n\nPour arrêter le son, appuyez sur n\'importe quel bouton de la télécommande."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Lorsque \"Trouver ma télécommande\" est activé, vous pouvez émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Émettre un son"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur l\'enceinte %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"N\'affecte que le volume sur l\'appareil %1$s, pas sur la TV"</string>
 </resources>

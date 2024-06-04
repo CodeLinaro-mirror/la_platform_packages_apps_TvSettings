@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personligt"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Anslut till ett nätverk"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Lägg till ett konto"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Konton och inloggning"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Konton och profiler"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Inga konton"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# konto}other{# konton}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medietjänster, Assistent, betalningar"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Integritet"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Enhetsinställningar"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoinställningar"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betalning och köp"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appinställningar"</string>
@@ -647,7 +649,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kameraåtkomst är blockerad"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Du återaktiverar genom att flytta integritetsreglaget på enheten till läget för aktiverad kamera och ge åtkomst till kameran."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonåtkomst: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"När detta är aktiverat får alla appar och tjänster som har tillstånd att använda mikrofonen åtkomst till den.\n\nNär detta är inaktiverat har inga appar eller tjänster tillgång till mikrofonen, men du kanske fortfarande kan prata med Google Assistent genom att trycka på Assistent-knappen på fjärrkontrollen.\n\nLjudenheter med anpassade protokoll för att kommunicera med tv:n kanske inte påverkas av den här inställningen."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Om aktiverat får appar och tjänster som har tillstånd att använda mikrofonen åtkomst till den.\n\nOm inaktiverat har inga appar eller tjänster tillgång till mikrofonen, men du kanske fortfarande kan prata med Google Assistent genom att trycka på Assistent-knappen på fjärrkontrollen.\n\nLjudenheter med anpassade protokoll för att kommunicera med tv:n kanske inte påverkas av inställningen."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Mikrofonen på fjärrkontrollen är aktiverad"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google Assistent har åtkomst till mikrofonen på fjärrkontrollen. Du kan prata med assistenten genom att trycka på Google Assistent-knappen på fjärrkontrollen."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofonen på fjärrkontrollen är inaktiverad"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Det finns en knapp på din Google TV som du kan trycka på för att spela upp ett ljud på fjärrkontrollen under 30 sekunder. Detta fungerar bara med Google TV-fjärrkontroller som stöds.\n\nStäng av ljudet genom att trycka på valfri knapp på fjärrkontrollen."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"När Hitta min fjärrkontroll är aktiverat kan du spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spela upp ljud"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volym"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styra volymen för assistenten på %1$s högtalare"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Påverkar bara volymen på %1$s enhet, inte på tv:n"</string>
 </resources>

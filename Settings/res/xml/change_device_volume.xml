@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (C) 2021 The Android Open Source Project
+  ~ Copyright (C) 2024 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,5 +15,8 @@
   -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:title="@string/font_scale_settings_title">
+    android:title="@string/volume_change_settings_title">
+    <PreferenceCategory
+        android:key="volume_change_group">
+    </PreferenceCategory>
 </PreferenceScreen>

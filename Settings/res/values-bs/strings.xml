@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Lično"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Povezivanje na mrežu"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Dodavanje računa"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Računi i prijava"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Računi i profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nema računa"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# račun}one{# račun}few{# računa}other{# računa}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medijske usluge, Asistent, Plaćanja"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privatnost"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Postavke uređaja"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Postavke računa"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Asistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Plaćanje i kupovine"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Postavke aplikacije"</string>
@@ -429,7 +431,7 @@
     <string name="title_random_mac_settings" msgid="6685812569356353378">"Privatnost"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"Koristi nasumično odabranu MAC adresu (zadano)"</item>
-    <item msgid="2490415280467390067">"Koristi MAC adresu uređaja"</item>
+    <item msgid="2490415280467390067">"Koristi MAC uređaja"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"Nije dostupno"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"Nasumično odabrani MAC"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na Google TV-u se nalazi dugme koje možete pritisnuti da reproducirate zvuk na daljinskom upravljaču u trajanju od 30 sekundi. Ovo funkcionira samo s podržanim daljinskim upravljačima za Google TV.\n\nDa zaustavite zvuk, pritisnite bilo koje dugme na daljinskom upravljaču."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kada je usluga Pronađi moj daljinski upravljač omogućena, možete reproducirati zvuk da pronađete daljinski upravljač za Google TV ako ga izgubite."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproduciraj zvuk"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Jačina zvuka uređaja %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Možete upravljati jačinom zvuka Asistenta na zvučniku %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Utiče samo na jačinu zvuka uređaja %1$s, ali ne i TV-a"</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Лични"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Свързване с мрежа"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Добавяне на профил"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Профили и вход"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Профили и потребителски профили"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Няма профили"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# профил}other{# профила}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медийни услуги, Асистент, Google Payments"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Поверителност"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Настройки на устройството"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Настройки на профила"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Асистент"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Плащания и покупки"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Настройки за приложението"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Устройството ви с Google TV има бутон, който можете да натиснете, за да се възпроизвежда звук на дистанционното ви управление в продължение на 30 секунди. Това работи само с поддържани дистанционни управления за Google TV.\n\nЗа да спрете звука, натиснете произволен бутон на дистанционното си управление."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Когато функцията „Намиране на дистанционното ми управление“ е активирана, може да се възпроизведе звук, за да откриете дистанционното управление на Google TV, ако не можете да го намерите."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Пускане на звук"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Сила на звука: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Можете да управлявате силата на звука за Асистент на високоговорителя (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Засяга само силата на звука на устройството (%1$s), но не и на телевизора"</string>
 </resources>

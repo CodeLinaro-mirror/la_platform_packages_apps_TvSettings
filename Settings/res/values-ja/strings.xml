@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ユーザー設定"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ネットワークへの接続"</string>
     <string name="add_an_account" msgid="2601275122685226096">"アカウントの追加"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"アカウントとログイン"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"アカウントとプロファイル"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"アカウントなし"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 個のアカウント}other{# 個のアカウント}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"メディア サービス、アシスタント、お支払い"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"プライバシー"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"デバイスの設定"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"アカウント設定"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google アシスタント"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"お支払いとご購入"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"アプリの設定"</string>
@@ -647,7 +649,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"カメラへのアクセスがブロックされています"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"ブロックを解除するには、デバイスのプライバシー スイッチをカメラオンの位置に移動し、カメラへのアクセスを許可してください。"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"マイクへのアクセス: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"ON にすると、マイクの使用を許可されたすべてのアプリとサービスがマイクにアクセスできるようになります。\n\nOFF にすると、すべてのアプリとサービスがマイクにアクセスできなくなります。ただし、リモコンの Google アシスタント ボタンを押して Google アシスタントに話しかけることはできます。\n\n独自のプロトコルを使用してテレビと通信するオーディオ機器は、この設定に影響を受けません。"</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"ON にすると、マイクの使用を許可されたすべてのアプリとサービスがマイクにアクセスできます。\n\nOFF にすると、すべてのアプリとサービスがマイクにアクセスできません。ただしリモコンの Google アシスタント ボタンを押して Google アシスタントに話しかけることはできます。\n\n独自のプロトコルを使ってテレビと通信するオーディオ機器は、この設定に影響を受けません。"</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"リモコンのマイクが有効です"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google アシスタントはリモコンのマイクにアクセスできます。リモコンの Google アシスタント ボタンを押してアシスタントに話しかけることができます。"</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"リモコンのマイクが無効です"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV のこのボタンを押すと、リモコンから 30 秒間音が鳴ります。この機能を使用できるのは、対応する Google TV リモコンのみです。\n\n音を止めるには、リモコンのいずれかのボタンを押します。"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"「リモコンを探す」機能が有効の場合は、Google TV リモコンの場所がわからなくなったときにリモコンから音を鳴らして探すことができます。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"音を鳴らす"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s の音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s スピーカーのアシスタントの音量を調整できます"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"音量が調整されるのはテレビではなく、%1$s デバイスのみです"</string>
 </resources>

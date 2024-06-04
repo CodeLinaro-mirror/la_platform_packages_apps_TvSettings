@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Pertsonala"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Konektatu sarera"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Gehitu kontu bat"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Kontuak eta saio-hasiera"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Kontuak eta profilak"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ez dago konturik"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# kontu}other{# kontu}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Multimedia-zerbitzuak, Laguntzailea, ordainketak"</string>
@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Pribatutasuna"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Gailuaren ezarpenak"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontuaren ezarpenak"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google-ren Laguntzailea"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Ordainketa eta erosketak"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Aplikazioaren ezarpenak"</string>
@@ -1148,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV-ak daukan botoi jakin bat sakatzen baduzu, urruneko kontrolagailuan soinu bat erreproduzituko da 30 segundoz. Google TV-ren urruneko kontrolagailu bateragarriekin soilik funtzionatzen du horrek.\n\nSoinua erreproduzitzeari uzteko, sakatu urruneko kontrolagailuaren edozein botoi."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"Bilatu urruneko kontrolagailua\" gaituta dagoenean, soinu bat erreproduzi dezakezu Google TV-ren urruneko kontrolagailua aurkitzeko, betiko tokian ez badago."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Erreproduzitu soinua"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s gailuaren bolumena"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s bozgorailuko Laguntzailea zerbitzuaren bolumena kontrola dezakezu"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s gailuaren bolumena soilik aldatzen du, ez telebistarena"</string>
 </resources>
