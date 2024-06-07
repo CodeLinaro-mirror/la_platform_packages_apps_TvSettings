@@ -60,8 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"गोपनीयता"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"डिव्हाइस सेटिंग्ज"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"खाते सेटिंग्ज"</string>
-    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
-    <skip />
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"डिव्हाइस लॉक"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"पेमेंट आणि खरेदी"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ॲप सेटिंग्ज"</string>
@@ -364,7 +363,7 @@
     <string name="system_update_description" msgid="998883510488461766">"यामुळे तुमचे सिस्टम सॉफ्टवेअर सर्वात अलीकडील आवृत्तीवर अपडेट होईल. तुमचे डिव्हाइस रीस्टार्ट होईल."</string>
     <string name="system_update_content_description" msgid="5702888187682876466">"सिस्टम अपडेट, यामुळे तुमचे सिस्टम सॉफ्टवेअर सर्वात अलीकडील आवृत्तीवर अपडेट होईल. तुमचे डिव्हाइस रीस्टार्ट होईल."</string>
     <string name="about_preference" msgid="9112690446998150670">"विषयी"</string>
-    <string name="device_name" msgid="566626587332817733">"डिव्हाइस नाव"</string>
+    <string name="device_name" msgid="566626587332817733">"डिव्हाइसचे नाव"</string>
     <string name="restart_button_label" msgid="911750765086382990">"रीस्टार्ट करा"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"कायदेशीर माहिती"</string>
     <string name="about_legal_license" msgid="4056934178111674054">"तृतीय पक्ष स्रोत"</string>
