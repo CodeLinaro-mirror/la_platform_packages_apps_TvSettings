@@ -60,8 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ຄວາມເປັນສ່ວນຕົວ"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ການຕັ້ງຄ່າອຸປະກອນ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ການຕັ້ງຄ່າບັນຊີ"</string>
-    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
-    <skip />
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ການລັອກອຸປະກອນ"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"ຜູ້ຊ່ວຍ Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ການຈ່າຍເງິນ ແລະ ການສັ່ງຊື້"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ການຕັ້ງຄ່າແອັບ"</string>
@@ -938,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ເລືອກ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ເພື່ອສືບຕໍ່."</string>
     <string name="label_done_key" msgid="8576286462300373440">"ແລ້ວໆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ເຊື່ອມຕໍ່ສຳເລັດແລ້ວ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ເຊື່ອມຕໍ່ຢູ່ກ່ອນແລ້ວ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ບັນທຶກໄດ້ສຳເລັດແລ້ວ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ເວີ​ຊັນ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ເປີດ"</string>
@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ຊອກຫາຣີໂໝດຂອງຂ້ອຍ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານຫາກວາງໄວ້ຜິດບ່ອນ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ມີປຸ່ມຢູ່ Google TV ຂອງທ່ານທີ່ທ່ານສາມາດກົດເພື່ອຫຼິ້ນສຽງຢູ່ຣີໂໝດຂອງທ່ານເປັນເວລາ 30 ວິນາທີ. ສິ່ງນີ້ໃຊ້ໄດ້ກັບຣີໂໝດຂອງ Google TV ທີ່ຮອງຮັບເທົ່ານັ້ນ.\n\nເພື່ອຢຸດສຽງ, ໃຫ້ກົດປຸ່ມໃດກໍໄດ້ຢູ່ຣີໂໝດຂອງທ່ານ."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ເມື່ອເປີດການນຳໃຊ້ຊອກຫາຣີໂໝດຂອງຂ້ອຍ, ທ່ານສາມາດຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານໄດ້ຫາກວາງໄວ້ຜິດບ່ອນ."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ຫຼິ້ນສຽງ"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"ລະດັບສຽງຂອງ %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ທ່ານສາມາດຄວບຄຸມລະດັບສຽງຜູ້ຊ່ວຍຢູ່ລຳໂພງ %1$s ໄດ້"</string>

@@ -60,8 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Integritet"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Enhetsinställningar"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoinställningar"</string>
-    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
-    <skip />
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Enhetslås"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betalning och köp"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appinställningar"</string>
@@ -311,7 +310,7 @@
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Information om hanterad enhet"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"Ändringar och inställningar som hanteras av organisationen"</string>
     <string name="enterprise_privacy_settings_summary_with_name" msgid="2866704039759872293">"Ändringar och inställningar som hanteras av <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>"</string>
-    <string name="enterprise_privacy_header" msgid="9221881402582661521">"Organisationen kan ändra inställningar och installera programvara på enheten för att ge dig tillgång till jobbrelaterad information.\n\nKontakta organisationens administratör om du vill veta mer."</string>
+    <string name="enterprise_privacy_header" msgid="9221881402582661521">"Organisationen kan ändra inställningar och installera mjukvara på enheten för att ge dig tillgång till jobbrelaterad information.\n\nKontakta organisationens administratör om du vill veta mer."</string>
     <string name="enterprise_privacy_exposure_category" msgid="1555735251238636669">"Vilken typ av information som visas för organisationen"</string>
     <string name="enterprise_privacy_exposure_changes_category" msgid="7750498604032318318">"Ändringar som organisationens administratör har gjort"</string>
     <string name="enterprise_privacy_device_access_category" msgid="7397106369136259850">"Din åtkomst till den här enheten"</string>
@@ -361,8 +360,8 @@
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Självstudier"</string>
     <string name="about_system_update" msgid="7421264399111367755">"Systemuppdatering"</string>
-    <string name="system_update_description" msgid="998883510488461766">"Systemprogramvaran uppdateras till den senaste versionen. Enheten startas om."</string>
-    <string name="system_update_content_description" msgid="5702888187682876466">"Systemuppdatering: Systemprogramvaran uppdateras till den senaste versionen. Enheten startas om."</string>
+    <string name="system_update_description" msgid="998883510488461766">"Systemmjukvaran uppdateras till den senaste versionen. Enheten startas om."</string>
+    <string name="system_update_content_description" msgid="5702888187682876466">"Systemuppdatering: Systemmjukvaran uppdateras till den senaste versionen. Enheten startas om."</string>
     <string name="about_preference" msgid="9112690446998150670">"Om"</string>
     <string name="device_name" msgid="566626587332817733">"Enhetens namn"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Starta om"</string>
@@ -757,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Aktivera"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Vill du använda <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> kan läsa din skärm, visa innehåll över andra appar, spåra dina interaktioner med appar eller maskinvarusensorer och interagera med appar å dina vägnar."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> kan läsa din skärm, visa innehåll över andra appar, spåra dina interaktioner med appar eller hårdvarusensorer och interagera med appar å dina vägnar."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Vill du avbryta <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Om du väljer OK avbryts <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Text-till-tal"</string>
@@ -796,7 +795,7 @@
     <string name="system_pointer_location" msgid="8724050865245555084">"Pekarens plats"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"Visa layoutgränser"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"Visa GPU-visningsuppdateringar"</string>
-    <string name="system_show_hardware_layer" msgid="5833664339844452290">"Visa maskinvaruskikt"</string>
+    <string name="system_show_hardware_layer" msgid="5833664339844452290">"Visa hårdvaruskikt"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"Visa GPU-överritning"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Visa ytuppdateringar"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"Skala – fönsteranimering"</string>
@@ -816,7 +815,7 @@
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"Felsökaren måste ansluta till appen först"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"Visa gränser för videoklipp, marginaler m.m."</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"Visningar blinkar i fönster vid ritning med GPU"</string>
-    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Maskinvaruskikt blinkar grönt vid uppdateringar"</string>
+    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Hårdvaruskikt blinkar grönt vid uppdateringar"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Från bäst till sämst: blå, grön, ljusröd, röd"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Hela fönstret blinkar vid uppdatering"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Tänd skärmen när appen gör större åtgärd i huvudtråden"</string>
@@ -938,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Välj <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> för att fortsätta."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Klar"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ansluten"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Redan anslutet"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Konfigurationen har sparats"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Öppna"</string>
@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Hitta min fjärrkontroll"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Det finns en knapp på din Google TV som du kan trycka på för att spela upp ett ljud på fjärrkontrollen under 30 sekunder. Detta fungerar bara med Google TV-fjärrkontroller som stöds.\n\nStäng av ljudet genom att trycka på valfri knapp på fjärrkontrollen."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"När Hitta min fjärrkontroll är aktiverat kan du spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spela upp ljud"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volym"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styra volymen för assistenten på %1$s högtalare"</string>

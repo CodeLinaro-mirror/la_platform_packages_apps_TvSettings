@@ -60,8 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Zasebnost"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavitve naprave"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavitve računa"</string>
-    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
-    <skip />
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zaklepanje naprave"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Pomočnik Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Plačila in nakupi"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavitve aplikacije"</string>
@@ -238,7 +237,7 @@
     <string name="accessory_state_paired" msgid="3296695242499532000">"Seznanjeno"</string>
     <string name="accessory_options" msgid="774592782382321681">"Pripomoček"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"Prekliči seznanitev"</string>
-    <string name="accessory_battery" msgid="2283700366184703548">"Akumulator: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
+    <string name="accessory_battery" msgid="2283700366184703548">"Baterija: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
     <string name="accessory_unpairing" msgid="2529195578082286563">"Preklic seznanitve z napravo …"</string>
     <string name="accessory_connected" msgid="5229574480869175180">"Povezano"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Spremeni ime"</string>
@@ -938,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Izberite <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>, če želite nadaljevati."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Končano"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Povezava je vzpostavljena"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Že povezano"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Shranjevanje je uspelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Različica <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Odpri"</string>
@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Poišči moj daljinski upravljalnik"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Predvajajte zvok, da poiščete daljinski upravljalnik za Google TV, če ga založite"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV ima gumb, ki ga lahko pritisnete in tako za 30 sekund sprožite predvajanje zvoka v daljinskem predvajalniku. To deluje samo s podprtimi daljinskimi upravljalniki za Google TV.\n\nČe želite ustaviti zvok, na daljinskem upravljalniku pritisnite kateri koli gumb."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Če je omogočena funkcija Poišči moj daljinski upravljalnik, lahko nastavite, da se predvaja zvok, da najdete založeni daljinski upravljalnik Googla TV."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Predvajaj zvok"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Glasnost za %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnost Pomočnika lahko upravljate v zvočniku %1$s"</string>

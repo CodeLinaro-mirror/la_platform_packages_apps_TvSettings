@@ -60,8 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"निजता"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"डिवाइस की सेटिंग"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"खाता सेटिंग"</string>
-    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
-    <skip />
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"डिवाइस लॉक"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"खरीदारियां और पैसे चुकाना"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ऐप्लिकेशन सेटिंग"</string>
@@ -938,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"जारी रखने के लिए, <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> चुनें."</string>
     <string name="label_done_key" msgid="8576286462300373440">"हो गया"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"सफलतापूर्वक कनेक्ट हो गया"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"पहले से कनेक्ट है"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"सफलतापूर्वक सहेज लिया गया"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"वर्शन <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"खोलें"</string>
@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरा रिमोट ढूंढें"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV रिमोट खो जाने पर, उसका पता लगाने के लिए साउंड चलाएं"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"आपके Google TV पर एक ऐसा बटन होता है जिसे दबाने से रिमोट पर 30 सेकंड के लिए आवाज़ चलाई जा सकती है. ऐसा सिर्फ़ उन Google TV के रिमोट कंट्रोल पर किया जा सकता है जिन पर यह सुविधा काम करती है.\n\nसाउंड बंद करने के लिए, रिमोट के किसी भी बटन को दबाएं."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"अगर \'मेरा रिमोट ढूंढें\' सुविधा चालू है, तो Google TV रिमोट खो जाने पर उसका पता लगाने के लिए साउंड चलाया जा सकता है."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउंड चलाएं"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s आवाज़"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s स्पीकर पर Assistant की आवाज़ को कंट्रोल किया जा सकता है"</string>
