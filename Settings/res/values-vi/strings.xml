@@ -312,7 +312,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"Đầu vào"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"Nguồn đầu vào và thiết bị"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"Điều khiển rạp hát tại nhà"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"Tùy chọn nhà phát triển"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"Tuỳ chọn cho nhà phát triển"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Không có"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"Dữ liệu sử dụng và chẩn đoán"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"Không có ứng dụng quản trị thiết bị nào"</string>
@@ -1101,7 +1101,7 @@
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Cho phép truy cập để quản lý tất cả các tệp"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Cho phép ứng dụng này đọc, sửa đổi và xóa tất cả các tệp trên thiết bị này hoặc bất kỳ thiết bị lưu trữ nào đã kết nối. Nếu bạn cho phép, ứng dụng có thể truy cập vào các tệp mà không cần thông báo rõ ràng cho bạn."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Hình trong hình"</string>
-    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Cho phép hình trong hình"</string>
+    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Cho phép chế độ hình trong hình"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Không có ứng dụng đã cài đặt nào hỗ trợ chế độ Hình trong hình"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Cho phép ứng dụng tạo cửa sổ hình trong hình khi ứng dụng đang mở hoặc sau khi bạn rời khỏi ứng dụng đó (chẳng hạn như để tiếp tục xem video). Cửa sổ này sẽ hiển thị trên các ứng dụng khác mà bạn đang sử dụng."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Cho phép các ứng dụng đặt chuông báo và lên lịch cho các thao tác cần chính xác về thời gian. Chế độ này cho phép ứng dụng chạy ở chế độ nền và có thể tiêu tốn nhiều điện hơn.\n\nNếu bạn không cấp quyền này, các chuông báo và sự kiện mà ứng dụng đã đặt lịch sẽ không hoạt động."</string>
