@@ -21,7 +21,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.StrictMode;
 import android.util.Log;
 
 import androidx.annotation.MainThread;
@@ -101,12 +100,7 @@ public final class PreferenceSliceLiveData {
         private final Runnable mUpdateSlice = new Runnable() {
             @Override
             public void run() {
-                StrictMode.ThreadPolicy oldPolicy = StrictMode.getThreadPolicy();
                 try {
-                    // Prevent StrictMode from throwing when writing to disk.
-                    StrictMode.setThreadPolicy(
-                            new StrictMode
-                                    .ThreadPolicy.Builder(oldPolicy).permitDiskWrites().build());
                     Slice s = mUri != null ? mSliceViewManager.bindSlice(mUri)
                             : mSliceViewManager.bindSlice(mIntent);
                     if (mUri == null && s != null) {
@@ -117,8 +111,6 @@ public final class PreferenceSliceLiveData {
                 } catch (Exception e) {
                     Log.e(TAG, "Error binding slice", e);
                     postValue(null);
-                } finally {
-                    StrictMode.setThreadPolicy(oldPolicy);
                 }
             }
         };
