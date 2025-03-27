@@ -319,8 +319,7 @@
     <string name="no_device_admins" msgid="4628974717150185625">"Non hai ningunha aplicación de administración de dispositivos dispoñible"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Desactivado polo administrador"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Non dispoñible"</string>
-    <!-- no translation found for manage_device_admin (2719119510627926381) -->
-    <skip />
+    <string name="manage_device_admin" msgid="2719119510627926381">"Administración de dispositivos"</string>
     <string name="number_of_device_admins_none" msgid="2734299122299837459">"Non hai aplicacións activas"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"Desactivado por admin., encriptación ou almac. credenciais"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Información sobre o dispositivo xestionado"</string>
@@ -1076,8 +1075,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Xestionar teclados"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Con permiso"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Sen permiso"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Acceso aos datos de uso"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Co acceso aos datos de uso unha aplicación pode realizar un seguimento das demais aplicacións que utilizas e da súa frecuencia de uso, así como do operador, da configuración do idioma e doutros detalles."</string>
+    <string name="usage_access" msgid="3555037254084707746">"Datos de uso das aplicacións"</string>
+    <string name="usage_access_description" msgid="6545638068710045735">"O acceso aos datos de uso permite que unha aplicación realice un seguimento para saber que aplicacións utilizas e con que frecuencia, así como o teu operador, a configuración do idioma e outros detalles."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Optimización de enerxía"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Optimiza o uso de enerxía das aplicacións"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Ningunha aplicación necesita optimización"</string>
@@ -1146,8 +1145,7 @@
     <string name="remove_device_admin" msgid="2623866073546295104">"Desactivar esta aplicación de administración de dispositivos"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Desinstalar aplicación"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Desactivar e desinstalar"</string>
-    <!-- no translation found for select_device_admin_msg (5480836736592618730) -->
-    <skip />
+    <string name="select_device_admin_msg" msgid="5480836736592618730">"Administración de dispositivos"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Activar aplicación de administración?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Activar esta aplicación de administración de dispositivos"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"A activación desta aplicación de administración permitirá á aplicación <xliff:g id="APP_NAME">%1$s</xliff:g> levar a cabo as seguintes operacións:"</string>
@@ -1181,6 +1179,8 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Comportamento do acendido"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Restablecemento"</string>
     <string name="system_tv_title" msgid="2800695543185187197">"Televisión"</string>
+    <!-- no translation found for menu_monitor (1132156256141628466) -->
+    <skip />
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Código de vinculación de Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modos de enerxía"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Estas opcións de configuración aféctanlle ao dispositivo aínda que non se estea usando"</string>
