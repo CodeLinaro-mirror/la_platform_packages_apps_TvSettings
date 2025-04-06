@@ -24,8 +24,11 @@ import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
@@ -49,6 +52,8 @@ public class FullScreenDialogFragment extends Fragment {
     private static final String ARGUMENT_HINT_TEXT = "ARGUMENT_HINT_TEXT";
     private static final String ARGUMENT_POSITIVE_BUTTON_LABEL = "ARGUMENT_POSITIVE_BUTTON_LABEL";
     private static final String ARGUMENT_NEGATIVE_BUTTON_LABEL = "ARGUMENT_NEGATIVE_BUTTON_LABEL";
+    private static final String ARGUMENT_INITIAL_FOCUS_ON_NEGATIVE_BUTTON =
+            "ARGUMENT_INITIAL_FOCUS_ON_NEGATIVE_BUTTON";
 
     /** Builder that sets up arguments to the dialog fragment */
     public static final class DialogBuilder {
@@ -97,6 +102,12 @@ public class FullScreenDialogFragment extends Fragment {
         /** Sets the label of the negative button */
         public DialogBuilder setNegativeButton(String negativeButtonLabel) {
             mArgs.putString(ARGUMENT_NEGATIVE_BUTTON_LABEL, negativeButtonLabel);
+            return this;
+        }
+
+        /** Sets initial focus to negative button */
+        public DialogBuilder setInitialFocusOnNegativeButton(boolean focusOnNegativeButton) {
+            mArgs.putBoolean(ARGUMENT_INITIAL_FOCUS_ON_NEGATIVE_BUTTON, focusOnNegativeButton);
             return this;
         }
 
@@ -170,9 +181,54 @@ public class FullScreenDialogFragment extends Fragment {
         negativeButton.setText(negativeButtonLabel);
         negativeButton.setOnClickListener((v) -> onButtonPressed(ACTION_NEGATIVE));
 
+        final boolean focusOnNegativeButton =
+                args.getBoolean(ARGUMENT_INITIAL_FOCUS_ON_NEGATIVE_BUTTON, false);
+        if (focusOnNegativeButton) {
+            negativeButton.requestFocus();
+        } else {
+            positiveButton.requestFocus();
+        }
 
         return view;
     }
+
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        Activity activity = getActivity();
+        if (activity != null) {
+            View rootView = activity.getWindow().getDecorView().getRootView();
+            Button positiveButton = view.findViewById(R.id.positive_button);
+
+            rootView
+                .getViewTreeObserver()
+                .addOnGlobalLayoutListener(
+                    new ViewTreeObserver.OnGlobalLayoutListener() {
+                        @Override
+                        public void onGlobalLayout() {
+                            positiveButton.requestFocus();
+
+                            // ScrollView is focusable by default (regardless of XML
+                            // value), so we have to set Scrollview to not be focusable
+                            // if it's not tall enough
+                            ScrollView scrollView =
+                                activity.requireViewById(R.id.dialog_message_scroll_view);
+                            boolean isScrollable =
+                                scrollView.canScrollVertically(/* direction= */ 1)
+                                                    || scrollView.canScrollVertically(
+                                                            /* direction= */ -1);
+                            if (!isScrollable) {
+                                scrollView.setFocusable(false);
+                            }
+                            rootView.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+                        }
+                    }
+                );
+        }
+    }
+
 
     /** Returns the dialog message. */
     public CharSequence getMessage() {

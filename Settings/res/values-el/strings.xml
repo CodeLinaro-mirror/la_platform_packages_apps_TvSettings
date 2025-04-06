@@ -319,7 +319,7 @@
     <string name="no_device_admins" msgid="4628974717150185625">"Δεν υπάρχουν διαθέσιμες εφαρμογές διαχειριστή συσκευής"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Απενεργοποιήθηκε από τον διαχειριστή"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Μη διαθέσιμη"</string>
-    <string name="manage_device_admin" msgid="5714217234035017983">"Εφαρμογές διαχείρισης συσκευής"</string>
+    <string name="manage_device_admin" msgid="2719119510627926381">"Διαχειριστής συσκευής"</string>
     <string name="number_of_device_admins_none" msgid="2734299122299837459">"Δεν υπάρχουν ενεργές εφαρμογές"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"Απενεργοποιήθηκε λόγω διαχειριστή, πολιτικής κρυπτογράφησης ή αποθηκευτικού χώρου διαπιστευτηρίων"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Πληροφορίες διαχειριζόμενης συσκευής"</string>
@@ -807,7 +807,7 @@
     <string name="system_play_sample" msgid="3934369914309865584">"Αναπαραγωγή δείγματος"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Εγκατάσταση δεδομένων φωνής"</string>
     <string name="system_general" msgid="687760148454147771">"Γενικά"</string>
-    <string name="system_debugging" msgid="1576324426385458481">"Εντοπισμός σφαλμάτων"</string>
+    <string name="system_debugging" msgid="1576324426385458481">"Εντοπ. σφαλμ."</string>
     <string name="system_input" msgid="4457152980514604873">"Εισαγωγή"</string>
     <string name="system_drawing" msgid="5802739024643871942">"Σχέδιο"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"Παρακολούθηση"</string>
@@ -823,7 +823,7 @@
     <string name="system_always_check" msgid="384870282800221580">"Να γίνεται πάντα έλεγχος"</string>
     <string name="system_bt_hci_log" msgid="1891838112637932603">"Καταγραφή Bluetooth HCI"</string>
     <string name="system_email_address" msgid="3725494874473757217">"Διεύθυνση ηλεκτρονικού ταχυδρομείου"</string>
-    <string name="system_usb_debugging" msgid="2158285492172755923">"Εντοπισμός σφαλμάτων USB"</string>
+    <string name="system_usb_debugging" msgid="2158285492172755923">"Αποσφαλμάτωση USB"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"Να επιτρέπονται ψευδείς τοποθεσίες"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"Επιλέξτε εφαρμογή εντοπισμού σφαλμάτων"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"Αναμονή για εργαλείο εντοπισμού σφαλμάτων"</string>
@@ -1075,8 +1075,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Διαχείριση πληκτρολογίων"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Επιτρέπεται"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Δεν επιτρέπεται"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Πρόσβαση χρήσης"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Η πρόσβαση χρήσης επιτρέπει σε μια εφαρμογή να παρακολουθεί τις άλλες εφαρμογές που χρησιμοποιείτε, τη συχνότητα χρήσης τους, καθώς και την εταιρεία κινητής τηλεφωνίας σας, τις ρυθμίσεις γλώσσας και άλλες λεπτομέρειες."</string>
+    <string name="usage_access" msgid="3555037254084707746">"Δεδομένα χρήσης εφαρμογής"</string>
+    <string name="usage_access_description" msgid="6545638068710045735">"Τα δεδομένα χρήσης εφαρμογής επιτρέπουν σε μια εφαρμογή να παρακολουθεί τις άλλες εφαρμογές που χρησιμοποιείτε, τη συχνότητα χρήσης τους, καθώς και την εταιρεία κινητής τηλεφωνίας σας, τις ρυθμίσεις γλώσσας και άλλες λεπτομέρειες."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Βελτιστοποίηση ενέργειας"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Βελτιστοποίηση χρήσης ενέργειας από τις εφαρμογές"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Καμία εφαρμογή δεν χρειάζεται βελτιστοποίηση"</string>
@@ -1145,7 +1145,7 @@
     <string name="remove_device_admin" msgid="2623866073546295104">"Απενεργοποίηση αυτής της εφαρμογής διαχειριστή συσκευής"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Απεγκατάσταση εφαρμογής"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Απενεργοποίηση και απεγκατάσταση"</string>
-    <string name="select_device_admin_msg" msgid="8475934459999710332">"Εφαρμογές διαχειριστή συσκευής"</string>
+    <string name="select_device_admin_msg" msgid="5480836736592618730">"Διαχειριστής συσκευής"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Ενεργοπ. εφαρμογής διαχειριστή συσκευής;"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Ενεργοποίηση αυτής της εφαρμογής διαχειριστή συσκευής"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"Η ενεργοποίηση αυτής της εφαρμογής διαχειριστή θα επιτρέψει στην εφαρμογή <xliff:g id="APP_NAME">%1$s</xliff:g> να εκτελεί τις παρακάτω ενέργειες:"</string>
@@ -1179,6 +1179,7 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Συμπεριφορά κατά την ενεργοποίηση"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Επαναφορά"</string>
     <string name="system_tv_title" msgid="2800695543185187197">"Τηλεόραση"</string>
+    <string name="menu_monitor" msgid="1132156256141628466">"Παρακολούθηση"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Κωδικός σύζευξης Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Λειτουργίες ενέργειας"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Αυτές οι ρυθμίσεις επηρεάζουν τη συσκευή όταν δεν είναι σε χρήση"</string>
