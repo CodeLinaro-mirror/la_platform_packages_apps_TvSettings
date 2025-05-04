@@ -983,8 +983,7 @@
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"កំណែ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"បើក"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"បង្ខំឲ្យបញ្ឈប់"</string>
-    <!-- no translation found for device_apps_app_management_force_stop_with_app_name (2018658181693785382) -->
-    <skip />
+    <string name="device_apps_app_management_force_stop_with_app_name" msgid="2018658181693785382">"បង្ខំ​ឱ្យបញ្ឈប់ <xliff:g id="APP_NAME">%1$s</xliff:g> ឬ?"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"ប្រសិនបើអ្នកបង្ខំឲ្យបញ្ឈប់កម្មវិធីនេះ វាអាចដំណើរការមិនប្រក្រតី"</string>
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"លុប"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"លុបបច្ចុប្បន្នភាព"</string>
@@ -1200,4 +1199,8 @@
     <string name="volume_change_settings_title" msgid="7861540652599113353">"កម្រិតសំឡេង %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="4671089222833161493">"អ្នកអាចគ្រប់គ្រងកម្រិតសំឡេងជំនួយការនៅលើឧបករណ៍បំពងសំឡេង %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"ប៉ះពាល់តែកម្រិតសំឡេងនៅលើឧបករណ៍ %1$s មិនមែននៅលើទូរទស្សន៍ទេ"</string>
+    <!-- no translation found for accessibility_service_off_title (4816862630220086861) -->
+    <skip />
+    <!-- no translation found for accessibility_service_on_title (7892907988400727648) -->
+    <skip />
 </resources>

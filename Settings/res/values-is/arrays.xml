@@ -42,10 +42,11 @@
     <item msgid="1560952154506153896">"2 sekúndur"</item>
   </string-array>
   <string-array name="device_energy_saver_attentive_timeout_entries">
-    <item msgid="3361047879614054539">"4 klukkustundir"</item>
-    <item msgid="680279399507109560">"6 klukkustundir"</item>
-    <item msgid="8718228763761076871">"8 klukkustundir"</item>
-    <item msgid="4952174685842622512">"Aldrei"</item>
+    <item msgid="3464892166439702511">"Þrjár klukkustundir"</item>
+    <item msgid="8886437453665493330">"Fjórar klukkustundir"</item>
+    <item msgid="4084454080767034127">"Sex klukkustundir"</item>
+    <item msgid="1856645840073941939">"Átta klukkustundir"</item>
+    <item msgid="1941258219612565176">"Aldrei"</item>
   </string-array>
   <string-array name="captioning_typeface_selector_titles">
     <item msgid="890926483922346934">"Sjálfgefið"</item>
