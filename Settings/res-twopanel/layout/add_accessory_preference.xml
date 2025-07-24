@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2025 The Android Open Source Project
+  ~ Copyright (C) 2020 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,10 +15,9 @@
   ~ limitations under the License
   -->
 
-<com.android.tv.twopanelsettings.FocusableWhenDisabledLinearLayout
-              xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/container"
-              android:layout_width="@dimen/tp_preference_width"
+              android:layout_width="308dp"
               android:layout_height="wrap_content"
               android:minHeight="@dimen/tp_preference_min_height"
               android:background="?android:attr/selectableItemBackground"
@@ -31,7 +30,7 @@
               android:paddingTop="@dimen/lb_preference_item_text_space_top"
               android:paddingBottom="@dimen/lb_preference_item_text_space_bottom"
               android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-              android:paddingEnd="16dp" >
+              android:paddingEnd="?android:attr/listPreferredItemPaddingEnd" >
 
     <FrameLayout
         android:id="@+id/icon_frame"
@@ -43,7 +42,7 @@
             android:id="@android:id/icon"
             android:layout_width="@dimen/lb_preference_item_icon_size"
             android:layout_height="@dimen/lb_preference_item_icon_size"
-            style="?android:attr/imageButtonStyle"
+            android:duplicateParentState="true"
         />
     </FrameLayout>
 
@@ -58,6 +57,7 @@
                   android:layout_gravity="center_vertical"
                   android:orientation="vertical">
         <com.android.tv.twopanelsettings.SmoothScalingTextView
+
             android:id="@android:id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,11 +80,11 @@
     </LinearLayout>
 
     <!-- Preference should place its actual preference widget here. -->
-    <com.android.tv.twopanelsettings.FocusableWhenDisabledLinearLayout
-                  android:id="@android:id/widget_frame"
+    <LinearLayout android:id="@android:id/widget_frame"
                   android:layout_width="wrap_content"
                   android:layout_height="match_parent"
                   android:duplicateParentState="true"
                   android:gravity="center_vertical"
                   android:orientation="vertical" />
-</com.android.tv.twopanelsettings.FocusableWhenDisabledLinearLayout>
+
+</LinearLayout>
