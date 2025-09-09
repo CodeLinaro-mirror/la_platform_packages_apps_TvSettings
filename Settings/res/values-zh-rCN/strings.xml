@@ -138,6 +138,8 @@
     <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"Dolby TrueHD"</string>
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"采用 Dolby Digital Plus 的 Dolby Atmos"</string>
     <string name="surround_sound_format_dra" msgid="6102878163986662443">"DRA"</string>
+    <!-- no translation found for surround_sound_variable_volume_control_summary (5617179789645766442) -->
+    <skip />
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"注意：如果您的设备未正确报告其支持的格式，“自动”选项可能无法正常使用。"</string>
     <string name="surround_sound_auto_title" msgid="811867430010809597">"自动"</string>
     <string name="surround_sound_selection_auto_desc" msgid="7272466222509838647">"启用所有受支持的格式"</string>
@@ -854,7 +856,7 @@
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"连接 USB 后开启调试模式"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"被调试的应用会在执行前等待附加调试程序"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"显示剪裁边界、边距等"</string>
-    <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"使用 GPU 进行绘图时闪烁显示窗口中的视图"</string>
+    <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"窗口中的视图在通过 GPU 更新时会闪烁显示"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"硬件层更新时闪烁绿色"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"从最优到最差依次显示为：蓝色、绿色、淡红色、红色"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"窗口中的面(surface)更新时全部闪烁"</string>
@@ -1104,7 +1106,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"否"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"所有文件访问权限"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"授予管理所有文件的权限"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"允许此应用读取、修改和删除此设备或任何已连接存储卷上的所有文件。如果您授予该权限，应用无需明确通知您即可访问文件。"</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"允许此应用读取、修改和删除此设备或任何已连接的存储设备上的所有文件。如果您授予该权限，应用无需明确通知您即可访问文件。"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"画中画"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"允许进入画中画模式"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"已安装的应用均不支持画中画功能"</string>
