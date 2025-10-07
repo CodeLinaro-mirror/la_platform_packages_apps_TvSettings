@@ -30,6 +30,7 @@
     <dimen name="text_size_description">24sp</dimen>
     <dimen name="device_storage_usage_indicator_width">32dip</dimen>
     <dimen name="device_storage_usage_indicator_height">32dip</dimen>
+    <dimen name="device_storage_usage_indicator_diameter_two_panel">36dp</dimen>
     <dimen name="add_accessory_padding_start">50dp</dimen>
     <dimen name="bt_secure_pair_hint_start_margin">5dp</dimen>
     <dimen name="bt_secure_pair_hint_top_margin">3dp</dimen>
@@ -169,7 +170,7 @@
 
     <dimen name="content_icon_inset">16dp</dimen>
 
-    <dimen name="bt_progress_width_narrow">448dp</dimen>
+    <dimen name="bt_progress_width_narrow">490dp</dimen>
 
     <dimen name="setup_action_margin_start">56dp</dimen>
 
@@ -277,4 +278,9 @@
     <dimen name="guided_actions_vertical_offset_bottom">61dp</dimen>
     <dimen name="guided_actions_list_elevation">0dp</dimen>
     <dimen name="preference_category_top_decoration">0dp</dimen>
+
+    <dimen name="add_accessory_item_icon_width">20dp</dimen>
+    <dimen name="add_accessory_item_icon_height">20dp</dimen>
+    <dimen name="add_accessory_content_section_width_two_panel_narrow">535dp</dimen>
+    <dimen name="add_accessory_content_section_width_two_panel_full">844dp</dimen>
 </resources>

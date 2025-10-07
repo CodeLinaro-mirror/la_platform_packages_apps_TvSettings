@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Tetapan Peranti"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Tetapan Akaun"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Kunci Peranti"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Pembantu Suara"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Pembantu suara"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pembayaran &amp; Pembelian"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Tetapan Apl"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokasi, Penggunaan &amp; Diagnostik, Iklan"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Apl yang dibuka baru-baru ini"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Lihat semua apl"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Kebenaran"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Tambah lebih banyak apl"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Semua apl"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Tunjukkan apl sistem"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Penentukuran"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Pemasa untuk Mematikan TV"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Tetapkan pemasa untuk mematikan TV dan menjimatkan tenaga"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Peranti"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Tetapan bunyi keliling"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Bunyi Keliling"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Padam bersih data cache?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Ini akan memadam bersih data cache semua apl."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Tambah aksesori"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Menggandingkan..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Menyambung…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"Menyambung ke <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="320653339670641708">"Menyimpan konfigurasi untuk <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Sambung"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Lupakan rangkaian"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Lupakan"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"Lupakan <xliff:g id="SSID">%1$s</xliff:g>?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Ini memadam bersih maklumat untuk bersambung ke rangkaian ini, termasuk kata laluan yang disimpan"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Sertai Wi-Fi dengan mengimbas kod QR daripada telefon mudah alih anda dan ikut arahan.\n \n Daripada "<b>"Telefon Android"</b>" pergi ke Tetapan -&gt; Rangkaian &amp; internet -&gt; Wi-Fi -&gt; Pilih Wi-Fi -&gt; Lanjutan -&gt; Tambah peranti dan kemudian imbas kod QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Tekan butang kembali untuk membatalkan"</string>
@@ -741,7 +738,7 @@
     <string name="keyboard_accessibility" msgid="7849649126112178029">"Kebolehaksesan papan kekunci"</string>
     <string name="accessibility_shortcut_off" msgid="8942290125694882338">"Pintasan kebolehaksesan:Dimatikan"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Apabila pintasan dihidupkan, anda boleh menekan kedua-dua butang kembali dan ke bawah selama 3 saat untuk memulakan ciri kebolehaksesan."</string>
-    <string name="accessibility_timeout" msgid="6238669374985731114">"Tempoh untuk mengambil tindakan (tamat masa kebolehaksesan)"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Tempoh ambil tindakan (tamat masa kebolehaksesan)"</string>
     <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Laraskan tempoh mesej yang memerlukan tindakan"</string>
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Pilih tempoh untuk menunjukkan mesej sementara yang meminta anda mengambil tindakan"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Pemasaan : 2–3 saat"</string>
@@ -810,7 +807,7 @@
     <string name="system_play_sample" msgid="3934369914309865584">"Mainkan sampel"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Pasang data suara"</string>
     <string name="system_general" msgid="687760148454147771">"Am"</string>
-    <string name="system_debugging" msgid="1576324426385458481">"Menyahpepijat"</string>
+    <string name="system_debugging" msgid="1576324426385458481">"Penyahpepijatan"</string>
     <string name="system_input" msgid="4457152980514604873">"Input"</string>
     <string name="system_drawing" msgid="5802739024643871942">"Lukisan"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"Pemantauan"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Paparkan di atas apl lain"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Benarkan pemaparan di atas apl lain"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Benarkan apl dipaparkan di atas apl lain yang sedang digunakan. Hal ini mungkin mengganggu penggunaan apl itu atau mengubah penampilan atau gelagat apl tersebut."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Apl pengurusan media"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Benarkan apl mengurus media"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Jika dibenarkan, apl ini boleh mengubah suai atau memadamkan fail media yang dibuat dengan apl lain tanpa meminta izin anda. Apl mesti mempunyai kebenaran untuk mengakses fail dan media."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Akses tetapan sistem"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Akses tetapan sistem"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Kebenaran ini membolehkan apl mengubah suai tetapan sistem."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Perakaman audio gagal."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Perlihatkan kepada peranti Bluetooth yang lain?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Terdapat apl yang mahu memperlihatkan TV anda kepada peranti Bluetooth yang lain selama <xliff:g id="TIMEOUT">%1$d</xliff:g> saat."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Tindakan tidak dibenarkan"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Kelantangan tidak boleh ditukar"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Panggilan tidak dibenarkan"</string>

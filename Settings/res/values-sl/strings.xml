@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavitve naprave"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavitve računa"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zaklepanje naprave"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Glasovni pomočnik"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Glasovni pomočnik"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Plačila in nakupi"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavitve aplikacije"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokacija, podatki o uporabi in diagnostični podatki, oglasi"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Nedavno odprte aplikacije"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Prikaz vseh aplikacij"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Dovoljenja"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Dodajanje več aplikacij"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Vse aplikacije"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Prikaz sistemskih aplikacij"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Umerjanje"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Časovnik za izklop"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Nastavitev časovnikov za izklop televizorja in varčevanje z energijo"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Naprave"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Nastavitve prostorskega zvoka"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Prostorski zvok"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Želite izbrisati predpomnjene podatke?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Izbrisali boste predpomn. pod. vseh aplikacij."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Dodaj pripomoček"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Seznanjanje ..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Povezovanje …"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"Povezovanje z omrežjem <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="320653339670641708">"Shranjevanje konfiguracije za <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Poveži se"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Pozabi omrežje"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Pozabi"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"Naj bo naprava <xliff:g id="SSID">%1$s</xliff:g> pozabljena?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"S tem se izbrišejo podatki za povezavo s tem omrežjem, vključno s shranjenim geslom"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Pridružite se omrežju Wi-Fi, tako da optično preberete kodo QR iz mobilnega telefona in upoštevate navodila.\n \n V "<b>"telefonu Android"</b>" odprite »Nastavitve -&gt; Omrežje in internet -&gt; Wi-Fi -&gt; Izberite omrežje Wi-Fi -&gt; Dodatno -&gt; Dodajanje naprave« in nato optično preberite kodo QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Pritisnite gumb za nazaj, če želite preklicati."</string>
@@ -841,8 +838,8 @@
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"Prikaži sloj strojne opreme"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"Prikaži prepisovanje GPE"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Prikaži posodobitve površine"</string>
-    <string name="system_window_animation_scale" msgid="685477540250939659">"Merilo animacije okna"</string>
-    <string name="system_transition_animation_scale" msgid="7266380208347453619">"Merilo animacije prehoda"</string>
+    <string name="system_window_animation_scale" msgid="685477540250939659">"Hitrost animacije okna"</string>
+    <string name="system_transition_animation_scale" msgid="7266380208347453619">"Hitrost animacije prehoda"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"Merilo trajanja animacije"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"Strog način je omogočen"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Upodobitev profilov z GPE-jem"</string>
@@ -879,12 +876,12 @@
     <string name="enable_opengl_traces_none" msgid="4718084947494592040">"Brez"</string>
   <string-array name="animation_scale_entries">
     <item msgid="5408992662476056082">"Animacija izklopljena"</item>
-    <item msgid="6818290063799857019">"Merilo animacije: 0,5 x"</item>
-    <item msgid="8257959452691080724">"Merilo animacije: 1 x"</item>
-    <item msgid="4781052272686018414">"Merilo animacije: 1,5 x"</item>
-    <item msgid="2272016945160227610">"Merilo animacije: 2 x"</item>
-    <item msgid="5015441793276576312">"Merilo animacije: 5 x"</item>
-    <item msgid="1290233583371556415">"Merilo animacije: 10 x"</item>
+    <item msgid="6818290063799857019">"Hitrost animacije: 0,5 x"</item>
+    <item msgid="8257959452691080724">"Hitrost animacije: 1 x"</item>
+    <item msgid="4781052272686018414">"Hitrost animacije: 1,5 x"</item>
+    <item msgid="2272016945160227610">"Hitrost animacije: 2 x"</item>
+    <item msgid="5015441793276576312">"Hitrost animacije: 5 x"</item>
+    <item msgid="1290233583371556415">"Hitrost animacije: 10 x"</item>
   </string-array>
     <string name="track_frame_time_off" msgid="8845064783618702239">"Izklopljeno"</string>
     <string name="track_frame_time_bars" msgid="5841531515222229632">"Na zaslonu kot vrstice"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Prekrivanje drugih aplikacij"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Dovoli prekrivanje drugih aplikacij"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Omogočite aplikaciji, da na zaslonu prekrije druge aplikacije, ki jih uporabljate. To lahko vpliva na uporabo teh aplikacij ali spremeni njihov običajen videz ali delovanje."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Aplikacije za upravljanje predstavnosti"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Aplikaciji dovoli upravljanje predstavnosti"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Pri vklopljenem dovoljenju lahko ta aplikacija brez vaše vednosti spreminja ali briše predstavnostne datoteke, ustvarjene z drugimi aplikacijami. Aplikacija mora imeti dovoljenje za dostop do datotek in predstavnosti."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Dostop do sistem. nastavitev"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Dostop do sistemskih nastavitev"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"To dovoljenje aplikaciji dovoljuje spreminjanje sistemskih nastavitev."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Snemanje zvoka ni uspelo."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Želite omogočiti, da bo vidna drugim napravam Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Aplikacija želi omogočiti, da bodo lahko druge naprave Bluetooth videle vaš televizor za toliko sekund: <xliff:g id="TIMEOUT">%1$d</xliff:g>."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Dejanje ni dovoljeno"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Spreminjanje glasnosti ni mogoče"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Klicanje ni omogočeno"</string>

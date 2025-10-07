@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"የመሣሪያ ቅንብሮች"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"የመለያ ቅንብሮች"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"የመሣሪያ ቁልፍ"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"የድምፅ እርዳታ"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"የድምፅ እርዳታ"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ክፍያ እና ግዢዎች"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"የመተግበሪያ ቅንብሮች"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"አካባቢ፣ አጠቃቀም እና ምርመራ፣ ማስታወቂያዎች"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"በቅርቡ የተከፈቱ መተግበሪያዎች"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"ሁሉንም መተግበሪያዎች ይመልከቱ"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"ፈቃዶች"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"ተጨማሪ መተግበሪያዎችን ያክሉ"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"ሁሉም መተግበሪያዎች"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"የስርዓት መተግበሪያዎችን አሳይ"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"መዘወግ"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"ሰዓት ቆጣሪን ያጥፉ"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"ቲቪን ለማጥፋት እና ኃይል ለመቆጠብ ሰዓት ቆጣሪዎችን ያቀናብሩ"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"መሣሪያዎች"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"የዙሪያ ድምፅ ቅንብሮች"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"የዙሪያ ድምፅ"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> ኸርዝ)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"የተሸጎጠ ውሂብ ይጽዳ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ይሄ የተሸጎጡ የሁሉም መተግበሪያዎች ውሂብ ያጸዳል።"</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"መለዋወጫ ያክሉ"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"በማጣመር ላይ…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"በመገናኘት ላይ…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"ከ<xliff:g id="SSID">%1$s</xliff:g> ጋር በመገናኘት ላይ"</string>
     <string name="wifi_saving" msgid="320653339670641708">"ለ<xliff:g id="SSID">%1$s</xliff:g> መዋቅርን በማስቀመጥ ላይ"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"ተገናኝ"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"አውታረ መረብ እርሳ"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"እርሳ"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g> ረሱ?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ይሄ ማንኛውንም የተቀመጠ የይለፍ ቃልን ጨምሮ ከዚህ አውታረ መረብ ጋር ለመገናኘት ሥራ ላይ የዋለ መረጃን ያጸዳል።"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" QR ኮዱን ከሞባይል ስልክ በመቃኘት አንድ Wi-Fiን ይቀላቀሉ እና መመሪያዎቹን ይከተሉ።\n \n ከአንድ "<b>"የAndroid ስልክ"</b>" ሆነው ወደ ቅንብሮች -&gt; አውታረ መረብ እና በይነመረብ -&gt; Wi-Fi -&gt; አንድ Wi-Fi ይምረጡ -&gt; የላቀ -&gt; መሣሪያን አክል ይሂዱና ከዚያ QR ኮዱን ይቃኙ።"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ለመሰረዝ የተመለስ አዝራርን ይጫኑ"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"በሌሎች መተግበሪያዎች ላይ አሳይ"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"በሌሎች መተግበሪያዎች ላይ ማሳየትን ፍቀድ"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"አንድ መተግበሪያ እርስዎ እየተጠቀሙ ባሉ ሌሎች መተግበሪያዎች ላይ እንዲያሳይ ይፍቀዱለት። በእነዚያ መተግበሪያዎች አጠቃቀምዎ ላይ ጣልቃ ሊገባ፣ ወይም መልካቸውን ወይም ባህሪያቸው ሊቀይር ይችላል።"</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"የሚዲያ አስተዳደር መተግበሪያዎች"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"መተግበሪያው ሚዲያን እንዲያቀናብር ፍቀድ"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"ከተፈቀደለት ይህ መተግበሪያ እርስዎን ሳይጠይቅ በሌሎች መተግበሪያዎች የተፈጠሩ የሚዲያ ፋይሎችን ማሻሻል ወይም መሰረዝ ይችላል። መተግበሪያው ፋይሎችን እና ሚዲያዎችን ለመድረስ ፈቃድ ሊኖረው ይገባል።"</string>
     <string name="write_system_settings" msgid="9023005036458214990">"የሥርዓት ቅንብሮች መዳረሻ"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"የሥርዓት ቅንብሮች መዳረሻ"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"ይህ ፈቃድ መተግበሪያው የሥርዓት ቅንብሮችን ለመቀየር ያስችለዋል።"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ኦዲዮን መቅዳት አልተሳካም።"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ለሌሎች የብሉቱዝ መሣሪያዎች የሚታይ ይደረግ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"አንድ መተግበሪያ ቲቪዎን ለ<xliff:g id="TIMEOUT">%1$d</xliff:g> ሰከንዶች ያህል ለሌሎች የብሉቱዝ መሣሪያዎች የሚታይ ሊያደርገው ይፈልጋል።"</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"እርምጃ አይፈቀድም"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"የድምጽ መጠንን መለወጥ አይቻልም"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"መደወል አልተፈቀደም"</string>

@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ଡିଭାଇସ ସେଟିଂସ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ଆକାଉଣ୍ଟ ସେଟିଂସ"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ଡିଭାଇସ ଲକ"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"ଭଏସ ଆସିଷ୍ଟାଣ୍ଟ"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"ଭଏସ ଆସିଷ୍ଟାଣ୍ଟ"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ପେମେଣ୍ଟ ଓ କ୍ରୟଗୁଡ଼ିକ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ଆପ ସେଟିଂସ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ଲୋକେସନ୍, ବ୍ୟବହାର ଓ ଡାଏଗ୍ନୋଷ୍ଟିକ୍ସ, ବିଜ୍ଞାପନଗୁଡ଼ିକ"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"ନିକଟରେ ଖୋଲାଯାଇଥିବା ଆପ୍‌ଗୁଡ଼ିକ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"ସମସ୍ତ ଆପ୍‌କୁ ଦେଖନ୍ତୁ"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"ଅନୁମତିଗୁଡ଼ିକ"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"ଅଧିକ ଆପ୍ସ ଯୋଗ କରନ୍ତୁ"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"ସମସ୍ତ ଆପସ୍‌"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"ସିଷ୍ଟମ୍‍ ଆପ୍‍ ଦେଖାନ୍ତୁ"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"କାଲିବ୍ରାସନ୍‍"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"ଟାଇମରକୁ ବନ୍ଦ କରନ୍ତୁ"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"ଟିଭିକୁ ବନ୍ଦ କରିବା ପାଇଁ ଟାଇମର ସେଟ କରି ଏନର୍ଜି ସେଭ କରନ୍ତୁ"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ଡିଭାଇସଗୁଡ଼ିକ"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"ପରିପାର୍ଶ୍ଵ ସାଉଣ୍ଡ ସେଟିଂସ"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"ପରିପାର୍ଶ୍ଵର ଶଦ୍ଦ"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"କ୍ୟାଶ୍‌ ହୋଇଥିବା ଡାଟା ଖାଲି କରିବେ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ଏହା, ସମସ୍ତ ଡାଟା ପାଇଁ କ୍ୟାଶ୍ ହୋଇଥିବା ଡାଟାକୁ ଖାଲି କରିଦେବ"</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"ଆସେସୋରୀ ଯୋଡନ୍ତୁ"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"ପେୟାର୍‌ କରୁଛି…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"ସଂଯୋଗ କରୁଛି…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g>କୁ ସଂଯୋଗ ହେଉଛି"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> ପାଇଁ କନଫିଗରେସନ୍‌ ସେଭ୍‌ କରୁଛି"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"କନେକ୍ଟ କରନ୍ତୁ"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"ନେଟୱର୍କକୁ ଡିଲିଟ କରିଦିଅନ୍ତୁ"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"ଭୁଲି ଯାଆନ୍ତୁ"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g>କୁ ଭୁଲିଯିବେ?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ସେଭ୍‌ ହୋଇଥିବା ପାସୱାର୍ଡ୍‌ ସହିତ, ଏହି ନେଟୱର୍କ୍‌କୁ କନେକ୍ଟ କରିବାକୁ ବ୍ୟବହୃତ ହୋଇଥିବା ସୂଚନାକୁ ଏହା ଖାଲି କରେ"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ଏକ ମୋବାଇଲ ଫୋନରୁ QR କୋଡ ସ୍କାନ କରି ୱାଇ-ଫାଇରେ ଯୋଗ କରିବା ପରେ ନିର୍ଦ୍ଦେଶାବଳୀର ଅନୁସରଣ କରନ୍ତୁ।\n \n ଏକ "<b>"Android ଫୋନ"</b>"ରୁ \"ସେଟିଂସ -&gt; ନେଟୱାର୍କ ଏବଂ ଇଣ୍ଟରନେଟ -&gt; ୱାଇ-ଫାଇ -&gt; ଏକ ୱାଇ-ଫାଇ ଚୟନ କରନ୍ତୁ -&gt; ଆଡଭାନ୍ସ -&gt; ଡିଭାଇସ ଯୋଗ କରନ୍ତୁ\"କୁ ଯାଆନ୍ତୁ ଏବଂ ତା\'ପରେ QR କୋଡ ସ୍କାନ୍ କରନ୍ତୁ।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ବାତିଲ କରିବା ପାଇଁ \'ପଛକୁ ଫେରନ୍ତୁ\' ବଟନ୍ ଦବାନ୍ତୁ"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଉପରେ ଦେଖାନ୍ତୁ"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଉପରେ ଦେଖାଇବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"ଆପଣ ବ୍ୟବହାର କରୁଥିବା ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଉପରେ ଏକ ଆପ୍‌କୁ ରହିବାକୁ ଦିଅନ୍ତୁ। ସେହି ଆପ୍‌ଗୁଡ଼ିକର ବ୍ୟବହାରରେ ଏହା ବାଧା ସୃଷ୍ଟି କରିପାରେ କିମ୍ୱା ସେଗୂଡ଼ିକର କାମ କରିବା ଶୈଳୀକୁ ବଦଳାଇଦେଇପାରେ।"</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"ମିଡିଆ ମେନେଜମେଣ୍ଟ ଆପ୍ସ"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"ମିଡିଆକୁ ପରିଚାଳନା କରିବାକୁ ଆପକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"ଯଦି ଅନୁମତି ଦିଆଯାଏ, ତେବେ ଏହି ଆପ୍ ଆପଣଙ୍କୁ ନପଚାରି ଅନ୍ୟ ଆପଗୁଡ଼ିକ ସହ ତିଆରି କରାଯାଇଥିବା ମିଡିଆ ଫାଇଲଗୁଡ଼ିକୁ ପରିବର୍ତ୍ତନ କିମ୍ବା ଡିଲିଟ୍ କରିପାରିବ। ଫାଇଲ୍ ଏବଂ ମିଡିଆକୁ ଆକ୍ସେସ୍ କରିବା ପାଇଁ ଆପର ଅନୁମତି ରହିବା ଆବଶ୍ୟକ।"</string>
     <string name="write_system_settings" msgid="9023005036458214990">"ସିଷ୍ଟମ ସେଟିଂସ ଆକ୍ସେସ"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"ସିଷ୍ଟମ ସେଟିଂସ ଆକ୍ସେସ"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"ଏହି ଅନୁମତି ଗୋଟିଏ ଆପକୁ ସିଷ୍ଟମ ସେଟିଂସରେ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ଅନୁମତି ଦେଇଥାଏ।"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ଅଡିଓ ରେକର୍ଡିଂ ବିଫଳ ହୋଇଛି।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ଅନ୍ୟ ବ୍ଲୁଟୁଥ ଡିଭାଇସଗୁଡ଼ିକୁ ଦୃଶ୍ୟମାନ କରିବେ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ଏକ ଆପ ଆପଣଙ୍କ ଟିଭିକୁ <xliff:g id="TIMEOUT">%1$d</xliff:g> ସେକେଣ୍ଡ ପାଇଁ ଅନ୍ୟ ବ୍ଲୁଟୁଥ ଡିଭାଇସଗୁଡ଼ିକରେ ଦୃଶ୍ୟମାନ କରିବାକୁ ଚାହେଁ।"</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"କାର୍ଯ୍ୟଟି ଅନୁମୋଦିତ ନୁହେଁ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"ଭଲ୍ୟୁମ୍‌କୁ ବଦଳାଇହେବ ନାହିଁ"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"କଲ୍‌ କରିବାର ଅନୁମତି ନାହିଁ"</string>

@@ -119,6 +119,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
     private int mMaxScrollX;
     private final RootViewOnKeyListener mRootViewOnKeyListener = new RootViewOnKeyListener();
     private int mPrefPanelIdx;
+    private int mButtonState = 0;
     private HorizontalScrollView mScrollView;
     private final Handler mHandler = new Handler(Looper.getMainLooper());
     private boolean mIsNavigatingBack;
@@ -778,6 +779,13 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 }
             }
 
+            // If the back animation is playing, don't send UP/DOWN events. This prevents a race
+            // condition with preview fragment when moving back
+            if (mIsNavigatingBack && event.getAction() == KeyEvent.ACTION_DOWN
+               && (keyCode == KeyEvent.KEYCODE_DPAD_UP || keyCode == KeyEvent.KEYCODE_DPAD_DOWN)) {
+               return true;
+            }
+
             if (event.getAction() == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_BACK) {
                 if (event.getRepeatCount() > 0) {
                     // Ignore long press on back button.
@@ -928,6 +936,9 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         }, PANEL_ANIMATION_DELAY_MS);
 
         mHandler.postDelayed(() -> {
+            if (getHost() == null) {
+                return;
+            }
             removeFragment(mPrefPanelIdx + 2);
             mIsNavigatingBack = false;
             Fragment previewFragment =
@@ -995,8 +1006,13 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             }
             scrollToPanel.setOnDispatchTouchListener(null);
             previewPanel.setOnDispatchTouchListener((view, env) -> {
-                if (env.getActionMasked() == MotionEvent.ACTION_UP) {
-                    forward();
+                if (env.getActionMasked() == MotionEvent.ACTION_DOWN) {
+                    mButtonState = env.getButtonState();
+                } else if (env.getActionMasked() == MotionEvent.ACTION_UP) {
+                    if (mButtonState != MotionEvent.BUTTON_SECONDARY) {
+                        forward();
+                    }
+                    mButtonState = 0;
                 }
                 return true;
             });

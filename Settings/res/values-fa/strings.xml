@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"تنظیمات دستگاه"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"تنظیمات حساب"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"قفل دستگاه"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"دستیار صوتی"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"دستیار صوتی"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"پرداخت و خرید"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"تنظیمات برنامه"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"مکان، استفاده و عیب‌یابی، آگهی‌ها"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"برنامه‌های اخیراً بازشده"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"دیدن همه برنامه‌ها"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"اجازه‌ها"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"افزودن برنامه‌های بیشتر"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"همه برنامه‌ها"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"نمایش‌ برنامه‌های سیستم"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"کالیبراسیون"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"زمان‌سنج خاموش شدن"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"تنظیم زمان‌سنج برای خاموش کردن تلویزیون و صرفه‌جویی در مصرف انرژی"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"دستگاه‌ها"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"تنظیمات صدای فراگیر"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"صدای فراگیر"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> هرتز)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"اطلاعات در حافظه پنهان پاک شود؟"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"اطلاعات در حافظه پنهان همه برنامه‌ها پاک می‌شود."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"افزودن وسیله جانبی"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"درحال جفت کردن..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"در حال اتصال..."</string>
@@ -276,7 +272,7 @@
     <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"کنترل ازراه‌دور و لوازم جانبی"</string>
     <string name="bluetooth_toggle_title" msgid="3808904783456336104">"بلوتوث"</string>
     <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"خاموش کردن بلوتوث"</string>
-    <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="2129842434432539594">"وقتی بلوتوث خاموش است، نمی‌توانید ازطریق کنترل از دور به دستیار صوتی دسترسی پیدا کنید."</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="2129842434432539594">"وقتی بلوتوث خاموش است، نمی‌توانید ازطریق کنترل از راه دور به دستیار صوتی دسترسی پیدا کنید."</string>
     <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"مرتبط‌سازی وسیله جانبی"</string>
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"لوازم جانبی"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"کنترل ازراه‌دور"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"در حال اتصال به <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="320653339670641708">"در حال ذخیره پیکربندی برای <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"اتصال"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"فراموش کردن شبکه"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"فراموش کردن"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"‫<xliff:g id="SSID">%1$s</xliff:g> فراموش شود؟"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"این کار اطلاعات مورد استفاده برای اتصال به این شبکه، از جمله گذرواژه ذخیره شده را پاک می‌کند"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" با اسکن کردن رمزینه پاسخ‌سریع ازطریق تلفن همراه و دنبال کردن دستورالعمل‌ها، به Wi-Fi وصل شوید.\n \n در "<b>"تلفن Android"</b>" به «تنظیمات» -&gt; «شبکه» -&gt; «اینترنت» -&gt; ‏«Wi-Fi»‏ -&gt; «انتخاب Wi-Fi»‏ -&gt; «پیشرفته» -&gt; «افزودن دستگاه» بروید و سپس رمزینه پاسخ‌سریع را اسکن کنید."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"دکمه برگشت را برای لغو کردن فشار دهید"</string>
@@ -665,11 +662,11 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"دسترسی به دوربین مسدود شده است"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"برای لغو انسداد، کلید حریم خصوصی روی دستگاهتان را روی موقعیت روشن برای دوربین قرار دهید تا دسترسی به دوربین مجاز شود."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"دسترسی به میکروفون: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4435018638934578695">"وقتی روشن باشد، همه برنامه‌ها و سرویس‌هایی که مجازند از میکروفون استفاده کنند می‌توانند به آن دسترسی پیدا کنند.\n\nوقتی خاموش باشد، هیچ برنامه یا سرویسی نمی‌تواند به میکروفون دسترسی پیدا کند. اما همچنان می‌توانید با فشار دادن دکمه دستیار روی کنترل از دور با دستیار صوتی صحبت کنید.\n\nدستگاه‌های صوتی‌ای که برای برقراری ارتباط با تلویزیون از پروتکل‌های سفارشی استفاد می‌کنند ممکن است تحت‌تأثیر این تنظیم قرار نگیرند."</string>
+    <string name="mic_toggle_info_content" msgid="4435018638934578695">"وقتی روشن باشد، همه برنامه‌ها و سرویس‌هایی که مجازند از میکروفون استفاده کنند می‌توانند به آن دسترسی پیدا کنند.\n\nوقتی خاموش باشد، هیچ برنامه یا سرویسی نمی‌تواند به میکروفون دسترسی پیدا کند. اما همچنان می‌توانید با فشار دادن دکمه دستیار روی کنترل از راه دور با دستیار صوتی صحبت کنید.\n\nدستگاه‌های صوتی‌ای که برای برقراری ارتباط با تلویزیون از پروتکل‌های سفارشی استفاد می‌کنند ممکن است تحت‌تأثیر این تنظیم قرار نگیرند."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"میکروفون در کنترل ازراه‌دور فعال است"</string>
-    <string name="mic_remote_toggle_on_info_content" msgid="2349197575836972081">"دستیار صوتی می‌تواند به میکروفون در کنترل از دور دسترسی داشته باشد. با فشار دادن دکمه دستیار صوتی روی کنترل از دور می‌توانید با دستیار صحبت کنید."</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2349197575836972081">"دستیار صوتی می‌تواند به میکروفون در کنترل از راه دور دسترسی داشته باشد. با فشار دادن دکمه دستیار صوتی روی کنترل از راه دور می‌توانید با دستیار صحبت کنید."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"میکروفون در کنترل ازراه‌دور غیرفعال است"</string>
-    <string name="mic_remote_toggle_off_info_content" msgid="7102410903448065152">"نمی‌توانید بااستفاده از کنترل از دور با دستیار صوتی صحبت کنید. برای اینکه بتوانید از دکمه دستیار صوتی استفاده کنید، دسترسی به میکروفون را فعال کنید."</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="7102410903448065152">"نمی‌توانید بااستفاده از کنترل از راه دور با دستیار صوتی صحبت کنید. برای اینکه بتوانید از دکمه دستیار صوتی استفاده کنید، دسترسی به میکروفون را فعال کنید."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"دسترسی به دوربین: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"وقتی روشن باشد، همه برنامه‌ها و سرویس‌هایی که اجازه دارند می‌توانند به هر دوربینی در این دستگاه دسترسی داشته باشند.\n\nلوازم جانبی دوربینی که پروتکلی سفارشی دارند تحت‌تأثیر این تنظیم قرار نمی‌گیرند."</string>
     <string name="sensor_toggle_info_on" msgid="4013827154639541427">"روشن"</string>
@@ -707,7 +704,7 @@
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"نوشتار پررنگ"</string>
     <string name="bounce_key_title" msgid="8334672581038914983">"نوسان کلیدها"</string>
     <string name="bounce_key_description" msgid="8742025495500915588">"زمان موردنظر را انتخاب کنید"</string>
-    <string name="bounce_key_detailed" msgid="2422246064036507844">"کنترل از دور فشارهای تکراری کلید را نادیده می‌گیرد"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"کنترل از راه دور فشارهای تکراری کلید را نادیده می‌گیرد"</string>
     <string name="bounce_key_description_summary" msgid="6753146496890170215">"فشارهای تصادفی سریع و تکراری دکمه نادیده گرفته می‌شود. می‌توانید فاصله زمانی مدنظر را که درطول آن فشارها نادیده گرفته می‌شود تنظیم کنید"</string>
     <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"زمان: پیش‌فرض"</string>
     <string name="bounce_key_timing_default_description" msgid="145758684535868136">"پس‌از فشار اولیه، فشارهای تکراری تا سپری شدن فاصله زمانی پیش‌فرض نادیده گرفته می‌شود"</string>
@@ -1008,7 +1005,7 @@
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"برنامه دردسترس نیست"</string>
     <string name="unused_apps" msgid="5539166745483454543">"برنامه‌های استفاده‌نشده"</string>
     <string name="settings_ok" msgid="5950888975075541964">"تأیید"</string>
-    <string name="settings_confirm" msgid="4489126458677153411">"تأیید"</string>
+    <string name="settings_confirm" msgid="4489126458677153411">"تأیید کردن"</string>
     <string name="settings_cancel" msgid="576094334743686152">"لغو"</string>
     <string name="settings_on" msgid="7734010120323404333">"روشن"</string>
     <string name="settings_off" msgid="4060451657850476369">"خاموش"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"نمایش روی سایر برنامه‌ها"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"مجاز کردن نمایش روی سایر برنامه‌ها"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"به برنامه‌‌‌ اجازه می‌دهد روی سایر برنامه‌هایی که درحال استفاده شدن هستند نشان داده شود. ممکن است این قابلیت در استفاده شما از آن برنامه‌ها تداخل ایجاد کند یا طرز نمایش یا عملکرد آن‌ها را تغییر دهد."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"برنامه‌های مدیریت رسانه"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"مجاز کردن برنامه برای مدیریت رسانه"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"اگر مجاز باشد، این برنامه می‌تواند فایل‌های رسانه‌ای ایجادشده با برنامه‌های دیگر را بدون سؤال کردن از شما تغییر دهد یا حذف کند. برنامه برای دسترسی به فایل یا رسانه باید اجازه داشته باشد."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"دسترسی به تنظیمات سیستم"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"دسترسی به تنظیمات سیستم"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"این مجوز به برنامه امکان می‌دهد تنظیمات سیستم را تغییر دهد."</string>
@@ -1113,7 +1113,7 @@
     <string name="turn_screen_on_title" msgid="5293798529284629011">"روشن کردن صفحه‌نمایش"</string>
     <string name="allow_turn_screen_on" msgid="9071257620628205016">"روشن کردن صفحه‌نمایش"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"به برنامه اجازه می‌دهد صفحه‌نمایش را روشن کند. اگر اجازه داده شود، برنامه ممکن است بی‌آنکه شما مستقیماً خواسته باشید صفحه‌نمایش را روشن کند."</string>
-    <string name="special_access" msgid="21806055758289916">"دسترسی ویژه به برنامه"</string>
+    <string name="special_access" msgid="21806055758289916">"دسترسی ویژه برنامه"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>، <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"صدا"</string>
     <string name="record_audio" msgid="5035689290259575229">"ضبط صدا"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ضبط صدا انجام نشد."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"برای دستگاه‌های بلوتوث دیگر قابل‌مشاهده شود؟"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"برنامه‌ای می‌خواهد تلویزیون شما را برای دستگاه‌های بلوتوث دیگر به مدت <xliff:g id="TIMEOUT">%1$d</xliff:g> ثانیه قابل‌مشاهده کند."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"کنش مجاز نیست"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"نمی‌توان بلندی صدا را تغییر داد"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"برقراری تماس تلفنی مجاز نیست"</string>
@@ -1191,13 +1190,13 @@
     <string name="energy_mode_eco_hint" msgid="5280058011809503514">"ممکن است باتوجه‌به تعداد ویژگی‌های تلویزیون که فعال می‌کنید، مصرف برق افزایش یابد."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"فعال کردن «<xliff:g id="ENERGYMODENAME">%s</xliff:g>»"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از راه دور"</string>
-    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
-    <string name="find_my_remote_slice_description" msgid="313598681990933215">"دکمه‌ای روی Google TV قرار دارد که می‌توانید فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از دور پخش شود. این روش فقط در کنترل از دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از دور را فشار دهید."</string>
-    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"وقتی روشن باشد، بااستفاده از این دکمه در دستگاهتان می‌توانید صدایی پخش کنید و کنترل از دور را پیدا کنید. وقتی خاموش باشد، این دکمه کار نمی‌کند. همچنان می‌توانید با روش‌های دیگر از «پیدا کردن کنترل از راه دور» استفاده کنید."</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از راه دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"دکمه‌ای روی Google TV قرار دارد که می‌توانید فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از راه دور پخش شود. این روش فقط در کنترل از راه دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از راه دور را فشار دهید."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"وقتی روشن باشد، بااستفاده از این دکمه در دستگاهتان می‌توانید صدایی پخش کنید و کنترل از راه دور را پیدا کنید. وقتی خاموش باشد، این دکمه کار نمی‌کند. همچنان می‌توانید با روش‌های دیگر از «پیدا کردن کنترل از راه دور» استفاده کنید."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"پخش صدا"</string>
     <string name="settings_backlight_title" msgid="3427298593084740948">"حالت نور پس‌زمینه"</string>
-    <string name="settings_backlight_description" msgid="7017662329873546994">"روشنایی دکمه‌های کنترل از دور با هر فشردن."</string>
-    <string name="backlight_slice_description" msgid="6201435407391858605">"در کنترل‌های از دور پشتیبانی‌شده Google TV، با فشار دادن دکمه روی کنترل از دور روشنایی نور پس‌زمینه فعال می‌شود."</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"روشنایی دکمه‌های روی کنترل از راه دور با هر فشردن."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"در کنترل‌های از دور پشتیبانی‌شده Google TV، با فشار دادن دکمه روی کنترل از راه دور روشنایی نور پس‌زمینه فعال می‌شود."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"میزان صدای %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="4671089222833161493">"می‌توانید میزان صدای دستیار را در بلندگوی %1$s کنترل کنید"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"فقط بر میزان صدای دستگاه %1$s تأثیر می‌گذارد، نه بر تلویزیون"</string>

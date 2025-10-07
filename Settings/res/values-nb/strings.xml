@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Enhetsinnstillinger"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoinnstillinger"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Enhetslås"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Stemmeassistent"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Stemmeassistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling og kjøp"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appinnstillinger"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Posisjon, bruk og diagnostikk, annonser"</string>
@@ -93,7 +93,7 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Tillat at Googles posisjonstjeneste og andre apper skanner etter nettverk, selv når Wifi er slått av"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skanning er alltid tilgjengelig, Tillater at Googles posisjonstjeneste og andre apper skanner etter nettverk, selv når Wifi er slått av"</string>
     <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread-nettverk"</string>
-    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread-nettverk kobler sammen Thread-kompatible smarthjemenheter lokalt, noe som øker effektiviteten og ytelsen.\n\nNår denne enheten slås på, blir den med i Thread-nettverket ditt, eller et nytt nettverk opprettes hvis du ikke har et. Legitimasjonen lastes opp privat til nettskyen, slik at det blir lettere å konfigurere nye smarthjemenheter senere.\n\nNår enheten slås av, kan den ikke kommunisere med andre enheter på Thread-nettverket lenger. Bestemte smartjemenheter og -tjenester fungerer kanskje ikke som forventet.\n\nFinn ut mer på g.co/tv/thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread-nettverk kobler sammen Thread-kompatible smarthjemenheter lokalt, noe som øker effektiviteten og ytelsen.\n\nNår denne enheten slås på, blir den med i Thread-nettverket ditt, eller et nytt nettverk opprettes hvis du ikke har et. Legitimasjonen lastes opp privat til nettskyen, slik at det blir lettere å konfigurere nye smarthjemenheter senere.\n\nNår enheten slås av, kan den ikke kommunisere med andre enheter på Thread-nettverket lenger. Bestemte smarthjemenheter og -tjenester fungerer kanskje ikke som forventet.\n\nFinn ut mer på g.co/tv/thread"</string>
     <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Vil du slå av Thread-nettverket?"</string>
     <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Hvis nettverket slås av, fungerer bestemte smarthjemenheter og -tjenester kanskje ikke som forventet. Vil du fortsette?"</string>
     <string name="wifi_settings_thread_network_energy_title" msgid="3231849555524744927">"Bytt energimodus for å aktivere Thread"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Nylig åpnede apper"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Se alle appene"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Tillatelser"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Legg til flere apper"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Alle apper"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Vis systemapper"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrering"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Nedtelling for avslåing"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Angi nedtellinger for å slå av TV-en og spare strøm"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Enheter"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Innstillinger for surround-lyd"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Surround-lyd"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vil du slette bufrede data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Dette sletter bufrede data for alle apper."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Legg til tilbehør"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Kobler til ..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Kobler til …"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"Kobler til <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="320653339670641708">"Lagrer konfigurasjonen for <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Koble til"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Glem nettverket"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Glem"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"Vil du at enheten skal glemme <xliff:g id="SSID">%1$s</xliff:g>?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Dette sletter informasjonen som brukes til å koble til dette nettverket, inkludert lagrede passord"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Koble til et wifi-nettverk ved å skanne QR-koden fra en mobiltelefon og følge veiledningen.\n \n Fra en "<b>"Android-telefon"</b>" går du til Innstillinger -&gt; Nettverk og internett -&gt; Wifi -&gt; Velg et wifi-nettverk -&gt; Avansert -&gt; Legg til en enhet og skanner QR-koden."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Trykk på tilbakeknappen for å avbryte"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Vis over andre apper"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Kan vises over andre apper"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Tillat at en app vises over andre apper du bruker. Den kan virke forstyrrende for andre apper eller endre måten de vises eller fungerer på."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Apper for medieadministrering"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Tillat at appen administrerer medier"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Hvis du tillater det, kan denne appen endre eller slette mediefiler som opprettes med andre apper, uten å spørre deg. Appen må ha tilgang til filer og medier."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Tilgang til systeminnst."</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Tilgang til systeminnstillinger"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Med denne tillatelsen kan apper endre systeminnstillingene."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Lydopptaket mislyktes."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Vil du gjøre enheten synlig for andre Bluetooth-enheter?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"En app ber om å gjøre nettbrettet ditt synlig for andre Bluetooth-enheter i <xliff:g id="TIMEOUT">%1$d</xliff:g> sekunder."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Handlingen er ikke tillatt"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Kan ikke endre volumet"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Ringing er ikke tillatt"</string>

@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Ajustes del dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configuración de la cuenta"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Bloqueo del dispositivo"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Asistente de voz"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Asistente de voz"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pago y compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Ajustes de aplicaciones"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Ubicación, uso y diagnóstico, y anuncios"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Aplicaciones abiertas recientemente"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Ver todas las aplicaciones"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Permisos"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Añadir más aplicaciones"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Todas las aplicaciones"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Mostrar aplicaciones del sistema"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Calibración"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Temporizador de apagado"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Configura temporizadores para apagar la TV y ahorrar energía"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Dispositivos"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Ajustes de sonido envolvente"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Sonido envolvente"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"¿Borrar datos almacenados en caché?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Se borrarán datos en caché de las aplicaciones."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Añadir accesorio"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Emparejando…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Estableciendo conexión..."</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"Conectando a <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="320653339670641708">"Guardando configuración de <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Conectar"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Olvidar red"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Olvidar"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"¿Olvidar <xliff:g id="SSID">%1$s</xliff:g>?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Se borrará la información usada para conectarse a esta red (incluidas las contraseñas guardadas)."</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Únete a una red Wi-Fi escaneando el código QR con un teléfono móvil y siguiendo las instrucciones.\n \n Desde un "<b>"teléfono Android"</b>", ve a Ajustes -&gt; Redes e internet -&gt; Wi-Fi -&gt; Selecciona una red Wi-Fi -&gt; Avanzado -&gt; Añadir dispositivo y escanea el código QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Pulsa el botón para volver si quieres cancelar"</string>
@@ -718,7 +715,7 @@
     <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Tiempo: 2 segundos"</string>
     <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Ajusta el intervalo de tiempo a 2 segundos para que se ignoren las pulsaciones repetidas de teclas"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Corrección de color"</string>
-    <string name="color_correction_usage" msgid="4160611639548748657">"Usar Corrección de color"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"Usar corrección de color"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Modo de color"</string>
     <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"Deuteranomalía"</string>
     <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"Rojo-verde"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Mostrar sobre otras aplicaciones"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Mostrar sobre otras aplicaciones"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Permite que una aplicación se muestre sobre otras aplicaciones que estés utilizando. Esto puede interferir en el uso de esas aplicaciones o cambiar el modo en el que se muestran o se comportan."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"apps de gestión de multimedia"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Permitir que la aplicación gestione contenido multimedia"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Si se lo permites, esta app podrá modificar o eliminar archivos multimedia creados con otras apps sin pedírtelo explícitamente. La app debe tener permiso para acceder a archivos y contenido multimedia."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Acceso a la config. del sistema"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Acceso a la configuración del sistema"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Este permiso permite que una aplicación modifique los ajustes del sistema."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"No se ha podido grabar el audio."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"¿Ser visible para otros dispositivos Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Una aplicación quiere hacer visible tu televisión para otros dispositivos Bluetooth durante <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Acción no permitida"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"No se puede cambiar el volumen"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"No se permite llamar"</string>
@@ -1144,7 +1143,7 @@
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"El administrador puede supervisar y gestionar las aplicaciones y los datos asociados a tu perfil de trabajo, como los ajustes, los permisos, el acceso corporativo, la actividad de red y la información de ubicación del dispositivo."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"El administrador puede supervisar y gestionar las aplicaciones y los datos asociados a este usuario, como los ajustes, los permisos, el acceso corporativo, la actividad de red y la información de ubicación del dispositivo."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"El administrador puede supervisar y gestionar las aplicaciones y los datos asociados a este dispositivo, como los ajustes, los permisos, el acceso corporativo, la actividad de red y la información de ubicación del dispositivo."</string>
-    <string name="remove_managed_profile_label" msgid="8950011141359605612">"Quitar perfil de trabajo"</string>
+    <string name="remove_managed_profile_label" msgid="8950011141359605612">"Eliminar perfil de trabajo"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"Aplicación de administrador de dispositivos"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"Desactivar esta aplicación de administrador de dispositivos"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Desinstalar aplicación"</string>

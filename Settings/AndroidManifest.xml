@@ -415,6 +415,23 @@
         </activity>
 
         <activity
+            android:name=".device.apps.specialaccess.MediaManagementAppsActivity"
+            android:theme="@style/TvSettingsActivityTheme"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.settings.REQUEST_MANAGE_MEDIA"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.settings.REQUEST_MANAGE_MEDIA" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".device.apps.AppManagementActivity"
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
@@ -513,6 +530,16 @@
                 <category android:name="android.intent.category.LEANBACK_SETTINGS"/>
             </intent-filter>
         </activity-alias>
+
+        <activity
+            android:name=".supervision.SupervisionDashboardActivity"
+            android:exported="true"
+            android:featureFlag="android.app.supervision.flags.enable_supervision_settings_screen">
+            <intent-filter>
+                <action android:name="android.settings.SUPERVISION_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".system.CreateRestrictedProfileActivity"
@@ -746,6 +773,7 @@
 
         <activity
             android:name=".accessories.AddAccessoryActivity"
+            android:theme="@style/BluetoothAccessoryTheme"
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -754,7 +782,6 @@
             android:persistableMode="persistNever"
             android:showWhenLocked="true"
             android:taskAffinity=""
-            android:theme="@style/Theme.Settings.AccessoryPreference"
             android:turnScreenOn="true">
             <intent-filter android:priority="1">
                 <action android:name="com.google.android.intent.action.CONNECT_INPUT"/>
@@ -767,6 +794,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
+                <action android:name="android.bluetooth.action.CSIS_SET_MEMBER_AVAILABLE"/>
             </intent-filter>
         </receiver>
 
@@ -1430,6 +1458,17 @@
             android:theme="@style/TvSettingsDialog.FullScreen"
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true" />
+
+        <activity android:name=".connectivity.WifiDetailsFragment$ConfirmationDialogFragmentActivity"
+            android:theme="@style/TvSettingsDialog.FullScreen"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true" />
+
+        <activity android:name=".about.LegalFragment$ConfirmationDialogFragmentActivity"
+            android:theme="@style/TvSettingsDialog.FullScreen"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true" />
+
 
     </application>
 

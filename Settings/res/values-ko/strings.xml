@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"기기 설정"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"계정 설정"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"기기 잠금"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"음성 어시스턴트"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"음성 어시스턴트"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"결제 및 구매"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"앱 설정"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"위치, 사용 및 진단, 광고"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"최근에 사용한 앱"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"앱 모두 보기"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"권한"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"앱 추가"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"모든 앱"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"시스템 앱 보기"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"보정"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"전원 끄기 타이머"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"TV 전원을 끄는 타이머를 설정하여 에너지 절약"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"기기"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"서라운드 사운드 설정"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"서라운드 사운드"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g>(<xliff:g id="REFRESH_RATE">%2$s</xliff:g>Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"캐시된 데이터를 지우시겠습니까?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"모든 앱의 캐시된 데이터가 지워집니다."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"액세서리 추가"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"페어링 중..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"연결 중…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g>에 연결 중"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g>에 대한 설정 저장 중"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"연결"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"네트워크 저장 안함"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"삭제"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g>을(를) 삭제하시겠습니까?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"저장된 비밀번호를 비롯하여 이 네트워크에 연결하는 데 사용된 정보가 삭제됩니다."</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" 휴대전화에서 QR 코드를 스캔하여 Wi-Fi에 연결하고 안내에 따르세요.\n \n "<b>"Android 휴대전화"</b>"에서 설정 -&gt; 네트워크 및 인터넷 -&gt; Wi-Fi -&gt; Wi-Fi 선택 -&gt; 고급 -&gt; 기기 추가로 이동한 다음 QR 코드를 스캔하세요."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"취소하려면 뒤로 버튼을 누르세요."</string>
@@ -741,7 +738,7 @@
     <string name="keyboard_accessibility" msgid="7849649126112178029">"키보드 접근성"</string>
     <string name="accessibility_shortcut_off" msgid="8942290125694882338">"접근성 단축키: 사용 중지됨"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"단축키가 사용 설정되어 있다면 뒤로 버튼과 아래 버튼을 3초 동안 동시에 눌러 접근성 기능을 실행할 수 있습니다."</string>
-    <string name="accessibility_timeout" msgid="6238669374985731114">"조치를 취할 시간(접근성 기능 시간 제한)"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"행동을 취할 시간(접근성 기능 시간 제한)"</string>
     <string name="accessibility_timeout_summary" msgid="5365359228570110804">"조치가 필요한 메시지의 지속 시간 조정"</string>
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"사용자에게 조치를 취하도록 요청하는 메시지가 표시되는 시간을 선택합니다."</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"타이밍: 2~3초"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"다른 앱 위에 표시"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"다른 앱 위에 표시 허용"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"앱이 사용 중인 다른 앱 위에 표시되도록 허용합니다. 이로 인해 다른 앱 사용에 방해를 받거나 앱의 표시 또는 작동 방식이 변경될 수도 있습니다."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"미디어 관리 앱"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"앱이 미디어를 관리하도록 허용"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"허용하면 이 앱이 다른 앱에서 생성된 미디어 파일을 사용자의 동의 없이 수정하거나 삭제할 수 있습니다. 앱에 파일 및 미디어 액세스 권한을 부여해야 합니다."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"시스템 설정 액세스"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"시스템 설정 액세스"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"이 권한은 앱이 시스템 설정을 수정하도록 허용합니다."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"오디오를 녹음할 수 없습니다."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"다른 블루투스 기기에 표시하시겠습니까?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"앱에서 <xliff:g id="TIMEOUT">%1$d</xliff:g>초 동안 다른 블루투스 기기에 내 TV가 표시되도록 설정하려고 합니다."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"허용되지 않는 작업"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"볼륨을 변경할 수 없음"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"전화를 사용할 수 없음"</string>

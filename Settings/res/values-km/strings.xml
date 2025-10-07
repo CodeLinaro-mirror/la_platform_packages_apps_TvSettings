@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ការកំណត់​ឧបករណ៍"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ការ​កំណត់​គណនី"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ការចាក់សោ​ឧបករណ៍"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"ជំនួយការសំឡេង"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"ជំនួយសំឡេង"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ការបង់ប្រាក់ និង​ការទិញ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ការ​កំណត់​កម្មវិធី​"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ទីតាំង ការប្រើប្រាស់ និង​ការវិភាគ ការផ្សាយ​ពាណិជ្ជកម្ម"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"កម្មវិធីដែលទើបបើកថ្មីៗ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"មើលកម្មវិធីទាំងអស់"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"ការអនុញ្ញាត"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"បញ្ចូលកម្មវិធី​ច្រើនទៀត"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"កម្មវិធី​ទាំងអស់"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"បង្ហាញកម្មវិធីប្រព័ន្ធ"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"ការ​ក្រិត​តាម​ខ្នាត"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"កម្មវិធីកំណត់ម៉ោង​ដែលបិទ"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"កំណត់កម្មវិធីកំណត់ម៉ោង ដើម្បីបិទទូរទស្សន៍ និងសន្សំសំចៃថាមពល"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ឧបករណ៍"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"ការ​កំណត់សំឡេង​រងំ"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"សំឡេង​រងំ"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ជម្រះទិន្នន័យក្នុងឃ្លាំងសម្ងាត់?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"វានឹងជម្រះទិន្នន័យឃ្លាំងសម្រាប់កម្មវិធីទាំងអស់។"</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"បន្ថែម​គ្រឿង​បន្ទាប់​បន្សំ"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"កំពុង​ផ្គូផ្គង..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"កំពុង​ត​ភ្ជាប់​…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"តភ្ជាប់​ទៅ <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="320653339670641708">"​រក្សា​ទុក​ការ​កំណត់​រចនា​សម្ព័ន្ធ​សម្រាប់ <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"តភ្ជាប់"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"បំភ្លេច​បណ្ដាញ"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"បំភ្លេច"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"បំភ្លេច <xliff:g id="SSID">%1$s</xliff:g> ឬ?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"វា​សម្អាត​ព័ត៌មាន​ដែល​បាន​ប្រើ​ដើម្បី​ភ្ជាប់​បណ្ដាញ​នេះ រួមមាន​ពាក្យ​សម្ងាត់​បាន​រក្សាទុក"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ភ្ជាប់ Wi-Fi ដោយស្កេន​កូដ QR ពីទូរសព្ទចល័ត និងធ្វើតាម​ការណែនាំ។\n \n ពី"<b>"ទូរសព្ទ Android"</b>" សូមចូល​ទៅកាន់​ការកំណត់ -&gt; បណ្ដាញ និងអ៊ីនធឺណិត -&gt; Wi-Fi -&gt; ជ្រើសរើស Wi-Fi -&gt; កម្រិតខ្ពស់ -&gt; បញ្ចូល​ឧបករណ៍ រួចស្កេនកូដ QR។"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ចុចប៊ូតុង \"ថយក្រោយ\" ដើម្បីបោះបង់"</string>
@@ -831,7 +828,7 @@
     <string name="system_select_debug_app" msgid="6200987902307533721">"ជ្រើសរើស​កម្ម​វិធី​ជួសជុល"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"រង់ចាំ​កម្មវិធី​ជួសជុល"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"ផ្ទៀងផ្ទាត់​កម្មវិធី​តាម​ USB"</string>
-    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"ពិនិត្យ​កម្មវិធី​ដែល​បាន​ដំឡើង​តាមរយៈ ADB/ADT សម្រាប់​​ការ​ប្រព្រឹត្តិ​ដែល​​បង្ក​ឲ្យ​ខូច​​ខាត"</string>
+    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"ពិនិត្យ​កម្មវិធី​ដែល​ដំឡើង​តាម​រយៈ ADB/ADT ដើម្បីរកមើលឥរិយាបថ​​គ្រោះ​ថ្នាក់"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"ការ​ចុះ​កំណត់ហេតុ​រៀបរាប់​វ៉ាយហ្វាយ"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"បើក​ការ​ចុះ​កំណត់ហេតុ​រៀបរាប់​វ៉ាយហ្វាយ"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"បង្ហាញ​ការ​ប៉ះ"</string>
@@ -860,7 +857,7 @@
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"ការ​បង្ហាញ Flash នៅ​ក្នុង​វីនដូ​ ពេល​បាន​គូរ​ជា​មួយ GPU"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ស្រទាប់​ហាតវែរបញ្ចេញ​ពន្លឺ​បៃ​តង​​នៅ​ពេល​ធ្វើ​បច្ចុប្បន្នភាព"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"ពី​ប្រសើរ​ទៅ​អន់៖ ខៀវ, បៃតង, ក្រហម​ស្រាល, ក្រហម"</string>
-    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ផ្ទៃ​វីនដូទាំង​មូល​បញ្ចេញពន្លឺ​នៅពេល​ធ្វើ​បច្ចុប្បន្នភាព"</string>
+    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ធ្វើឱ្យផ្ទៃវិនដូទាំង​មូលលោតភ្លើងភ្លឹបភ្លែតនៅពេល​ពួកគេធ្វើ​បច្ចុប្បន្នភាព"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"​អេក្រង់​​បញ្ចេញ​ពន្លឺ នៅ​ពេល​កម្មវិធី​ធ្វើ​ប្រតិបត្តិការ​យូរ​លើ​ការ​ឆ្លើយឆ្លង​សំខាន់ៗ"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"វាស់វែង​ពេលវេលា​ធ្វើ​ឲ្យ​សម​នៅ​ក្នុង adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"ប្រភពដែលមិនស្គាល់"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"បង្ហាញ​នៅលើ​កម្មវិធី​ផ្សេងៗ"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"អនុញ្ញាតឱ្យ​បង្ហាញ​នៅលើ​កម្មវិធី​ផ្សេងៗ"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"អនុញ្ញាត​ឱ្យ​កម្មវិធី​បង្ហាញ​នៅលើ​កម្មវិធី​ផ្សេងៗ ​ដែល​អ្នក​កំពុង​ប្រើ​ប្រាស់។ វា​អាចធ្វើឱ្យមានការ​រំខាន​ដល់ការប្រើប្រាស់​កម្មវិធី​ទាំង​នោះ ឬ​ផ្លាស់ប្តូរ​របៀប​ដែលវា​បង្ហាញ ឬ​ដំណើរការ។"</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"កម្មវិធី​គ្រប់គ្រងមេឌៀ"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"អនុញ្ញាតឱ្យ​កម្មវិធី​គ្រប់គ្រង​មេឌៀ"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"ប្រសិនបើ​អនុញ្ញាត កម្មវិធីនេះ​អាចកែប្រែ ឬលុបឯកសារ​មេឌៀ​ដែលបង្កើត​ដោយប្រើ​កម្មវិធីផ្សេងទៀត​ដោយមិនបាច់​សួរអ្នក។ កម្មវិធីត្រូវតែ​មានការអនុញ្ញាត ដើម្បីចូលប្រើឯកសារ និងមេឌៀ។"</string>
     <string name="write_system_settings" msgid="9023005036458214990">"សិទ្ធិចូលប្រើការកំណត់ប្រព័ន្ធ"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"សិទ្ធិចូលប្រើការកំណត់ប្រព័ន្ធ"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"ការ​អនុញ្ញាត​នេះ​អនុញ្ញាត​ឱ្យ​កម្មវិធី​អាច​កែសម្រួល​ការ​កំណត់​ប្រព័ន្ធ​បាន។"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ការថតសំឡេង​មិនបាន​សម្រេចទេ។"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ធ្វើឱ្យឧបករណ៍ប៊្លូធូសផ្សេងទៀតអាចមើលឃើញឬ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"កម្មវិធីចង់ធ្វើឱ្យឧបករណ៍​ប៊្លូធូសផ្សេងទៀតអាចមើលឃើញទូរទស្សន៍របស់អ្នករយៈពេល <xliff:g id="TIMEOUT">%1$d</xliff:g> វិនាទី។"</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"សកម្មភាពមិនអនុញ្ញាត"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"មិនអាចផ្លាស់ប្ដូរកម្រិតសំឡេងបានទេ"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"មិន​អនុញ្ញាតឲ្យហៅទូរសព្ទទេ"</string>

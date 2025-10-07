@@ -37,10 +37,12 @@ import android.view.WindowManager;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.tv.settings.R;
+import com.android.tv.settings.overlay.FlavorUtils;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -220,7 +222,11 @@ public class AddAccessoryActivity extends FragmentActivity
         // instead of setting the label for this Activity in the AndroidManifest.xml.
         setTitle(getInitialAccessibilityAnnouncement());
 
-        setContentView(R.layout.lb_dialog_fragment);
+        if (FlavorUtils.isTwoPanel(this)) {
+            setContentView(R.layout.add_accessory_dialog_fragment);
+        } else {
+            setContentView(R.layout.lb_dialog_fragment);
+        }
 
         mMsgHandler.setActivity(this);
 
@@ -413,8 +419,13 @@ public class AddAccessoryActivity extends FragmentActivity
             return;
         }
 
-        int prevNumDevices = mPreferenceFragment.getPreferenceScreen().getPreferenceCount();
+        PreferenceScreen screen = mPreferenceFragment.getPreferenceScreen();
+        if (screen == null) {
+            Log.w(TAG, "PreferenceScreen is null, skipping updateView");
+            return;
+        }
 
+        int prevNumDevices = screen.getPreferenceCount();
 
         mPreferenceFragment.updateList(mPreferenceFragment.getPreferenceScreen(),
                 mBluetoothDevices, mCurrentTargetAddress, mCurrentTargetStatus, mCancelledAddress);
@@ -451,13 +462,28 @@ public class AddAccessoryActivity extends FragmentActivity
 
         final View contentView = findViewById(R.id.content_fragment);
         final ViewGroup.LayoutParams contentLayoutParams = contentView.getLayoutParams();
-        contentLayoutParams.width = empty ? ViewGroup.LayoutParams.MATCH_PARENT :
-                getResources().getDimensionPixelSize(R.dimen.lb_content_section_width);
+        int contentSectionWidth = FlavorUtils.isTwoPanel(this)
+            ? getResources()
+                .getDimensionPixelSize(R.dimen.add_accessory_content_section_width_two_panel_narrow)
+                : getResources().getDimensionPixelSize(R.dimen.lb_content_section_width);
+        contentLayoutParams.width =
+            empty ? ViewGroup.LayoutParams.MATCH_PARENT : contentSectionWidth;
+
         contentView.setLayoutParams(contentLayoutParams);
 
+        int nonEmptycontentFragmentWidth = FlavorUtils.isTwoPanel(this)
+            ? getResources().getDimensionPixelSize(
+                R.dimen.add_accessory_content_section_width_two_panel_narrow)
+            : getResources().getDimensionPixelSize(R.dimen.bt_progress_width_narrow);
+
+        int emptyContentFragmentWidth = FlavorUtils.isTwoPanel(this)
+            ? getResources().getDimensionPixelSize(
+                R.dimen.add_accessory_content_section_width_two_panel_full)
+            : getResources().getDimensionPixelSize(R.dimen.progress_fragment_content_width);
+
         mContentFragment.setContentWidth(empty
-                ? getResources().getDimensionPixelSize(R.dimen.progress_fragment_content_width)
-                : getResources().getDimensionPixelSize(R.dimen.bt_progress_width_narrow));
+                ? emptyContentFragmentWidth
+                : nonEmptycontentFragmentWidth);
     }
 
     private void setPairingText(CharSequence text) {

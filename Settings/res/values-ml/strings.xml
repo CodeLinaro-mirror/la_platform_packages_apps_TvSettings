@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ഉപകരണ ക്രമീകരണം"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"അക്കൗണ്ട് ക്രമീകരണം"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ഉപകരണ ലോക്ക്"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"വോയ്സ് അസിസ്റ്റന്റ്"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"വോയിസ് അസിസ്റ്റന്റ്"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"പേയ്മെന്റും വാങ്ങലുകളും"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ആപ്പ് ക്രമീകരണം"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ലൊക്കേഷൻ, ഉപയോഗം, പ്രശ്‌നനിർണ്ണയം, പരസ്യങ്ങൾ എന്നിവ"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"ഈയടുത്ത് തുറന്ന ആപ്പുകൾ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"എല്ലാ ആപ്പുകളും കാണുക"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"അനുമതികൾ"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"കൂടുതൽ ആപ്പുകൾ ചേർക്കൂ"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"എല്ലാ ആപ്പുകളും"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"സിസ്റ്റം ആപ്പുകൾ കാണിക്കുക"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"കാലിബ്രേഷൻ"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"ഷട്ട്-ഓഫ് ടൈമർ"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"ടിവി ഓഫാക്കാനും എനർജി ലാഭിക്കാനും ടൈമറുകൾ സജ്ജീകരിക്കുക"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ഉപകരണങ്ങൾ"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"സറൗണ്ട് സൗണ്ട് ക്രമീകരണം"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"സറൗണ്ട് ശബ്‌ദം"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"കാഷെ ചെയ്‌ത ഡാറ്റ മായ്‌ക്കണോ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ഇത് എല്ലാ അപ്ലിക്കേഷനുകൾക്കുമായി കാഷെ ചെയ്ത ഡാറ്റ മായ്‌ക്കും."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"ചേർക്കൂ"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"ജോടിയാക്കുന്നു…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"കണക്‌റ്റുചെയ്യുന്നു..."</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> എന്നതിലേക്ക് കണക്‌റ്റുചെയ്യുന്നു"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> എന്നതിനായുള്ള കോൺഫിഗറേഷൻ സംരക്ഷിക്കുന്നു"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"കണക്റ്റുചെയ്യുക"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"നെറ്റ്‌വർക്ക് മറക്കുക"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"മറക്കുക"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g> മറക്കണോ?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"സംരക്ഷിച്ച ഒരു പാസ്‌വേഡ് ഉൾപ്പടെ, ഈ നെറ്റ്‌വർക്കിലേക്ക് കണക്‌റ്റുചെയ്യാൻ ഉപയോഗിച്ച വിവരങ്ങളെ ഇത് മായ്ക്കുന്നു"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" നിങ്ങളുടെ മൊബൈലിൽ QR കോഡ് സ്‌കാൻ ചെയ്‌ത ശേഷം നിർദ്ദേശങ്ങൾ പിന്തുടർന്ന് വൈഫൈയിൽ ചേരുക.\n \n ഒരു "<b>"Android ഫോണിൽ നിന്ന്"</b>" ക്രമീകരണം -&gt; നെറ്റ്‌വർക്കും ഇന്റർനെറ്റും -&gt; വൈഫൈ -&gt; വൈഫൈ തിരഞ്ഞെടുക്കുക -&gt; വിപുലമായത് -&gt; ഉപകരണം ചേർത്ത ശേഷം QR കോഡ് സ്‌കാൻ ചെയ്യുക എന്നതിലേക്ക് പോകുക."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"റദ്ദാക്കാൻ, മടങ്ങുക ബട്ടൺ അമർത്തുക"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"മറ്റ് ആപ്പുകൾക്ക് മുകളിൽ പ്രദർശിപ്പിക്കുക"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"മറ്റ് ആപ്പുകൾക്ക് മുകളിൽ പ്രദർശിപ്പിക്കാൻ അനുവദിക്കുക"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"നിങ്ങൾ ഉപയോഗിക്കുന്ന മറ്റ് ആപ്പുകൾക്ക് മുകളിൽ ഒരു ആപ്പിനെ ദൃശ്യമാക്കാൻ അനുവദിക്കുക. ആ ആപ്പുകളുടെ ഉപയോഗത്തെ ഇത് തടസ്സപ്പെടുത്തുകയോ അവ കാണപ്പെടുന്ന അല്ലെങ്കിൽ പെരുമാറുന്ന രീതിയെ മാറ്റുകയോ ചെയ്തേക്കാം."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"മീഡിയ മാനേജ്‌മെന്റ് ആപ്പുകൾ"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"മീഡിയ മാനേജ് ചെയ്യാൻ ആപ്പിനെ അനുവദിക്കുക"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"അനുവദിച്ചാൽ, നിങ്ങളോട് ചോദിക്കാതെ മറ്റ് ആപ്പുകൾ ഉപയോഗിച്ച് സൃഷ്‌ടിച്ച മീഡിയ ഫയലുകൾ പരിഷ്‌ക്കരിക്കാനോ ഇല്ലാതാക്കാനോ ഈ ആപ്പിന് കഴിയും. ഫയലുകളും മീഡിയയും ആക്‌സസ് ചെയ്യാൻ ആപ്പിന് അനുമതി ഉണ്ടായിരിക്കണം."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"സിസ്റ്റം ക്രമീകരണ ആക്സസ്"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"സിസ്റ്റം ക്രമീകരണ ആക്സസ്"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"ഈ അനുമതി, സിസ്റ്റം ക്രമീകരണം പരിഷ്‌ക്കരിക്കാൻ ആപ്പിനെ അനുവദിക്കുന്നു."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ഓഡിയോ റെക്കോർഡിംഗ് ചെയ്യാനായില്ല."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"മറ്റ് Bluetooth ഉപകരണങ്ങൾക്ക് ദൃശ്യമാക്കണോ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ഒരു ആപ്പ് <xliff:g id="TIMEOUT">%1$d</xliff:g> സെക്കൻഡ് സമയത്തേക്ക് നിങ്ങളുടെ ടിവി മറ്റ് Bluetooth ഉപകരണങ്ങൾക്ക് ദൃശ്യമാക്കാൻ താൽപ്പര്യപ്പെടുന്നു."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"പ്രവർത്തനം അനുവദനീയമല്ല"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"വോളിയം മാറ്റാനാകില്ല"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"കോൾ ചെയ്യുന്നത് അനുവദനീയമല്ല"</string>

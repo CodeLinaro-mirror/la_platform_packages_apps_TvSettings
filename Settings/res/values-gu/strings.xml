@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ડિવાઇસના સેટિંગ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"એકાઉન્ટ સેટિંગ"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ડિવાઇસ લૉક"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"વૉઇસ આસિસ્ટંટ"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"વૉઇસ આસિસ્ટંટ"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ચુકવણી અને ખરીદીઓ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ઍપના સેટિંગ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"સ્થાન, વપરાશ અને નિદાન, જાહેરાતો"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"તાજેતરમાં ખોલેલી ઍપ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"બધી ઍપ જુઓ"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"પરવાનગીઓ"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"વધુ ઍપ ઉમેરો"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"બધી ઍપ"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"સિસ્ટમ ઍપ બતાવો"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"કેલિબ્રેશન"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"બંધ કરવા માટેનું ટાઇમર"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"ટીવી બંધ કરવા અને ઊર્જા બચાવવા માટે ટાઇમર સેટ કરો"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ડિવાઇસ"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"સરાઉન્ડ સાઉન્ડ સેટિંગ"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"સરાઉન્ડ સાઉન્ડ"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"કૅશ કરેલ ડેટા સાફ કરીએ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"આ તમામ ઍપ્લિકેશનોનો કેશ્ડ ડેટા સાફ કરશે."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"ઍક્સેસરી ઉમેરો"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"જોડી કરી રહ્યું છે…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"કનેક્ટ થઈ રહ્યું છે…"</string>
@@ -440,7 +436,7 @@
     <item msgid="6005053494500517261">"ઉત્તમ"</item>
   </string-array>
     <string name="title_mac_address" msgid="7511588678922209883">"ડિવાઇસનું MAC ઍડ્રેસ"</string>
-    <string name="title_randomized_mac_address" msgid="3359532498635833471">"રેન્ડમ કરેલું MAC ઍડ્રેસ"</string>
+    <string name="title_randomized_mac_address" msgid="3359532498635833471">"કોઈપણ ક્રમમાં ગોઠવણ કરેલું MAC ઍડ્રેસ"</string>
     <string name="title_signal_strength" msgid="5047116893338315998">"સિગ્નલ પ્રબળતા"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"પ્રાઇવસી"</string>
   <string-array name="random_mac_settings_entries">
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> થી કનેક્ટ કરી રહ્યું છે"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> માટે કન્ફિગરેશન સાચવી રહ્યાં છીએ"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"કનેક્ટ કરો"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"નેટવર્કને ભૂલી જાઓ"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"ભૂલી જાઓ"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g> ભૂલી ગયા?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"આ સાચવેલ પાસવર્ડ સહિત આ નેટવર્કથી કનેક્ટ કરવા માટે ઉપયોગમાં લેવાયેલ માહિતીને સાફ કરી દે છે"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" મોબાઇલ ફોનથી QR કોડ સ્કૅન કરીને વાઇ-ફાઇથી જોડાઓ અને સૂચના ફૉલો કરો.\n \n "<b>"Android ફોન"</b>"માં સેટિંગ -&gt; નેટવર્ક અને ઇન્ટરનેટ -&gt; વાઇ-ફાઇ -&gt; વાઇ-ફાઇ નેટવર્ક -&gt; પસંદ કરો, વિગતવાર -&gt; ડિવાઇસ ઉમેરો અને પછી QR કોડ સ્કૅન કરો."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"રદ કરવા માટે, \'પાછળ\' જવા માટેનું બટન દબાવો"</string>
@@ -858,7 +855,7 @@
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"ડીબગ કરેલ ઍપ્લિકેશનો ક્રિયાન્વિત થતા પહેલાં ડીબગર જોડાઈ તેની રાહ જુએ છે"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"ક્લિપ બાઉન્ડ, હાંસિયાં વગેરે બતાવો"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPU સાથે દોરાઈ ત્યારે વિંડોઝની અંદરના દૃશ્યોને પ્રકાશિત કરો"</string>
-    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"હાર્ડવેર સ્તરો અપડેટ થાય ત્યારે તેને લીલા રંગથી પ્રકાશિત કરો"</string>
+    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"હાર્ડવેર સ્તરો અપડેટ થાય ત્યારે તેને લીલા રંગથી ફ્લૅશ કરો"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"શ્રેષ્ઠથી અત્યંત ખરાબ: વાદળી રંગ, લીલા રંગ, આછા લાલ રંગ, લાલ રંગ"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"જ્યારે તે અપડેટ થાય ત્યારે સમગ્ર વિંડો સપાટીને ફ્લેશ કરો"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"જ્યારે મુખ્ય થ્રેડ પર ઍપ્લિકેશનો લાંબી કામગીરીઓ કરે ત્યારે સ્ક્રીનને ફ્લેશ કરો"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"અન્ય ઍપની ઉપર ડિસ્પ્લે કરો"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"અન્ય ઍપની ઉપર ડિસ્પ્લે થવાની મંજૂરી આપો"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"આ ઍપને તમે ઉપયોગ કરી રહ્યાં હોય તેવી અન્ય ઍપમાં સૌથી ઉપર ડિસ્પ્લે થવાની મંજૂરી આપો. કદાચ તે તમારા અન્ય ઍપના ઉપયોગમાં દખલ કરી શકે છે અથવા તેમના દેખાવામાં કે કામ કરવામાં ફેરફાર કરી શકે છે."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"મીડિયા મેનેજમેન્ટ ઍપ"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"ઍપને મીડિયા મેનેજ કરવાની મંજૂરી આપો"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"જો મંજૂરી આપવામાં આવે, તો આ ઍપ તમને પૂછ્યા વિના અન્ય ઍપ વડે બનાવેલી મીડિયા ફાઇલોમાં ફેરફાર કરી અથવા તેને ડિલીટ કરી શકે છે. ઍપને ફાઇલો અને મીડિયાને ઍક્સેસ કરવાની પરવાનગી હોવી જરૂરી છે."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"સિસ્ટમના સેટિંગનો ઍક્સેસ"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"સિસ્ટમના સેટિંગનો ઍક્સેસ"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"આ પરવાનગી એક ઍપને સિસ્ટમ સેટિંગમાં ફેરફાર કરવાની મંજૂરી આપે છે."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ઑડિયો રેકોર્ડ કરવાનું નિષ્ફળ રહ્યું."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"શું અન્ય બ્લૂટૂથ ડિવાઇસને બતાવીએ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"કોઈ ઍપ તમારા ટીવીને <xliff:g id="TIMEOUT">%1$d</xliff:g> સેકન્ડ માટે અન્ય બ્લૂટૂથ ડિવાઇસ પર બતાવવા માગે છે."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"ક્રિયાને મંજૂરી નથી"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"વૉલ્યૂમ બદલી શકાતું નથી"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"કૉલ કરવાની મંજૂરી નથી"</string>

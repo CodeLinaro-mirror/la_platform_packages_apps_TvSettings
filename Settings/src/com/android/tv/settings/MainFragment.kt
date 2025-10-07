@@ -45,6 +45,7 @@ import androidx.preference.PreferenceCategory
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.suggestions.SuggestionControllerMixinCompat
 import com.android.tv.settings.HotwordSwitchController.HotwordStateListener
+import com.android.tv.settings.accessories.AccessoryUtils
 import com.android.tv.settings.accounts.AccountsFragment
 import com.android.tv.settings.accounts.AccountsUtil
 import com.android.tv.settings.connectivity.ActiveNetworkProvider
@@ -137,6 +138,7 @@ open class MainFragment : PreferenceControllerFragment(),
             )
         }
         mBtAdapter = BluetoothAdapter.getDefaultAdapter()
+        AccessoryUtils.getLocalBluetoothManager(requireActivity().getApplicationContext());
         super.onCreate(savedInstanceState)
         // This is to record the initial start of Settings root in two panel settings case, as the
         // MainFragment is the left-most pane and will not be slided in from preview pane. For
@@ -692,12 +694,10 @@ open class MainFragment : PreferenceControllerFragment(),
         if ((preference.key == KEY_ACCOUNTS_AND_SIGN_IN && !mHasAccounts
                     && !AccountsUtil.isAdminRestricted(context))
             || (preference.key == KEY_ACCESSORIES && !mHasBtAccessories)
-            || (preference.key == KEY_DISPLAY_AND_SOUND
-                    && preference.intent != null)
-            || (preference.key == KEY_CHANNELS_AND_INPUTS
-                    && preference.intent != null)
+            || preference.key == KEY_DISPLAY_AND_SOUND
+            || preference.key == KEY_CHANNELS_AND_INPUTS
         ) {
-            context!!.startActivity(preference.intent)
+            preference.intent ?.let { requireContext().startActivity(it) }
             return true
         } else if (preference.key == KEY_BASIC_MODE_EXIT
             && FlavorUtils.getFeatureFactory(context)

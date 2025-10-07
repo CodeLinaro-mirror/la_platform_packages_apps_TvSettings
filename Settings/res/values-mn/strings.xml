@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Төхөөрөмжийн тохиргоо"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Бүртгэлийн тохиргоо"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Төхөөрөмжийн түгжээ"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Дуут туслах"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Дуут туслах"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Төлбөр болон худалдан авалт"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Аппын тохиргоо"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Байршил, Ашиглалт болон оношилгоо, Зар"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Саяхан нээсэн апп"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Бүх аппыг харах"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Зөвшөөрөл"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Бусад апп нэмэх"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Бүх апп"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Системийн аппыг харуулах"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Тааруулалт"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Цаг хэмжигчийг унтраах"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"ТВ-ийг унтраах болон эрчим хүч хэмнэхийн тулд цаг хэмжигч тохируулна уу"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Төхөөрөмжүүд"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Орчин тойрны дууны тохиргоо"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Орчин тойрны дуу"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кеш хийгдсэн өгөгдлийг арилгах уу?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бүх програмд зориулан кеш хийгдсэн өгөгдлийг арилгах болно."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Аксесуар нэмэх"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Хослуулж байна…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Холбогдож байна..."</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> руу холбож байна"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g>-н тохируулгыг хадгалж байна"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Холбох"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Сүлжээг мартах"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Мартах"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g>-г мартах уу?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Ингэснээр тус сүлжээнд холбогдоход шаардагддаг хадгалагдсан нууц үг гэх мэт мэдээллийг арилгах болно"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Мобайл утаснаас QR кодыг скан хийснээр Wi-Fi-д нэгдэж, зааварчилгааг дагана уу.\n \n "<b>"Android утаснаасаа"</b>" Тохиргоо -&gt; Сүлжээ &amp; Интернэт -&gt; Wi-Fi -&gt; Wi-Fi сонгох -&gt; Дэвшилтэт -&gt; Төхөөрөмж нэмэх рүү очоод, дараа нь QR кодыг скан хийнэ үү."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Цуцлахын тулд буцах товчлуурыг дарна уу"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Бусад апп дээр харуулах"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Бусад апп дээр харуулахыг зөвшөөрөх"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Энэ аппыг ашиглаж буй бусад апп дээр харуулахыг зөвшөөрнө үү. Энэ нь таны эдгээр аппын ашиглалт эсвэл тэдгээрийн харагдац, ажиллагаанд өөрчлөлт оруулж болзошгүй."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Медиа удирдлагын аппууд"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Медиаг удирдахын тулд аппыг зөвшөөрөх"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Зөвшөөрсөн тохиолдолд энэ апп бусад апптай хамт үүсгэсэн медиа файлыг танаас асуухгүйгээр өөрчлөх эсвэл устгах боломжтой. Aпп нь файл болон медиад хандах зөвшөөрөлтэй байх ёстой."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Системийн тохиргоог бичих эрх"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Системийн тохиргоог бичих эрх"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Энэ зөвшөөрөл нь аппад системийн тохиргоог өөрчлөхийг зөвшөөрдөг."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Аудио бичлэг хийх амжилтгүй боллоо."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Бусад Bluetooth төхөөрөмжид харагддаг болгох уу?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Апп нь таны ТВ-г бусад Bluetooth төхөөрөмжид <xliff:g id="TIMEOUT">%1$d</xliff:g> секундийн турш харуулахыг хүсэж байна."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Үйлдлийг зөвшөөрөөгүй"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Дууны түвшнийг өөрчлөх боломжгүй"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Дуудлага хийх боломжгүй"</string>

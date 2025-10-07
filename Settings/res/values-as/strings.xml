@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ডিভাইচৰ ছেটিং"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"একাউণ্টৰ ছেটিংসমূহ"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ডিভাইচৰ লক"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"ভইচ এছিষ্টেণ্ট"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"ভইচ এছিষ্টেণ্ট"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"পৰিশোধ আৰু ক্ৰয়সমূহ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"এপৰ ছেটিংসমূহ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"অৱস্থান, ব্যৱহাৰ আৰু ডায়েগন’ষ্টিক্স, বিজ্ঞাপন"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"অলপতে খোলা এপ্‌সমূহ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"সকলো এপ্ চাওক"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"অনুমতিসমূহ"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"অধিক এপ্‌ যোগ দিয়ক"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"সকলো এপ্"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"ছিষ্টেম এপ্‌সমূহ দেখুৱাওক"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"ক্ৰমাংকণ"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"অফ হোৱাৰ টাইমাৰ"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"টিভি অফ কৰিবলৈ আৰু শক্তি ৰাহি কৰিবলৈ টাইমাৰ ছেট কৰক"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ডিভাইচ"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"ছাৰাউণ্ড ছাউণ্ডৰ ছেটিং"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"ছাৰাউণ্ড ছাউণ্ড"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> হাৰ্টজ)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"কেশ্ব কৰা ডেটা মচিবনে?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"এই কাৰ্যই সকলো এপৰ কেশ্ব ডেটা পৰিষ্কাৰ কৰিব।"</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"সহায়ক সামগ্ৰী যোগ কৰক"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"যোৰা লগোৱা হৈ আছে…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"সংযোগ কৰি থকা হৈছে…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g>ৰ সৈতে সংযোগ কৰি থকা হৈছে"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g>ৰ বাবে কনফিগাৰেশ্বন ছেভ কৰি থকা হৈছে"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"সংযোগ কৰক"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"নেটৱৰ্কটো পাহৰি যাওক"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"পাহৰি যাওক"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g>ক পাহৰিব বিচাৰেনে?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"এই কাৰ্যই ছেভ কৰি ৰখা পাছৱৰ্ডকে ধৰি এই নেটৱৰ্কৰ সৈতে সংযোগ কৰিবলৈ ব্যৱহাৰ হোৱা সকলো তথ্য মচি পেলাব"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" এটা ম\'বাইল ফ\'নৰ পৰা কিউআৰ ক\'ডটো স্কেন কৰি এটা ৱাই-ফাইত যোগদান কৰক আৰু নিৰ্দেশনাৱলী অনুসৰণ কৰক।\n \n এটা "<b>"Android ফ\'ন"</b>"ৰ পৰা ছেটিং -&gt; নেটৱর্ক আৰু ইণ্টাৰনেট -&gt; ৱাই-ফাই -&gt; এটা ৱাই-ফাই বাছনি কৰক -&gt; উচ্চখাপৰ -&gt; ডিভাইচ যোগ দি কিউআৰ ক\'ডটো স্কেন কৰক।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"বাতিল কৰিবলৈ উভতি যাওক বুটামটো টিপক"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"অন্য এপৰ ওপৰত দেখুৱায়"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"অন্য এপৰ ওপৰত দেখুৱাবলৈ অনুমতি দিয়ক"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"আপুনি ব্যৱহাৰ কৰি থকা অইন এপৰ ওপৰত দেখুৱাবলৈ এই এপ্‌টোক অনুমতি দিয়ক। ই আপুনি ব্যৱহাৰ কৰি থকা এপ্‌সমূহ চলাত ব্যাঘাত জন্মাব পাৰে বা সেইবিলাকে স্ক্ৰীনত কেনেধৰণে দেখা দিয়ে বা আচৰণ কৰে তাক সলনি কৰিব পাৰে।"</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"মিডিয়া পৰিচালনা কৰা এপ্‌"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"এপ্‌টোক মিডিয়া পৰিচালনা কৰিবলৈ অনুমতি দিয়ক"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"অনুমতি দিলে, এই এপ্‌টোৱে আপোনাক নোসোধাকৈয়ে অন্য এপৰ জৰিয়তে সৃষ্টি কৰা মিডিয়া ফাইল সংশোধন কৰিব অথবা মচিব পাৰে। ফাইল আৰু মিডিয়া এক্সেছ কৰিবলৈ এপৰ ওচৰত অনুমতি থাকিবই লাগিব।"</string>
     <string name="write_system_settings" msgid="9023005036458214990">"ছিষ্টেমৰ ছেটিঙৰ এক্সেছ"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"ছিষ্টেমৰ ছেটিঙৰ এক্সেছ"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"এই অনুমতিয়ে কোনো এপক ছিষ্টেম ছেটিংসমূহ সলনি কৰিবলৈ সুবিধা দিব।"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"অডিঅ\' ৰেকৰ্ড কৰাত বিফল হ\'ল।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"অন্য ব্লুটুথ ডিভাইচে দেখা পোৱা কৰিবনে?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"এটা এপে আপোনাৰ টিভিটো <xliff:g id="TIMEOUT">%1$d</xliff:g> ছেকেণ্ডৰ বাবে অন্য ব্লুটুথ ডিভাইচে দেখা পোৱা কৰিব বিচাৰিছে।"</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"এই কাম বৈধ নহয়"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"ভলিউম সলনি কৰিব নোৱাৰি"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"কল কৰাৰ অনুমতি নাই"</string>

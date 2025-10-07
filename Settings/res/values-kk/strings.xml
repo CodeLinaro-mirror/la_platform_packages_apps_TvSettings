@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Құрылғы параметрлері"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Аккаунт параметрлері"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Құрылғыны құлыптау"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Дауыстық көмекші"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Дауыстық көмекші"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Төлем және сатып алу транзакциялары"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Қолданба параметрлері"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Локация, пайдалану дерегі және диагностика, жарнамалар"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Жақында ашылған қолданбалар"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Барлық қолданбаны көру"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Рұқсаттар"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Басқа қолданбалар қосу"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Барлық қолданба"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Жүйелік қолданбаларды көрсету"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Калибрлеу"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Өшіру таймері"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Теледидарды өшіру және энергияны үнемдеу үшін таймерлер орнату."</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Құрылғылар"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Көлемді дыбыс параметрлері"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Көлемді дыбыс"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кэштелген деректер өшірілсін бе?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бұл барлық қолданбалардың кэштелген деректерін тазартады."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Қосалқы құрал қосу"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Жұпталуда…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Қосылып жатыр…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> желісіне қосылуда"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> конфигурациясы сақталуда"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Қосылу"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Желіні ұмыту"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Ұмыту"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g> ұмытылсын ба?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Бұл осы желіге қосылу үшін пайдаланылған ақпаратты, соның ішінде, сақталған құпия сөзді тазалайды."</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Ұялы телефоннан QR кодын сканерлеңіз де, нұсқауларды орындап, Wi-Fi желісіне қосылыңыз.\n \n "<b>"Android телефонынан"</b>" \"Параметрлер -&gt; Желі және интернет -&gt; Wi-Fi -&gt; Wi-Fi-ды таңдау -&gt; Кеңейтілген -&gt; Құрылғы қосу және бұдан кейін QR кодын сканерлеу\" тармағын таңдаңыз."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Бас тарту үшін \"Артқа\" түймесін басыңыз."</string>
@@ -741,9 +738,9 @@
     <string name="keyboard_accessibility" msgid="7849649126112178029">"Пернетақта мүмкіндіктері"</string>
     <string name="accessibility_shortcut_off" msgid="8942290125694882338">"Арнайы мүмкіндіктердің жылдам пәрмені: өшірулі"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Таңбаша қосулы кезде артқа және төмен көрсеткілі түймелерінің екеуін де 3 секунд бойы басып тұрып, арнайы мүмкіндіктер функциясын іске қосуға болады."</string>
-    <string name="accessibility_timeout" msgid="6238669374985731114">"Шара қолдану ұзақтығы (мүмкіндіктерді күту уақыты)"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Әрекет ету уақыты"</string>
     <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Әрекетті талап ететін хабарламалардың ұзақтығын реттеу"</string>
-    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Шара қолдануды талап ететін уақытша хабарлардың көрсетілу ұзақтығын таңдаңыз."</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Әрекет етуді талап ететін уақытша хабарлардың көрсетілу ұзақтығын таңдаңыз."</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Уақыт: 2–3 секунд"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Экрандағы әрекеттерге жауап беру үшін әдепкі уақыт (2–3 секунд) орнатылады."</string>
     <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Таңбаны қайталап енгізу алдындағы кідіріс"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Басқа қолданбалардың үстінен көрсету"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Басқа қолданба үстінен көрсетуге рұқсат беру"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Қолданбаның пайдаланылып жатқан басқа қолданбалардың үстінен көрсетілуіне рұқсат беріледі. Ол қолданбаларды пайдалануыңызға кедергі келтіріп, олардың көрсетілуін не жұмысын өзгертуі мүмкін."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Мультимедианы басқару қолданбалары"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Қолданбаға мультимедианы басқаруға рұқсат ету"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Рұқсат берілсе, бұл қолданба осы құрылғыдағы басқа қолданбалар жасаған медиафайлдарды сізден сұрамай өзгерте немесе жоя алады. Файлдар мен медиафайлдарды пайдалану үшін қолданбаның рұқсаты болуы керек."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Жүйе параметрлеріне кіру"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Жүйе параметрлеріне кіру"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Бұл рұқсат қолданбаға жүйе параметрлерін өзгертуге мүмкіндік береді."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Аудио жазылмады."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Басқа Bluetooth құрылғыларына көрінсін бе?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Қолданба теледидарыңызды басқа Bluetooth құрылғыларына <xliff:g id="TIMEOUT">%1$d</xliff:g> секунд көрсетуді сұрайды."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Әрекетке рұқсат етілмеген"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Дыбыс деңгейі өзгертілмейді"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Қоңырау шалуға рұқсат берілмеген"</string>

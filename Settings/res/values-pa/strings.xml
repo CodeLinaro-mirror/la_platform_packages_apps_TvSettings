@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ਡੀਵਾਈਸ ਸੈਟਿੰਗਾਂ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ਖਾਤਾ ਸੈਟਿੰਗਾਂ"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ਡੀਵਾਈਸ ਲਾਕ"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"ਅਵਾਜ਼ੀ ਸਹਾਇਕ"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"ਅਵਾਜ਼ੀ ਸਹਾਇਕ"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ਭੁਗਤਾਨ ਅਤੇ ਖਰੀਦਾਂ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ਐਪ ਸੈਟਿੰਗਾਂ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ਟਿਕਾਣਾ, ਵਰਤੋਂ ਅਤੇ ਤਸ਼ਖੀਸਾਂ, ਵਿਗਿਆਪਨ"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"ਹਾਲ ਹੀ ਵਿੱਚ ਖੋਲ੍ਹੀਆਂ ਐਪਾਂ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"ਸਭ ਐਪਾਂ ਦੇਖੋ"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"ਇਜਾਜ਼ਤਾਂ"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"ਹੋਰ ਐਪਾਂ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"ਸਭ ਐਪਾਂ"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"ਸਿਸਟਮ ਐਪਾਂ ਦਿਖਾਓ"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"ਕੈਲੀਬਰੇਸ਼ਨ"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"ਟਾਈਮਰ ਬੰਦ ਕਰੋ"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"ਟੀਵੀ ਬੰਦ ਕਰਨ ਅਤੇ ਊਰਜਾ ਬਚਾਉਣ ਲਈ ਟਾਈਮਰ ਸੈੱਟ ਕਰੋ"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ਡੀਵਾਈਸ"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"ਸਰਾਊਂਡ ਸਾਊਂਡ ਸੰਬੰਧੀ ਸੈਟਿੰਗਾਂ"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"ਆਲੇ-ਦੁਆਲੇ ਸੰਬੰਧੀ ਧੁਨੀ"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ਕੀ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਹਟਾਉਣਾ ਹੈ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ਇਹ ਸਾਰੀਆਂ ਐਪਾਂ ਲਈ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਕਲੀਅਰ ਕਰ ਦੇਵੇਗਾ।"</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"ਉਪਸਾਧਨ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"ਜੋੜਾਬੱਧ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"</string>
@@ -445,7 +441,7 @@
     <string name="title_random_mac_settings" msgid="6685812569356353378">"ਪਰਦੇਦਾਰੀ"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"ਬੇਤਰਤੀਬ MAC (ਪੂਰਵ-ਨਿਰਧਾਰਤ) ਵਰਤੋ"</item>
-    <item msgid="2490415280467390067">"ਡੀਵਾਈਸ MAC ਵਰਤੋ"</item>
+    <item msgid="2490415280467390067">"ਡੀਵਾਈਸ MAC ਦੀ ਵਰਤੋਂ ਕਰੋ"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"ਉਪਲਬਧ ਨਹੀਂ"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"ਬੇਤਰਤੀਬ MAC"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> ਲਈ ਸੰਰੂਪਣ ਨੂੰ ਰੱਖਿਅਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"ਕਨੈਕਟ ਕਰੋ"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"ਨੈੱਟਵਰਕ ਭੁੱਲ ਜਾਓ"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"ਭੁੱਲ ਜਾਓ"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"ਕੀ <xliff:g id="SSID">%1$s</xliff:g> ਭੁੱਲ ਗਏ?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ਇਹ ਇਸ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਲੀਅਰ ਕਰ ਦਿੰਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਰੱਖਿਅਤ ਕੀਤਾ ਪਾਸਵਰਡ ਵੀ ਸ਼ਾਮਲ ਹੈ"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ਮੋਬਾਈਲ ਫ਼ੋਨ ਤੋਂ QR ਕੋਡ ਸਕੈਨ ਕਰਕੇ ਵਾਈ-ਫਾਈ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ ਅਤੇ ਹਿਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।\n \n ਕਿਸੇ "<b>"Android ਫ਼ੋਨ"</b>" ਤੋਂ ਸੈਟਿੰਗਾਂ -&gt; ਨੈੱਟਵਰਕ &amp; ਇੰਟਰਨੈੱਟ -&gt; ਵਾਈ-ਫਾਈ -&gt; ਕੋਈ ਵਾਈ-ਫਾਈ ਚੁਣੋ -&gt; ਉੱਨਤ -&gt; ਡੀਵਾਈਸ ਸ਼ਾਮਲ ਕਰੋ \'ਤੇ ਜਾਓ ਅਤੇ ਫਿਰ QR ਕੋਡ ਸਕੈਨ ਕਰੋ।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ਰੱਦ ਕਰਨ ਲਈ \'ਪਿੱਛੇ\' ਬਟਨ ਨੂੰ ਦਬਾਓ"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"ਹੋਰਾਂ ਐਪਾਂ ਉੱਪਰ ਦਿਖਾਓ"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"ਹੋਰਾਂ ਐਪਾਂ ਉੱਪਰ ਦਿਸਣ ਦਿਓ"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"ਕਿਸੇ ਐਪ ਨੂੰ ਤੁਹਾਡੇ ਵੱਲੋਂ ਵਰਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹੋਰਾਂ ਐਪਾਂ ਦੇ ਉੱਪਰ ਦਿਸਣ ਦਿਓ। ਇਹ ਤੁਹਾਡੇ ਵੱਲੋਂ ਉਹਨਾਂ ਐਪਾਂ ਦੀ ਵਰਤੋਂ ਵਿੱਚ ਦਖਲ ਦੇ ਸਕਦੀ ਹੈ ਜਾਂ ਉਹਨਾਂ ਦੇ ਦਿਖਾਈ ਦੇਣ ਜਾਂ ਕੰਮ ਕਰਨ ਦੇ ਤਰੀਕੇ ਨੂੰ ਬਦਲ ਸਕਦੀ ਹੈ।"</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"ਮੀਡੀਆ ਪ੍ਰਬੰਧਨ ਐਪਾਂ"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"ਐਪ ਨੂੰ ਮੀਡੀਆ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਦਿਓ"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"ਜੇ ਆਗਿਆ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਇਹ ਐਪ ਤੁਹਾਨੂੰ ਪੁੱਛੇ ਬਿਨਾਂ ਹੋਰ ਐਪਾਂ ਨਾਲ ਬਣਾਈਆਂ ਗਈਆਂ ਮੀਡੀਆ ਫ਼ਾਈਲਾਂ ਨੂੰ ਸੋਧ ਜਾਂ ਮਿਟਾ ਸਕਦੀ ਹੈ। ਐਪ ਕੋਲ ਫ਼ਾਈਲਾਂ ਅਤੇ ਮੀਡੀਆ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ।"</string>
     <string name="write_system_settings" msgid="9023005036458214990">"ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਤੱਕ ਪਹੁੰਚ"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਤੱਕ ਪਹੁੰਚ"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"ਇਹ ਇਜਾਜ਼ਤ ਐਪ ਨੂੰ ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਸੋਧਣ ਦਿੰਦੀ ਹੈ।"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ਆਡੀਓ ਰਿਕਾਰਡਿੰਗ ਅਸਫਲ ਰਹੀ।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ਕੀ ਹੋਰ ਬਲੂਟੁੱਥ ਡੀਵਾਈਸਾਂ ਲਈ ਦਿਖਣਯੋਗ ਬਣਾਉਣਾ ਹੈ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ਕੋਈ ਐਪ ਤੁਹਾਡੇ ਟੀਵੀ ਨੂੰ <xliff:g id="TIMEOUT">%1$d</xliff:g> ਸਕਿੰਟਾਂ ਵਾਸਤੇ ਹੋਰ ਬਲੂਟੁੱਥ ਡੀਵਾਈਸਾਂ ਲਈ ਦਿਖਣਯੋਗ ਬਣਾਉਣਾ ਚਾਹੁੰਦੀ ਹੈ।"</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"ਕਾਰਵਾਈ ਦੀ ਆਗਿਆ ਨਹੀਂ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"ਤੁਸੀਂ ਅਵਾਜ਼ ਨੂੰ ਬਦਲ ਨਹੀਂ ਸਕਦੇ"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"ਕਾਲ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ"</string>

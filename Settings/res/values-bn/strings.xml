@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ডিভাইস সেটিংস"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"অ্যাকাউন্ট সেটিংস"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ডিভাইস লক"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"ভয়েস অ্যাসিস্ট্যান্ট"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"ভয়েস সহায়তা"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"পেমেন্ট ও কেনাকাটা"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"অ্যাপ সেটিংস"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"লোকেশন, ব্যবহার এবং ডায়াগনস্টিকস, বিজ্ঞাপন"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"সম্প্রতি ব্যবহার করা অ্যাপ"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"সমস্ত অ্যাপ দেখুন"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"অনুমতি"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"আরও অ্যাপ যোগ করুন"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"সব অ্যাপ"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"সিস্টেম অ্যাপগুলি দেখান"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"ক্রমাঙ্কন"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"বন্ধ করার টাইমার"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"টিভি বন্ধ ও এনার্জি সাশ্রয় করতে টাইমার সেট করুন"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ডিভাইস"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"সারাউন্ড সাউন্ড সেটিংস"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"চারিপাশের সাউন্ড"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ক্যাশে করা ডেটা সাফ করবেন?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"এটি সব অ্যাপ্লিকেশানগুলি থেকে ক্যাশে করা ডেটা সাফ করে দেবে।"</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"আনুষঙ্গিক উপকরণ জুড়ুন"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"যুক্ত করা হচ্ছে..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"সংযুক্ত হচ্ছে..."</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> এ সংযুক্ত হচ্ছে"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> এর কনফিগারেশন সংরক্ষণ করা হচ্ছে"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"সংযুক্ত হন"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"নেটওয়ার্কটি মনে রাখবে না"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"ভুলে যান"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g> ভুলতে চান?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"এটি এই নেটওয়ার্কের সাথে সংযোগ স্থাপনের জন্য ব্যবহৃত তথ্য সাফ করে, এর মধ্যে সংরক্ষিত পাসওয়ার্ডও অন্তর্ভুক্ত"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" মোবাইল ফোন ব্যবহার করে QR কোডের সাহায্যে স্ক্যান করে ওয়াই-ফাই কানেক্ট করুন এবং নির্দেশ অনুসরণ করুন।\n \n কোনও একটি "<b>"Android ফোন"</b>" থেকে সেটিংস -&gt; নেটওয়ার্ক ও ইন্টারনেট -&gt; ওয়াই-ফাই -&gt; ওয়াই-ফাই বেছে নিন -&gt; উন্নত -&gt; বিকল্প বেছে নিয়ে এবং ডিভাইস যোগ করে QR কোড স্ক্যান করুন।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"বাতিল করতে \'ফিরে যান\' বোতাম প্রেস করুন"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"অন্য অ্যাপের উপরে দেখুন"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"অন্য অ্যাপের উপরে ডিসপ্লে হওয়ার অনুমতি দিন"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"আপনি অন্য যে সমস্ত অ্যাপ ব্যবহার করছেন, স্ক্রিনে সেগুলিকে ঢেকে দিয়ে নির্দিষ্ট কোনও অ্যাপকে ডিসপ্লে হওয়ার অনুমতি দিন। এর ফলে বাকি অ্যাপগুলি ব্যবহার করার ক্ষেত্রে ব্যাঘাত ঘটতে পারে অথবা স্ক্রিনে সেগুলির উপস্থিতি বা আচরণে পরিবর্তন হতে পারে।"</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"মিডিয়া ম্যানেজমেন্ট অ্যাপ"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"অ্যাপকে মিডিয়া ম্যানেজ করার অনুমতি দিন"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"অনুমতি দেওয়া হলে, এই অ্যাপ আপনাকে জিজ্ঞাসা না করেই অন্য অ্যাপের তৈরি করা মিডিয়া ফাইলে পরিবর্তন করতে বা তা মুছে ফেলতে পারবে। অ্যাপকে অবশ্যই ফাইল এবং মিডিয়া অ্যাক্সেস করার অনুমতি দিতে হবে।"</string>
     <string name="write_system_settings" msgid="9023005036458214990">"সিস্টেম সেটিংসের অ্যাক্সেস"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"সিস্টেম সেটিংসের অ্যাক্সেস"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"কোনও অ্যাপকে এই অনুমতি দিলে সেটি সিস্টেম সেটিংস পরিবর্তন করতে পারবে।"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"অডিও রেকর্ডিং করা যায়নি।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"অন্যান্য ব্লুটুথ ডিভাইসে দেখাবেন?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"একটি অ্যাপ আপনার টিভিকে অন্যান্য ব্লুটুথ ডিভাইসের কাছে <xliff:g id="TIMEOUT">%1$d</xliff:g> সেকেন্ডের জন্য দেখাতে চায়।"</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"কাজটি অনুমোদিত নয়"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"ভলিউম পরিবর্তন করা যাবে না"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"কল করার অনুমতি নেই"</string>
@@ -1150,7 +1149,7 @@
     <string name="uninstall_device_admin" msgid="6301368408620948266">"অ্যাপ্লিকেশান আনইনস্টল করুন"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"নিস্ক্রিয় করুন এবং আনইনস্টল করুন"</string>
     <string name="select_device_admin_msg" msgid="5480836736592618730">"ডিভাইসের অ্যাডমিন"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"ডিভাইস প্রশাসক অ্যাপটি সক্রিয় করবেন?"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"ডিভাইস অ্যাডমিন অ্যাপটি অ্যাক্টিভেট করবেন?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"এই ডিভাইস প্রশাসক অ্যাপটি সক্রিয় করুন"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"এই প্রশাসক অ্যাপটি সক্রিয় করলে তা <xliff:g id="APP_NAME">%1$s</xliff:g> অ্যাপকে নিম্নলিখিত কাজগুলি করতে দেবে।"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> অ্যাপের মাধ্যমে এই ডিভাইসটি ম্যানেজ এবং মনিটর করা হবে।"</string>

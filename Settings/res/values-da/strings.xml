@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Enhedsindstillinger"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoindstillinger"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Enhedslås"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Taleassistent"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Taleassistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling og køb"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appindstillinger"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokation, brug og diagnostik, annoncer"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Senest åbnede apps"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Se alle apps"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Tilladelser"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Tilføj flere apps"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Alle apps"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Vis systemapps"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrering"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Timer til slukning"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Indstil timere for at slukke fjernsynet og spare strøm"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Enheder"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Indstillinger for surroundsound"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Surroundsound"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vil du rydde cachelagrede data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Dette vil rydde cachelagrede data for alle apps."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Tilføj tilbehør"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Parrer..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Forbinder..."</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"Der oprettes forbindelse til <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="320653339670641708">"Konfigurationen for <xliff:g id="SSID">%1$s</xliff:g> gemmes"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Tilslut"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Glem netværk"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Glem"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"Vil du glemme <xliff:g id="SSID">%1$s</xliff:g>?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Rydder oplysninger, som bruges til at oprette forbindelse til netværket, bl.a. eventuelle gemte adgangskoder."</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Opret forbindelse til et Wi-Fi-netværk ved at scanne QR-koden på en mobiltelefon og følge vejledningen.\n \n På en "<b>"Android-telefon"</b>" skal du gå til Indstillinger -&gt; Netværk og internet -&gt; Wi-Fi -&gt; Vælg et Wi-Fi-netværk -&gt; Avanceret -&gt; Tilføj enhed, og scan derefter QR-koden."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Tryk på tilbageknappen for at annullere"</string>
@@ -1098,6 +1095,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Visning over andre apps"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Tillad visning over andre apps"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Tillad, at en app vises over andre apps, du bruger. Dette kan forstyrre din brug af disse apps eller ændre deres udseende eller adfærd."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Apps til administration af medier"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Tillad, at appen administrerer medier"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Hvis du tillader dette, kan denne app redigere og slette mediefiler, der er oprettet med andre apps, uden at spørge dig. Appen skal have adgangstilladelse til filer og medier."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Adgang til systemindstillinger"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Adgang til systemindstillinger"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Denne tilladelse giver en app lov til at ændre systemindstillingerne."</string>
@@ -1132,7 +1132,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Lydoptagelsen mislykkedes."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Vil du gøre det synligt for andre Bluetooth-enheder?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"En app anmoder om at gøre dit fjernsyn synligt for andre Bluetooth-enheder i <xliff:g id="TIMEOUT">%1$d</xliff:g> sekunder."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Handlingen er ikke tilladt"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Lydstyrken kan ikke ændres"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Opkald er ikke tilladt"</string>

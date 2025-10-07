@@ -26,4 +26,8 @@
   <declare-styleable name="DisabledButFocusablePreference">
     <attr name="disabledButFocusable" format="boolean" />
   </declare-styleable>
+
+  <declare-styleable name="TwoPanelMaxHeightScrollView">
+    <attr name="android:maxHeight"/>
+  </declare-styleable>
 </resources>

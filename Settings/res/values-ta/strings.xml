@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"சாதன அமைப்புகள்"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"கணக்கு அமைப்புகள்"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"சாதனப் பூட்டு"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"குரல் உதவி"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"குரல் உதவி"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"பேமெண்ட்டுகளும் பர்ச்சேஸ்களும்"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ஆப்ஸ் அமைப்புகள்"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"இருப்பிடம், உபயோகம் &amp; பிழை கண்டறிதல், விளம்பரங்கள்"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"சமீபத்தில் திறந்த ஆப்ஸ்"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"எல்லா ஆப்ஸையும் காட்டு"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"அனுமதிகள்"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"கூடுதல் ஆப்ஸைச் சேர்த்தல்"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"எல்லா ஆப்ஸும்"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"சிஸ்டம் ஆப்ஸைக் காட்டு"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"அளவுக்குறியீடு"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"ஆஃப் செய்வதற்கான டைமர்"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"டிவியை ஆஃப் செய்வதற்கான டைமர்களை அமைத்து மின்சாரத்தைச் சேமிக்கலாம்"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"சாதனங்கள்"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"சரவுண்ட் சவுண்ட் அமைப்புகள்"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"சரவுண்ட் சவுண்ட்"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"தற்காலிகச் சேமிப்பு தரவை அழிக்கவா?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"இது, எல்லா ஆப்ஸின் தற்காலிகச் சேமிப்பு தரவை அழிக்கும்."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"துணைக்கருவியைச் சேர்"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"இணைக்கிறது..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"இணைக்கிறது..."</string>
@@ -483,7 +479,7 @@
     <string name="title_wifi_proxy_settings" msgid="1933444342984660569">"ப்ராக்ஸி அமைப்புகள்"</string>
     <string name="title_wifi_proxy_hostname" msgid="1242297002220870385">"ப்ராக்ஸியின் ஹோஸ்ட்பெயர்:"</string>
     <string name="title_wifi_proxy_port" msgid="566244407030390328">"ப்ராக்ஸி போர்ட்:"</string>
-    <string name="title_wifi_proxy_bypass" msgid="8752756240663231435">"இவற்றின் ப்ராக்ஸியைத் தவிர்:"</string>
+    <string name="title_wifi_proxy_bypass" msgid="8752756240663231435">"இவற்றில் ப்ராக்ஸியைத் தவிர்:"</string>
     <string name="title_wifi_ip_settings" msgid="296029383749112888">"IP அமைப்புகள்"</string>
     <string name="title_wifi_ip_address" msgid="5505806431042689276">"IP முகவரி:"</string>
     <string name="title_wifi_gateway" msgid="4496416267930824360">"கேட்வே:"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> உடன் இணைக்கிறது"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> க்கு உள்ளமைவைச் சேமிக்கிறது"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"இணை"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"நெட்வொர்க்கை நீக்கு"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"அகற்று"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g>ஐ அகற்றவா?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"சேமித்த கடவுச்சொல் உள்ளிட்ட இந்த நெட்வொர்க்குடன் இணைக்கப் பயன்படுத்திய தகவலை இது அழிக்கிறது"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" மொபைலில் QR குறியீட்டை ஸ்கேன் செய்து வழிமுறைகளைப் பின்பற்றுவதன் மூலம் வைஃபையில் இணையலாம்.\n \n "<b>"Android மொபைலில்"</b>" அமைப்புகள் -&gt; நெட்வொர்க் &amp; இணையம் -&gt; வைஃபை -&gt; என்பதற்குச் சென்று, வைஃபை -&gt; மேம்பட்டவை -&gt; என்பதைத் தேர்ந்தெடுத்து, சாதனத்தைச் சேர்த்து QR குறியீட்டை ஸ்கேன் செய்யுங்கள்."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ரத்துசெய்ய \'பின்செல்\' பட்டனை அழுத்தவும்"</string>
@@ -530,7 +527,7 @@
     <string name="proxy_error_empty_port" msgid="692020249267351015">"போர்ட் புலம் வெறுமையாக இருக்கக்கூடாது"</string>
     <string name="proxy_error_empty_host_set_port" msgid="5347712018244852847">"ஹோஸ்ட் புலம் வெறுமையாக இருந்தால், போர்ட் புலத்தை வெறுமையாக விடவும்"</string>
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"போர்ட் தவறானது"</string>
-    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"HTTP ப்ராக்ஸியை உலாவி பயன்படுத்தும், ஆனால் பிற ஆப்ஸால் பயன்படுத்த முடியாமல் போகலாம்"</string>
+    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"HTTP ப்ராக்ஸியை பிரவுசர் பயன்படுத்தும், ஆனால் பிற ஆப்ஸால் பயன்படுத்த முடியாமல் போகலாம்"</string>
     <string name="proxy_port_description" msgid="6486205863098427787">"சரியான போர்ட்டை உள்ளிடவும்.\nஎடுத்துக்காட்டு: <xliff:g id="ID_1">8080</xliff:g>"</string>
     <string name="proxy_exclusionlist_description" msgid="5105504899364188296">"விலக்கப்பட்ட டொமைன்களின் காற்புள்ளியால் பிரிக்கப்பட்ட பட்டியலை உள்ளிடவும் அல்லது வெறுமையாக விடவும்.\nஎடுத்துக்காட்டு: <xliff:g id="ID_1">example.com,mycomp.test.com,localhost</xliff:g>"</string>
     <string name="proxy_hostname_description" msgid="5520200112290557199">"சரியான ஹோஸ்ட்பெயரை உள்ளிடவும்.\nஎடுத்துக்காட்டு: <xliff:g id="ID_1">proxy.example.com</xliff:g>"</string>
@@ -835,12 +832,12 @@
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"வைஃபை அதிவிவர நுழைவு"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"வைஃபை அதிவிவர நுழைவை இயக்கு"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"தொடுதலைக் காட்டு"</string>
-    <string name="system_pointer_location" msgid="8724050865245555084">"குறிப்பான் இடம்"</string>
+    <string name="system_pointer_location" msgid="8724050865245555084">"பாயிண்டர் இடம்"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"தளவமைப்பு எல்லைகளைக் காட்டு"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU காட்சி புதுப்பிப்புகளைக் காட்டு"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"வன்பொருள் லேயரைக் காட்டு"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"GPU ஓவர்டிராவைக் காட்டு"</string>
-    <string name="system_show_surface_updates" msgid="7680759813613585278">"மேலோட்ட புதுப்பிப்புகளைக் காட்டு"</string>
+    <string name="system_show_surface_updates" msgid="7680759813613585278">"பரப்புநிலை புதுப்பிப்புகளைக் காட்டு"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"சாளர அனிமேஷன் வேகம்"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"அனிமேஷன் மாற்றத்தின் வேகம்"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"அனிமேட்டர் கால அளவு"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"பிற ஆப்ஸின் இடைமுகத்தின் மேல் தோன்றுதல்"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"பிற ஆப்ஸின் இடைமுகத்தின் மேல் தோன்ற அனுமதி"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"நீங்கள் பயன்படுத்தும் பிற ஆப்ஸின் இடைமுகத்தின் மேல் தோன்ற, ஆப்ஸை அனுமதிக்கும். மேலும், அந்த ஆப்ஸை நீங்கள் பயன்படுத்தும்போது இது குறுக்கிடலாம் அல்லது அவை தோன்றும்/செயல்படும் விதத்தை மாற்றக்கூடும்."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"மீடியா நிர்வாக ஆப்ஸ்"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"மீடியாவை நிர்வகிக்க ஆப்ஸை அனுமதித்தல்"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"அனுமதி வழங்கப்பட்டால், பிற ஆப்ஸ் மூலம் உருவாக்கப்பட்ட மீடியா ஃபைல்களை உங்களிடம் கேட்காமலேயே இந்த ஆப்ஸால் மாற்றவோ நீக்கவோ முடியும். ஃபைல்களையும் மீடியாவையும் அணுக ஆப்ஸுக்கு அனுமதி வேண்டும்."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"சிஸ்டம் அமைப்புகளுக்கான அணுகல்"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"சிஸ்டம் அமைப்புகளுக்கான அணுகல்"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"இந்த அனுமதியின் மூலம் ஆப்ஸால் சிஸ்டம் அமைப்புகளை மாற்ற முடியும்."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ஆடியோவை ரெக்கார்டு செய்ய முடியவில்லை."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"பிற புளூடூத் சாதனங்களுக்குக் காட்டவா?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"<xliff:g id="TIMEOUT">%1$d</xliff:g> வினாடிகளுக்கு உங்கள் TV பிற புளூடூத் சாதனங்களுக்குத் தெரியும்படி வைத்திருக்க ஆப்ஸ் விரும்புகிறது."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"செயல் அனுமதிக்கப்படவில்லை"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"ஒலியளவை மாற்ற முடியாது"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"அழைப்பு அனுமதிக்கப்படவில்லை"</string>

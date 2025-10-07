@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Paramètres de l\'appareil"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Paramètres de compte"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Verrouillage de l\'appareil"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Assistant vocal"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Assistance vocale"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Paiement et achats"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Localisation, utilisation et diagnostics, et annonces"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Applis récemment ouvertes"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applis"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Autorisations"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Ajouter des applis"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Toutes les applications"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Afficher les applications système"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Étalonnage"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Minuterie d\'arrêt"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Réglez des minuteries pour éteindre le téléviseur et économiser de l\'énergie"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Appareils"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Paramètres du son ambiophonique"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Son ambiophonique"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Effacer les données mises en cache?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Les données en cache des applis seront effacées."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Ajouter un accessoire"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Association en cours…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Connexion en cours…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"Connexion à <xliff:g id="SSID">%1$s</xliff:g> en cours…"</string>
     <string name="wifi_saving" msgid="320653339670641708">"Enregistrement de la configuration de <xliff:g id="SSID">%1$s</xliff:g> en cours…"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Connecter"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Supprimer le réseau"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Oublier"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"Oublier « <xliff:g id="SSID">%1$s</xliff:g> »?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Supprimer les données utilisées pour se connect. au réseau, y compris tout mot de passe enregistré."</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Pour vous connecter à un réseau Wi-Fi, numérisez le code QR sur un téléphone et suivez les instructions.\n \n Sur un "<b>"téléphone Android"</b>", sélectionnez Paramètres &gt; Réseau et Internet &gt; Wi-Fi &gt; sélectionnez un réseau Wi-Fi &gt; Paramètres avancés &gt; ajoutez un appareil, puis numérisez le code QR."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Appuyez sur le bouton Retour pour annuler"</string>
@@ -841,9 +838,9 @@
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"Afficher la couche matérielle"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"Afficher les dépassements GPU"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Afficher les mises à jour surface"</string>
-    <string name="system_window_animation_scale" msgid="685477540250939659">"Échelle de l\'animation des fenêtres"</string>
+    <string name="system_window_animation_scale" msgid="685477540250939659">"Échelle d\'animation des fenêtres"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"Échelle de l\'animation des transitions"</string>
-    <string name="system_animator_duration_scale" msgid="3829445237130423625">"Échelle de la durée d\'animation"</string>
+    <string name="system_animator_duration_scale" msgid="3829445237130423625">"Échelle de durée des animations"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"Mode Strict activé"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Rendu GPU du profil"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Activer les traces"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Afficher par-dessus autres applis"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Autoriser la superposition d\'applis"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Autorisez une application à se superposer aux autres applications que vous utilisez. Cette autorisation peut nuire à votre utilisation de ces dernières, ou modifier leur apparence ou leur comportement."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Applis de gestion des fichiers multimédias"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"Autoriser l\'appli à gérer fichiers multimédias"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Si vous l\'autorisez à le faire, cette appli peut modifier ou supprimer des fichiers multimédias créés à l\'aide d\'autres applis sans vous le demander. L\'appli doit avoir l\'autorisation d\'accéder aux fichiers et aux fichiers multimédias."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Accès aux paramètres système"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Accès aux paramètres système"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Cette autorisation permet à une application de modifier les paramètres du système."</string>
@@ -1113,7 +1113,7 @@
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Activation de l\'écran"</string>
     <string name="allow_turn_screen_on" msgid="9071257620628205016">"Activer l\'écran"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Autorisez une appli à activer l\'écran. Lorsque vous accordez cette autorisation, l\'appli peut activer l\'écran à tout moment sans votre volonté explicite."</string>
-    <string name="special_access" msgid="21806055758289916">"Accès spécial des applications"</string>
+    <string name="special_access" msgid="21806055758289916">"Accès spécial des applis"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
     <string name="record_audio" msgid="5035689290259575229">"Enregistrer des fichiers audio"</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Échec de l\'enregistrement audio."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Rendre visible pour les autres appareils Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Une application souhaite rendre votre télévision visible pour les autres appareils Bluetooth pendant <xliff:g id="TIMEOUT">%1$d</xliff:g> secondes."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Action interdite"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Impossible de modifier le volume"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Les appels sont désactivés"</string>
@@ -1152,7 +1151,7 @@
     <string name="select_device_admin_msg" msgid="5480836736592618730">"Administrateur de l\'appareil"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Activer l\'appli d\'admin de l\'appareil?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Activer l\'application d\'administration de l\'appareil"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"Lorsque l\'application d\'administration est activée, <xliff:g id="APP_NAME">%1$s</xliff:g> pourra effectuer les opérations suivantes :"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"L\'activation de cette appli d\'administration permettra à « <xliff:g id="APP_NAME">%1$s</xliff:g> » d\'effectuer les opérations suivantes :"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Cet appareil sera géré et surveillé par <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Cette application d\'administration est active et permet à l\'application <xliff:g id="APP_NAME">%1$s</xliff:g> d\'effectuer les opérations suivantes :"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"En continuant, votre utilisateur sera géré par votre administrateur, qui pourra aussi stocker des données associées en plus de vos données personnelles.\n\nVotre administrateur peut surveiller et gérer les paramètres, l\'accès, les applications et les données associées à cet utilisateur, y compris l\'activité réseau et les données de localisation de votre appareil."</string>

@@ -63,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Geräteeinstellungen"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoeinstellungen"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Gerätesperre"</string>
-    <string name="privacy_assistant_settings_title" msgid="3712261229443155572">"Sprachassistent"</string>
+    <string name="privacy_assistant_settings_title" msgid="7733038236847179927">"Sprachassistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Zahlung &amp; Käufe"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App-Einstellungen"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Standort, Nutzung &amp; Diagnose, Werbung"</string>
@@ -106,8 +106,6 @@
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Kürzlich geöffnete Apps"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Alle Apps ansehen"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Berechtigungen"</string>
-    <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
-    <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="add_apps_title" msgid="5644022756289850710">"Weitere Apps hinzufügen"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Alle Apps"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"System-Apps anzeigen"</string>
@@ -128,7 +126,6 @@
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrierung"</string>
     <string name="device_energy_saver" msgid="6611757996220443028">"Timer zum Ausschalten"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Timer einrichten, um den Fernseher auszuschalten und Energie zu sparen"</string>
-    <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Geräte"</string>
     <string name="surround_sound_select_formats" msgid="3232348550606222833">"Surround-Sound-Einstellungen"</string>
     <string name="surround_sound_category_title" msgid="5688539514178173911">"Surround-Sound"</string>
@@ -243,7 +240,6 @@
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Daten im Cache löschen?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Daten im Cache werden für alle Apps gelöscht."</string>
-    <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Zubehör hinzufügen"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Kopplung…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Verbinden…"</string>
@@ -499,7 +495,8 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"Verbindung zu <xliff:g id="SSID">%1$s</xliff:g> wird hergestellt"</string>
     <string name="wifi_saving" msgid="320653339670641708">"Konfiguration für <xliff:g id="SSID">%1$s</xliff:g> wird gespeichert..."</string>
     <string name="wifi_connect" msgid="2206086690065242121">"Verbinden"</string>
-    <string name="wifi_forget_network" msgid="4634016112624305571">"Netzwerk entfernen"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"Entfernen"</string>
+    <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g> entfernen?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Löscht die Informationen für die Verbindung mit diesem Netzwerk, auch das gespeicherte Passwort"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Du kannst dich mit einem WLAN verbinden, indem du den QR-Code von einem Smartphone scannst und der Anleitung folgst.\n\nGeh auf einem "<b>"Android-Smartphone"</b>" zu den Einstellungen -&gt; „Netzwerk &amp; Internet“ -&gt; „WLAN“ -&gt; WLAN auswählen -&gt; „Erweitert“ -&gt; „Gerät hinzufügen“ und scann den QR-Code."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Schaltfläche „Zurück“ drücken, um abzubrechen"</string>
@@ -735,7 +732,7 @@
     <string name="palette_color_blue" msgid="8836682634988540630">"Blau"</string>
     <string name="palette_color_purple" msgid="2123828754639683555">"Lila"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"Grau"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"Bedienungshilfe-\\nKurzbefehl"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"Bedienungshilfen-Kurzbefehl"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Kurzbefehl für Bedienungshilfen aktivieren"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Verknüpfter Dienst"</string>
     <string name="keyboard_accessibility" msgid="7849649126112178029">"Bedienungshilfen für die Tastatur"</string>
@@ -832,8 +829,8 @@
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"Auf Debugger warten"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"Apps über USB überprüfen"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"Über ADB/ADT installierte Apps werden auf schädliches Verhalten geprüft"</string>
-    <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Ausführliche WLAN-Protokollierung"</string>
-    <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Ausführliche WLAN-Protokollierung aktivieren"</string>
+    <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Ausführliches WLAN-Logging"</string>
+    <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Ausführliches WLAN-Logging aktivieren"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"Berührungen anzeigen"</string>
     <string name="system_pointer_location" msgid="8724050865245555084">"Zeigerposition"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"Layoutgrenzen anzeigen"</string>
@@ -1097,6 +1094,9 @@
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Über anderen Apps einblenden"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Einblendung über anderen Apps zulassen"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Hiermit kann eine App über anderen Apps eingeblendet werden. Dies beeinträchtigt möglicherweise deine Nutzung dieser Apps oder ändert deren Darstellung bzw. Verhalten."</string>
+    <string name="media_management_apps_title" msgid="4896585493944143777">"Apps zur Medienverwaltung"</string>
+    <string name="media_management_apps_toggle_label" msgid="5400248012560984356">"App erlauben, Medien zu verwalten"</string>
+    <string name="media_management_apps_description" msgid="7595774183363377675">"Wenn du es erlaubst, kann diese App mit anderen Apps erstellte Mediendateien ändern oder löschen, ohne dich zu fragen. Die App muss berechtigt sein, auf Mediendateien zuzugreifen."</string>
     <string name="write_system_settings" msgid="9023005036458214990">"Zugriff auf Systemeinstellungen"</string>
     <string name="write_settings_title" msgid="3418928647080624719">"Zugriff auf Systemeinstellungen"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Durch diese Berechtigung darf die App Systemeinstellungen ändern."</string>
@@ -1131,7 +1131,6 @@
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Audioaufnahme fehlgeschlagen."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Für andere Bluetooth-Geräte sichtbar machen?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Eine App fordert die Berechtigung, deinen Fernseher <xliff:g id="TIMEOUT">%1$d</xliff:g> Sekunden lang für andere Bluetooth-Geräte sichtbar zu machen."</string>
-    <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Aktion nicht zulässig"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"Lautstärke nicht änderbar"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Anrufe nicht zulässig"</string>
@@ -1150,7 +1149,7 @@
     <string name="uninstall_device_admin" msgid="6301368408620948266">"App deinstallieren"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Deaktivieren &amp; deinstallieren"</string>
     <string name="select_device_admin_msg" msgid="5480836736592618730">"Geräteadministrator"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"App zur Geräteverwaltung aktivieren?"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"App zur Geräte­ver­wal­tung aktivieren?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Diese App zur Geräteverwaltung aktivieren"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"Wenn diese App zur Geräteverwaltung aktiviert ist, kann die App „<xliff:g id="APP_NAME">%1$s</xliff:g>“ Folgendes tun:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Dieses Gerät wird von <xliff:g id="APP_NAME">%1$s</xliff:g> verwaltet und überwacht."</string>
