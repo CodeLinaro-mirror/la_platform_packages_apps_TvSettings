@@ -1041,7 +1041,7 @@
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"El temporizador \"Mientras se ve contenido\" debe ser más largo que el temporizador \"Cuando esté inactivo\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limitar conexión de red en modo inactivo"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Consume menos energía en modo inactivo"</string>
-    <string name="limit_network_in_standby_toggle_info" msgid="7442334081757762718">"Tu televisión se desconectará de la red cuando esté en modo Inactivo, excepto para recibir actualizaciones automáticas. Este ajuste puede reducir el consumo de energía de tu televisión, aunque no podrás usar funciones como Google Cast o el asistente de voz mientras esté en modo Inactivo."</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="7442334081757762718">"Tu televisión se desconectará de la red cuando esté en modo Preparado, excepto para recibir actualizaciones automáticas. Este ajuste puede reducir el consumo de energía de tu televisión, aunque no podrás usar funciones como Google Cast o el asistente de voz mientras esté en modo Preparado."</string>
     <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"Permitir conexión de red en modo inactivo"</string>
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Permitir la conexión de red en modo inactivo aumentará el consumo de energía en espera."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Ninguna cuenta está almacenando datos de copia de seguridad en este momento."</string>
@@ -1215,4 +1215,5 @@
     <string name="enable_angle_as_system_driver" msgid="2621814239122082069">"Habilita ANGLE como controlador OpenGL ES predet."</string>
     <string name="enable_angle_as_system_driver_summary" msgid="6941274244229799261">"Experimental, requiere reiniciar el dispositivo."</string>
     <string name="reboot_dialog_enable_angle_as_system_driver" msgid="5658387699421699408">"Debes reiniciar para cambiar el controlador OpenGL ES del sistema"</string>
+    <string name="accessibility_letterbox_wallpapers_component_name" msgid="6779159775165341059"></string>
 </resources>
