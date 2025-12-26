@@ -300,6 +300,8 @@
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Nije povezano"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Nemate dopuštenje za promjenu postavki Bluetootha."</string>
     <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Upotrijebi za zvuk na TV-u"</string>
+    <string name="custom_button_entry_title" msgid="5180799202176606097">"Postavljanje prilagodljivog gumba"</string>
+    <string name="custom_button_entry_subtitle" msgid="4962930142904821459">"Dodijelite ili ponovno dodijelite značajku gumbu"</string>
     <string name="send_feedback" msgid="936698637869795473">"Pošaljite povratne informacije"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centar za pomoć"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -802,7 +804,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"Žuta"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Grimizna"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Audioopis"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Slušajte opis događaja na zaslonu u podržanim filmovima i emisijama"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Poslušajte opis događaja na zaslonu u podržanim filmovima, serijama i emisijama"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Omogući"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguracija"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Želite li upotrijebiti uslugu <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
