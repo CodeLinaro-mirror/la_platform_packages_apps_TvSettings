@@ -93,13 +93,14 @@
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允许 Google 的位置信息服务和其他应用扫描网络（即使 WLAN 已关闭）"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"随时都可扫描，允许 Google 的位置信息服务和其他应用扫描网络，即使 WLAN 已关闭"</string>
     <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread 网络"</string>
-    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread 网络会在本地连接支持 Thread 的智能家居设备，从而提升效率和性能。\n\n此设置处于开启状态时，这部设备将创建或加入 Thread 网络。凭据将以不公开方式上传到云端，方便您日后更轻松地设置智能家居设备。\n\n此设置处于关闭状态时，这部设备将无法再与 Thread 网络中的其他设备通信。某些智能家居设备和服务可能无法按预期运行。\n\n您可前往 g.co/tv/thread 了解详情"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread 网络会在本地连接支持 Thread 的智能家居设备，从而提升效率和性能。\n\n此设置处于开启状态时，这部设备将创建或加入 Thread 网络。凭证将以不公开方式上传到云端，方便您日后更轻松地设置智能家居设备。\n\n此设置处于关闭状态时，这部设备将无法再与 Thread 网络中的其他设备通信。某些智能家居设备和服务可能无法按预期运行。\n\n您可前往 g.co/tv/thread 了解详情"</string>
     <string name="share_thread_network" msgid="1976613832000966535">"共享 Thread 网络凭证"</string>
-    <string name="share_thread_network_description" msgid="7742150537957957029">"与其他设备共享 Thread 网络凭证以简化 <xliff:g id="DEVICE">%1$s</xliff:g> 的 Thread 网络设置"</string>
-    <string name="thread_network_share_again" msgid="4603321026609866957">"再次共享"</string>
-    <string name="share_thread_network_countdown" msgid="2912667246386100962">"二维码将在 <xliff:g id="MINUTES">%1$02d</xliff:g> 分钟 <xliff:g id="SECONDS">%2$02d</xliff:g> 秒后失效"</string>
-    <string name="thread_network_sharing_failed" msgid="132503393315179238">"无法共享 Thread 网络"</string>
-    <string name="thread_network_sharing_success" msgid="2549416982853626795">"已成功共享 Thread 网络"</string>
+    <string name="share_thread_network_description" msgid="4288391787128615463">"与新设备共享 Thread 网络凭证，让它们加入 <xliff:g id="DEVICE">%1$s</xliff:g> 的 Thread 网络"</string>
+    <string name="thread_network_share_again" msgid="1164851319443381573">"获取新的访问码"</string>
+    <string name="share_thread_network_countdown" msgid="5824738305197643767">"二维码将在 <xliff:g id="MINUTES">%1$02d</xliff:g> 分钟 <xliff:g id="SECONDS">%2$02d</xliff:g> 秒后刷新"</string>
+    <string name="thread_network_sharing_failed" msgid="7696975871112489720">"无法分享 Thread 凭据"</string>
+    <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"使用设备配套应用扫描新二维码或输入新共享码"</string>
+    <string name="thread_network_sharing_success" msgid="9080142738599803612">"已共享 Thread 凭据"</string>
     <string name="thread_network_sharing_timeout" msgid="4743147006270273127">"尚未将任何设备添加到 Thread 网络，但二维码已失效"</string>
     <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"要关闭 Thread 网络吗？"</string>
     <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"如果关闭此设置，某些智能家居设备和服务可能无法按预期运行。要继续吗？"</string>
@@ -327,7 +328,7 @@
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"不适用"</string>
     <string name="manage_device_admin" msgid="2719119510627926381">"设备管理"</string>
     <string name="number_of_device_admins_none" msgid="2734299122299837459">"没有运行中的应用"</string>
-    <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"由于管理员、加密策略或凭据存储的要求，您无法使用此选项"</string>
+    <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"由于管理员、加密策略或凭证存储的要求，您无法使用此选项"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"受管理设备的信息"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"由贵单位管理的更改和设置"</string>
     <string name="enterprise_privacy_settings_summary_with_name" msgid="2866704039759872293">"由“<xliff:g id="ORGANIZATION_NAME">%s</xliff:g>”管理的更改和设置"</string>
@@ -356,9 +357,9 @@
     <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"已在您的个人资料中开启“始终开启的 VPN”"</string>
     <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"已在您的工作资料中开启“始终开启的 VPN”"</string>
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"已设置全局 HTTP 代理"</string>
-    <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"可信凭据"</string>
-    <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"您个人资料中的可信凭据"</string>
-    <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"您工作资料中的可信凭据"</string>
+    <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"可信凭证"</string>
+    <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"您个人资料中的可信凭证"</string>
+    <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"您工作资料中的可信凭证"</string>
     <string name="enterprise_privacy_number_ca_certs" msgid="5918439861975410142">"{count,plural, =1{# 个 CA 证书}other{# 个 CA 证书}}"</string>
     <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"管理员可以锁定设备及重置密码"</string>
     <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"管理员可以删除所有设备数据"</string>
@@ -505,13 +506,13 @@
     <string name="wifi_connecting" msgid="4234341255109283018">"正在连接到“<xliff:g id="SSID">%1$s</xliff:g>”"</string>
     <string name="wifi_saving" msgid="320653339670641708">"正在保存“<xliff:g id="SSID">%1$s</xliff:g>”的配置"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"连接"</string>
-    <string name="wifi_forget_network" msgid="1347484611969041359">"取消保存"</string>
+    <string name="wifi_forget_network" msgid="1347484611969041359">"移除"</string>
     <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"要取消保存“<xliff:g id="SSID">%1$s</xliff:g>”吗？"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"这将清除用于连接至此网络的信息（包括已保存的密码）"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" 如要加入 WLAN，请使用手机扫描二维码，然后按照说明操作。\n \n在 "<b>"Android 手机"</b>"中，依次转到“设置”-&gt;“网络和互联网”-&gt;“WLAN”-&gt; 选择所需 WLAN -&gt;“高级”-&gt;“添加设备”，然后扫描二维码。"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"按返回按钮即可取消"</string>
-    <string name="share_thread_title" msgid="7245016423667192880">"使用 Thread 凭证设置设备"</string>
-    <string name="share_thread_description" msgid="8219569516530422386">"若要将某部设备添加到 Thread 网络，请使用该设备上的应用扫描此二维码。为安全起见，此二维码将在 <xliff:g id="MINUTES">%1$s</xliff:g> 分钟后失效。"</string>
+    <string name="share_thread_title" msgid="62095604026690777">"与设备共享 Thread 凭据"</string>
+    <string name="share_thread_description" msgid="2514639045690367112">"如要将设备添加到 <xliff:g id="DEVICE">%1$s</xliff:g> 的 Thread 网络，请使用设备配套应用扫描此二维码或输入共享码。\n \n 代码将在 <xliff:g id="MINUTES">%2$s</xliff:g> 分钟后刷新。\n\n如需了解详情，请访问 g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"确定"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"继续"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"更改网络"</string>
