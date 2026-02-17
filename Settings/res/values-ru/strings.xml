@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Поделиться учетными данными сети Thread"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"Чтобы подключить новые устройства к сети \"<xliff:g id="DEVICE">%1$s</xliff:g>\", передайте им учетные данные Thread"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"Получить новый код"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"Код обновится через <xliff:g id="MINUTES">%1$02d</xliff:g> мин. <xliff:g id="SECONDS">%2$02d</xliff:g> сек."</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"Код обновится через &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> мин. <xliff:g id="SECONDS">%2$02d</xliff:g> сек.&lt;/b&gt;"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Не удалось поделиться учетными данными Thread."</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"Отсканируйте новый QR-код или введите новый код доступа в приложении устройства."</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Учетные данные Thread отправлены."</string>
@@ -326,7 +326,7 @@
     <string name="no_device_admins" msgid="4628974717150185625">"Нет доступных приложений администратора устройства"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Отключено администратором"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Недоступно"</string>
-    <string name="manage_device_admin" msgid="2719119510627926381">"Управление устройствами"</string>
+    <string name="manage_device_admin" msgid="2719119510627926381">"Администрирование устройства"</string>
     <string name="number_of_device_admins_none" msgid="2734299122299837459">"Нет активных приложений"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"Запрещено администратором или иными правилами"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Информация об управляемом устройстве"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Данные, которые использовались для подключения к этой сети (включая пароль), будут удалены"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Чтобы подключиться к сети Wi-Fi, отсканируйте QR-код с помощью мобильного телефона и следуйте инструкциям на экране.\n \n На "<b>"телефоне Android"</b>" нажмите \"Настройки -&gt; Сеть и Интернет -&gt; Wi-Fi\" -&gt; выберите сеть Wi-Fi -&gt; \"Дополнительные функции -&gt; Добавить устройство\" и отсканируйте QR-код."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Чтобы отменить действие, нажмите кнопку \"Назад\"."</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-код для подключения к сети Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Отправьте на устройство учетные данные Thread"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"Чтобы добавить устройство в сеть Thread \"<xliff:g id="DEVICE">%1$s</xliff:g>\", отсканируйте этот QR-код в приложении устройства или введите код доступа.\n \n Код обновится через <xliff:g id="MINUTES">%2$s</xliff:g> мин.\n \n Подробнее: g.co/tv/thread."</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"Чтобы добавить устройство в сеть Thread \"<xliff:g id="DEVICE">%1$s</xliff:g>\", отсканируйте этот QR-код в приложении устройства или введите код доступа.\n \nКод обновляется раз в <xliff:g id="MINUTES">%2$s</xliff:g> мин.\n \nПодробнее: g.co/tv/thread."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ОК"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Далее"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Подключиться к другой сети"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"Настроить"</string>
     <string name="captions_language" msgid="5905918439449912646">"Язык"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"По умолчанию"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"Размер текста"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Стиль титров"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Персональные настройки"</string>
@@ -805,7 +810,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"Желтый"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Пурпурный"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Аудиодескрипция"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Аудиосопровождение в фильмах и сериалах поможет вам понять, что происходит на экране"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Аудиосопровождение в поддерживаемых фильмах и сериалах поможет вам понять, что происходит на экране"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Включить"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Конфигурация"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Включить <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
@@ -1161,11 +1166,11 @@
     <string name="remove_device_admin" msgid="2623866073546295104">"Отключить это приложение администратора"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Удалить приложение"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Отключить и удалить"</string>
-    <string name="select_device_admin_msg" msgid="5480836736592618730">"Управление устройствами"</string>
+    <string name="select_device_admin_msg" msgid="5480836736592618730">"Администрирование устройства"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Приложение администратора устройства"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Активировать это приложение администратора"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"После того как вы активируете это приложение администратора, приложение \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" сможет выполнять следующие действия:"</string>
-    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Приложение \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" будет отслеживать это устройство и управлять им."</string>
+    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g>_0 будет использоваться для отслеживания этого устройства и управления им."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Приложение администратора активно и разрешает приложению \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" выполнять следующие операции:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Администратор будет управлять этим профилем и сможет сохранять связанные с ним данные, а также вашу личную информацию.\n\nКроме того, администратор сможет контролировать и изменять настройки и параметры доступа, а также управлять приложениями и данными этого пользователя, в том числе получать сведения о действиях в сети и местоположении."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"Разрешить доступ к информации об ошибке?"</string>

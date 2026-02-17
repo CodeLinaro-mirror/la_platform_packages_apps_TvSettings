@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"I-share ang mga kredensyal ng Thread network"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"I-share ang mga kredensyal ng Thread network sa mga bagong device para makasali sila sa Thread network ng <xliff:g id="DEVICE">%1$s</xliff:g> mo"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"Kumuha ng bagong code"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"Magre-refresh ang code sa loob ng <xliff:g id="MINUTES">%1$02d</xliff:g>m <xliff:g id="SECONDS">%2$02d</xliff:g>s"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"Magre-refresh ang code sa &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g>m <xliff:g id="SECONDS">%2$02d</xliff:g>s&lt;/b&gt;"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Hindi ma-share ang mga kredensyal ng Thread"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"I-scan ang bagong QR code o ilagay ang bagong code sa pag-share sa device app"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Na-share ang mga kredensyal ng Thread"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Kini-clear nito ang impormasyong ginamit upang kumonekta sa network, kasama ang na-save na password"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Sumali sa Wi-Fi sa pamamagitan ng pag-scan ng QR code mula sa mobile phone at sundin ang mga tagubilin.\n \n Mula sa "<b>"Android Phone"</b>", pumunta sa Mga Setting -&gt; Network at internet -&gt; Wi-Fi -&gt; Pumili ng Wi-Fi -&gt; Advanced -&gt; Magdagdag ng device at pagkatapos ay i-scan ang QR code."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Pindutin ang button na bumalik para kanselahin"</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR code para sa pagkonekta sa Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"I-share ang mga kredensyal ng Thread sa device"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"Para magdagdag ng device sa Thread network ng <xliff:g id="DEVICE">%1$s</xliff:g> mo, gamitin ang device app para i-scan ang QR code na ito o ilagay ang code sa pag-share.\n \n Magre-refresh ang code sa loob ng <xliff:g id="MINUTES">%2$s</xliff:g> (na) minuto.\n \n Matuto pa sa g.co/tv/thread"</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"Para magdagdag ng device sa Thread network ng <xliff:g id="DEVICE">%1$s</xliff:g> mo, gamitin ang device app para i-scan ang QR code na ito o ilagay ang code sa pag-share.\n \nMagre-refresh ang code bawat <xliff:g id="MINUTES">%2$s</xliff:g> (na) minuto.\n \nMatuto pa sa g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Magpatuloy"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Baguhin ang network"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"I-configure"</string>
     <string name="captions_language" msgid="5905918439449912646">"Wika"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Default"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"Laki ng text"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Istilo ng caption"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Mga custom na opsyon"</string>

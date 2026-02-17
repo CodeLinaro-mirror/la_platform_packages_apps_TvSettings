@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"ଥ୍ରେଡ ନେଟୱାର୍କ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରନ୍ତୁ"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"ନୂଆ ଡିଭାଇସଗୁଡ଼ିକ ସହ ଥ୍ରେଡ ନେଟୱାର୍କ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରନ୍ତୁ ଯାହା ଫଳରେ ସେଗୁଡ଼ିକ ଆପଣଙ୍କ <xliff:g id="DEVICE">%1$s</xliff:g> ଥ୍ରେଡ ନେଟୱାର୍କରେ ଯୋଗ ଦେଇପାରିବ"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"ନୂଆ କୋଡ ପାଆନ୍ତୁ"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"କୋଡ <xliff:g id="MINUTES">%1$02d</xliff:g> ମିନିଟ <xliff:g id="SECONDS">%2$02d</xliff:g> ସେକେଣ୍ଡରେ ରିଫ୍ରେସ ହେବ"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"କୋଡ &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> ମିନିଟ <xliff:g id="SECONDS">%2$02d</xliff:g> ସେକେଣ୍ଡ&lt;/b&gt;ରେ ରିଫ୍ରେସ ହେବ"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"ଥ୍ରେଡ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରାଯାଇପାରିବ ନାହିଁ"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"ନୂଆ QR କୋଡକୁ ସ୍କାନ କରନ୍ତୁ କିମ୍ବା ଡିଭାଇସ ଆପରେ ନୂଆ ସେୟାରିଂ କୋଡ ଲେଖନ୍ତୁ"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"ଥ୍ରେଡ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକ ସେୟାର କରାଯାଇଛି"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ସେଭ୍‌ ହୋଇଥିବା ପାସୱାର୍ଡ୍‌ ସହିତ, ଏହି ନେଟୱର୍କ୍‌କୁ କନେକ୍ଟ କରିବାକୁ ବ୍ୟବହୃତ ହୋଇଥିବା ସୂଚନାକୁ ଏହା ଖାଲି କରେ"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ଏକ ମୋବାଇଲ ଫୋନରୁ QR କୋଡ ସ୍କାନ କରି ୱାଇ-ଫାଇରେ ଯୋଗ କରିବା ପରେ ନିର୍ଦ୍ଦେଶାବଳୀର ଅନୁସରଣ କରନ୍ତୁ।\n \n ଏକ "<b>"Android ଫୋନ"</b>"ରୁ \"ସେଟିଂସ -&gt; ନେଟୱାର୍କ ଏବଂ ଇଣ୍ଟରନେଟ -&gt; ୱାଇ-ଫାଇ -&gt; ଏକ ୱାଇ-ଫାଇ ଚୟନ କରନ୍ତୁ -&gt; ଆଡଭାନ୍ସ -&gt; ଡିଭାଇସ ଯୋଗ କରନ୍ତୁ\"କୁ ଯାଆନ୍ତୁ ଏବଂ ତା\'ପରେ QR କୋଡ ସ୍କାନ୍ କରନ୍ତୁ।"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ବାତିଲ କରିବା ପାଇଁ \'ପଛକୁ ଫେରନ୍ତୁ\' ବଟନ୍ ଦବାନ୍ତୁ"</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"ୱାଇ-ଫାଇ ସହ କନେକ୍ଟ କରିବା ପାଇଁ QR କୋଡ"</string>
     <string name="share_thread_title" msgid="62095604026690777">"ଡିଭାଇସ ସହ ଥ୍ରେଡ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରନ୍ତୁ"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"ଆପଣଙ୍କ <xliff:g id="DEVICE">%1$s</xliff:g> ଥ୍ରେଡ ନେଟୱାର୍କରେ ଏକ ଡିଭାଇସ ଯୋଗ କରିବା ପାଇଁ, ଏହି QR କୋଡକୁ ସ୍କାନ କରିବାକୁ କିମ୍ବା ସେୟାରିଂ କୋଡ ଲେଖିବାକୁ ଡିଭାଇସ ଆପ ବ୍ୟବହାର କରନ୍ତୁ।\n \n କୋଡ <xliff:g id="MINUTES">%2$s</xliff:g> ମିନିଟରେ ରିଫ୍ରେସ ହେବ।\n \n g.co/tv/threadରେ ଅଧିକ ଜାଣନ୍ତୁ"</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"ଆପଣଙ୍କ <xliff:g id="DEVICE">%1$s</xliff:g> ଥ୍ରେଡ ନେଟୱାର୍କରେ ଏକ ଡିଭାଇସ ଯୋଗ କରିବା ପାଇଁ, ଏହି QR କୋଡକୁ ସ୍କାନ କରିବାକୁ କିମ୍ବା ସେୟାରିଂ କୋଡ ଲେଖିବାକୁ ଡିଭାଇସ ଆପ ବ୍ୟବହାର କରନ୍ତୁ।\n \nକୋଡ ପ୍ରତି <xliff:g id="MINUTES">%2$s</xliff:g> ମିନିଟରେ ରିଫ୍ରେସ ହେବ।\n \ng.co/tv/threadରେ ଅଧିକ ଜାଣନ୍ତୁ"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ଠିକ୍ ଅଛି"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ଜାରି ରଖନ୍ତୁ"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"ନେଟ୍‍ୱର୍କ ବଦଳାନ୍ତୁ"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"କନଫିଗର୍ କରନ୍ତୁ"</string>
     <string name="captions_language" msgid="5905918439449912646">"ଭାଷା"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"ଡିଫଲ୍ଟ"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"ଟେକ୍ସଟ୍‌ ଆକାର"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"କ୍ୟାପସନ୍‌ ଷ୍ଟାଇଲ୍‌"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"କଷ୍ଟମ୍‌ ବିକଳ୍ପଗୁଡ଼ିକ"</string>
@@ -1165,7 +1170,7 @@
     <string name="add_device_admin_msg" msgid="5390773166682603421">"ଡିଭାଇସ୍‌ ଆଡମିନ୍‌ ଆପ୍‌ ସକ୍ରିୟ କରିବେ?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"ଏହି ଡିଭାଇସ୍ ଆଡ୍‌ମିନ୍‌ ଆପ୍‌ ସକ୍ରିୟ କରନ୍ତୁ"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"ଏହି ଆଡମିନ ଆପକୁ ସକ୍ରିୟ କରିବା ଦ୍ୱାରା <xliff:g id="APP_NAME">%1$s</xliff:g> ଆପଟି ନିମ୍ନ କାର୍ଯ୍ୟଗୁଡ଼ିକ କରିପାରିବ:"</string>
-    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ଏହି ଡିଭାଇସ୍‌କୁ ପରିଚାଳନା ଏବଂ ତଦାରଖ କରିବ।"</string>
+    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ଏହି ଡିଭାଇସକୁ ପରିଚାଳନା ଏବଂ ମନିଟର କରିବ।"</string>
     <string name="device_admin_status" msgid="5467001937240455367">"ଏହି ଆଡମିନ୍‌ ଆପ୍‌ ସକ୍ରିୟ ଅଛି ଏବଂ <xliff:g id="APP_NAME">%1$s</xliff:g> ଆପ୍‌ ଦ୍ୱାରା ନିମ୍ନଲିଖିତ କାର୍ଯ୍ୟଗୁଡ଼ିକ କରାଉଛି:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"ଆଗକୁ ବଢ଼ିବାର ଅର୍ଥ, ଆପଣଙ୍କ ୟୁଜର ଆପଣଙ୍କ ଆଡମିନ ଦ୍ୱାରା ପରିଚାଳିତ ହେବେ ଯିଏ ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଡାଟା ସହିତ, ଜଡ଼ିତ ଅନ୍ୟାନ୍ୟ ଡାଟା ମଧ୍ୟ ଷ୍ଟୋର କରିପାରିବେ।\n\nଆପଣଙ୍କ ଆଡମିନଙ୍କ ପାଖରେ ନେଟୱାର୍କ  କାର୍ଯ୍ୟକଳାପ ଏବଂ ଆପଣଙ୍କ ଡିଭାଇସ ଲୋକେସନର ସୂଚନା ସମେତ ସେଟିଂସ, ଆକ୍ସେସ, ଆପ୍ସ ଏବଂ ୟୁଜରଙ୍କ ସହ ଜଡ଼ିତ ଡାଟା ତଦାରଖ କରିବା ତଥା ପରିଚାଳନା କରିବାର କ୍ଷମତା ଅଛି।"</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"ତୃଟି ସମ୍ପର୍କିତ ରିପୋର୍ଟ ସେୟାର୍‌ କରିବେ?"</string>

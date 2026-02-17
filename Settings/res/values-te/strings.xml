@@ -28,7 +28,7 @@
     <string name="action_off_description" msgid="1368039592272701910">"ఆఫ్‌లో ఉంది"</string>
     <string name="agree" msgid="8155497436593889753">"అంగీకరిస్తున్నాను"</string>
     <string name="disagree" msgid="7402998517682194430">"తిరస్కరిస్తున్నాను"</string>
-    <string name="enabled" msgid="5127188665060746381">"ఎనేబుల్ చేయబడింది"</string>
+    <string name="enabled" msgid="5127188665060746381">"ఎనేబుల్ అయింది"</string>
     <string name="disabled" msgid="4589065923272201387">"డిజేబుల్ చేయబడింది"</string>
     <string name="unavailable" msgid="1610732303812180196">"అందుబాటులో లేదు"</string>
     <string name="allow" msgid="6982558814345894019">"అనుమతించండి"</string>
@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Thread నెట్‌వర్క్ ఆధారాలను షేర్ చేయండి"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"కొత్త డివైజ్‌లతో Thread నెట్‌వర్క్ ఆధారాలను షేర్ చేయండి, తద్వారా అవి మీ <xliff:g id="DEVICE">%1$s</xliff:g> Thread నెట్‌వర్క్‌లో చేరగలవు"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"కొత్త కోడ్‌ను పొందండి"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"<xliff:g id="MINUTES">%1$02d</xliff:g>ని <xliff:g id="SECONDS">%2$02d</xliff:g>సె లోపు కోడ్ రిఫ్రెష్ అవుతుంది"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"&lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g>ని <xliff:g id="SECONDS">%2$02d</xliff:g>సె&lt;/b&gt;లో కోడ్ రిఫ్రెష్ అవుతుంది"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Thread ఆధారాలను షేర్ చేయడం సాధ్యపడదు"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"కొత్త QR కోడ్‌ను స్కాన్ చేయండి లేదా డివైజ్ యాప్‌లో కొత్త షేరింగ్ కోడ్‌ను ఎంటర్ చేయండి"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Thread ఆధారాలను షేర్ చేశారు"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ఇది సేవ్ చేసిన పాస్‌వర్డ్‌తో సహా ఈ నెట్‌వర్క్‌కి కనెక్ట్ చేయడా. ఉపయో. సమాచారాన్ని క్లియర్ చేస్తుంది"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" మీ మొబైల్ ఫోన్‌లో QR కోడ్‌ను స్కాన్ చేయడం ద్వారా Wi-Fiకి కనెక్ట్ అవండి, సూచనను ఫాలో చేయండి.\n \n Android ఫోన్ "<b>"లో"</b>" సెట్టింగ్‌లు -&gt; నెట్‌వర్క్ &amp; ఇంటర్నెట్ -&gt; Wi-Fiకి వెళ్లండి -&gt; Wi-Fi -&gt; అధునాతనంను ఎంచుకోండి -&gt; పరికరాన్ని జోడించి, ఆపై QR కోడ్‌ను స్కాన్ చేయండి."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"రద్దు చేయడానికి \'వెనుకకు\' బటన్‌ను నొక్కండి"</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fiకి కనెక్ట్ అవ్వడానికి QR కోడ్"</string>
     <string name="share_thread_title" msgid="62095604026690777">"డివైజ్‌కు Thread ఆధారాలను షేర్ చేయండి"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"మీ <xliff:g id="DEVICE">%1$s</xliff:g> Thread నెట్‌వర్క్‌కు డివైజ్‌ను జోడించడానికి, ఈ QR కోడ్‌ను స్కాన్ చేయడానికి లేదా షేరింగ్ కోడ్‌ను ఎంటర్ చేయడానికి, డివైజ్ యాప్‌ను ఉపయోగించండి.\n \n <xliff:g id="MINUTES">%2$s</xliff:g> నిమిషాల్లో కోడ్ రిఫ్రెష్ అవుతుంది.\n \n g.co/tv/thread లింక్‌లో మరింత తెలుసుకోండి"</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"మీ <xliff:g id="DEVICE">%1$s</xliff:g> Thread నెట్‌వర్క్‌కు డివైజ్‌ను జోడించడానికి, ఈ QR కోడ్‌ను స్కాన్ చేయడానికి లేదా షేరింగ్ కోడ్‌ను ఎంటర్ చేయడానికి, డివైజ్ యాప్‌ను ఉపయోగించండి.\n \nకోడ్ ప్రతి <xliff:g id="MINUTES">%2$s</xliff:g> నిమిషాలకు ఒకసారి రిఫ్రెష్ అవుతుంది.\n \n g.co/tv/thread లింక్‌లో మరింత తెలుసుకోండి"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"సరే"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"కొనసాగించండి"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"నెట్‌వర్క్‌ని మార్చండి"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"కాన్ఫిగర్ చేయి"</string>
     <string name="captions_language" msgid="5905918439449912646">"భాష"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"ఆటోమేటిక్"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"వచన సైజ్‌"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"క్యాప్షన్‌ శైలి"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"అనుకూల ఎంపికలు"</string>
@@ -991,7 +996,7 @@
     <string name="label_done_key" msgid="8576286462300373440">"పూర్తయింది"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"విజయవంతంగా కనెక్ట్ చేయబడింది"</string>
     <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ఇప్పటికే కనెక్ట్ అయ్యింది"</string>
-    <string name="wifi_setup_save_success" msgid="6862510218032734919">"విజయవంతంగా సేవ్ చేయబడింది"</string>
+    <string name="wifi_setup_save_success" msgid="6862510218032734919">"విజయవంతంగా సేవ్ అయింది"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"వెర్షన్‌ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"తెరువు"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"ఫోర్స్ స్టాప్"</string>
@@ -1104,7 +1109,7 @@
     <string name="directory_access" msgid="7338555825237012006">"డైరెక్టరీ యాక్సెస్"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"నిర్దిష్ట డైరెక్టరీలను యాక్సెస్ చేయడానికి ఈ యాప్‌లు అనుమతిని కలిగి ఉన్నాయి."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
-    <string name="system_alert_window_settings" msgid="5790572489650085051">"ఇతర యాప్‌ల ఎగువన ప్రదర్శన"</string>
+    <string name="system_alert_window_settings" msgid="5790572489650085051">"ఇతర యాప్‌ల పైన డిస్‌ప్లే"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"ఇతర యాప్‌ల ఎగువన కనిపించడానికి అనుమతించండి"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"మీరు ఉపయోగించే ఇతర యాప్‌లలో ఎగువ భాగంలో కనిపించడం కోసం ఒక యాప్‌ని అనుమతించండి. మీరు ఆ యాప్‌లను ఉపయోగించే సమయంలో ఇది అంతరాయం కలిగించవచ్చు లేదా అవి కనిపించే లేదా ప్రవర్తించే తీరును మార్చవచ్చు."</string>
     <string name="media_management_apps_title" msgid="4896585493944143777">"మీడియా మేనేజ్‌మెంట్ యాప్‌లు"</string>

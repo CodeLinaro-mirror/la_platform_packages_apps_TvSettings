@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"แชร์ข้อมูลเข้าสู่ระบบของเครือข่าย Thread"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"แชร์ข้อมูลเข้าสู่ระบบของเครือข่าย Thread กับอุปกรณ์ใหม่เพื่อให้เข้าร่วมเครือข่าย Thread ของ <xliff:g id="DEVICE">%1$s</xliff:g> ได้"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"ขอรหัสใหม่"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"คิวอาร์โค้ดจะรีเฟรชในอีก <xliff:g id="MINUTES">%1$02d</xliff:g> นาที <xliff:g id="SECONDS">%2$02d</xliff:g> วินาที"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"คิวอาร์โค้ดจะรีเฟรชใน &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> นาที <xliff:g id="SECONDS">%2$02d</xliff:g> วินาที&lt;/b&gt;"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"แชร์ข้อมูลเข้าสู่ระบบของ Thread ไม่ได้"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"สแกนคิวอาร์โค้ดใหม่หรือป้อนรหัสการแชร์ใหม่ในแอปจัดการอุปกรณ์"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"แชร์ข้อมูลเข้าสู่ระบบ Thread แล้ว"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"การดำเนินการนี้จะล้างข้อมูลที่ใช้เพื่อเชื่อมต่อกับเครือข่ายนี้ ซึ่งรวมถึงรหัสผ่านที่บันทึกไว้ด้วย"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" เข้าร่วม Wi-Fi โดยสแกนคิวอาร์โค้ดจากโทรศัพท์มือถือแล้วทำตามวิธีการ\n \n จาก"<b>"โทรศัพท์ Android"</b>" ให้ไปที่การตั้งค่า -&gt; เครือข่ายและอินเทอร์เน็ต -&gt; Wi-Fi -&gt; เลือก Wi-Fi -&gt; ขั้นสูง -&gt; เพิ่มอุปกรณ์แล้วสแกนคิวอาร์โค้ด"</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"กดปุ่มย้อนกลับเพื่อยกเลิก"</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"คิวอาร์โค้ดสำหรับการเชื่อมต่อ Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"แชร์ข้อมูลเข้าสู่ระบบ Thread กับอุปกรณ์"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"หากต้องการเพิ่มอุปกรณ์ไปยังเครือข่าย Thread ของ <xliff:g id="DEVICE">%1$s</xliff:g> ให้ใช้แอปจัดการอุปกรณ์เพื่อสแกนคิวอาร์โค้ดนี้หรือป้อนรหัสการแชร์\n \n คิวอาร์โค้ดจะรีเฟรชในอีก <xliff:g id="MINUTES">%2$s</xliff:g> นาที\n \n ดูข้อมูลเพิ่มเติมที่ g.co/tv/thread"</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"หากต้องการเพิ่มอุปกรณ์ไปยังเครือข่าย Thread ของ <xliff:g id="DEVICE">%1$s</xliff:g> ให้ใช้แอปจัดการอุปกรณ์เพื่อสแกนคิวอาร์โค้ดนี้หรือป้อนรหัสการแชร์\n \nคิวอาร์โค้ดจะรีเฟรชทุก <xliff:g id="MINUTES">%2$s</xliff:g> นาที\n \nดูข้อมูลเพิ่มเติมที่ g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ตกลง"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ต่อไป"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"เปลี่ยนเครือข่าย"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"กำหนดค่า"</string>
     <string name="captions_language" msgid="5905918439449912646">"ภาษา"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"ค่าเริ่มต้น"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"ขนาดข้อความ"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"รูปแบบคำบรรยาย"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"ตัวเลือกที่กำหนดเอง"</string>

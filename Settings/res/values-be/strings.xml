@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Абагуліць сеткавыя ўліковыя даныя Thread"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"Абагульце ўліковыя даныя сеткі Thread з новымі прыладамі, каб яны маглі далучыцца да сеткі Thread прылады \"<xliff:g id="DEVICE">%1$s</xliff:g>\""</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"Атрымаць новы код"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"Код абновіцца праз <xliff:g id="MINUTES">%1$02d</xliff:g> хв <xliff:g id="SECONDS">%2$02d</xliff:g> с"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"Код абновіцца праз &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> хв <xliff:g id="SECONDS">%2$02d</xliff:g> с&lt;/b&gt;"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Не ўдаецца абагуліць уліковыя даныя Thread"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"Адсканіруйце новы QR-код або ўвядзіце новы код абагульвання ў праграме для прылады"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Уліковыя даныя Thread абагулены"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Гэта ачышчае інфармацыю, якая выкарыстоўваецца для падключэння да гэтай сеткі, у тым ліку пароль"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Каб далучыцца да сеткі Wi-Fi, адсканіруйце QR-код з мабільнага тэлефона і выканайце інструкцыі.\n \n На "<b>"тэлефоне Android"</b>" адкрыйце Налады -&gt; Сетка &amp; інтэрнэт -&gt; Wi-Fi -&gt; выберыце Wi-Fi -&gt; Пашыраныя налады -&gt; Дадаць прыладу, а потым адсканіруйце QR-код."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Каб скасаваць, націсніце кнопку \"Назад\""</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-код для падключэння да Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Абагульванне ўліковых даных Thread з прыладай"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"Каб дадаць прыладу ў сетку Thread прылады \"<xliff:g id="DEVICE">%1$s</xliff:g>\", адсканіруйце гэты QR-код у праграме для прылады або ўвядзіце код абагульвання.\n \n Код абновіцца праз <xliff:g id="MINUTES">%2$s</xliff:g> хв.\n \n Даведайцеся больш на старонцы g.co/tv/thread"</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"Каб дадаць прыладу ў сетку Thread прылады \"<xliff:g id="DEVICE">%1$s</xliff:g>\", адсканіруйце гэты QR-код у праграме для прылады або ўвядзіце код абагульвання.\n \nКод будзе абнаўляцца з перыядычнасцю <xliff:g id="MINUTES">%2$s</xliff:g> хв.\n \nДаведацца больш на старонцы g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Працягнуць"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Змяніць сетку"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"Канфігураваць"</string>
     <string name="captions_language" msgid="5905918439449912646">"Мова"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Стандартнае"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"Памер тэксту"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Стыль цітраў"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Карыстальніцкія параметры"</string>

@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Del legitimasjon for Thread-nettverk"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"Del legitimasjon for Thread-nettverket med nye enheter, slik at de kan bli med i Thread-nettverket for <xliff:g id="DEVICE">%1$s</xliff:g>"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"Få en ny kode"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"Koden fornyes om <xliff:g id="MINUTES">%1$02d</xliff:g> min <xliff:g id="SECONDS">%2$02d</xliff:g> s"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"Koden fornyes om &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> min <xliff:g id="SECONDS">%2$02d</xliff:g> s&lt;/b&gt;"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Kan ikke dele Thread-legitimasjon"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"Skann den nye QR-koden, eller skriv inn den nye delingskoden i enhetsappen"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Thread-legitimasjonen er delt"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Dette sletter informasjonen som brukes til å koble til dette nettverket, inkludert lagrede passord"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Koble til et wifi-nettverk ved å skanne QR-koden fra en mobiltelefon og følge veiledningen.\n \n Fra en "<b>"Android-telefon"</b>" går du til Innstillinger -&gt; Nettverk og internett -&gt; Wifi -&gt; Velg et wifi-nettverk -&gt; Avansert -&gt; Legg til en enhet og skanner QR-koden."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Trykk på tilbakeknappen for å avbryte"</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-kode for å koble til wifi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Del Thread-legitimasjon med enheten"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"For å legge til en enhet i <xliff:g id="DEVICE">%1$s</xliff:g> Thread-nettverket ditt, bruk enhetsappen til å skanne denne QR-koden eller skrive inn delingskoden.\n \n Koden lastes inn på nytt om <xliff:g id="MINUTES">%2$s</xliff:g> minutter.\n \n Finn ut mer på g.co/tv/thread"</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"For å legge til en enhet i <xliff:g id="DEVICE">%1$s</xliff:g> Thread-nettverket ditt, bruk enhetsappen til å skanne denne QR-koden eller skrive inn delingskoden.\n \nKoden lastes inn på nytt hvert <xliff:g id="MINUTES">%2$s</xliff:g>. minutt.\n \nFinn ut mer på g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Fortsett"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Endre nettverk"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"Konfigurer"</string>
     <string name="captions_language" msgid="5905918439449912646">"Språk"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Standard"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"Tekststørrelse"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Tekststil"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Tilpassede alternativer"</string>

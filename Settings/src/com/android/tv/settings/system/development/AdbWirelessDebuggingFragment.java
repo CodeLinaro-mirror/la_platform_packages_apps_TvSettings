@@ -41,6 +41,7 @@ import android.os.Looper;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.provider.Settings;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -49,7 +50,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Keep;
-import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
 import androidx.leanback.widget.GuidedActionsStylist;
@@ -73,8 +73,8 @@ import java.util.Map;
  * the developer options.
  */
 @Keep
-public class WirelessDebuggingFragment extends SettingsPreferenceFragment {
-    private static final String TAG = "WirelessDebuggingFrag";
+public class AdbWirelessDebuggingFragment extends SettingsPreferenceFragment {
+    private static final String TAG = AdbWirelessDebuggingFragment.class.getSimpleName();
 
     private static final String PREF_KEY_ADB_WIRELESS_SELECTION_OPTION =
             "adb_wireless_selection_option";
@@ -144,7 +144,7 @@ public class WirelessDebuggingFragment extends SettingsPreferenceFragment {
         mIntentFilter = new IntentFilter(AdbManager.WIRELESS_DEBUG_PAIRED_DEVICES_ACTION);
         mIntentFilter.addAction(AdbManager.WIRELESS_DEBUG_STATE_CHANGED_ACTION);
 
-        initAdbWirelessSelectionOptionPreference();
+        updatePreferenceState();
     }
 
     @Override
@@ -204,39 +204,30 @@ public class WirelessDebuggingFragment extends SettingsPreferenceFragment {
         return super.onPreferenceTreeClick(preference);
     }
 
-    private void initAdbWirelessSelectionOptionPreference() {
+    private void updatePreferenceState() {
         boolean enabled = Settings.Global.getInt(getContext().getContentResolver(),
                 Settings.Global.ADB_WIFI_ENABLED, 1) != 0;
-        setWirelessDebuggingRadioButtonEnabled(enabled);
-    }
 
-    private void updatePreferenceState() {
-        if (!isNetworkConnected()) {
-            showBlankPreferences();
-        } else {
-            boolean enabled = Settings.Global.getInt(getContext().getContentResolver(),
-                    Settings.Global.ADB_WIFI_ENABLED, 1) != 0;
-            if (enabled) {
-                showDebuggingPreferences();
-                try {
-                    FingerprintAndPairDevice[] newList = mAdbManager.getPairedDevices();
-                    Map<String, PairDevice> newMap = new HashMap<>();
-                    for (FingerprintAndPairDevice pair : newList) {
-                        newMap.put(pair.keyFingerprint, pair.device);
-                    }
-                    updatePairedDevicePreferences(newMap);
-                    int connectionPort = mAdbManager.getAdbWirelessPort();
-                    if (connectionPort > 0) {
-                        Log.i(TAG, "onEnabled(): connect_port=" + connectionPort);
-                    }
-                } catch (RemoteException e) {
-                    Log.e(TAG, "Unable to request the paired list for Adb wireless");
-                }
-                updateAdbIpAddressPreference();
-            } else {
-                showOffMessage();
-            }
+        if (!enabled) {
+            showOffMessage();
+            return;
         }
+
+        showDebuggingPreferences();
+        try {
+            FingerprintAndPairDevice[] newList = mAdbManager.getPairedDevices();
+            Map<String, PairDevice> newMap = new HashMap<>();
+            for (FingerprintAndPairDevice pair : newList) {
+                newMap.put(pair.keyFingerprint, pair.device);
+            }
+            updatePairedDevicePreferences(newMap);
+            int connectionPort = mAdbManager.getAdbWirelessPort();
+            Log.i(TAG, "updatePreferenceState(): connect_port=" + connectionPort);
+            mCodePairingPreference.setEnabled(connectionPort > 0);
+        } catch (RemoteException e) {
+            Log.e(TAG, "Unable to request the paired list for Adb wireless");
+        }
+        updateAdbIpAddressPreference();
     }
 
     private void showBlankPreferences() {
@@ -351,23 +342,15 @@ public class WirelessDebuggingFragment extends SettingsPreferenceFragment {
         return deviceName;
     }
 
-    private boolean isNetworkConnected() {
-        NetworkInfo activeNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
-        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
-    }
-
     private String getIpAddressPort() {
         String ipAddress = getWifiIpv4Address();
-        if (ipAddress != null) {
-            int port = getAdbWirelessPort();
-            if (port <= 0) {
-                return getString(R.string.status_unavailable);
-            } else {
-                ipAddress += ":" + port;
-            }
-            return ipAddress;
+        int port = getAdbWirelessPort();
+        if (ipAddress == null) {
+            return getContext().getString(R.string.adb_wireless_unavailable_disconnected);
+        } else if (port <= 0) {
+            return getContext().getString(R.string.adb_wireless_unavailable_not_allowed);
         } else {
-            return getString(R.string.status_unavailable);
+            return TextUtils.formatSimple("%s:%d", ipAddress, port);
         }
     }
 

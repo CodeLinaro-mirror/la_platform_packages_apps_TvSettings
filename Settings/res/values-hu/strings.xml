@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Thread-hálózat hitelesítési adatainak megosztása"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"Megoszthatja a Thread-hálózat hitelesítési adatait az új eszközökkel, hogy csatlakozhassanak a(z) <xliff:g id="DEVICE">%1$s</xliff:g> Thread-hálózatához."</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"Új kód igénylése"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"A kód <xliff:g id="MINUTES">%1$02d</xliff:g> perc <xliff:g id="SECONDS">%2$02d</xliff:g> másodperc múlva frissül"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"A kód &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> p <xliff:g id="SECONDS">%2$02d</xliff:g> mp&lt;/b&gt; múlva frissül"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Nem lehet megosztani a Thread hitelesítési adatokat"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"Olvassa be az új QR-kódot, vagy adja meg az új megosztási kódot az eszközalkalmazásban."</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Thread hitelesítési adatok megosztva"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Ezzel törli a hálózathoz való kapcsolódás során használt adatokat, beleértve a mentett jelszót is"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" A Wi-Fi-hez való csatlakozáshoz olvassa be a QR-kódot mobiltelefonról, majd kövesse az utasításokat.\n\n "<b>"Android-telefon"</b>" esetén lépjen a Beállítások &gt; Hálózat és internet &gt; Wi-Fi ponthoz &gt; válassza ki a kívánt Wi-Fi-hálózatot &gt; a Speciális &gt; Eszköz hozzáadása elemet, majd olvassa be a QR-kódot."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"A megszakításhoz nyomja meg a vissza gombot"</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-kód a Wi-Fi-hálózathoz való csatlakozáshoz"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Thread hitelesítési adatok megosztása eszközzel"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"Ha eszközt szeretne hozzáadni a(z) <xliff:g id="DEVICE">%1$s</xliff:g> Thread-hálózathoz, olvassa be ezt a QR-kódot az eszközalkalmazásban, vagy adja meg a megosztási kódot.\n \n A kód <xliff:g id="MINUTES">%2$s</xliff:g> perc múlva frissül.\n \n További információ: g.co/tv/thread."</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"Ha eszközt szeretne hozzáadni a(z) <xliff:g id="DEVICE">%1$s</xliff:g> Thread-hálózathoz, olvassa be ezt a QR-kódot az eszközalkalmazásban, vagy adja meg a megosztási kódot.\n \nA kód <xliff:g id="MINUTES">%2$s</xliff:g> percenként frissül.\n \nTovábbi információ: g.co/tv/thread."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Tovább"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Hálózat módosítása"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"Beállítás"</string>
     <string name="captions_language" msgid="5905918439449912646">"Nyelv"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Alapértelmezett"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"Szöveg mérete"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Felirat stílusa"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Egyéni beállítások"</string>

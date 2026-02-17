@@ -97,7 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Thread ನೆಟ್‌ವರ್ಕ್ ರುಜುವಾತುಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"ಹೊಸ ಸಾಧನಗಳೊಂದಿಗೆ ಥ್ರೆಡ್ ನೆಟ್‌ವರ್ಕ್ ರುಜುವಾತುಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ, ಇದರಿಂದ ಅವುಗಳು ನಿಮ್ಮ <xliff:g id="DEVICE">%1$s</xliff:g> ಥ್ರೆಡ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸೇರಬಹುದು"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"ಹೊಸ ಕೋಡ್ ಅನ್ನು ಪಡೆದುಕೊಳ್ಳಿ"</string>
-    <string name="share_thread_network_countdown" msgid="5824738305197643767">"ಕೋಡ್ <xliff:g id="MINUTES">%1$02d</xliff:g> ನಿಮಿಷಗಳು <xliff:g id="SECONDS">%2$02d</xliff:g> ಸೆಕೆಂಡುಗಳಲ್ಲಿ ರಿಫ್ರೆಶ್ ಆಗುತ್ತದೆ"</string>
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"ಕೋಡ್ &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g>ನಿ <xliff:g id="SECONDS">%2$02d</xliff:g>ಸೆ&lt;/b&gt; ನಲ್ಲಿ ರಿಫ್ರೆಶ್ ಆಗುತ್ತದೆ"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"ಥ್ರೆಡ್ ರುಜುವಾತುಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಿಲ್ಲ"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"ಹೊಸ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಅಥವಾ ಡಿವೈಸ್ ಆ್ಯಪ್‌ನಲ್ಲಿ ಹೊಸ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"ಥ್ರೆಡ್ ರುಜುವಾತುಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ"</string>
@@ -499,7 +499,7 @@
     <string name="title_wifi_dns2" msgid="4563319371301555072">"DNS 2:"</string>
     <string name="title_wifi_proxy_settings_invalid" msgid="7698883245005941665">"ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮಾನ್ಯವಾಗಿಲ್ಲ"</string>
     <string name="title_wifi_ip_settings_invalid" msgid="7283801973512992014">"IP ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮಾನ್ಯವಾಗಿಲ್ಲ"</string>
-    <string name="title_wifi_known_network" msgid="6162483884727898697">"<xliff:g id="SSID">%1$s</xliff:g> ಒಂದು ಉಳಿಸಿದ ನೆಟ್‌ವರ್ಕ್"</string>
+    <string name="title_wifi_known_network" msgid="6162483884727898697">"<xliff:g id="SSID">%1$s</xliff:g> ಒಂದು ಸೇವ್ ಮಾಡಿದ ನೆಟ್‌ವರ್ಕ್"</string>
     <string name="title_wifi_scan_qr_code" msgid="7485605625055717874">"ಸೇರಿಕೊಳ್ಳಲು QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ"</string>
     <string name="wifi_action_try_again" msgid="8920677153891141148">"ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"</string>
     <string name="wifi_action_view_available_networks" msgid="609561604257828342">"ಲಭ್ಯವಿರುವ ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"</string>
@@ -511,8 +511,9 @@
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ಇದು ಉಳಿಸಲಾಗಿರುವ ಪಾಸ್‌ವರ್ಡ್ ಸೇರಿದಂತೆ, ಈ ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕಿಸಲು ಬಳಸಲಾಗಿರುವ ಮಾಹಿತಿಯನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ."</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" ನಿಮ್ಮ ಮೊಬೈಲ್ ಫೋನ್‌ ಸಹಾಯದಿಂದ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ವೈಫೈಗೆ ಸೇರಿ ಹಾಗೂ ಸೂಚನೆಗಳನ್ನು ಅನುಸರಿಸಿ.\n \n "<b>"Android ಫೋನ್‌ನಿಂದ"</b>" ಸೆಟ್ಟಿಂಗ್‌ಗಳು -&gt; ನೆಟ್‌ವರ್ಕ್ &amp; ಇಂಟರ್ನೆಟ್ -&gt; ವೈ-ಫೈ -&gt; ವೈ-ಫೈ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ -&gt; ಸುಧಾರಿತ -&gt; ಸಾಧನವನ್ನು ಸೇರಿಸಿ ಮತ್ತು ನಂತರ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಆಯ್ಕೆಗೆ ಹೋಗಿ."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ರದ್ದುಗೊಳಿಸಲು, ಹಿಂದಿರುಗು ಬಟನ್ ಅನ್ನು ಒತ್ತಿ"</string>
+    <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"ವೈ-ಫೈಗೆ ಕನೆಕ್ಟ್ ಮಾಡಲು QR ಕೋಡ್"</string>
     <string name="share_thread_title" msgid="62095604026690777">"ಸಾಧನದೊಂದಿಗೆ ಥ್ರೆಡ್ ರುಜುವಾತುಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ"</string>
-    <string name="share_thread_description" msgid="2514639045690367112">"ನಿಮ್ಮ <xliff:g id="DEVICE">%1$s</xliff:g> ಥ್ರೆಡ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಾಧನವನ್ನು ಸೇರಿಸಲು, ಈ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಲು ಡಿವೈಸ್ ಆ್ಯಪ್ ಅನ್ನು ಬಳಸಿ.\n \n ಕೋಡ್ <xliff:g id="MINUTES">%2$s</xliff:g> ನಿಮಿಷಗಳಲ್ಲಿ ರಿಫ್ರೆಶ್ ಆಗುತ್ತದೆ.\n \n g.co/tv/thread ನಲ್ಲಿ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"</string>
+    <string name="share_thread_description" msgid="4103244691980867041">"ನಿಮ್ಮ <xliff:g id="DEVICE">%1$s</xliff:g> ಥ್ರೆಡ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಾಧನವನ್ನು ಸೇರಿಸಲು, ಈ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಲು ಡಿವೈಸ್ ಆ್ಯಪ್ ಅನ್ನು ಬಳಸಿ.\n \nಕೋಡ್ ಪ್ರತಿ <xliff:g id="MINUTES">%2$s</xliff:g> ನಿಮಿಷಗಳಿಗೊಮ್ಮೆ ರಿಫ್ರೆಶ್ ಆಗುತ್ತದೆ.\n \ng.co/tv/thread ನಲ್ಲಿ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ಸರಿ"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ಮುಂದುವರಿಸಿ"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"ನೆಟ್‌ವರ್ಕ್ ಅನ್ನು ಬದಲಾಯಿಸಿ"</string>
@@ -583,7 +584,7 @@
     <string name="storage_free_up" msgid="5719667150891467122">"ಸಂಗ್ರಹಣೆಯನ್ನು ಮುಕ್ತಗೊಳಿಸಿ"</string>
     <string name="storage_free_up_clear_cached_data" msgid="858596875459698634">"ಕ್ಯಾಷ್ ಮಾಡಿದ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
     <string name="storage_free_up_clear_cached_data_summary" msgid="3111860361699185304">"<xliff:g id="SPACE">%1$s</xliff:g> ಮುಕ್ತಗೊಳಿಸಿ"</string>
-    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"ಸ್ಥಳವನ್ನು ಬಳಸುವ ತಾತ್ಕಾಲಿಕ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ. ಇದು ಆ್ಯಪ್‌ನ ಆದ್ಯತೆಗಳು ಅಥವಾ ಆಫ್‌ಲೈನ್ ವೀಡಿಯೊಗಳಂತಹ ಉಳಿಸಿದ ಡೇಟಾದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ ಮತ್ತು ನೀವು ಮತ್ತೊಮ್ಮೆ ಆ್ಯಪ್‌ಗಳಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಬೇಕಾಗುವುದಿಲ್ಲ."</string>
+    <string name="storage_free_up_clear_cached_data_info" msgid="719348815620748812">"ಸ್ಥಳವನ್ನು ಬಳಸುವ ತಾತ್ಕಾಲಿಕ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ. ಇದು ಆ್ಯಪ್‌ನ ಆದ್ಯತೆಗಳು ಅಥವಾ ಆಫ್‌ಲೈನ್ ವೀಡಿಯೊಗಳಂತಹ ಸೇವ್ ಮಾಡಿದ ಡೇಟಾದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ ಮತ್ತು ನೀವು ಮತ್ತೊಮ್ಮೆ ಆ್ಯಪ್‌ಗಳಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಬೇಕಾಗುವುದಿಲ್ಲ."</string>
     <string name="storage_free_up_clear_cached_data_confirm_title" msgid="5047418718048910850">"ಕ್ಯಾಷ್ ಮಾಡಿದ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಬೇಕೇ?"</string>
     <string name="storage_free_up_clear_cached_data_confirm_description" msgid="4840728913914074729">"ಇದು ಆ್ಯಪ್‌ಗಳ ಕ್ಯಾಷ್ ಮಾಡಿದ ಡೇಟಾ ತೆರವುಗೊಳಿಸುತ್ತದೆ."</string>
     <string name="storage_free_up_uninstall_apps" msgid="7755671754934975908">"ಆ್ಯಪ್‌ಗಳನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
@@ -636,8 +637,8 @@
     <string name="insufficient_storage" msgid="4175940286022466535">"ಸಾಕಷ್ಟು ಸಂಗ್ರಹಣೆ ಸ್ಥಳ ಇಲ್ಲ"</string>
     <string name="does_not_exist" msgid="4071082040759146781">"ಆ್ಯಪ್‌ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ."</string>
     <string name="invalid_location" msgid="5571789982293787489">"ಸ್ಥಾಪನೆ ಸ್ಥಾನವು ಮಾನ್ಯವಾಗಿಲ್ಲ."</string>
-    <string name="system_package" msgid="8276098460517049146">"ಸಿಸ್ಟಂ ನವೀಕರಣಗಳನ್ನು ಬಾಹ್ಯ ಮಾಧ್ಯಮದಲ್ಲಿ ಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
-    <string name="move_error_device_admin" msgid="4144472536756635173">"ಸಾಧನ ನಿರ್ವಾಹಕವನ್ನು ಬಾಹ್ಯ ಮಾಧ್ಯಮದಲ್ಲಿ ಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
+    <string name="system_package" msgid="8276098460517049146">"ಸಿಸ್ಟಂ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಬಾಹ್ಯ ಮಾಧ್ಯಮದಲ್ಲಿ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
+    <string name="move_error_device_admin" msgid="4144472536756635173">"ಸಾಧನ ನಿರ್ವಾಹಕವನ್ನು ಬಾಹ್ಯ ಮಾಧ್ಯಮದಲ್ಲಿ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
     <string name="learn_more_action" msgid="7972102006620925604">"ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"</string>
     <string name="system_date" msgid="2503462662633178207">"ದಿನಾಂಕ"</string>
     <string name="system_time" msgid="8434726081412227535">"ಸಮಯ"</string>
@@ -776,6 +777,10 @@
     <string name="captions_configure" msgid="711991018642931958">"ಕಾನ್ಫಿಗರ್ ಮಾಡು"</string>
     <string name="captions_language" msgid="5905918439449912646">"ಭಾಷೆ"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"ಡಿಫಾಲ್ಟ್"</string>
+    <!-- no translation found for captions_easy_reader (5875452680577116736) -->
+    <skip />
+    <!-- no translation found for captions_easy_reader_subtext (5618704539662246401) -->
+    <skip />
     <string name="captions_textsize" msgid="7161136610669343510">"ಪಠ್ಯದ ಗಾತ್ರ"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"ಶೀರ್ಷಿಕೆಯ ಶೈಲಿ"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"ಕಸ್ಟಮ್‌ ಆಯ್ಕೆಗಳು"</string>
@@ -1102,7 +1107,7 @@
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"ಸಂಪರ್ಕ ಹೆಸರುಗಳು ಮತ್ತು ನೀವು ಸ್ವೀಕರಿಸುವ ಸಂದೇಶಗಳ ಪಠ್ಯದಂತಹ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ ಸೇರಿದಂತೆ ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಎಲ್ಲ ಅಧಿಸೂಚನೆಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ಇವುಗಳಿಗೆ ಅಧಿಸೂಚನೆಗಳನ್ನು ವಜಾ ಮಾಡಲು ಅಥವಾ ಅವುಗಳು ಹೊಂದಿರುವಂತಹ ಕ್ರಿಯೆ ಬಟನ್‌ಗಳನ್ನು ಟ್ರಿಗ್ಗರ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ."</string>
     <string name="default_notification_access_package_summary" msgid="1354775994781420222">"ಸಿಸ್ಟಂಗೆ ಅಗತ್ಯವಿದೆ"</string>
     <string name="directory_access" msgid="7338555825237012006">"ಡೈರೆಕ್ಟರಿ ಆ್ಯಕ್ಸೆಸ್"</string>
-    <string name="directory_access_description" msgid="3630855858552422012">"ಕೆಲವು ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಅನುಮತಿ ಇದೆ."</string>
+    <string name="directory_access_description" msgid="3630855858552422012">"ಕೆಲವು ಡೈರೆಕ್ಟರಿಗಳನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು ಈ ಆ್ಯಪ್‌ಗಳಿಗೆ ಅನುಮತಿ ಇದೆ."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
     <string name="system_alert_window_settings" msgid="5790572489650085051">"ಇತರ ಆ್ಯಪ್‌ ಮೇಲೆ ಡಿಸ್‌ಪ್ಲೇ"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"‍ಇತರ ಆ್ಯಪ್ ಮೇಲೆ ಡಿಸ್‌ಪ್ಲೇ ಮಾಡಲು ಅನುಮತಿಸಿ"</string>
