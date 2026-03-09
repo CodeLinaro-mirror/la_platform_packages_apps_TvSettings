@@ -97,8 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"分享 Thread 網絡憑證"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"與新裝置分享 Thread 網絡憑證，以便裝置加入你 <xliff:g id="DEVICE">%1$s</xliff:g> 的 Thread 網絡"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"取得新的驗證碼"</string>
-    <!-- no translation found for share_thread_network_countdown (7747298870038480936) -->
-    <skip />
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"代碼會在 &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> 分鐘 <xliff:g id="SECONDS">%2$02d</xliff:g> 秒&lt;/b&gt;後重新整理"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"無法分享 Thread 憑證"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"在裝置應用程式中掃瞄新的 QR 碼或輸入新的分享代碼"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"已分享 Thread 憑證"</string>
@@ -514,7 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"按一下返回按鈕以取消"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"連接 Wi-Fi 用嘅二維碼"</string>
     <string name="share_thread_title" msgid="62095604026690777">"與裝置分享 Thread 憑證"</string>
-    <!-- no translation found for share_thread_description (4103244691980867041) -->
+    <!-- no translation found for share_thread_description (4612384761284266789) -->
     <skip />
     <string name="wifi_action_ok" msgid="6257483288047397880">"確定"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"繼續"</string>
@@ -779,6 +778,8 @@
     <string name="captions_configure" msgid="711991018642931958">"設定"</string>
     <string name="captions_language" msgid="5905918439449912646">"語言"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"預設"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"簡單用語"</string>
+    <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"較容易理解的簡單版字幕"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"文字大小"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"字幕樣式"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"自訂選項"</string>

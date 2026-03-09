@@ -97,8 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"스레드 네트워크 사용자 인증 정보 공유"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"새 기기가 <xliff:g id="DEVICE">%1$s</xliff:g> 스레드 네트워크에 연결될 수 있도록 스레드 네트워크 사용자 인증 정보를 새 기기와 공유하세요."</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"새 코드 받기"</string>
-    <!-- no translation found for share_thread_network_countdown (7747298870038480936) -->
-    <skip />
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"&lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g>분 <xliff:g id="SECONDS">%2$02d</xliff:g>초&lt;/b&gt; 후에 코드가 새로고침됩니다."</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"스레드 사용자 인증 정보를 공유할 수 없음"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"새 QR 코드를 스캔하거나 기기 앱에 새 공유 코드를 입력하세요."</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"스레드 사용자 인증 정보가 공유됨"</string>
@@ -402,8 +401,8 @@
     <string name="about_ads" msgid="7662896442040086522">"광고"</string>
     <string name="ads_description" msgid="8081069475265061074">"광고 관련 설정을 조정합니다."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"광고, 광고 ID 재설정 등의 광고 설정을 관리합니다."</string>
-    <string name="show_dev_on" msgid="612741433124106067">"개발자가 되셨습니다."</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"이미 개발자입니다."</string>
+    <string name="show_dev_on" msgid="612741433124106067">"개발자로 설정되었습니다"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"이미 개발자로 설정되어 있습니다"</string>
     <string name="device_info_default" msgid="2374506935205518448">"알 수 없음"</string>
     <string name="selinux_status" msgid="1146662734953021410">"SELinux 상태"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"사용 중지됨"</string>
@@ -514,7 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"취소하려면 뒤로 버튼을 누르세요."</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fi 연결을 위한 QR 코드"</string>
     <string name="share_thread_title" msgid="62095604026690777">"기기와 스레드 사용자 인증 정보 공유"</string>
-    <!-- no translation found for share_thread_description (4103244691980867041) -->
+    <!-- no translation found for share_thread_description (4612384761284266789) -->
     <skip />
     <string name="wifi_action_ok" msgid="6257483288047397880">"확인"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"계속"</string>
@@ -779,6 +778,8 @@
     <string name="captions_configure" msgid="711991018642931958">"설정"</string>
     <string name="captions_language" msgid="5905918439449912646">"언어"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"기본값"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"쉬운 자막"</string>
+    <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"더 쉽게 이해할 수 있도록 간단하게 작성된 자막입니다"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"텍스트 크기"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"자막 스타일"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"맞춤 옵션"</string>

@@ -97,8 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Partekatu Thread sarerako kredentzialak"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"Partekatu Thread sareko kredentzialak gailu berriekin, <xliff:g id="DEVICE">%1$s</xliff:g> gailuaren Thread sarean sar daitezen"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"Lortu beste kode bat"</string>
-    <!-- no translation found for share_thread_network_countdown (7747298870038480936) -->
-    <skip />
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"&lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> min eta <xliff:g id="SECONDS">%2$02d</xliff:g> s barru&lt;/b&gt; freskatuko da kodea"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Ezin dira partekatu Thread-eko kredentzialak"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"Eskaneatu QR kode berria edo idatzi partekatzeko kode berria gailuaren aplikazioan"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Partekatu dira Thread-eko kredentzialak"</string>
@@ -514,7 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Bertan behera uzteko, sakatu Atzera botoia"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wifira konektatzeko QR kodea"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Partekatu Thread-eko kredentzialak gailuarekin"</string>
-    <!-- no translation found for share_thread_description (4103244691980867041) -->
+    <!-- no translation found for share_thread_description (4612384761284266789) -->
     <skip />
     <string name="wifi_action_ok" msgid="6257483288047397880">"Ados"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Egin aurrera"</string>
@@ -779,6 +778,8 @@
     <string name="captions_configure" msgid="711991018642931958">"Konfiguratu"</string>
     <string name="captions_language" msgid="5905918439449912646">"Hizkuntza"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Lehenetsia"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"Irakurterrazak"</string>
+    <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"Azpititulu sinpleagoak, errazago ulertzeko"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"Testuaren tamaina"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Azpitituluen estiloa"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Aukera pertsonalizatuak"</string>

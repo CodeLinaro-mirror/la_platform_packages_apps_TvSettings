@@ -97,8 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Споделете ги акредитивите за мрежата Thread"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"Споделете ги акредитивите за мрежата Thread со новите уреди за да може да се придружат во мрежата Thread на <xliff:g id="DEVICE">%1$s</xliff:g>"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"Побарајте нов код"</string>
-    <!-- no translation found for share_thread_network_countdown (7747298870038480936) -->
-    <skip />
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"Кодот ќе се освежи за &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> м. <xliff:g id="SECONDS">%2$02d</xliff:g> с.&lt;/b&gt;"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"Не може да се споделат акредитивите за Thread"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"Скенирајте го новиот QR-код или внесете го новиот код за споделување во апликацијата на уредот"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"Акредитивите за Thread се споделени"</string>
@@ -514,7 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Притиснете го копчето за назад за да откажете"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-код за поврзување на Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Споделете ги акредитивите за Thread со уредот"</string>
-    <!-- no translation found for share_thread_description (4103244691980867041) -->
+    <!-- no translation found for share_thread_description (4612384761284266789) -->
     <skip />
     <string name="wifi_action_ok" msgid="6257483288047397880">"Во ред"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Продолжете"</string>
@@ -779,6 +778,8 @@
     <string name="captions_configure" msgid="711991018642931958">"Конфигурирај"</string>
     <string name="captions_language" msgid="5905918439449912646">"Јазик"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Стандардно"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"За лесно читање"</string>
+    <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"Поедноставни титлови за полесно разбирање"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"Големина на текстот"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Стил на затворени титлови"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Приспособени опции"</string>
@@ -1168,7 +1169,7 @@
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Да се активира аплик. за администратор?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Активирај ја апликацијата за администратор на уредот"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"Со активирање на апликацијата за администраторот ќе се дозволи апликацијата <xliff:g id="APP_NAME">%1$s</xliff:g> да ги извршува следниве операции:"</string>
-    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ќе управува со уредов и ќе го надгледува."</string>
+    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"„<xliff:g id="APP_NAME">%1$s</xliff:g>“ ќе управува со уредов и ќе го надгледува."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Апликацијата за администраторот е активна и дозволува апликацијата <xliff:g id="APP_NAME">%1$s</xliff:g> да ги извршува следниве операции:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Ако продолжите, администраторот ќе управува со вашиот корисник, а ќе може и да складира поврзани податоци, заедно со вашите лични податоци.\n\nАдминистраторот може да ги следи поставките, пристапот, апликациите и податоците поврзани со овој корисник и да управува со нив, како и со мрежната активност и информациите за локацијата на уредот."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"Да се сподели извештајот за грешки?"</string>

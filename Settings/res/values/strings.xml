@@ -1320,7 +1320,7 @@
     <!-- Description of the screen to share thread credentials through QR code [CHAR LIMIT=NONE]. -->
     <string name="share_thread_description">
         To add a device to your <xliff:g id="device" example="Google TV Streamer">%1$s</xliff:g> Thread network, use the device app to scan this QR code or enter the sharing code.\n
-        \nCode will refresh every <xliff:g id="minutes" example="3">%2$s</xliff:g> minutes.\n
+        \nNote: Using these codes allows the device app to administer, manage, and add devices to this Thread network. Do not share codes with apps you do not trust.\n
         \nLearn more at g.co/tv/thread
     </string>
 
@@ -1919,6 +1919,12 @@
     <string name="captions_language">Language</string>
     <!-- Entry for "default" selection for captions language [CHAR LIMOIT=50] -->
     <string name="captions_language_default">Default</string>
+    <!-- Title for Easy Reader captions setting. Easy Reader refers to simplified language at 3rd
+     grade reading level. It may be called the equivalent of Easy Language in other languages.
+     See also captions_easy_reader_subtext string. [CHAR LIMIT=50] -->
+    <string name="captions_easy_reader">Easy Reader</string>
+    <!-- Subtext used under the captions_easy_reader string to give more information on what the setting means. [CHAR LIMIT=50] -->
+    <string name="captions_easy_reader_subtext">Simpler captions for easier understanding</string>
     <!-- Title for captions text size setting [CHAR LIMIT=50] -->
     <string name="captions_textsize">Text size</string>
     <!-- Title for captions style setting [CHAR LIMIT=50] -->

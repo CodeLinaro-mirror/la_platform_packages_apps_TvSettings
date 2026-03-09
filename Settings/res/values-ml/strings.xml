@@ -97,8 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"Thread നെറ്റ്‌വർക്ക് ക്രെഡൻഷ്യലുകൾ പങ്കിടുക"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"പുതിയ ഉപകരണങ്ങളുമായി ത്രെഡ് നെറ്റ്‌വർക്ക് ക്രെഡൻഷ്യലുകൾ പങ്കിടുക, അതുവഴി അവയ്ക്ക് നിങ്ങളുടെ <xliff:g id="DEVICE">%1$s</xliff:g> ത്രെഡ് നെറ്റ്‌വർക്കിൽ ചേരാനാകും"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"പുതിയ കോഡ് നേടുക"</string>
-    <!-- no translation found for share_thread_network_countdown (7747298870038480936) -->
-    <skip />
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"&lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> മിനിറ്റ് <xliff:g id="SECONDS">%2$02d</xliff:g> സെക്കൻഡിനുള്ളിൽ&lt;/b&gt; കോഡ് റീഫ്രഷ് ചെയ്യും"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"ത്രെഡ് ക്രെഡൻഷ്യലുകൾ പങ്കിടാനാകില്ല"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"പുതിയ QR കോഡ് സ്‌കാൻ ചെയ്യുക അല്ലെങ്കിൽ ഉപകരണ ആപ്പിൽ പുതിയ പങ്കിടൽ കോഡ് നൽകുക"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"ത്രെഡ് ക്രെഡൻഷ്യലുകൾ പങ്കിട്ടു"</string>
@@ -514,7 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"റദ്ദാക്കാൻ, മടങ്ങുക ബട്ടൺ അമർത്തുക"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"വൈഫൈയിലേക്ക് കണക്റ്റ് ചെയ്യുന്നതിനുള്ള QR കോഡ്"</string>
     <string name="share_thread_title" msgid="62095604026690777">"ഉപകരണവുമായി ത്രെഡ് ക്രെഡൻഷ്യലുകൾ പങ്കിടുക"</string>
-    <!-- no translation found for share_thread_description (4103244691980867041) -->
+    <!-- no translation found for share_thread_description (4612384761284266789) -->
     <skip />
     <string name="wifi_action_ok" msgid="6257483288047397880">"ശരി"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"തുടരുക"</string>
@@ -779,6 +778,8 @@
     <string name="captions_configure" msgid="711991018642931958">"കോൺഫിഗർ ചെയ്യുക"</string>
     <string name="captions_language" msgid="5905918439449912646">"ഭാഷ"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"ഡിഫോൾട്ട്"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"എളുപ്പം വായിക്കാവുന്നത്"</string>
+    <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"എളുപ്പത്തിൽ മനസ്സിലാക്കാൻ ലളിതമായ അടിക്കുറിപ്പുകൾ"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"ടെക്‌സ്‌റ്റ് വലുപ്പം"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"അടിക്കുറിപ്പ് ശൈലി"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"ഇഷ്‌ടാനുസൃത ഓപ്‌ഷനുകൾ"</string>

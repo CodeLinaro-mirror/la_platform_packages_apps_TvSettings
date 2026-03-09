@@ -97,8 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"ଥ୍ରେଡ ନେଟୱାର୍କ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରନ୍ତୁ"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"ନୂଆ ଡିଭାଇସଗୁଡ଼ିକ ସହ ଥ୍ରେଡ ନେଟୱାର୍କ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରନ୍ତୁ ଯାହା ଫଳରେ ସେଗୁଡ଼ିକ ଆପଣଙ୍କ <xliff:g id="DEVICE">%1$s</xliff:g> ଥ୍ରେଡ ନେଟୱାର୍କରେ ଯୋଗ ଦେଇପାରିବ"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"ନୂଆ କୋଡ ପାଆନ୍ତୁ"</string>
-    <!-- no translation found for share_thread_network_countdown (7747298870038480936) -->
-    <skip />
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"କୋଡ &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g> ମିନିଟ <xliff:g id="SECONDS">%2$02d</xliff:g> ସେକେଣ୍ଡ&lt;/b&gt;ରେ ରିଫ୍ରେସ ହେବ"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"ଥ୍ରେଡ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରାଯାଇପାରିବ ନାହିଁ"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"ନୂଆ QR କୋଡକୁ ସ୍କାନ କରନ୍ତୁ କିମ୍ବା ଡିଭାଇସ ଆପରେ ନୂଆ ସେୟାରିଂ କୋଡ ଲେଖନ୍ତୁ"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"ଥ୍ରେଡ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକ ସେୟାର କରାଯାଇଛି"</string>
@@ -514,7 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ବାତିଲ କରିବା ପାଇଁ \'ପଛକୁ ଫେରନ୍ତୁ\' ବଟନ୍ ଦବାନ୍ତୁ"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"ୱାଇ-ଫାଇ ସହ କନେକ୍ଟ କରିବା ପାଇଁ QR କୋଡ"</string>
     <string name="share_thread_title" msgid="62095604026690777">"ଡିଭାଇସ ସହ ଥ୍ରେଡ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ ସେୟାର କରନ୍ତୁ"</string>
-    <!-- no translation found for share_thread_description (4103244691980867041) -->
+    <!-- no translation found for share_thread_description (4612384761284266789) -->
     <skip />
     <string name="wifi_action_ok" msgid="6257483288047397880">"ଠିକ୍ ଅଛି"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ଜାରି ରଖନ୍ତୁ"</string>
@@ -779,6 +778,8 @@
     <string name="captions_configure" msgid="711991018642931958">"କନଫିଗର୍ କରନ୍ତୁ"</string>
     <string name="captions_language" msgid="5905918439449912646">"ଭାଷା"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"ଡିଫଲ୍ଟ"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"ସହଜରେ ପଢ଼ି ହେଉଥିବା"</string>
+    <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"ସହଜରେ ବୁଝିବା ପାଇଁ ସରଳ କେପ୍ସନ"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"ଟେକ୍ସଟ୍‌ ଆକାର"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"କ୍ୟାପସନ୍‌ ଷ୍ଟାଇଲ୍‌"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"କଷ୍ଟମ୍‌ ବିକଳ୍ପଗୁଡ଼ିକ"</string>

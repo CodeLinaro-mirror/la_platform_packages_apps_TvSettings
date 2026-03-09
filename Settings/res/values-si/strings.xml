@@ -97,8 +97,7 @@
     <string name="share_thread_network" msgid="1976613832000966535">"පොට ජාල අක්තපත්‍ර බෙදා ගන්න"</string>
     <string name="share_thread_network_description" msgid="4288391787128615463">"නව උපාංග සමග පොට ජාල අක්තපත්‍ර බෙදා ගන්න එවිට ඔවුන්ට ඔබේ <xliff:g id="DEVICE">%1$s</xliff:g> පොට ජාලයට සම්බන්ධ විය හැක"</string>
     <string name="thread_network_share_again" msgid="1164851319443381573">"නව කේතය ලබා ගන්න"</string>
-    <!-- no translation found for share_thread_network_countdown (7747298870038480936) -->
-    <skip />
+    <string name="share_thread_network_countdown" msgid="7747298870038480936">"කේතය &lt;b&gt;<xliff:g id="MINUTES">%1$02d</xliff:g>m <xliff:g id="SECONDS">%2$02d</xliff:g>s&lt;/b&gt; තුළ නැවුම් වනු ඇත"</string>
     <string name="thread_network_sharing_failed" msgid="7696975871112489720">"පොට අක්තපත්‍ර බෙදා ගත නොහැක"</string>
     <string name="thread_network_sharing_failure_user_tips" msgid="8379268618358441120">"නව QR කේතය ස්කෑන් කරන්න හෝ උපාංග යෙදුමේ නව බෙදා ගැනීමේ කේතය ඇතුළු කරන්න"</string>
     <string name="thread_network_sharing_success" msgid="9080142738599803612">"පොට අක්තපත්‍ර බෙදා ගන්නා ලදි"</string>
@@ -514,7 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"අවලංගු කිරීමට ආපසු බොත්තම ඔබන්න"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fi වෙත සම්බන්ධ වීමට QR කේතය"</string>
     <string name="share_thread_title" msgid="62095604026690777">"උපාංගය සමග පොට අක්තපත්‍ර බෙදා ගන්න"</string>
-    <!-- no translation found for share_thread_description (4103244691980867041) -->
+    <!-- no translation found for share_thread_description (4612384761284266789) -->
     <skip />
     <string name="wifi_action_ok" msgid="6257483288047397880">"හරි"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ඉදිරියට යන්න"</string>
@@ -779,6 +778,8 @@
     <string name="captions_configure" msgid="711991018642931958">"වින්‍යාස කිරීම"</string>
     <string name="captions_language" msgid="5905918439449912646">"භාෂාව"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"පෙරනිමි"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"පහසු කියවනය"</string>
+    <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"පහසු අවබෝධය සඳහා සරල සිරස්තල"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"පෙළ ප්‍රමාණය"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"සිරස්තල මෝස්තරය"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"අභිරුචි විකල්ප"</string>
