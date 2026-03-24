@@ -357,7 +357,7 @@
     <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"«VPN همیشه روشن» در نمایه شخصی شما روشن شد"</string>
     <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"«VPN همیشه روشن» در نمایه کاری شما روشن شد"</string>
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"تنظیم پروکسی HTTP جهانی"</string>
-    <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"اطلاعات کاربری مطمئن"</string>
+    <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"اعتبارنامه‌های مطمئن"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"اطلاعات کاربری مطمئن در نمایه شخصی شما"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"اطلاعات کاربری مطمئن در نمایه کاری شما"</string>
     <string name="enterprise_privacy_number_ca_certs" msgid="5918439861975410142">"{count,plural, =1{# گواهینامه مرکز صدور گواهی}one{# گواهینامه مرکز صدور گواهی}other{# گواهینامه مرکز صدور گواهی}}"</string>
@@ -452,7 +452,7 @@
     <string name="title_random_mac_settings" msgid="6685812569356353378">"حریم خصوصی"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"استفاده کردن از MAC تصادفی (پیش‌فرض)"</item>
-    <item msgid="2490415280467390067">"استفاده از MAC دستگاه"</item>
+    <item msgid="2490415280467390067">"استفاده کردن از MAC دستگاه"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"موجود نیست"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"MAC تصادفی"</string>
@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"دکمه برگشت را برای لغو کردن فشار دهید"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"رمزینه پاسخ‌سریع برای اتصال به Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"هم‌رسانی کردن اعتبارنامه‌های Thread با دستگاه"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"برای افزودن یک دستگاه به شبکه Thread در <xliff:g id="DEVICE">%1$s</xliff:g>، بااستفاده از برنامه دستگاه این رمزینه پاسخ‌سریع را اسکن کنید یا کد هم‌رسانی را وارد کنید.\n \nتوجه: استفاده از این کدها به برنامه دستگاه اجازه می‌دهد دستگاه‌ها را به این شبکه Thread اضافه کند، آن‌ها را مدیریت کند، و بر آن‌ها نظارت داشته باشد. کدها را با برنامه‌هایی که به آن‌ها اعتماد ندارید هم‌رسانی نکنید.\n \n با مراجعه به g.co/tv/thread، بیشتر بدانید."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"قبول"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ادامه"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"تغییر شبکه"</string>
