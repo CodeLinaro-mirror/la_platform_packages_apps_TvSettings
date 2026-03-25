@@ -777,7 +777,7 @@
     <string name="captions_configure" msgid="711991018642931958">"ಕಾನ್ಫಿಗರ್ ಮಾಡು"</string>
     <string name="captions_language" msgid="5905918439449912646">"ಭಾಷೆ"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"ಡಿಫಾಲ್ಟ್"</string>
-    <string name="captions_easy_reader" msgid="5875452680577116736">"ಸುಲಭವಾಗಿ ಅರ್ಥವಾಗುವಿಕೆ"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"ಸುಲಭ ರೀಡರ್‌"</string>
     <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"ಸುಲಭವಾಗಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಸರಳವಾದ ಕ್ಯಾಪ್ಶನ್‌ಗಳು"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"ಪಠ್ಯದ ಗಾತ್ರ"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"ಶೀರ್ಷಿಕೆಯ ಶೈಲಿ"</string>
@@ -818,11 +818,6 @@
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"ಪಠ್ಯದಿಂದ ಧ್ವನಿ"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"ಎಂಜಿನ್ ಕಾನ್ಫಿಗರೇಶನ್‌"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಹೇಳು"</string>
-    <string name="tv_watchdog_disabled_apps_title" msgid="1014928469590933264">"ಸಿಸ್ಟಂನಿಂದ ಆ್ಯಪ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"</string>
-    <string name="tv_watchdog_disabled_apps_description" msgid="4040531833486957489">"ಈ ಕೆಳಗಿನ ಆ್ಯಪ್‌ಗಳು ಸಿಸ್ಟಂನ ಆಂತರಿಕ ಮೆಮೊರಿಯ ಮೇಲೆ ಅತಿಯಾದ ಒತ್ತಡವನ್ನು ಬೀರುತ್ತಿರುವುದರಿಂದ ಅವುಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ, ಇದು ನಿಮ್ಮ ಟಿವಿಯ ಮೇಲೆ ಅನಗತ್ಯ ಒತ್ತಡವನ್ನುಂಟುಮಾಡಬಹುದು. ನೀವು ಇಲ್ಲಿ ಆ್ಯಪ್‌ಗಳನ್ನು ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು, ಆದರೆ ಸಮಸ್ಯೆ ಮತ್ತೆ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು."</string>
-    <string name="tv_watchdog_no_disabled_apps_title" msgid="3208334991455581516">"ಪ್ರಸ್ತುತ ಯಾವುದೇ ಆ್ಯಪ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿಲ್ಲ"</string>
-    <string name="tv_watchdog_no_disabled_apps_summary" msgid="1270915059677860169">"ಅತಿಯಾದ ಬಳಕೆಯಿಂದ ಟಿವಿಯ ಆಂತರಿಕ ಮೆಮೊರಿಗೆ ಉಂಟಾಗುವ ಹಾನಿಯಿಂದ ರಕ್ಷಿಸಲು ಕೆಲವು ಆ್ಯಪ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು."</string>
-    <string name="tv_watchdog_disabled_app_summary" msgid="4208203041423742722">"ಪ್ರಸ್ತುತ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ಈ ಆ್ಯಪ್‌ ಅನ್ನು ಮತ್ತೆ ಬಳಸಲು ಆನ್‌ ಮಾಡಿ."</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"ಪ್ರಾಶಸ್ತ್ಯದ ಎಂಜಿನ್"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"ಮಾತಿನ ದರ"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"ಮಾದರಿ ಪ್ಲೇ ಮಾಡಿ"</string>

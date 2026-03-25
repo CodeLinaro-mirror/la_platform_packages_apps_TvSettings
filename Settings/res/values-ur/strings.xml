@@ -779,7 +779,7 @@
     <string name="captions_language_default" msgid="3894192926725192528">"ڈیفالٹ"</string>
     <string name="captions_easy_reader" msgid="5875452680577116736">"آسانی سے پڑھا جا سکنے والا"</string>
     <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"آسانی سے سمجھنے کیلئے آسان کیپشنز"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"ٹیکسٹ کا سائز"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"متن کا سائز"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"کیپشن کا طرز"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"حسب ضرورت اختیارات"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"فونٹ فیملی"</string>
@@ -818,11 +818,6 @@
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"ٹیکسٹ ٹو اسپیچ"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"انجن کی کنفیگریشن"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"پاس ورڈز بولیں"</string>
-    <string name="tv_watchdog_disabled_apps_title" msgid="1014928469590933264">"سسٹم کے ذریعے ایپس کو غیر فعال کر دیا گیا"</string>
-    <string name="tv_watchdog_disabled_apps_description" msgid="4040531833486957489">"درج ذیل ایپس کو غیر فعال کر دیا گیا کیونکہ وہ سسٹم کی داخلی میموری پر ضرورت سے زیادہ دباؤ ڈال رہی تھیں، جس کی وجہ سے آپ کے TV پر غیر ضروری طور پر اثر پڑ سکتا ہے۔ آپ یہاں ایپس کو دوبارہ فعال کر سکتے ہیں، لیکن مسئلہ دوبارہ پیش آ سکتا ہے۔"</string>
-    <string name="tv_watchdog_no_disabled_apps_title" msgid="3208334991455581516">"فی الحال کوئی ایپ غیر فعال نہیں ہے"</string>
-    <string name="tv_watchdog_no_disabled_apps_summary" msgid="1270915059677860169">"‫TV کی داخلی میموری کو زیادہ استعمال سے بچانے کے لیے کچھ ایپس کو غیر فعال کیا جا سکتا ہے۔"</string>
-    <string name="tv_watchdog_disabled_app_summary" msgid="4208203041423742722">"فی الحال غیر فعال ہے۔ اس ایپ کو دوبارہ استعمال کرنے کے لیے آن کریں۔"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"ترجیحی انجن"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"اسپیچ کی شرح"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"نمونہ چلائیں"</string>
