@@ -780,7 +780,7 @@
     <string name="captions_easy_reader" msgid="5875452680577116736">"సులభంగా చదవగలిగేది"</string>
     <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"సులభంగా అర్థం చేసుకోవడానికి సరళమైన క్యాప్షన్‌లు"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"వచన సైజ్‌"</string>
-    <string name="captions_captionstyle" msgid="6650139717545516071">"క్యాప్షన్‌ శైలి"</string>
+    <string name="captions_captionstyle" msgid="6650139717545516071">"క్యాప్షన్‌ స్టయిల్"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"అనుకూల ఎంపికలు"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"ఫాంట్ కుటుంబం"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"వచనం రంగు"</string>
@@ -818,6 +818,11 @@
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"టెక్స్ట్ టు స్పీచ్"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"ఇంజిన్ కాన్ఫిగరేషన్"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"పాస్‌వర్డ్‌లను చదివి వినిపించండి"</string>
+    <string name="tv_watchdog_disabled_apps_title" msgid="1014928469590933264">"సిస్టమ్ ద్వారా డిజేబుల్ అయిన యాప్‌లు"</string>
+    <string name="tv_watchdog_disabled_apps_description" msgid="4040531833486957489">"కింది యాప్‌లు సిస్టమ్ ఇంటర్నల్ మెమరీపై అధిక ఒత్తిడిని కలిగిస్తున్నందున డిజేబుల్ అయ్యాయి, ఇది మీ టీవీపై అనవసరమైన ఒత్తిడిని కలిగించే అవకాశం ఉంది. మీరు ఇక్కడ యాప్‌లను మళ్లీ ఎనేబుల్ చేయవచ్చు, కానీ మళ్లీ సమస్య తలెత్తే అవకాశం ఉంటుంది."</string>
+    <string name="tv_watchdog_no_disabled_apps_title" msgid="3208334991455581516">"ప్రస్తుతం యాప్‌లు ఏవీ డిజేబుల్ కాలేదు"</string>
+    <string name="tv_watchdog_no_disabled_apps_summary" msgid="1270915059677860169">"అధిక వినియోగం కలిగే నష్టం నుండి టీవీ ఇంటర్నల్ మెమరీని రక్షించడానికి కొన్ని యాప్‌లను డిజేబుల్ చేయవచ్చు."</string>
+    <string name="tv_watchdog_disabled_app_summary" msgid="4208203041423742722">"ప్రస్తుతం డిజేబుల్ అయింది. ఈ యాప్‌ను మళ్లీ ఉపయోగించడానికి ఆన్ చేయండి."</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"ప్రాధాన్య ఇంజిన్"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"స్పీచ్ రేట్"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"నమూనాను ప్లే చేయి"</string>
