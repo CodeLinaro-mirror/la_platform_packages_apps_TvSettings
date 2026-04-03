@@ -777,7 +777,7 @@
     <string name="captions_configure" msgid="711991018642931958">"Konfiguro"</string>
     <string name="captions_language" msgid="5905918439449912646">"Gjuha"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"E parazgjedhur"</string>
-    <string name="captions_easy_reader" msgid="5875452680577116736">"Lexohet lehtësisht"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"Leximi i thjeshtuar"</string>
     <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"Titrat më të thjeshtë për kuptim më të lehtë"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"Madhësia e tekstit"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Stili i titrave"</string>
@@ -818,6 +818,11 @@
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Tekst në ligjërim"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Konfigurimi i motorit"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Thuaji fjalëkalimet me zë"</string>
+    <string name="tv_watchdog_disabled_apps_title" msgid="1014928469590933264">"Aplikacionet u çaktivizuan nga sistemi"</string>
+    <string name="tv_watchdog_disabled_apps_description" msgid="4040531833486957489">"Aplikacionet e mëposhtme u çaktivizuan sepse po i shkaktonin shumë ngarkesë memories së brendshme të sistemit, gjë që mund të shkaktojë konsumim të panevojshëm të televizorit. Mund t\'i aktivizosh përsëri aplikacionet këtu, por problemi mund të ndodhë përsëri."</string>
+    <string name="tv_watchdog_no_disabled_apps_title" msgid="3208334991455581516">"Nuk ka asnjë aplikacion të çaktivizuar aktualisht"</string>
+    <string name="tv_watchdog_no_disabled_apps_summary" msgid="1270915059677860169">"Disa aplikacione mund të çaktivizohen për të mbrojtur memorien e brendshme të televizorit nga konsumimi i tepërt."</string>
+    <string name="tv_watchdog_disabled_app_summary" msgid="4208203041423742722">"Aktualisht i çaktivizuar. Aktivizoje për ta përdorur përsëri këtë aplikacion."</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Motori i preferuar"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"Shpejtësia e të folurit"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Luaj një shembull"</string>
