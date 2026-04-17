@@ -116,9 +116,9 @@
   </string-array>
   <string-array name="volume_change_entries">
     <item msgid="8475727172583493318">"Þagga"</item>
-    <item msgid="2508680062291793288">"Lágt (20%)"</item>
-    <item msgid="2483057103949558629">"Miðlungs (50%)"</item>
-    <item msgid="6278092586736538014">"Hátt (80%)"</item>
+    <item msgid="7782487014440616923">"Lágt"</item>
+    <item msgid="4144915781952863183">"Miðlungs"</item>
+    <item msgid="4808901712413219556">"Hátt"</item>
   </string-array>
   <string-array name="backlight_modes">
     <item msgid="7900972906680877520">"Aldrei"</item>

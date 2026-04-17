@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"રદ કરવા માટે, \'પાછળ\' જવા માટેનું બટન દબાવો"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"વાઇ-ફાઇ સાથે કનેક્ટ કરવા માટેનો QR કોડ"</string>
     <string name="share_thread_title" msgid="62095604026690777">"ડિવાઇસ સાથે Threadની લૉગ ઇન વિગત શેર કરો"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"તમારા <xliff:g id="DEVICE">%1$s</xliff:g>ના Thread નેટવર્કમાં કોઈ ડિવાઇસ ઉમેરવા માટે, આ QR કોડ સ્કૅન કરવા અથવા શેરિંગ કોડ દાખલ કરવા માટે ડિવાઇસ ઍપનો ઉપયોગ કરો.\n \nનોંધ: આ કોડનો ઉપયોગ કરવાથી ડિવાઇસ ઍપને આ Thread નેટવર્કમાં ડિવાઇસનું સંચાલન કરવાની, તેમને મેનેજ કરવાની અને તેમને ઉમેરવાની મંજૂરી મળે છે. તમને વિશ્વાસ ન હોય તેવી ઍપ સાથે કોડ શેર કરશો નહીં.\n \n g.co/tv/thread પર વધુ જાણો"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ઓકે"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"આગળ વધો"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"નેટવર્ક બદલો"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"બગ રિપોર્ટ કૅપ્ચર કરી રહ્યાં છીએ"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"ઉપલબ્ધ વર્ચ્યુઅલ કીબોર્ડ"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"કીબોર્ડ મેનેજ કરો"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"વાસ્તવિક કીબોર્ડ"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"કીબોર્ડ લેઆઉટ પસંદ કરો"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"ડિફૉલ્ટ"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"મંજૂરી છે"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"મંજૂરી નથી"</string>
     <string name="usage_access" msgid="3555037254084707746">"ઍપ વપરાશનો ડેટા"</string>

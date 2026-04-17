@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Nospiediet pogu Atpakaļ, lai atceltu darbību."</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Kvadrātkods savienojuma izveidei ar Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Thread akreditācijas datu kopīgošana ar ierīci"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Ja vēlaties pievienot kādu ierīci savam “<xliff:g id="DEVICE">%1$s</xliff:g>” Thread tīklam, izmantojiet ierīces lietotni, lai skenētu šo kvadrātkodu vai ievadītu kopīgošanas kodu.\n \nPiezīme. Izmantojot šos kodus, ierīces lietotne var administrēt, pārvaldīt un pievienot ierīces šim Thread tīklam. Neizpaudiet kodus lietotnēm, kurām neuzticaties.\n \nUzziniet vairāk vietnē g.co/tv/thread."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Labi"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Turpināt"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Mainīt tīklu"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Notiek kļūdas pārskata izveide"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Pieejamās virtuālās tastatūras"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Pārvaldīt tastatūras"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Fiziskā tastatūra"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Tastatūras izkārtojuma izvēle"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Noklusējums"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Atļauta"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Nav atļauta"</string>
     <string name="usage_access" msgid="3555037254084707746">"Lietotņu lietojuma dati"</string>

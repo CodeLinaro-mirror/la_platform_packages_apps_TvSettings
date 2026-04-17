@@ -116,9 +116,9 @@
   </string-array>
   <string-array name="volume_change_entries">
     <item msgid="8475727172583493318">"Isključi zvuk"</item>
-    <item msgid="2508680062291793288">"Nisko (20%)"</item>
-    <item msgid="2483057103949558629">"Srednje (50%)"</item>
-    <item msgid="6278092586736538014">"Visoko (80%)"</item>
+    <item msgid="7782487014440616923">"Nisko"</item>
+    <item msgid="4144915781952863183">"Srednje"</item>
+    <item msgid="4808901712413219556">"Visoko"</item>
   </string-array>
   <string-array name="backlight_modes">
     <item msgid="7900972906680877520">"Nikada"</item>

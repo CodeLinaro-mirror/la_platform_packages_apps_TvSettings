@@ -116,9 +116,9 @@
   </string-array>
   <string-array name="volume_change_entries">
     <item msgid="8475727172583493318">"صامت کردن"</item>
-    <item msgid="2508680062291793288">"کم (۲۰٪)"</item>
-    <item msgid="2483057103949558629">"متوسط (۵۰٪)"</item>
-    <item msgid="6278092586736538014">"زیاد (۸۰٪)"</item>
+    <item msgid="7782487014440616923">"کم"</item>
+    <item msgid="4144915781952863183">"متوسط"</item>
+    <item msgid="4808901712413219556">"زیاد"</item>
   </string-array>
   <string-array name="backlight_modes">
     <item msgid="7900972906680877520">"هرگز"</item>

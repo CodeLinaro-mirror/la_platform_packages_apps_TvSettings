@@ -463,7 +463,7 @@
     <string name="not_connected" msgid="475810896484271663">"Қосылмаған"</string>
     <string name="wifi_no_internet" msgid="27421689535934864">"Интернет жоқ."</string>
     <string name="wifi_saved" msgid="4354792774811431829">"Сақталған"</string>
-    <string name="wifi_bad_password" msgid="8686375382346768922">"Құпия сөз қате енгізілді."</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Құпия сөз қате"</string>
     <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi құпия сөзі тым қысқа."</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"Есептік жазбаға кіру керек."</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Басқа опциялар"</string>
@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Бас тарту үшін \"Артқа\" түймесін басыңыз."</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fi желісіне қосылуға арналған QR коды"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Thread тіркелу деректерін құрылғымен бөлісу"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Құрылғыны <xliff:g id="DEVICE">%1$s</xliff:g> Thread желісіне қосу үшін құрылғы қолданбасын пайдаланып, осы QR кодын сканерлеңіз немесе бөлісу кодын енгізіңіз.\n \nЕскертпе: бұл кодтар пайдаланылса, құрылғы қолданбасы бұл Thread желісін басқара, реттей және оған құрылғыларды қоса алады. Кодтарды сенімсіз қолданбаларға жібермеңіз.\n \nТолық ақпаратты g.co/tv/thread веб-бетінен алыңыз."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Жарайды"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Жалғастыру"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Басқа желіге қосылу"</string>
@@ -848,7 +847,7 @@
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"ADB/ADT арқылы орнатылған қолданбаларда зиянды мінез-құлық бар-жоғын тексеру"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Wi-Fi егжей-тегжейлі журналға тіркеу"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Wi‑Fi егжей-тегжейлі журналға тіркеуді қосу"</string>
-    <string name="system_show_touches" msgid="8244331695139748286">"Түртулерді көрсету"</string>
+    <string name="system_show_touches" msgid="8244331695139748286">"Түрту әрекетін көрсету"</string>
     <string name="system_pointer_location" msgid="8724050865245555084">"Меңзер орны"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"Орналасу жиектерін көрсету"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"Графикалық процессор көрінісінің жаңартуларын көрсету"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Қате туралы есеп жасалуда"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Қолжетімді виртуалдық пернетақталар"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Пернетақталарды басқару"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Физикалық пернетақта"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Пернетақтаның орналасу ретін таңдау"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Әдепкі"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Рұқсат етілген"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Рұқсат етілмеген"</string>
     <string name="usage_access" msgid="3555037254084707746">"Пайдалану туралы дерек"</string>

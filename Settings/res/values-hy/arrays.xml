@@ -116,9 +116,9 @@
   </string-array>
   <string-array name="volume_change_entries">
     <item msgid="8475727172583493318">"Անջատել ձայնը"</item>
-    <item msgid="2508680062291793288">"Ցածր (20%)"</item>
-    <item msgid="2483057103949558629">"Միջին (50%)"</item>
-    <item msgid="6278092586736538014">"Բարձր (80%)"</item>
+    <item msgid="7782487014440616923">"Ցածր"</item>
+    <item msgid="4144915781952863183">"Միջին"</item>
+    <item msgid="4808901712413219556">"Բարձր"</item>
   </string-array>
   <string-array name="backlight_modes">
     <item msgid="7900972906680877520">"Երբեք"</item>

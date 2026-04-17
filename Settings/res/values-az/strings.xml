@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Ləğv etmək üçün Geri düyməsinə basın"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fi-a qoşulmaq üçün QR kodu"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Thread üzrə giriş məlumatlarını cihazla paylaşın"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"<xliff:g id="DEVICE">%1$s</xliff:g> Thread şəbəkənizə cihaz əlavə etmək üçün cihaz tətbiqindən istifadə edərək bu QR kodunu skanlayın və ya paylaşım kodunu daxil edin.\n \nQeyd: Bu kodlar cihaz tətbiqinə bu Thread şəbəkəsində cihazları əlavə etməyə, idarə etməyə və nəzarət etməyə imkan verir. Kodları etibar etmədiyiniz tətbiqlərlə paylaşmayın.\n \nƏtraflı məlumat: g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Davam edin"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Şəbəkəni dəyişin"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Baq hesabatı çəkilir"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Əlçatan virtual klaviaturalar"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Klaviaturaları idarə edin"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Fiziki klaviatura"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Klaviatura düzənini seçin"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Defolt"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"İcazəli"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"İcazə verilmir"</string>
     <string name="usage_access" msgid="3555037254084707746">"Tətbiq istifadəsi datası"</string>

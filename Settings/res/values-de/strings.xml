@@ -510,11 +510,10 @@
     <string name="wifi_forget_network_dialog_title" msgid="849302112447210343">"<xliff:g id="SSID">%1$s</xliff:g> entfernen?"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Löscht die Informationen für die Verbindung mit diesem Netzwerk, auch das gespeicherte Passwort"</string>
     <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Du kannst dich mit einem WLAN verbinden, indem du den QR-Code von einem Smartphone scannst und der Anleitung folgst.\n\nGeh auf einem "<b>"Android-Smartphone"</b>" zu den Einstellungen -&gt; „Netzwerk &amp; Internet“ -&gt; „WLAN“ -&gt; WLAN auswählen -&gt; „Erweitert“ -&gt; „Gerät hinzufügen“ und scann den QR-Code."</string>
-    <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Schaltfläche „Zurück“ drücken, um abzubrechen"</string>
+    <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Button „Zurück“ drücken, um abzubrechen"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-Code zum Herstellen einer WLAN-Verbindung"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Thread-Anmeldedaten mit Gerät teilen"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Wenn du deinem Thread-Netzwerk „<xliff:g id="DEVICE">%1$s</xliff:g>“ ein Gerät hinzufügen möchtest, scanne diesen QR-Code über die Geräte-App oder gib den Freigabecode ein.\n \nHinweis: Mithilfe dieser Codes kann die Geräte-App dieses Thread-Netzwerk verwalten und Geräte hinzufügen. Gib Codes nicht an Apps weiter, denen du nicht vertraust.\n \nWeitere Informationen findest du unter g.co/tv/thread."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Ok"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Weiter"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Netzwerk ändern"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Fehlerbericht wird aufgenommen"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Verfügbare Bildschirmtastaturen"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Tastaturen verwalten"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Physische Tastatur"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Tastaturlayout wählen"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Standard"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Zugelassen"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Nicht zugelassen"</string>
     <string name="usage_access" msgid="3555037254084707746">"App-Nutzungsdaten"</string>

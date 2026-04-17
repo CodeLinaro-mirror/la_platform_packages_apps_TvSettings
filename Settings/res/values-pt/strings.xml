@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Pressione o botão \"Voltar\" para cancelar"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR code para se conectar ao Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Compartilhar credenciais do Thread com o dispositivo"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Para adicionar um aparelho à sua rede Thread do <xliff:g id="DEVICE">%1$s</xliff:g>, use o app do dispositivo para ler deste QR code ou insira o código de compartilhamento.\n \nObservação: o uso desses códigos permite que o app do dispositivo administre, gerencie e adicione dispositivos a esta rede Thread. Não compartilhe códigos com apps em que você não confia.\n \nSaiba mais em g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Continuar"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Alterar rede"</string>
@@ -737,7 +736,7 @@
     <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"Protanomalia"</string>
     <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"Vermelho-verde"</string>
     <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"Tritanomalia"</string>
-    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"Azul-amarelo"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"Azul e amarelo"</string>
     <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"Escala de cinza"</string>
     <string name="palette_color_red" msgid="507196433434979086">"Vermelho"</string>
     <string name="palette_color_orange" msgid="6209196069366109835">"Laranja"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Capturando relatório de bug"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Teclados virtuais disponíveis"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Gerenciar teclados"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Teclado físico"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Escolha o layout do teclado"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Padrão"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Permitido"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Não permitido"</string>
     <string name="usage_access" msgid="3555037254084707746">"Dados de uso do app"</string>
@@ -1169,7 +1171,7 @@
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Ativar app de admin. do dispositivo?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Ativar o app de administrador deste dispositivo"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"A ativação deste administrador permitirá que o app <xliff:g id="APP_NAME">%1$s</xliff:g> execute as seguintes operações:"</string>
-    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Este dispositivo será gerenciado e monitorado por <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Este dispositivo será gerenciado e monitorado pelo app <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Este app de administrador está ativado e permite que o <xliff:g id="APP_NAME">%1$s</xliff:g> execute as seguintes operações:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Ao prosseguir, o usuário será gerenciado pelo seu administrador, que também poderá armazenar dados associados, bem como dados pessoais.\n\nSeu administrador pode monitorar e gerenciar configurações, acesso, apps e dados associados a esse usuário, incluindo informações de atividade de rede e local do dispositivo."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"Compartilhar relatório de bug?"</string>

@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"අවලංගු කිරීමට ආපසු බොත්තම ඔබන්න"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fi වෙත සම්බන්ධ වීමට QR කේතය"</string>
     <string name="share_thread_title" msgid="62095604026690777">"උපාංගය සමග පොට අක්තපත්‍ර බෙදා ගන්න"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"ඔබේ <xliff:g id="DEVICE">%1$s</xliff:g> පොට ජාලයට උපාංගයක් එක් කිරීමට, මෙම QR කේතය ස්කෑන් කිරීමට හෝ බෙදා ගැනීමේ කේතය ඇතුළු කිරීමට උපාංග යෙදුම භාවිත කරන්න.\n \nසටහන: මෙම කේත භාවිත කිරීම උපාංග යෙදුමට මෙම පොට ජාලයට උපාංග පරිපාලනය කිරීමට, කළමනාකරණය කිරීමට සහ එක් කිරීමට ඉඩ දෙයි. ඔබ විශ්වාස නොකරන යෙදුම් සමග කේත බෙදා නොගන්න.\n \ng.co/tv/thread හි දී තව දැන ගන්න"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"හරි"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ඉදිරියට යන්න"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"ජාලය වෙනස් කරන්න"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"දෝෂ වාර්තාව ග්‍රහණය කරමින්"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"ලබා ගත හැකි අතථ්‍ය යතුරු පුවරු"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"යතුරු පුවරු කළමනාකරණය කිරීම"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"භෞතික යතුරු පුවරුව"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"යතුරු පුවරු පිරිසැලසුම තෝරන්න"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"පෙරනිමි"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"ඉඩ දේ"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"ඉඩ නොදේ"</string>
     <string name="usage_access" msgid="3555037254084707746">"යෙදුම් භාවිත දත්ත"</string>

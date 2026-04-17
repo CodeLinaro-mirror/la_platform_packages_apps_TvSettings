@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Para cancelar a acción, preme o botón Atrás"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Código QR para conectarse á wifi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Compartir as credenciais de Thread co dispositivo"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Para engadir un dispositivo á túa rede Thread de <xliff:g id="DEVICE">%1$s</xliff:g>, escanea este código QR coa aplicación do dispositivo ou escribe o código de uso compartido.\n \nNota: Con estes códigos a aplicación do dispositivo pode administrar, xestionar e engadir dispositivos a esta rede Thread. Non compartas códigos con aplicacións nas que non confíes.\n \nConsulta máis información en g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Aceptar"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Continuar"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Cambiar rede"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Realizando informe de erros"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Teclados virtuais dispoñibles"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Xestionar teclados"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Teclado físico"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Seleccionar deseño do teclado"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Predeterminado"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Con permiso"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Sen permiso"</string>
     <string name="usage_access" msgid="3555037254084707746">"Datos de uso das aplicacións"</string>

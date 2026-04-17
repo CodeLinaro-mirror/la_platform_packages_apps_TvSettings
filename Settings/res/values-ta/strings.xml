@@ -127,7 +127,7 @@
     <string name="device_surround_sound" msgid="1889436002598316470">"சரவுண்ட் ஒலி"</string>
     <string name="device_sound_effects" msgid="2000295001122684957">"முறைமை ஒலிகள்"</string>
     <string name="device_apps" msgid="2134756632245008919">"ஆப்ஸ்"</string>
-    <string name="device_storage" msgid="8540243547121791073">"சேமிப்பிடம்"</string>
+    <string name="device_storage" msgid="8540243547121791073">"சேமிப்பகம்"</string>
     <string name="device_reset" msgid="6115282675800077867">"ஆரம்பநிலை மீட்டமைவு"</string>
     <string name="device_backup_restore" msgid="3634531946308269398">"காப்புப்பிரதி &amp; மீட்டெடுத்தல்"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"தரவின் ஆரம்பநிலை மீட்டமைப்பு"</string>
@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ரத்துசெய்ய \'பின்செல்\' பட்டனை அழுத்தவும்"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"வைஃபையுடன் இணைப்பதற்கான QR குறியீடு"</string>
     <string name="share_thread_title" msgid="62095604026690777">"சாதனத்துடன் Thread அனுமதிச் சான்றுகளைப் பகிர்தல்"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"உங்கள் <xliff:g id="DEVICE">%1$s</xliff:g> Thread நெட்வொர்க்கில் ஒரு சாதனத்தைச் சேர்க்க, சாதன ஆப்ஸைப் பயன்படுத்தி இந்த QR குறியீட்டை ஸ்கேன் செய்யவும் அல்லது பகிர்தல் குறியீட்டை டைப் செய்யவும்.\n \nகுறிப்பு: இந்தக் குறியீடுகளைப் பயன்படுத்துவது இந்த Thread நெட்வொர்க்கில் சாதனங்களைச் சேர்க்கவும், நிர்வகிக்கவும் சாதன ஆப்ஸை அனுமதிக்கிறது. நீங்கள் நம்பாத ஆப்ஸுடன் குறியீடுகளைப் பகிர வேண்டாம்.\n \ng.co/tv/thread பக்கத்தில் மேலும் தெரிந்துகொள்ளுங்கள்"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"சரி"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"தொடர்க"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"நெட்வொர்க்கை மாற்று"</string>
@@ -558,7 +557,7 @@
     <string name="wifi_empty_list_user_restricted" msgid="7326314737931342236">"வைஃபை நெட்வொர்க்கை மாற்றுவதற்கான அனுமதி உங்களுக்கு இல்லை."</string>
     <string name="title_ok" msgid="6500452958848127145">"சரி"</string>
     <string name="title_cancel" msgid="2337143367016419016">"ரத்துசெய்"</string>
-    <string name="storage_title" msgid="6637715914885228193">"சேமிப்பிடம்"</string>
+    <string name="storage_title" msgid="6637715914885228193">"சேமிப்பகம்"</string>
     <string name="storage_available" msgid="8860901789290434209">"பயன்படுத்தாத சேமிப்பிடம்"</string>
     <string name="storage_size" msgid="5517261387579171381">"மொத்த இடம்: <xliff:g id="TOTAL_SPACE">%1$s</xliff:g>"</string>
     <string name="storage_calculating_size" msgid="5716281278843281044">"கணக்கிடுகிறது..."</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"பிழை அறிக்கையைப் பதிவு செய்கிறது"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"கிடைக்கும் விர்ச்சுவல் கீபோர்டுகள்"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"கீபோர்டுகளை நிர்வகி"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"கீபோர்டு கருவி"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"கீபோர்டு தளவமைப்பைத் தேர்வுசெய்தல்"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"இயல்பு"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"அனுமதிக்கப்பட்டது"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"அனுமதிக்கப்படவில்லை"</string>
     <string name="usage_access" msgid="3555037254084707746">"ஆப்ஸ் உபயோகத் தரவு"</string>

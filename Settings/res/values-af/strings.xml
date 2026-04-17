@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Druk die terugknoppie om te kanselleer"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-kode om aan wi-fi te koppel"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Deel Thread-eiebewyse met toestel"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Gebruik die toestelapp om hierdie QR-kode te skandeer of voer die delingkode in om ’n toestel by jou <xliff:g id="DEVICE">%1$s</xliff:g> se Thread-netwerk te voeg.\n \nLet wel: As jy hierdie kodes gebruik, kan die toestelapp toestelle administreer, bestuur en by hierdie Thread-netwerk voeg. Moenie kodes deel met apps wat jy nie vertrou nie.\n \nKry meer inligting by g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Gaan voort"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Verander netwerk"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Vang tans foutverslag vas"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Beskikbare virtuele sleutelborde"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Bestuur sleutelborde"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Fisiese sleutelbord"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Kies sleutelborduitleg"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Verstek"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Toegelaat"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Nie toegelaat nie"</string>
     <string name="usage_access" msgid="3555037254084707746">"Appgebruiksdata"</string>

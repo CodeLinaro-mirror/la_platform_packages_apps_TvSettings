@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Жокко чыгаруу үчүн \"Артка\" баскычын басыңыз"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fi\'га туташуу үчүн QR коду"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Түзмөк менен Thread эсептик дайындарын бөлүшүү"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"<xliff:g id="DEVICE">%1$s</xliff:g> Thread тармагыңызга түзмөк кошуу үчүн түзмөктөгү колдонмо менен бул QR кодун скандаңыз же бөлүшүү кодун киргизиңиз.\n \nЭскертүү: Бул коддорду колдонуу түзмөктөгү колдонмого бул Thread тармагын тескөөгө, башкарууга жана түзмөктөрдү кошууга мүмкүндүк берет. Ишенбеген колдонмолор менен коддорду бөлүшпөңүз.\n \nКеңири маалымат: g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Улантуу"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Тармакты өзгөртүү"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Мүчүлүштүк тууралуу кабар жаздырылууда"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Жеткиликтүү виртуалдык баскычтоптор"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Баскычтопторду башкаруу"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Аппараттык баскычтоп"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Тергичтин жайылмасын тандоо"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Демейки"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Уруксат берилген"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Тыюу салынган"</string>
     <string name="usage_access" msgid="3555037254084707746">"Колдонмону колдонуу статистикасы"</string>

@@ -475,7 +475,7 @@
     <string name="wifi_setting_other_options_add_network_via_easyconnect_info_summary" msgid="4564538591168691865">"Lidhja e shpejtë të ndihmon të lidhesh me shpejtësi me rrjetin tënd Wi-Fi duke skanuar kodin QR në telefonin tënd."</string>
     <string name="security_type" msgid="2297615092250075696">"Lloji i sigurisë"</string>
     <string name="other_network" msgid="5299289104661858596">"Rrjet tjetër…"</string>
-    <string name="skip_network" msgid="3095529090560000692">"Kapërce"</string>
+    <string name="skip_network" msgid="3095529090560000692">"Anashkalo"</string>
     <string name="wifi_security_type_none" msgid="7001835819813531253">"Asnjë"</string>
     <string name="wifi_security_type_wep" msgid="6407712450924151962">"WEP"</string>
     <string name="wifi_security_type_wpa" msgid="9205358644485448199">"WPA/WPA2 PSK"</string>
@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Shtyp butonin \"Prapa\" për ta anuluar"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Kodi QR për lidhjen me Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Ndaj kredencialet e Thread me pajisjen"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Për të shtuar një pajisje në rrjetin tënd Thread të <xliff:g id="DEVICE">%1$s</xliff:g>, përdor aplikacionin për pajisjen për të skanuar këtë kod QR ose fut kodin e ndarjes.\n \nShënim. Përdorimi i këtyre kodeve lejon që aplikacioni për pajisjen të administrojë, menaxhojë dhe shtojë pajisje në këtë rrjet Thread. Mos i ndaj kodet me aplikacionet të cilave nuk u beson.\n \nMëso më shumë në g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Në rregull"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Vazhdo"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Ndrysho rrjetin"</string>
@@ -974,7 +973,7 @@
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Ndrysho kodin PIN"</string>
     <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Të krijohet profil i kufizuar?"</string>
     <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Është krijuar tashmë"</string>
-    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Kapërce"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Anashkalo"</string>
     <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Krijo kodin PIN"</string>
     <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Të hapet profili i kufizuar?"</string>
     <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Nuk ka profil të kufizuar"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Raporti i defekteve në kod po regjistrohet"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Tastierat virtuale në dispozicion"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Menaxho tastierat"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Tastiera fizike"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Zgjidh strukturën e tastierës"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Parazgjedhja"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Lejohet"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Nuk lejohet"</string>
     <string name="usage_access" msgid="3555037254084707746">"Të dhënat e përdorimit të apl."</string>

@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Appuyez sur le bouton Retour pour annuler"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Code QR pour la connexion au Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Partager les authentifiants Thread avec l\'appareil"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Pour ajouter un appareil au réseau Thread de votre <xliff:g id="DEVICE">%1$s</xliff:g>, utilisez l\'appli de l\'appareil pour balayer ce code QR ou entrez le code de partage.\n \nRemarque : L\'utilisation de ces codes permet à l\'appli de l\'appareil d\'administrer, de gérer et d\'ajouter des appareils à ce réseau Thread. Ne partagez pas de codes avec des applis auxquelles vous ne faites pas confiance.\n \nEn savoir plus à l\'adresse g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Continuer"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Changer de réseau"</string>
@@ -1020,7 +1019,7 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Source tierce"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Autorisations"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"L\'application n\'est pas disponible"</string>
-    <string name="unused_apps" msgid="5539166745483454543">"Applications non utilisées"</string>
+    <string name="unused_apps" msgid="5539166745483454543">"Applis non utilisées"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Ok"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Confirmer"</string>
     <string name="settings_cancel" msgid="576094334743686152">"Annuler"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Collecte du rapport d\'erreur en cours…"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Claviers virtuels disponibles"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Gérer les claviers"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Clavier physique"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Sélectionner disposition du clavier"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Par défaut"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Autorisée"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Non autorisée"</string>
     <string name="usage_access" msgid="3555037254084707746">"Données utilisation de l\'appli"</string>

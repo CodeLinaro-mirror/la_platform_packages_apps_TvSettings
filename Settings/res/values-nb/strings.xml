@@ -377,7 +377,7 @@
     <string name="default_email_app_title" msgid="3712283056326496555">"{count,plural, =1{E-postapp}other{E-postapper}}"</string>
     <string name="default_map_app_title" msgid="9051013257374474801">"Kart-app"</string>
     <string name="default_phone_app_title" msgid="4833449131501871644">"{count,plural, =1{Telefonapp}other{Telefonapper}}"</string>
-    <string name="default_browser_title" msgid="3612813200586492159">"Nettleserapp"</string>
+    <string name="default_browser_title" msgid="3612813200586492159">"Nettleser-app"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Veiledninger"</string>
@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Trykk på tilbakeknappen for å avbryte"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-kode for å koble til wifi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Del Thread-legitimasjon med enheten"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"For å legge til en enhet i <xliff:g id="DEVICE">%1$s</xliff:g> Thread-nettverket ditt, bruk enhetsappen til å skanne denne QR-koden eller skrive inn delingskoden.\n \nMerk: Hvis du bruker disse kodene, kan enhetsappen administrere, styre og legge til enheter i dette Thread-nettverket. Ikke del koder med apper du ikke stoler på.\n \nFinn ut mer på g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Fortsett"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Endre nettverk"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Henter feilrapporten"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Virtuelle tastaturer"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Administrer tastaturer"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Fysisk tastatur"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Velg et tastaturoppsett"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Standard"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Tillatt"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Ikke tillatt"</string>
     <string name="usage_access" msgid="3555037254084707746">"Data om appbruk"</string>

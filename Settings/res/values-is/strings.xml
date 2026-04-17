@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Ýttu á bakkhnappinn til að hætta við"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR-kóði til að tengjast Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Deila innskráningarupplýsingum Thread-nets með tæki"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Til að bæta tæki við Thread-net <xliff:g id="DEVICE">%1$s</xliff:g> skaltu nota tækisforritið til að skanna þennan QR-kóða eða slá inn deilingarkóðann.\n \nAthugaðu: Þegar þessir kóðar eru notaðir hefur tækisforritið heimild til að stjórna og bæta tækjum við þetta Thread-net. Ekki veita forritum sem þú treystir ekki aðgang að kóðum.\n \nNánar á g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"Í lagi"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Áfram"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Skipta um netkerfi"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Villutilkynning útbúin"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Tiltæk sýndarlyklaborð"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Stjórna lyklaborðum"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Vélbúnaðarlyklaborð"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Veldu lyklaskipan"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Sjálfgefið"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Leyft"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Ekki leyft"</string>
     <string name="usage_access" msgid="3555037254084707746">"Gögn um forritsnotkun"</string>
@@ -1169,7 +1171,7 @@
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Virkja forrit tækjastjóra?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Virkja þetta forrit tækjastjóra"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"Ef þetta forrit kerfisstjóra er gert virkt verður forritinu <xliff:g id="APP_NAME">%1$s</xliff:g> leyft að framkvæma eftirfarandi aðgerðir:"</string>
-    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> mun stýra og hafa eftirlit með þessu tæki."</string>
+    <string name="device_admin_warning_simplified" msgid="3310965971422346950">"„<xliff:g id="APP_NAME">%1$s</xliff:g>“ mun stýra og hafa eftirlit með þessu tæki."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Forrit kerfisstjóra er virkt og leyfir forritinu <xliff:g id="APP_NAME">%1$s</xliff:g> að framkvæma eftirfarandi aðgerðir:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Með því að halda áfram mun kerfisstjóri hafa umsjón með notandareikningnum þínum og gæti einnig verið fær um að vista tengd gögn, til viðbótar við persónulegu gögnin þín.\n\nKerfisstjórinn getur fylgst með og stjórnað stillingum, aðgengi, forritum og gögnum sem tengjast þessum notanda, þar á meðal netnotkun og staðsetningarupplýsingum tækisins."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"Deila villutilkynningu?"</string>

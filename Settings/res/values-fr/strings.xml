@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Appuyer sur le bouton \"Retour\" pour annuler"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"QR code pour se connecter au Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"Partager les identifiants Thread avec l\'appareil"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"Pour ajouter un appareil au réseau Thread de votre <xliff:g id="DEVICE">%1$s</xliff:g>, utilisez l\'application de l\'appareil pour scanner ce QR code ou saisir le code de partage.\n \nRemarque : L\'utilisation de ces codes permet à l\'application de l\'appareil d\'administrer, de gérer et d\'ajouter des appareils à ce réseau Thread. Ne partagez pas de codes avec des applications auxquelles vous ne faites pas confiance.\n \n Pour en savoir plus, accédez à g.co/tv/thread."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Continuer"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"Changer de réseau"</string>
@@ -820,7 +819,7 @@
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Configuration du moteur de synthèse vocale"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Énoncer les mots de passe"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Moteur préféré"</string>
-    <string name="system_speech_rate" msgid="6553204071403872669">"Débit"</string>
+    <string name="system_speech_rate" msgid="6553204071403872669">"Vitesse d\'élocution"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Écouter un extrait"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Installer les données vocales"</string>
     <string name="system_general" msgid="687760148454147771">"Général"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"Génération d\'un rapport de bug…"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"Claviers virtuels disponibles"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"Gérer les claviers"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"Clavier physique"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"Sélectionner disposition du clavier"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"Par défaut"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Autorisé"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Non autorisé"</string>
     <string name="usage_access" msgid="3555037254084707746">"Données d\'utilisation d\'applis"</string>

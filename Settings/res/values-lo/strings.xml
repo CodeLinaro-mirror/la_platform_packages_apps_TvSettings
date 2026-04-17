@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"ກົດປຸ່ມກັບຄືນເພື່ອຍົກເລີກ"</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"ລະຫັດ QR ສຳລັບການເຊື່ອມຕໍ່ Wi-Fi"</string>
     <string name="share_thread_title" msgid="62095604026690777">"ແບ່ງປັນຂໍ້ມູນການເຂົ້າສູ່ລະບົບ Thread ກັບອຸປະກອນ"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"ເພື່ອເພີ່ມອຸປະກອນໃສ່ໃນເຄືອຂ່າຍ Thread ຂອງ <xliff:g id="DEVICE">%1$s</xliff:g> ຂອງທ່ານ, ໃຫ້ໃຊ້ແອັບຈັດການອຸປະກອນເພື່ອສະແກນລະຫັດ QR ນີ້ ຫຼື ລະບຸລະຫັດການແບ່ງປັນ.\n \nໝາຍເຫດ: ການໃຊ້ລະຫັດເຫຼົ່ານີ້ຈະອະນຸຍາດໃຫ້ແອັບຈັດການອຸປະກອນເບິ່ງແຍງ, ຈັດການ ແລະ ເພີ່ມອຸປະກອນໃສ່ໃນເຄືອຂ່າຍ Thread ນີ້ໄດ້. ຢ່າແບ່ງປັນລະຫັດກັບແອັບທີ່ທ່ານບໍ່ໄວ້ວາງໃຈ.\n \nສຶກສາເພີ່ມເຕີມໄດ້ຢູ່ g.co/tv/thread"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ຕົກລົງ"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"ສືບຕໍ່"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"ປ່ຽນເຄືອຂ່າຍ"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"ກຳລັງຖ່າຍຮູບລາຍງານຂໍ້ຜິດພາດ"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"ແປ້ນພິມສະເໝືອນທີ່ສາມາດໃຊ້ໄດ້"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"ຈັດການແປ້ນພິມ"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"ແປ້ນພິມພາຍນອກ"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"ເລືອກຮູບແບບແປ້ນພິມ"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"ຄ່າເລີ່ມຕົ້ນ"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"ອະນຸຍາດແລ້ວ"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"ບໍ່ອະນຸຍາດ"</string>
     <string name="usage_access" msgid="3555037254084707746">"ຂໍ້ມູນການນຳໃຊ້ແອັບ"</string>

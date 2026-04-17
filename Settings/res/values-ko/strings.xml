@@ -513,8 +513,7 @@
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"취소하려면 뒤로 버튼을 누르세요."</string>
     <string name="wifi_scan_qr_code_accessibility_label" msgid="4725144595082912418">"Wi-Fi 연결을 위한 QR 코드"</string>
     <string name="share_thread_title" msgid="62095604026690777">"기기와 스레드 사용자 인증 정보 공유"</string>
-    <!-- no translation found for share_thread_description (4612384761284266789) -->
-    <skip />
+    <string name="share_thread_description" msgid="4612384761284266789">"<xliff:g id="DEVICE">%1$s</xliff:g> 스레드 네트워크에 기기를 추가하려면 기기 앱을 사용하여 이 QR 코드를 스캔하거나 공유 코드를 입력하세요.\n \n참고: 이 코드를 사용하면 기기 앱에서 이 스레드 네트워크를 관리하고 기기를 추가할 수 있습니다. 신뢰할 수 없는 앱과 코드를 공유하지 마세요.\n \ng.co/tv/thread에서 자세히 알아보세요."</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"확인"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"계속"</string>
     <string name="wifi_setup_action_change_network" msgid="1603908238711710943">"네트워크 변경"</string>
@@ -1091,6 +1090,9 @@
     <string name="capturing_bugreport" msgid="832512801903486821">"버그 신고 캡처 중"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"사용 가능한 가상 키보드"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"키보드 관리"</string>
+    <string name="physical_keyboard_title" msgid="6020503701629411371">"물리적 키보드"</string>
+    <string name="keyboard_layout_dialog_title" msgid="5428482815363954898">"키보드 레이아웃 선택"</string>
+    <string name="keyboard_layout_default_label" msgid="8093410943521829422">"기본"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"허용됨"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"허용되지 않음"</string>
     <string name="usage_access" msgid="3555037254084707746">"앱 사용 데이터"</string>

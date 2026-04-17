@@ -116,9 +116,9 @@
   </string-array>
   <string-array name="volume_change_entries">
     <item msgid="8475727172583493318">"靜音"</item>
-    <item msgid="2508680062291793288">"低 (20%)"</item>
-    <item msgid="2483057103949558629">"中 (50%)"</item>
-    <item msgid="6278092586736538014">"高 (80%)"</item>
+    <item msgid="7782487014440616923">"低"</item>
+    <item msgid="4144915781952863183">"中"</item>
+    <item msgid="4808901712413219556">"高"</item>
   </string-array>
   <string-array name="backlight_modes">
     <item msgid="7900972906680877520">"一律不要亮起"</item>
