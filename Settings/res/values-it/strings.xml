@@ -747,7 +747,7 @@
     <string name="palette_color_purple" msgid="2123828754639683555">"Viola"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"Grigio"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Scorciatoia Accessibilità"</string>
-    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Abilita scorciatoia Accessibilità"</string>
+    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Abilita scorciatoia di accessibilità"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servizio scorciatoia"</string>
     <string name="keyboard_accessibility" msgid="7849649126112178029">"Accessibilità della tastiera"</string>
     <string name="accessibility_shortcut_off" msgid="8942290125694882338">"Scorciatoia di accessibilità: off"</string>
@@ -768,7 +768,7 @@
     <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Imposta la velocità di inserimento dei caratteri ripetuti quando si tiene premuto un tasto"</string>
     <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Predefinita"</string>
     <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Controlla la velocità di ripetizione del pulsante dopo il ritardo iniziale"</string>
-    <string name="accessibility_captions" msgid="3411554568812306549">"Sottotitoli"</string>
+    <string name="accessibility_captions" msgid="3411554568812306549">"Sottotitoli codificati"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Impostazioni per la sovrapposizione del testo dei sottotitoli sul video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Visualizzazione"</string>
     <string name="captions_display_on" msgid="480438033345455728">"On"</string>
@@ -776,11 +776,11 @@
     <string name="display_options" msgid="2645282080948371603">"Opzioni di visualizzazione"</string>
     <string name="captions_configure" msgid="711991018642931958">"Configurazione"</string>
     <string name="captions_language" msgid="5905918439449912646">"Lingua"</string>
-    <string name="captions_language_default" msgid="3894192926725192528">"Valore predefinito"</string>
-    <string name="captions_easy_reader" msgid="5875452680577116736">"Facile da leggere"</string>
+    <string name="captions_language_default" msgid="3894192926725192528">"Predefinita"</string>
+    <string name="captions_easy_reader" msgid="5875452680577116736">"Lettura semplificata"</string>
     <string name="captions_easy_reader_subtext" msgid="5618704539662246401">"Sottotitoli più semplici per migliore comprensione"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"Dimensioni testo"</string>
-    <string name="captions_captionstyle" msgid="6650139717545516071">"Stile sottotitoli"</string>
+    <string name="captions_captionstyle" msgid="6650139717545516071">"Stile sottotitoli codificati"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Opzioni personalizzate"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"Famiglia di caratteri"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"Colore testo"</string>
@@ -818,6 +818,11 @@
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Sintesi vocale"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Configurazione del motore"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Pronuncia le password"</string>
+    <string name="tv_watchdog_disabled_apps_title" msgid="1014928469590933264">"App disattivate dal sistema"</string>
+    <string name="tv_watchdog_disabled_apps_description" msgid="4040531833486957489">"Le seguenti app sono state disattivate perché stavano sovraccaricando la memoria interna del sistema, causando potenzialmente un\'usura non necessaria della TV. Puoi riattivare le app qui, ma il problema potrebbe verificarsi di nuovo."</string>
+    <string name="tv_watchdog_no_disabled_apps_title" msgid="3208334991455581516">"Al momento non ci sono app disattivate"</string>
+    <string name="tv_watchdog_no_disabled_apps_summary" msgid="1270915059677860169">"Alcune app possono essere disattivate per proteggere la memoria interna della TV da un\'eccessiva usura."</string>
+    <string name="tv_watchdog_disabled_app_summary" msgid="4208203041423742722">"Attualmente disattivata. Attiva questa opzione per usare di nuovo questa app."</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Motore preferito"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"Velocità voce"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Riproduci anteprima"</string>

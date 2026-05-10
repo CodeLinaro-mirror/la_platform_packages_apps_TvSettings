@@ -646,7 +646,7 @@
     <string name="system_set_time" msgid="7179243042276057341">"Aseta aika"</string>
     <string name="system_set_time_zone" msgid="6471564469883225195">"Aseta aikavyöhyke"</string>
     <string name="desc_set_time_zone" msgid="4926392006501180047">"<xliff:g id="OFFSET">%1$s</xliff:g>, <xliff:g id="NAME">%2$s</xliff:g>"</string>
-    <string name="system_set_time_format" msgid="902518158066450918">"Käytä 24-tuntista kelloa"</string>
+    <string name="system_set_time_format" msgid="902518158066450918">"Käytä 24 tunnin kelloa"</string>
     <string name="desc_set_time_format" msgid="8688587526768572230">"<xliff:g id="STATE">%1$s</xliff:g> (<xliff:g id="SAMPLE">%2$s</xliff:g>)"</string>
     <string name="system_auto_date_time" msgid="8458199433555868708">"Automaattinen päivä ja aika"</string>
   <string-array name="auto_date_time_entries">
@@ -818,6 +818,11 @@
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Tekstistä puheeksi"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Moottorin määrittäminen"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Puhu salasanat"</string>
+    <string name="tv_watchdog_disabled_apps_title" msgid="1014928469590933264">"Järjestelmän käytöstä poistamat sovellukset"</string>
+    <string name="tv_watchdog_disabled_apps_description" msgid="4040531833486957489">"Seuraavat sovellukset on poistettu käytöstä, koska ne kuormittivat liikaa järjestelmän sisäistä muistia. Tämä voi kuluttaa television muistia tarpeettomasti. Voit ottaa sovellukset uudelleen käyttöön täällä, mutta ongelma voi ilmetä uudelleen."</string>
+    <string name="tv_watchdog_no_disabled_apps_title" msgid="3208334991455581516">"Ei käytöstä poistettuja sovelluksia"</string>
+    <string name="tv_watchdog_no_disabled_apps_summary" msgid="1270915059677860169">"Jotkin sovellukset voidaan poistaa käytöstä, jotta television sisäinen muisti ei kulu liikaa."</string>
+    <string name="tv_watchdog_disabled_app_summary" msgid="4208203041423742722">"Ei tällä hetkellä käytössä. Laita päälle, jos haluat käyttää tätä sovellusta uudelleen."</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Ensisijainen moottori"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"Puheen nopeus"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Toista näyte"</string>
